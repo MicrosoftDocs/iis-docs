@@ -40,7 +40,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **HTTP Redirection**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of the Server Roles page. H T T P Redirection is selected and highlighted.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -50,7 +50,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **HTTP Redirection**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Internet Information Services navigation tree. The World Wide Web Services option is expanded. Common H T T P Features is expanded and H T T P Redirection is selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -60,7 +60,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common Http Features**, select **HTTP Redirection**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Role Services section. H T T P Redirection is selected and highlighted.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -70,7 +70,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of the Programs and Features navigation tree. H T T P Redirection is selected and highlighted.](index/_static/image8.png)](index/_static/image7.png)
 
 <a id="004"></a>
 
@@ -98,9 +98,9 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application that you want to configure custom error pages for.
 3. In the **Home** pane, double-click **HTTP Redirect**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of the Home pane. The H T T P Redirect icon is highlighted and selected.](index/_static/image10.png)](index/_static/image9.png)
 4. In the **HTTP Redirect** pane, check the box to redirect requests and enter the destination URL.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of the H T T P Redirect pane. The box next to Redirect requests to this destination is checked.](index/_static/image12.png)](index/_static/image11.png)
 5. You can optionally specify any of the following options:
 
    - Configure the redirection destination to be the exact destination as entered.

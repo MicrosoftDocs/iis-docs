@@ -22,7 +22,7 @@ The recommendation for isolating Web sites in a shared hosting environment is co
 
 An architectural view of application pools appears in the figure that follows.
 
-![](ensure-security-isolation-for-web-sites/_static/image1.jpg)
+![Diagram of the relationship between Application Pool I Ds in User Mode and the H T T P dot SYS in Kernal Mode.](ensure-security-isolation-for-web-sites/_static/image1.jpg)
 
 *Figure 1: Application pools*
 
@@ -49,7 +49,7 @@ Note that string is the name of the application pool.
 
 The Edit Application Pool dialog box lets you configure how IIS 7 and above handles worker process recycling for the application pool.
 
-![](ensure-security-isolation-for-web-sites/_static/image3.jpg)
+![Screenshot of the Edit Application Pool dialog box.](ensure-security-isolation-for-web-sites/_static/image3.jpg)
 
 *Figure 2: Edit Application Pool*
 
@@ -57,7 +57,7 @@ The Edit Application Pool dialog box lets you configure how IIS 7 and above hand
 
 Application Pool Identities is a new security features that lets you run application pools under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The figure that follows shows an IIS worker process (w3wp.exe) running as the DefaultAppPool identity.
 
-![](ensure-security-isolation-for-web-sites/_static/image1.gif)
+![Screenshot of the Windows Task Manager screen with a focus on the w 3 w p dot e x e file in the Image Name field and the DefaultAppPool identity in the User Name field.](ensure-security-isolation-for-web-sites/_static/image1.gif)
 
 *Figure 3: Application Pool Identity Accounts*
 
@@ -82,7 +82,7 @@ Try selecting a file in Windows Explorer® and adding the "DefaultAppPool" ident
 
 The file or directory you selected now also allows the DefaultAppPool identity access.
 
-![](ensure-security-isolation-for-web-sites/_static/image5.jpg)
+![Screenshot of the Select Users or Groups screen.](ensure-security-isolation-for-web-sites/_static/image5.jpg)
 
 *Figure 4: Select Users or Groups*
 

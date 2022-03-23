@@ -6,12 +6,13 @@ ms.date: 02/19/2009
 ms.assetid: eae2b4db-25d6-4edb-a38b-e685f87d83b8
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis
 msc.type: authoredcontent
+adobe-target: true
 ---
 # Classic ASP Not Installed by Default on IIS 7.0 and above
 
 by [Robert McMurray](https://github.com/rmcmurray)
 
-One of the challenges of running IIS on your own server vs. running it [in the cloud](https://docs.microsoft.com/azure/app-service/) is that you need to install the components you need manually, and it can sometimes be tricky figuring out what needs to be installed to get the functionality you need. For example, in IIS, the classic version of ASP is not installed by default. Because of this, you might see HTTP 404 errors when you try to browse to an ASP page on your server, or you might see the source code for your ASP page displayed in your browser window. Both of these error conditions are created when configuration settings that are used to define the environment for classic ASP are not installed.
+One of the challenges of running IIS on your own server vs. running it [in the cloud](/azure/app-service/) is that you need to install the components you need manually, and it can sometimes be tricky figuring out what needs to be installed to get the functionality you need. For example, in IIS, the classic version of ASP is not installed by default. Because of this, you might see HTTP 404 errors when you try to browse to an ASP page on your server, or you might see the source code for your ASP page displayed in your browser window. Both of these error conditions are created when configuration settings that are used to define the environment for classic ASP are not installed.
 
 To support and configure ASP applications on your Web server, you must install the ASP module. To install the ASP module on IIS, use the following steps for your version of Windows.
 
@@ -21,10 +22,10 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, and then expand **Application Development**.
-    ![Server role](classic-asp-not-installed-by-default-on-iis/_static/image2.jpg)
+    ![The Server role](classic-asp-not-installed-by-default-on-iis/_static/image2.jpg)
 5. On the **Server Roles** page, select **ASP**.
 6. If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed ISAPI Extensions on your server.)  
-    ![Windows features](classic-asp-not-installed-by-default-on-iis/_static/image3.jpg)
+    ![The Windows features](classic-asp-not-installed-by-default-on-iis/_static/image3.jpg)
 7. On the **Server Roles** page, **ASP** and **ISAPI Extensions** should be selected. Click **Next**.
     ![Server role](classic-asp-not-installed-by-default-on-iis/_static/image4.jpg)
 8. On the **Features** page, click **Next**.

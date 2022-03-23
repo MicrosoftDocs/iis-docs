@@ -63,7 +63,7 @@ The `<customFields>` element is included in the default installation of IIS 8.5 
 9. Click **OK**, then click **OK** again.
 10. In the **Action** pane, click **Apply**.  
   
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot shows Add Custom Field dialog box with Field Name box. Request Header selected in the Source Type box.](index/_static/image2.png)](index/_static/image1.png)
 
 ### How to configure the default maximum custom field length
 
@@ -83,7 +83,7 @@ The `<customFields>` element is included in the default installation of IIS 8.5 
 6. For **maxCustomFieldLength**, enter the maximum amount of data that can be added to a log file in any one custom field, in bytes.
 7. Close the **Collection Editor**, and then in the **Action** pane, click **Apply**.  
   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of log File pane with Custom Fields node expanded and max Custom Field Length selected.](index/_static/image4.png)](index/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

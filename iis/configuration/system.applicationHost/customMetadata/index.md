@@ -42,7 +42,7 @@ The `<customMetadata>` element is not available on the default installation of I
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Management Tools**, expand **IIS 6 Management Compatibility**, and then select **IIS 6 Metabase Compatibility**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of Management Tools and I I S 6 Management Compatibility pane expanded with I I S 6 Meta base Compatibility selected.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -52,7 +52,7 @@ The `<customMetadata>` element is not available on the default installation of I
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **Web Management Tools**, expand **IIS 6 Management Compatibility**, and then select **IIS Metabase and IIS 6 configuration compatibility**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Image of Management Tools and I I S 6 Management Compatibility pane expanded with I I S Meta base and I I S 6 Configuration Compatibility selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -62,7 +62,7 @@ The `<customMetadata>` element is not available on the default installation of I
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **IIS 6 Metabase Compatibility**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of Management Tools pane expanded in Select Role Services page and I I S 6 Meta base Compatibility selected.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -71,7 +71,7 @@ The `<customMetadata>` element is not available on the default installation of I
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **IIS Metabase and IIS 6 configuration compatibility**, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Image of Internet Information Services pane expanded with I I S Meta base and I I S 6 Configuration Compatibility highlighted.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To

@@ -1,7 +1,7 @@
 ---
 title: "How to Migrate FPSE Sites to WebDAV"
 author: rmcmurray
-description: "Introduction Microsoft has created a new WebDAV extension module that has been completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Window..."
+description: "Migrating web sites on IIS 7.0 from the FrontPage Server Extensions to WebDAV and configuring request filtering settings to protect FPSE metadata from non-WebDAV requests."
 ms.date: 02/18/2008
 ms.assetid: 1f1fa413-7296-46eb-8ff3-4bc335185776
 msc.legacyurl: /learn/publish/using-webdav/how-to-migrate-fpse-sites-to-webdav
@@ -49,7 +49,7 @@ The above condition is required because the User Account Control (UAC) security 
 
 One of the great things about the FrontPage Server Extensions from their original concept was their *vision*. When the FrontPage development team first envisioned a client-independent way of publishing content between disparate servers, technologies like WebDAV were still unheard of. By installing FPSE and using the FrontPage client, it became possible to seamlessly publish content from a Windows web server to a UNIX web server (or vice-versa) with full feature parity between the two systems. In its original presentation FPSE was implemented using the Common Gateway Interface (CGI), although it was later implemented for IIS through ISAPI.
 
-[![](how-to-migrate-fpse-sites-to-webdav/_static/image3.jpg)](how-to-migrate-fpse-sites-to-webdav/_static/image1.jpg)
+![Diagram showing F P S E in relation to H T T P connections and clients.](how-to-migrate-fpse-sites-to-webdav/_static/image1.jpg)
 
 In addition to publishing functionality, FrontPage and FPSE also provided a variety of additional functionality through what were affectionately called "bots". These were subdivided into two categories: save-time bots and browse-time bots. Save-time bots were functionality that could be added to web pages when authoring that provided auto-generation of content, such as included content and tables of contents. Browse-time bots were designed to replace common CGI-based features, such as processing form-results. While these features offered web developers a plethora of functionality, they were also proprietary in nature and as such, industry adoption was limited.
 

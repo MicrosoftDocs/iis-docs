@@ -56,7 +56,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.
-    > [![](requestLimits/_static/image2.png)](requestLimits/_static/image1.png)
+    > [![Image of Web Server I I S and F T P Server nodes expanded and F T P Extensibility highlighted.](requestLimits/_static/image2.png)](requestLimits/_static/image1.png)
 
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -70,7 +70,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > [![](requestLimits/_static/image4.png)](requestLimits/_static/image3.png)
+    > [![Screenshot of Internet Information Services and F T P Server pane expanded with F T P Extensibility highlighted.](requestLimits/_static/image4.png)](requestLimits/_static/image3.png)
 
 4. Click **OK**.
 5. Click **Close**.
@@ -85,7 +85,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > [![](requestLimits/_static/image6.png)](requestLimits/_static/image5.png)
+    > [![Screenshot of Select Role Services page with F T P Server pane expanded and F T P Service selected.](requestLimits/_static/image6.png)](requestLimits/_static/image5.png)
 
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -100,7 +100,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > [![](requestLimits/_static/image8.png)](requestLimits/_static/image7.png)
+    > [![Image of Internet Information Services and F T P Server node expanded with F T P Service and F T P Extensibility selected.](requestLimits/_static/image8.png)](requestLimits/_static/image7.png)
 
 5. Click **OK**.
 
@@ -143,7 +143,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. Click **Edit Feature Settings** in the **Actions** pane.
 
-    [![](requestLimits/_static/image10.png)](requestLimits/_static/image9.png)
+    [![Image of F T P Request Filtering page displaying Edit Feature Settings in Actions pane.](requestLimits/_static/image10.png)](requestLimits/_static/image9.png)
 
 5. Specify your options. For example, you could make the following changes:
 
@@ -152,7 +152,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
    > [!NOTE]
    > It is recommended that you do not clear the **Allow unlisted commands** check box.  
-   > [![](requestLimits/_static/image12.png)](requestLimits/_static/image11.png)
+   > [![Image of Edit F T P Request Filtering Settings dialog box showing Allow unlisted commands and Allow high bit characters both selected.](requestLimits/_static/image12.png)](requestLimits/_static/image11.png)
 
 6. Click **OK**.
 

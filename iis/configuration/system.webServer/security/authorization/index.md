@@ -39,23 +39,23 @@ To support and configure authorization for sites and applications on your Web se
 ### Windows Server 2012 or Windows Server 2012 R2
 
 1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **URL Authorization**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
+    [![Image of Web Server and Security pane expanded with U R L Authorization highlighted.](index/_static/image2.png)](index/_static/image1.png) . - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
 
 ### Windows 8 or Windows 8.1
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **URL Authorization**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
+    [![Image of World Wide Web Services and Security pane expanded and U R L Authorization selected.](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
 2. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
 
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**. - In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**. - In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**. - On the **Select Role Services** page of the **Add Role Services Wizard**, select **URL Authorization**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
+    [![Screenshot of Security pane expanded in Select Role Services page of the Add Role Services Wizard with U R L Authorization selected.](index/_static/image6.png)](index/_static/image5.png)- On the **Confirm Installation Selections** page, click **Install**. - On the **Results** page, click **Close**.
 
 ### Windows Vista or Windows 7
 
 1. On the taskbar, click **Start**, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**. - Expand **Internet Information Services**, then select **URL Authorization**, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Image of Internet Information Services pane expanded and U R L Authorization selected.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -80,14 +80,14 @@ To support and configure authorization for sites and applications on your Web se
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the site or application on which you want to configure authorization.
 3. In the **Home** pane, double-click **Authorization Rules**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Image of Home pane with Authorization Rules highlighted.](index/_static/image10.png)](index/_static/image9.png)
 4. To add a new authorization rule, in the **Actions** pane click **Add Allow Rule...** or **Add Deny Rule...**
 5. Apply the authorization settings needed for your site or application, and then click **OK**. For example:
 
    - Example #1: Adding an Allow rule for all users for specific HTTP verbs:  
-       [![](index/_static/image12.png)](index/_static/image11.png)
+       [![Image of Adding an Allow rule for all users for specific H T T P verbs dialog box showing verbs typed in the box for Apply this rule to specific verbs.](index/_static/image12.png)](index/_static/image11.png)
    - Example #2: Adding a Deny rule for a specific user for all HTTP verbs:  
-       [![](index/_static/image14.png)](index/_static/image13.png)
+       [![Image of dialog box for Add Deny Authorization Rule for a specific user for all H T T P verbs.](index/_static/image14.png)](index/_static/image13.png)
 
      > [!NOTE]
      > To edit or delete an existing rule, select the rule in the **Authorization rules** pane, and then click **Edit** or **Remove** in the **Actions** pane. If you click **Edit**, a dialog box appears that allows you to edit the rule; this dialog box is similar to the **Add Allow Authorization Rule** and **Add Deny Authorization Rule** dialog boxes.

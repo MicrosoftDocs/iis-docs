@@ -50,7 +50,7 @@ The ultimate delivery of the program required coordination among myriad partners
 
 As shown in Figure 1, NBC and CTV shared much of the same streaming infrastructure, which was a fully redundant, cloud-based content origination service combined with real-time performance monitoring, maintenance, and health checks of the origin server resources. For NBC, iStreamPlanet handled the receipt and production of 24 concurrent HD video feeds, including venue and broadcast streams, obtained from fiber-optic streams from the International Broadcast Center in Vancouver via the NBC studio at 30 Rockefeller Center in New York City and satellite streams via CTV in Toronto. The multicast feeds were then converted to HD-SDI and transported to a bank of Inlet Spinnaker HD Encoders, which reencoded the video into 720p streams for the IIS origin servers to process and distribute across the content delivery network (CDN). IIS Smooth Streaming content was streamed via the Akamai HD Network—a highly distributed, HTTP-based CDN of 65,000 servers—to audiences in Canada, Norway, and the United States. This content was delayed for about 30 seconds to allow for the midstream insertion of ads in the live stream.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image2.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image1.jpg)
+[![Diagram of N B C video, highlights, and ad insertion workflow.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image2.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image1.jpg)
 
 Figure 1. NBC video, highlights, and ad insertion workflow.
 
@@ -106,7 +106,7 @@ The monitoring was done via a web-based console that allowed users to react in r
 
 With complete viewer penetration and up-to-the-second actionable insights, NBC and its partners optimized the experience and economics of the live events and on-demand content. This helped to provide stable, high-quality online coverage over the 17 days of the Winter Olympics.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image5.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image4.jpg)
+[![Screenshot of the Conviva Pulse management console that gave N B C and its partners real time insights.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image5.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image4.jpg)
 
 Figure 2. Conviva Pulse management console gave NBC and its partners real-time insights.
 
@@ -120,7 +120,7 @@ NBC provided an audience of more than 15.8 million unique visitors to its advert
 
 California-based Vertigo designed and developed NBC's 2010 Winter Olympics video-player and photo-viewer application. Vertigo built the Silverlight-based video player and photo viewer, playing the video streams coming from iStreamPlanet and Akamai while integrating the data streams and displaying the photos coming from **delta** tre. The video-player code was secured by using PreEmptive Solution's Dotfuscator and had code built in to enable Conviva monitoring. The Vertigo team extended core functionality in the Silverlight Media Framework to incorporate HD video support, DVR-style controls (including "trick plays"), rich data integration, and social-media functionality. Figure 3 illustrates the basic architecture of the player.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image9.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image8.jpg)
+[![Diagram that shows the architecture for N B C Silverlight based video player for the Winter Olympics.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image9.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image8.jpg)
 
 Figure 3. The architecture for NBC's Silverlight-based video player for the Winter Olympics.
 
@@ -138,7 +138,7 @@ Training time associated with the RCE was hence reduced in absence of specialize
 
 In summary, the RCE was used to create highlights without any need for conforming or transcoding (not the editing and publishing process) and offered NBC a faster workflow to get to market at a lower cost—plus, the workflow provided for a decentralized production model.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image14.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image13.jpg)
+[![Screenshot of the R C E user interface which was enhanced for the Winter Olympics project.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image14.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image13.jpg)
 
 Figure 4. The RCE user interface.
 
@@ -152,7 +152,7 @@ A Content Manifest is essentially an XML-based playlist file that defines, and a
 
 As indicated in Figure 5, the fragments from the live stream are not copied and joined together; rather, the start and stop points in the original stream are referenced. When the player plays the clip, each stream is located and played in the order indicated in the Composite Manifest. Although Smooth Streaming files typically delivers fragments that are 2 seconds in duration, the Composite Manifest lets you start and end your clips within the boundaries of any given fragment. This means cuts are not constrained to be made at fixed two-second fragment intervals, but can be nearly frame-accurate.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image20.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image19.jpg)
+[![Diagram of the composite manifest for a highlights clip. It lets the user start and end clips within the boundaries of a given fragment.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image20.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image19.jpg)
 
 Figure 5. The composite manifest for a highlights clip.
 
@@ -160,7 +160,7 @@ Figure 5. The composite manifest for a highlights clip.
 
 For NBC, delta tre integrated the RCE directly into the content management system (CMS) to provide a seamless workflow for the editors creating the highlights, as shown in Figure 6. At the end of each editing session, the RCE called web services via the CMS to save an XML-based project file. The editor could then use the CMS to add any necessary metadata associated with the new highlight (for example, a title, description, sport, athletes involved, and so on). When the highlight was ready to be published, the CMS sent the RCE project file to a web service provided by Southworks that transformed the file into a Composite Manifest (.csm) file that was uploaded to the IIS origin server.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image27.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image26.jpg)
+[![Diagram of the operator process for clip creation that was uploaded to the I I S origin server.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image27.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image26.jpg)
 
 Figure 6. The operator process for clip creation.
 
@@ -176,13 +176,13 @@ The **delta** tre ad-insertion tool gave ad operators from NBC a fast way to cho
 
 Figure 7 illustrates how the ad-insertion tool worked with the video feeds. The ad operators viewed an undelayed live feed to determine where to place the ad markers.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image35.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image34.jpg)
+[![Diagram of how the ad insertion tool worked with the video feeds. The ad operators viewed an undelayed live feed to determine where to place the ad markers.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image35.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image34.jpg)
 
 Figure 7. The ad-insertion process for NBC Olympics live programming.
 
 In the live setting, an operator clicked the appropriate button that represented the template type while watching the undelayed feed to choose the correct moment to start the ad pods, as seen in Figure 8. This action triggered a metadata injection into the live stream, which was pushed to the content delivery network (CDN) and then to the video player. The video player read the template and then executed DART.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image44.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image43.jpg)
+[![Screenshot of the ad insertion tool which has seven buttons on the bottom that refers to predetermined ad templates.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image44.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image43.jpg)
 
 Figure 8. The ad-insertion tool has seven buttons on the bottom that refer to predetermined ad templates (for example, 15-second spots might be the "A" template and 30-second spots might be the "B" template).
 
@@ -217,7 +217,7 @@ NBC inserted ads for three different VOD scenarios, including using RCE highligh
 
 Ads for VOD-only deliverables were produced by using the RCE, as shown in Figure 9. When creating RCE highlights, editors would create markers on the timeline for the location where the ads should be inserted. The resulting RCE project file would be sent to a manifest generator that produced a composite manifest (.csm) file that included metadata for locations of the ad insertions. The Silverlight-based video player would play the ads based on this metadata information.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image54.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image53.jpg)
+[![Diagram of the V O D workflow using the R C E. The Silverlight based video player would play the ads based on this metadata information.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image54.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image53.jpg)
 
 Figure 9. VOD workflow using the RCE.
 
@@ -225,7 +225,7 @@ Figure 9. VOD workflow using the RCE.
 
 NBC delivered full event "rewinds," which were full event archives of previous live streams. In this case, the **delta** tre CMS had already injected the metadata that included the ad-insertion points during the live stream. Figure 10 illustrates the workflow of how the rewind video existed on the VOD origin server at the end of an event. To insert a new ad or replace ads, the CMS created an addendum to the composite manifest based on the inputs from the editor, which is merged with the video at the Silverlight-based video player.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image65.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image64.jpg)
+[![Diagram of the workflow for ad insertion for rewind videos on the V O D origin server at the end of an event.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image65.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image64.jpg)
 
 Figure 10. Workflow for ad insertion for rewind videos.
 
@@ -233,13 +233,13 @@ Figure 10. Workflow for ad insertion for rewind videos.
 
 Ads were also inserted into the file-based, high-quality highlights VOD content created by the NBC Highlights Factory in Vancouver. For these "encore" clips, the Highlights Factory used high resolution OBS master material and then created either cut-only edits or more complex material for glossier pieces that included a voice-over, graphics, and transitions. Examples of these pieces included presentations of events after they were broadcast on TV, such as the opening ceremonies. As shown in Figure 11 the clips were encoded only after they were approved and were published through the **delta** tre CMS.
 
-![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image78.jpg)
+![Diagram of the ad workflow for encore highlight videos. The clips were encoded only after approval and published through the delta t r e C M S.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image78.jpg)
 
 Figure 11. Ad workflow for encore highlight videos.
 
 Figure 12 illustrates an example of how ad markers were incorporated in high production quality VOD encores.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image91.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image90.jpg)
+[![Diagram of an example of how ad markers were incorporated in high production quality V O D encores.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image91.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image90.jpg)
 
 Figure 12. Example of ad marker incorporation into an encore highlights video.
 
@@ -247,7 +247,7 @@ Figure 12. Example of ad marker incorporation into an encore highlights video.
 
 An inverse correlation exists between advertising and viewership, so broadcasters strive for an optimum balance between popularity of content and the number of ads they can serve without losing viewers. As seen in Figure 13, Conviva's real-time insights allowed monitoring of the real-time experience of the viewers of the live stream and on-demand content. This helps to deliver ads at an optimum level. For example, if more ads are scheduled and the broadcaster sees a drop in viewership, the number of ads scheduled can be decreased. Before the start of a game, typically, the broadcasters estimatef the size of an audience and scheduled ad inventory. By using Conviva's real-time insights, the broadcasters were able to dynamically manage ad inventory depending on the viewership throughout the game.
 
-[![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image93.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image92.jpg)
+[![Screenshot of the Conviva Pulse management console monitoring ads skipped and ads played, among other things.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image93.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image92.jpg)
 
 Figure 13. The Conviva Pulse management console, monitoring ads skipped and ads played, among other things.
 

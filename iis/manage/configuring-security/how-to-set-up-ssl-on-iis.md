@@ -127,10 +127,10 @@ oSection.Put\_ <a id="IISManager"></a>
 ### Obtain a Certificate
 
 Select the server node in the treeview and double-click the **Server Certificates** feature in the listview:  
-[![](how-to-set-up-ssl-on-iis/_static/image2.jpg)](how-to-set-up-ssl-on-iis/_static/image1.jpg)
+![Screenshot of the ALEXIS E 3 L H server node Home with Server Certificates selected.](how-to-set-up-ssl-on-iis/_static/image1.jpg)
 
 Click **Create Self-Signed Certificate...** in the **Actions** pane.  
-[![](how-to-set-up-ssl-on-iis/_static/image4.jpg)](how-to-set-up-ssl-on-iis/_static/image3.jpg)
+![Screenshot of the Server Certificates Actions pane with Create SelfSigned Certificate emphasized.](how-to-set-up-ssl-on-iis/_static/image3.jpg)
 
 Enter a friendly name for the new certificate and click **OK**.
 
@@ -140,29 +140,29 @@ Now you have a self-signed certificate. The certificate is marked for "Server Au
 
 Select a site in the tree view and click **Bindings...** in the **Actions** pane. This brings up the bindings editor that lets you create, edit, and delete bindings for your Web site. Click **Add...** to add your new SSL binding to the site.
 
-[![](how-to-set-up-ssl-on-iis/_static/image7.jpg)](how-to-set-up-ssl-on-iis/_static/image6.jpg)
+![Screenshot of the Site Bindings dialog with one the default site binding.](how-to-set-up-ssl-on-iis/_static/image6.jpg)
 
 The default settings for a new binding are set to HTTP on port 80. Select **https** in the **Type** drop-down list. Select the self-signed certificate you created in the previous section from the **SSL Certificate** drop-down list and then click **OK**.
 
-[![](how-to-set-up-ssl-on-iis/_static/image10.jpg)](how-to-set-up-ssl-on-iis/_static/image9.jpg)
+![Screenshot of the Add Site Binding dialog with Type set to H T T P S and S S L certificate set to Test certificate.](how-to-set-up-ssl-on-iis/_static/image9.jpg)
 
 Now you have a new SSL binding on your site and all that remains is to verify that it works.  
-[![](how-to-set-up-ssl-on-iis/_static/image13.jpg)](how-to-set-up-ssl-on-iis/_static/image12.jpg)
+![Screenshot of the Site Binding dialog with both the H T T P and H T T P S bindings.](how-to-set-up-ssl-on-iis/_static/image12.jpg)
 
 ### Verify the SSL Binding
 
 In the Actions pane, under Browse Web Site, click the link associated with the binding you just created.  
-[![](how-to-set-up-ssl-on-iis/_static/image15.jpg)](how-to-set-up-ssl-on-iis/_static/image14.jpg)
+![Screenshot of the Browse Web Site section of the Actions pane with Browse asterisk colon 443 or H T T P S emphasized.](how-to-set-up-ssl-on-iis/_static/image14.jpg)
 
 Internet Explorer (IE) 7 and above will display an error page because the self-signed certificate was issued by your computer, not by a trusted Certificate Authority (CA). IE 7 and above will trust the certificate if you add it to the list of Trusted Root Certification Authorities in the certificates store it on the local computer, or in Group Policy for the domain.
 Click **Continue to this website (not recommended)**.  
-[![](how-to-set-up-ssl-on-iis/_static/image17.jpg)](how-to-set-up-ssl-on-iis/_static/image16.jpg)
+![Screenshot of internet explorer displaying a security certificate error. Continue to this website (not recommended) is emphasized.](how-to-set-up-ssl-on-iis/_static/image16.jpg)
 
 ### Configure SSL Settings
 
 Configure SSL settings if you want your site to require SSL, or to interact in a specific way with client certificates. Click the site node in the tree view to go back to the site's home page. Double-click the **SSL Settings** feature in the middle pane.
 
-[![](how-to-set-up-ssl-on-iis/_static/image20.jpg)](how-to-set-up-ssl-on-iis/_static/image19.jpg)
+![Screenshot of the S S L Settings pane requiring S S L and ignoring Client certificates.](how-to-set-up-ssl-on-iis/_static/image19.jpg)
 
 <a id="Summary"></a>
 

@@ -36,7 +36,7 @@ We recommend that this **includes databases** pre-created for the user, so as to
 
 For those customers that do wish to type in their connection information rather than loading a Profile XML file, you should provide the credentials as follows. This will enable customers to easily map the information from the email they receive from you with the information they need to enter in WebMatrix to publish their site.
 
-[![](create-welcome-e-mails/_static/image2.png)](create-welcome-e-mails/_static/image1.png)
+[![Screenshot of credentials for Web Deploy Information, F T P Information and Database Connections.](create-welcome-e-mails/_static/image2.png)](create-welcome-e-mails/_static/image1.png)
 
 ### Control Panel Information
 

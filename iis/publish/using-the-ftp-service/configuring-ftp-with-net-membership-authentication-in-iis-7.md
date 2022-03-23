@@ -57,7 +57,7 @@ In this first section, you add FTP publishing to the Default Web site, and add t
 
 1. In IIS 7.0 Manager, in the **Connections** pane, expand the **Sites** node in the tree, then click the Default Web Site.
 2. Click **Add FTP Publishing** in the **Actions** pane.  
-     ![](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image1.jpg)
+     ![Screenshot of the I I S Manager Window displaying the Default Website page. Add F T P Publishing is circled in the Actions menu. ](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site Publishing** wizard appears:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." For this walkthrough, enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -69,9 +69,9 @@ In this first section, you add FTP publishing to the Default Web site, and add t
    - Make sure that the **SSL Certificate** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
    - When you have completed these items, click **Next**.
 
-     ![](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image7.jpg)
+     ![Screenshot of the Add F T P Site dialog box.](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image7.jpg)
 4. On the next page of the wizard, you will not configure any authentication or authorization settings because these settings will be configured later. Click **Finish** to complete the wizard.  
-     ![](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image9.jpg)
+     ![Screenshot of the Add F T P Publishing dialog box.](configuring-ftp-with-net-membership-authentication-in-iis-7/_static/image9.jpg)
 
 ### Summary
 

@@ -27,7 +27,7 @@ To install IIS Smooth Streaming, see the IIS Media Services Readme [Installation
 
 After installation is completed, no additional configuration steps are required to deliver on-demand Smooth Streaming presentations. To verify that the Smooth Streaming extension is installed correctly, select a website or virtual directory in IIS Manager and then locate the **Smooth Streaming Presentations** icon in the **Media Services** area.  
   
-![](getting-started-with-iis-smooth-streaming/_static/image1.png)
+![Screenshot of Default Web Site Home screen with a focus on the Smooth Streaming Presentations option.](getting-started-with-iis-smooth-streaming/_static/image1.png)
 
 > [!NOTE]
 > If IIS Manager was running during the installation process, you might need to restart it to see **Smooth Streaming Presentations**.
@@ -57,11 +57,11 @@ The following [IIS Smooth Streaming HD Sample Content](https://go.microsoft.com/
    -or-  
    To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click **Save**, and then open the zipped folder from the saved location.
 3. Extract the Smooth Streaming presentation folder to a website or virtual directory on the Web server. This walkthrough describes a Smooth Streaming Web server with the Big Buck Bunny H.264 720p sample content stored in the Default Web site. For example:  
-    ![](getting-started-with-iis-smooth-streaming/_static/image2.png)  
+    ![Screenshot of the Extract Compressed (Zipped) Folders screen with C:/inetpub/wwwroot as the extracted file destination.](getting-started-with-iis-smooth-streaming/_static/image2.png)  
   
    If you want to use another website or virtual directory to store the sample content, enter its physical path. Be sure to substitute your chosen website or virtual directory appropriately in the rest of the procedures in this article.
 4. To view the Smooth Streaming sample content files, in IIS Manager, open the Smooth Streaming presentation folder in **Content View**.  
-    ![](getting-started-with-iis-smooth-streaming/_static/image3.png)
+    ![Screenshot of the Content View of the I I S Manager.](getting-started-with-iis-smooth-streaming/_static/image3.png)
 
 ### Installing the Sample Client
 
@@ -75,13 +75,13 @@ The Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP is a pre
    -or-  
    To copy the Sample Client files to your Web server in order to extract them at a later time, click **Save**, and then open the file from the saved location.
 4. When you're prompted for a location to store the extracted Sample Client files, enter the directory path of a temporary folder on your desktop. For example:  
-    ![](getting-started-with-iis-smooth-streaming/_static/image4.png)
+    ![Screenshot of the Microsoft Silverlight Media Framework Smooth Streaming screen with a Client folder selected as the extracted file location.](getting-started-with-iis-smooth-streaming/_static/image4.png)
 5. Open the temporary desktop folder, review the terms in the End User License Agreement (EULA) file, and then right-click the zipped folder and click **Extract All** to extract the Sample Client files.  
-    ![](getting-started-with-iis-smooth-streaming/_static/image5.png)
+    ![Screenshot of the right-click menu over the Task Explorer screen with a focus on the Extract All option.](getting-started-with-iis-smooth-streaming/_static/image5.png)
 6. When you're asked to select the destination folder to which the Sample Client files will be extracted, select the sample Smooth Streaming presentation folder on the Web server. For example:  
-    ![](getting-started-with-iis-smooth-streaming/_static/image6.png)
+    ![Screenshot of the Extract Compressed (Zipped) Folders screen with a folder selected as a extracted file destination.](getting-started-with-iis-smooth-streaming/_static/image6.png)
 7. To view the Sample Client files, in IIS Manager, open the Smooth Streaming presentation folder in **Content View**.  
-    ![](getting-started-with-iis-smooth-streaming/_static/image7.png)  
+    ![Screenshot of the Content View of the Sample Client files in I I S Manager.](getting-started-with-iis-smooth-streaming/_static/image7.png)  
   
    The following Sample Client files are included in the download: 
 
@@ -104,7 +104,7 @@ This section describes how to use the Sample Content and Sample Client files to 
 2. In a web browser on the client computer, download the sample webpage from the Web server and begin viewing the stream. In our example, in the web browser address bar, type `http://%ServerName%/Big Buck Bunny H.264 720p/`**SmoothStreamingPlayer.html**.  
   
    The on-demand Smooth Stream opens in the web browser, using the Silverlight browser plug-in for Smooth Streaming.  
-    ![](getting-started-with-iis-smooth-streaming/_static/image8.png)
+    ![Screenshot of the Smooth Streaming Player that is open in the web browser.](getting-started-with-iis-smooth-streaming/_static/image8.png)
 
 For more information about how to build rich Silverlight user experiences that take full advantage of on-demand and live IIS Smooth Streaming capabilities, see the [Smooth Streaming Client webpage](https://go.microsoft.com/?linkid=9752845).
 
@@ -116,13 +116,13 @@ For more information about how to build rich Silverlight user experiences that t
 ## Creating and Publishing Your Own Content
 
 You can create your own Smooth Streaming content by getting a copy of [Microsoft Expression Encoder](https://go.microsoft.com/?linkid=9652410), which includes **IIS Smooth Streaming** presets that make it easy to create Smooth Streaming presentations.  
-![](getting-started-with-iis-smooth-streaming/_static/image9.png)
+![Screenshot of the Microsoft Expression Encoder screen's Presets tab, with the I I S Smooth Streaming preset highlighted.](getting-started-with-iis-smooth-streaming/_static/image9.png)
 
 > [!NOTE]
 > VC-1 encoding codecs are available in a free download of Expression Encoder 4. If you want to encode Smooth Streaming video with H.264 video codecs, or encode live Smooth Streams, you must purchase Expression Encoder 4 Pro.
 
 When you encode Smooth Streaming video using Expression Encoder, the video is output in Smooth Streaming format. The video files can then be published directly to your Smooth Streaming Web server by using the WebDAV publishing plug-in, which is available by default in the **Publish** area of the **Output** tab.  
-![](getting-started-with-iis-smooth-streaming/_static/image10.png)
+![Screenshot of the Output tab in the Expression Encoder.](getting-started-with-iis-smooth-streaming/_static/image10.png)
 
 To publish directly from Expression Encoder to your Web server by using WebDAV, the free [WebDAV Extension for IIS](https://go.microsoft.com/?linkid=9652412) must be installed on the Web server.
 

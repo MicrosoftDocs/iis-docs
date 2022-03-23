@@ -45,15 +45,15 @@ At least one primary disk cache location must be specified.
 1. Launch IIS Manager.
 2. The disk cache configuration for ARR is done at the server level. Select the server in the navigation tree view.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image1.jpg)
+    ![Screenshot of the I I S Manger navigation tree. A R R one Administrator is selected and expanded.](configure-and-enable-disk-cache-in-application-request-routing/_static/image1.jpg)
 3. Double-click **Application Request Routing Cache**.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image2.jpg)
+    ![Screenshot of the I I S Manger navigation tree. A R R one Administrator is selected and expanded. The Application Request Routing Cache is shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image2.jpg)
 4. In the **Actions** pane, click **Add...**.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Actions pane. The Add button is located under the Drive Management heading.](configure-and-enable-disk-cache-in-application-request-routing/_static/image4.jpg)
 5. In the **Add Drive** dialog box, define the **Drive location** and set a maximum size. If no size is provided, then it will consume all available disk space.  
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image6.jpg)
+    ![Screenshot of the Add Drive dialog box. The Drive location and Limit Maximum size in GB boxes are shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image6.jpg)
 
     > [!NOTE]
     > If the drive location was created manually, ensure that the identity of the worker process has the following user rights. In most cases, the local Users group has the sufficient user rights on the folder when it was created.
@@ -63,7 +63,7 @@ At least one primary disk cache location must be specified.
     3. Write
 6. Enter the appropriate values, and then click **OK** to save the changes. For the purposes of this walkthrough, `c:\cache\` is used as the drive location and a maximum size of **10GB** has been set. You can enter any value up to your maximum drive size or use the entire drive.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image9.jpg)
+    ![Screenshot of the Application Request Routing Cache. The Drive Location, Maximum Size and Utilization columns are shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image9.jpg)
 
     > [!NOTE]
     > ARR has the concept of a primary drive and a secondary drive. A typical configuration involves one or more primary drives that are local drives, such as e:\cache or f:\cache. However, there can only be one secondary drive and, typically, it is a SAN drive that can be shared between multiple ARRs. The idea is that you have a large SAN drive where more content can be cached than on the local drive of an ARR, and it can also be shared across multiple ARR instances.
@@ -76,13 +76,13 @@ The secondary disk cache location is an optional configuration. As noted above, 
 
 1. In the **Actions** pane, click **Add Secondary...**.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image11.jpg)
+    ![Screenshot of the Actions pane. The Add Secondary box is located under the Drive Management heading.](configure-and-enable-disk-cache-in-application-request-routing/_static/image11.jpg)
 2. In the **Add Secondary Drive** dialog box, define the **Drive location**.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image13.jpg)
+    ![Screenshot of the Add Secondary Drive dialog box. The Drive location box is shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image13.jpg)
 3. Enter the appropriate value, and then click **OK** to save the changes. For the purposes of this walkthrough, `\\wonyoo-w2k8-3\SAN\` is used as the secondary cache drive location.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image15.jpg)
+    ![Screenshot of the Drive Location, Priority, and Health Status columns. For the purposes of this walkthrough, backslash backslash won yoo dash w two k eight dash three backslash S A N backslash is used as the secondary drive location.](configure-and-enable-disk-cache-in-application-request-routing/_static/image15.jpg)
 
 ## Step 3 - Enable disk cache
 
@@ -94,10 +94,10 @@ The rest of the walkthrough assumes that the server farm has already been create
 2. Select the server farm that you created.
 3. The following icons are shown:
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image17.jpg)
+    ![Screenshot of the Server Farm. The Caching, Health Test, Load Balance, Monitoring and Management, Proxy, Routing Rules, and Server Affinity icons are shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image17.jpg)
 4. Double-click **Caching**. Verify that the **Enable disk cache** checkbox is selected.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image19.jpg)
+    ![Screenshot of the Caching Icon. The Enable disk cache checkbox is checked.](configure-and-enable-disk-cache-in-application-request-routing/_static/image19.jpg)
 
     > [!NOTE]
     > Authorization cannot be delegated to ARR. Therefore, if the contents are highly sensitive in nature and require authorization, it is recommended that you do not enable cache.
@@ -113,7 +113,7 @@ Make a few requests that will get cached in ARR.
 1. Open a command prompt with elevated user rights.
 2. Enter **netsh http show cache**.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image21.jpg)
+    ![Screenshot of the Administrator Command Prompt. Net s h h t t p show cache is written.](configure-and-enable-disk-cache-in-application-request-routing/_static/image21.jpg)
 3. By default, memory cache duration is 5 seconds.
 
 ## Step 5 - Verify the cache functionality using IIS Manager
@@ -129,10 +129,10 @@ In addition to verifying the disk cache functionality on the file system, ARR pr
 2. Select the server farm that you created.
 3. The following icons are shown:
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image23.jpg)
+    ![Screenshot of the Server Farm with the Caching Icon, Health Test Icon, Load Balance Icon, Monitoring and Management Icon, Proxy Icon, and Routing Rules Icon.](configure-and-enable-disk-cache-in-application-request-routing/_static/image23.jpg)
 4. Double-click **Monitoring and Management**. This view provides the server farm-level runtime statistics, including the cache hit/miss ratio as well as how much bandwidth has been saved due to ARR disk cache.
 
-    ![](configure-and-enable-disk-cache-in-application-request-routing/_static/image25.jpg)
+    ![Screenshot of the Monitoring and Management Icon. The runtime Disk Cache Statistics is shown.](configure-and-enable-disk-cache-in-application-request-routing/_static/image25.jpg)
 
 ## Summary
 

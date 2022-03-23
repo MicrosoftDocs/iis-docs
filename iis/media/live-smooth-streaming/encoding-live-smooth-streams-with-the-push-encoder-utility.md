@@ -98,8 +98,8 @@ WebDAV Publishing (Web Distributed Authoring and Versioning) enables you to publ
    > [!NOTE]
    > Anonymous authentication is not supported for publishing your encoded media files to a WebDAV-enabled server running IIS 7. For an overview of the authentication methods that you can use for WebDAV publishing, see [Publish your media](https://go.microsoft.com/fwlink/?LinkId=165798).
 3. On the Web server, in IIS Manager, click the Web site or directory in the **Connections** pane that you plan to use for delivering your Smooth Streaming presentation.  
-   ![](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image1.png)
+   ![Screenshot of the Connections pane. The Sites node is expanded and Default Web Sites is highlighted.](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image1.png)
 4. On the Home page, double-click the **Authentication** icon, and then enable and configure the **Security** role service that you installed.  
-   ![](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image3.png)
+   ![Screenshot of the Default Web Site Home page. The Authentication icon is highlighted.](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image3.png)
   
    For more information, see [Configuring Authentication in IIS 7](https://go.microsoft.com/fwlink/?LinkId=165799)).

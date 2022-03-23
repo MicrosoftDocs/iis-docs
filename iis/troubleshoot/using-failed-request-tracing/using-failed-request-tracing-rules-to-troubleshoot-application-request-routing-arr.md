@@ -40,22 +40,22 @@ In this step, the Failed Request Tracing Rules are defined for Application Reque
 
 1. Launch IIS Manager (inetmgr).
 2. Select the **Default Web Site**.  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image1.jpg)
+    ![Screenshot showing the Sites list expanded. Default Web Site is highlighted.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image1.jpg)
 3. In the **Actions** pane, under **Configure**, select **Failed Request Tracing…**.  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image3.jpg)
+    ![Screenshot focused on Failed Request Tracing in the Actions pane.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image3.jpg)
 4. In the **Edit Web Site Failed Request Tracing Settings** dialog box, check the **Enable** checkbox.  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image5.jpg)
+    ![Screenshot of the Edit Web Site Failed Request Tracing Settings dialog.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image5.jpg)
 5. Click **OK** to save changes.  
 6. Select the **Default Web Site**.
 7. Double-click **Failed Request Tracing Rules**.
 8. In the **Actions** pane, click **Add…**.  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image7.jpg)  
+    ![Screenshot of the Add Failed Request Tracing Rule window. All content is selected.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image7.jpg)  
     Select **All content (\*)**, and then click **Next**.
 9. Select **Status code(s):** and enter 200-399.  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image9.jpg)  
+    ![Screenshot of the Add Failed Request Tracing Rule. Status code is checked.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image9.jpg)  
     Click **Next**. The above configuration has created a Failed Request Tracing Rule that writes traces when the status code falls between 200 and 399.
 10. Deselect **ASP**,**ASPNET**, and **ISAPI Extension**. After selecting **WWW Server**, deselect everything under **Areas:**, except for **Rewrite** and **RequestRouting**. Since Application Request Routing relies on the URL Rewrite Module to inspect incoming requests, it is recommended that you enable the traces for both Application Request Routing (**RequestRouting**) and URL Rewrite Module (**Rewrite**).  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image11.jpg)  
+    ![Screenshot of the Edit Failed Request Tracing Rule window. W W W server is selected in the Providers section. ](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image11.jpg)  
     For additional information about URL Rewrite Module traces, refer to [Using Failed Request Tracing to Trace Rewrite Rules](../../extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md) .
 11. Click **Finish.**
 
@@ -89,7 +89,7 @@ In this step, you will send requests to Application Request Routing and analyze 
 4. Send a request to Application Request Routing. If Application Request Routing is functioning correctly, it results in a 200 response, which falls within the 200 to 399 range that was specified in Step 1. Therefore, the logs are written to the location above.  
 5. List the files in the directory to confirm that new xml files are written.
 6. Open the xml file. Click **Request Details**. Select **Complete Request Trace**, and then click **Expand All**. Below is an example of a Failed Request Tracing log for Application Request Routing:  
-    ![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image13.jpg)
+    ![Screenshot of a browser window showing the Request Diagnostics for the example website in a tab.](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image13.jpg)
 7. Pay closer attention to the following sections:  
 
     - **GENERAL\_REQUEST\_HEADERS:**  

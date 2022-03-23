@@ -43,11 +43,11 @@ We will create a rewrite rule by using URL Rewrite UI in IIS Manager. To do this
 1. Go to IIS Manager.
 2. Select **Default Web Site**.
 3. In the Feature View click **URL Rewrite**.  
-    [![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image2.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image1.jpg)
+    [![Screenshot that shows the Default Web Site Home pane. U R L Rewrite is selected.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image2.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image1.jpg)
 4. In the **Actions** pane on the right-hand side, click **Add rules…**  
-    [![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image4.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image3.jpg)
+    [![Screenshot that shows the U R L Rewrite pane.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image4.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image3.jpg)
 5. In the **Add Rules** dialog box, select **Blank Rule** and click **OK.**  
-    [![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image6.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image5.jpg)
+    [![Screenshot that shows the Add Rules dialog box.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image6.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image5.jpg)
 
 Now you must define the actual rewrite rule. In the URL Rewrite Module, a rewrite rule is defined by specifying four required pieces of information:
 
@@ -60,7 +60,7 @@ Now you must define the actual rewrite rule. In the URL Rewrite Module, a rewrit
 
 In the **Name** text box, enter a name that will uniquely identify the rule, for example: "Rewrite to article.aspx".
   
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image8.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image7.jpg)
+[![Screenshot that shows the Edit Inbound Rule pane.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image8.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image7.jpg)
 
 ### Defining a pattern
 
@@ -86,7 +86,7 @@ This string specifies the new value to which the input URL should be rewritten. 
 
 Leave default values for all other settings. The **Edit Inbound Rule** property page should look like the following page:
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image11.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image9.jpg)
+[![Screenshot that shows the Edit Inbound Rule property page.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image11.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image9.jpg)
 
 Save the rule by clicking **Apply** on the right-hand side.
 
@@ -106,7 +106,7 @@ To test that the rule correctly rewrites URLs, open a Web browser and request th
 
 You should see that the rewrite rule on your Web server has changed the original URL to Article.aspx and it has passed "234" and "some-title" as values for query string parameters.
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image15.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image13.jpg)
+[![Screenshot that shows the U R L Rewrite Module Test Page in Internet Explorer.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image15.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image13.jpg)
 
 ## Creating a redirect rule
 
@@ -129,11 +129,11 @@ Within the **Edit Rule** page, enter the following:
 
 Enter the name, pattern, and action as shown below:
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image19.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image17.jpg)
+[![Screenshot that shows the Edit Inbound Rule pane. There are new entries for name, pattern and action.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image19.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image17.jpg)
 
 Enter the redirect URL as shown below:
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image23.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image21.jpg)
+[![Screenshot that shows the Edit Inbound Rule pane. Under Action type, redirect has been selected and a Redirect U R L is entered.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image23.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image21.jpg)
 
 Leave default values for all other settings. Save the rule by clicking **Apply** on the right-hand side.
 
@@ -145,7 +145,7 @@ To test that the rule redirects requests correctly, open a Web browser and reque
 
 You should see that the browser was redirected to `http://localhost/article/323/some-other-title` as a result of redirect rule execution and then the request was rewritten in accordance with the rewrite rule that you have created earlier.
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image27.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image25.jpg)
+[![Screenshot that shows Internet Explorer on the U R L Rewrite Module Test Page.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image27.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image25.jpg)
 
 ## Creating an access block rule
 
@@ -179,11 +179,11 @@ To test this rule, open a Web browser and make a request to `http://127.0.0.1/ar
 
 The unsuccessful display will be the following:
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image31.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image29.jpg)
+[![Screenshot that shows a browser saying, This page can't be displayed.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image31.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image29.jpg)
 
 The successful display will be the following:
 
-[![](creating-rewrite-rules-for-the-url-rewrite-module/_static/image35.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image33.jpg)
+[![Screenshot that shows the U R L Rewrite Module Test Page in a browser.](creating-rewrite-rules-for-the-url-rewrite-module/_static/image35.jpg)](creating-rewrite-rules-for-the-url-rewrite-module/_static/image33.jpg)
 
 ## Summary
 

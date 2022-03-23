@@ -17,25 +17,25 @@ URL Rewrite Module UI for IIS 7 and above includes a tool that can be used to te
 
 The "Test pattern" tool can be used to test rule pattern and condition patterns. To test rule patterns open URL Rewrite Module UI and select a rule in the rules list and click on "Edit...":
 
-[![](testing-rewrite-rule-patterns/_static/image2.png)](testing-rewrite-rule-patterns/_static/image1.png)
+[![Screenshot of the I I S Manager page. In the Actions pane, the Edit and Rename options are highlighted.](testing-rewrite-rule-patterns/_static/image2.png)](testing-rewrite-rule-patterns/_static/image1.png)
 
 Then click on the "Test pattern..." button in the "Edit Rule" page:
 
-[![](testing-rewrite-rule-patterns/_static/image5.png)](testing-rewrite-rule-patterns/_static/image3.png)
+[![Screenshot of the Edit Rule page. The Test pattern button is highlighted.](testing-rewrite-rule-patterns/_static/image5.png)](testing-rewrite-rule-patterns/_static/image3.png)
 
 To test condition pattern, select a condition in the conditions list view and then click "**Edit...**". In the "Edit Condition" dialog click on "**Test pattern...**" button:
 
-[![](testing-rewrite-rule-patterns/_static/image9.png)](testing-rewrite-rule-patterns/_static/image7.png)
+[![Screenshot of the Edit Condition dialog box. The Test pattern button is highlighted.](testing-rewrite-rule-patterns/_static/image9.png)](testing-rewrite-rule-patterns/_static/image7.png)
 
 ## Using "Test pattern" tool
 
 In the "Test Pattern" dialog, enter a string that you want to match against the pattern. Click on "Test" button:
 
-[![](testing-rewrite-rule-patterns/_static/image13.png)](testing-rewrite-rule-patterns/_static/image11.png)
+[![Screenshot of the Test Pattern dialog box. A string is inserted in the Input data to test box.](testing-rewrite-rule-patterns/_static/image13.png)](testing-rewrite-rule-patterns/_static/image11.png)
 
 The results of the pattern match and the list of rule back-references will be displayed. Similarly, if you use "Test pattern" tool for testing of patterns used in conditions, the results will show the list of condition back-references:
 
-[![](testing-rewrite-rule-patterns/_static/image17.png)](testing-rewrite-rule-patterns/_static/image15.png)
+[![Screenshot of the Test Pattern dialog box. The Input data to test box and the Pattern box are shown.](testing-rewrite-rule-patterns/_static/image17.png)](testing-rewrite-rule-patterns/_static/image15.png)
 
 Note that you can make changes to the pattern, while within "Test Pattern" dialog. If you've made any changes to the pattern, when you click on "Close" button you can choose whether to preserve or ignore the changes to the pattern.
 
