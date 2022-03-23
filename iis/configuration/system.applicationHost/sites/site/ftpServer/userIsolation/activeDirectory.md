@@ -129,7 +129,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
     ![Screenshot of the I I S Manager window. The F T P User Isolation icon is highlighted.](activeDirectory/_static/image9.png)
 4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **FTP home directory configured in Active Directory** and then click **Set**.  
-    ![Screenshot of the I I S Manager window display the F T P User Isolation page.](activeDirectory/_static/image11.png)
+    ![Screenshot of the I I S Manager window displaying the F T P User Isolation page.](activeDirectory/_static/image11.png)
 5. In the **Set Credentials** dialog box, enter a user name and password in the **User name** and **Password** boxes. Enter the password again in the **Confirm Password** box, and then click **OK**.
 6. In the **Actions** pane, click **Apply**.
 
