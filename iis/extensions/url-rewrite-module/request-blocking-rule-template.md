@@ -22,11 +22,11 @@ To use the template follow these steps:
 1. Go to IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View click "URL Rewrite"  
-    [![](request-blocking-rule-template/_static/image2.png)](request-blocking-rule-template/_static/image1.png)
+    [![Screenshot of the I I S Manager page. In the Connections pane, Default Web Site is selected. In the Default Web Site Home pane, U R L Rewrite is selected.](request-blocking-rule-template/_static/image2.png)](request-blocking-rule-template/_static/image1.png)
 4. In the "Actions" pane on right hand side click on "**Add rules…**"  
-    [![](request-blocking-rule-template/_static/image6.png)](request-blocking-rule-template/_static/image5.png)
+    [![Screenshot of the Actions pane of the U R L Rewrite icon. Add Rules is highlighted.](request-blocking-rule-template/_static/image6.png)](request-blocking-rule-template/_static/image5.png)
 5. In the "Add Rules" dialog select "Request Blocking" and click "OK":  
-    [![](request-blocking-rule-template/_static/image9.png)](request-blocking-rule-template/_static/image8.png)
+    [![Screenshot of the Add Rules dialog box. Request Blocking is selected.](request-blocking-rule-template/_static/image9.png)](request-blocking-rule-template/_static/image8.png)
 6. In the "Add request blocking rule" dialog choose to: 
 
    - Block access based on host header;
@@ -35,14 +35,14 @@ To use the template follow these steps:
    - Use wildcards pattern syntax;
    - Block request by aborting the request connection.
 
-     [![](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
+     [![Screenshot of the Add request blocking rule dialog box. In the How to block box, Abort Request is selected.](request-blocking-rule-template/_static/image12.png)](request-blocking-rule-template/_static/image11.png)
 7. Click "OK" to create the rule.
 
 ### Testing the rule
 
 To test this rule, open a Web browser and make a request to `http://127.0.0.1/iisstart.htm`. What you should see is a browser that does not receive any response from the server. However, if you request `http://localhost/iisstart.htm`, then the Web server will respond successfully.
 
-[![](request-blocking-rule-template/_static/image14.png)](request-blocking-rule-template/_static/image13.png)
+[![Screenshot of the Internet Explorer Web browser. The text on the page says that Internet Explorer cannot display the webpage.](request-blocking-rule-template/_static/image14.png)](request-blocking-rule-template/_static/image13.png)
 
 ## Summary
 

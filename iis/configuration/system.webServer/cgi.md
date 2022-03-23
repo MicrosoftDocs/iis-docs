@@ -42,7 +42,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **CGI**. Click **Next**.  
-    [![](cgi/_static/image2.png)](cgi/_static/image1.png) .
+    [![Screenshot of the Server Roles page. The C G I option is selected and highlighted.](cgi/_static/image2.png)](cgi/_static/image1.png) .
 5. On the **Select Features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -52,7 +52,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **CGI**.  
-    [![](cgi/_static/image4.png)](cgi/_static/image3.png)
+    [![Screenshot of the Application Development Features navigation tree. C G I is selected and highlighted.](cgi/_static/image4.png)](cgi/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -62,7 +62,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **CGI**, and then click **Next**.  
-    [![](cgi/_static/image6.png)](cgi/_static/image5.png)
+    [![Screenshot of the Add Role Services Wizard navigation tree. C G I is selected and highlighted.](cgi/_static/image6.png)](cgi/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -71,7 +71,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **CGI**, and then click **OK**.  
-    [![](cgi/_static/image8.png)](cgi/_static/image7.png)
+    [![Screenshot of the Internet Information Services navigation tree. Application Development Features is expanded. C G I is selected and highlighted.](cgi/_static/image8.png)](cgi/_static/image7.png)
 
 <a id="004"></a>
 ## How To
@@ -96,9 +96,9 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or Web application that you want to configure.
 3. In the site or application **Home** pane, double-click **CGI**.  
-    [![](cgi/_static/image10.png)](cgi/_static/image9.png)
+    [![Screenshot of the Home pane. The C G I icon is highlighted.](cgi/_static/image10.png)](cgi/_static/image9.png)
 4. In the **CGI** pane, configure the required settings, and then click **Apply** in the **Actions** pane.  
-    [![](cgi/_static/image12.png)](cgi/_static/image11.png)
+    [![Screenshot of the C G I pane. In the Display box, Friendly Names is chosen. The Behavior and Security categories are shown.](cgi/_static/image12.png)](cgi/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration
