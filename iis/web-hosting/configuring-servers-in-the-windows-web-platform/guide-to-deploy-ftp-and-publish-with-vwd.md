@@ -135,9 +135,9 @@ When isolating users for all directories, all FTP user sessions are restricted t
 1. Create a folder at `%*SystemDrive*%\inetpub\ftproot\LocalUser\`. This folder will contain all local user account directories. You may create this folder on your File Share server (NAS). When you provision user accounts, you must also assign read and write access to the users' content folders.
 2. In IIS Manager, click the node for the FTP site that you have just created. This will display the icons for all of the FTP features.
 3. Double-click the FTP User Isolation icon to open the FTP user isolation feature.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image15.jpg)
+    ![Screenshot of the My New F T P Site Home pane with F T P User Isolation selected.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image15.jpg)
 4. When the FTP User Isolation feature page is displayed, select **User name directory (disable global virtual directories)**, and then click **Apply** in the Actions pane.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image17.jpg)
+    ![Screenshot of the F T P User Isolation pane with restricting users to the User name directory.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image17.jpg)
 
 ### Summary
 
@@ -164,11 +164,11 @@ Global virtual directories are ignored; virtual directories that are configured 
 In this section, you will configure the server-level port range for passive connections to the FTP service. Use the following steps:
 
 1. Go to IIS Manager. In the Connections pane, click the server-level node in the tree.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image19.jpg)
+    ![Screenshot of MY SERVER selected in the Connections pane with the MY SERVER Home pane displayed.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image19.jpg)
 2. Double-click the **FTP Firewall Support** icon in the list of features.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image21.jpg)
+    ![Screenshot of F T P Firewall Support selected in the MY SERVER Home pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image21.jpg)
 3. Enter a range of values for the **Data Channel Port Range**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image23.jpg)
+    ![Screenshot of the Data Channel Port Range set to a value of 49152 dash 65535 in the F T P Firewall Support pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image23.jpg)
 4. Once you have entered the port range for your FTP service, click **Apply** in the Actions pane to save your configuration settings.
 
     > [!NOTE]
@@ -182,7 +182,7 @@ In this section, you will configure the server-level port range for passive conn
     > - This port range will need to be added to the allowed settings for your firewall server.
 
 5. Enter the IPv4 address of the external-facing address for your firewall server for the **External IP Address of Firewall** setting.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image25.jpg)
+    ![Screenshot of the External I P Address of Firewall set to a value of 131 dot 107 dot 0 dot 100.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image25.jpg)
 6. Once you have entered the external IPv4 address for your firewall server, click **Apply** in the Actions pane to save your configuration settings.
 
 #### Summary
