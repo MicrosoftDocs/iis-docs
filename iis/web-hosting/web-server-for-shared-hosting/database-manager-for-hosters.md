@@ -21,11 +21,11 @@ Continue to download &lt;link: [https://www.iis.net/extensions/DatabaseManager](
 
 Many of the database management tools that are currently available require direct access to the servers that they manage. This is not a desired configuration because it enables potential exposure to malicious attacks to the database servers. The IIS Database Manager module solves this issue by acting as a proxy for database management functionality. Hosters who want to make Database Manager available to their customers should install it on each of their Web Server computers, regardless of whether these computers are in a shared hosting Web farm. The image below shows a shared configuration setting with Database Manager installed.
 
-[![](database-manager-for-hosters/_static/image2.jpg)](database-manager-for-hosters/_static/image1.jpg)  
+[![Diagram showing the relationship between the Front End and Back End servers.](database-manager-for-hosters/_static/image2.jpg)](database-manager-for-hosters/_static/image1.jpg)  
    
 Since the IIS Database Manager module uses HTTP/S for all its communication with the database server, there is no need to open new ports. As far as the servers are concerned, this is normal HTTP/S traffic that occurs as part of the customer Web site. The image below depicts the communication between the customer -Web Developer (or DBA), and the target database server. Notice that the customer uses IIS Manager (Inetmgr.exe) to access and manage databases for which the account has been provisioned.
 
-[![](database-manager-for-hosters/_static/image4.jpg)](database-manager-for-hosters/_static/image3.jpg)
+[![Diagram of the Web Developer's relationship with the Front End and Back End servers.](database-manager-for-hosters/_static/image4.jpg)](database-manager-for-hosters/_static/image3.jpg)
 
 ## Set Up Database Manager in a Hosting Environment
 
@@ -43,13 +43,13 @@ Users must have a database Connection String created within a site in order to u
 1. A hoster receives an order from a customersfor the provisioning of one or more databases for an application.
 2. The hoster creates the database and provides the connection string to the user. This is often an automated step. The connection string includes the database server, database name, and user credentials (user name and password). IIS Manager has a Connection String module that the hoster can use to provide the connection string to the customer. Or the customer can enter the connection string information that is provided by the hoster.  
    
-    [![](database-manager-for-hosters/_static/image6.jpg)](database-manager-for-hosters/_static/image5.jpg)
+    [![Screenshot of the dash Home screen with the Connection Strings option being highlighted.](database-manager-for-hosters/_static/image6.jpg)](database-manager-for-hosters/_static/image5.jpg)
 3. The user double-clicks the Database Manager icon in the Management section for the Web site.  
    
-    [![](database-manager-for-hosters/_static/image8.jpg)](database-manager-for-hosters/_static/image7.jpg)
+    [![Screenshot of the dash Home screen with the Database Manager option being highlighted.](database-manager-for-hosters/_static/image8.jpg)](database-manager-for-hosters/_static/image7.jpg)
 4. The user can manage the database(s) by selecting the appropriate connection.   
    
-    [![](database-manager-for-hosters/_static/image10.jpg)](database-manager-for-hosters/_static/image9.jpg)
+    [![Screenshot of the Database Manager with a Connection database being highlighted.](database-manager-for-hosters/_static/image10.jpg)](database-manager-for-hosters/_static/image9.jpg)
 5. For more information about this process and details about Database Manager, see The Basics of Database Manager &lt;link: [https://www.iis.net/learn/extensions/database-manager/use-the-database-manager](../../extensions/database-manager/use-the-database-manager.md)&gt; article. It provides a walkthrough of the process of setting up and using Database Manager in a hosted environment. It covers the following tasks:
 
 - Provisioning a database
@@ -61,7 +61,7 @@ Users must have a database Connection String created within a site in order to u
 
 Here is a screenshot of the Database Manager module during the creation of a table for a connection named "dbmgrtest" and associated to the site "dash."
 
-[![](database-manager-for-hosters/_static/image12.jpg)](database-manager-for-hosters/_static/image11.jpg)
+[![Screenshot of the Database Manager screen with the D B M G R test connection Features view.](database-manager-for-hosters/_static/image12.jpg)](database-manager-for-hosters/_static/image11.jpg)
 
 For a video demonstrating IIS Manager and Database Manager, see: [https://blogs.msdn.com/carlosag/archive/2008/07/07/IIS70RemoteAdministrationAndDatabaseManagerVideo.aspx](https://blogs.msdn.com/carlosag/archive/2008/07/07/IIS70RemoteAdministrationAndDatabaseManagerVideo.aspx) .
 

@@ -30,7 +30,7 @@ Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot
 
 After copying this file, browse to `http://localhost/article.aspx` and check that the page was rendered correctly in a browser.
 
-[![](rule-with-rewrite-map-rule-template/_static/image3.png)](rule-with-rewrite-map-rule-template/_static/image1.png)
+[![Screenshot of the U R L Rewrite Module Test Page webpage.](rule-with-rewrite-map-rule-template/_static/image3.png)](rule-with-rewrite-map-rule-template/_static/image1.png)
 
 ## Using rule template to generate rewrite rule
 
@@ -41,16 +41,16 @@ To use this template follow these steps:
 1. Go to IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View click "URL Rewrite"  
-    [![](rule-with-rewrite-map-rule-template/_static/image6.png)](rule-with-rewrite-map-rule-template/_static/image5.png)
+    [![Screenshot of the Default Web Site Home screen with the U R L Rewrite option being highlighted.](rule-with-rewrite-map-rule-template/_static/image6.png)](rule-with-rewrite-map-rule-template/_static/image5.png)
 4. In the "Actions" pane on right hand side click on "**Add rules…**"  
-    [![](rule-with-rewrite-map-rule-template/_static/image10.png)](rule-with-rewrite-map-rule-template/_static/image9.png)
+    [![Screenshot of the U R L Rewrite screen with a focus on the Add Rules option.](rule-with-rewrite-map-rule-template/_static/image10.png)](rule-with-rewrite-map-rule-template/_static/image9.png)
 5. In the "Add Rules" dialog select "Rule with Rewrite Map" and click "OK":  
-    [![](rule-with-rewrite-map-rule-template/_static/image13.png)](rule-with-rewrite-map-rule-template/_static/image12.png)
+    [![Screenshot of the Add rules dialog with the Rule with rewrite map option being highlighted.](rule-with-rewrite-map-rule-template/_static/image13.png)](rule-with-rewrite-map-rule-template/_static/image12.png)
 6. In the "Add rule with rewrite map" dialog, choose "Rewrite" in the drop down list. In the "Choose the rewrite map:" combo box specify the name of the new rewrite map as **StaticRewrites**.  
-     [![](rule-with-rewrite-map-rule-template/_static/image16.png)](rule-with-rewrite-map-rule-template/_static/image15.png)
+     [![Screenshot of the Add rule with rewrite map dialog.](rule-with-rewrite-map-rule-template/_static/image16.png)](rule-with-rewrite-map-rule-template/_static/image15.png)
 7. Click "OK". This will create a rewrite map with the given name and a rewrite rule with name "Rewrite Rule 1 for StaticRewrites" that references that rewrite map.
 8. After clicking "OK" you will be taken to the page where you can specify the mapping entries for the rewrite map. Click on "Add Mapping Entry..." in the Actions pane on right hand side and then enter the original and new value for the mapping entry as "**/article1**" and "**/article.aspx?id=1&amp;title=some-title**" respectively.  
-    [![](rule-with-rewrite-map-rule-template/_static/image18.png)](rule-with-rewrite-map-rule-template/_static/image17.png)
+    [![Screenshot of the Add Mapping Entry dialog showing the Original value and New value fields.](rule-with-rewrite-map-rule-template/_static/image18.png)](rule-with-rewrite-map-rule-template/_static/image17.png)
 9. Repeat previous step to add two more mapping entries as follows: 
 
     | Original Value: | New Value: |
@@ -72,7 +72,7 @@ To test the generated rewrite rule that uses the "**StaticRewrites**" map, open 
 
 Any one of the URLs above should cause the URL to be rewritten in accordance to the mappings defined in the rewrite map. Your results should look like the following page:
 
-[![](rule-with-rewrite-map-rule-template/_static/image21.png)](rule-with-rewrite-map-rule-template/_static/image19.png)
+[![Screenshot of the U R L Rewrite Module Test Page screen showing the Original U R L and Final U R L fields.](rule-with-rewrite-map-rule-template/_static/image21.png)](rule-with-rewrite-map-rule-template/_static/image19.png)
 
 ## Summary
 
