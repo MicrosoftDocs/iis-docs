@@ -220,11 +220,11 @@ This article has so far focused on how to deploy FTP in a shared hosting environ
 To publish Web application content with VWD, ftpuser1 performs the following steps:
 
 1. Ftpuser1 opens the Web site called "WebSite1" in Visual Web Developer 2008 (VWD).  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image27.jpg)
+    ![Screenshot of the H T M L code for Default dot a s p x in Visual Web Developer.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image27.jpg)
 2. Ftpuser1 selects Copy Web Site from the Website menu.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image29.jpg)
+    ![Screenshot of opening the Website option in the toolbar and selecting Copy Web Site.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image29.jpg)
 3. Ftpuser1 clicks **Connect**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image31.jpg)
+    ![Screenshot before connecting the Web Site copy to the specified F T P server.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image31.jpg)
 4. Ftpuser1 enters the following values:
 
     - The FTP server name provided by the hosting company. In the example below, the loopback IP address is 127.0.0.1.
@@ -234,17 +234,17 @@ To publish Web application content with VWD, ftpuser1 performs the following ste
     - User name: ftpuser1.
     - Password.
 5. Ftpuser1 then clicks **Open**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image33.jpg)
+    ![Screenshot of the Open Web Site dialog with the specified F T P Site information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image33.jpg)
 6. Ftpuser1's folder appears in the Remote Web Site pane. In the following example, the pane is empty because ftpuser1 is publishing the Web site for the first time.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image35.jpg)
+    ![Screenshot of an empty Remote Web Site pane after opening the F T P Web Site.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image35.jpg)
 7. Ftpuser1 publishes all content items in the Source Web Site pane by selecting all files and folders, and then clicking **Synchronize**:
 
     - Ftpuser1 clicks the left pane.
     - Ftpuser1 types **Ctrl+A**, to select all files.
     - Ftpuser1 clicks **Synchronize** (located in between the two panes, third button from the top).  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
+        ![Screenshot before synchronizing all selected files in the Source Web Sste pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
 8. The files and folders are uploaded to the FTP server and stored in the user's virtual directory: ftpuser1. (The user will be unaware of other users' content on the same server because of the User Isolation restriction.)  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image39.jpg)
+    ![Screenshot after synchronization with copies of the synchronized files in the Remote Web site pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image39.jpg)
 
 <a id="\_Toc216253274"></a><a id="\_Toc216238192"></a>
 
