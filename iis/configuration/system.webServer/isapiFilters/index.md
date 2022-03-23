@@ -52,7 +52,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ISAPI Filters**.  
-    ![Screenshot of I S A P I Filters selected in a Windows 8 Interface.](index/_static/image3.png)
+    ![Screenshot of I S A P I Filters selected in a Windows 8 interface.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -62,7 +62,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ISAPI Filters**, and then click **Next**.  
-    ![Screenshot of I S A P I Filters selected in a Windows Server 2008 Interface.](index/_static/image5.png)
+    ![Screenshot of I S A P I Filters selected in a Windows Server 2008 interface.](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -71,7 +71,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. In the **Windows Features** dialog box, expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.  
-    ![Screenshot of I S A P I Filters selected in a Windows Vista or Windows 7 Interface.](index/_static/image7.png)
+    ![Screenshot of I S A P I Filters selected in a Windows Vista or Windows 7 interface.](index/_static/image7.png)
 4. Select **ISAPI Filters**, and then click **OK**.
  
 <a id="004"></a>
