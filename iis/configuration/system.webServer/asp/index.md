@@ -80,7 +80,7 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **ASP**, and then click **OK**.  
-    ![](index/_static/image9.png)
+    ![Screenshot of the Windows Features dialog box. A S P is selected under the Application Development Features node.](index/_static/image9.png)
 
 <a id="004"></a>
 
