@@ -57,11 +57,11 @@ The `<virtualDirectoryDefaults>` element of the `<application>` element is inclu
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, expand the node for your site, then click the name of the application.
 3. In the site's **Home** pane, click **View Virtual Directories** in the **Actions** pane.  
-    [![](virtualDirectoryDefaults/_static/image2.png)](virtualDirectoryDefaults/_static/image1.png)
+    ![Screenshot of I I S Manager showing MyApplication Home in the main pane. View Virtual Directories is selected in the Actions Pane.](virtualDirectoryDefaults/_static/image1.png)
 4. In the **Virtual Directories** pane, click **Set Virtual Directory Defaults...** in the **Actions** pane.  
-    [![](virtualDirectoryDefaults/_static/image4.png)](virtualDirectoryDefaults/_static/image3.png)
+    ![Screenshot of I I S Manager showing Virtual Directories in the main pane. Add Virtual Directory is selected in the Actions Pane.](virtualDirectoryDefaults/_static/image3.png)
 5. In the **Virtual Directories Defaults** dialog box, specify your default virtual directory credentials for the application, and then click **OK**.  
-    [![](virtualDirectoryDefaults/_static/image6.png)](virtualDirectoryDefaults/_static/image5.png)
+    ![Screenshot of the Virtual Directories Defaults dialog. Physical Path Credentials is selected.](virtualDirectoryDefaults/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration
