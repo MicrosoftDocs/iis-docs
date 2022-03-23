@@ -135,7 +135,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.  
-    [![Screenshot of the contoso.com home pane. The F T P Request icon is highlighted.](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of the contoso dot com home pane. The F T P Request icon is highlighted.](index/_static/image10.png)](index/_static/image9.png)
 4. In the **FTP Request Filtering** pane, click the **Denied URL Sequences** tab.  
     [![Screenshot of the F T P Request Filtering pane. The Denied U R L Sequences tab is selected.](index/_static/image12.png)](index/_static/image11.png)
 5. Click **Add URL Sequence...** in the **Actions** pane.

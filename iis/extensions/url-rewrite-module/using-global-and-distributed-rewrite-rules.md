@@ -56,7 +56,7 @@ To create a global rule by using URL Rewrite UI in IIS Manager follow these step
 1. Go to IIS Manager
 2. In the navigation tree view select the server node.
 3. In the Feature View click "URL Rewrite Module"  
-    [![Screenshot of the W I N two K eight R T M home page. The U R L Rewrite icon is highlighted.](using-global-and-distributed-rewrite-rules/_static/image2.png)](using-global-and-distributed-rewrite-rules/_static/image1.png)
+    [![Screenshot of the WIN two K eight R T M home page. The U R L Rewrite icon is highlighted.](using-global-and-distributed-rewrite-rules/_static/image2.png)](using-global-and-distributed-rewrite-rules/_static/image1.png)
 4. In the "Actions" pane click "Add rules…"  
     [![Screenshot of the U R L Rewrite page. In the Actions pane Add Rules is highlighted.](using-global-and-distributed-rewrite-rules/_static/image4.png)](using-global-and-distributed-rewrite-rules/_static/image3.png)
 5. In the "Add Rules" dialog select "Blank Rule" and click "Ok":  
