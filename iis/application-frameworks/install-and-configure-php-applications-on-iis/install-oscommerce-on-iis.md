@@ -46,27 +46,27 @@ Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dyn
 1. Start the configuration procedure in a Web browser. Go to `http://www.my-server.com/osCommerce/catalog`. (If the Index.php file is not in the browser default document, then add it.)
 2. Click on the installation link on the top of the page to redirect to the Install Wizard. The welcome page appears on the Web browser, and the configuration procedure can be started by clicking **Continue**.  
 
-    [![](install-oscommerce-on-iis/_static/image2.jpg)](install-oscommerce-on-iis/_static/image1.jpg)
+    ![Screenshot of the o s Commerce welcome page in a web browser.](install-oscommerce-on-iis/_static/image1.jpg)
 
     *Figure 1: Welcome screen*
 3. Next, provide details for the osCommerce database that you have created. Click **Continue**.  
 
-    [![](install-oscommerce-on-iis/_static/image4.jpg)](install-oscommerce-on-iis/_static/image3.jpg)
+    ![Screenshot of the specified o s Commerce Database Server for a New Installation.](install-oscommerce-on-iis/_static/image3.jpg)
 
     *Figure 2: Database import*
 4. You can now accept the default settings; or you can change the *URL* in the **WWW Address** box and change the *path* in the **Webserver Root Directory** box. Click **Continue**.  
 
-    [![](install-oscommerce-on-iis/_static/image6.jpg)](install-oscommerce-on-iis/_static/image5.jpg)
+    ![Screenshot of the specified Web Server for a New o s Commerce Installation.](install-oscommerce-on-iis/_static/image5.jpg)
 
     *Figure 3: Database import was successful*
 5. Provide the information for your new Online Store, and then click **Continue**.  
 
-    [![](install-oscommerce-on-iis/_static/image8.jpg)](install-oscommerce-on-iis/_static/image7.jpg)
+    ![Screenshot of the specified Online Store Settings for a New o s Commerce Installation.](install-oscommerce-on-iis/_static/image7.jpg)
 
     *Figure 4: osCommerce configuration*
 6. The following message appears after a successful installation.  
 
-    [![](install-oscommerce-on-iis/_static/image10.jpg)](install-oscommerce-on-iis/_static/image9.jpg)
+    ![Screenshot of the confirmation page after successfully installing.](install-oscommerce-on-iis/_static/image9.jpg)
 
     *Figure 5: osCommerce configuration successful*
 
@@ -86,12 +86,12 @@ To test that osCommerce was successfully installed, try to chat with an operator
 
 1. Go to `http://localhost/oscommerce/index.php`.  
 
-    [![](install-oscommerce-on-iis/_static/image12.jpg)](install-oscommerce-on-iis/_static/image11.jpg)
+    ![Screenshot of the new o s Commerce test site home page.](install-oscommerce-on-iis/_static/image11.jpg)
 
     *Figure 6: osCommerce page*
 2. Shop by selecting the items available in the left panel.  
 
-    [![](install-oscommerce-on-iis/_static/image14.jpg)](install-oscommerce-on-iis/_static/image13.jpg)
+    ![Screenshot of the shopping cart with one item in the o s Commerce site.](install-oscommerce-on-iis/_static/image13.jpg)
 
     *Figure 7: Shop at osCommerce*
 
