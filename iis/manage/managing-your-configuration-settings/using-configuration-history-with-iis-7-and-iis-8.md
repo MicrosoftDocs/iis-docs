@@ -97,10 +97,10 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 > It is likely that your copy will not show immediately after following these steps. This is based on the default value of two minutes. If you find that no copy is created, check to make sure that you have waited two minutes.
 
 1. Click **Start**, **Run**, and open `%systemdrive%\inetpub\history`.    
-![Screenshot showing the inetpub window. The history folder is highlighted.](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
+![Screenshot showing the i net pub window. The history folder is highlighted.](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
     **Figure 9: Configuration History Default Path**
 2. Double-click the history folder and locate the most recent change.  
-    ![Screenshot showing the history folder and most recent change of ApplicationHost.config.](using-configuration-history-with-iis-7-and-iis-8/_static/image22.png)  
+    ![Screenshot showing the history folder and most recent change of ApplicationHost dot config.](using-configuration-history-with-iis-7-and-iis-8/_static/image22.png)  
     **Figure 10: History File of ApplicationHost.config**
 
     > [!NOTE]
@@ -130,8 +130,8 @@ The next step is to add the configuration section, and then add the attribute wi
 
 ### Step 2: Add configHistory Section and Add maxHistory
 
-1. To locate configHistory section, click **CTRL-F** and enter &lt;system.applicationHost.  
-    ![Screenshot showing the Find dialog box to locate the configHistory section. The dialog box entry <system.applicationHost is highlighted.](using-configuration-history-with-iis-7-and-iis-8/_static/image26.png)  
+1. To locate configHistory section, click **CTRL-F** and enter system.applicationHost.  
+    ![Screenshot showing the Find dialog box to locate the configHistory section. The dialog box entry system.applicationHost is highlighted.](using-configuration-history-with-iis-7-and-iis-8/_static/image26.png)  
     **Figure 12: Locating system.applicationHost Section Group**
 2. Now that you are in the right section, add the correct attribute and value for maxHistory. Type the following text into your system.applicationHost section group: 
 
@@ -159,7 +159,7 @@ After completing, the configHistory section looks like the following:
 
     [!code-vb[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample4.vb)]
 2. Save this as ConfigHst.vbs (ensure that you choose All Files to avoid saving as a text file).  
-    ![Screenshot showing Save As dialog box for saving the V B S script file. The Text Documents option from the Save as type pulldown menu is highlighted.](using-configuration-history-with-iis-7-and-iis-8/_static/image28.png)  
+    ![Screenshot showing the Save As window.](using-configuration-history-with-iis-7-and-iis-8/_static/image28.png)  
     **Figure 13: Saving VBS Script**
 3. Run this VBS file by opening a command prompt, locating the file location where saved, and type the following: 
 
@@ -171,7 +171,7 @@ After completing, the configHistory section looks like the following:
 
 After running this script, notice how this feature pushes the oldest out when hitting the maximum (i.e. maxHistories.) In our case, after reaching CFGHISTORY\_0000000015, the oldest item was deleted before creating the sixteenth directory.
 
-![Screenshot showing the history directory window in I I S containing 15 backup folders.](using-configuration-history-with-iis-7-and-iis-8/_static/image30.png)  
+![Screenshot showing the history directory window.](using-configuration-history-with-iis-7-and-iis-8/_static/image30.png)  
 **Figure 14: History Directory with maxistories value of 15**
 
 ### Summary
@@ -196,7 +196,7 @@ We use in this task a method to modify the configuration--in this case, the IIS 
     md MyWebHistory
 
 This step is required because no directory is automatically created if it does not exist. If you fail to do this step, you see the following:  
-![Screenshot showing the Event Properties error message that generates when a history directory does not exist.](using-configuration-history-with-iis-7-and-iis-8/_static/image32.png)  
+![Screenshot showing the Event Properties information window.](using-configuration-history-with-iis-7-and-iis-8/_static/image32.png)  
 **Figure 15: Event Message if Permissions Inadequate to History Path**
 
 ### Step 2: Locate AppCmd.exe
@@ -233,7 +233,7 @@ At this point, change the value for the path attribute to a value that is more a
 [!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample11.xml)]
 
 You see the following:  
-![Screenshot of an A P P C M D prompt showing a validated changed path value for configHistory.](using-configuration-history-with-iis-7-and-iis-8/_static/image34.png)  
+![Screenshot of the Administrator Command console.](using-configuration-history-with-iis-7-and-iis-8/_static/image34.png)  
 **Figure 16: Using AppCmd to list Configuration**
 
 Last, we will produce changes to the configuration causing a backup to be triggered -- notice the new location for the directories and files.
