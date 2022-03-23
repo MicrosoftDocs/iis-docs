@@ -129,7 +129,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Click to select **UNIX** for the **Directory Listing Style**.
     - Click to select **Virtual directories**.
     - Click to select **Available bytes**.  
-        [![Screenshot of the F T P Directory Browsing page. M S dash D O S is selected.](directoryBrowse/_static/image12.png)](directoryBrowse/_static/image11.png)
+        [![Screenshot of the F T P Directory Browsing page. M S dash DOS is selected.](directoryBrowse/_static/image12.png)](directoryBrowse/_static/image11.png)
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>

@@ -152,7 +152,7 @@ A Content Manifest is essentially an XML-based playlist file that defines, and a
 
 As indicated in Figure 5, the fragments from the live stream are not copied and joined together; rather, the start and stop points in the original stream are referenced. When the player plays the clip, each stream is located and played in the order indicated in the Composite Manifest. Although Smooth Streaming files typically delivers fragments that are 2 seconds in duration, the Composite Manifest lets you start and end your clips within the boundaries of any given fragment. This means cuts are not constrained to be made at fixed two-second fragment intervals, but can be nearly frame-accurate.
 
-[![DIagram of the composite manifest for a highlights clip. It lets the user start and end clips within the boundaries of a given fragment.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image20.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image19.jpg)
+[![Diagram of the composite manifest for a highlights clip. It lets the user start and end clips within the boundaries of a given fragment.](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image20.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image19.jpg)
 
 Figure 5. The composite manifest for a highlights clip.
 
