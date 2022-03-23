@@ -63,7 +63,7 @@ You can also add the **PlayReady Protection** task to other built-in job templat
 To configure job templates, do the following:
 
 1. In IIS Manager, in the **Connections** pane, click **Job Templates**.  
-   ![Screenshot shows Connections pane to select Job Templates.](encrypting-on-demand-smooth-streams/_static/image1.png)
+   ![Screenshot that shows the Connections pane. Job Templates is selected under the Transform Manager node.](encrypting-on-demand-smooth-streams/_static/image1.png)
 2. In the **Job Templates** page, select the **Smooth Streams to encrypted Smooth Streams** job template or one of the other job templates that produces unencrypted Smooth Streaming output (for example, the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template). 
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
@@ -72,12 +72,12 @@ To configure job templates, do the following:
 
    Note the name of the watch folder that the job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transformation jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
-   ![Screenshot shows Actions pane to select Edit option.](encrypting-on-demand-smooth-streams/_static/image7.png)
+   ![Screenshot that shows the Edit option on the Actions pane.](encrypting-on-demand-smooth-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, on the **Basic Settings** tab, you can edit the job template **Name** and **Description** to give it more descriptive information for your environment.  
 
    | **Smooth Streams to encrypted Smooth Streams** | **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** |
    | --- | --- |
-   | ![Screenshot shows Edit Job Template dialog box to edit name and description.](encrypting-on-demand-smooth-streams/_static/image11.png) | ![Screenshot shows the second job template to edit name and description fields.](encrypting-on-demand-smooth-streams/_static/image12.png) |
+   | ![Screenshot shows Edit Job Template dialog box to edit name and description.](encrypting-on-demand-smooth-streams/_static/image11.png) | ![Screenshot that shows the Edit Job Template dialog box for encrypting Smooth Streams.](encrypting-on-demand-smooth-streams/_static/image12.png) |
 
    The **Task definitions** list shows the tasks that are used by the job template.
 
@@ -85,7 +85,7 @@ To configure job templates, do the following:
    > The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article.
 
 5. If you selected the **Smooth Streams to encrypted Smooth Streams** job template, select the **PlayReady Protection** task in the **Task definitions** list, click **Edit**, and then [configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).  
-   ![Screenshot shows protection task in the task definitions list.](encrypting-on-demand-smooth-streams/_static/image17.png)
+   ![Screenshots that show the Edit Job Template dialog box. Play Ready Protection is listed for the Task definitions and the Edit button is highlighted.](encrypting-on-demand-smooth-streams/_static/image17.png)
 
    If you selected another job template, you must add the **PlayReady Protection** task to the proper location in the **Task definitions** list before configuring its properties. For more information, see [Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task) .
 
