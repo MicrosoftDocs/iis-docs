@@ -42,7 +42,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Windows Authentication**. Click **Next**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of Web Server and Security pane expanded and Windows Authentication selected.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -52,7 +52,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Windows Authentication**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot shows World Wide Web Services and Security pane expanded and Windows Authentication selected.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -62,7 +62,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.   
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of Select Role Services page with Security pane expanded and Windows Authentication selected.](add/_static/image6.png)](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -72,7 +72,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
 4. Select **Windows Authentication**, and then click **OK**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot shows World Wide Web Services and Security pane expanded with Windows Authentication highlighted.](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
