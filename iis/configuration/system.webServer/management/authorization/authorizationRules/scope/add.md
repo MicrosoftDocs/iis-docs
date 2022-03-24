@@ -40,7 +40,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Management Tools**, and then select **Management Service**. Click **Next**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    ![Screenshot of the Server Roles wizard. Management Service is highlighted in the drop down menu.](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -50,7 +50,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **Web Management Tools**, and then select **IIS Management Service**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    ![Screenshot of the Windows Features dialog box. I I S Management Service is highlighted in the menu.](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -60,7 +60,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Management Service**, and then click **Next**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    ![Screenshot of the Role Services page. Management Service is highlighted in the list.](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -70,7 +70,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **Web Management Tool**.
 4. Select **IIS Management Service**, and then click **OK**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    ![Screenshot of the Management Service page in I I S Manager.](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -95,15 +95,15 @@ The default installation of IIS 7 and later does not include the **Management Se
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to authorize an IIS Manager user.
 3. In the **Home** pane, double-click **IIS Manager Permissions**.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    ![Screenshot of the Default Web Site Home page. The icon for I I S Manager Permissions is highlighted.](add/_static/image9.png)
 4. On the **IIS Manager Permissions** page, click **Allow User...** in the **Actions** pane.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    ![Screenshot of the I I S Manager Permissions page.](add/_static/image11.png)
 5. In the **Allow User** dialog box, choose **IIS Manager**, then click **Select...**  
-    [![](add/_static/image14.png)](add/_static/image13.png)
+    ![Screenshot of the Allow Users dialog box.](add/_static/image13.png)
 6. In the **Users** dialog box, highlight the user account that you want to allow, and then click **OK**.  
-    [![](add/_static/image16.png)](add/_static/image15.png)
+    ![Screenshot of the Users Dialog box. Contoso User is highlighted in the Select User field.](add/_static/image15.png)
 7. In the **Allow User** dialog box, click **OK**.  
-    [![](add/_static/image18.png)](add/_static/image17.png)
+    ![Screenshot of the Allow User dialog box with Contoso User displayed in the I I S Manager field. ](add/_static/image17.png)
 
 <a id="005"></a>
 ## Configuration

@@ -44,7 +44,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    > [![](fileHandling/_static/image2.png)](fileHandling/_static/image1.png)
+    > ![Screenshot of the Server Roles dialog box. F T P Extensibility is highlighted in the drop down menu.](fileHandling/_static/image1.png)
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -57,7 +57,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    > [![](fileHandling/_static/image4.png)](fileHandling/_static/image3.png)
+    > ![Screenshot of the Windows Features dialog box. F T P Extensibility is highlighted in the drop down menu.](fileHandling/_static/image3.png)
 
 4. Click **OK**.
 5. Click **Close**.
@@ -72,7 +72,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](fileHandling/_static/image6.png)](fileHandling/_static/image5.png)
+    ![Screenshot of the Select Role Services page. F T P Service is highlighted in the dropdown menu.](fileHandling/_static/image5.png)
 
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -87,7 +87,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](fileHandling/_static/image8.png)](fileHandling/_static/image7.png)
+    ![Screenshot of the Windows Features wizard displaying the Turn Windows Features on or off menu. ](fileHandling/_static/image7.png)
 
 5. Click **OK**.
 
@@ -122,7 +122,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then click the **Sites** node.
 3. In the **Sites** pane, click **Set FTP Site Defaults** in the **Actions** pane.
-    [![](fileHandling/_static/image10.png)](fileHandling/_static/image9.png)
+    ![Screenshot of the F T P Site Defaults dialog box.](fileHandling/_static/image9.png)
 4. In the **FTP Site Defaults** dialog box, expand **File Handling**, and specify the following options:
 
     - Specify **True** for **Allow Reading Files While Uploading** if the FTP service should allow read access to files that are currently being uploaded; otherwise, specify **False**.
@@ -131,7 +131,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
         > [!NOTE]
         > Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.  
-        > [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
+        > ![Screenshot of the F T P Site Defaults dialog box with the File Handling option expanded.](fileHandling/_static/image11.png)
 
 5. Click **OK**.
 

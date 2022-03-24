@@ -54,7 +54,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](logFile/_static/image2.png)](logFile/_static/image1.png) .
+    ![Screenshot of the Server Roles dialog box. F T P Extensibility is highlighted in the drop down menu.](logFile/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -67,7 +67,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](logFile/_static/image4.png)](logFile/_static/image3.png)
+    ![Screenshot of the Windows Features wizard with F T P Extensibility highlighted in the drop down menu.](logFile/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](logFile/_static/image6.png)](logFile/_static/image5.png)
+    ![Screenshot of the Select Role Services page. F T P Service is highlighted in the menu.](logFile/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -95,7 +95,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](logFile/_static/image8.png)](logFile/_static/image7.png)
+    ![Screenshot of the Windows Features dialog box focused on the Turn Windows features on or off menu.](logFile/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -130,9 +130,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name where you want to configure logging.
 3. In the **Home** pane, double-click **FTP Logging**.  
-    [![](logFile/_static/image10.png)](logFile/_static/image9.png) - In the **Log File Rollover** section, click **Select W3C Fields...**
+    ![Screenshot of the Server Home page in I I S Manager. The icon for F T P Logging is highlighted.](logFile/_static/image9.png) - In the **Log File Rollover** section, click **Select W3C Fields...**
 4. Select the fields for your log files, then click **OK**.  
-     [![](logFile/_static/image12.png)](logFile/_static/image11.png)
+     ![Screenshot of the W 3 C Logging Fields dialog box.](logFile/_static/image11.png)
 5. Under **Directory**, specify the path where the log file should be stored. The default is *%SystemDrive%*\inetpub\logs\LogFiles.
 6. In the **Log File Rollover** section, specify the following options: 
 
@@ -145,7 +145,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
      - **Maximum file size (in bytes)**: to create a new log file when the file reaches a certain size (in bytes). The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
      - **Do not create a new log file**: there is a single log file that will continue to grow as information is logged.
      - Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this is not selected, Coordinated Universal Time (UTC) is used.  
-         [![](logFile/_static/image14.png)](logFile/_static/image13.png)
+         ![Screenshot of the F T P Logging page within I I S Manager.](logFile/_static/image13.png)
 7. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
