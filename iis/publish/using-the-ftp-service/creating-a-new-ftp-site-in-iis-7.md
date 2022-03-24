@@ -109,7 +109,7 @@ You have successfully created a new FTP site using the new FTP service. To recap
 Creating a new FTP site that anonymous users can browse is useful for public download sites, but web authoring is equally important. In this step, you add additional authentication and authorization settings for the administrator account. To do so, follow these steps:
 
 1. In IIS Manager, click the node for the FTP site that you created earlier, then double-click **FTP Authentication** to open the FTP authentication feature page.  
-    ![Screenshot of the I I S Manager page. The My New F T P Site Home page is shown.The F T P Authentication icon is highlighted.](creating-a-new-ftp-site-in-iis-7/_static/image1.png)
+    ![Screenshot of the I I S Manager page. The My New F T P Site Home page is shown. The F T P Authentication icon is highlighted.](creating-a-new-ftp-site-in-iis-7/_static/image1.png)
 2. When the **FTP Authentication** page displays, highlight **Basic Authentication** and then click **Enable** in the **Actions** pane.  
     ![Screenshot of the F T P Authentication page. The Basic Authentication option is highlighted. The Enable button is located in the Actions pane.](creating-a-new-ftp-site-in-iis-7/_static/image5.png)
 3. In IIS Manager, click the node for the FTP site to re-display the icons for all of the FTP features.
