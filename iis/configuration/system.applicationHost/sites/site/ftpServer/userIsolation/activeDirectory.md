@@ -1,7 +1,7 @@
 ---
 title: "FTP Active Directory User Isolation &lt;activeDirectory&gt;"
 author: rick-anderson
-description: "Overview The &lt;activeDirectory&gt; element specifies the credentials and connection time-out for communicating with an Active Directory server for FTP user..."
+description: Overview The &lt;activeDirectory&gt; element specifies the credentials and connection time-out for communicating with an Active Directory server with FTP
 ms.date: 09/26/2016
 ms.assetid: 4585a7a6-92be-4d76-901b-43231aeab8fb
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation/activedirectory
