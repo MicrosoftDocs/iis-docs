@@ -46,15 +46,15 @@ There are two things that can happen when the httpError module (custerr.dll) enc
 
 Custom errors are error pages that the regular users of your web-site see. They contain a brief error description of why the error happened, but nothing else. Here is the custom error generated when you request a resource that does not exist, for example: http://&lt;IIS7Server&gt;/this\_resource\_does\_not\_exist
 
-[![](how-to-use-http-detailed-errors-in-iis/_static/image2.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image1.jpg)
+[![Screenshot of the the H T T P Error 404 file or directory not found webpage in Internet Explorer.](how-to-use-http-detailed-errors-in-iis/_static/image2.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image1.jpg)
 
 Detailed errors are intended for local administrators and developers. They are supposed to provide information that helps to immediately fix the problem. Here is an example of the same request, but now returning a Detailed Error:
 
-[![](how-to-use-http-detailed-errors-in-iis/_static/image5.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image4.jpg)
+[![Screenshot of the Server Error in Default Web Site Application webpage, showing a Cause and Solution section for the error.](how-to-use-http-detailed-errors-in-iis/_static/image5.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image4.jpg)
 
 This is dangerous, because Detailed Errors contain information about the inner workings of your web-site. Only trusted personnel should see a Detailed Error. The only way to ensures this is to only generate a detailed error if the request comes from the local machine. As soon as the request is not local, a custom error is generated. Look at the following flow diagram:
 
-[![](how-to-use-http-detailed-errors-in-iis/_static/image7.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image6.jpg)
+[![Diagram of the Status Substatus, Entity Body, and Set Error's path of creating a detailed error.](how-to-use-http-detailed-errors-in-iis/_static/image7.jpg)](how-to-use-http-detailed-errors-in-iis/_static/image6.jpg)
 
 ### Data Flow
 
