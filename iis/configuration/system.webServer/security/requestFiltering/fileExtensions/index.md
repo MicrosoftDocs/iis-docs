@@ -1,7 +1,7 @@
 ---
 title: "File Name Extensions &lt;fileExtensions&gt;"
 author: rick-anderson
-description: "Overview The &lt;fileExtensions&gt; element contains a collection of &lt;add&gt; elements that specify unique file name extensions that IIS will either allow..."
+description: The `<fileExtensions>` element contains a collection of `<add>` elements that specify unique file name extensions that IIS will either allow or deny, depending on how each `<add>` element is defined. 
 ms.date: 09/26/2016
 ms.assetid: c42b79be-4623-4844-a15e-0156688c9d93
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/fileextensions
