@@ -13,7 +13,7 @@ by [Thomas Deml](https://github.com/thomasdeml)
 
 Whether you are running your site on your own server or [in the cloud](https://docs.microsoft.com/azure/app-service/), security must be at the top of your priority list. If so, you will be happy to hear that IIS has a security feature called the application pool identity. This feature was introduced in Service Pack 2 (SP2) of Windows Server 2008 and Windows Vista. An application pool identity allows you to run an application pool under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The image below shows an IIS worker process (W3wp.exe) running as the DefaultAppPool identity.
 
-![](application-pool-identities/_static/image1.jpg)
+![Screenshot of the Task Manager screen with a focus on the W 3 W P dot E X E I I S worker process.](application-pool-identities/_static/image1.jpg)
 
 ## Application Pool Identity Accounts
 
@@ -31,11 +31,11 @@ To use this virtual account when running IIS 7.0 on Windows Server 2008, you hav
 2. Open the Application Pools node underneath the machine node. Select the application pool you want to change to run under an automatically generated application pool identity.
 3. Right click the application pool and select **Advanced Settings**
 
-    ![](application-pool-identities/_static/image5.jpg)
+    ![Screenshot of the Advanced Settings dialog with the Identity setting being highlighted.](application-pool-identities/_static/image5.jpg)
 4. Select the **Identity** list item and click the ellipsis (the button with the three dots).
 5. The following dialog appears:
 
-    ![](application-pool-identities/_static/image7.jpg)
+    ![Screenshot of the Application Pool Identity dialog with the Application Pool Identity option being highlighted.](application-pool-identities/_static/image7.jpg)
 6. Select the Built-in account button, and then select the identity type **ApplicationPoolIdentity** from the combo box.
 
 To do the same step by using the command-line, you can call the appcmd command-line tool the following way:
@@ -55,7 +55,7 @@ You can try this by selecting a file in Windows Explorer and adding the "Default
 5. Click the **Edit** button and then **Add** button
 6. Click the **Locations** button and make sure that you select your computer.
 
-    ![](application-pool-identities/_static/image9.jpg)
+    ![Screenshot of the Select Users or Groups dialog.](application-pool-identities/_static/image9.jpg)
 7. Enter **IIS AppPool\DefaultAppPool** in the **Enter the object names to select:** text box.
 8. Click the **Check Names** button and click **OK**.
 

@@ -64,9 +64,9 @@ The `<add>` element of the `<serviceAutoStartProviders>` element is included in 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the **Home** pane, double-click the **Configuration Editor** feature.  
-    [![](add/_static/image2.png)](add/_static/image1.png)
+    ![Screenshot of the Home Pane with the Configuration Editor feature highlighted.](add/_static/image1.png)
 4. In the **Section** drop-down menu, expand **system.applicationHost**, and then click **serviceAutoStartProviders**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    ![Screenshot of the Configuration Editor screen showing the Section dropdown menu.](add/_static/image3.png)
 5. Click the ellipsis (**...**) on the right-side of the **(Collection)** field.
 6. In the **Actions** pane, click **Add**.
 7. When the Collection Editor dialog box appears: 
@@ -76,7 +76,7 @@ The `<add>` element of the `<serviceAutoStartProviders>` element is included in 
     - Enter the managed type of your autostart assembly in the **type** field. For example:  
  "MyAutostartProvider, MyAutostartProvider, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73"
     - Close the Collection Editor dialog box.  
-        [![](add/_static/image6.png)](add/_static/image5.png)
+        ![Screenshot of the Collection Editor dialog box.](add/_static/image5.png)
 8. In the **Actions** pane, click **Apply**.
 
 > [!NOTE]
