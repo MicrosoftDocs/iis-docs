@@ -59,7 +59,7 @@ Consider the following example scenarios:
 
 More information about Extended Protection is available in the following topic:
 
-> [Integrated Windows Authentication with Extended Protection](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/dd639324(v=vs.90))
+> [Integrated Windows Authentication with Extended Protection](/previous-versions/visualstudio/visual-studio-2008/dd639324(v=vs.90))
 > 
 > [Service Principal Names](/windows/win32/ad/service-principal-names)
 

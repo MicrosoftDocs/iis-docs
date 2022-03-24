@@ -23,7 +23,7 @@ The Microsoft Web Platform gives you the framework, web server, database and too
 | **Web Application Gallery** | Browse/Search for Web Applications to customize and publish to a hosting provider | Supports these popular applications |
 | **WebsitePanel** | Uses it to manage their Hosting Account and resources | Uses it to manage their plans, customers, resource allocation, and provisioning |
 
-![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image1.png)
+![Diagram of the Microsoft Web Platform Ecosystem.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image1.png)
 
 Image 4: The Microsoft Web Platform Ecosystem
 
@@ -35,17 +35,17 @@ To get started, setup the hyper-v host server with Windows Server 2008 R2 Enterp
 
 a. Click the "Server Manager" button in the task bar; or click "Start" menu, type "Server Manager" and press Enter. This will bring up the Server Manager application.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image3.png)
+   ![Screenshot of the task bar. The Server Manager button is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image3.png)
 
 b. On the left panel of Server Manager click on "Roles"
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image5.png)
+   ![Screenshot of the Server Manager dialog box. In the left panel Roles is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image5.png)
 
 c. Under "Roles Summary" click on "Add Roles". Follow the Add Roles Wizard to Add the Hyper-v role. The wizard will ask you to reboot the computer; when you log back in, the wizard will complete the Hyper-v configuration.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image7.png)
+   ![Screenshot of the Server Manager dialog box. Add Roles is highlighted under Roles Summary.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image7.png)
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image9.png)
+   ![Screenshot of the Select Server Roles Wizard. The Hyper dash v role is selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image9.png)
 
 ## Create your Web Server VM
 
@@ -53,25 +53,25 @@ This section will guide you through the creation of a guest VM to be the Web Ser
 
 a. On the host machine, click the "Start" menu, type "Hyper-v Manager" and press Enter. This will bring up the Hyper-v Manager application.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image11.png)
+   ![Screenshot of the Hyper dash v Manager application.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image11.png)
 
 b. On the "Actions" bar (right side) click "New" and select "Virtual Machine". The New virtual Machine Wizard will come up.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image13.png)
+   ![Screenshot of the Actions bar. Virtual Machine is selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image13.png)
 
 c. Enter the name of the virtual machine, I usually use a descriptive name that refers to the OS version used, for example "WS2K8R2Std".
 
 d. On the same screen, select the location of where in disk the virtual machine will be stored. Do so by checking the check box and selecting the location you will use for the Web Server VM.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image15.png)
+   ![Screenshot of the New Virtual Machine Wizard. In the Name box the text New Virtual Machine is written and highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image15.png)
 
 e. If you already have a prepared virtual hard disk available, this is the moment to specify to use it for your VM; otherwise you could create one from scratch or attach one later.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image17.png)
+   ![Screenshot of the Connect Virtual Hard Disk page of the New Virtual Machine Wizard. Create a virtual hard disk is selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image17.png)
 
 f. The next step is to install the OS, you have several options, for some of them you need to have the OS media ready. If you have not visited the SPLA site to download Windows Server 2008 R2 SP1 Standard, now is the time. You can use the downloaded OS in this step or do it later from a DVD, network drive, or network-based installation server.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image19.png)
+   ![Screenshot of the Installation page. Install an operating system later is selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image19.png)
 
 From this point on your VM will be ready for you to start and connect to, use the Hyper-v Manager and double click on the machine listed under "Virtual Machines" in the center panel.
 
@@ -92,15 +92,15 @@ If you have WebPI 3.0 installed, the following link will automatically launch it
 1. Login in the VM created in the previous section, use your administration account. Notice that these instructions will work regardless of whether you are using a VM or an actual machine.
 2. [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended). This link will install WebPI (if you have not done so already) and will let you review the list of products and dependencies before you start the process of installing the components. Notice that this list of components completely fulfills the Spotlight requirements from the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/home).
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image21.png)
+   ![Screenshot of the Install Now button. This is powered by the Microsoft Web Platform Installer.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image21.png)
 
 3. Once the Web PI window is displayed, click the "Items to be installed" link to review the list of products and dependencies.
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image25.png)
+   ![Screenshot of the Web Platform Installer 3 dot 0. The I I S Recommended Configuration is shown. The Items to be installed link is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image25.png)
 
 4. Scroll down to see the rest of the items in the list:
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image27.png)
+   ![Screenshot of a list of items ready to be installed.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image27.png)
 
    Here is the list of Products to install:
 
@@ -109,9 +109,9 @@ If you have WebPI 3.0 installed, the following link will automatically launch it
 
 5. Review the license page and accept the terms to continue with the install:
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image29.png)
+   ![Screenshot of the license page. The I Accept button is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image29.png)
 
-   ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image33.png)
+   ![Screenshot of the Web Platform Installation Wizard. The Installation progress bar is shown.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image33.png)
 
 6. If you are not using Windows Server 2008 R2 **SP1**, install the following Web Server Patch: [Extensionless URL Hotfix](https://support.microsoft.com/kb/980368). This hotfix is required for ASP.NET Web Pages to function correctly. It is discussed further in [this blog post](https://blogs.msdn.com/b/tmarq/archive/2010/04/01/asp-net-4-0-enables-routing-of-extensionless-urls-without-impacting-static-requests.aspx).
 7. (Optional) [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;Tracing;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52;MySQLConnector;SQLDriverPHP52IIS). Many of the web applications that can be published by WebMatrix have PHP/MySQL components as requirements. To ensure you are able to support those applications, you can use this link to install everything above plus PHP/MySQL related components
@@ -183,33 +183,33 @@ Create a third guest as the Content Server Virtual Machine
 
    1. Click the "Server Manager" button in the task bar; or click "Start" menu, type "Server Manager" and press Enter. This will run the Server Manager application.
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image35.png)
+      ![SCreenshot of the task bar. The Server Manager button is highlighted. This will run the Server Manager application.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image35.png)
 
    2. On the left panel of Server Manager click on "Features"
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image37.png)
+      ![Screenshot of the Server Manager page. In the left panel of the Server Manager, Features is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image37.png)
 
    3. Under "Features Summary" click on "Add Features". Follow the Add Features Wizard to Add the Backup service.
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image39.png)
+      ![Screenshot of the Server Manager page. Add Features is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image39.png)
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image41.png)
+      ![Screenshot of the Add Features Wizard. Windows Server Backup Features is highlighted and selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image41.png)
 
 1. Install the File Services role in the content server.
 
    1. Click the "Server Manager" button in the task bar; or click the "Start" menu, type "Server Manager" and press Enter. This will run the Server Manager application.
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image45.png)
+      ![Screenshot of the Server Manager application. Under Server Manager, Roles is highlighted and selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image45.png)
 
    2. On the left panel of Server Manager click on "Roles"
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image45.png)
+      ![Screenshot of the Server Manager application. Under Server Manager WALTER O H P W S, Roles is highlighted and selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image45.png)
 
    3. Under "Roles Summary" click on "Add Roles". Follow the Add Roles Wizard to Add the "File Services" role.
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image47.png)
+      ![Screenshot of the Server Manager page. In the right pane, Roles is highlighted. In the Roles Summary category, Add Roles is highlighted.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image47.png)
 
-      ![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image49.png)
+      ![Screenshot of the Select Server Roles page. File Services is highlighted and selected.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image49.png)
 
 ## Configure your Control Panel Server VM
 
