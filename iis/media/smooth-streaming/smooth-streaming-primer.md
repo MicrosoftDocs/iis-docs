@@ -38,7 +38,7 @@ Documentation providing a detailed technical overview of Smooth Streaming is ava
 ## About the Protected Interoperable File Format (PIFF)
 
 The [Protected Interoperable File Format (PIFF) Specification](https://go.microsoft.com/?linkid=9740298) defines a standard multimedia file format for multimedia content delivery and playback. It includes the audio-video container, stream encryption, and metadata to support content delivery for multiple bitrate adaptive streaming, optionally using a standard encryption scheme that can support multiple DRM systems. IIS Smooth Streaming uses the PIFF container as its file format. In this respect, Smooth Streaming files and PIFF files can be used synonymously – as Smooth Streaming is a brand name used by Microsoft on top of the PIFF container.  
-![](smooth-streaming-primer/_static/image1.png)  
+![Diagram of the File Types used for Movie Metadata, Fragment, and Movie Fragment Random Access.](smooth-streaming-primer/_static/image1.png)  
 **Figure 1 PIFF file format**
 
 PIFF provides a simple, efficient solution to the DRM interoperability problem. It enables content to be encrypted once – rather than once for each DRM technology used – for delivery in a variety of scenarios. PIFF is standards-based and provides new efficiencies in the creation and delivery of protected content.
@@ -117,7 +117,7 @@ Deployment articles and tutorials are available on IIS.net:
 IIS Media Services supports failover at both the server and the encoder through a scalable architecture.
 
 Live Smooth Streaming servers accept encoded live streams from the encoders and then make them available to clients. To build server networks for scale and redundancy, they can also accept input from other servers and provide output to other servers. Using this model, a number of server roles are used in Smooth Streaming deployments to ensure scalability and guarantee delivery of the streams. The following figure shows the different server roles.  
-![](smooth-streaming-primer/_static/image2.png)  
+![Diagram of the relationship between encoders, servers, and H T T P Network.](smooth-streaming-primer/_static/image2.png)  
 **Figure 2 Encoder and server failover configuration**
 
 The figure shows a typical server architecture for live streaming, which includes five layers: encoder, ingest, origin, distribution, and client. The solid lines show the normal data-flow path while the dotted lines show the backup ("failover") paths. The roles for the encoder and server layers are described in the following sections:
@@ -205,7 +205,7 @@ The Microsoft Smooth Streaming Client Porting Kit is available to provide Smooth
 Microsoft Expression Encoder 4 supports both live and on-demand Smooth Streaming to IIS Media Services and both Silverlight clients and Apple® devices. The article [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9740436) walks through end-to-end delivery of live Smooth Streams to Apple mobile devices and to Silverlight clients using IIS Media Services 4.
 
 In addition, the article [Transforming Media Files to On-Demand Smooth Streams](https://go.microsoft.com/?linkid=9740437) walks through the delivery of on-demand Smooth Streams using Expression Encoder 4 as a batch-processing tool in combination with [IIS Transform Manager](https://go.microsoft.com/?linkid=9740438).  
-![](smooth-streaming-primer/_static/image3.png)  
+![Digram of the relationship between the files, the Transform Manager Service, the Task Scheduler, and the server.](smooth-streaming-primer/_static/image3.png)  
 **Figure 3 IIS Transform Manager Expression Encoder 4 task**
 
 <a id="apple"></a>
@@ -223,7 +223,7 @@ Additionally, to support the creation of on-demand content for Apple HLS from ex
 Shortly before the 2009 National Football League (NFL) season began, NBC, in partnership with the NFL, announced plans to offer live streaming of Sunday Night Football in the United States on NBCSports.com and NFL.com. This was nothing new—during the first two years of its coverage of Sunday Night Football, NBC offered a simultaneous webcast of each game through a video player built on the Adobe® Flash® Platform. However, the stream-switching capabilities of the HTTP Dynamic Streaming feature in the Platform couldn't dynamically adapt the video stream bitrate, meaning that viewers with lower bandwidth and/or slower processors experienced periods of video buffering, stuttering, and degraded picture quality.
 
 For the 2009 season, NBC and the NFL improved the video quality and also offered something more in a new video player called Sunday Night Football Extra.  
-![](smooth-streaming-primer/_static/image4.png)  
+![Screenshot of the video player playing a Sunday Night Football Extra.](smooth-streaming-primer/_static/image4.png)  
 **Figure 4 Sunday Night Football Extra video player, featuring DVR controls, five camera angles, social networking feeds, and interactive chats**
 
 The 2010 Winter Olympics in Vancouver marked the sixth of seven consecutive Olympic Games broadcast by NBC Universal and presented the opportunity to build on the success of the 2008 Summer Olympics in Beijing. NBC teamed with premier technology vendors, led by Microsoft, to cover 4,485 hours of events in HD via IIS Smooth Streaming to a Silverlight-based video player. In addition to pleasing sports fans, the programming offered an audience of more than 15.8 million unique visitors to NBC's many advertising partners.
