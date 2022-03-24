@@ -1,7 +1,7 @@
 ---
 title: "Default FTP Messages &lt;messages&gt;"
 author: rick-anderson
-description: "Overview The &lt;messages&gt; element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for th..."
+description: Overview of &lt;messages&gt; element i used to specify the message that the FTP service will display to FTP clients.
 ms.date: 09/26/2016
 ms.assetid: 204ffa94-6637-4435-939c-363099441bfe
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/messages
