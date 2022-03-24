@@ -78,12 +78,12 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to disable caching.
 3. In the **Home** pane, double-click **HTTP Response Headers**.  
-    [![](clientCache/_static/image2.png)](clientCache/_static/image1.png)
+    [![Screenshot that shows the Default Web Site Home pane, with H T T P Response Headers selected.](clientCache/_static/image2.png)](clientCache/_static/image1.png)
 4. In the **HTTP Response Headers** pane, click **Set Common Headers...** in the **Actions** pane.  
-    [![](clientCache/_static/image4.png)](clientCache/_static/image3.png)
+    [![Screenshot that shows the H T T P Response Headers pane in the I I S Manager.](clientCache/_static/image4.png)](clientCache/_static/image3.png)
 5. In the **Set Common HTTP Response Headers** dialog box, check the box to expire Web content, select the option to expire after a specific interval or at a specific time, and then click **OK**.  
-    [![](clientCache/_static/image6.png)](clientCache/_static/image5.png)   
-    [![](clientCache/_static/image8.png)](clientCache/_static/image7.png)
+    [![Screenshot that shows the Set Common H T T P Response Headers dialog box. Enable H T T P keep alive is selected.](clientCache/_static/image6.png)](clientCache/_static/image5.png)   
+    [![Screenshot that shows the Set Common H T T P Response Headers dialog box. After is selected under the Expire Web content checkbox.](clientCache/_static/image8.png)](clientCache/_static/image7.png)
 
 ### How to disable caching for a Web site or application
 
@@ -105,11 +105,11 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to disable caching.
 3. In the **Home** pane, double-click **HTTP Response Headers**.  
-    [![](clientCache/_static/image10.png)](clientCache/_static/image9.png)
+    [![Screenshot that shows the Default Web Site Home pane. H T T P Response Headers is selected.](clientCache/_static/image10.png)](clientCache/_static/image9.png)
 4. In the **HTTP Response Headers** pane, click **Set Common Headers...** in the **Actions** pane.  
-    [![](clientCache/_static/image12.png)](clientCache/_static/image11.png)
+    [![Screenshot that shows the H T T P Response Headers pane.](clientCache/_static/image12.png)](clientCache/_static/image11.png)
 5. In the **Set Common HTTP Response Headers** dialog box, check the box to expire Web content, select **Immediately**, and then click **OK**.  
-    [![](clientCache/_static/image14.png)](clientCache/_static/image13.png)
+    [![Screenshot that shows the Set Common H T T P Response Headers dialog box. Immediately is selected under the Expire Web content checkbox.](clientCache/_static/image14.png)](clientCache/_static/image13.png)
 
 <a id="005"></a>
 ## Configuration
