@@ -69,7 +69,7 @@ The data contracts defined in web subsystem are derived from those schema files.
 
 The following code snippet shows the corresponding DataContract for ProcessModel:
 
-![Screenshot showing the code snippet.](setting-up-components/_static/image9.jpg)
+![Screenshot showing the code snippet for process model.](setting-up-components/_static/image9.jpg)
 
 Refer to actual code for complete source code.
 
