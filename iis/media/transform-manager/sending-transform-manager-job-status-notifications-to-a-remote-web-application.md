@@ -102,9 +102,9 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 ##### Create a Blank Windows Azure Solution
 
 1. In Visual Studio, create a new Windows Azure solution.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image1.png)
+    ![Screenshot of the Visual Studio New Project page. In the name box is Notifications Azure Project.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image1.png)
 2. After you click **OK** in the **New Project** dialog box, the **New Windows Azure Project** dialog box is displayed.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image2.png)  
+    ![Screenshot of the New Windows Azure Project dialog box. The O K box is found at the bottom.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image2.png)  
   
    Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
 
@@ -113,11 +113,11 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 ##### Create an ASP.NET MVC 3 Web Application Project
 
 1. In **Solution Explorer**, right-click the Windows Azure solution that you created in the previous section, and then click **Add** &gt; **New Project**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image3.png)
+    ![Screenshot of Solution Explorer. The Windows Azure solution is selected and Add and New Project are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image3.png)
 2. Create a new **ASP.NET MVC 3 Web Application** project.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image4.png)
+    ![Screenshot of the Add New Project page. A S P dot NET M V C 3 Web Application is selected.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image4.png)
 3. After you click **OK** in the **Add New Project** dialog box, the **New ASP.NET MVC 3 Project** dialog box is displayed.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image5.png)  
+    ![Screenshot of the New A S P dot NET M V C 3 Project dialog box. The Empty template is selected.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image5.png)  
   
    In this dialog box, select the **Empty** project template, and then click **OK**.
 
@@ -126,7 +126,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 ##### Add References to the ASP.NET MVC 3 Web Application Project
 
 1. In **Solution Explorer**, right-click **References**, and then click **Add Reference**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image6.png)
+    ![Screenshot of Solution Explorer. References is highlighted. Add Reference is selected.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image6.png)
 2. In the **Add Reference** dialog box, on the **.NET** tab, select the following reference assemblies:  
 
     - Microsoft.Web.Infrastructure
@@ -142,7 +142,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Razor
   
    To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image7.png)  
+    ![Screenshot of Add Reference. The dot NET tab is selected. Several component names in the list are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image7.png)  
   
    After you've selected all of the components, click **OK**.
 
@@ -163,9 +163,9 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Razor
   
    To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
+    ![Screenshot of Solution Explorer. References is expanded and several reference options are selected. Properties is highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
 2. In **Properties**, set the **Copy Local** property value to **True**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
+    ![Screenshot of Properties. Copy Local is highlighted and the value set is True.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
 3. Close the **Properties** box.
 
 <a id="step5"></a>
@@ -173,7 +173,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 ##### Configure the ASP.NET MVC 3 Web Application Project as an Azure Web Role
 
 1. In **Solution Explorer**, right-click the **Roles** folder, and then click **Add** &gt; **Web Role Project in solution**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image10.png)
+    ![Screenshot of Solution Explorer. The Roles folder is selected. Add and Web Role Project in solution are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image10.png)
 2. In the **Associate with Role Project** dialog box, select the new ASP.NET MVC3 Web Application Project, and then click **OK**.
 
 <a id="step6"></a>
@@ -183,9 +183,9 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 In order for the MVC Web Role to launch correctly, we must include a new class in the root of the project that inherits from the *RoleEntryPoint* class.
 
 1. In **Solution Explorer**, right-click the ASP.NET MVC 3 Web Application Project, and then click **Add** &gt; **Class**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image11.png)
+    ![Screenshot of Solution Explorer. Notify Me M V C is selected. Add and Class are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image11.png)
 2. In **Name**, enter the project name as the class file name, and then click **Add**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image12.png)
+    ![Screenshot of the Name box. The text Notify Me M V C dot c s is written.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image12.png)
 3. Replace the new class syntax with the following code:   
 
     [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample2.cs)]
@@ -197,7 +197,7 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
 ##### Configure Global.asax.cs
 
 1. In **Solution Explorer**, in the ASP.NET MVC 3 Web Application Project, right-click **Global.asax**, and then select **View Code**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image13.png)
+    ![Screenshot of Solution Explorer. Global dot a s a x is selected. View Code is highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image13.png)
 2. Locate the *RegisterRoutes* static function and update the Default MapRoute. In our sample application, we replace 'Home' with our own 'JobMon' controller:   
 
     [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample4.cmd)]
@@ -210,9 +210,9 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
 ##### Configure Data Connection Settings
 
 1. In **Solution Explorer**, right-click the Azure Web Role, and then click **Properties**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image14.png)
+    ![Screenshot of Solution Explorer. Roles is expanded. Notify Me M V C is highlighted and properties is selected.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image14.png)
 2. In **Settings**, add a *DataConnectionString* of type *Connection String* set to **UseDevelopmentStorage**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image15.png)
+    ![Screenshot of the Notify Me M V C role page. Settings are shown. The Connection String called Data Connection String is written in the name box.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image15.png)
 
 The ASP.NET MVC 3 Azure Web Role is now configured and we can start building the Job Notification MVC 3 application in Azure.
 
@@ -296,9 +296,9 @@ We now have a model that can be leveraged to parse new notifications, insert the
 ### Adding a Controller
 
 1. In **Solution Explorer**, in the ASP.NET MVC 3 Web Application Project, right-click **Controllers**, and then click **Add** &gt; **Controller**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image16.png)
+    ![Screenshot of Solution Explorer. Controllers is selected. Add and Controller are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image16.png)
 2. In the **Add Controller** dialog box, add an empty controller named **JobMonController**, and then click **Add**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image17.png)
+    ![Screenshot of the Add Controller dialog box. In the Controller name box, Job Mon Controller is written.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image17.png)
 3. Update the new *JobMonController* class syntax with the code below. This code adds two public functions, one to handle Job Monitor pageview requests from users and another one to handle Transform Manager POST requests. 
 
     > [!NOTE]
@@ -317,11 +317,11 @@ We now have a model that can be leveraged to parse new notifications, insert the
 ### Creating a View
 
 1. In **Solution Explorer**, in the ASP.NET MVC 3 Web Application Project, right-click **Views**, and then click **Add** &gt; **New Folder**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image18.png)
+    ![Screenshot of Solution Explorer. Views is selected. Add and New Folder are highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image18.png)
 2. Name the new folder **JobMon**. It is important that this name match the controller name's prefix.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image19.png)
+    ![Screenshot of Solution Explorer. The folder Job Mon is highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image19.png)
 3. Right-click the **JobMon** folder, and then click **Add** &gt; **View**. The **Add View** dialog box is displayed.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image20.png)
+    ![Screenshot of the Add View dialog box. In the Scaffold template box, List is chosen from the menu.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image20.png)
 4. Configure the following settings in the dialog box, and then click **Add**: 
 
    - **View name**. Enter the name of the existing public function of our controller class: **Index**.
@@ -352,7 +352,7 @@ We now have a model that can be leveraged to parse new notifications, insert the
 ### Testing the Web Application in Visual Studio
 
 When we run the Windows Azure solution for the first time, we should see the web browser open with a web page that looks similar to this.  
-![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image21.png)
+![Screenshot of the Job Monitor Page in Windows Internet Explorer. The text My Very Own Azure A S P dot NET M V C 3 Job Monitor Page is shown.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image21.png)
 
 Earlier we wrote a *Post* function within the **JobMonController** to allow Transform Manager to send us job instance updates. Transform Manager can access this function by sending notifications to the following URI: `http://127.0.0.1:91/JobMon/Post`, where **JobMon** is the controller name and **Post** is the name of the public function in the controller. We will need to remember the URI value when we configure the notifications feature in Transform Manager, for testing against the Windows Azure Development Fabric.
 
@@ -371,28 +371,28 @@ You can install Transform Manager either on the local computer or on a remote co
 ##### Create a new Job Template
 
 1. In Transform Manager, in the **Connections** pane, select **Job Templates**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image22.png)
+    ![Screenshot of the Connections pane. Job Templates is highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image22.png)
 2. In the **Actions** pane, click **New**.
 3. In the **New Job Template** property sheet on the **Basic Settings** tab, enter a friendly name for the job template in **Name**.
 4. Click the **Add** button to add a task to the **Task definitions** list.
 5. In the **Add Tasks** dialog box, in the **Available tasks** list, select the built-in **Command Line** task, and then click **OK**.
 6. In the **New Job Template** property sheet, select the **Command Line** task in the **Task definitions** list, and then click **Edit**.
 7. In the **Edit Command Line Task** dialog box, in **Command line**, enter a command-line string that will cause all jobs to fail. The easiest way to do this is to specify the name of an executable file that doesn't exist.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image23.png)
+    ![Screenshot of the Edit Command Task dialog box. In the Description box, the text Adds command line with arguments is written.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image23.png)
 8. Click **OK** to close the **Edit Command Line Task** dialog box, and then click **OK** to close the **New Job Template** property sheet.
 
 ##### Create a new Watch Folder
 
 1. In Transform Manager, in the **Connections** pane, select **Watch Folders**.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image24.png)
+    ![Screenshot of the Connections pane. Watch Folders is highlighted.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image24.png)
 2. In the **Actions** pane, click **New**.
 3. In the **New Watch Folder** property sheet, on the **Basic Settings** tab, specify values for **Name**, **Job template**, **Physical path**, and **File filter** as shown in the following screenshot.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image25.png)  
+    ![Screenshot of the New Watch Folder dialog box. The Basic Settings tab is shown.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image25.png)  
   
     > [!NOTE]
     > In **Job template**, be sure to select the new job template we created in the previous section. For more information about how to configure watch folder settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9772777) .
 4. Click the **Notifications** tab and configure the URI and event options.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image26.png)  
+    ![Screenshot of the Edit Watch Folder dialog box. The Notifications tab is shown.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image26.png)  
   
    For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
 5. Click **OK** to close the **New Watch Folder** property sheet.
@@ -400,14 +400,14 @@ You can install Transform Manager either on the local computer or on a remote co
 7. Make sure that the Azure Web Application is running and listening to incoming requests.
 8. In the **Actions** pane, click **Explore Watch Folder** to open the watch folder directory.
 9. Drop a file that matches the watch folder's **File filter** setting into the watch folder directory. In our case, this is a .txt file.  
-    ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image27.png)
+    ![Screenshot of the Watch Folders page and the My Failing Watch Folder page. An arrow is drawn from the circled File filter in the Watch Folders page to the New Text Document dot t x t in My Failing Watch Folder.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image27.png)
 
 The dropped file should disappear after a short time. This means that Transform Manager has picked up the file and started to process it as a job instance.
 
 ##### Refresh the Report
 
 In our Azure ASP.NET MVC3 Web Application, we should start seeing some data in the table. The following screenshot displays the data that appears after our test job has failed.  
-![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image28.png)
+![Screenshot of the Job Monitor Page. The data that appears after the test job has failed is shown.](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image28.png)
 
 From this we can see that the job failed trying to run BadFailingCommandLine.exe because the system could not find the file specified. It's quite obvious because we know that the executable file doesn't exist.
 

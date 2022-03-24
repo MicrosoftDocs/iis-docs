@@ -24,21 +24,21 @@ Web Playlists can access folders by using the credentials for local user account
 **To impersonate user account credentials**
 
 1. In Web Playlists, in the **Actions** pane, click **Edit Impersonation Settings**.  
-    [![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image2.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image1.jpg)
+    [![Screenshot of Web Playlists. In the Actions pane, Edit Impersonation settings is selected.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image2.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image1.jpg)
 2. In the **Impersonation** feature page, in the **Actions** pane, click **Add**.  
-    [![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image5.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image4.jpg)
+    [![Screenshot of the Impersonation feature page. In the Actions pane, Add is selected.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image5.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image4.jpg)
 3. In the **Add Impersonation Setting** dialog box, do the following:  
-    [![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image7.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image6.jpg)  
+    [![Screenshot the Add Impersonation Setting dialog box. The Path and Logon method boxes are filled.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image7.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image6.jpg)  
 
     1. In **Path**, enter the path of the folder that you want Web Playlists to access (for example, enter `C:\Users\<*username*>\Music`). You can also use the **Browse** button to enter the path.
     2. In **Logon method**, select **Clear Text**.
     3. Click **Set**.
 4. In the **Set Credentials** dialog box, enter user account logon credentials (user name and password) for an account that has at least **Read** access to the folder.  
-    [![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image10.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image9.jpg)
+    [![Screenshot of the Set Credentials dialog box. The User name, Password, and Confirm Password boxes are shown.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image10.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image9.jpg)
 5. In the **Add Impersonation Setting** dialog box, click **OK**.  
-    [![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image12.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image11.jpg)
+    [![Screenshot of the Add Impersonation Setting dialog box. The Path and Logon Method boxes are filled. The O K button is found at the bottom.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image12.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image11.jpg)
 
-The impersonation setting is added to the **Impersonation** feature page in Web Playlists.[![](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image14.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image13.jpg)
+The impersonation setting is added to the **Impersonation** feature page in Web Playlists.[![Screenshot of the Impersonation feature page in Web Playlists.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image14.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image13.jpg)
 
 The example procedure in this article created impersonation credentials in the Web Playlists feature to enable Web Playlists to connect to media assets stored in the **Music** folder under the context of local Administrator account; however, you can use the local account credentials for any authenticated Windows client that has at least **Read** access to the folder.
 

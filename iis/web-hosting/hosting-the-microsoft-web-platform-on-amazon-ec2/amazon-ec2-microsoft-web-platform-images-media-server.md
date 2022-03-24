@@ -41,7 +41,7 @@ Just be patient and wait for a little longer.
 
 Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [https://console.aws.amazon.com/ec2/home](https://console.aws.amazon.com/ec2/home).
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image1.png)
+[![Screenshot of the E C 2 Management Console. The region drop down list is highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image2.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image1.png)
 
 Once you are logged in make sure you switch your region to "US West". The Microsoft Web Platform images are currently only available in the US West region. Before we do anything lets set up the firewall rules (called Security Groups in Amazon lingo) for you Media Server instance.
 
@@ -49,15 +49,15 @@ Once you are logged in make sure you switch your region to "US West". The Micros
 
 Select the item "Security Groups" on the left hand side. Your existing Security Groups will show in the center pane. Click the "Create Security Group" button on top.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image3.png)
+[![Screenshot of Security Groups. The Create Security Group button is shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image4.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image3.png)
 
 Name the new group you are about to create, for example "Microsoft Web Platform Firewall Rules".
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image6.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image5.png)
+[![Screenshot of the Create Security Group dialog box. The Security Group Name and Description boxes are shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image6.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image5.png)
 
 You want to configure the following rules:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image8.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image7.png)
+[![Screenshot of Security Group selected. The Group Name, Description, and Connection Method are shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image8.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image7.png)
 
 - RDP is needed so you can connect via Remote Desktop to your Amazon EC2 instance. The current "Source (IP or group)" settings allows these connections from any IP address. Please lock down this settings if you have more stringent security requirements.
 - HTTP is needed so your customers can connect via HTTP your Amazon EC2 instance.
@@ -69,19 +69,19 @@ Now we are ready to launch an EC2 Media Server instance.
 ### Launching the Media Server Image
 
 Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image9.png)
+[![Screenshot of the Launch Instance button on the Instances menu.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image10.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image12.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image11.png)
+[![Screenshot of the Amazon Machine Image options. Community Images is selected.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image12.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image11.png)
 
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image13.png)
+[![Screenshot of the Community A M I tab. A list of A M I I D names are shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image13.png)
 
 Press "Select" in the "Microsoft Web Platform – Media Server ... row.
 
 In the next dialog page (Instance Details) you can select how much computing power you want to have for your Media Server instance. It's probably prudent to start with the preselected option which is the smallest. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image15.png)
+[![Screenshot of the Create a new Key pair dialog box. The Create and Download your Key Pair button is shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image15.png)
 
 If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Medi Server instance. Click the "Continue" button.
 
@@ -94,23 +94,23 @@ Click "Continue" to move to the "Launch" page. The only thing left to do on the 
 
 After finishing the "Launch Instance" wizard you should be back on the main page of the AWS Management Console. Click the "Instances" link to figure out how your Media Server instance is doing.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image18.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image17.png)
+[![Screenshot of the Launch Instance Wizard. The Instances category on the left pane is highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image18.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image17.png)
 
 You should see something like this:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image20.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image19.png)
+[![Screenshot of the My Instances page. An instance titled i dash 6 b 34202 e is shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image20.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image19.png)
 
 Right click on the row and select the "Get Windows Password" menu item.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image22.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image21.png)
+[![Screenshot of the Get Windows Password Menu. The Instance Management and Instance Lifecycle categories are shown.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image22.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image21.png)
 
 Now it's time to use the key pair file (&lt;your key pair name&gt;.PEM) that you created before. If the password is already available (you might have to wait a couple of minutes as said before) you will see the following dialog:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image24.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image23.png)
+[![Screenshot of Retrieve Default Windows Administrator Password. The Instance number is shown at the top.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image24.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image23.png)
 
 Open the .PEM file in notepad and copy it to the clipboard (Ctrl+A selects all, Ctrl+C copies it into the clipboard). Now paste the contents into the textbox of the dialog (Ctrl+V). Click the "Decrypt" button.
 
-Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
+Note: Because decryption is a very CPU intensive operation you might run into the following security dialog if you use Internet Explorer: [![Screenshot of the Windows Internet Explorer dialog box. The text written says Stop running this script.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image26.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image25.png) Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
 If you are interested in a more permanent fix you can execute the following command on command-line: 
 
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-media-server/samples/sample1.cmd)]
@@ -123,21 +123,21 @@ Once the password is decrypted write it down or copy it to the clipboard and clo
 
 Check it out, the web site is already running. All you need is to enter the DNS name of your EC2 instance into the browser. The AWS Management Console shows you the public DNS address. Just copy the address to the clipboard and paste it into your browsers address bar. If you need a more permanent DNS address you have to register a DNS name and also get an Elastic IP address from Amazon. But this is a story for another day.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image27.png)
+[![Screenshot of the Management console. The public D N S information is highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image27.png)
 
 Once you have done this it will take a few moments until the streaming of the video content starts (you might have to install the Silverlight plug-in however). Your browser should show something like this:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image29.png)
+[![Screenshot of a browser after installing the Silver light plug in.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image30.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image29.png)
 
 ### Connect via Remote Desktop
 
 Now its time to look at how the site is configured to run Smooth Streaming files. For that we need to connect via the Remote Desktop Protocol to the Media Server instance. Right click the instance and select "Connect".
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image32.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image31.png)
+[![Screenshot of the Instance Management and Instance Lifecycle menus.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image32.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image31.png)
 
 Click "Download shortcut file" in the dialog that follows:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image34.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image33.png)
+[![Screenshot of Console Connect Remote Desktop Connection. The Download shortcut file button is in the bottom left.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image34.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image33.png)
 
 The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine.
@@ -146,7 +146,7 @@ Once connected you will get logged on to the remote machine.
 
 Now open the `c:\inetpub\wwwroot` directory. You will see the following files:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image36.png)
+[![Screenshot of the i net pub backslash w w w root directory. The Default dot h t m file is highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image36.png)
 
 The file extensions starting with .is\* are the Smooth Streaming files in their different bandwidths. To get started on how to create your own Smooth Streaming files please go to [https://www.iis.net/learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md).
 
@@ -154,11 +154,11 @@ The Microsoft.Web.Media.SmoothStreaming.dll assembly represents the media player
 
 Now let's quickly look into default.htm. The two important pieces are the source for the Silverlight app. If you have your own Silverlight player application you want to replace it with your .xap file. The mediaSource element is the second important setting in the default.htm. It represents the Smooth Streaming media stream.
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image38.png)
+[![Screenshot of default dot h t m. the sources for the Silver light app are highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image38.png)
 
 One last thing. To manage your own Smooth Streaming presentations you have to configure them in the IIS Management Console. Open INETMGR from the "Run..." menu, select "Default Web Site" on the left tree view and select "Smooth Streaming" from the icons in the center. You get the following dialog that allows you to manage your presentations:
 
-[![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image40.png)
+[![Screenshot of Smooth Streaming Presentation. In the Connections pane Default Web Site is highlighted.](amazon-ec2-microsoft-web-platform-images-media-server/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image40.png)
 
 For more details please refer to create and manage Smooth Streaming media content please go to [https://www.iis.net/learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md).
 
