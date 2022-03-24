@@ -29,7 +29,7 @@ In the web content directories, there may be optional web.config files that cont
 ## Hierarchy
 
 In terms of inheritance hierarchy, the root file is machine.config, then web.config at the same directory (referred to as root web.config), then applicationHost.config, then the optional web.config files along the namespace as illustrated in the following diagram.
-[![Diagram showing the relationship between the files contained in the I I S 7 and Config Files namespaces.](the-configuration-system-in-iis-7/_static/image3.jpg)](the-configuration-system-in-iis-7/_static/image1.jpg)
+![Diagram showing the relationship between the files contained in the I I S 7 and Config Files namespaces.](the-configuration-system-in-iis-7/_static/image1.jpg)
 
 ## Sections
 
