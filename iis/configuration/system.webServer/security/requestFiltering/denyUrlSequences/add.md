@@ -1,7 +1,7 @@
 ---
 title: "Adding URL Sequences To Deny &lt;add&gt;"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;denyUrlSequences&gt; collection specifies a unique sequence of characters to add to the collection of denied URL..."
+description: The `<add>` element of the `<denyUrlSequences>` collection specifies a unique sequence of characters to add to the collection of denied URL sequences for Internet Information Services (IIS) 7.
 ms.date: 09/26/2016
 ms.assetid: 3333e5ce-6a4e-41c7-8bbd-b8d65fc7cc0c
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyurlsequences/add
