@@ -1,7 +1,7 @@
 ---
 title: "Default FTP Custom Authorization Provider &lt;provider&gt;"
 author: rick-anderson
-description: "Overview The &lt;customAuthorization&gt; element specifies the default settings for custom authorization of FTP sites. This form of authorization uses custom..."
+description: The `<customAuthorization>` element specifies the default settings for custom authorization of FTP sites.
 ms.date: 09/26/2016
 ms.assetid: d4f4d32f-efb9-40f4-a5cc-b1940d8045d6
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization/provider
