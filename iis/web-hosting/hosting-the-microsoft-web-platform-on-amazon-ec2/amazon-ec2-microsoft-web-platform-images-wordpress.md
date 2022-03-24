@@ -41,7 +41,7 @@ Just be patient and wait for a little longer.
 
 Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [https://console.aws.amazon.com/ec2/home](https://console.aws.amazon.com/ec2/home).
 
-![Screenshot of the Amazon EC2 tab with the U S West option being highlighted.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image1.png)
+![Screenshot of the Amazon E C 2 tab with the U S West option being highlighted.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image1.png)
 
 Once you are logged in make sure you switch your region to "US West". The Microsoft Web Platform images are currently only available in the US West region. Before we do anything lets set up the firewall rules (called Security Groups in Amazon lingo) for your Wordpress instance.
 
@@ -73,7 +73,7 @@ Click the "Instances" menu item on the left hand side and click the "Launch Inst
 
 Now select "Community Images" in the resulting dialog.
 
-![Screenshot of the Quick Start, My A M Is, and Community A M Is tabs.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image11.png)
+![Screenshot of the Quick Start, My A M I's, and Community A M I's tabs.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image11.png)
 
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
 ![Screenshot of the Request Instances Wizard showing the Community A M Is tab.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image13.png) 
