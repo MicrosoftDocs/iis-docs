@@ -28,7 +28,7 @@ Web Playlists can access folders by using the credentials for local user account
 2. In the **Impersonation** feature page, in the **Actions** pane, click **Add**.  
     [![Screenshot of the Impersonation feature page. In the Actions pane, Add is selected.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image5.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image4.jpg)
 3. In the **Add Impersonation Setting** dialog box, do the following:  
-    [![Screenshot the Add Impersonation Setting dialog box. The Path and Logon method boxes are filled.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image7.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image6.jpg)  
+    [![Screenshot of the Add Impersonation Setting dialog box. The Path and Logon method boxes are filled.](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image7.jpg)](web-playlists-for-iis-serving-media-content-from-user-folders/_static/image6.jpg)  
 
     1. In **Path**, enter the path of the folder that you want Web Playlists to access (for example, enter `C:\Users\<*username*>\Music`). You can also use the **Browse** button to enter the path.
     2. In **Logon method**, select **Clear Text**.
