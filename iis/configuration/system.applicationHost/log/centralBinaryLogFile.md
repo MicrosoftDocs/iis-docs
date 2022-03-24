@@ -60,9 +60,9 @@ The `<centralBinaryLogFile>` element of the `<log>` element is included in the d
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Logging**.  
-    [![](centralBinaryLogFile/_static/image2.png)](centralBinaryLogFile/_static/image1.png)
+    ![Screenshot of the I I S Manager window displaying the Server Home page. The icon for Logging is highlighted.](centralBinaryLogFile/_static/image1.png)
 4. On the **Logging** page, under **One log file per**, select **Server** from the drop-down list, then choose **Binary** from the **Format** drop-down list.  
-    [![](centralBinaryLogFile/_static/image4.png)](centralBinaryLogFile/_static/image3.png)
+    ![Screenshot of the I I S Manager displaying the Logging page.](centralBinaryLogFile/_static/image3.png)
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>

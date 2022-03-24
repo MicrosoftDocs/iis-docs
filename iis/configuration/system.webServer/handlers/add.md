@@ -54,7 +54,7 @@ The `<add>` element of the `<handlers>` collection is included in the default in
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection that you want to add the native module to.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-    ![](add/_static/image1.png)
+    ![Screenshot of the I I S Manager displaying the Default Web Site Home page. The Handler Mappings icon is highlighted.](add/_static/image1.png)
 4. On the **Actions** pane, click **Add Managed Handler...**
 5. In the **Add Managed Handler** dialog box, specify the following:
 
@@ -62,7 +62,7 @@ The `<add>` element of the `<handlers>` collection is included in the default in
    - **Type**. The type (class) name of the managed handler. If the handler is defined in the app\_code or bin folders of the application, its type name will appear in the drop-down list.
    - **Name**. A descriptive name.
   
-      ![](add/_static/image3.png)
+      ![Screenshot of the Add Managed Handler dialog box.](add/_static/image3.png)
 6. Click **OK** to close the **Add Managed Handler** dialog box.
 
 ### How to create a FastCGI handler mapping
@@ -85,15 +85,15 @@ The `<add>` element of the `<handlers>` collection is included in the default in
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI handler mappings.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-    ![](add/_static/image5.png)
+    ![Screenshot of the I I S Manager window displaying the Server home page. The icon for Handler Mappings is highlighted.](add/_static/image5.png)
 4. In the **Actions** pane, click **Add Module Mapping...**  
   
     > [!NOTE]
     > For the next steps to work, you must have already installed binaries that will execute the file path or file name extension that you specify. This example uses a PHP implementation available from the Microsoft Web site.
 5. Type the file name extension, such as.php in the **Request path** box, click **FastCGIModule** in the **Module** drop-down list, type the path to the scripting engine (in this example, PHP-CGI.exe) in the **Executable** box, and then click **OK**.  
-    ![](add/_static/image7.png)
+    ![Screenshot of the Add Module Mapping dialog box.](add/_static/image7.png)
 6. On the **Add Module Mapping** dialog box, click **Yes**.  
-    ![](add/_static/image9.png)
+    ![Screenshot of the Add Module Mapping information dialog box.](add/_static/image9.png)
 
 <a id="005"></a>
 ## Configuration
