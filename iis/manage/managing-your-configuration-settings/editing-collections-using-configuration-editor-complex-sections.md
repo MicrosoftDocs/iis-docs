@@ -27,7 +27,7 @@ This walkthrough requires the following prerequisites:
 2. Select the Server in the Connections Tree View
 3. Open the Configuration Editor User Interface module
 
-    ![Screensheet of the I I S Manager window. The server home features is in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image1.jpg)
+    ![Screenshot of the I I S Manager window. The server home features is in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image1.jpg)
 4. In the Configuration Editor Section combo box, Select system.webServer – tracing - traceFailedRequests or type system.webServer/tracing/traceFailedRequests
 
     ![Screenshot showing the Configuration Editor with the section input box.](editing-collections-using-configuration-editor-complex-sections/_static/image3.jpg)

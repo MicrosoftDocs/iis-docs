@@ -45,7 +45,7 @@ By default, IIS log files are located in the following directories:
 
 In this troubleshooter, I will be using IIS 8. Open the **IIS Manager** and select **Sites**, as shown in *Figure 1*. This will show you the ID of each website hosted on your server. You will need this ID to determine which W3SVC\* directory to analyze.
 
-![Screenshot of I I S Manager window showing Sites in the main pane.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image1.png)  
+![Screenshot of the I I S Manager window showing Sites in the main pane.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image1.png)  
 **Figure 1: Getting the ID of your web site**
 
 Open Windows Explorer and navigate to the directory that contains the IIS log files of the website that experienced the performance problem. *Figure 2* shows how that might look like.
