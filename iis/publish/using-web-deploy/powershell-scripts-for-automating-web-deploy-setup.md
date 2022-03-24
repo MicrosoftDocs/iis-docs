@@ -36,13 +36,13 @@ The scripts that you will use are:
 1. Launch a PowerShell command window.
 
     Click on the PowerShell icon in the task bar or click **Start**, type **PowerShell**, and select **Windows PowerShell**.  
-    ![](powershell-scripts-for-automating-web-deploy-setup/_static/image1.png)  
+    ![Screenshot of the Windows Taskbar displaying the Start button.](powershell-scripts-for-automating-web-deploy-setup/_static/image1.png)  
     (The blue icon)
 2. Make sure your execution policy allows for running scripts.
 
     1. Type "Get-ExecutionPolicy". If it is Restricted (the default) you must reset to a more permissive setting such as by typing "Set-ExecutionPolicy AllSigned". The AllSigned setting will allow running signed scripts, but prompt you in case they are not trusted
 
-    2. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)).
+    2. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)).
 3. Change to the Web Deploy scripts directory.
 
     1. Type `cd '%programfiles%\IIS\Microsoft Web Deploy v2\Scripts'` (but replace `%programfiles%` with the actual path, such as `C:\Program Files`).
@@ -51,7 +51,7 @@ The scripts that you will use are:
 
 Run the SetupSiteForPublish.ps1 script with no arguments:
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image3.png)
+![Screenshot of a Powershell console with output.](powershell-scripts-for-automating-web-deploy-setup/_static/image3.png)
 
 What this does:
 
@@ -83,13 +83,13 @@ Enable publishing for an existing user on an existing site (the password will no
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample1.cmd)]
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
+![Screenshot of a Powershell console with results of scripting.](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
 
 Enable publishing for a new user on a new site, with a custom name and location for the publish settings file:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample2.cmd)]
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image7.png)
+![Screenshot of a Powershell console with scripting and output for publish settings.](powershell-scripts-for-automating-web-deploy-setup/_static/image7.png)
 
 The PublishSettings file also contains the new user password. Notice that the connection string fields are empty - they can be filled by hand or you can add this to the profile using the database generation scripts:
 
@@ -124,13 +124,13 @@ Create a database with user using the defaults (local SQLExpress database):
 
 .\CreateSqlDatabase.ps1
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image11.png)
+![Screenshot of a Powershell console with scripting and output for creating a S Q L database.](powershell-scripts-for-automating-web-deploy-setup/_static/image11.png)
 
 Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-powershell[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample4.ps1)]
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image13.png)
+![Screenshot of a Powershell console with scripting and output with connection to existing publish settings file.](powershell-scripts-for-automating-web-deploy-setup/_static/image13.png)
 
 ## Create a MySQL database for a publishing account using the CreateMySqlDatabase script
 
@@ -171,13 +171,13 @@ Create a database with user using the defaults:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample7.cmd)]
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
+![Screenshot of a Powershell console with scripting to create a database.](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
 
 Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample8.cmd)]
 
-![](powershell-scripts-for-automating-web-deploy-setup/_static/image19.png)
+![Screenshot of a Powershell console with scripting and output of connection to existing publish settings.](powershell-scripts-for-automating-web-deploy-setup/_static/image19.png)
 
 ## Set up Delegation Rules for the server using the AddDelegationRules script
 

@@ -57,9 +57,9 @@ The `<applicationPools>` collection is included in the default installation of I
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, and then click **Application Pools**.
 3. In the **Actions** pane, click **Set Application Pool Defaults...**  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of the Application Pools screen, showing the Filter field.](index/_static/image2.png)](index/_static/image1.png)
 4. On the **Application Pool Defaults** dialog box, specify your desired options.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Application Pool Defaults dialog box.](index/_static/image4.png)](index/_static/image3.png)
 5. When you have finished specifying your settings, click **OK**.
 
 <a id="005"></a>
