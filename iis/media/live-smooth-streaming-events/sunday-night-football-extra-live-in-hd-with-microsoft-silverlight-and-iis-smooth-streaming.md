@@ -14,7 +14,7 @@ by Daniel Karuppiah, Jason Suess, Alex Zambelli
 Shortly before the 2009 National Football League (NFL) season began, NBC, in partnership with the NFL, announced plans to offer live streaming of Sunday Night Football in the United States on NBCSports.com and NFL.com. This was nothing new—during the first two years of its coverage of Sunday Night Football, NBC offered a simultaneous webcast of each game through a video player built on the Adobe® Flash® Platform. However, the stream-switching capabilities of the HTTP Dynamic Streaming feature in the Platform couldn't dynamically adapt the video stream bitrate, meaning that viewers with lower bandwidth and/or slower processors experienced periods of video buffering, stuttering, and degraded picture quality.
 
 For the 2009 season, NBC and the NFL improved the video quality and also offered something more in a new video player called Sunday Night Football Extra (Figure 1).  
-![](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image1.png)  
+![Screenshot of the Sunday NIght Football Extra video player display.](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image1.png)  
 **Figure 1. Sunday Night Football Extra video player, featuring DVR controls, five camera angles, social networking feeds, and interactive chats.**
 
 The new player's features included the following:
@@ -42,7 +42,7 @@ Smooth Streaming is a hybrid media delivery method that acts like streaming but 
 ## Server Technologies and Techniques
 
 NBC worked closely with Microsoft business and technical leaders and with a number of independent network infrastructure, content distribution, and application development firms to create the complete Sunday Night Football Extra program. Creating an efficient workflow (as seen in Figure 2) was essential for seamlessly inserting incoming content, such as advertisements and the NFL's Game Statistic and Information System (GSIS) data, into the program in real-time.  
-![](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image2.png)  
+![Diagram of the Sunday Night Football Extra workflow.](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image2.png)  
 **Figure 2. Sunday Night Football Extra workflow.**
 
 The basic steps of the live broadcast included the following:
@@ -88,7 +88,7 @@ To keep the video feeds synchronized, four SD video feeds were timed to match wi
 A Smooth Streaming client manifest contains rich metadata about the presentation and the Smooth Streaming Media Element (SSME) exposes parts of this metadata through a well-defined application programming interface (API) in an arrangement of streams and tracks within each stream. The SSME is at the core of Microsoft Media Platform: Player Framework (MMPPF), which enables developers to quickly deploy a robust, scalable, and customizable media player for rendering Smooth Streaming presentations.
 
 For the Sunday Night Football Extra project, advertisements and game highlights were added to a sparse track at the point of Web server ingest. A 30-second delay was added in the delivery of the video streams, during which operators could deliver the ads and highlight clips via the sparse track before the streams moved to the CDN. Figure 3 illustrates this process and notes which partners and third parties were involved with specific aspects.  
-![](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image3.png)
+![Diagram of the process to add advertisements and game highlights and which partners were involved with each.](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image3.png)
 
 **Figure 3. Inserting ads and game highlights into the webcast.**
 
@@ -141,7 +141,7 @@ NBC tapped California-based Vertigo, a user experience design and software devel
 ### Features and Requirements
 
 The video player had to include full DVR functionality to let the user pause and scroll back and forth—even review plays in slow motion—all while watching live video. Beyond that, the player had to let fans play game highlights without rewinding and searching.  
-![](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image4.png)  
+![Screenshot of the Sunday Night Football Extra player controls with labled DVR functionality.](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image4.png)  
 **Figure 4. Sunday Night Football Extra player controls.**
 
 ### Smooth Streaming Components
@@ -176,7 +176,7 @@ Silverlight, when combined with Smooth Streaming, delivers great video performan
 The Vertigo team of four developers, two designers, and two testers created the player in just three months, working in the Visual Studio Team System development system with Microsoft Visual Studio Team System 2008 Team Foundation Server. The team employed the MVVM pattern of design and development, which provides a data model and behavior to the view but allows the view to declaratively bind to the view model. The view becomes a mix of XAML and C#, the model represents the data available to the application, and the view model prepares the model to bind it to the view.
 
 Vertigo delivered a client experience that was stable, scalable, accessible, reliable, and secure. Figure 5 illustrates the architecture behind the video player and how the video player consumes content, including ads and video feeds.  
-![](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image5.png)  
+![Diagram of the four layers of architecture and how the video player applies the variety of content from sources.](sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming/_static/image5.png)  
 **Figure 5. Architecture showing how the video player applies a variety of content from multiple resources.**
 
 <a id="resources"></a>
