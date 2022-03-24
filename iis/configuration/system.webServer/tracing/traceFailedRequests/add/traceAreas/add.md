@@ -47,7 +47,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
-    ![Screenshot of the windows Features dialog box. Tracing is highlighted in the drop down menu.](add/_static/image3.png)- Click **OK**.
+    ![Screenshot of the Windows Features dialog box. Tracing is highlighted in the drop down menu.](add/_static/image3.png)- Click **OK**.
 4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
@@ -91,7 +91,7 @@ After you finish the default installation of IIS 7 and later, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, select the server connection, site, application, or directory for which you want to configure failed request tracing.
 3. In the **Actions** pane, click **Failed Request Tracing...**  
-    ![Screenshot of the Default Web Sight Home page in I I S Manager.](add/_static/image9.png)
+    ![Screenshot of the Default Web Site Home page in I I S Manager.](add/_static/image9.png)
 4. In the **Edit Web Site Failed Request Tracing Settings** dialog box, select the **Enable** check box to enable tracing, leave the default value or type a new directory where you want to store failed request log files in the **Directory** box, type the number of failed request trace files you want to store in the **Maximum number of trace files** box, and then click **OK**.  
     ![Screenshot of the Edit Web Site Failed Request Tracing Settings dialog box.](add/_static/image11.png)
 
