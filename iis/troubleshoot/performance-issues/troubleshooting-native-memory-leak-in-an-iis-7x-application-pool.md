@@ -81,7 +81,7 @@ Performance Monitor (Perfmon) data can be viewed in real-time or it can be colle
 
 Your dialog should now look like the one shown in Figure 1.
 
-![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image1.png)
+![Screenshot of the Data Collector 01 Properties dialog box. The Performance Counters tab is open.](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image1.png)
 
 Figure 1 - Creating a data collector set.
 
@@ -110,7 +110,7 @@ When you run DebugDiag, it will display the Select Rule Type dialog. Follow thes
 3. Click Configure.
 4. Set the following rule as shown in Figure 2. (You can adjust these values if needed, but be careful not to specify a small number of MB in order to generate the tons of dump files.)Generate a userdump when private bytes reach 800 MB and each additional 100 MB therafter.Generate a userdump when virtual bytes reach 1024 MB and each additional 200 MB therafter.
 
-    ![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image3.png)
+    ![Screenshot of the Configure user dumps for Leak Rule dialog box. All options are checked.](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image3.png)
 
     Figure 2 – Configuring userdumps for Leak Rule.
 5. Click Save &amp; Close.
@@ -133,7 +133,7 @@ After getting the Out Of Memory error or creating the memory dumps you will have
 
 To review the Perfmon data for your issue, right-click on the High Memory data collector set listed under the User Defined node and select Latest Report. You'll see something similar to the screen shown in Figure 3.
 
-![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image5.png)
+![Screenshot of the Performance data on the High Memory data collector set.](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image5.png)
 
 Figure 4 - Perfmon displaying the High Memory data.
 
@@ -153,19 +153,19 @@ DebugDiag has the ability to recognize many problems by doing an automated dump 
 
 DebugDiag will take a few minutes to parse through the dumps and provide an analysis. When it has completed the analysis, you will see a page similar to that shown in Figure 5.
 
-![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image6.png)
+![Screenshot of a Debug Diag analysis report.](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image6.png)
 
 Figure 5 – A DebugDiag analysis report.
 
 Notice that the top of the report tells you that the memory leak was detected. In the Table Of Contets, you'll see a link to the details of Leak Analysis Report. Click that link and you'll see information about what those top 10 modules by allocation count or allocation size. Figure 6 shows those examples.
 
-![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image7.png)
+![Screenshot of details on high memory module.](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image7.png)
 
 Figure 6 – Details on high memory module.
 
 I can tell from this analysis that the leakcom COM component is running. If I want to look further down the Module Information of leak com (Figure 7), I can see that CFoo::crtheap method allocates the outstanding memory.
 
-![](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image8.png)
+![Screenshot of details for leak com on the module](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/_static/image8.png)
 
 Figure 7 – Details on the module.
 
