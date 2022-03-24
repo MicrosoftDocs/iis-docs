@@ -97,7 +97,7 @@ The significance for each of these status codes is explained below.
 
 The ratio between the 200 and 304 HTTP status codes is important because it shows how many requests are being retrieved from the clients' cache instead of directly from the server. The results in *Figure 4* show that there are 3,920,658 requests which resulted in an HTTP Status code of 200. This means that the requested file was served from the server each time. In contrast, there were 178,705 requests which resulted in a 304 HTTP status code. This means that the requested file was retrieved from the local cache. In other words, 95.5% of the requests are being handled from the server.
 
-Caching can have some very positive impact on your system's performance; see the details for both static and dynamic compression in the [Configuring HTTP Compression in IIS 7](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10)) article.
+Caching can have some very positive impact on your system's performance; see the details for both static and dynamic compression in the [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10)) article.
 
 ### HTTP 500 Status Codes (Analyzing Failed Requests)
 
@@ -251,7 +251,7 @@ Here are the links which are referred to in this article, plus a few links with 
 - [The HTTP status codes in IIS 7.0, IIS 7.5, and IIS 8.0](https://support.microsoft.com/kb/943891)
 - [Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.microsoft.com/benjaminperkins/2012/07/31/modifying-iis-7-log-data-in-windows-2008/)
 - [Modifying IIS 6 log data in Windows 2003](https://blogs.msdn.microsoft.com/benjaminperkins/2012/05/02/modifying-iis-6-log-data-in-windows-2003/)
-- [Configuring HTTP Compression in IIS 7](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
+- [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
 - [Charting with LogParser using OWC](https://blogs.msdn.microsoft.com/carloc/2008/08/07/charting-with-logparser/)
 - [Robert McMurray's Blogs on LogParser](https://blogs.msdn.microsoft.com/robert_mcmurray/tag/logparser/)
 - [Microsoft Log Parser Toolkit: A Complete Toolkit for Microsoft's Undocumented Log Analysis Tool](https://www.amazon.com/Microsoft-Log-Parser-Toolkit-undocumented/dp/1932266526)
