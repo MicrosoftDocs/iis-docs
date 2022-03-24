@@ -68,13 +68,13 @@ In this first step you will create a new FTP site that anonymous users can open.
            [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample1.cmd)]
        3. Close the command prompt.
 
-     ![Screenshot of the I I S Manager page. In the connections pane Application Pools is expanded and Add F T P Site is highlighted.](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears:
 
    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
    - When you have completed these items, click **Next**.
 
-     ![Screenshot of the Add F T P Wizard Site Information page. In the F T P site name box is the text My New F T P Site.](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard:
 
    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you must ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -87,14 +87,14 @@ In this first step you will create a new FTP site that anonymous users can open.
    - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
    - When you have completed these items, click **Next**.
 
-     ![Screenshot of the Add F T P Site Wizard Binding and S S L Settings page. The Binding category includes the I P Address box. The Start F T P site automatically checkbox is checked.](creating-a-new-ftp-site-in-iis-7/_static/image11.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard:
 
    - Select **Anonymous** for the **Authentication** settings.
    - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
    - When you have completed these items, click **Finish**.
 
-     ![Screenshot of the Add F T P Site Wizard Authentication and Authorization Information page. In the Authentication box, the Anonymous checkbox is checked.](creating-a-new-ftp-site-in-iis-7/_static/image13.jpg)
+     ![](creating-a-new-ftp-site-in-iis-7/_static/image13.jpg)
 
 #### Summary
 
@@ -109,20 +109,20 @@ You have successfully created a new FTP site using the new FTP service. To recap
 Creating a new FTP site that anonymous users can browse is useful for public download sites, but web authoring is equally important. In this step, you add additional authentication and authorization settings for the administrator account. To do so, follow these steps:
 
 1. In IIS Manager, click the node for the FTP site that you created earlier, then double-click **FTP Authentication** to open the FTP authentication feature page.  
-    ![Screenshot of the I I S Manager page. The My New F T P Site Home page is shown. The F T P Authentication icon is highlighted.](creating-a-new-ftp-site-in-iis-7/_static/image1.png)
+    ![](creating-a-new-ftp-site-in-iis-7/_static/image1.png)
 2. When the **FTP Authentication** page displays, highlight **Basic Authentication** and then click **Enable** in the **Actions** pane.  
-    ![Screenshot of the F T P Authentication page. The Basic Authentication option is highlighted. The Enable button is located in the Actions pane.](creating-a-new-ftp-site-in-iis-7/_static/image5.png)
+    ![](creating-a-new-ftp-site-in-iis-7/_static/image5.png)
 3. In IIS Manager, click the node for the FTP site to re-display the icons for all of the FTP features.
 4. You must add an authorization rule so that the administrator can log in. To do so, double-click the **FTP Authorization Rules** icon to open the FTP authorization rules feature page.  
-    ![Screenshot of the My New F T P Site Home page. The F T P Authorization Rules icon is highlighted.](creating-a-new-ftp-site-in-iis-7/_static/image9.png)
+    ![](creating-a-new-ftp-site-in-iis-7/_static/image9.png)
 5. When the **FTP Authorization Rules** page is displayed, click **Add Allow Rule** in the **Actions** pane.  
-    ![Screenshot of the F T P Authorization Rules page. Add Allow Rule is located in the Actions pane.](creating-a-new-ftp-site-in-iis-7/_static/image13.png)
+    ![](creating-a-new-ftp-site-in-iis-7/_static/image13.png)
 6. When the **Add Allow Authorization Rule** dialog box displays:
 
     - Select **Specified users**, then type "administrator" in the box.
     - For **Permissions**, select both **Read** and **Write**.
     - When you have completed these items, click **OK**.  
-        ![Screenshot of the Add Allow Authorization Rule dialog box. The checkboxes next to Specified users is checked. The two Permissions options are also checked.](creating-a-new-ftp-site-in-iis-7/_static/image17.png)
+        ![](creating-a-new-ftp-site-in-iis-7/_static/image17.png)
 
 #### Summary
 
