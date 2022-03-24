@@ -1,7 +1,7 @@
 ---
 title: "Amazon EC2: Microsoft Web Platform Images - Wordpress"
 author: thomasdeml
-description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
+description: One thing we often hear is the need to get a Web site up quickly.
 ms.date: 04/02/2010
 ms.assetid: f36bee17-6301-46e9-9f6f-c23a57041664
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress
