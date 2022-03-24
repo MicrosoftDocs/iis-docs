@@ -38,7 +38,7 @@ Documentation providing a detailed technical overview of Smooth Streaming is ava
 ## About the Protected Interoperable File Format (PIFF)
 
 The [Protected Interoperable File Format (PIFF) Specification](https://go.microsoft.com/?linkid=9740298) defines a standard multimedia file format for multimedia content delivery and playback. It includes the audio-video container, stream encryption, and metadata to support content delivery for multiple bitrate adaptive streaming, optionally using a standard encryption scheme that can support multiple DRM systems. IIS Smooth Streaming uses the PIFF container as its file format. In this respect, Smooth Streaming files and PIFF files can be used synonymously – as Smooth Streaming is a brand name used by Microsoft on top of the PIFF container.  
-![](smooth-streaming-primer/_static/image1.png)  
+![Diagram of the File Types used for Movie Metadata, Fragment, and Movie Fragment Random Access.](smooth-streaming-primer/_static/image1.png)  
 **Figure 1 PIFF file format**
 
 PIFF provides a simple, efficient solution to the DRM interoperability problem. It enables content to be encrypted once – rather than once for each DRM technology used – for delivery in a variety of scenarios. PIFF is standards-based and provides new efficiencies in the creation and delivery of protected content.
