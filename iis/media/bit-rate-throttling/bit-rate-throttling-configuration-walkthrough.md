@@ -1,13 +1,13 @@
 ---
-title: "Bit Rate Throttling Configuration Walkthrough"
+title: Bit Rate Throttling Configuration
 author: rick-anderson
-description: "The Bit Rate Throttling extension for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which aud..."
+description: Thee Bit Rate Throttling extension for IIS provides the ability to throttle progressive downloads of media files
 ms.date: 11/23/2007
 ms.assetid: dedfc422-86c4-4122-a1c7-ed7c3b98108d
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough
 msc.type: authoredcontent
 ---
-# Bit Rate Throttling Configuration Walkthrough
+# Walkthrough, Configuration for Bit Rate Throttling  
 
 by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
@@ -45,7 +45,7 @@ To complete the procedures in this article, it is also helpful to have a good un
 
 To ensure that you have already installed Bit Rate Throttling, open the IIS Manager window (shown below). Click a server in the **Connections** pane. On the Home Page (displayed in the central pane), you see an area titled **Media Services** with a **Bit Rate Throttling** icon below it. This indicates that you are ready to verify that Bit Rate Throttling is working.
 
-![](bit-rate-throttling-configuration-walkthrough/_static/image1.jpg)
+![Screenshot of the I I S MEDIA Home pane with Bit Rate Throttling emphasized in the Media Services section.](bit-rate-throttling-configuration-walkthrough/_static/image1.jpg)
 
 If you still have the Default Web Site on your IIS server, follow these instructions to test Bit Rate Throttling. First, download a sample video file to your server that is at least one minute in length. If you do not have any content readily available, right-click the following link to a sample Windows Media Video file and click **Save As**: [Serving New Content with IIS7](https://download.microsoft.com/download/3/c/a/3ca6a2de-5060-494d-a8a4-ed45088c24c2/final_3.wmv "Serving New Content").
 
@@ -55,27 +55,27 @@ In the **Save As** dialog box:
 2. To simplify things, change the file name to **test.wmv**.
 3. Click **Save**.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image2.png)](bit-rate-throttling-configuration-walkthrough/_static/image1.png)
+![Screenshot of saving the file as a Windows Media Audio or Video file named test dot w m v.](bit-rate-throttling-configuration-walkthrough/_static/image1.png)
 
 When the download to your server is complete, click **Close**.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image4.png)](bit-rate-throttling-configuration-walkthrough/_static/image3.png)
+![Screenshot confirming the successful download.](bit-rate-throttling-configuration-walkthrough/_static/image3.png)
 
 On your IIS server, open Windows Task Manager (for example, press Ctrl + Shift + Esc). Click the **Networking** tab. Assuming you have little network activity, you should see something like the following.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image6.png)](bit-rate-throttling-configuration-walkthrough/_static/image5.png)
+![Screenshot of the Windows Task Manager with a less than 1 percent Network Utilization.](bit-rate-throttling-configuration-walkthrough/_static/image5.png)
 
 On a client computer that has network access to your IIS server, open Windows Media Player, and then launch the **Open URL** dialog box (for example, press Ctrl + U). Type in the address of the IIS server Default Web Site in the **Open** field (for example, http://&lt;*server*\_*name*&gt;/test.wmv) as shown below, and click **OK**.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image8.png)](bit-rate-throttling-configuration-walkthrough/_static/image7.png)
+![Screenshot of the Open U R L dialog with the I I S server Default Web Site entered.](bit-rate-throttling-configuration-walkthrough/_static/image7.png)
 
 After nearly two minutes of video clip payback on your client machine, the Networking graph on your IIS server should look something like the one below.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image10.png)](bit-rate-throttling-configuration-walkthrough/_static/image9.png)
+![Screenshot of the test file opened in Windows Media Player.](bit-rate-throttling-configuration-walkthrough/_static/image9.png)
 
 We see that there was an initial burst of data to fill the pre-roll buffer on Windows Media Player, followed by a throttled delivery of content at just about 1 Mbps, which is the encoded bit rate of the content.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image12.png)](bit-rate-throttling-configuration-walkthrough/_static/image11.png)
+![Screenshot of the Windows Task Manager with an increased Network Utilization of over 1 percent.](bit-rate-throttling-configuration-walkthrough/_static/image11.png)
 
 If these results are similar to those you saw, congratulations! You have successfully installed the IIS Bit Rate Throttling module. Now, let us move on to an overview of how to change the default settings.
 
@@ -86,7 +86,7 @@ If these results are similar to those you saw, congratulations! You have success
 First, we examine the default Bit Rate Throttle settings, how to add new settings, and how to change existing settings.
 
 1. Click your server in the Connections pane click on Bitrate Throttling in the Home Page pane, and then click Open Feature in the Actions Pane.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image2.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image1.bmp)
+    ![Screenshot of Bit Rate Throttling selected in the I I S M P dash DEMO Home pane and Open Feature emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image1.bmp)
 2. In the Bit Rate Throttling page, note the ten media file types that are defined by default in the module (see below).
 3. Note that each **File Type** has four attributes associated with it:  
 
@@ -94,37 +94,37 @@ First, we examine the default Bit Rate Throttle settings, how to add new setting
     - **Fast Start**, which defines how much content to blast down to the client to minimize startup latency (in either seconds worth of content for Media file types or kB of content for Data file types
     - **Throttle Rate**, which defines the download speed of the file upon completion of the Fast Start burst (if applicable)
     - **Entry Type** (Local or Inherited).  
-        [![](bit-rate-throttling-configuration-walkthrough/_static/image4.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image3.bmp)
+        ![Screenshot of the Bit Rate Throttling pane with the Throttle Rate details of multiple file types.](bit-rate-throttling-configuration-walkthrough/_static/image3.bmp)
 4. Click Add Throttling Setting… in the Actions pane. The Add Throttle Setting dialog box appears.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image6.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image5.bmp)
+    ![Screenshot of Add Throttle Setting emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image5.bmp)
 5. Note that the File Type dropdown has no entries. This is by design. There are ten media file types defined, and each of them already has a default Throttle Setting configured. Adding new media file types requires that you first define those media formats using the extensibility schema in the ApplicationHost.config file. To learn more about how to do this, see the [Bit Rate Throttling Extensibility Walkthrough](https://go.microsoft.com/?LinkID=7439974).  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image8.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image7.bmp)
+    ![Screenshot of the Add Throttle Setting dialog with the File or M I M E type field emphasized.](bit-rate-throttling-configuration-walkthrough/_static/image7.bmp)
 6. Enter a new file extension in the File Type box. For example, enter .jpg. (Why choose .jpg? Consider a 6MB [progressive JPEG](http://en.wikipedia.org/wiki/JPEG) file. With Bit Rate Throttling, the first pass of the file could be blasted down with Fast Start, and the subsequent passes in a throttled manner. Should the end user decide they had started downloading the wrong image after the first pass and cancelled the download, you might save considerable bandwidth by not downloading the rest of the file to them at full connection bandwidth.) Since the .jpg extension is not a recognized audio or video format, it is assumed to be a Data (non-Media) file type, and only fields in the Data Type Settings section are editable.
 7. Since we expect to download progressive JPEG images, and want to see the first pass of the image as soon as possible, set the Fast Start field to 10, which is measured in kilobytes (KB) and configures the Bit Rate Throttling module to blast down the first 10KB of each image as fast as the network will allow.
 8. Set the Throttle Rate to 5, which configures the Bit Rate Throttling module to download the rest of the file at 5 kilobits per second (kbps).
 9. Click OK.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image10.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image9.bmp)  
+    ![Screenshot of adding Data Throttle Options for J P G files with Fast start at 10 k Bytes and Throttle rate at 5 k b p s.](bit-rate-throttling-configuration-walkthrough/_static/image9.bmp)  
    Note that .jpg has been added to the list of File Types.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image12.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image11.bmp)
+    ![Screenshot of the Bit Rate Throttling pane with the new J P G setting emphasized.](bit-rate-throttling-configuration-walkthrough/_static/image11.bmp)
 10. Now, we could add the same throttle settings for jpg by using the MIME type for jpg. Click Add Throttling Setting… in the Actions pane. The Add Throttle Setting dialog box appears  
   
     Note: we have changed the grouping below to group by Throttle Type  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image14.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image13.bmp)
+    ![Screenshot of an emphasized Group by Throttle Type and Add Throttle Settings options.](bit-rate-throttling-configuration-walkthrough/_static/image13.bmp)
 11. Enter the MIME type for .jpg (image/jpeg) and the same throttle settings as above.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image16.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image15.bmp)
+    ![Screenshot of image forward slash j p e g with Data Throttle options of 10 k Bytes for Fast Start and 5 k b p s for Throttle rate.](bit-rate-throttling-configuration-walkthrough/_static/image15.bmp)
 12. Click OK.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image18.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image17.bmp)
+    ![Screenshot of the added Throttle Setting in the Bit Rate Throttling pane.](bit-rate-throttling-configuration-walkthrough/_static/image17.bmp)
 13. Click on the .wmv File Type. Note that Edit and Remove options are available in the Actions pane when a File Type is selected from the list.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image20.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image19.bmp)
+    ![Screenshot of the Edit and Remove options emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image19.bmp)
 14. Click Edit in the Actions pane. The Edit Throttle Setting dialog box appears (below).  
   
     Note that the File Type dropdown box and Media Type Settings are pre-populated with the existing .wmv settings. Also note that you can change the .wmv extension to be a Data Type.   
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image22.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image21.bmp)
+    ![Screenshot of w m v Throttle settings with Media Throttle Options of 24 seconds for Fast Start and 110 percent for Throttle rate. ](bit-rate-throttling-configuration-walkthrough/_static/image21.bmp)
 15. Change the existing .wmv Fast Start value from 20 to 25, and the Throttle Rate from 100 to 110 (above). This configures the module to quickly download the first 25 seconds worth of content in any given .wmv file as fast as the connection will allow, and then to throttle the rest of the delivery at 110% of the encoded bit rate. For example, if the end user has a cable connection to the Internet, their connection speed might be 2 Mbps. This is the speed at which the first 25 seconds worth of content will be delivered. If the file was encoded at 300 kbps, the remainder of the file would be delivered at 110% of that bit rate, or 330 kbps. This one-two approach allows the media client to quickly acquire content and start playing it back, and then to continue to deliver it at a rate which should ensure little or no user impact should there be any minor network interruptions later.
 16. Click OK. Note that the settings for .wmv are now shown in the list of File Types.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image24.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image23.bmp)
+    ![Screenshot of the modified w m v Throttle Setting in the Bit Rate Throttling pane.](bit-rate-throttling-configuration-walkthrough/_static/image23.bmp)
 17. Now, enable the Bit Rate Throttling module by clicking on enable  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image26.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image25.bmp)
+    ![Screenshot of the Enable option emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image25.bmp)
 
 **Summary**: In this section, you saw the default server-level settings for Bit Rate Throttling, you added settings for a Data File Type, and edited settings for a Media File Type.
 
@@ -156,33 +156,33 @@ The initial steps below will help you get started with configuration delegation.
 4. As shown below, click on a Web site in the Connections pane tree view.
 5. On the Home Page displayed in the central pane, click on the Bit Rate Throttling icon in the Media area.
 6. Click on Open Feature in the Actions pane.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image28.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image27.bmp)
-7. In the Bit Rate Throttling page (see below), note the eleven file types that have settings defined for the module, reflecting the changes we made in [Configure throttling at the server level](bit-rate-throttling-configuration-walkthrough.md#server). If you were successful in Step 3 of this section, all of these have the Entry Type of Inherited from the Server level. [![](bit-rate-throttling-configuration-walkthrough/_static/image30.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image29.bmp)
+    ![Screenshot of the Bit Rate Throttling icon selected in the Default Web Site Home pane and Open Feature emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image27.bmp)
+7. In the Bit Rate Throttling page (see below), note the eleven file types that have settings defined for the module, reflecting the changes we made in [Configure throttling at the server level](bit-rate-throttling-configuration-walkthrough.md#server). If you were successful in Step 3 of this section, all of these have the Entry Type of Inherited from the Server level. ![Screenshot of an emphasized list of different Media File Throttle rates.](bit-rate-throttling-configuration-walkthrough/_static/image29.bmp)
 8. Click on Add Throttling Setting… in the Actions pane.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image32.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image31.bmp)
+    ![Screenshot of an emphasized Add Throttle Setting option in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image31.bmp)
 9. The Add Throttle Setting dialog box appears (below).
 10. Note that the File Type dropdown box has no entries. Again, this is by design. There are ten media file types defined, and each of them already has a default Throttle Setting configured. To add new media file types requires that you first define those media formats using the extensibility schema in the ApplicationHost.config file. To learn more about how to do this, see the [Bit Rate Throttling Extensibility Walk-through](https://go.microsoft.com/?linkid=7439974).  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image34.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image33.bmp)
+    ![Screenshot of an emphasized File or M I M E type drop-down menu in the Add Throttle Setting dialog.](bit-rate-throttling-configuration-walkthrough/_static/image33.bmp)
 11. Enter a new file extension in the File Type box (see below). As an example, enter .dat. (Why throttle .dat files? Perhaps these are large files that do not have a requirement to be downloaded quickly, but you do have a requirement to support a maximum number of concurrent connections. Throttlling very large low-priority files will allow you to scale your servers to serve more users.)
 12. Since the .dat extension is not a recognized audio or video format, it is assumed to be a Data (non-Media) file type, and only fields in the Data group box are editable.
 13. Since we have no need to blast down the first part of the file, leave the Fast start field at the default value of 0.
 14. Set the Throttle rate to 250, which configures the Bit Rate Throttling module to download the rest of the file at 250 kilobits per second (kbps).
 15. Click OK.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image36.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image35.bmp)
+    ![Screenshot of a d a t File with Data Throttle Options of 0 k Bytes for Fast Start and 250 k b p s for Throttle rate.](bit-rate-throttling-configuration-walkthrough/_static/image35.bmp)
 16. Note that .dat has been added to the list of File Types (see below), with the Entry Type listed as Local. Therefore, this Throttle setting will only apply to this site and levels below it, but not to peer sites or the overall server.
 17. Also note that we now have a Revert to Inherited option in the Actions pane. This allows us to quickly revert *all* changes we have made at this level in favor of the inherited rules from higher configuration levels. *Use the Revert to Inherited option carefully! If you have made changes to several File Types, and just need to revert changes for one of those File Type, make the corrections manually.* (For example, if you decided you did not want the .dat File Type defined at the site level, you could simply select it on the Bit Rate Throttling page and then click on Remove in the Actions pane.)  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image38.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image37.bmp)
+    ![Screenshot of the added Throttle Setting in the Bit Rate Throttling pane. Revert to Inherited is emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image37.bmp)
 18. Click on the .wmv File Type.
 19. Note that Edit and Remove options are available in the Actions pane when a File Type is selected from the list.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image40.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image39.bmp)
+    ![Screenshot of w m v selected in the Bit Rate Throttling pane and the Edit and Remove options emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image39.bmp)
 20. Click on Edit in the Actions pane.
 21. The Edit Throttle Setting dialog box appears (below).
 22. Note that the File Type dropdown box and Media Type Settings are pre-populated with the existing .wmv settings. Also note that you could change the .wmv extension to be a Data Type if you wanted to throttle .wmv files at a flat rate on this site, rather than using automatic detection of the encoded bit rate for each .wmv file.
 23. Change the inherited .wmv Fast Start value from 20 to 25, and the Throttle Rate from 100 to 110. This configures the module to blast down the first 25 seconds worth of content in any given .wmv file *at the site level* as fast as the connection will allow, and then to throttle the rest of the delivery at 110% of the encoded bit rate.
 24. Click OK.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image42.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image41.bmp)
+    ![Screenshot of w m v Media Throttle Options with Fast Start set to 25 seconds and Throttle rate set to 110 percent.](bit-rate-throttling-configuration-walkthrough/_static/image41.bmp)
 25. Note that the new *site level* settings for .wmv are now shown in the list of File Types (below), and that just like the .dat File Type we added above, this is now labeled with an Entry Type of Local.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image44.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image43.bmp)
+    ![Screenshot of the modified w m v Throttle Setting in the Bit Rate Throttling pane. The Entry Type is local.](bit-rate-throttling-configuration-walkthrough/_static/image43.bmp)
 
 **Summary**: In this section, you saw the default site-level settings for Bit Rate Throttling, you added new settings for a Data File Type, and you edited settings for a Media File Type.
 
@@ -192,7 +192,7 @@ The initial steps below will help you get started with configuration delegation.
 
 In this section, we highlight that a Virtual Directory can be configured using the same basic settings that were shown for Sites on a previous page. For example, if we add a virtual directory called "videos" to the Default Web Site (see below), we could easily add or edit Throttle Settings for the content contained in this directory.
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image46.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image45.bmp)
+![Screenshot of Bit Rate Throttling selected in the videos Home pane and Open Feature emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image45.bmp)
 
 <a id="file"></a>
 
@@ -200,22 +200,22 @@ In this section, we highlight that a Virtual Directory can be configured using t
 
 If you need to change throttle settings at the File level, you can do this also, although it is not as intuitive as the Server, Site, and Virtual Directory levels. In this case, we will assume that there is a file called sample.wmv in your videos virtual directory that you wish to set unique throttle settings for. Click on the videos virtual directory, and then click on Content View at the bottom of the Home Page pane (see below).
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image48.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image47.bmp)
+![Screenshot of an emphasized Content View tab at the bottom of the videos Content pane.](bit-rate-throttling-configuration-walkthrough/_static/image47.bmp)
 
 Right-click on sample.wmv in the Home Page pane, and then click on Switch to Features View from the context menu (see below).
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image50.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image49.bmp)
+![Screenshot of an emphasized Switch to Features View option after right-clicking sample dot w m v.](bit-rate-throttling-configuration-walkthrough/_static/image49.bmp)
 
 Now sample.wmv appears in the Connections pane (see below).
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image52.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image51.bmp)
+![Screenshot of emphasis on sample dot w m v in the Connections pane and Bit Rate Throttling icon in the sample dot w m v Home pane.](bit-rate-throttling-configuration-walkthrough/_static/image51.bmp)
 
 Double-click on the Bit Rate Throttling icon, and then adjust the throttle settings for the .wmv File Type.
 
 > [!TIP]
 > One way to ensure that you are applying settings to the correct configuration level is to check the path shown at the top of the Internet Information Services (IIS) Manager window; another is to check the status bar at the bottom of the window (see below).
 
-[![](bit-rate-throttling-configuration-walkthrough/_static/image54.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image53.bmp)
+![Screenshot of emphasis on the file path at the top and the Configuration level at the bottom  of the I I S Manager.](bit-rate-throttling-configuration-walkthrough/_static/image53.bmp)
 
 <a id="advanced"></a>
 
@@ -226,18 +226,18 @@ Bit Rate Throttling includes limits to help site administrators manage server re
 Let us continue on with the Site example used in [Configure throttling at the site level](bit-rate-throttling-configuration-walkthrough.md#site). We will start first by looking at the limits that apply to bandwidth used per connection.
 
 1. As shown below, go to the Bit Rate Throttling feature on the Default Web site.  
-    [![](bit-rate-throttling-configuration-walkthrough/_static/image56.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image55.bmp)
+    ![Screenshot of the Bit Rate Throttling pane for the Default Web Site. Advanced Settings is emphasized in the Actions pane.](bit-rate-throttling-configuration-walkthrough/_static/image55.bmp)
 2. Click on Advanced Settings… in the Actions pane.
 3. Note the two settings available in the Advanced Settings dialog box (see below):  
 
     - **Default throttle rate**: A setting that applies to media files for which the encoded bit rate cannot be determined (for example, when metadata in a media file is missing or corrupted), or when no throttle rate is specified for any given media or data file type. Using this as a limit prevents any file or file type from using a disproportionate amount of bandwidth.
     - **Maximum throttle rate**: A setting that limits the throttle rate for all known media or data files to a specific value. You can set this maximum value for files to limit the throttle rate, even if the throttle rate setting for a specific file type is higher.  
-        [![](bit-rate-throttling-configuration-walkthrough/_static/image58.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image57.bmp)
+        ![Screenshot of a blank Advanced Settings dialog.](bit-rate-throttling-configuration-walkthrough/_static/image57.bmp)
 4. Here is a usage example (see below):  
 
     - Enable the Default throttle rate and set it to 300 kbps.
     - Enable the Maximum throttle rate and set it to 1000 kbps.  
-        [![](bit-rate-throttling-configuration-walkthrough/_static/image60.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image59.bmp)
+        ![Screenshot of setting the Default throttle rate to 300 k b p s and Maximum throttle rate to 1000 k b p s.](bit-rate-throttling-configuration-walkthrough/_static/image59.bmp)
 5. With the settings shown above, the results will be:  
 
     - Any file delivered by this IIS site that is *not* currently listed in the Site level Bit Rate Throttle settings will be delivered at a constant 300 kbps. This does not take precedence over file types that are already configured to use throttling.
