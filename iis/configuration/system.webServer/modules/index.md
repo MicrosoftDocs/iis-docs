@@ -1,5 +1,5 @@
 ---
-title: "Modules &lt;modules&gt;"
+title: "Modules Element &lt;modules element&gt;"
 author: rick-anderson
 description: "Overview The &lt;modules&gt; element defines the native-code modules and managed-code modules that are registered for an application. As a part of Internet I..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: b1426772-182f-477b-9e06-f8699b4297f4
 msc.legacyurl: /configreference/system.webserver/modules
 msc.type: config
 ---
-# Modules &lt;modules&gt;
+# Modules Element &lt;modules element&gt;
 
 <a id="001"></a>
 ## Overview
