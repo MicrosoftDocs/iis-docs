@@ -141,7 +141,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 6. Click **OK**.
 7. If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.
 
-   ![Screenshot of the Add Module Mapping dialog box.](index/_static/image17.png)
+   ![Screenshot of the Add Module Mapping information dialog box.](index/_static/image17.png)
 
    > [!NOTE]
    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose **No**, you can manually create a FastCGI application later.
