@@ -63,7 +63,7 @@ The `<binding>` element is included in the default installation of IIS 7 and lat
 6. Expand **siteDefaults**.
 7. Select **bindings** and then click the ellipsis to the right to open the Collection Editor.  
   
-    [![](binding/_static/image2.png)](binding/_static/image1.png)
+    [![Screenshot of Site Bindings dialog box displaying Site Defaults node expanded and Bindings selected.](binding/_static/image2.png)](binding/_static/image1.png)
 8. Click **Add**, and enter values for **bindingInformation**, **protocol**, and **sslFlags**.
 9. Close **Collection Editor** and in the **Actions** pane, click **Apply**.
 

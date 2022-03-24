@@ -19,7 +19,7 @@ Now we need to configure individual sites for Web Deploy publishing. This is sim
 
 ### *Through the IIS Manager UI*
 
-[![](configure-site-for-web-deploy-publishing/_static/image2.png)](configure-site-for-web-deploy-publishing/_static/image1.png)
+[![Screenshot of Configure Web Deploy Publishing dialog box with boxes for file system permissions and Specify U R L for the Publishing Server Connection.](configure-site-for-web-deploy-publishing/_static/image2.png)](configure-site-for-web-deploy-publishing/_static/image1.png)
 
 Web Deploy's UI in IIS Manager contains a useful component for quickly configuring Web Deploy for a particular site:
 
