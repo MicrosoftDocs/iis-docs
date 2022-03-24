@@ -168,7 +168,7 @@ In this task, you will generate a failed request and view the resulting trace lo
     [![Screenshot of Internet Explorer dialog box with Continue to prompt when website content is blocked option selected.](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image27.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image26.jpg)
 3. In the **Internet Explorer** dialog box, add **about:internet** to the list of trusted sites by selecting the **Tools** menu, selecting **Internet Options**, clicking the **Security** tab, selecting **Trusted Zone**, and then selecting **Sites**. This allows the XSL to work. You will see the following after adding **about:internet** to the list of trusted sites:  
 
-    [![Screenshot of Request Summary page with the Errors & Warnings table displaying columns for Severity, Event and module Name.](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image29.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image28.jpg)
+    [![Screenshot of Request Summary page with the Errors and Warnings table displaying columns for Severity, Event and module Name.](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image29.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image28.jpg)
 
     A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was `%windir%\system32\inetsrv\asp.dll`.
 4. Open the raw XML file directly by using a text editor, and look at the contents of the event.
