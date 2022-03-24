@@ -140,7 +140,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. When the **FTP Authentication** page displays, click **Custom Providers...** in the **Actions** pane.  
-    ![Screenshot of the F T P Authentication page, showing the Custom Provers option in the Actions pane.](index/_static/image9.png)
+    ![Screenshot of the F T P Authentication page, showing the Custom Providers option in the Actions pane.](index/_static/image9.png)
 5. When the **Custom Providers** dialog box displays, click to select **IIS Manager Authentication**. Click **OK**.  
     ![Screenshot of the Custom Providers dialog box showing the I I S Manager Authentication option.](index/_static/image11.png)
 6. Your **FTP Authentication** page should now show **IIS Manager Authentication** enabled.  
