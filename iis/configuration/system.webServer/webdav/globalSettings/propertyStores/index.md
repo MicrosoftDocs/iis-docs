@@ -1,7 +1,7 @@
 ---
 title: "WebDAV Property Store Definitions &lt;propertyStores&gt;"
 author: rick-anderson
-description: "Overview The WebDAV module is designed to support multiple property store providers, which are defined in the webdav/globalSettings/propertyStores collection..."
+description: The WebDAV module is designed to support multiple property store providers, which are defined in the `webdav/globalSettings/propertyStores` collection.
 ms.date: 09/26/2016
 ms.assetid: 6cf3b3e1-5c4c-497c-85b3-75dbfe26b039
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/propertystores
