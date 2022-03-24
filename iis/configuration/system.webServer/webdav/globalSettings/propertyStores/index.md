@@ -47,7 +47,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Common HTTP Features**, and then select **WebDAV Publishing**. Click **Next**.  
-    ![](index/_static/image1.png)
+    ![Screenshot shows the Server Roles page selecting Web D A V Publishing checkbox and Next button.](index/_static/image1.png)
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -57,7 +57,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    ![](index/_static/image3.png)
+    ![Screenshot shows Windows Features dialog box selecting Web D A V Publishing checkbox and select OK button.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -67,7 +67,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **Common HTTP Features**, select **WebDAV Publishing**, and then click **Next**.   
-    ![](index/_static/image5.png)
+    ![Screenshot shows Select Role Services page to select Web D A V Publishing under Common H T T P Features.](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -77,7 +77,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 . In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 . Expand **Internet Information Services**, then **World Wide Web Services**, and then **Common HTTP Features**.
 . Select **WebDAV Publishing**, and then click **OK**.   
-    ![](index/_static/image7.png)
+    ![Screenshot shows Windows Features page with Web D A V Publishing feature selected.](index/_static/image7.png)
 
 ### Windows Server 2008 or Windows Vista
 
@@ -111,18 +111,18 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click **WebDAV Authoring Rules**.  
-    ![](index/_static/image9.png)
+    ![Screenshot shows I I S Manager window home page to select Web D A V authoring Rules.](index/_static/image9.png)
 4. When the **WebDAV Authoring Rules** page is displayed, click **WebDAV Settings** in the **Actions** pane.  
-    ![](index/_static/image11.png)
+    ![Screenshot shows I I S Manager home page with Web D A V Authoring Rules.](index/_static/image11.png)
 5. When the **WebDAV Settings** page is displayed, specify the following options in the **Property Behavior** section: 
 
    - Set **Allow anonymous property queries** to **False**.
    - Set **Allow custom properties** to **True**.
    - Set **Allow property queries with infinite depth** to **False**.
   
-     ![](index/_static/image13.png)
+     ![Screenshot shows I I S Manager page with Web D A V Settings.](index/_static/image13.png)
 6. Click the ellipsis (**...**) button to launch the Namespace Collection Editor.   
-    ![](index/_static/image15.png)
+    ![Screenshot shows the Name space Collection editor to add Property Store.](index/_static/image15.png)
 7. Click **Add** and then choose **webdav\_simple\_prop** from the drop-down list
 8. Specify "\*" for the XmlNameSpace and then click **OK**.
 9. Once you have completed the previous steps, click **Apply** in the **Actions** pane.
