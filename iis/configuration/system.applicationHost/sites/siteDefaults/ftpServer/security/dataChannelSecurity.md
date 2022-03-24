@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    ![Screenshot of the Windows Server 2008 R 2 Add Role Services screen. The Select Role Services pages is in the main pane.](dataChannelSecurity/_static/image5.png)
+    ![Screenshot of the Windows Server 2008 R 2 Add Role Services screen. The Select Role Services page is in the main pane.](dataChannelSecurity/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.

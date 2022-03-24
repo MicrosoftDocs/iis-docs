@@ -50,7 +50,7 @@ In this troubleshooter, I will be using IIS 8. Open the **IIS Manager** and sele
 
 Open Windows Explorer and navigate to the directory that contains the IIS log files of the website that experienced the performance problem. *Figure 2* shows how that might look like.
 
-![Screenshot of Windows Explorer windows showing file locations.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image3.png)  
+![Screenshot of Windows Explorer showing file locations.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image3.png)  
 **Figure 2: IIS Log file location**
 
 IIS log files can be quite large; for example, in *Figure 2*, the log file *u\_ex12101858.log* is nearly 100MB in size. Because these log files may be huge and contain hundreds of thousands of individual log file entries, manually looking through each of these files for an error is not a good approach, and returns few results for the time that you invest.
@@ -77,7 +77,7 @@ Once you have identified the IIS log files that contain errors, you should copy 
 
 For example, you might copy your IIS logs to a folder on your personal computer where you have already copied the LogParser files, which is how I typically analyze my log files. *Figure 3* shows an example of where I stored them to create this article.
 
-![Screenshot of the Windows Explorer window showing the location of the log parser executable.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image5.png)
+![Screenshot of Windows Explorer showing the location of the log parser executable.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image5.png)
 **Figure 3: IIS Logs files locally hosted for analysis using LogParser**
 
 After you have downloaded LogParser, you are ready to begin the analysis. The first query I run is shown in *Figure 4*. The results give you an overview of how IIS has been responding to the requests.

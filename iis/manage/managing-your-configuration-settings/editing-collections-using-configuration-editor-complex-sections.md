@@ -30,7 +30,7 @@ This walkthrough requires the following prerequisites:
     ![Screensheet of the I I S Manager window. The server home features is in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image1.jpg)
 4. In the Configuration Editor Section combo box, Select system.webServer – tracing - traceFailedRequests or type system.webServer/tracing/traceFailedRequests
 
-    ![Screenshot showing the Configuration Editor with the section input box](editing-collections-using-configuration-editor-complex-sections/_static/image3.jpg)
+    ![Screenshot showing the Configuration Editor with the section input box.](editing-collections-using-configuration-editor-complex-sections/_static/image3.jpg)
 
 ## Use Collection Editor to add a new failed tracing request rule
 
@@ -62,7 +62,7 @@ This walkthrough requires the following prerequisites:
 18. Click **Apply** in the Actions Task pane to make the changes to config.
 19. You can quickly verify the new failed request tracing rule added by going to the Failed Request Tracing Rules feature page
 
-    ![Screenshot of the I I S Manager window. The site home features are in the main pane.The Failed Request Tracing Rules icon is highlighted.](editing-collections-using-configuration-editor-complex-sections/_static/image13.jpg)
+    ![Screenshot of the I I S Manager window. The site home features are in the main pane. The Failed Request Tracing Rules icon is highlighted.](editing-collections-using-configuration-editor-complex-sections/_static/image13.jpg)
 20. The rule we just added using the configuration editor feature should be listed on the failed request tracing rules page
 
     ![Screenshot of the I I S Manager window. Failed Request Tracing Rules displays in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image15.jpg)
