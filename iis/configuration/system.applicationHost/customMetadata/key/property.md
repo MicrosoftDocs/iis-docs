@@ -71,7 +71,7 @@ The `<customMetadata>` element is not available on the default installation of I
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **IIS Metabase and IIS 6 configuration compatibility**, and then click **OK**.  
-    ![Screenshot of the I I S Metabase and I I S 6 configuration compatibility folder being selected and highlighted.](property/_static/image7.png)
+    ![Screenshot of the I I S Metabase and I I S 6 configuration compatibility folder being selected and highlighted, showing the O K option.](property/_static/image7.png)
  
 <a id="004"></a>
 ## How To

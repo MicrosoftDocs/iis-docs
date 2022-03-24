@@ -78,7 +78,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Security**.
 4. Select **Request Filtering**, and then click **OK**.   
-    ![Screenshot of the Request Filtering folder being highlighted and selected.](index/_static/image7.png)
+    ![Screenshot of the Select Roles Services Wizard showing the Request Filtering folder being highlighted and selected.](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
