@@ -1,7 +1,7 @@
 ---
 title: "WebDAV Lock Store Defintions &lt;lockStores&gt;"
 author: rick-anderson
-description: "Overview The WebDAV module is designed to support multiple lock store providers, which are defined in the webdav/globalSettings/lockStores collection. A seri..."
+description: Overview The WebDAV module is designed to support multiple lock store providers, which are defined in the webdav/globalSettings/lockStores collection.
 ms.date: 09/26/2016
 ms.assetid: a2500a90-a71e-4058-956d-0b7105baa43d
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/lockstores
