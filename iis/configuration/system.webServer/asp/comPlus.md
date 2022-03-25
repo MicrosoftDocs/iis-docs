@@ -26,7 +26,7 @@ The `<comPlus>` element of the `<asp>` element configures the following COM+ set
   - ASP uses system resources to track the threading model, reducing the performance of your ASP application.
   - Objects that are created in your ASP application outside of the **OnStartPage** or **OnEndPage** method are released earlier than expected, which causes degradation in the scalability of your application and can prevent your component from writing to the response in the object destructor method.
 
-    If the **trackThreadingModel** attribute is set to **false**, and you give application scope to components that you create, those components must aggregate the free-threaded marshaler. If you do not aggregate the free-threaded marshaler, ASP generates an error when you try to create an instance of the component. For more information, see [Selecting a Threading Model for Components in IIS](https://docs.microsoft.com/previous-versions/iis/6.0-sdk/ms525101(v=vs.90)).
+    If the **trackThreadingModel** attribute is set to **false**, and you give application scope to components that you create, those components must aggregate the free-threaded marshaler. If you do not aggregate the free-threaded marshaler, ASP generates an error when you try to create an instance of the component. For more information, see [Selecting a Threading Model for Components in IIS](/previous-versions/iis/6.0-sdk/ms525101(v=vs.90)).
 
 ## Compatibility
 
@@ -47,7 +47,7 @@ To support and configure ASP applications on your Web server, you must install t
 
 1. On the taskbar, click **Server Manager**. - In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**. - In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**. - On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **ASP**.
 
-    [![](comPlus/_static/image2.png)](comPlus/_static/image1.png)
+    [![Screenshot of Web Server and Application Development pane expanded with A S P selected.](comPlus/_static/image2.png)](comPlus/_static/image1.png)
 
     If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.) - On the **Server Roles** page, click **Next**. - On the **Select features** page, click **Next**. - On the **Confirm installation selections** page, click **Install**. - On the **Results** page, click **Close**.
 
@@ -57,7 +57,7 @@ To support and configure ASP applications on your Web server, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ASP**.
 
-    [![](comPlus/_static/image4.png)](comPlus/_static/image3.png)
+    [![Screenshot shows World Wide Web Services and Application Development Features node expanded with A S P selected.](comPlus/_static/image4.png)](comPlus/_static/image3.png)
 
     > [!NOTE]
     > The ISAPI Extensions role will be selected if it has not already been installed.
@@ -71,9 +71,9 @@ To support and configure ASP applications on your Web server, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ASP**.  
-    [![](comPlus/_static/image6.png)](comPlus/_static/image5.png)
+    [![Screenshot of Select Role Services page showing Application Development node expanded and A S P selected.](comPlus/_static/image6.png)](comPlus/_static/image5.png)
 5. If the **Add role services required by ASP** dialog box appears, click **Add Required Role Services**. (This page appears only if you have not already installed the ISAPI Extensions role service on your server.)  
-    [![](comPlus/_static/image8.png)](comPlus/_static/image7.png)
+    [![Screenshot of Add role services required by A S P dialog box with Web Server I I S selected.](comPlus/_static/image8.png)](comPlus/_static/image7.png)
 6. On the **Select Role Services** page, click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -85,7 +85,7 @@ To support and configure ASP applications on your Web server, you must install t
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **ASP**, and then click **OK**.
 
-    [![](comPlus/_static/image10.png)](comPlus/_static/image9.png)
+    [![Screenshot of Internet Information Services and Application Development Features pane expanded with A S P selected.](comPlus/_static/image10.png)](comPlus/_static/image9.png)
 
 ## How To
 
@@ -109,9 +109,9 @@ To support and configure ASP applications on your Web server, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or Web application that you want to configure.
 3. In the site or application **Home** pane, double-click **ASP**.  
-    [![](comPlus/_static/image12.png)](comPlus/_static/image11.png)
+    [![Screenshot of Home pane showing A S P selected.](comPlus/_static/image12.png)](comPlus/_static/image11.png)
 4. In the **ASP** pane, expand the **Com Plus Properties** section and configure your desired settings.  
-    [![](comPlus/_static/image14.png)](comPlus/_static/image13.png)
+    [![Screenshot of A S P pane displaying Com Plus Properties section highlighted.](comPlus/_static/image14.png)](comPlus/_static/image13.png)
 5. Click **Apply** in the **Actions** pane.
 
 ## Configuration

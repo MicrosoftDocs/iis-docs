@@ -27,7 +27,7 @@ To use Visual Studio 2008 to work with Web sites and applications on your local 
   
    On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the **Internet Information Services** check box, as well as the **Web Management Tools** \ **IIS 6 Management Compatibility** \ **IIS Metabase** and **IIS 6 configuration compatibility** and the **World Wide Web Services** \ **Application Development Features** \ **ASP.NET** check boxes under it.  
 
-    [![](using-visual-studio-2008-with-iis/_static/image2.png)](using-visual-studio-2008-with-iis/_static/image1.png)
+    [![Screenshot of Windows Features with Internet Information Services, I I S Meta base, I I S 6 configuration compatibility and A S P dot NET highlighted.](using-visual-studio-2008-with-iis/_static/image2.png)](using-visual-studio-2008-with-iis/_static/image1.png)
 
     On Windows Server 2008, use **Server Manager** to install the Web Server (IIS) role, and add the **Management Tools**\**IIS 6 Management Compatibility**\**IIS 6 Metabase Compatibility** and "**Application Development**\ **ASP.NET** role services. For more information, see [Installing IIS on Windows Server 2008](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md).
 
@@ -65,7 +65,7 @@ You can find the detailed explanation of the two models and their differences in
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
-    [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
+    [![Screenshot of Publish Web dialog box with field for Target location. Option for Include files from App dash Data folder is selected.](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
 
     > [!NOTE]
     > The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
@@ -89,7 +89,7 @@ Alternatively, you can configure Visual Studio to connect to the a remote IIS se
   
 In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click the project node, chose **Properties**, and click the **Web** tab. In the **Web** tab, select the **Use Local IIS Web server** option. The base URL of your Web application should populate automatically.  
 
-[![](using-visual-studio-2008-with-iis/_static/image6.png)](using-visual-studio-2008-with-iis/_static/image5.png)
+[![Screenshot of project node with Web tab expanded displaying Use I I S Web server option selected and u r l address entered in Project u r l box.](using-visual-studio-2008-with-iis/_static/image6.png)](using-visual-studio-2008-with-iis/_static/image5.png)
 
 For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
 
@@ -115,12 +115,12 @@ For more information on configuring remote debugging, see "Debugging IIS Web App
     > [!NOTE]
     > Be sure to back up your configuration first before making changes.
 
-    [![](using-visual-studio-2008-with-iis/_static/image8.png)](using-visual-studio-2008-with-iis/_static/image7.png)
+    [![Screenshot of Local Internet Information Server dialog box showing Local Web Servers pane with Default Web Site selected.](using-visual-studio-2008-with-iis/_static/image8.png)](using-visual-studio-2008-with-iis/_static/image7.png)
 3. Click **Open**.  
 
     If you do not have IIS or any of the prerequisites installed, Visual Studio 2008 displays a message when you attempt to connect to the Local IIS server telling you to install the required components. To do this, see the "Prerequisites" section earlier in this article.
 
-    [![](using-visual-studio-2008-with-iis/_static/image10.png)](using-visual-studio-2008-with-iis/_static/image9.png)
+    [![Screenshot of Local Internet Information Server dialog box displaying the message telling you to install the required components.](using-visual-studio-2008-with-iis/_static/image10.png)](using-visual-studio-2008-with-iis/_static/image9.png)
 
     > [!NOTE]
     > Visual Studio provides several different options for working with existing Web sites, in addition to connecting to an existing IIS Web site. These options include:
@@ -136,7 +136,7 @@ For more information on configuring remote debugging, see "Debugging IIS Web App
 
     To do this, right-click on the Web site project node in Visual Studio and chose **Start Options**. In the dialog, select the **Use custom server** option and type in the base URL of your Web application on the remote server.
 
-    [![](using-visual-studio-2008-with-iis/_static/image12.png)](using-visual-studio-2008-with-iis/_static/image11.png)
+    [![Screenshot of Start Options dialog box showing Use Custom Server option from Server Section selected.](using-visual-studio-2008-with-iis/_static/image12.png)](using-visual-studio-2008-with-iis/_static/image11.png)
 
 ## Using Visual Studio 2008 with a Remote IIS Server
 
@@ -155,7 +155,7 @@ You can use the FTP Site option if you have used FTP to share the IIS virtual di
 
 To use this option, provide the address of the FTP server, the port, the directory to which you are connecting, and logon credentials if not using anonymous access.
 
-[![](using-visual-studio-2008-with-iis/_static/image14.png)](using-visual-studio-2008-with-iis/_static/image13.png)
+[![Screenshot of F T P Site dialog box showing fields for Server, Port, Directory and log on credentials.](using-visual-studio-2008-with-iis/_static/image14.png)](using-visual-studio-2008-with-iis/_static/image13.png)
 
 For more information on using the FTP server included in Windows Vista and Windows Server 2008, see [FTP Site Setup (IIS 6.0)](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/31c2427c-c0a5-49fa-9e03-823f34fba3e8.mspx?mfr=true). To use the new [FTP 7](https://go.microsoft.com/fwlink/?LinkId=87847), which is available as a download from IIS.NET, see [Adding FTP to a Web Site](https://go.microsoft.com/fwlink/?LinkId=89116). If you are using Windows Server 2008 R2, the new version of FTP (FTP 7.5) is already included.
 
@@ -180,11 +180,11 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
     Where &lt;SITEID&gt; is the site id of the Web site you want to enable for FPSE, and the &lt;USERNAME&gt; is the Windows account that can act as FPSE administrator.
 5. Connect to the site Using the "Remote Site" option in the Open Web Site dialog or the New Site dialog. This allows you to connect to an existing Front Page Server Extensions – enabled Web site, or create new Web applications and virtual directories.  
 
-    [![](using-visual-studio-2008-with-iis/_static/image16.png)](using-visual-studio-2008-with-iis/_static/image15.png)
+    [![Screenshot of Remote Site dialog box displaying the field for Web site location and New Web Site button.](using-visual-studio-2008-with-iis/_static/image16.png)](using-visual-studio-2008-with-iis/_static/image15.png)
 
     If you receive the following error dialog during connection, double-check that you have installed FPSE on the remote server, and have enabled FPSE management for the Web site to which you are attempting to connect.
 
-    [![](using-visual-studio-2008-with-iis/_static/image18.png)](using-visual-studio-2008-with-iis/_static/image17.png)
+    [![Screenshot of error dialog in Microsoft Visual Studio. The message says the web server does not appear to have Front Page Server Extensions installed.](using-visual-studio-2008-with-iis/_static/image18.png)](using-visual-studio-2008-with-iis/_static/image17.png)
 
     If you are using Windows authentication for your FPSE-enabled Web site, Visual Studio attempts to authenticate using the account under which it was started. If this authentication fails, it prompts you to provide credentials for authentication with the remote server.
 
@@ -195,7 +195,7 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
 
     If you have not enabled a suitable authentication method (Windows authentication, Basic authentication, or Digest authentication), you will receive the following error dialog when you connect. To resolve this, enable one of the authentication methods mentioned above.
 
-    [![](using-visual-studio-2008-with-iis/_static/image20.png)](using-visual-studio-2008-with-iis/_static/image19.png)
+    [![Screenshot of error dialog telling you the web server does not appear to have any authentication methods enabled.](using-visual-studio-2008-with-iis/_static/image20.png)](using-visual-studio-2008-with-iis/_static/image19.png)
 
     > [!NOTE]
     > The "New Web Site …" button in the "Remote Site" dialog cannot be used to create a new IIS Web site. Instead, it is used to create a new Web application with the specified path for an existing Front Page Server Extensions – enabled IIS Web site.
