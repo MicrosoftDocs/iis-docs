@@ -54,7 +54,7 @@ The `<files>` element of the `<defaultDocument>` collection is included in the d
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application where you want to configure default documents.
 3. In the **Home** pane, double-click **Default Document**.  
-    ![Screenshot of Default Document selected in the Default Web Site Home pane/](index/_static/image1.png)
+    ![Screenshot of Default Document selected in the Default Web Site Home pane.](index/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Default Document** dialog box, type the name of the default document that you want to add in the **Name** box, and then click **OK**.  
     ![Screenshot of adding a new Default Document named home dot H T M L.](index/_static/image3.png)
