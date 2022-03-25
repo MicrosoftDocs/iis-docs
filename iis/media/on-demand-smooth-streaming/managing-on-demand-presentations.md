@@ -75,7 +75,7 @@ You can save bandwidth by removing the highest available bit rate for the presen
 1. In the **Smooth Streaming Presentations** page, select the **BigBuckBunny - Limited.ism** presentation.  
     ![Screenshot of Smooth Streaming Presentations page showing presentation selected.](managing-on-demand-presentations/_static/image8.png)
 2. In the **Actions** pane, click **Edit Smooth Stream**.  
-    ![Screenshot of Actions pan showing Edit Smooth Stream selected.](managing-on-demand-presentations/_static/image9.png)
+    ![Screenshot of Actions pane showing Edit Smooth Stream selected.](managing-on-demand-presentations/_static/image9.png)
 3. In the **Smooth Streaming Presentation** page that appears, select the video track with the highest bit rate value (**2962 Kbps**), and then click **Remove**.  
     ![Screenshot of Smooth Streaming Presentation page with highest bit rate value selected.](managing-on-demand-presentations/_static/image10.png)
 4. In the **Actions** pane, click **Apply**.  
