@@ -57,9 +57,9 @@ The `<applicationDefaults>` element of the `<sites>` element is included in the 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, then click the **Sites** node.
 3. In the server's **Sites** pane, click **Set Web Site Defaults...** in the **Actions** pane.  
-    [![](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
+    [![Screenshot shows the Sites pane with Set Web Site Defaults tab in the Actions pane.](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
 4. In the **Web Site Defaults** dialog box, specify your default application settings for all Web sites, and then click **OK**.  
-    [![](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
+    [![Screenshot of Web Site Defaults dialog box with Application Pool highlighted.](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

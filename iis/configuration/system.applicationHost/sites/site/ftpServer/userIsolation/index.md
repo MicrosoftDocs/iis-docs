@@ -67,7 +67,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of Web Server I I S and F T P Server node expanded with F T P Extensibility selected.](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -80,7 +80,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of Internet Information Services and F T P Server node expanded showing F T P Extensibility selected.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -94,7 +94,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of Select Role Services page displaying F T P Server pane expanded and F T P Service selected.](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -108,7 +108,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of F T P Server node expanded showing F T P Service highlighted.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -143,9 +143,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, then click the name of the site.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of Home pane displaying F T P User Isolation feature selected.](index/_static/image10.png)](index/_static/image9.png)
 4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **User name directory (disable global virtual directories)**.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of F T P User Isolation page showing Isolate users, Restrict users to the following directory list of options.](index/_static/image12.png)](index/_static/image11.png)
 5. In the **Actions** pane, click **Apply**.
 
 * * *
@@ -170,9 +170,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click **FTP User Isolation**.  
-    [![](index/_static/image14.png)](index/_static/image13.png)
+    [![Screenshot shows Contoso dot com Home pane with F T P User Isolation highlighted.](index/_static/image14.png)](index/_static/image13.png)
 4. On the **FTP User Isolation** page, under **Isolate users. Restrict users to the following directory:**, select **FTP home directory configured in Active Directory** and then click **Set**.  
-    [![](index/_static/image16.png)](index/_static/image15.png)
+    [![Screenshot displays F T P User Isolation page with F T P home directory configured in Active Directory option selected.](index/_static/image16.png)](index/_static/image15.png)
 5. In the **Set Credentials** dialog box, enter a user name and password in the **User name** and **Password** boxes. Enter the password again in the **Confirm Password** box, and then click **OK**.
 6. In the **Actions** pane, click **Apply**.
 

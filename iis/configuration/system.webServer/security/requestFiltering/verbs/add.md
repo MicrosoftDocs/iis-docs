@@ -46,7 +46,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Request Filtering**. Click **Next**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of Web Server I I S nad Security pane expanded with Request Filtering selected.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -56,7 +56,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Request Filtering**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot shows Security pane expanded and Request Filtering selected.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -66,7 +66,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Request Filtering**, and then click **Next**.   
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of Select Role Services page of the Add Role Services Wizard showing Security pane expanded and Request Filtering selected.](add/_static/image6.png)](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -76,7 +76,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Security**.
 4. Select **Request Filtering**, and then click **OK**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot displays Security pane expanded and Request Filtering highlighted.](add/_static/image8.png)](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -105,11 +105,11 @@ The default installation of IIS 7 and later includes the Request Filtering role 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **Request Filtering**.   
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot of Default Web Site Home pane displaying Request Filtering feature selected.](add/_static/image10.png)](add/_static/image9.png)
 4. In the **Request Filtering** pane, click the **HTTP verbs** tab, and then click **Deny Verb...** in the **Actions** pane.   
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Screenshot of Request Filtering pane shows H T T P verbs tab. Deny Verb option is displayed in Actions pane.](add/_static/image12.png)](add/_static/image11.png)
 5. In the **Deny Verb** dialog box, enter the HTTP verb that you wish to block, and then click **OK**.   
-    [![](add/_static/image14.png)](add/_static/image13.png)
+    [![Screenshot of Deny Verb dialog box with the box for entering the H T T P verb.](add/_static/image14.png)](add/_static/image13.png)
 
     For example, to prevent HTTP TRACE requests to your server, you would enter "TRACE" in the dialog box.
  

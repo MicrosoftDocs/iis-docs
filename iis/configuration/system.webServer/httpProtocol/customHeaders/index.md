@@ -57,11 +57,11 @@ The `<customHeaders>` element of the `<httpProtocol>` element is included in the
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to set a custom HTTP header.
 3. In the **Home** pane, double-click **HTTP Response Headers**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot that shows the Home pane with H T T P Response Headers selected.](index/_static/image2.png)](index/_static/image1.png)
 4. In the **HTTP Response Headers** pane, click **Add...** in the **Actions** pane.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of H T T P Response Headers pane with Add option displayed in the Actions pane.](index/_static/image4.png)](index/_static/image3.png)
 5. In the **Add Custom HTTP Response Header** dialog box, set the name and value for your custom header, and then click **OK**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of Add Custom H T T P Header dialog box with fields for name and value for custom header.](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration
