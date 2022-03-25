@@ -1,7 +1,7 @@
 ---
 title: "FTP Authorization &lt;authorization&gt;"
 author: rick-anderson
-description: "Overview The &lt;authorization&gt; element allows you to configure the user accounts that can access your site or application. Use authorization in combinati..."
+description: The `<authorization>` element allows you to configure the user accounts that can access your site or application. Use authorization in combination with authentication to secure access to content on your server
 ms.date: 09/26/2016
 ms.assetid: b4ce5d7f-6c7d-4cda-aebd-1a6dc04ca935
 msc.legacyurl: /configreference/system.ftpserver/security/authorization
