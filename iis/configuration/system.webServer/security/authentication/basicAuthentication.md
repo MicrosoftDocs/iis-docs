@@ -41,7 +41,7 @@ To install the Basic authentication role service, use the following steps.
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Basic Authentication**. Click **Next**.  
-    [![](basicAuthentication/_static/image2.png)](basicAuthentication/_static/image1.png) .
+    ![Screenshot of Basic Authentication selected in a Windows Server 2012 interface.](basicAuthentication/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -51,7 +51,7 @@ To install the Basic authentication role service, use the following steps.
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Basic Authentication**.  
-    [![](basicAuthentication/_static/image4.png)](basicAuthentication/_static/image3.png)
+    ![Screenshot of Basic Authentication selected in a Windows 8 interface.](basicAuthentication/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -60,7 +60,7 @@ To install the Basic authentication role service, use the following steps.
 1. On the taskbar, click **Start**, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
-4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Basic Authentication**, and then click **Next**. [![](basicAuthentication/_static/image6.png)](basicAuthentication/_static/image5.png)
+4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Basic Authentication**, and then click **Next**. ![Screenshot of Basic Authentication selected in a Windows Server 2008 interface.](basicAuthentication/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -69,7 +69,7 @@ To install the Basic authentication role service, use the following steps.
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, select **Basic Authentication**, and then click **OK**.   
-    [![](basicAuthentication/_static/image8.png)](basicAuthentication/_static/image7.png)
+    ![Screenshot of Basic Authentication selected in a Windows Vista or Windows 7 interface.](basicAuthentication/_static/image7.png)
 
 <a id="004"></a>
 ## How To
@@ -96,7 +96,7 @@ To install the Basic authentication role service, use the following steps.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Basic Authentication**, and then, in the **Actions** pane, click **Enable**.
 5. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    [![](basicAuthentication/_static/image10.png)](basicAuthentication/_static/image9.png)
+    ![Screenshot of Anonymous Authentication selected in the Authentication pane.](basicAuthentication/_static/image9.png)
 
 <a id="005"></a>
 ## Configuration
