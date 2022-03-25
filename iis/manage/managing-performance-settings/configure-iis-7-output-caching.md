@@ -69,7 +69,7 @@ The cache is fairly easy to configure using the user interface feature in the ne
 6. Click **Advanced**, and then select the **Query string variable(s)** check box.
 7. Enter the appropriate variable(s) in the **Query string variable(s)** text box.
 
-    [![](configure-iis-7-output-caching/_static/image2.jpg)](configure-iis-7-output-caching/_static/image1.jpg)
+    [![Screenshot of the Add Cache Rule dialog box, the Output Caching page, and the Advanced Output Cache Rule Settings.](configure-iis-7-output-caching/_static/image2.jpg)](configure-iis-7-output-caching/_static/image1.jpg)
 
     *Figure 1: Output caching example*
 

@@ -54,13 +54,13 @@ The `<add>` element of the `<defaultDocument>` collection is included in the def
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application where you want to configure default documents.
 3. In the **Home** pane, double-click **Default Document**.  
-    [![](add/_static/image2.png)](add/_static/image1.png)
+    [![Screenshot of the Home pane. Default Document is highlighted.](add/_static/image2.png)](add/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Default Document** dialog box, type the name of the default document that you want to add in the **Name** box, and then click **OK**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot of the Add Default Document dialog box. In the Name box, home dot h t m l is written.](add/_static/image4.png)](add/_static/image3.png)
 6. If necessary, in the **Actions** pane, select a default document in the list, and then click **Move Up** or **Move Down** to define the order in which IIS should search through the default document list.
 7. In the **Default Document** alert box, click **Yes** to decline configuration inheritance from a parent configuration level, or click **No** or **Cancel** to cancel the change in default document order.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of the Default Document dialog box.](add/_static/image6.png)](add/_static/image5.png)
 8. If necessary, click **Remove** in the **Actions** pane to remove any file names that you do not want to use as default documents.
 
 <a id="005"></a>
