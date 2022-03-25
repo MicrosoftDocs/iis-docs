@@ -55,11 +55,11 @@ After you've installed the IIS Smooth Streaming feature, no additional configura
 To locate the Smooth Streaming presentation files on the Web server, do the following:
 
 1. In IIS Manager, navigate to the Smooth Streaming presentation folder in the **Connections** pane.  
-   [![](delivering-transform-manager-output-to-clients/_static/image2.png)](delivering-transform-manager-output-to-clients/_static/image1.png)
+   [![Screenshot that shows the Connections pane. Big Buck Bunny is selected under the Default Web Site node.](delivering-transform-manager-output-to-clients/_static/image2.png)](delivering-transform-manager-output-to-clients/_static/image1.png)
 2. In the **Home** page, double-click the **Smooth Streaming Presentations** icon in the **Media Services** area.  
-   [![](delivering-transform-manager-output-to-clients/_static/image4.png)](delivering-transform-manager-output-to-clients/_static/image3.png)
+   [![Screenshot that shows the Big Buck Bunny Home pane. Smooth Streaming Presentations is selected under Media Services.](delivering-transform-manager-output-to-clients/_static/image4.png)](delivering-transform-manager-output-to-clients/_static/image3.png)
 3. Click **Content View** to view the Smooth Streaming presentation files.  
-   [![](delivering-transform-manager-output-to-clients/_static/image6.png)](delivering-transform-manager-output-to-clients/_static/image5.png)
+   [![Screenshot that shows the Big Buck Bunny Content pane. Content View is selected.](delivering-transform-manager-output-to-clients/_static/image6.png)](delivering-transform-manager-output-to-clients/_static/image5.png)
 
 Clients can use their web browser to open Default.html and play the Smooth Streaming presentation in a Silverlight player. You must simply provide the URL of Default.html to the client.
 
@@ -79,14 +79,14 @@ The following Apple mobile digital devices/iOS mobile operating systems can be u
 To create the HTML5 page, do the following:
 
 1. In IIS Manager, navigate to the Apple HTTP Live Streaming presentation folder in the **Connections** pane.  
-   [![](delivering-transform-manager-output-to-clients/_static/image8.png)](delivering-transform-manager-output-to-clients/_static/image7.png)
+   [![Screenshot that shows the Connections pane. Big Buck Bunny is selected.](delivering-transform-manager-output-to-clients/_static/image8.png)](delivering-transform-manager-output-to-clients/_static/image7.png)
 2. In the **Home** page, double-click the **Smooth Streaming Presentations** icon in the **Media Services** area.  
-   [![](delivering-transform-manager-output-to-clients/_static/image10.png)](delivering-transform-manager-output-to-clients/_static/image9.png)
+   [![Screenshot that shows the Big Buck Bunny Home pane. Smooth Streaming Presentations is selected.](delivering-transform-manager-output-to-clients/_static/image10.png)](delivering-transform-manager-output-to-clients/_static/image9.png)
 3. Click **Content View** to view the Apple HTTP Live Streaming presentation files.  
-   [![](delivering-transform-manager-output-to-clients/_static/image12.png)](delivering-transform-manager-output-to-clients/_static/image11.png)
+   [![Screenshot that shows the Big Buck Bunny Content pane.](delivering-transform-manager-output-to-clients/_static/image12.png)](delivering-transform-manager-output-to-clients/_static/image11.png)
 4. Right-click the **Content View** window, and then click **Explore**.
 5. In Notepad, create a text file with an HTM file-name extension and save it to this location. In this example, we'll save the text document as **iphone**.htm.  
-   [![](delivering-transform-manager-output-to-clients/_static/image14.png)](delivering-transform-manager-output-to-clients/_static/image13.png)
+   [![Screenshot that shows the Big Buck Bunny Content pane. I phone dot h t m is selected.](delivering-transform-manager-output-to-clients/_static/image14.png)](delivering-transform-manager-output-to-clients/_static/image13.png)
 6. Open the **iphone.htm** file in Notepad and add the following sample HTML:
 
    [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample1.html)]
@@ -98,8 +98,8 @@ To create the HTML5 page, do the following:
   
    The `controls` attribute must be set for iPad devices to play the video. For more information about how to configure the HTML5 `video` element, see **4.8.6 The video element** in the [W3C HTML5 Specification](http://www.w3.org/TR/html5/spec.html) .
 8. On an Apple device, open the Safari® Web browser and enter the URL of the iphone.htm page in the browser, and then click **GO**. The page will load with the default HTML5 video element, which contains a simple **Play** button.  
-   [![](delivering-transform-manager-output-to-clients/_static/image16.png)](delivering-transform-manager-output-to-clients/_static/image15.png)
+   [![Screenshot that shows the U R L of the i phone dot h t m page on a web browser.](delivering-transform-manager-output-to-clients/_static/image16.png)](delivering-transform-manager-output-to-clients/_static/image15.png)
 9. Click the **Play** button in the HTML5 video element. The device will open the QuickTime® player and begin loading the stream. You might need to wait a few seconds for the video to start.  
-   [![](delivering-transform-manager-output-to-clients/_static/image18.png)](delivering-transform-manager-output-to-clients/_static/image17.png)
+   [![Screenshot that shows the Quick Time player loading a movie.](delivering-transform-manager-output-to-clients/_static/image18.png)](delivering-transform-manager-output-to-clients/_static/image17.png)
 
 ![Note](delivering-transform-manager-output-to-clients/_static/image1.gif) **Notes** - If the device displays a message box that says "Can't open Movie," it's likely that you're using a profile that's not supported by the device. This error message is typically seen when sending a Baseline Level 3.1 profile or Main Level 3.1 to a device that only supports Baseline Level 3.0 (older iPhone devices and iPod touch devices). - You might see an error message if you try to play the stream when there are fewer than 3 segments available in the playlist. This can happen if you don't wait for 3 times the segment length; for example, 30 seconds when the default segment length is set to 10 seconds.
