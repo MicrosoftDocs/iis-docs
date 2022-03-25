@@ -85,7 +85,7 @@ After migration completes, you can verify that the application still works by ru
 
 This should bring up an application that looks similar to this:
 
-[![Screenshot shows the home page of the Gallery application.](web-deploy-parameterization/_static/image33.png)](web-deploy-parameterization/_static/image31.png)
+[![Screenshot shows that the application is launched successfully in a web browser.](web-deploy-parameterization/_static/image33.png)](web-deploy-parameterization/_static/image31.png)
 
 Now you have an application that is ready to be packaged and parameterized so that other developers can download and install it by using Web Platform Installer. The next step is to set up a file that will tell Web Deploy the steps required to install the application.
 
@@ -186,19 +186,19 @@ You now have the basic building blocks needed to deploy the application using We
 
 In the lower left corner of WebMatrix, click the **Site** tab to navigate to the site's content.
 
-![Screenshot showing the Web Matrix dialogue box highlighting the Site tab.](web-deploy-parameterization/_static/image41.png)
+![Screenshot shows the Web Matrix dialogue box highlighting the Site tab.](web-deploy-parameterization/_static/image41.png)
 
 The site page has a link to where the application content lives:
 
-![Screenshot showing the URL and Path of the application content.](web-deploy-parameterization/_static/image43.png)
+![Screenshot shows the URL and Path of the application content.](web-deploy-parameterization/_static/image43.png)
 
 Click the link to navigate to the application content. Navigate up another level from this folder and create a new folder called "VacationPicsWPIInstaller". Copy the application content folder, the Manifest.xml and Parameters.xml files, and the database installation scripts into the newly created folder:
 
-![Screenshot showing the application content folder with files and database installation scripts.](web-deploy-parameterization/_static/image45.png)
+![Screenshot shows the application content folder with files and database installation scripts.](web-deploy-parameterization/_static/image45.png)
 
 With all of the files selected, right click-&gt;Send to-&gt;Compressed (zipped) folder:
 
-![Screenshot showing the files right selected highlighting the Send to and Compressed folder options.](web-deploy-parameterization/_static/image47.png)
+![Screenshot shows the files right selected highlighting the Send to and Compressed folder options.](web-deploy-parameterization/_static/image47.png)
 
 This zipped file can be named anything, but to work better with the demo, name it "VacationPicsWPIInstaller.zip".
 
@@ -212,7 +212,7 @@ The applications and products listed by Web Platform Installer are defined insid
 
 A feed that works with the application created in this demo can be [copied from here](web-deploy-parameterization.md#VacationFeed.xml):
 
-[![Screenshot showing the VacationFeed dot x m l icon.](web-deploy-parameterization/_static/image49.png)](web-deploy-parameterization.md#VacationFeed.xml)
+[![Screenshot shows the VacationFeed dot x m l icon.](web-deploy-parameterization/_static/image49.png)](web-deploy-parameterization.md#VacationFeed.xml)
 
 Two values need to be modified in order for the feed to work properly. First, in the middle of the feed is the path to where the "VacationPicsWPIInstaller.zip" is located on disk. It should look like:
 
@@ -238,11 +238,11 @@ Copy the long number and use it to replace the value in the feed XML that looks 
 
 Now that we have a custom feed, we need to tell Web Platform installer to load this feed. Inside Web Platform installer, click the **options** link at the bottom of the application:
 
-![Screenshot shows the Web Platform Installer showing Options link and Install buttons. ](web-deploy-parameterization/_static/image53.png)
+![Screenshot shows the Web Platform Installer page with the Options link and Install buttons.](web-deploy-parameterization/_static/image53.png)
 
 Fill out the path to the custom application feed, and then click **Add Feed**:
 
-[![Screenshot shows a text field to add custom application feed](web-deploy-parameterization/_static/image57.png)](web-deploy-parameterization/_static/image55.png)
+[![Screenshot shows a text field to add custom application feed.](web-deploy-parameterization/_static/image57.png)](web-deploy-parameterization/_static/image55.png)
 
 Finally, click **OK** to close the options dialog.
 
