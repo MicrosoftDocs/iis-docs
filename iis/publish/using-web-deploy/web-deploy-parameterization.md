@@ -37,15 +37,15 @@ This article presents each of these steps in detail.
 
 An easy way to create an application to experiment with web deploy parameterization is to use WebMatrix. WebMatrix can be installed using the Microsoft Web Platform Installer, which you can download [here](https://www.microsoft.com/web/downloads/platform.aspx). After installing Web Platform Installer, search for "WebMatrix" and **install** it:
 
-[![Screenshot shows the Web Platform Installer 3 point zero window highlighting Microsoft Web Matrix to install.](web-deploy-parameterization/_static/image3.png)](web-deploy-parameterization/_static/image1.png)
+[![Screenshot shows the Web Platform Installer 3 point zero window highlighting the Microsoft Web Matrix option to install.](web-deploy-parameterization/_static/image3.png)](web-deploy-parameterization/_static/image1.png)
 
 After WebMatrix finishes installing, run the program and at the start screen select **Site From Template**:
 
-[![Screenshot shows the start screen of Microsoft Web Matrix with 4 folders to select Site from Template folder.](web-deploy-parameterization/_static/image7.png)](web-deploy-parameterization/_static/image5.png)
+[![Screenshot shows the directory of Microsoft Web Matrix to select the Site from Template folder.](web-deploy-parameterization/_static/image7.png)](web-deploy-parameterization/_static/image5.png)
 
 The **Site from Template** page appears.
 
-[![Screenshot shows the Site from Template folder with 5 templates.](web-deploy-parameterization/_static/image11.png)](web-deploy-parameterization/_static/image9.png)
+[![Screenshot shows the Site from Template folder with its templates.](web-deploy-parameterization/_static/image11.png)](web-deploy-parameterization/_static/image9.png)
 
 Since the photo gallery template application can use a Microsoft SQL Server database, it is a good choice for showing how Web Deploy parameterization can be used.
 
@@ -53,7 +53,7 @@ On the **Site from Template** page, select **Photo Gallery**. In the **Site Name
 
 Out of the box, the photo gallery application uses a file-based, SDF database. However, most real-world applications use a non-file based database, so you will convert (or "migrate") the SDF database into a Microsoft SQL Server database. If you don't have SQL Server, use Web Platform Installer to search for "SQL Server Express 2008 R2". Next, click **Add,** and then click **Install** to install it:
 
-[![Screenshot shows a list of databases highlighting S Q L Server Express 2 zero zero 8 R 2.](web-deploy-parameterization/_static/image15.png)](web-deploy-parameterization/_static/image13.png)
+[![Screenshot shows database search results highlighting S Q L Server Express 2 zero zero 8 R 2.](web-deploy-parameterization/_static/image15.png)](web-deploy-parameterization/_static/image13.png)
 
 During the application setup, remember the administrative username ("sa") and the password that you enter:
 
