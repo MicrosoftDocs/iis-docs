@@ -12,7 +12,7 @@ msc.type: config
 <a id="001"></a>
 ## Overview
 
-The `<applicationDefaults>` element of `<sites>` specifies the default application settings for all apps on the server.
+The `<applicationDefaults>` element of `<sites>` specifies the default app settings for all apps on the server.
 
 > [!NOTE]
 > If the same attribute or child element is configured in both the `<applicationDefaults>` section and in the `<application>` section for a specific application, the configuration in the `<application>` section is used for that application.
