@@ -57,11 +57,11 @@ Out of the box, the photo gallery application uses a file-based, SDF database. H
 
 During the application setup, remember the administrative username ("sa") and the password that you enter:
 
-[![Screenshot showing the Web Platform Installation window choosing the Mixed Mode Authentication option and specifying the password.](web-deploy-parameterization/_static/image19.png)](web-deploy-parameterization/_static/image17.png)
+[![Screenshot shows the Web Platform Installation window choosing the Mixed Mode Authentication option and specifying the password.](web-deploy-parameterization/_static/image19.png)](web-deploy-parameterization/_static/image17.png)
 
 Now that a SQL server instance is available, navigate back to WebMatrix. In the bottom left corner of WebMatrix, click the **Databases** tab to open the databases workspace.
 
-![Screenshot showing the Web Matrix dialogue box with navigation tabs to select Databases option.](web-deploy-parameterization/_static/image21.png)
+![Screenshot shows the Web Matrix dialogue box with navigation tabs to select Databases option.](web-deploy-parameterization/_static/image21.png)
 
 When the database workspace is open, click the database file **, PhotoGallery.sdf**, in the left pane:
 
