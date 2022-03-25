@@ -1,5 +1,5 @@
 ---
-title: "Application Defaults &lt;applicationDefaults&gt;"
+title: Application Defaults `<applicationDefaults>`  element of the `<sites>` element
 author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;sites&gt; element specifies the default application settings for all applications on the server...."
 ms.date: 09/26/2016
@@ -12,7 +12,7 @@ msc.type: config
 <a id="001"></a>
 ## Overview
 
-The `<applicationDefaults>` element of the `<sites>` element specifies the default application settings for all applications on the server.
+The `<applicationDefaults>` element of `<sites>` specifies the default application settings for all apps on the server.
 
 > [!NOTE]
 > If the same attribute or child element is configured in both the `<applicationDefaults>` section and in the `<application>` section for a specific application, the configuration in the `<application>` section is used for that application.
