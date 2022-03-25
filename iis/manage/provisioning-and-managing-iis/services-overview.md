@@ -55,7 +55,7 @@ Validate the installation using the following steps.
 
 1. Browse to the following url: http://&lt;hostheader&gt;/webmanagementservice.svc . The following page appears if the installation was successful, which indicates that the service is now hosted.
 
-    [![](services-overview/_static/image2.jpg)](services-overview/_static/image1.jpg)
+    [![Screenshot that shows the Web Management Service Service page on Internet Explorer.](services-overview/_static/image2.jpg)](services-overview/_static/image1.jpg)
 
     > [!NOTE]
     > You must configure an account with admin rights for running either Windows Service or an application pool for the IIS hosted web site, since the services require admin level permissions to manage IIS configurations, as well as other functions.
@@ -67,7 +67,7 @@ Validate the installation using the following steps.
 
 A typical hosting environment is a heterogeneous environment (as shown in figure below). Most hosters use Web Services to manage the disparate set of servers and the different roles each server plays.
 
-[![](services-overview/_static/image4.jpg)](services-overview/_static/image3.jpg)
+[![Diagram that shows multiple servers in a heterogenous environment.](services-overview/_static/image4.jpg)](services-overview/_static/image3.jpg)
 
 *Figure 1: A Heterogeneous Hosting Environment*
 
@@ -117,7 +117,7 @@ The Query operations view information specific to each subsystem. A hoster's sup
 
 The sample is implemented as Windows Communication Framework (WCF) services, which are then exposed to customers as Web Services using the WSHttpBinding. The following is an architectural diagram:
 
-[![](services-overview/_static/image6.jpg)](services-overview/_static/image5.jpg)
+[![Diagram that shows the service contracts and service implementations, in between Hosting Fault Contracts and Hosting Management Component.](services-overview/_static/image6.jpg)](services-overview/_static/image5.jpg)
 
 *Figure 1: Hosting Services Sample Architecture*
 
