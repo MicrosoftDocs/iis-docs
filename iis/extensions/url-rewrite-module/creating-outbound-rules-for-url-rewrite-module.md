@@ -71,7 +71,7 @@ Open a Web browser and request the following URL:
 
 If the rewrite rule is working correctly, you will get a response form the server that looks like the following:
 
-[![](creating-outbound-rules-for-url-rewrite-module/_static/image4.png)](creating-outbound-rules-for-url-rewrite-module/_static/image2.png)
+![Screenshot of the Final U R L after hovering over the link in the U R L Rewrite Module Test Page using a web browser.](creating-outbound-rules-for-url-rewrite-module/_static/image2.png)
 
 You can see that because of the inbound rule it is possible to access this web page by using a simple and user friendly URL structure. However, if a user clicks on the hyperlink within the HTML page then the URL with query string parameters will be used by the Web browser. This is not preferable for several reasons:
 
@@ -99,9 +99,9 @@ You will create an outbound rule by using the URL Rewrite user interface in IIS 
 1. Open IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View select "URL Rewrite"  
-    [![](creating-outbound-rules-for-url-rewrite-module/_static/image8.png)](creating-outbound-rules-for-url-rewrite-module/_static/image6.png)
+    ![Screenshot of U R L Rewrite selected in the Default Web Site Home pane.](creating-outbound-rules-for-url-rewrite-module/_static/image6.png)
 4. In the Actions pane on the right hand side click on "**Add Rules...**". In the "Add Rules" dialog select the "Blank Rule" under the "Outbound rules" category and click OK.  
-    [![](creating-outbound-rules-for-url-rewrite-module/_static/image11.png)](creating-outbound-rules-for-url-rewrite-module/_static/image10.png)
+    ![Screenshot of selecting a Blank rule template under Outbound rules in the Add Rules dialog.](creating-outbound-rules-for-url-rewrite-module/_static/image10.png)
 
 Now you must define the actual outbound rule. In the URL Rewrite Module 2.0, an outbound rewrite rule is defined by specifying the following information:
 
@@ -134,7 +134,7 @@ Because the rule that you are creating should be applied only on HTML responses,
      - Check if input string: "**Matches the pattern**"
      - Pattern: "**^text/html**"
 
-       [![](creating-outbound-rules-for-url-rewrite-module/_static/image15.png)](creating-outbound-rules-for-url-rewrite-module/_static/image14.png)
+       ![Screenshot of adding a new pre-condition with the specified settings.](creating-outbound-rules-for-url-rewrite-module/_static/image14.png)
 3. Click OK to save the precondition and to return to the "Edit Rule" page.
 
 ### Defining a matching scope
@@ -175,7 +175,7 @@ This string specifies the new value to which the link address should be rewritte
 
 Leave default values for all other settings. The "Edit Rule" property page will look like the following page:
 
-[![](creating-outbound-rules-for-url-rewrite-module/_static/image17.png)](creating-outbound-rules-for-url-rewrite-module/_static/image16.png)
+![Screenshot before applying the new Outbound Rewrite Rule with the Is H T M L Pre-condition](creating-outbound-rules-for-url-rewrite-module/_static/image16.png)
 
 Save the rule by clicking on "Apply" action on the right hand side.
 
@@ -197,7 +197,7 @@ You can now test that the rule correctly rewrites URLs. Open a Web browser and r
 
 You should see that the outbound rewrite rule has changed the link within the HTML response:
 
-[![](creating-outbound-rules-for-url-rewrite-module/_static/image20.png)](creating-outbound-rules-for-url-rewrite-module/_static/image18.png)
+![Screenshot of the new U R L after hovering over the link in the U R L Rewrite Module Test Page using a web browser.](creating-outbound-rules-for-url-rewrite-module/_static/image18.png)
 
 Now, if a site visitor clicks on this link, the clean URL format will be used and an internal URL representation used by this page will not be revealed.
 

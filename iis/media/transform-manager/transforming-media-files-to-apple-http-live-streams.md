@@ -77,30 +77,30 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 ### Configuring the Expression Encoder 4.0 SP2 Task
 
 1. In IIS Manager, in the **Connections** pane, click **Job Templates**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image1.png)
+    ![Screenshot of the I I S Manger page. In the Connections pane Job Templates is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image1.png)
 2. In the **Job Templates** page, select the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image3.png)
+    ![Screenshot of the Job Templates page. Video files to H dot 264 is selected.](transforming-media-files-to-apple-http-live-streams/_static/image3.png)
   
     Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transcoding/repackaging jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image5.png)
+    ![Screenshot of the Actions pane. The Edit button is located under New.](transforming-media-files-to-apple-http-live-streams/_static/image5.png)
 4. In the **Edit Job Template** dialog box, you can edit the job template **Name** and **Description** to give it a more descriptive information for your environment. For example, if you decide to change the default H.264 IIS Smooth Streaming encoding preset to another H.264-encoding preset in the next step, you can edit the **Name** and **Description** to reflect your choice.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image7.png)  
+    ![Screenshot of the Edit Job Template dialog box. The Basic Settings tab is open.](transforming-media-files-to-apple-http-live-streams/_static/image7.png)  
   
     The **Task definitions** list shows the tasks that are used by this job template. The first task (**Expression Encoder 4.0 SP2**) transcodes media files to H.264-formatted Smooth Streams and provides the output to the second task (**Smooth Streams to Apple HTTP Live Streams**), which repackages the Smooth Streams to MPEG-2 TS container format. This is an example of a task-chaining workflow.
 5. To change the preset used by this task to another Expression Encoder preset, select the **Expression Encoder 4.0 SP2** task and then click **Edit**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image9.png)
+    ![Screenshot of the Edit Job Template dialog box. The Edit button is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image9.png)
 6. In the **Edit Expression Encoder 4.0 SP2 Task** dialog box, in **preset**, double-click the **Value** field, and then type the name of a new preset file that is included in the default installation of Transform Manager.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image11.png)  
+    ![Screenshot of the Edit Expression Encoder 4 dot 0 S P 2 Task dialog box. In the Name column, present is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image11.png)  
   
     You can choose from any of the H.264 IIS Smooth Streaming preset files that are installed with Transform Manager, or from any custom H.264-encoding presets that you designed in Expression Encoder.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image13.png)
+    ![Screenshot of the Presents page. A list of H dot 264 dash encoding presents is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image13.png)
 7. (Optional) Edit the following additional task default values in the **Properties** list. 
 
     - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: `%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard`. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
     - Enable the **createSubDirectory** property if you want the **Expression Encoder 4.0 SP2** task to output to a uniquely named subdirectory for each job. This is disabled by default to give you better control of the naming of the output location when you use Transform Manager.
 8. Note the virtual folder name that's specified in **Output folder name**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image15.png)  
+    ![Screenshot of the Edit Expression Encoder 4 dot 0 S P 2 Task dialog box. The Output folder name box is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image15.png)  
   
     The virtual output folder stores the transcoded output for the next task in the workflow, which you'll configure in the [next section](transforming-media-files-to-apple-http-live-streams.md#configure_task2) .
 9. After reviewing or modifying the settings in the **Edit Expression Encoder 4.0 SP2 Task** dialog box, click **OK**.
@@ -111,9 +111,9 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 ### Configuring the Smooth Streams to Apple HTTP Live Streams Task
 
 1. To update the properties used by the **Smooth Streams to Apple HTTP Live Streams** task, select it, and then click **Edit**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image17.png)
+    ![Screenshot of the Edit Job Template dialog box. The Edit button on the left side is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image17.png)
 2. In the **Edit Smooth Streams to Apple HTTP Live Streams Task** dialog box, you can edit task properties in the **Properties** list. Select a property in the list, and then double-click the **Value** field to update the value.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image19.png)  
+    ![Screenshot of the Edit Smooth Streams to Apple H T T P Live Streams Task. In the Properties list, allow caching is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image19.png)  
   
     You can edit the following properties for this task:
 
@@ -134,7 +134,7 @@ Job templates are modifiable definitions of the tasks that are run during the tr
     | segment | false | 10 | The duration of each MPEG-2 TS segment, in seconds. 10 seconds is the Apple-recommended setting for most Apple mobile digital devices. |
 
 3. Make sure that value specified in **Input folder name** is the same as the **Output folder name** for the **Edit Expression Encoder 4.0 SP2** task that you configured in the [previous section](transforming-media-files-to-apple-http-live-streams.md#configure_task1).  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image21.png)
+    ![Screenshot of the Edit Smooth Streams to Apple H T T P Live Streams Task dialog box. The Input folder name box is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image21.png)
 4. After reviewing or modifying the settings in the **Edit Smooth Streams to Apple HTTP Live Streams Task** dialog box, click **OK**.
 5. In the **Edit Job Templates** dialog box, click **OK** to save your modifications to the job template.
 
@@ -145,11 +145,11 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 To run transform jobs on media files, you must configure the default watch folder in Transform Manager that uses the job template that you configured in the previous section. The watch folder will detect when media file types that you specify arrive in it, and then Transform Manager will run the tasks that are included in the job template that's bound to the watch folder against the media files. You can use the **Edit Watch Folder** property sheet to specify the watch folder location, the media file types that it should "watch" for, the task scheduler that should run the tasks in it, the user account that tasks should impersonate, as well as many other settings.
 
 1. In IIS Manager, in the **Connections** pane, click **Watch Folders**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image23.png)
+    ![Screenshot of the I I S Manager page Connections pane. Watch Folders is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image23.png)
 2. In the **Watch Folders** page, select the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** watch folder. This watch folder uses the job template that you configured in the [previous section](transforming-media-files-to-apple-http-live-streams.md#configure_jt). You can confirm this by looking at the **Job template** value in the **Watch Folder Details** pane.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image25.png)
+    ![Screenshot of the Watch Folders page. The Job Template box is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image25.png)
 3. In the **Actions** pane, click **Edit**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image27.png)
+    ![Screenshot of the Actions pane. The Edit button is under the Manage Watch Folder category.](transforming-media-files-to-apple-http-live-streams/_static/image27.png)
 4. Configure required settings in the watch folder's property sheet using the instructions in [Configuring Watch Folders](https://technet.microsoft.com/library/ff730178.aspx). The following guidance applies to settings of particular importance for this workflow:
 
     | Tab | Settings | Description |
@@ -160,17 +160,17 @@ To run transform jobs on media files, you must configure the default watch folde
     | Advanced Settings | Credentials | You must specify a user account for the watch folder to impersonate. The tasks in the job template that's bound to the watch folder will run under the security context of this user account. You must ensure that it has the required permissions for the tasks that are run. For more information about how to create this account, see [Creating Watch Folder Impersonation Accounts](https://technet.microsoft.com/library/hh147633.aspx). |
 5. Click **OK** to save your modifications to the watch folder.
 6. On the **Watch Folders** page, select the watch folder, and then, in the **Actions** pane, click **Enable**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image29.png)
+    ![Screenshot of the Actions pane. The Enable button is selected.](transforming-media-files-to-apple-http-live-streams/_static/image29.png)
   
     The watch folder is now enabled, but not yet started.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image31.png)
+    ![Screenshot of the Watch Folders page. A video file folder is highlighted and in the Enabled column the text True is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image31.png)
   
     Watch folders that are enabled will automatically start when the Transform Manager service is restarted. This setting is provided to reliably start watch folders after a service recycle event or after a computer restarts.
 7. In the **Actions** pane, click **Start**.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image33.png)
+    ![Screenshot of the Actions pane. The Start button is selected.](transforming-media-files-to-apple-http-live-streams/_static/image33.png)
   
     The watch folder is now active and ready to accept files.  
-    ![](transforming-media-files-to-apple-http-live-streams/_static/image35.png)
+    ![Screenshot of the Watch Folders page. A video file is highlighted and in the Started Column the text True is highlighted.](transforming-media-files-to-apple-http-live-streams/_static/image35.png)
 
     > [!NOTE]
     > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
@@ -182,15 +182,15 @@ To run transform jobs on media files, you must configure the default watch folde
 A job is created for each media asset that's dropped in a watch folder and meets the watch folder file filter requirements. For example, if the **File filter** setting for a watch folder is set to detect all Windows Media Video (.wmv) files, a job is created for each .wmv file that's dropped in the watch folder. Media files with file-name extensions that don't match the watch folder's **File filter** setting are ignored.
 
 To begin transforming content, copy-and-paste the media assets into the watch folder directory using Windows Explorer or another file-movement mechanism such as command line, FTP, or WebDav.  
-![](transforming-media-files-to-apple-http-live-streams/_static/image37.png)
+![Screenshot of the watch folder directory in Windows Explorer and the Smooth V C 1 page. An arrow is pointed from the watch folder directory to the Smooth V C 1 page.](transforming-media-files-to-apple-http-live-streams/_static/image37.png)
 
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
-![](transforming-media-files-to-apple-http-live-streams/_static/image39.png)
+![Screenshot of the Watch folder path box.](transforming-media-files-to-apple-http-live-streams/_static/image39.png)
 
 After you drop specified assets in a watch folder, the watch folder's job manager creates a job for each file and moves them one at a time into the watch folder's WorkQueue directory. The files will be moved from the watch folder into the WorkQueue quickly if they're small. The watch folder might not discover larger files for up to 60 seconds. If the files don't disappear after 60 seconds, make sure that you're in the correct watch folder or that you have enabled and started the correct watch folder.
 
 The WorkQueue directory contains folders that store the jobs as they're being processed. Assets that are processed successfully are placed in the watch folder's Finished folder while media assets that can't be processed are placed in the Failed folder. These folders are visible by default so that you can retrieve their contents more easily. The WorkQueue directory contains other folders that temporarily store jobs as they're run through the job workflow. These folders are hidden folders and to view them, you must turn on the **Folder views** option in Windows that shows hidden files, folders, and drives.  
-![](transforming-media-files-to-apple-http-live-streams/_static/image41.png)
+![Screenshot of the folders stored in the Work Queue directory.](transforming-media-files-to-apple-http-live-streams/_static/image41.png)
 
 As jobs are run, job files (which include the original media source files, job manifest files, and the transformed output for completed jobs) accumulate in the watch folder WorkQueue folders. They can eventually clutter the disk and potentially impact performance. For more information about how to configure settings to automatically delete these files from the WorkQueue after a specified period of time, see [Running File Maintenance](https://technet.microsoft.com/library/hh147635.aspx).
 

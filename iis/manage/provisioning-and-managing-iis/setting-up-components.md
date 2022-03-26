@@ -41,7 +41,7 @@ The implementation of each subsystem, such as web, ftp, and SQL, etc., is split 
 - ServiceContracts
 - ServiceContract implementation, as illustrated in the following diagram.
 
-[![](setting-up-components/_static/image3.jpg)](setting-up-components/_static/image1.jpg)
+![Screenshot of Solution Explorer showing the three project lists.](setting-up-components/_static/image1.jpg)
 
 Due to the fact that there is a certain commonly shared functionality among all subsystems, such as exception management, all those components are grouped into a separate project, which is Microsoft.Hosting.Management. Furthermore, all subsystems share the same FaultContracts for consistent exception handling across all WCF services as illustrated in the above architecture diagram.
 
@@ -65,11 +65,11 @@ Those schema files define the various configurations/settings controlling web se
 
 The data contracts defined in web subsystem are derived from those schema files. The following fragment of IIS\_schema.xml shows the definition of ProcessModel:
 
-[![](setting-up-components/_static/image7.jpg)](setting-up-components/_static/image5.jpg)
+![Screenshot showing the coded process model definition in the I I S underscore schema dot X M L file.](setting-up-components/_static/image5.jpg)
 
 The following code snippet shows the corresponding DataContract for ProcessModel:
 
-[![](setting-up-components/_static/image11.jpg)](setting-up-components/_static/image9.jpg)
+![Screenshot showing the code snippet for process model.](setting-up-components/_static/image9.jpg)
 
 Refer to actual code for complete source code.
 
@@ -87,15 +87,15 @@ Following this pattern, all web subsystem related service operations are defined
 
 The following code snippets show the actual definitions for those three service contracts respectably:
 
-[![](setting-up-components/_static/image15.jpg)](setting-up-components/_static/image13.jpg)
+![Screenshot showing the code snippet for defining the I provisioning service.](setting-up-components/_static/image13.jpg)
 
-[![](setting-up-components/_static/image19.jpg)](setting-up-components/_static/image17.jpg)
+![Screenshot showing the code snippet for defining the I management service.](setting-up-components/_static/image17.jpg)
 
-[![](setting-up-components/_static/image23.jpg)](setting-up-components/_static/image21.jpg)
+![Screenshot showing the code snippet for defining the I query service.](setting-up-components/_static/image21.jpg)
 
 All service implementations are contained in the service implementation project, as illustrated in the following Visual Studio screen shot:
 
-[![](setting-up-components/_static/image27.jpg)](setting-up-components/_static/image25.jpg)
+![Screenshot showing the service implementation project file structure.](setting-up-components/_static/image25.jpg)
 
 Due to the fact that certain operations overlap among these three services, all actual implementations are handled by the WebManager class as static methods, which leverages the managed APIs that come with IIS.
 
@@ -115,11 +115,11 @@ Microsoft has created a new FTP service, completely rewritten for Windows Server
 
 The back end configuration system for FTP service in Windows Server 2008 is based on the system architecture as IIS service. All FTP related settings are defined in the FTP\_Schema.xml file under windows\system32\inetsrv\config\. The following diagram shows a fragment of the schema file:
 
-[![](setting-up-components/_static/image31.jpg)](setting-up-components/_static/image29.jpg)
+![Screenshot showing the code fragment of the schema file.](setting-up-components/_static/image29.jpg)
 
 The implementation of the FTP subsystem follows the same design pattern as the web subsystem described above. It is illustrated in the following screen shot.
 
-[![](setting-up-components/_static/image35.jpg)](setting-up-components/_static/image33.jpg)
+![Screenshot of the web subsystem file structure.](setting-up-components/_static/image33.jpg)
 
 Since FTP service is an extension of the IIS service from a configuration perspective, the same managed APIs - Microsoft.Web.Administration - are used throughout the implementation. The FTPManager class contains all actual implementations of the service operations, and it depends on WebManager class described above to reuse some of the functionality.
 
@@ -135,9 +135,9 @@ The following diagrams show the same design pattern used for implementing servic
 
 The actual implementation of the content storage service is in the class ContentStorageManager in the Microsoft.Hosting.Management component, since those functions can be shared by other services.
 
-[![](setting-up-components/_static/image39.jpg)](setting-up-components/_static/image37.jpg)
+![Screenshot showing the structure of data contracts, service contracts, and service implememtation.](setting-up-components/_static/image37.jpg)
 
-[![](setting-up-components/_static/image43.jpg)](setting-up-components/_static/image41.jpg)
+![Screenshot showing the structure of Microsoft hosting management.](setting-up-components/_static/image41.jpg)
 
 <a id="User"></a>
 
@@ -149,7 +149,7 @@ The User Account subsystem implements the common functions for creating local Wi
 
 It follows the same design pattern as other subsystems. It consists of DataContracts, ServiceContracts, and ServiceImplementation. All service operations implementations are contained in the UserAccountManager class in Microsoft.Hosting.Component project.
 
-[![](setting-up-components/_static/image47.jpg)](setting-up-components/_static/image45.jpg)
+![Screenshot showing the design pattern for the user account manager class.](setting-up-components/_static/image45.jpg)
 
 <a id="SQL"></a>
 
@@ -161,7 +161,7 @@ The SQL subsystem implements a set of operations for managing Microsoft SQL Serv
 
 The implementation follows the same design pattern: it contains the DataContracts, ServiceContracts, and ServiceImplementation as illustrated below.
 
-[![](setting-up-components/_static/image51.jpg)](setting-up-components/_static/image49.jpg)
+![Screenshot showing the design pattern for Microsoft hosting S Q L.](setting-up-components/_static/image49.jpg)
 
 <a id="Hosting"></a>
 
@@ -183,7 +183,7 @@ More options are available at [WCF Hosting](https://msdn.microsoft.com/library/m
 
 The following figure shows the two hosting solutions within Visual Studio.
 
-[![](setting-up-components/_static/image55.jpg)](setting-up-components/_static/image53.jpg)
+![Screenshot showing two hosting solution structures.](setting-up-components/_static/image53.jpg)
 
 <a id="Security"></a>
 
@@ -191,10 +191,10 @@ The following figure shows the two hosting solutions within Visual Studio.
 
 The sample code uses the [Windows Role Provider](https://msdn.microsoft.com/library/6b241xwt.aspx) to perform a role check in WCF on every call to verify that the caller is a member of the WindowsBuiltInRole.Administrator group. This is implemented in the file WindowsAuthorizationManager.cs within the Microsoft.Hosting.Management project, as seen in the figure below.
 
-[![](setting-up-components/_static/image58.jpg)](setting-up-components/_static/image57.jpg)
+![Screenshot showing Windows authorization manager in the Microsoft hosting management section under components.](setting-up-components/_static/image57.jpg)
 
 ### Changing the Role
 
 If there is a need to change this role, the method for modifying is CheckAccessCore, shown in the figure below
 
-[![](setting-up-components/_static/image60.jpg)](setting-up-components/_static/image59.jpg)
+![Screenshot showing a code snippet of check access core.](setting-up-components/_static/image59.jpg)

@@ -91,7 +91,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Windows Authentication**. Click **Next**.  
-    [![](spn/_static/image2.png)](spn/_static/image1.png) .
+    [![Screenshot shows Web Server and Security pane expanded with Windows Authentication selected.](spn/_static/image2.png)](spn/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -101,7 +101,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Windows Authentication**.  
-    [![](spn/_static/image4.png)](spn/_static/image3.png)
+    [![Screenshot of World Wide Web Services and Security node expanded. Windows Authentication is highlighted.](spn/_static/image4.png)](spn/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -111,7 +111,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Windows Authentication**, and then click **Next**.   
-    [![](spn/_static/image6.png)](spn/_static/image5.png)
+    [![Screenshot displays Select Role Services page of Add Role Services Wizard with Security pane expanded and Windows Authentication selected.](spn/_static/image6.png)](spn/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -121,7 +121,7 @@ The default installation of IIS 7 and later does not include the Windows authent
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Security**.
 4. Select **Windows Authentication**, and then click **OK**.   
-    [![](spn/_static/image8.png)](spn/_static/image7.png)
+    [![Screenshot of World Wide Web Services and Security pane expanded with Windows Authentication highlighted.](spn/_static/image8.png)](spn/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -148,13 +148,13 @@ The default installation of IIS 7 and later does not include the Windows authent
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Windows Authentication**.
 5. Click **Enable** in the **Actions** pane.  
-    [![](spn/_static/image10.png)](spn/_static/image9.png)
+    [![Screenshot shows Authentication pane with Windows Authentication selected. Enable option is displayed in Actions pane.](spn/_static/image10.png)](spn/_static/image9.png)
 6. Click **Advanced Settings** in the **Actions** pane.
 7. When the **Advanced Settings** dialog box appears, select one of the following options in the **Extended Protection** drop-down menu: 
 
     - Select **Accept** if you want to enable extended protection while providing down-level support for clients that do not support extended protection.
     - Select **Required** if you want to enable extended protection without providing down-level support.  
-        [![](spn/_static/image12.png)](spn/_static/image11.png)
+        [![Screenshot of Advanced Settings dialog box showing Accept option is selected from Extended Protection drop down menu.](spn/_static/image12.png)](spn/_static/image11.png)
 8. Click OK to close the **Advanced Settings** dialog box.
 
 <a id="005"></a>

@@ -45,12 +45,12 @@ By default, IIS log files are located in the following directories:
 
 In this troubleshooter, I will be using IIS 8. Open the **IIS Manager** and select **Sites**, as shown in *Figure 1*. This will show you the ID of each website hosted on your server. You will need this ID to determine which W3SVC\* directory to analyze.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image1.png)  
+![Screenshot of the I I S Manager window showing Sites in the main pane.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image1.png)  
 **Figure 1: Getting the ID of your web site**
 
 Open Windows Explorer and navigate to the directory that contains the IIS log files of the website that experienced the performance problem. *Figure 2* shows how that might look like.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image3.png)  
+![Screenshot of Windows Explorer showing file locations.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image3.png)  
 **Figure 2: IIS Log file location**
 
 IIS log files can be quite large; for example, in *Figure 2*, the log file *u\_ex12101858.log* is nearly 100MB in size. Because these log files may be huge and contain hundreds of thousands of individual log file entries, manually looking through each of these files for an error is not a good approach, and returns few results for the time that you invest.
@@ -77,7 +77,7 @@ Once you have identified the IIS log files that contain errors, you should copy 
 
 For example, you might copy your IIS logs to a folder on your personal computer where you have already copied the LogParser files, which is how I typically analyze my log files. *Figure 3* shows an example of where I stored them to create this article.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image5.png)
+![Screenshot of Windows Explorer showing the location of the log parser executable.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image5.png)
 **Figure 3: IIS Logs files locally hosted for analysis using LogParser**
 
 After you have downloaded LogParser, you are ready to begin the analysis. The first query I run is shown in *Figure 4*. The results give you an overview of how IIS has been responding to the requests.
@@ -97,7 +97,7 @@ The significance for each of these status codes is explained below.
 
 The ratio between the 200 and 304 HTTP status codes is important because it shows how many requests are being retrieved from the clients' cache instead of directly from the server. The results in *Figure 4* show that there are 3,920,658 requests which resulted in an HTTP Status code of 200. This means that the requested file was served from the server each time. In contrast, there were 178,705 requests which resulted in a 304 HTTP status code. This means that the requested file was retrieved from the local cache. In other words, 95.5% of the requests are being handled from the server.
 
-Caching can have some very positive impact on your system's performance; see the details for both static and dynamic compression in the [Configuring HTTP Compression in IIS 7](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10)) article.
+Caching can have some very positive impact on your system's performance; see the details for both static and dynamic compression in the [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10)) article.
 
 ### HTTP 500 Status Codes (Analyzing Failed Requests)
 
@@ -161,7 +161,7 @@ Screenshots of a command window containing LogParser queries and their results m
 
 The result of the query is illustrated in *Figure 10*. There are a number of additional parameters which you can pass to LogParser that affect the image. For example, legend, groupSize, config, etc... To get a complete list enter: ***LogParser -h -o:CHART*** for a list of all parameters. This command will also provide a list of the different chart types.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image7.png)  
+![Diagram of a three-dimensional pie chart showing request status allocations.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image7.png)  
 **Figure 10: LogParser 3D pie chart**
 
 Another useful chart is the ratio between cached and actual requests. Recall from the Data Analysis section where I discussed that an HTTP Status code of 200 means that the requested files are retrieved from the server however, a 304 is retrieved from the client. *Figure 11* shows the LogParser query for the creation of this chart. Notice that I used the **-values** parameter.
@@ -172,7 +172,7 @@ Another useful chart is the ratio between cached and actual requests. Recall fro
 
 Although the difference between HTTP Status code 200 and 304 are clearly visible, I thought it may add some value to include the number of hits for each. *Figure 12* illustrates the output of the previous LogParser query.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image9.png)  
+![Diagram of a three-dimensional pie chart showing the allocation of cache.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image9.png)  
 **Figure 12: LogParser 3D pie chart**
 
 I think you are getting the picture now about how charting the IIS Logs using LogParser can help convey what is happening much better than a table of data. But before I stop, I want to show you one more example using the Column chart type. The LogParser query shown in *Figure 13* produces a 3D Column chart showing the count of 500 HTTPS Status codes per hour.
@@ -183,7 +183,7 @@ I think you are getting the picture now about how charting the IIS Logs using Lo
 
 The resulting chart is illustrated in *Figure 14*.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image11.png)  
+![Diagram of a three dimensional column chart showing the number of 500 errors per hour by date.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image11.png)  
 **Figure 14: LogParser 3D column chart**
 
 ### Creating charts using Excel and CSV
@@ -200,17 +200,17 @@ Notice in *Figure 15* that I used the -o parameter so that LogParser creates the
 
 To import the CSV file into Excel so that a chart can be created from it, open Excel, navigate to the DATA tab and select From Text. *Figure 16* shows what this looks like.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image13.png)
+![Screenshot showing the Excel Data tab menu options.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image13.png)
 **Figure 16: Import CSV file created by LogParser into Excel**
 
 Select the status.csv file created by the LogParser query and navigate through the import wizard. Import the 'comma' delimited CSV file and you will end up with the Status in column A and the number of occurrences for each status in column B. This assumes you executed the LogParser query shown in *Figure 15*. Lastly, select all the data from column A and B, including the headers and choose the type of Pie chart to create. *Figure 17*, illustrates how this may look.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image15.png)
+![Screenshot showing the Excel Insert tab options. The data in columns A and B are selected.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image15.png)
 **Figure 17: Create a Pie chart using a CSV file**
 
 The end result is a Pie chart, *Figure 18* that is similar to that shown previously in *Figure 10*. There are many options in regards to color, chart type, labels, etc. With a click of a button you can change the chart type from Pie to Bar or to Line. There are a lot of options for creating professional looking charts within Excel.
 
-![](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image17.png)  
+![Screenshot of a three-dimensional pie chart showing request status.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image17.png)  
 **Figure 18: A Pie chart using a CSV file similar to Figure 10**
 
 There are so many options and possibilities for analyzing and presenting the results of that analysis using LogParser. For some additional tips and examples, check out these [articles](https://blogs.msdn.com/b/robert_mcmurray/archive/tags/logparser/) written by Robert McMurray. There is also a very useful help file and many prewritten scripts provided within the installation package of LogParser. The next section will discuss this and other topics in more detail.
@@ -251,7 +251,7 @@ Here are the links which are referred to in this article, plus a few links with 
 - [The HTTP status codes in IIS 7.0, IIS 7.5, and IIS 8.0](https://support.microsoft.com/kb/943891)
 - [Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.microsoft.com/benjaminperkins/2012/07/31/modifying-iis-7-log-data-in-windows-2008/)
 - [Modifying IIS 6 log data in Windows 2003](https://blogs.msdn.microsoft.com/benjaminperkins/2012/05/02/modifying-iis-6-log-data-in-windows-2003/)
-- [Configuring HTTP Compression in IIS 7](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
+- [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
 - [Charting with LogParser using OWC](https://blogs.msdn.microsoft.com/carloc/2008/08/07/charting-with-logparser/)
 - [Robert McMurray's Blogs on LogParser](https://blogs.msdn.microsoft.com/robert_mcmurray/tag/logparser/)
 - [Microsoft Log Parser Toolkit: A Complete Toolkit for Microsoft's Undocumented Log Analysis Tool](https://www.amazon.com/Microsoft-Log-Parser-Toolkit-undocumented/dp/1932266526)

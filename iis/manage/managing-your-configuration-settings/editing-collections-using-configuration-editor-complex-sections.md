@@ -27,19 +27,19 @@ This walkthrough requires the following prerequisites:
 2. Select the Server in the Connections Tree View
 3. Open the Configuration Editor User Interface module
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image2.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image1.jpg)
+    ![Screenshot of the I I S Manager window. The server home features is in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image1.jpg)
 4. In the Configuration Editor Section combo box, Select system.webServer – tracing - traceFailedRequests or type system.webServer/tracing/traceFailedRequests
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image4.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image3.jpg)
+    ![Screenshot showing the Configuration Editor with the section input box.](editing-collections-using-configuration-editor-complex-sections/_static/image3.jpg)
 
 ## Use Collection Editor to add a new failed tracing request rule
 
 1. Select the **(Collection)** entry within Configuration Editor and click the … button next to **(Count=0)**. This will open the Collection Editor to edit the tracefailedRequests collection.
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image6.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image5.jpg)
+    ![Screenshot showing the Configuration Editor. Collection is highlighted and shows Count = 0.](editing-collections-using-configuration-editor-complex-sections/_static/image5.jpg)
 2. In the Actions Task Pane on the right hand side, click Add. You will now have a new entry in the Items section as well as a property listing.
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image8.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image7.jpg)
+    ![Screenshot of the Collection Editor window with settings in the Properties section.](editing-collections-using-configuration-editor-complex-sections/_static/image7.jpg)
 3. The Properties section of collection editor comes pre-populated with the schema defaults for the defined collection. In this case, you get the schema defaults for system.webServer/tracing/traceFailedRequests collection elements.
 4. There is a key next to the **path** property entry. This means that this is the unique key for this collection entry. Gold keys mean that this key must be unique for each item within the collection. A silver key means that this is a shared key. The combination of shared keys must be unique for a collection item in this case.
 5. Change the **path** entry to be **\*.aspx** to create a rule for all asp.net paths.
@@ -47,10 +47,10 @@ This walkthrough requires the following prerequisites:
 7. Change the **timeTaken** entry **00:01:00**
 8. Select the **(traceAreas)** entry within Collection Editor and click the … button next to **(Count=0)**. This will open the Collection Editor to edit the traceAreas collection.
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image10.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image9.jpg)
+    ![Screenshot of the Collection Editor window. Trace areas is selected in the Properties section.](editing-collections-using-configuration-editor-complex-sections/_static/image9.jpg)
 9. In the Actions Task Pane on the right hand side, click Add. You will now have a new entry in the Items section as well as a property listing.
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image12.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image11.jpg)
+    ![Screenshot of the Collection Editor window. The Item pane shows a warning. The properties pane shows a warning.](editing-collections-using-configuration-editor-complex-sections/_static/image11.jpg)
 10. The Properties section of collection editor comes pre-populated with the schema defaults for the defined collection. In this case, you get the schema defaults for system.webServer/tracing/traceFailedRequests/add/traceAreas collection elements.
 11. There is a key next to the **provider** property entry. This means that this is the unique key for this collection entry. Gold keys mean that this key must be unique for each item within the collection. A silver key means that this is a shared key. The combination of shared keys must be unique for a collection item in this case.
 12. Change the **provider** entry to be **ASPNET**
@@ -62,10 +62,10 @@ This walkthrough requires the following prerequisites:
 18. Click **Apply** in the Actions Task pane to make the changes to config.
 19. You can quickly verify the new failed request tracing rule added by going to the Failed Request Tracing Rules feature page
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image14.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image13.jpg)
+    ![Screenshot of the I I S Manager window. The site home features are in the main pane. The Failed Request Tracing Rules icon is highlighted.](editing-collections-using-configuration-editor-complex-sections/_static/image13.jpg)
 20. The rule we just added using the configuration editor feature should be listed on the failed request tracing rules page
 
-    [![](editing-collections-using-configuration-editor-complex-sections/_static/image16.jpg)](editing-collections-using-configuration-editor-complex-sections/_static/image15.jpg)
+    ![Screenshot of the I I S Manager window. Failed Request Tracing Rules displays in the main pane.](editing-collections-using-configuration-editor-complex-sections/_static/image15.jpg)
 21. [*Extra Step*] If you don't want to keep any of the failed trace request rules that you created, edit the tracefailedRequests collections again and click **Clear All** in the Actions Task Pane. Click **Apply** within Configuration editor and the newly added rule will be removed.
 
 ## Summary

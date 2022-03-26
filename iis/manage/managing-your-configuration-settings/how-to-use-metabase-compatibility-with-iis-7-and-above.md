@@ -36,7 +36,7 @@ First, verify that the Metabase Compatibility component of IIS is installed on t
 
 Next, you need to download the MBExplorer tool off the web. Use MSN Search to look it up--it will direct you to the download center on Microsoft.com, where you will need to download and install the IIS 6.0 Resource Kit. The MBExplorer tool is included in the resource kit. After installation, you will typically find it under \Program Files\IIS Resources\Metabase Explorer\MBExplorer.exe.
 
-![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image1.png)
+![Screenshot of the I I S Metabase Explorer screen, showing an M B Explorer tool being highlighted.](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image1.png)
 
 1. Run MBExplorer.exe. This tool works on top of the AdminBaseObjects (ABO) interface, so it presents an ABO view of the configuration hierarchy.
 2. In the left pane, navigate to the LM &gt; W3SVC level. This is the global level of the configuration hierarchy, in an ABO view.
@@ -55,7 +55,7 @@ Next, you need to download the MBExplorer tool off the web. Use MSN Search to lo
 
 In this step, you will learn how to change a value under a virtual directory using ABO, and have the value write through to applicationHost.config. Because you are not changing a global setting, the ABO compatibility layer generates a location tag in the applicationHost.config file, with a path that corresponds to the virtual directory you changed. Note that web.config files are not handled by the Metabase Compatibility component.
 
-![](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image5.png)
+![Screenshot of the I I S Metabase Explorer screen showing a Virtual Directory being highlighted.](how-to-use-metabase-compatibility-with-iis-7-and-above/_static/image5.png)
   
 1. Run the MBExplorer.exe tool.
 2. In the left pane, navigate to the **LM** &gt; **W3SVC** &gt; 1 &gt;**ROOT** level. This is the root application under the default Web site.

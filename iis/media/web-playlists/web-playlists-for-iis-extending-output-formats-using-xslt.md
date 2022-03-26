@@ -40,7 +40,7 @@ Writing an XSLT is similar to writing any XML file. You can easily do this in yo
 
 In **File** &gt; **New File**, chose **XSLT** as shown in the following figure:
 
-![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
+![Screenshot that shows the New File dialog box. X S L T File is selected under Templates.](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image1.bmp)
 
 ### Writing the ATOM XSLT
 
@@ -78,7 +78,7 @@ In IIS Manager, click the **Playlists** icon on your site, and then click **Conf
 > [!IMPORTANT]
 > In **XSLT path**, give the path to your XSLT file, relative to the site root (for example, starting with the "/" character); otherwise, Web Playlists will not accept the path.
 
-![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
+![Screenshot shows the Add Output Format dialog box.](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
 
 ### Accessing the new output format on the client
 
@@ -96,13 +96,13 @@ ATOM is a well known format so it is easy to test.
 
 Most Web browsers can render ATOM output natively. See the following figure:
 
-![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
+![Screenshot that shows Internet Explorer on the Hello Playlist page.](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image5.bmp)
 
 #### Test 2: Using an ATOM Feed Validator
 
 There are many feed validators available. I use <http://www.feedvalidator.com/>. If your playlist passes the ATOM validation, the validator gives you a pretty icon that you can share on your Web site. See the following figure:
 
-![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
+![Screenshot that shows FEED Validator saying Congratulations, with an entry in the text box for the atom dot xml U R L.](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image7.bmp)
 
 ## Summary
 

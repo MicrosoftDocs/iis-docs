@@ -44,17 +44,17 @@ This tells the server that the client supports compression and will accept a com
 
 Fiddler output when compression is not working:
 
-![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image1.png)
+![Screenshot of H T T P Compression set to No Compression in the Transformer tab.](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image1.png)
 
-![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image3.png)
+![Screenshot of a disabled H T T P Compression section in the Transformer tab. ](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image3.png)
 
 ## Troubleshooting
 
 1. **Enable Compression in IIS6/IIS7:** From the IIS Manager, right-click on the Web Sites node, Properties and click on Services.
 
-    ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image5.png)
+    ![Screenshot of H T T P compression with Compress static files selected and the Maximum temporary directory size set to Unlimited.](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image5.png)
 
-    ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image7.png)
+    ![Screenshot of the enabled Compression options with the default values.](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image7.png)
 2. **Compression folder and permissions on it:** IIS stores compressed files in a folder which can be configured. By default, it is `%windir%\IIS Temporary Compressed Files` for IIS 6, and `%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files` for IIS 7.
 
     IIS\_WPG(IIS\_IURS for IIS 7) must have full control permission for this folder. Process Monitor is a great tool to troubleshooting this type of permission issue.
@@ -189,7 +189,7 @@ Fiddler output when compression is not working:
 
     Here is an example of using IIS 7 FREB trace to troubleshoot compression issue.
 
-    ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image9.png)
+    ![Screenshot of tracing compression issues using the error messages.](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image9.png)
 
     For a detailed list of compression errors, please reference the tables in appendix.
 

@@ -37,7 +37,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Health and Diagnostics**, and then select **Tracing**. Click **Next**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    ![Screenshot of the Server Roles page. Tracing is highlighted in the expanded menu.](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -47,7 +47,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)- Click **OK**.
+    ![Screenshot of the Windows Features dialog box. Tracing is highlighted in the expanded menu.](add/_static/image3.png)- Click **OK**.
 4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
@@ -56,7 +56,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Tracing**, and then click **Next**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    ![Screenshot of the Add Role Services window with the Select Role Services page displayed. Tracing is highlighted in the expanded menu.](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -66,7 +66,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Health and Diagnostics**.
 4. Select **Tracing**, and then click **OK**.  
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    ![Screenshot of Windows Features with the Tracing feature highlighted.](add/_static/image7.png)
  
 <a id="004"></a>
 ## How To

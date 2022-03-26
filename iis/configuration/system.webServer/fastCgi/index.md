@@ -49,7 +49,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **CGI**. Click **Next**.  
-    ![](index/_static/image1.png)
+    ![Screenshot of C G I selected in a Windows Server 2012 interface.](index/_static/image1.png)
 5. On the **Select Features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -59,7 +59,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **CGI**.  
-    ![](index/_static/image3.png)
+    ![Screenshot of C G I selected in a Windows 8 interface.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -69,7 +69,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **CGI**, and then click **Next**.  
-    ![](index/_static/image5.png)
+    ![Screenshot of C G I selected in a Windows Server 2008 interface.](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -78,7 +78,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **CGI**, and then click **OK**.  
-    ![](index/_static/image7.png)
+    ![Screenshot of C G I selected in a Windows Vista or Windows 7 interface.](index/_static/image7.png)
 
 ## How To
 
@@ -109,9 +109,9 @@ To use the FastCGI environment, you must first install the CGI role service. The
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI handler mappings.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-    ![](index/_static/image9.png)
+    ![Screenshot of Handler Mappings selected in the Default Web Site Home pane.](index/_static/image9.png)
 4. In the **Actions** pane, click **Add Module Mapping**.
-    ![](index/_static/image11.png)
+    ![Screenshot of the Disabled and Enabled Handler Mappings in the I I S Manager.](index/_static/image11.png)
 5. Enter the following information:
 
    - Enter the file name extension in the **Request path** text box. For example, "\*.php".
@@ -119,19 +119,19 @@ To use the FastCGI environment, you must first install the CGI role service. The
    - Enter the path to the scripting engine in the **Executable** box. For example, "C:\PHP\php-cgi.exe".
    - Enter a unique name for the handler mapping in the **Name** box. For example, "PHP-FastCGI".
   
-     ![](index/_static/image13.png)
+     ![Screenshot of the Add Module Mapping dialog with the specified options.](index/_static/image13.png)
 
    - Click **Request Restrictions**
    - Select **Invoke handler only if request is mapped to**.
    - Click to select the **File or Folder** option.
    - Click **OK**.
 
-     ![](index/_static/image15.png)
+     ![Screenshot of setting the Mapping options in the Request Restrictions dialog.](index/_static/image15.png)
 
 6. Click **OK**.
 7. If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.
 
-    ![](index/_static/image17.png)
+    ![Screenshot before confirming to create a new application for the specified executable.](index/_static/image17.png)
 
     > [!NOTE]
     > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose **No**, you can manually create a FastCGI application later.
@@ -162,9 +162,9 @@ To use the FastCGI environment, you must first install the CGI role service. The
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI settings.
 3. In the **Home** pane, double-click **FastCGI Settings**.  
-    ![](index/_static/image19.png)
+    ![Screenshot of Fast C G I Settings selected in the SERVER Home pane.](index/_static/image19.png)
 4. In the **Actions** pane, click **Add Application**  
-    ![](index/_static/image21.png)
+    ![Screenshot of an empty Fast C G I Settings pane.](index/_static/image21.png)
 5. In the **Add FastCGI Application** dialog box, enter the following information:
 
    - Enter the path to the scripting engine in the **Full Path** box. For example, "C:\PHP\php-cgi.exe".
@@ -172,17 +172,17 @@ To use the FastCGI environment, you must first install the CGI role service. The
 
         > [!NOTE]
         > For PHP, this number must be lesser or equal to the maximum number of requests for PHP environment, which is configured by using the `PHP_FCGI_MAX_REQUESTS` environment variable.  
-       > ![](index/_static/image23.png)
+       > ![Screenshot of the Add Fast C G I Application dialog with the default Fast C G I Properties.](index/_static/image23.png)
 
 6. Click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.
 7. In the **EnvironmentVariables Collection Editor** dialog box, click **Add**.  
-    ![](index/_static/image25.png)
+    ![Screenshot of an empty Environment Variables Collection Editor dialog.](index/_static/image25.png)
 8. Enter the following information, and then click **OK**.
 
    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
    - Enter "10000" for the **Value**.
   
-      ![](index/_static/image27.png)
+      ![Screenshot of the new variable in the Members list with the specified properties.](index/_static/image27.png)
 
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
@@ -209,19 +209,19 @@ To use the FastCGI environment, you must first install the CGI role service. The
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI settings.
 3. In the **Home** pane, double-click **FastCGI Settings**.  
-    ![](index/_static/image29.png)
+    ![Screenshot of the Fast C G I Settings icon selected in the SERVER Home pane.](index/_static/image29.png)
 4. Highlight the PHP application in the **FastCGI Settings** pane, then click **Edit** in the **Actions** pane  
-    ![](index/_static/image31.png)
+    ![Screenshot of the P H P application selected in the Fast C G I Settings pane.](index/_static/image31.png)
 5. In the **Edit FastCGI Application** dialog box, click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.  
-    ![](index/_static/image33.png)
+    ![Screenshot of the Edit Fast C G I Application dialog with the specified options.](index/_static/image33.png)
 6. In the **EnvironmentVariables Collection Editor** dialog box, click **Add**.  
-    ![](index/_static/image35.png)
+    ![Screenshot of an empty Environment Variables Collection Editor dialog before adding a new variable.](index/_static/image35.png)
 7. Enter the following information, and then click **OK**.
 
     - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
     - Enter "10000" for the **Value**.
   
-       ![](index/_static/image37.png)
+       ![Screenshot after adding the new Environment Variable with the specified properties.](index/_static/image37.png)
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 ## Configuration

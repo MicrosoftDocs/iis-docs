@@ -1,7 +1,7 @@
 ---
 title: "Default FTP Data Channel Security Settings &lt;dataChannelSecurity&gt;"
 author: rick-anderson
-description: "Overview The File Transfer Protocol (FTP) supports a feature that is called server-to-server or third-party transfers. In this scenario, an FTP client connec..."
+description: The File Transfer Protocol (FTP) supports a feature that is called server-to-server or third-party transfers.
 ms.date: 09/26/2016
 ms.assetid: c74fd121-6e56-4da1-8fb6-c5e13321a9c1
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/datachannelsecurity
@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](dataChannelSecurity/_static/image2.png)](dataChannelSecurity/_static/image1.png) .
+   ![Screenshot of the Windows Server 2012 or 2012 R 2 window showing Roles. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -65,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](dataChannelSecurity/_static/image4.png)](dataChannelSecurity/_static/image3.png)
+    ![Screenshot of the Windows 8 or 8.1 features screen. F T P Extensibility is highlighted.](dataChannelSecurity/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](dataChannelSecurity/_static/image6.png)](dataChannelSecurity/_static/image5.png)
+    ![Screenshot of the Windows Server 2008 R 2 Add Role Services screen. The Select Role Services page is in the main pane.](dataChannelSecurity/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -93,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](dataChannelSecurity/_static/image8.png)](dataChannelSecurity/_static/image7.png)
+    ![Screenshot of the Windows 7 features window. F T P options are checked under the Internet Information Services section.](dataChannelSecurity/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista

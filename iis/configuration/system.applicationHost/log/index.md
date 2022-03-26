@@ -59,9 +59,9 @@ The `<log>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Logging**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![Screenshot of Logging selected in the SERVER Home pane.](index/_static/image1.png)
 4. On the **Logging** page, under **One log file per**, select **Server** from the drop-down list, then choose **Binary** from the **Format** drop-down list.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of setting One log file per Server and Log File Format to Binary in the Logging pane.](index/_static/image3.png)
 5. Click **Apply** in the **Actions** pane.
 
 ### How to enable central W3C logging for a server
@@ -84,9 +84,9 @@ The `<log>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the server's **Home** pane, double-click **Logging**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of the Logging icon selected in the SERVER Home pane.](index/_static/image5.png)
 4. On the **Logging** page, under **One log file per**, select **Server** from the drop-down list, then choose **W3C** from the **Format** drop-down list.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![Screenshot of setting One log file per Server and Log File Format to W 3 C in the Logging pane.](index/_static/image7.png)
 5. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>

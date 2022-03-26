@@ -1,7 +1,7 @@
 ---
 title: "Adding a Default Binding &lt;binding&gt;"
 author: rick-anderson
-description: "Overview The &lt;binding&gt; element of the &lt;bindings&gt; element allows you to configure the information required for requests to communicate with a Web..."
+description: Overview The &lt;binding&gt; element of the &lt;bindings&gt; element enables configuring the information required for requests to communicate
 ms.date: 09/26/2016
 ms.assetid: 7cefb7df-ea23-4d81-b5a7-ebaff5d5028a
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/bindings/binding
@@ -63,7 +63,7 @@ The `<binding>` element is included in the default installation of IIS 7 and lat
 6. Expand **siteDefaults**.
 7. Select **bindings** and then click the ellipsis to the right to open the Collection Editor.  
   
-    [![](binding/_static/image2.png)](binding/_static/image1.png)
+    [![Screenshot of Site Bindings dialog box displaying Site Defaults node expanded and Bindings selected.](binding/_static/image2.png)](binding/_static/image1.png)
 8. Click **Add**, and enter values for **bindingInformation**, **protocol**, and **sslFlags**.
 9. Close **Collection Editor** and in the **Actions** pane, click **Apply**.
 

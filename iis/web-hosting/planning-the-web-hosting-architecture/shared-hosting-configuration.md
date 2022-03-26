@@ -48,7 +48,7 @@ As shown in the diagrams found later in this topic, Windows Web Platform Shared 
 ### Core Architecture
 
 Often, service providers are interested in the core set of components that are required for their hosting offering. Their goal is speed to market without sacrificing quality of service, availability, and performance. The following diagram depicts the minimum configuration that you must have to deploy a complete Shared Hosting environment.  
- [![](shared-hosting-configuration/_static/image2.jpg)](shared-hosting-configuration/_static/image1.jpg)
+ [![Diagram showing the relationship between the Router, Front End servers, and Back End servers.](shared-hosting-configuration/_static/image2.jpg)](shared-hosting-configuration/_static/image1.jpg)
 
 <a id="CoreArcFE"></a>
 
@@ -129,7 +129,7 @@ Remote Administration is a key feature of the set of [IIS Management and Adminis
 4. [Web Deploy](../../publish/deploying-application-packages/index.md) lets users package and deploy Web applications and databases onto hosted environments.  
 The following diagram depicts the Remote Administration configuration.
 
-[![](shared-hosting-configuration/_static/image5.jpg)](shared-hosting-configuration/_static/image4.jpg)
+[![Diagram showing the Microsoft Visual Studio remote administration page which affects the Front and Back End servers.](shared-hosting-configuration/_static/image5.jpg)](shared-hosting-configuration/_static/image4.jpg)
 
 <a id="EnhArc"></a>
 
@@ -137,7 +137,7 @@ The following diagram depicts the Remote Administration configuration.
 
 In some cases, service providers want to achieve the maximum degree of manageability, monitoring, and automation. These requirements can be met by adding a set of optional components to the core architecture described earlier in this article. This environment configuration may be required by hosters managing large datacenter facilities across multiple geographical locations. The following diagram depicts an enhanced architecture for Shared Hosting environments.
 
-[![](shared-hosting-configuration/_static/image7.jpg)](shared-hosting-configuration/_static/image6.jpg)
+[![Diagram showing the relationship between the Router, Front End servers, and a larger quantity of Back End servers.](shared-hosting-configuration/_static/image7.jpg)](shared-hosting-configuration/_static/image6.jpg)
 
 <a id="EnhArcFE"></a>
 

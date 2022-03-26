@@ -47,15 +47,15 @@ The above condition is required because the User Account Control (UAC) security 
 
 1. In IIS Manager, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
 2. As shown in the image below, double-click the **WebDAV Authoring Rules** feature.  
-    ![](how-to-use-webdav-locks/_static/image2.jpg)
+    ![Screenshot of the I I S Manager window displaying the Default Web Site Home page. The icon for Web D A V / Authoring Rules is circled.](how-to-use-webdav-locks/_static/image2.jpg)
 3. When the **WebDAV Authoring Rules** page is displayed, click the **WebDAV Settings** task in the **Actions** pane.  
-    ![](how-to-use-webdav-locks/_static/image4.jpg)
+    ![Screenshot of the I I S Manager window displaying the Web D A V Authoring Rules page. Web D A V Settings is circled in the Actions menu.](how-to-use-webdav-locks/_static/image4.jpg)
 4. When the **WebDAV Settings** page is displayed, specify the following options:
 
     - Set **Allow Locks** to **True**.
     - For **Lock Store**, choose "**webdav\_simple\_lock**" from the drop-down list.
     - Set **Require Lock for Writing** to your desired setting.  
-        ![](how-to-use-webdav-locks/_static/image6.jpg)
+        ![Screenshot of the Web D A V Settings page. The section of the page for Lock Behavior is circled.](how-to-use-webdav-locks/_static/image6.jpg)
 5. Once you have completed steps 1-4, click **Apply** in the **Actions** pane.
 
 <a id="#02"></a>
