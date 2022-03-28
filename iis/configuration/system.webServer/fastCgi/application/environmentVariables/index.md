@@ -177,13 +177,13 @@ To use the FastCGI environment, you must first install the CGI role service. The
    [![Screenshot shows the Add Fast C G I Application window with the Full Path and Arguments fields.](index/_static/image24.png)](index/_static/image23.png)
 6. Click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.
 7. In the **EnvironmentVariables Collection Editor** dialog box, click **Add**.  
-   [![Screenshot shows the EnvironmentVariables Collection Editor dialog box to add Members.](index/_static/image26.png)](index/_static/image25.png)
+   [![Screenshot shows the Environment Variables Collection Editor dialog box to add Members.](index/_static/image26.png)](index/_static/image25.png)
 8. Enter the following information, and then click **OK**.
 
    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
    - Enter "10000" for the **Value**.
   
-   [![Screenshot shows the EnvironmentVariables Collection Editor dialog box highlighting the Name.](index/_static/image28.png)](index/_static/image27.png)
+   [![Screenshot shows the Environment Variables Collection Editor dialog box highlighting the Name.](index/_static/image28.png)](index/_static/image27.png)
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 <a id="003c"></a>
