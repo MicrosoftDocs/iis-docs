@@ -1,7 +1,7 @@
 ---
+description: Learn how to specify the way that the FTP service handles files operations using the <fileHandling> element.
 title: "Default FTP File Handling Settings &lt;fileHandling&gt;"
 author: rick-anderson
-description: "Overview The &lt;fileHandling&gt; element is used to specify the way that the FTP service handles file operations. For example, the keepPartialUploads attrib..."
 ms.date: 09/26/2016
 ms.assetid: 39d5a9cd-6c1c-4e0b-a567-06f9e7268754
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/filehandling
