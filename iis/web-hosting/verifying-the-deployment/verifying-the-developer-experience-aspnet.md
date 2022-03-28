@@ -104,7 +104,7 @@ Now you are ready to publish the application.
     ![Screenshot of Edit Connection String showing change of Server Name to new target S Q L Server.](verifying-the-developer-experience-aspnet/_static/image99.jpg)
 8. To upload the database you can use the facilities provided by the hoster. Either through database backup and restore process through FTPor any other control panel facility that would let you run the Graffiti\_SQL\_Schema.sql and Graffiti\_SQL\_Data.sql files.
 9. Test that the application works in the new hosting environment. Here is a screen shot after creating a post as the Admin user:  
-    ![](verifying-the-developer-experience-aspnet/_static/image103.jpg)
+    ![Screenshot of Internet Explorer window showing a posting as Admin user in new hosting environment.](verifying-the-developer-experience-aspnet/_static/image103.jpg)
 
 ## Conclusion
 
