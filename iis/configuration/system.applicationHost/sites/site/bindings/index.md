@@ -59,9 +59,9 @@ The `<bindings>` element is included in the default installation of IIS 7 or lat
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the Web site on which you want to configure the bindings.
 3. In the **Actions** pane, click **Bindings...**
 4. In the **Site Bindings** dialog box, click **Add...**  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![Screenshot of the Site Bindings dialog box displaying H T T P port 80.](index/_static/image1.png)
 5. In the **Add Site Binding** dialog box, add the binding information, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of the Add Site Binding dialog box. H T T P is displayed in the Type field.](index/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration
