@@ -34,13 +34,13 @@ Hosters can take advantage of Hyper-V to implement a variety of scenarios, for e
 
 The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Virtualization%20360-Microsoft%20Virtualization%20Strategy.wmv "video") provides an overview of Microsoft virtualization technologies and strategy, and explains why the technology has evolved to what it is now and where it is going in the future. It walks you through the various forms of virtualization: profile, presentation, desktop, application, server, and network.
 
-[![](hyper-v-guides/_static/image2.jpg)](hyper-v-guides/_static/image1.jpg)
+![Diagram displaying the types of Microsoft Virtualization technologies.](hyper-v-guides/_static/image1.jpg)
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") includes the slides that are presented in the video above. 
 
 The following [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ValueProp.zip "download") describes the value proposition for Hyper-V:
 
-[![](hyper-v-guides/_static/image5.jpg)](hyper-v-guides/_static/image4.jpg)
+![Chart detailing the advantages of Microsoft Virtualization technologies.](hyper-v-guides/_static/image4.jpg)
 
 ## Licensing Guide for Common Hosting Scenarios with Hyper-V
 
@@ -52,7 +52,7 @@ This whitepaper also documents common hosting scenarios that use Windows Server�
 
 This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Scalable%20Virtualized%20Infrastructure.wmv "video") provides a guide to planning your virtualization project:
 
-[![](hyper-v-guides/_static/image7.jpg)](hyper-v-guides/_static/image6.jpg)
+![Screenshot displaying the Planning for Hyper V Session Objectives and Agenda outline.](hyper-v-guides/_static/image6.jpg)
 
 ### Microsoft Assessment and Planning Solution Accelerator (MAP)
 
@@ -66,7 +66,7 @@ This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6
 
 This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Hyper-V%20Architecture,%20Scenarios%20&amp;%20Networking.wmv "video") provides a brief introduction to the MAP tool, Hyper-V architecture, system requirements, virtualization demo, Hyper-V systems and VM creation, and Microsoft System Center.
 
-[![](hyper-v-guides/_static/image9.jpg)](hyper-v-guides/_static/image8.jpg)
+![Screenshot displaying the Objectives and Takeaways outline.](hyper-v-guides/_static/image8.jpg)
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/CapacityPlanning.zip "download") contains the slides for the video above and further documentation about capacity planning.
 
@@ -76,7 +76,7 @@ Review the [Planning and Design Guide](https://technet.microsoft.com/library/cc1
 
 The following [video](https://www.microsoft.com/emea/spotlight/sessionh.aspx?videoid=999&amp;PUID=0003BFFD806C3741 "video") provides a guide to Hyper-V deployment. It includes hardware requirements, storage, networking, high availability, backup, and SVMM deployment best practices.
 
-[![](hyper-v-guides/_static/image11.jpg)](hyper-v-guides/_static/image10.jpg)
+![Screenshot of the Deploying Hyper V Session Objectives and Agenda.](hyper-v-guides/_static/image10.jpg)
 
 ### High Availability
 
@@ -84,7 +84,7 @@ This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6
 
 This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Virtualization%20and%20High%20Availability.wmv "video") walks through the various aspects of Hyper-V high availability, including demos for creating a cluster and virtual machines.
 
-[![](hyper-v-guides/_static/image13.jpg)](hyper-v-guides/_static/image12.jpg)
+![Screenshot of the Session Objectives and Agenda for Hyper V High Availability.](hyper-v-guides/_static/image12.jpg)
 
 <a id="_Toc220069378"></a>
 
@@ -109,7 +109,7 @@ Microsoft provides the tools that hosters need to make the most of their Hyper-V
 The following videos provide step-by-step guidance on how use the best security practices to enable Hyper-V in your environment:
 
 - [Windows Server 2008 Hyper-V Security and Best Practices – Part I](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Windows%20Server%202008%20Hyper-V%20Security%20and%20Best%20Practices1.wmv "Windows Server 2008 Hyper-V Security and Best Practices - Part I")
-- [Windows Server 2008 Hyper-V Security and Best Practices – Part II](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Windows%20Server%202008%20Hyper-V%20Security%20and%20Best%20Practices2.wmv "Windows Server 2008 Hyper-V Security and Best Practices - Part II") [![](hyper-v-guides/_static/image15.jpg)](hyper-v-guides/_static/image14.jpg)
+- [Windows Server 2008 Hyper-V Security and Best Practices – Part II](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-HyperV/Windows%20Server%202008%20Hyper-V%20Security%20and%20Best%20Practices2.wmv "Windows Server 2008 Hyper-V Security and Best Practices - Part II") ![Screenshot of the Agenda outline for Hyper V Security.](hyper-v-guides/_static/image14.jpg)
 
 This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/Security.zip "download") provides the slides for these videos.<a id="_Toc220069381"></a>
 
