@@ -1,7 +1,7 @@
 ---
+description: Learn how to add a custom metadata setting to the collection of custom metadata settings using the <key> element.
 title: "Custom Metadata Keys &lt;key&gt;"
 author: rick-anderson
-description: "Overview The &lt;key&gt; element of the &lt;customMetadata&gt; element adds a custom metadata setting to the collection of custom metadata settings. Importan..."
 ms.date: 09/26/2016
 ms.assetid: 002414f1-c399-4fb7-b9fb-04956a16b863
 msc.legacyurl: /configreference/system.applicationhost/custommetadata/key
@@ -71,7 +71,7 @@ The `<customMetadata>` element is not available on the default installation of I
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then select **IIS Metabase and IIS 6 configuration compatibility**, and then click **OK**.  
-    ![Screenshot of the Windows Features dialog box. I I S Metabase and I I S 6 configuration and compatibility is highlighted.](index/_static/image7.png)
+    ![Screenshot of the Windows Features dialog box. I I S Metabase and I I S 6 configuration and compatibility is highlighted in the expanded menu.](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
