@@ -1,7 +1,7 @@
 ---
 title: "Verifying the Developer Experience - ASP.NET"
 author: walterov
-description: "Introduction This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, custom..."
+description: "Introduction This walkthrough is intended to help hosters verify their customers can use the Windows Web Platform tools and services to download, custom..."
 ms.date: 01/18/2009
 ms.assetid: 2f417b96-4bdb-49c5-895a-5cb474a0863a
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by [Walter Oliver](https://github.com/walterov)
 
-This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, customize, publish, and manage their applications in Hosted Environments.
+This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, customize, publish, and manage their applications in a Hosted Environment.
 
 In this case we'll play the role of the developer and use the Microsoft Web Patform Installer to deploy a popular CMS ASP.NET application called "Graffiti CMS" in the local developer machine. Once we verify that works we'll proceed to deploy it in the hosted server.
 
