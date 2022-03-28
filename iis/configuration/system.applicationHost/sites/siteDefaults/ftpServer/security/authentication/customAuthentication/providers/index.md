@@ -76,7 +76,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![Screenshot shows the Windows Features dialog box highlighting F T P Extensibility checkbox.](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot shows the Windows Features dialog box highlighting the F T P Extensibility checkbox.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -140,7 +140,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, expand the server name, expand the **Sites** node, and then click the name of the site.
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. When the **FTP Authentication** page displays, click **Custom Providers...** in the **Actions** pane.  
-    [![Screenshot shows F T P authentication page with authentication modes and Status.](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot shows the F T P authentication page with authentication modes and Status.](index/_static/image10.png)](index/_static/image9.png)
 5. When the **Custom Providers** dialog box displays, click to select **IIS Manager Authentication**. Click **OK**.  
     [![Screenshot shows the Custom Providers dialog box with I i s Manager Auth and A s p Net Auth checkboxes.](index/_static/image12.png)](index/_static/image11.png)
 6. Your **FTP Authentication** page should now show **IIS Manager Authentication** enabled.  
@@ -170,13 +170,13 @@ For additional information about how to configure IIS Manager authentication for
     - Open **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
     - Double-click **FTP Authentication** in the main window.  
-        [![Screenshot shows F T P Authentication dialog box with Authentication modes and Status.](index/_static/image16.png)](index/_static/image15.png)
+        [![Screenshot shows the F T P Authentication dialog box with Authentication modes and Status.](index/_static/image16.png)](index/_static/image15.png)
     - Click **Custom Providers...** in the **Actions** pane.
     - Click **Register**.  
-        [![Screenshot shows Custom Providers dialog box with I i s Manager Auth and A s p Net Auth checkboxes.](index/_static/image18.png)](index/_static/image17.png)
+        [![Screenshot shows the Custom Providers dialog box with I i s Manager Auth and A s p Net Auth checkboxes.](index/_static/image18.png)](index/_static/image17.png)
     - Enter a friendly name for the custom authentication provider in the **Name** box. For example, **FtpAuthenticationDemo**.
     - Click **Managed Provider (.NET)**.  
-        [![Screenshot shows Add Custom Authentication Provider with Name field.](index/_static/image20.png)](index/_static/image19.png)
+        [![Screenshot shows the Add Custom Authentication Provider dialog box with the Name field.](index/_static/image20.png)](index/_static/image19.png)
     - Enter the assembly information for the extensibility provider using the information that you copied earlier. For example:  
         **FtpAuthentication.FtpAuthDemo, FtpAuthenticationDemo, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73**
     - Click **OK**.
