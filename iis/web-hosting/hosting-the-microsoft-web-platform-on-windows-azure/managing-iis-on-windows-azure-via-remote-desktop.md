@@ -34,13 +34,13 @@ As mentioned above it is not recommended to change configuration via the IIS Use
 
 To look at he resource consumption of IIS worker processes you have to click on the machine name of your IIS server in INETMGR. Then click on the Worker Processes icon in the center of the INETMGR window. You will see a list of your worker processes and their resource consumption:
 
-[![](managing-iis-on-windows-azure-via-remote-desktop/_static/image3.png)](managing-iis-on-windows-azure-via-remote-desktop/_static/image3.png)
+[![Screenshot of the Worker Processes screen with an entry in the Application Pool Name field being highlighted.](managing-iis-on-windows-azure-via-remote-desktop/_static/image3.png)](managing-iis-on-windows-azure-via-remote-desktop/_static/image3.png)
 
 ### Currently Executing Requests
 
-If you want to go into even more details you can look at the requests currently executing in your worker process(es). This can be of help yif ou need to find requests that take very long or do not return at all. For this you only have to select a worker process and click on "View Current Request" on the right hand side of the windows. You should see something like this:
+If you want to go into even more details you can look at the requests currently executing in your worker process(es). This can be of help if you need to find requests that take very long or do not return at all. For this you only have to select a worker process and click on "View Current Request" on the right hand side of the windows. You should see something like this:
 
-[![](managing-iis-on-windows-azure-via-remote-desktop/_static/image5.png)](managing-iis-on-windows-azure-via-remote-desktop/_static/image5.png)
+[![Screenshot of the Requests screen, showing the current requests for the worker process.](managing-iis-on-windows-azure-via-remote-desktop/_static/image5.png)](managing-iis-on-windows-azure-via-remote-desktop/_static/image5.png)
 
 ### Enabling Request Tracing
 

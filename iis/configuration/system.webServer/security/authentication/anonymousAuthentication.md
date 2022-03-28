@@ -59,7 +59,7 @@ The `<anonymousAuthentication>` element is included in the default installation 
 2. In the **Connections** pane, expand the server name, expand **Sites**, and go to the level in the hierarchy pane that you want to configure, and then click the Web site or Web application.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    ![](anonymousAuthentication/_static/image1.png)
+    ![Screenshot of the Authentication pane with Anonymous Authentication selected.](anonymousAuthentication/_static/image1.png)
 
 ### How to change anonymous authentication credentials from the IUSR account
 
@@ -85,9 +85,9 @@ The `<anonymousAuthentication>` element is included in the default installation 
 5. In the **Edit Anonymous Authentication Credentials** dialog box, do one of the following:
 
    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.  
-       ![](anonymousAuthentication/_static/image3.png)
+       ![Screenshot of setting Anonymous user identity to Application pool identity.](anonymousAuthentication/_static/image3.png)
    - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
-       ![](anonymousAuthentication/_static/image5.png)
+       ![Screenshot of a blank Set Credentials dialog.](anonymousAuthentication/_static/image5.png)
 
      > [!NOTE]
      > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.

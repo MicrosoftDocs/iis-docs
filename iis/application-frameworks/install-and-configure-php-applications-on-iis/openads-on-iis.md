@@ -52,27 +52,27 @@ OpenAds 2.0 contains an automatic installer which does most of the work for you.
 
 1. To start the installer, open a Web browser and point it to the directory in which [http://localhost/openads](http://localhost/openads). This starts the installer automatically. If it does not start automatically, use [http://192.168.2.10/openads/www/admin/install.php](http://192.168.2.10/openads/www/admin/install.php).  
 
-    [![](openads-on-iis/_static/image2.jpg)](openads-on-iis/_static/image1.jpg)
+    ![Screenshot of a browser window showing the OpenAds installer.](openads-on-iis/_static/image1.jpg)
 2. Click Continue to start the configuration and read the license agreement. Click I agree. The installer verifies the configuration required for OpenAds.  
 
-    [![](openads-on-iis/_static/image4.jpg)](openads-on-iis/_static/image3.jpg)
+    ![Screenshot showing the OpenAds system checks page.](openads-on-iis/_static/image3.jpg)
 
-    [![](openads-on-iis/_static/image6.jpg)](openads-on-iis/_static/image5.jpg)
+    ![Screenshot showing OpenAds file permission checks with no errors.](openads-on-iis/_static/image5.jpg)
 3. Click Continue to go to the database setup.  
 
-    [![](openads-on-iis/_static/image8.jpg)](openads-on-iis/_static/image7.jpg)
+    ![Screenshot showing the OpenAds database and advanced settings.](openads-on-iis/_static/image7.jpg)
 4. Provide the necessary database information and click Continue. The installer checks for the information provided and confirms it in order to continue.  
 
-    [![](openads-on-iis/_static/image10.jpg)](openads-on-iis/_static/image9.jpg)
+    ![Screenshot of a browser showing the OpenAds database configuration settings.](openads-on-iis/_static/image9.jpg)
 5. Provide the necessary information related to the server. Click Continue.  
 
-    [![](openads-on-iis/_static/image12.jpg)](openads-on-iis/_static/image11.jpg)
+    ![Screenshot of a browser showing the OpenAds server administrator account information.](openads-on-iis/_static/image11.jpg)
 6. Provide the administrator account details. Click Continue.  
 
-    [![](openads-on-iis/_static/image14.jpg)](openads-on-iis/_static/image13.jpg)
+    ![Screenshot of a browser showing the OpenAds installation progress bar and details.](openads-on-iis/_static/image13.jpg)
 7. Select the default setup data. Click Continue to finish the installation with the default information.  
 
-    [![](openads-on-iis/_static/image16.jpg)](openads-on-iis/_static/image15.jpg)
+    ![Screenshot of a browser showing the OpenAds successful installation screen.](openads-on-iis/_static/image15.jpg)
 
 ## Getting More Information
 

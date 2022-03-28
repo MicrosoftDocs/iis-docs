@@ -47,7 +47,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Deelopment**, and then select **CGI** or **ISAPI Extensions**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    ![Screenshot of the Add Roles and Features wizard. I S A P I Extensions option is highlighted in the menu.](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -57,7 +57,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **CGI** or **ISAPI Extensions**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of the Windows Features dialog box. The I S A P I Extensions feature is highlighted.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -67,7 +67,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **CGI** or **ISAPI Extensions**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of the Add Role Services displaying the Role Services page. The I S A P I Extensions feature is highlighted. ](index/_static/image5.png)
 5. If the **Add role services** dialog appears, click **Add Required Role Services**. (This page appears only if you have not already installed any prerequisite role services on your server.)
 6. On the **Select Role Services** page, click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -79,7 +79,7 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. In the Windows Features dialog box, expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.
 4. Select **CGI** or **ISAPI Extensions**, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![Screenshot of the Windows Features dialog with the I S A P I Extensions feature highlighted.](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -104,10 +104,10 @@ The `<isapiCgiRestriction>` collection is available only after you install the C
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name.
 3. In the **Home** pane, double-click **ISAPI and CGI Restrictions**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![Screenshot of the I I S Manager window displaying the Server Home page. The icon for I S A P I and C G I Restrictions is highlighted.](index/_static/image9.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add ISAPI or CGI Restriction** dialog box, type the path to the binary you want to add in the **ISAPI or CGI path** box, type the description of the binary in the **Description** box, select the **Allow extension path option to execute** check box to allow the binary to run on the server, and then click **OK**.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    ![Screenshot of the Add I S A P I or C G I Restriction dialog box.](index/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration

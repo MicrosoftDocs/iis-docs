@@ -61,17 +61,17 @@ To pre-cache contents on both child and parent cache nodes, the pre-cache action
 1. Launch IIS Manager.
 2. The cache warm-up feature is available at the server level. Select and expand the root of the server.
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image1.jpg)
+    ![Screenshot of the A R R 1 server option being highlighted.](warm-up-cache-nodes-on-application-request-routing/_static/image1.jpg)
 3. Double-click **Application Request Routing Cache**.
 4. In the **Actions** pane, click **Pre-cache Objects...**.
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image2.jpg)
+    ![Screenshot of the Actions pane with a focus on the Pre-cache Objects option.](warm-up-cache-nodes-on-application-request-routing/_static/image2.jpg)
 5. In the **Pre-cache Objects** dialog box, enter the location of the file that contains the URLs and the location to a log file. Both values are required. In the example below, the following values are used:  
   
     `c:\mydocuments\warmup.txt`
     `c:\mydocuments\warmup.log`
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image3.jpg)
+    ![Screenshot of the Pre cache objects dialog box.](warm-up-cache-nodes-on-application-request-routing/_static/image3.jpg)
 
     Instead of a location to a file on the file system, you can specify a URL. For example, you can use `http://mytestserver/warmup.txt`.
 
@@ -85,7 +85,7 @@ To see if the warm-up feature worked correctly, review the log file that was spe
 1. Locate the log file.
 2. Open the log file using Notepad. The example below shows what the log file looks like.
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image4.jpg)
+    ![Screenshot of the Notepad log file containing various file paths.](warm-up-cache-nodes-on-application-request-routing/_static/image4.jpg)
 3. Alternatively, you can use the browse functionality of ARR to look at the cached contents using IIS Manager. See the [Browse cached contents on disk on Application Request Routing](browse-cached-contents-on-disk-on-application-request-routing.md) article for more information about the browse functionality.
 
 ## Step 3 - Warm up ARR cache nodes*only*at the parent cache tier
@@ -102,14 +102,14 @@ The steps for pre-caching only at the parent cache tier are similar to the steps
 1. Launch IIS Manager.
 2. The cache warm-up feature is available at the server level. Select and expand the root of the server.
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image5.jpg)
+    ![Screenshot of the A R R 1 server root being highlighted, expanding to reveal more options.](warm-up-cache-nodes-on-application-request-routing/_static/image5.jpg)
 3. Double-click **Application Request Routing Cache**.
 4. In the **Actions** pane, click **Pre-cache Objects...**.
 
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image6.jpg)
+    ![Screenshot of the Actions pane with a focus on the Pre Cache Objects option.](warm-up-cache-nodes-on-application-request-routing/_static/image6.jpg)
 5. In the **Pre-cache Objects** dialog box, in addition to providing the required information as in Step 1 above, select the **Do not cache all content on this server** checkbox to further expand the dialog box.  
   
-    ![](warm-up-cache-nodes-on-application-request-routing/_static/image7.jpg)
+    ![Screenshot of the Pre cache objects dialog box with the Do not cache all content on this server option being selected.](warm-up-cache-nodes-on-application-request-routing/_static/image7.jpg)
 
     Enter the names of the ARR servers, including the server where you are running the pre-cache action, in the Peer servers table. This action will automatically populate the **Address of this server** drop-down list. Select the name of the server where you are taking this action.
 

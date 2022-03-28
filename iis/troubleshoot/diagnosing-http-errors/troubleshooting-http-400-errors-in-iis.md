@@ -24,7 +24,7 @@ After sending an HTTP request to an IIS server, an HTTP client (such as Internet
 
 ---
 
-![](troubleshooting-http-400-errors-in-iis/_static/image1.png)
+:::image type="icon" source="troubleshooting-http-400-errors-in-iis/_static/image1.png":::
 **HTTP 400**
 **The webpage cannot be found.**
  

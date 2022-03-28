@@ -54,7 +54,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **Request Filtering**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of the Request Filtering option being highlighted.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -64,7 +64,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **Request Filtering**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Request Filtering folder being highlighted.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -74,7 +74,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Request Filtering**, and then click **Next**.   
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Request Filtering option being highlighted and the only selected option.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -84,7 +84,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, and then **Security**.
 4. Select **Request Filtering**, and then click **OK**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of the Request Filtering folder being selected and highlighted.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -113,11 +113,11 @@ The default installation of IIS 7 and later includes the Request Filtering role 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **Request Filtering**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of the Default Web Site Home screen's Home pane.](index/_static/image10.png)](index/_static/image9.png)
 4. Click **Edit Feature Settings...** in the **Actions** pane.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of the Request Filtering screen, showing the File Name Extensions and Hidden Segment tab.](index/_static/image12.png)](index/_static/image11.png)
 5. Specify your options, and then click **OK**.  
-    [![](index/_static/image14.png)](index/_static/image13.png)  For example, you could make the following changes:
+    [![Screenshot of the Edit Request Filtering Settings dialog box, showing four selectable fields.](index/_static/image14.png)](index/_static/image13.png)  For example, you could make the following changes:
 
     - Change the maximum URL length to 2KB by specifying 2048.
     - Change the maximum query string length to 1KB by specifying 1024.
@@ -145,11 +145,11 @@ The default installation of IIS 7 and later includes the Request Filtering role 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **Request Filtering**.   
-    [![](index/_static/image16.png)](index/_static/image15.png)
+    [![Screenshot of the Default Web Site Home screen, showing the Failed Request Tracing Rules, Handler Mappings, and H T T P Redirect options.](index/_static/image16.png)](index/_static/image15.png)
 4. In the **Request Filtering** pane, click the **Headers** tab, and then click **Add Header...** in the **Actions** pane.   
-    [![](index/_static/image18.png)](index/_static/image17.png)
+    [![Screenshot of the Request Filtering pane, showing the H T T P Verbs and Headers tabs.](index/_static/image18.png)](index/_static/image17.png)
 5. In the **Add Header** dialog box, enter the HTTP header and the maximum size that you want for the header limit, and then click **OK**.   
-    [![](index/_static/image20.png)](index/_static/image19.png)
+    [![Screenshot of the Add Header dialog box, showing the Header and Size limit fields.](index/_static/image20.png)](index/_static/image19.png)
 
     For example, the "Content-type" header contains the MIME type for a request. Specifying a value of 100 would limit the length of the "Content-type" header to 100 bytes.
 

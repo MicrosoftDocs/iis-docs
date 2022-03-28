@@ -55,7 +55,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 2. In the **Connections** pane, expand the server name, and then click **Sites**.
 3. In the **Actions** pane, click **Add Web Site**
 4. In the **Add Web Site** dialog box, at a minimum, enter information in the **Site name** and **Physical path** text boxes and choose whether you want to enter information in the **Host name** text box or change the number in the **Port** box.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot that shows the Add Web Site dialog box. Contoso is entered in the Site name text box.](index/_static/image2.png)](index/_static/image1.png)
 5. On IIS Manager, click the refresh button to verify that the site has started.
 
 ### How to enable or disable Anonymous authentication for an FTP site
@@ -80,7 +80,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
 3. In the site's **Home** pane, double-click the **FTP Authentication** feature.
 4. On the **FTP Authentication** page, select **Anonymous Authentication**.
 5. In the **Actions** pane, click **Enable** to enable Anonymous authentication or click **Disable** to disable Anonymous authentication.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot that shows the F T P Authentication pane. Anonymous Authentication is listed and disabled.](index/_static/image4.png)](index/_static/image3.png)
 
 ### How to use the FTP Site Wizard to Create an FTP Site with Anonymous Read Access
 
@@ -110,7 +110,7 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
         - Click the ellipsis (**...**) button, and then navigate to the folder that contains the content for your FTP site.
         - Type in the path to your content folder in the box. Note that if you choose to type the path, you can use environment variables in your paths. For example, you can use "%*SystemDrive*%\inetpub\ftproot" for your content directory.
     - When you have completed these items, click **Next**.  
-        [![](index/_static/image6.png)](index/_static/image5.png)
+        [![Screenshot that shows the Site Information page. My New F T P Site is entered in the F T P site name text box.](index/_static/image6.png)](index/_static/image5.png)
 5. On the second page of the **Add FTP Site** wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
@@ -123,14 +123,14 @@ When you configure a new Web site on IIS 7, you must assign the Web site a site 
         - Select **Require SSL** to allow FTP clients to always use FTP over SSL when they connect with the FTP server.
         - If you choose **Allow SSL** or **Require SSL**, choose a certificate from the **SSL Certificate** drop-down menu.
     - When you have completed these items, click **Next**.  
-        [![](index/_static/image8.png)](index/_static/image7.png)
+        [![Screenshot that shows the Binding and S S L Settings page. Allow S S L is selected.](index/_static/image8.png)](index/_static/image7.png)
 6. On the next page of the wizard: 
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down.
     - Select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        [![](index/_static/image10.png)](index/_static/image9.png)
+        [![Screenshot that shows the Authentication and Authorization Information page. Anonymous and Read are selected.](index/_static/image10.png)](index/_static/image9.png)
 
 ## Configuration
 

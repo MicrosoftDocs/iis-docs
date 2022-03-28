@@ -43,7 +43,7 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 
 FTP is one of the front-end servers in the [shared hosting configuration](../planning-the-web-hosting-architecture/shared-hosting-configuration.md "shared hosting configuration").
 
-![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image1.jpg)
+![Diagram of F T P service deployment involving the interactions between the front end and back end servers.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image1.jpg)
 
 This image highlights several important characteristics of FTP deployment in the shared hosting environment:
 
@@ -75,9 +75,9 @@ The FTP for IIS server has several features that make it ideal for shared hostin
 7. Stop the Windows Process Activation Service (WAS):
 
     - At the command prompt, type **services.msc** This will display the Services console.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image3.jpg)
+        ![Screenshot of the Services console with Windows Process Activation Service selected.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image3.jpg)
     - Double-click **Windows Process Activation Service**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image5.jpg)
+        ![Screenshot of the Windows Process Activation Service Properties with Startup type set to Disabled.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image5.jpg)
     - In the Windows Process Activation Service Properties dialog box, ensure that the Startup Type for this service is set to Disabled. Click **Stop**, and then click **OK**.
 
 ## Create SSL Enabled Site
@@ -86,7 +86,7 @@ In this section, you will create a new FTP site that can be opened by using any 
 
 1. Go to IIS Manager. In the Connections pane, click the Sites node in the tree.
 2. Right-click the Sites node in the tree, and click **Add FTP Site**, or click **Add FTP Site** in the Actions pane.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
+    ![Screenshot of an emphasized Add F T P Site option after right-clicking Sites in the Connections pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
 3. When the Add FTP Site Wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`).
@@ -95,7 +95,7 @@ In this section, you will create a new FTP site that can be opened by using any 
        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
 
     - Click **Next**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Site Information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
 4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site in the **IP Address** text box, or choose to accept the default selection of "All Unassigned." This example uses the local loopback IP "127.0.0.1".
@@ -104,7 +104,7 @@ In this section, you will create a new FTP site that can be opened by using any 
     - Make sure that the **Certificates** drop-down list is set to the appropriate certificate that you intend to use. This example uses a self-signed certificate called "My FTP Certificate." For instructions, see [Creating a Self-signed SSL Certificate](../../publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7.md#02 "Creating a Self-signed SSL Certificate").
     - Ensure that the **Allow SSL** option is selected.
     - Click **Next**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image11.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Binding and S S L Settings.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image11.jpg)
 5. On the next page of the wizard:
 
     - Select **Basic** for the **Authentication** settings.
@@ -113,7 +113,7 @@ In this section, you will create a new FTP site that can be opened by using any 
         - Choose "All users" from the **Allow access to** drop-down list.
         - Select **Read** and **Write** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image13.jpg)
+        ![Screenshot of the Add F T P Site dialog with the specified Authentication and Authorization Information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image13.jpg)
 
 ### Summary
 
@@ -135,9 +135,9 @@ When isolating users for all directories, all FTP user sessions are restricted t
 1. Create a folder at `%*SystemDrive*%\inetpub\ftproot\LocalUser\`. This folder will contain all local user account directories. You may create this folder on your File Share server (NAS). When you provision user accounts, you must also assign read and write access to the users' content folders.
 2. In IIS Manager, click the node for the FTP site that you have just created. This will display the icons for all of the FTP features.
 3. Double-click the FTP User Isolation icon to open the FTP user isolation feature.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image15.jpg)
+    ![Screenshot of the My New F T P Site Home pane with F T P User Isolation selected.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image15.jpg)
 4. When the FTP User Isolation feature page is displayed, select **User name directory (disable global virtual directories)**, and then click **Apply** in the Actions pane.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image17.jpg)
+    ![Screenshot of the F T P User Isolation pane with restricting users to the User name directory.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image17.jpg)
 
 ### Summary
 
@@ -164,11 +164,11 @@ Global virtual directories are ignored; virtual directories that are configured 
 In this section, you will configure the server-level port range for passive connections to the FTP service. Use the following steps:
 
 1. Go to IIS Manager. In the Connections pane, click the server-level node in the tree.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image19.jpg)
+    ![Screenshot of MY SERVER selected in the Connections pane with the MY SERVER Home pane displayed.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image19.jpg)
 2. Double-click the **FTP Firewall Support** icon in the list of features.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image21.jpg)
+    ![Screenshot of F T P Firewall Support selected in the MY SERVER Home pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image21.jpg)
 3. Enter a range of values for the **Data Channel Port Range**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image23.jpg)
+    ![Screenshot of the Data Channel Port Range set to a value of 49152 dash 65535 in the F T P Firewall Support pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image23.jpg)
 4. Once you have entered the port range for your FTP service, click **Apply** in the Actions pane to save your configuration settings.
 
     > [!NOTE]
@@ -182,7 +182,7 @@ In this section, you will configure the server-level port range for passive conn
     > - This port range will need to be added to the allowed settings for your firewall server.
 
 5. Enter the IPv4 address of the external-facing address for your firewall server for the **External IP Address of Firewall** setting.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image25.jpg)
+    ![Screenshot of the External I P Address of Firewall set to a value of 131 dot 107 dot 0 dot 100.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image25.jpg)
 6. Once you have entered the external IPv4 address for your firewall server, click **Apply** in the Actions pane to save your configuration settings.
 
 #### Summary
@@ -220,11 +220,11 @@ This article has so far focused on how to deploy FTP in a shared hosting environ
 To publish Web application content with VWD, ftpuser1 performs the following steps:
 
 1. Ftpuser1 opens the Web site called "WebSite1" in Visual Web Developer 2008 (VWD).  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image27.jpg)
+    ![Screenshot of the H T M L code for Default dot a s p x in Visual Web Developer.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image27.jpg)
 2. Ftpuser1 selects Copy Web Site from the Website menu.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image29.jpg)
+    ![Screenshot of opening the Website option in the toolbar and selecting Copy Web Site.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image29.jpg)
 3. Ftpuser1 clicks **Connect**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image31.jpg)
+    ![Screenshot before connecting the Web Site copy to the specified F T P server.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image31.jpg)
 4. Ftpuser1 enters the following values:
 
     - The FTP server name provided by the hosting company. In the example below, the loopback IP address is 127.0.0.1.
@@ -234,17 +234,17 @@ To publish Web application content with VWD, ftpuser1 performs the following ste
     - User name: ftpuser1.
     - Password.
 5. Ftpuser1 then clicks **Open**.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image33.jpg)
+    ![Screenshot of the Open Web Site dialog with the specified F T P Site information.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image33.jpg)
 6. Ftpuser1's folder appears in the Remote Web Site pane. In the following example, the pane is empty because ftpuser1 is publishing the Web site for the first time.  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image35.jpg)
+    ![Screenshot of an empty Remote Web Site pane after opening the F T P Web Site.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image35.jpg)
 7. Ftpuser1 publishes all content items in the Source Web Site pane by selecting all files and folders, and then clicking **Synchronize**:
 
     - Ftpuser1 clicks the left pane.
     - Ftpuser1 types **Ctrl+A**, to select all files.
     - Ftpuser1 clicks **Synchronize** (located in between the two panes, third button from the top).  
-        ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
+        ![Screenshot before synchronizing all selected files in the Source Web Site pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image37.jpg)
 8. The files and folders are uploaded to the FTP server and stored in the user's virtual directory: ftpuser1. (The user will be unaware of other users' content on the same server because of the User Isolation restriction.)  
-    ![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image39.jpg)
+    ![Screenshot after synchronization with copies of the synchronized files in the Remote Web site pane.](guide-to-deploy-ftp-and-publish-with-vwd/_static/image39.jpg)
 
 <a id="\_Toc216253274"></a><a id="\_Toc216238192"></a>
 
