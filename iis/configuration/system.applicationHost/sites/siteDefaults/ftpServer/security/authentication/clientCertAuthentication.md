@@ -1,7 +1,7 @@
 ---
+description: Learn how to specify the settings for Client Certificate authentication using the <clientCertAuthentication> element.
 title: "Default FTP Client Certificate Authentication Settings &lt;clientCertAuthentication&gt;"
 author: rick-anderson
-description: "Overview The &lt;clientCertAuthentication&gt; element specifies the settings for Client Certificate authentication. This form of Secure Sockets Layer (SSL) a..."
 ms.date: 09/26/2016
 ms.assetid: 8c684498-9481-4601-9a6d-0269e7c269fe
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/clientcertauthentication
