@@ -54,11 +54,11 @@ The `<add>` element of the `<profiles>` element is included in the default insta
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to configure page output caching.
 3. In the **Home** pane, scroll to **Output Caching**, and then double-click **Output Caching**.  
-    [![](add/_static/image2.png)](add/_static/image1.png)
+    [![Screenshot of the Home pane with the Output Caching icon being highlighted.](add/_static/image2.png)](add/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Cache Rule** dialog box, type the file name extension you want to cache in the **File name extension** box, and then select the **User-mode caching** option, the **Kernel-mode caching** option, or both.
 6. Select the options that you want to use for caching, and then click **OK**.  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot of the Add Cache Rule dialog box, showing the File name extension field.](add/_static/image4.png)](add/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

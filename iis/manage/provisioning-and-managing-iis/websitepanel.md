@@ -15,7 +15,7 @@ by Brad Joseph
 
 Another option for hosting providers is WebsitePanel. WebsitePanel, formerly known as DotNetPanel, is an open-source control panel built exclusively for the Windows web technology platform. With the help of former DotNetPanel developers, Microsoft is investing in the future and success of WebsitePanel by contributing support for ongoing development efforts. WebsitePanel is designed for developers managing customer servers and web sites and hosting service providers offering Windows hosting services.
 
-[![](websitepanel/_static/image2.png)](websitepanel/_static/image1.png)
+[![Screenshot of the Website Panel screen showing the Hosting Spaces and User Account Rules sections.](websitepanel/_static/image2.png)](websitepanel/_static/image1.png)
 
 The WebsitePanel features list includes:
 

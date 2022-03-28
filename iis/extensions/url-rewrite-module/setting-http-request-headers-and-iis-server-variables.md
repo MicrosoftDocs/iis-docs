@@ -1,7 +1,7 @@
 ---
 title: "Setting HTTP request headers and IIS server variables"
 author: ruslany
-description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough will guide you through how to use URL Rewrite Mo..."
+description: This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough shows how to use URL Rewrite Module.
 ms.date: 09/24/2009
 ms.assetid: 1f409729-be56-43d6-87c7-a83cd7f7f1a2
 msc.legacyurl: /learn/extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables
@@ -49,7 +49,7 @@ You will create a rewrite rule by using URL Rewrite UI in IIS Manager.
 
 Open IIS Manager, choose the "Default Web Site" in the tree view on the left hand side and then open the "URL Rewrite" feature:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image4.png)
+![Screenshot of the I I S Manager's Default Web Site Home screen with a focus on the U R L Rewrite option.](setting-http-request-headers-and-iis-server-variables/_static/image4.png)
 
 ### Allowing server variables to be changed
 
@@ -63,11 +63,11 @@ By default, the distributed rewrite rules (i.e. the rules that are defined for s
 
 Select the "View Server Variables..." action from the "Actions" pane:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image8.png)
+![Screenshot of the U R L Rewrite screen with a focus on the View Server Variables option in the Actions pane.](setting-http-request-headers-and-iis-server-variables/_static/image8.png)
 
 Use the "Add..." action to add the server variables HTTP\_COOKIE and ORIGINAL\_URI to the "Allowed Server Variables" list:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image12.png)
+![Screenshot of the Add Server Variable dialog box with ORIGINAL underscore U R I entered as the Server variable name.](setting-http-request-headers-and-iis-server-variables/_static/image12.png)
 
 After the "Allowed Server Variables" list has been updated, click "Back to Rules" action to go back to the rules list view.
 
@@ -77,15 +77,15 @@ The next step is to define a rewrite map that will be used to map the URL part, 
 
 Select the "View Rewrite Maps..." action in the "Actions" pane:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image16.png)
+![Screenshot of the U R L Rewrite screen with a focus on the View Rewrite Maps option in the Actions pane.](setting-http-request-headers-and-iis-server-variables/_static/image16.png)
 
 Click "Add Rewrite Map..." and specify the name of the map as "Languages":
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image20.png)
+![Screenshot of the Add Rewrite Map dialog box with Languages entered as the Rewrite map name.](setting-http-request-headers-and-iis-server-variables/_static/image20.png)
 
 This map will define mappings between the URL part that represents a language and the locale identifier to be used when setting the HTTP request cookie. Click "Edit Map Settings..." action to specify the default value to use when no mapping can be found. Enter "en\_US" as a default value:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image24.png)
+![Screenshot of the Edit Rewrite Map dialog box showing E N underscore U S as the default value to use when the key is not found in the map.](setting-http-request-headers-and-iis-server-variables/_static/image24.png)
 
 Close the dialog and then use the "Add Mapping Entry..." action to add the following mappings:
 
@@ -101,7 +101,7 @@ Finally, you will create a rewrite rule that sets the server variables by using 
 
 Bring up the "Edit Rule" dialog by clicking on the "Add Rules..." action in the main feature view and selecting the "Blank Rule" from the "Inbound Rules" category. Enter the rule configuration as below:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image28.png)
+![Screenshot of the Edit Inbound Rule screen showing the Name, Match U R L, Conditions, Server Variables, and Actions sections.](setting-http-request-headers-and-iis-server-variables/_static/image28.png)
 
 - Rule name: "**set server variables**"
 - Requested URL: "**Matches the Pattern**"
@@ -121,7 +121,7 @@ The pattern of the rule matches any URL path that contains the language segment 
 
 Expand the "Server Variables..." and specify the values to use for setting the server variables:
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image31.png)
+![Screenshot of the Server Variables dialog box with H T T P underscore COOKIE and ORIGINAL underscore U R L entered in the Name field.](setting-http-request-headers-and-iis-server-variables/_static/image31.png)
 
 - Name: HTTP\_COOKIE, Value: Language={C:1}
 - Name: ORIGINAL\_URI, Value: http://{HTTP\_HOST}{REQUEST\_URI}
@@ -136,6 +136,6 @@ To test that the rule correctly sets the cookie and a server variable, open a We
 
 `http://localhost/fr-fr/language.aspx`
 
-![](setting-http-request-headers-and-iis-server-variables/_static/image33.png)
+![Screenshot of the U R L Rewrite Module v 2 Test webpage with focus on the U R L bar, the Language cookie is set to F R underscore F R.](setting-http-request-headers-and-iis-server-variables/_static/image33.png)
 
 You should see that the rewrite rule has set the "Language" cookie in accordance to the URL that was requested. Also, the original URL string has been made accessible for the ASP.NET page via "ORIGINAL\_URI" server variable.
