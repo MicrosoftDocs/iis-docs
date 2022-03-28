@@ -106,7 +106,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI handler mappings.
 3. In the **Home** pane, double-click **Handler Mappings**.  
-   [![Screenshot shows the Home pane highlighting Handler Mappings folder.](index/_static/image10.png)](index/_static/image9.png)
+   [![Screenshot shows the Home pane highlighting the Handler Mappings folder.](index/_static/image10.png)](index/_static/image9.png)
 4. In the **Actions** pane, click **Add Module Mapping**.  
    [![Screenshot shows the Actions pane with Name and Path fields.](index/_static/image12.png)](index/_static/image11.png)
 5. Enter the following information:
@@ -122,7 +122,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
    - Select **Invoke handler only if request is mapped to**.
    - Click to select the **File or Folder** option.
    - Click **OK**.  
-      [![Screenshot shows the Request Restrictions window with File or folder radio button selected.](index/_static/image16.png)](index/_static/image15.png)
+      [![Screenshot shows the Request Restrictions window with the File or folder radio button selected.](index/_static/image16.png)](index/_static/image15.png)
 
 6. Click **OK**.
 7. If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.  
@@ -163,7 +163,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
 
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI settings.
 3. In the **Home** pane, double-click **FastCGI Settings**.  
-   [![Screenshot shows the Home pane highlighting Fast C G I Settings icon.](index/_static/image20.png)](index/_static/image19.png)
+   [![Screenshot shows the Home pane highlighting the Fast C G I Settings icon.](index/_static/image20.png)](index/_static/image19.png)
 4. In the **Actions** pane, click **Add Application**.  
    [![Screenshot shows the Actions pane to add application.](index/_static/image22.png)](index/_static/image21.png)
 5. In the **Add FastCGI Application** dialog box, enter the following information:
@@ -183,7 +183,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
    - Enter "10000" for the **Value**.
   
-   [![Screenshot shows the EnvironmentVariables Collection Editor dialog box highlighting the Name.](index/_static/image28.png)](index/_static/image27.png)
+   [![Screenshot shows the EnvironmentVariables Collection Editor dialog box highlighting the Member Name.](index/_static/image28.png)](index/_static/image27.png)
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 <a id="003c"></a>
@@ -211,7 +211,7 @@ To use the FastCGI environment, you must first install the CGI role service. The
      - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server name for which you want to configure FastCGI settings.
 3. In the **Home** pane, double-click **FastCGI Settings**.  
-   [![Screenshot shows the Home pane highlighting Fast C G I Settings folder.](index/_static/image30.png)](index/_static/image29.png)
+   [![Screenshot shows the Home pane highlighting the Fast C G I Settings folder.](index/_static/image30.png)](index/_static/image29.png)
 4. Highlight the PHP application in the **FastCGI Settings** pane, then click **Edit** in the **Actions** pane.  
    [![Screenshot shows the Fast C G I Settings page highlighting the Full Path name.](index/_static/image32.png)](index/_static/image31.png)
 5. In the **Edit FastCGI Application** dialog box, click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.  
