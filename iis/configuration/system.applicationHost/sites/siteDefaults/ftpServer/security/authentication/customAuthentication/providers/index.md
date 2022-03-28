@@ -142,7 +142,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. When the **FTP Authentication** page displays, click **Custom Providers...** in the **Actions** pane.  
     [![Screenshot shows the F T P authentication page with authentication modes and Status.](index/_static/image10.png)](index/_static/image9.png)
 5. When the **Custom Providers** dialog box displays, click to select **IIS Manager Authentication**. Click **OK**.  
-    [![Screenshot shows the Custom Providers dialog box with I i s Manager Auth and A s p Net Auth checkboxes.](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot shows the Custom Providers window with I i s Manager Auth and A s p Net Auth checkboxes.](index/_static/image12.png)](index/_static/image11.png)
 6. Your **FTP Authentication** page should now show **IIS Manager Authentication** enabled.  
     [![Screenshot shows the F T P authentication page with I i s Manager Auth status Enabled.](index/_static/image14.png)](index/_static/image13.png)
 7. If desired, you can disable **Basic Authentication** or **Anonymous Authentication** by highlighting either mode and clicking **Disable** in the **Actions** pane.
