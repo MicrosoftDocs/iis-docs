@@ -63,7 +63,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
       To add a substitution token into the command-line string, right-click after the `{Output Folder}` in the string to create an insertion point. This will expose a list of the available substitution tokens from which you can select.  
 
-      ![Screenshot of Edit Robocopy Task dialog box showing list of available substitution tokens.](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)
+      ![Screenshot of Edit Robocopy Task dialog box showing list of available substitution tokens to insert into command line string.](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)
 
       | Name | Description |
       | --- | --- |
