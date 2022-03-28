@@ -42,9 +42,9 @@ To begin, you will create an outbound rewrite rule that adds a JavaScript code s
 1. Open IIS Manager
 2. Select "Default Web Site"
 3. In the Feature View select "URL Rewrite Module"  
-    [![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image3.png)](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image1.png)
+    ![Screenshot of I I S Manager window feature view with U R L Rewrite selected.](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image1.png)
 4. In the Actions pane on the right hand side click on "**Add Rules...**". In the "Add Rules" dialog select the "Blank Rule" under the "Outbound rules" category and click OK.  
-    [![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image7.png)](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image5.png)
+    ![Screenshot of Add Rules dialog box with Blank Rule selected under Outbound Rules.](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image5.png)
 
 Now you must define the actual outbound rule. In the URL Rewrite Module 2.0, an outbound rewrite rule is defined by specifying the following information:
 
@@ -77,7 +77,7 @@ Because the rule that you are creating should be applied only on HTML responses,
      - Check if input string: "**Matches the pattern**"
      - Pattern: "**^text/html**"
   
-       [![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image10.png)](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image9.png)
+       ![Screenshot of Add Pre-condition editor dialog with settings.](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image9.png)
 3. Click OK to save the precondition and to return to the "Edit Rule" page.
 
 ### Defining a matching scope
@@ -102,7 +102,7 @@ This string specifies the new value that will be used as a replacement for the m
 
 Leave default values for all other settings. The "Edit Rule" property page should look like the following page:
 
-[![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image12.png)](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image11.png)
+![Screenshot of Edit Outbound Rule property page with selected settings.](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image11.png)
 
 Save the rule by clicking on "Apply" action on the right hand side.
 
@@ -118,7 +118,7 @@ To test that the rule correctly adds a JavaScript code to the web page, request 
 
 Once you get a response from the server, open the actual HTML source code (if using Internet Explorer 8 then go to Page --&gt; View Source). The response HTML will contain the JavaScript code before the closing HTML body tag:
 
-[![](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image15.png)](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image13.png)
+![Screenshot of I I S 7 window with Notepad showing JavaScript code.](using-outbound-rules-to-add-web-analytics-tracking-code/_static/image13.png)
 
 ## Summary
 
