@@ -1,7 +1,7 @@
 ---
 title: "Verifying the Developer Experience - ASP.NET"
 author: walterov
-description: "Introduction This walkthrough is intended to help hosters verify their customers can use the Windows Web Platform tools and services to download, custom..."
+description: "This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, custom..."
 ms.date: 01/18/2009
 ms.assetid: 2f417b96-4bdb-49c5-895a-5cb474a0863a
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet
