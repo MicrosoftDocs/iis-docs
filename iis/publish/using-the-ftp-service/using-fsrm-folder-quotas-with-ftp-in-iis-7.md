@@ -67,7 +67,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
 
 1. Go to the IIS 7.0 Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-    ![Screenshot of the Add F T P option in the right-click dropdown menu.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears:
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section.
@@ -76,7 +76,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
         > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
 
     - Click **Next**.  
-        ![Screenshot of the Add F T P Site wizard's Site Information screen with a focus on the Next option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
+        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
@@ -84,44 +84,44 @@ Create an FTP site where users will be able to access content anonymously. Use t
     - For this walk- through, you will not use a host name, so make sure that the **Virtual Host** box is blank.
     - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.
     - When you have completed these items, click **Next**.  
-         ![Screenshot of the Binding and S S L Settings screen in the Add F T P Site wizard.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image4.jpg)
+         ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image4.jpg)
 5. On the next page of the wizard:
 
     - Select **Anonymous** for the **Authentication** settings.
     - For the **Authorization** settings, choose "Anonymous users" from the **Allow access to** drop-down, and select **Read** for the **Permissions** option.
     - When you have completed these items, click **Finish**.  
-        ![Screenshot of the Authentication and Authorization screen with a focus on the Finish option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image6.jpg)
+        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image6.jpg)
 6. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created. The icons for all of the FTP features display.  
-    ![Screenshot of the My New F T P Site pan, showing the F T P Features.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image3.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image3.png)
 
 ### Step 2: Add Basic Authentication to your FTP site
 
 We need to add Basic Authentication so that users can log in. To do so, use the following steps:
 
 1. Go to the IIS 7.0 Manager. Click the node for the FTP site that you created earlier. Double-click the **FTP Authentication** icon to open the FTP authentication feature page.  
-    ![Screenshot of the My New F T P Site Home screen with the F T P Authentication option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image5.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image5.png)
 2. When the **FTP Authentication** page displays, highlight **Basic Authentication.** Click **Enable** in the **Actions** pane.  
-    ![Screenshot of the F T P Authentication page, with the Basic Authentications option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image7.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image7.png)
 3. Go to the IIS 7.0 Manager. Click the node for the FTP site to display the icons for all of the FTP features again.
 4. We must add an authorization rule so that the administrator can log in. Double-click the **FTP Authorization Rules** icon to open the FTP authorization rules feature page.  
-    ![Screenshot of the My New F T P Site Home page with the F T P Authorization Rules option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image9.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image9.png)
 5. When the **FTP Authorization Rules** page displays, click **Add Allow Rule** in the **Actions** pane.  
-    ![Screenshot of the F T P Authorization Rules page, showing the Add Allow Rule option in the Actions pane.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image11.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image11.png)
 6. When the **Add Allow Authorization Rule** dialog box displays:
 
     - Select **Specified users**, then type "administrator" in the box.
     - For **Permissions**, select both **Read** and **Write**.
     - Click **OK**.  
-        ![Screenshot of the Add Allow Authorization Rule dialog box.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image13.png)
+        ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image13.png)
 
 ### Step 3: Show Available Bytes for the FTP Site
 
 We must configure the FTP site so that users will be able to see the available bytes for the site. Use the following steps:
 
 1. Go to IIS 7.0 Manager. Click the node for the FTP site that you created earlier. Double-click the FTP Directory Browsing icon to open the FTP directory browsing page.  
-    ![Screenshot of the My New F T P Site Home page with the F T P Directory Browsing option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image15.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image15.png)
 2. Check the box for **Available bytes**, then click **Apply** in the **Actions** pane.  
-    ![Screenshot of the F T P Directory Browsing page showing the Apply option in the Actions pane.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image17.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image17.png)
 
 ### Summary
 
@@ -143,38 +143,38 @@ This section of the walkthrough leads you through the steps to install the File 
 ### Step 1: Install the File Server Resource Manager (FSRM)
 
 1. In **Server Manager** under **Roles**, click **Add Role** in the **Roles Summary**.  
-    ![Screenshot of the Server Manager screen's Roles pane, showing the Add Role option in the Roles Summary section.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image8.jpg)
-2. In the **Select Server Roles** dialog, check **File Services**. Click **Next**.  
-    ![Screenshot of the Select Server Roles dialog, with the File Services option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image10.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image8.jpg)
+2. In the **Select Server Roles** dialog, check **File Services. C** lick **Next**.  
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image10.jpg)
 3. On the **Introduction to File Services** page, click **Next**.  
-    ![Screenshot of the Introduction to File Services page, showing the Next option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image12.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image12.jpg)
 4. On the **Select Role Services** page, check the **File Server Resource Manager** service. Click **Next**.  
-    ![Screenshot of the Select Role Services page with the File Server Resource Manager option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image14.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image14.jpg)
 5. On the **Configure Storage Utilization Monitoring** page, click the **Options** button.  
-    ![Screenshot of the Configure Storage Utilization Monitoring page, showing the Options button.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image16.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image16.jpg)
 6. In the **Volume Monitoring Options** dialog, check the **Quota Usage Report** option. Click **OK**.  
-    ![Screenshot of the Volume MOnitoring Options dialog, with the Quota Usage Report option being highlighted.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image20.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image20.jpg)
 7. On the **Configure Storage Utilization Monitoring** page, click **Next**.  
-    ![Screenshot of the Configure Storage Utilization Monitoring page, showing the Next option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image22.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image22.jpg)
 8. On the **Set Notification Options** page, customize the location for your reports and email settings. Click **Next**.  
-    ![Screenshot of the Set Report Options page, showing the Next option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image26.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image26.jpg)
 9. On the **Confirm Installation Selections** page, verify your choices. Click **Install**.  
-    ![Screenshot of the Confirm Installation Selections page, showing the Install option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image29.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image29.jpg)
 10. When the installation is completed, click **Close**.  
-    ![Screenshot of the Installation Results screen, showing the Close option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image31.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image31.jpg)
 11. Expand the **Roles** node in **Server Manager.** You should now see the **File Services** role displayed with all of its related information.  
-    ![Screenshot of the File Services role being highlighted in the Roles node in Server Manager.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image33.jpg)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image33.jpg)
 
 ### Step 2: Creating a Folder Quota
 
 1. Under the Windows **Administrative Tools** menu, click **File Server Resource Manager**.  
-    ![Screenshot of the Windows Administrative Tools menu, showing the highlighted File Server Resource Manager option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image24.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image24.png)
 2. In the **File Server Resource Manager**, expand **Quota Management** in the tree view and click **Quotas**, then click **Create Quota** in the Actions pane.  
-    ![Screenshot of the File Server Resource Manager, showing the Create Quota option in the Actions pane.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image26.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image26.png)
 3. In the **Create Quota** dialog box, navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section. Choose a template from the list of available templates to apply to your folder. Click **Create**.  
-    ![Screenshot of the Create Quota dialog box, showing the Create option.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image28.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image28.png)
 4. The **File Server Resource Manager** should now display the quota settings for your FTP site.  
-    ![Screenshot of the File Server Resource Manager displaying the entered quota settings.](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image30.png)
+    ![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image30.png)
 
 ### Summary
 

@@ -35,7 +35,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 1. Always make a backup. Run the following command to backup an IIS 7.0 or above server:  
 
-    !code-console[Main](export-a-package-through-iis-manager/samples/sample1.cmd)
+    [!code-console[Main](export-a-package-through-iis-manager/samples/sample1.cmd)]
 2. Open the IIS Manager by clicking Start &gt; Run and typing inetmgr.
 3. In IIS Manager, expand the Server node and the Sites node, then select the Default Web Site/MyApplication.
 4. In the right-hand Actions pane under **Manage Packages**, click the **Export Application...** link to launch the wizard.  
