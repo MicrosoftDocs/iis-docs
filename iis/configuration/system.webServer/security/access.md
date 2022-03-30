@@ -64,7 +64,7 @@ The `<access>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to configure SSL requirements. You cannot configure SSL at the server level.
 3. In the **Home** pane, double-click **SSL Settings**.  
-    [![](access/_static/image2.png)](access/_static/image1.png)
+    [![Screenshot of the Home pane with the S S L Settings icon being highlighted.](access/_static/image2.png)](access/_static/image1.png)
 4. In the **SSL Settings** pane, click **Require SSL**.
 5. In the **Actions** pane, click **Apply**.
  
