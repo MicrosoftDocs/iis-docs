@@ -41,7 +41,7 @@ To support application initialization on your Web server, you must install the A
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **Application Initialization**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot that shows the Roles pane. Application Initialization is highlighted and checked.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select Features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -51,7 +51,7 @@ To support application initialization on your Web server, you must install the A
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **Application Initialization**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot that shows the Windows Features pane. Application Initialization is highlighted and turned on.ASP is turned on.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -74,14 +74,14 @@ To support application initialization on your Web server, you must install the A
 4. If you selected a site, select **&lt;site name&gt; Web.config** in the **From** text box, and then select **system.webServer/applicationInitialization** in the **Section** text box.
 5. If you selected the server, select **system.webServer/applicationInitialization** in the **Section** text box.  
   
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot that shows the Configuration Editor pane. Collection is highlighted.](index/_static/image6.png)](index/_static/image5.png)
 6. To specify the name of a static file to be returned during initialization, set **remapManagedRequestsTo** to the name of the file.
 7. If you do not want to load managed modules, set **skipManagedModules** to **true**.
 8. To specify that the initialization process is initiated automatically whenever an application restart occurs, set **doAppInitAfterRestart** to **true**.
 9. To specify the application or applications to be initialized upon application restart, click the **(Collection)** line and then click the ellipsis.
 10. In the Collection Editor, to add an application to be initialized, click **Add**, click **hostName**, and then set hostName to the name of the host. Click **initializationPage** and set it to a URL for the application. Close the dialog box.  
   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot that shows the Collection Editor pane. Host name is highlighted in the Properties box.](index/_static/image8.png)](index/_static/image7.png)
 11. Click **Apply** in the **Actions** pane.
 
 <a id="005"></a>
