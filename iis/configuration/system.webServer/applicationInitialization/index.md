@@ -51,7 +51,7 @@ To support application initialization on your Web server, you must install the A
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **Application Initialization**.  
-    [![Screenshot that shows the Windows Features pane. Application Initialization is highlighted and turned on.ASP is turned on.](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot that shows the Windows Features pane. Application Initialization is highlighted and turned on.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
