@@ -66,10 +66,10 @@ The `<httpErrors>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application that you want to configure custom error pages for.
 3. In the **Home** pane, double-click **Error Pages**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Statement that shows the Error Pages double-clicked.](index/_static/image2.png)](index/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Custom Error Page** dialog box, under **Status code**, type the number of the HTTP status code for which you want to create a custom error message.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Statement that shows the Add Custom Error Page.](index/_static/image4.png)](index/_static/image3.png)
 6. In the **Response Action** section, do one of the following:
 
     - Select **Insert content from static file into the error response** to serve static content, for example, an .html file, for the custom error.

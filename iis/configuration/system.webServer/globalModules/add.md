@@ -54,13 +54,13 @@ The `<globalModules>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, click the server connection to which you want to add the native module.
 3. On the server Home page, double-click **Modules**.  
-    [![](add/_static/image2.png)](add/_static/image1.png)
+    [![Statement that shows the Modules is highlighted.](add/_static/image2.png)](add/_static/image1.png)
 4. In the **Actions** pane, click **Configure Native Modules...**
 5. In the **Configure Native Modules** dialog box, click **Register...**  
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Statement that shows the Configure Native Modules dialog box.](add/_static/image4.png)](add/_static/image3.png)
 6. In the **Register Native Module** dialog box, in the **Name** box, type a name for the native module.
 7. In the **Path** box, type the file system path of the location of the .dll file or click the **Browse** button  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Statement that shows the Register Native Module dialog box.](add/_static/image6.png)](add/_static/image5.png)
 8. In the **Configure Native Modules** dialog box, select the option for the native module that you just registered, click **OK**, and then click **OK** again. This enables the native module to run and makes it available to sites and applications on your Web server.  
   
     > [!NOTE]
@@ -89,7 +89,7 @@ The `<globalModules>` element is included in the default installation of IIS 7.
 3. On the server, site, or application Home page, double-click **Modules**.
 4. In the **Actions** pane, click **Configure Native Modules...**
 5. In the **Configure Native Modules** dialog box, select the option for the native module that you want to enable, and then click **OK**.  
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Statement that shows the Configure Native Modules dialog box. UriCacheModule is selected.](add/_static/image8.png)](add/_static/image7.png)
 
 <a id="005"></a>
 ## Configuration
