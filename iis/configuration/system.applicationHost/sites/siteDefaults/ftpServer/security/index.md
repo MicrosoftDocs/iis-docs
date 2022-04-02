@@ -1,7 +1,7 @@
 ---
 title: "Default FTP Security Settings &lt;security&gt;"
 author: rick-anderson
-description: "Overview The &lt;security&gt; element defines the parent element for the security options of FTP sites, and contains the following child elements, which are..."
+description: "Overview the <security> element defines the parent element for the security options of FTP sites, and contains the following child elements, which are..."
 ms.date: 09/26/2016
 ms.assetid: 8bdb7296-ae05-497b-a2c6-e7c0044d67b2
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security
@@ -59,7 +59,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![Statement that shows the FTP Extensibility is selected.](index/_static/image2.png)](index/_static/image1.png) .
+    [![Statement that shows the F T P Extensibility is selected in Windows Server 2012.](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -72,7 +72,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![Statement that shows the FTP Extensibility is selected.](index/_static/image4.png)](index/_static/image3.png)
+    [![Statement that shows the F T P Extensibility is selected in Windows 8.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -100,7 +100,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![Statement that shows the FTP Extensibility is selected.](index/_static/image8.png)](index/_static/image7.png)
+    [![Statement that shows the FTP Extensibility is selected in Windows 7.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista

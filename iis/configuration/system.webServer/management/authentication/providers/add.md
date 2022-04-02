@@ -40,7 +40,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Management Tools**, and then select **Management Service**. Click **Next**.  
-    [![Statement that shows the Management Service selected.](add/_static/image2.png)](add/_static/image1.png) .
+    [![Statement that shows the Management Service selected in Windows Server 2012.](add/_static/image2.png)](add/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -60,7 +60,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Management Service**, and then click **Next**.  
-    [![Statement that shows the Management Service selected.](add/_static/image6.png)](add/_static/image5.png)
+    [![Statement that shows the Management Service selected in Windows Server 2008.](add/_static/image6.png)](add/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 

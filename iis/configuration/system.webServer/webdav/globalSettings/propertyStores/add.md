@@ -57,7 +57,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
-    ![Screenshot that shows the Windows Features pane. WebDAV Publishing is selected.](add/_static/image3.png)
+    ![Screenshot that shows the Windows Features pane in Windows 8. WebDAV Publishing is selected.](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
