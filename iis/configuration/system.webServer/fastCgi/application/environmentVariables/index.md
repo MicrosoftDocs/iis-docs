@@ -7,7 +7,7 @@ ms.assetid: d56733e8-0cfb-47d9-bc68-b0563ae25d74
 msc.legacyurl: /configreference/system.webserver/fastcgi/application/environmentvariables
 msc.type: config
 ---
-# Environment Variables \<environmentVariables>
+# Environment Variables \<environmentVariables> of the FastCGI `<application>` element 
 
 The `<environmentVariables>` element of the FastCGI `<application>` element specifies a list of environment variables that Internet Information Services (IIS) 7 will pass to a FastCGI process when it is launched. The `<environmentVariables>` element contains a collection of `<environmentVariable>` elements that define the individual name/value pairs for each environment variable.
 
