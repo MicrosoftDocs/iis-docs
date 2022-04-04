@@ -23,17 +23,17 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
 1. In the **Job Templates** page, select a job template that you'll use to transform media content, and then click **Edit** in the **Actions** pane.
 2. In the **Edit Job Template** dialog box, click **Add**.  
-   [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image2.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image1.png)
+   ![Screenshot of Edit Job Template dialog box showing Add selected.](chaining-the-robocopy-task-to-your-transformed-output/_static/image1.png)
 3. In the **Add Tasks** dialog box, in the **Available tasks** list, select **Robocopy**, and then click **OK**.  
-   [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image4.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image3.png)
+   ![Screenshot of Add Tasks dialog box showing Robocopy selected.](chaining-the-robocopy-task-to-your-transformed-output/_static/image3.png)
 4. In the **Edit Job Template** dialog box, select the **Robocopy** task in the **Task definitions** list, and then click **Move Up** or **Move Down** until it's displayed below the task that's creating the output that you want to copy.  
-   [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image6.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image5.png)  
+   ![Screenshot of Edit Job Template dialog box showing Robocopy placement in Task definitions list.](chaining-the-robocopy-task-to-your-transformed-output/_static/image5.png)  
   
    The **Task definitions** list displays tasks in the order that they run, from top (the first task that's run) to bottom (the last task that's run). In the above example, the **Robocopy** task will act on the Smooth Streaming output that's created by the **Expression Encoder 4.0 SP2** task.
 5. Select the **Robocopy** task in the **Task definitions** list, and then click **Edit**.  
-   [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image8.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image7.png)
+   ![Screenshot of Edit Job Template dialog box showing Robocopy and Edit selected.](chaining-the-robocopy-task-to-your-transformed-output/_static/image7.png)
 6. In the **Edit Robocopy Task** dialog box, edit the **Command line and arguments** string to specify a location to which to copy the transformed output files.  
-   [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image10.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image9.png)
+   ![Screenshot of Edit Robocopy Task dialog box showing edited Command line arguments string.](chaining-the-robocopy-task-to-your-transformed-output/_static/image9.png)
 
    1. In the **Command line and arguments** string, replace `{Input Folder}` with the virtual **Output folder name** of the preceding task. This is the virtual folder name where the **Robocopy** task will look for transformed files created by the preceding task. For example:
 
@@ -63,7 +63,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
       To add a substitution token into the command-line string, right-click after the `{Output Folder}` in the string to create an insertion point. This will expose a list of the available substitution tokens from which you can select.  
 
-      [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image12.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)
+      ![Screenshot of Edit Robocopy Task dialog box showing list of available substitution tokens to insert into command line string.](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)
 
       | Name | Description |
       | --- | --- |

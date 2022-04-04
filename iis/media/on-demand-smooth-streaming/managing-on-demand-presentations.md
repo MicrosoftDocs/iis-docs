@@ -33,12 +33,12 @@ The scenarios in this article require a Smooth Streaming Web server. Follow the 
 The **Smooth Streaming Presentations** page in IIS Manager is useful for displaying the Smooth Streaming presentation files in a directory at a glance. To open the **Smooth Streaming Presentations** page in IIS Manager, do the following:
 
 1. In the **Connections** pane, click the directory where you deployed the sample content.  
-    ![](managing-on-demand-presentations/_static/image1.png)
+    ![Screenshot of Connections pane showing directory with sample content.](managing-on-demand-presentations/_static/image1.png)
 2. In the **Features View** pane, under **Media Services**, double-click the **Smooth Streaming Presentations** icon.  
-    ![](managing-on-demand-presentations/_static/image2.png)
+    ![Screenshot of Features View pane showing Smooth Streaming Presentations icon.](managing-on-demand-presentations/_static/image2.png)
 
 As shown in the following figure, the **Smooth Streaming Presentations** page displays a summary of the video and audio bit rates available in each presentation.  
-![](managing-on-demand-presentations/_static/image3.png)
+![Screenshot of figure showing audio bit rates available in each presentation.](managing-on-demand-presentations/_static/image3.png)
 
 <a id="clone"></a>
 
@@ -47,15 +47,14 @@ As shown in the following figure, the **Smooth Streaming Presentations** page di
 Cloning a presentation is useful if you want to make an alternate version of your presentation that has a different set of bit rates available to your audience. To clone a Smooth Streaming presentation, do the following:
 
 1. Select a presentation in the **Smooth Streaming Presentations** page (described in the [previous section](managing-on-demand-presentations.md#tracks)), and then in the **Actions** pane, click **Clone**.  
-    ![](managing-on-demand-presentations/_static/image4.png)
+    ![Screenshot of Actions pane showing Clone selection.](managing-on-demand-presentations/_static/image4.png)
 2. In the **Clone Presentation** dialog box, enter a new name for the cloned presentation (for example, **BigBuckBunny - Limited**), and then click **OK**.  
-    ![](managing-on-demand-presentations/_static/image5.png)
-
+    ![Screenshot of Clone Presentation dialog box with presentation name.](managing-on-demand-presentations/_static/image5.png)
 The cloned presentation is displayed in the **Smooth Streaming Presentations** page.  
-![](managing-on-demand-presentations/_static/image6.png)
+![Screenshot of figure showing cloned presentation.](managing-on-demand-presentations/_static/image6.png)
 
 Cloning creates a version of a presentation that shares the presentation metadata without making a deep-copy of the media (.ismv) files. You can observe this behavior by selecting the **Content View** tab for the presentation in IIS Manager. The following figure shows that .ism and .ismc files have been created for the cloned presentation, and that the original and cloned presentations share the same set of media files.  
-![](managing-on-demand-presentations/_static/image7.png)
+![Screenshot of Content View tab showing dot ism and dot ismc files.](managing-on-demand-presentations/_static/image7.png)
 
 To make the cloned presentation available to clients, do the following:
 
@@ -74,12 +73,12 @@ To make the cloned presentation available to clients, do the following:
 You can save bandwidth by removing the highest available bit rate for the presentation in IIS Manager. To do this, do the following:
 
 1. In the **Smooth Streaming Presentations** page, select the **BigBuckBunny - Limited.ism** presentation.  
-    ![](managing-on-demand-presentations/_static/image8.png)
+    ![Screenshot of Smooth Streaming Presentations page showing presentation selected.](managing-on-demand-presentations/_static/image8.png)
 2. In the **Actions** pane, click **Edit Smooth Stream**.  
-    ![](managing-on-demand-presentations/_static/image9.png)
+    ![Screenshot of Actions pane showing Edit Smooth Stream selected.](managing-on-demand-presentations/_static/image9.png)
 3. In the **Smooth Streaming Presentation** page that appears, select the video track with the highest bit rate value (**2962 Kbps**), and then click **Remove**.  
-    ![](managing-on-demand-presentations/_static/image10.png)
+    ![Screenshot of Smooth Streaming Presentation page with highest bit rate value selected.](managing-on-demand-presentations/_static/image10.png)
 4. In the **Actions** pane, click **Apply**.  
-    ![](managing-on-demand-presentations/_static/image11.png)
+    ![Screenshot of Actions pane showing Apply selected.](managing-on-demand-presentations/_static/image11.png)
 
 You can repeat this process and remove additional high bit rate values, leaving only the lower bit rates available as a free sample. You can use the original presentation file, which includes all of the original bit rates, and make them available to clients through a premium channel.
