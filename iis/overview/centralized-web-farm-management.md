@@ -23,7 +23,7 @@ Web content can also be shared on a network volume across multiple servers. This
 
  ![Screenshot of the Install a Package window.](centralized-web-farm-management/_static/ms-deploy-big.png) 
 
-IIS supports the [Microsoft Web Deployment Tool](/iis/publish/using-web-deploy/introduction-to-web-deploy.md), which provides support for synchronizing:
+IIS supports the [Microsoft Web Deployment Tool](/iis/publish/using-web-deploy/using-web-deploy-for-web-farms.md), which provides support for synchronizing:
 
 * Configuration and content.
 * All types of web application dependencies including GAC assemblies, COM dlls, SQL databases, SSL certificates, and much more.
