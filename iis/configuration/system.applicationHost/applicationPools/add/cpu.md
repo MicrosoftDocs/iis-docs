@@ -59,10 +59,10 @@ The `<applicationPools>` collection is included in the default installation of I
         - On the taskbar, click **Start**, and then click **Control Panel**.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, click **Application Pools**, and then click the application pool that you want to edit.  
-    [![](cpu/_static/image2.png)](cpu/_static/image1.png)
+    ![Screenshot of the Application Pools screen that populates from the Connections pane.](cpu/_static/image1.png)
 3. In the **Actions** pane, click **Advanced Settings...**
 4. In the **Advanced Settings** dialog box, click the CPU property that you want to edit, then edit the value in the property value section of the dialog box, and then click **OK**. For example, you could change the **Limit Action** to **NoAction**, **KillW3wp**, **Throttle**, or **ThrottleUnderLoad**.  
-    [![](cpu/_static/image4.png)](cpu/_static/image3.png)
+    [![Screenshot of the Advanced Settings dialog box's Throttle Under Load section.](cpu/_static/image4.png)](cpu/_static/image3.png)
 
 ### How to configure IIS for use with Non-Uniform Memory Access (NUMA) hardware
 
@@ -72,7 +72,7 @@ The `<applicationPools>` collection is included in the default installation of I
 4. In the **Actions** pane, select **Advanced Settings**.
 5. Under **Process Model**, set **Maximum Worker Processes** to `0`.  
   
-    [![](cpu/_static/image6.png)](cpu/_static/image5.png)
+    ![Screenshot of the Process Model section with the Maximum Worker Processes field set to 0.](cpu/_static/image5.png)
 6. Under **CPU**, set **processorGroup**, **numaNodeAffinityMode**, and **numaNodeAssignment**.
 7. Click **OK**.
 

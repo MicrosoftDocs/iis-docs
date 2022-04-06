@@ -68,16 +68,16 @@ The `<applicationPools>` collection is included in the default installation of I
 2. In the **Connections** pane, expand the server name, and then click **Application Pools**.
 3. In the **Actions** pane, click **Add Application Pool...**.
 4. In the **Add Application Pool** dialog box, enter the name of the application pool in the **Name:** box, in the **.NET Framework version:** drop-down list select the .NET Framework version your site or application uses, in the **Managed pipeline mode:** drop-down list select **Integrated** or **Classic**, and then click **OK**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot of the Add Application Pool dialog box, showing the Name, dot NET Framework version, and Managed pipeline mode fields.](index/_static/image2.png)](index/_static/image1.png)
 
 ### How to configure the application pool for an existing site or application
 
 1. In the **Connections** pane, expand **Sites**, and then navigate to the Web site or application you want to add to the application pool.
 2. In the **Actions** pane, click **Advanced Settings...**
 3. In the **General** section of the **Advanced Settings** dialog box, click the **Application Pool** entry, and then click the ellipses button.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Advanced Settings dialog box with the Application Pool entry being highlighted.](index/_static/image4.png)](index/_static/image3.png)
 4. In the **Select Application Pool** dialog box, select the application pool from the **Application pool:** drop-down box, click **OK**, and then click **OK** again.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Select Application Pool dialog box's Application pool field, which contains a drop-down menu of available options.](index/_static/image6.png)](index/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

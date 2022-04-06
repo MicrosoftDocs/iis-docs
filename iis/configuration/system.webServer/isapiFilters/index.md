@@ -42,7 +42,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **ISAPI Filters**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    ![Screenshot of I S A P I Filters selected in a Windows Server 2012 Interface.](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -52,7 +52,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ISAPI Filters**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of I S A P I Filters selected in a Windows 8 interface.](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -62,7 +62,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **ISAPI Filters**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of I S A P I Filters selected in a Windows Server 2008 interface.](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -71,7 +71,7 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. In the **Windows Features** dialog box, expand **Internet Information Services**, then **World Wide Web Services**, then **Application Development Features**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![Screenshot of I S A P I Filters selected in a Windows Vista or Windows 7 interface.](index/_static/image7.png)
 4. Select **ISAPI Filters**, and then click **OK**.
  
 <a id="004"></a>
@@ -97,11 +97,11 @@ To use the `<isapiFilters>` element, you must install the ISAPI Filters module o
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection or site for which you want to configure ISAPI filters.
 3. In the **Home** pane, double-click **ISAPI Filters**.  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![Screenshot of I S A P I Filters selected in the Default Web Site Home pane.](index/_static/image9.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Filter name** text box of the **Add ISAPI Filter** dialog box, type a friendly name for the ISAPI filter.
 6. In the **Executable** box, type the file system path of the location of ISAPI filter file or click the ellipsis (**...**) to navigate to the folder that contains the ISAPI filter file, and then click **OK**.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    ![Screenshot of a blank Add I S A P I Filter dialog.](index/_static/image11.png)
  
 <a id="005"></a>
 ## Configuration

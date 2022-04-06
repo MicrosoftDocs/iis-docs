@@ -34,17 +34,17 @@ To use Web PI to install this application, complete these steps:
 1. From the Windows Start menu, click **Programs**, and then click **Web Platform Installer**.  
   
    The Web Platform Installation window appears.  
-    [![](umbraco/_static/image2.jpg)](umbraco/_static/image1.jpg)
+    ![Screenshot of the Web Platform Installer wizard's Web Applications tab.](umbraco/_static/image1.jpg)
 2. Click the **Web Applications** tab, select the **Umbraco CMS** check box, and click **Install**.  
   
-    [![](umbraco/_static/image4.jpg)](umbraco/_static/image3.jpg)
+    ![Screenshot of the Web Platform with the Umbraco C M S option being selected.](umbraco/_static/image3.jpg)
 3. Select the **Umbraco CMS** check box, and click **I Accept**.  
   
-    [![](umbraco/_static/image6.jpg)](umbraco/_static/image5.jpg)
+    ![Screenshot of the Web Platform Installation screen showing the Mixed Mode Authentication option being selected.](umbraco/_static/image5.jpg)
 4. Select **Mixed Mode Authentication**, enter a password, and click **Continue**. 
 
     Once the preinstallation steps complete, the site information window appears.  
-   [![](umbraco/_static/image8.jpg)](umbraco/_static/image7.jpg)
+   ![Screenshot of the Enter your site information screen, showing various pre installation steps.](umbraco/_static/image7.jpg)
 5. In the Web Site list, click **New Web Site**.
 6. Enter an application name in the application name field.
 7. Enter a web site name in the Web Site Name field.
@@ -53,7 +53,7 @@ To use Web PI to install this application, complete these steps:
 10. Enter a host name in the Host Name field, and click **Continue**.  
   
     The application information window appears.  
-    [![](umbraco/_static/image10.jpg)](umbraco/_static/image9.jpg)
+    ![Screenshot of the Enter application information window.](umbraco/_static/image9.jpg)
 11. In the Choose your database list, click **SQL Server**.
 12. In the Create a new or use an existing database list, click **Create new database**.
 13. Enter a database administrator user name in the Database Admin Username field.
@@ -61,11 +61,11 @@ To use Web PI to install this application, complete these steps:
 15. Click **Continue**.  
   
     Once the installation process completes, the final installation window appears.  
-    [![](umbraco/_static/image12.jpg)](umbraco/_static/image11.jpg)
+    ![Screenshot of the Web Platform Installation window stating that Launch Umbraco C M S has been successfully installed.](umbraco/_static/image11.jpg)
 16. Click **Finish**.  
   
     The Umbraco Configuration Wizard appears. From this window, you can configure the Umbraco application and view additional information about the Umbraco application.  
-    [![](umbraco/_static/image14.jpg)](umbraco/_static/image13.jpg)
+    ![Screenshot of the Umbraco Configuration Wizard.](umbraco/_static/image13.jpg)
 
 #### WebMatrix
 
@@ -76,40 +76,40 @@ To use WebMatrix to install this application, complete these steps:
 1. Launch WebMatrix.  
   
    The WebMatrix home page appears.  
-    [![](umbraco/_static/image16.jpg)](umbraco/_static/image15.jpg)
+    ![Screenshot of the Microsoft WebMatrix home page.](umbraco/_static/image15.jpg)
 2. Click **Site from Web Gallery**.  
   
    The Site from Web Gallery page appears.  
-    [![](umbraco/_static/image18.jpg)](umbraco/_static/image17.jpg)
+    ![Screenshot of the Site from Web Gallery page.](umbraco/_static/image17.jpg)
 3. Click **Umbraco CMS**, and then click **Next**.  
   
    The Accept EULA page appears.  
-    [![](umbraco/_static/image20.jpg)](umbraco/_static/image19.jpg)
+    ![Screenshot of the Accept E U L A page, showing an Umbraco C M S downloadable file.](umbraco/_static/image19.jpg)
 4. Click **I Accept** to agree to the end-user license agreement.  
   
    The Application Parameters page appears.  
-    [![](umbraco/_static/image22.jpg)](umbraco/_static/image21.jpg)
+    ![Screenshot of the Application Parameters page.](umbraco/_static/image21.jpg)
 5. Enter information appropriate to your environment, and click **Next**.   
   
    WebMatrix installs the Umbraco software on your local computer. This page appears once installation is complete.  
-    [![](umbraco/_static/image24.jpg)](umbraco/_static/image23.jpg)
+    ![Screenshot of the Site from Web Gallery page showing that Umbraco C M S has been installed.](umbraco/_static/image23.jpg)
 6. Click **OK**.  
   
    The Publishing Settings page appears.  
-    [![](umbraco/_static/image26.jpg)](umbraco/_static/image25.jpg)
+    ![Screenshot of the Publishing Settings page.](umbraco/_static/image25.jpg)
 7. Add your hosting provide and domain-specific information, and click **Validate Connection**.
 8. If the connection was successful, click **Apply**, and then click **Publish**.  
   
    The Publish Preview page appears.  
-    [![](umbraco/_static/image28.jpg)](umbraco/_static/image27.jpg)
+    ![Screenshot of the Publish Preview page, showing the Change Files and Databases sections.](umbraco/_static/image27.jpg)
 9. Click **Continue**. 
 
     Once publishing is complete, the Deployment Details dialog box appears.  
-   [![](umbraco/_static/image30.jpg)](umbraco/_static/image29.jpg)
+   ![Screenshot of the Deployment Details dialog box.](umbraco/_static/image29.jpg)
 10. Click **OK**.  
   
 The Umbraco Configuration Wizard appears. From this window, you can configure the Umbraco application and view additional information about the Umbraco application.  
-[![](umbraco/_static/image32.jpg)](umbraco/_static/image31.jpg)
+![Screenshot of the Umbraco Configuration Wizard, reading Thank you for choosing umbraco.](umbraco/_static/image31.jpg)
 
 ### Step 2. Build the application package from the IIS site.
 

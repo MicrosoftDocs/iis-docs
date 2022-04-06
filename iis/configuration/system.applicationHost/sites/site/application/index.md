@@ -62,9 +62,9 @@ The `<application>` element is included in the default installation of IIS 7 and
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the Web site to which you want to add an application.
 3. In the **Actions** pane, click **View Applications**, and then click **Add Application...**  
-    ![](index/_static/image1.png)
+    ![Screenshot of Applications pane in I I S Manager with Add Application highlighted in Actions pane.](index/_static/image1.png)
 4. In the **Add Application** dialog box, at a minimum enter information in the **Alias:** and **Physical path:** text boxes, and then click **OK**.  
-    ![](index/_static/image3.png)
+    ![Screenshot of Add Application dialog box with fields for Alias and Physical path.](index/_static/image3.png)
 
     > [!NOTE]
     > You can click **Select** to choose a different application pool, click **Connect as** to configure the application to accept credentials from a specific account, and click **Test Settings** to test authentication and authorization settings for the application.

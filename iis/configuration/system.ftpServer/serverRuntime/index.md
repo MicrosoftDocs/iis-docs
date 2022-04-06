@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select  **FTP Extensibility**, in addition to **FTP Service**.
-    > ![](index/_static/image1.png)
+    > ![Screenshot of the F T P Extensibility option being selected and highlighted.](index/_static/image1.png)
 
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
@@ -66,7 +66,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > ![](index/_static/image3.png)
+    > ![Screenshot of the F T P Extensibility folder being highlighted and selected.](index/_static/image3.png)
 
 4. Click **OK**.
 5. Click **Close**.
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > ![](index/_static/image5.png)
+    > ![Screenshot of the Select Role Services wizard showing the F T P Service option being selected and highlighted.](index/_static/image5.png)
 
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
@@ -96,7 +96,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
-    > ![](index/_static/image7.png)
+    > ![Screenshot of the Turn Windows features on or off dialog box, showing the F T P Extensibility folder.](index/_static/image7.png)
 
 5. Click **OK**.
 
@@ -137,7 +137,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 3. In the **Home** pane, double-click the **Configuration Editor** feature.
 4. In the **Section** drop-down menu, expand **sytem.ftpServer**, and then click **serverRuntime**.
 5. Expand **hostNameSupport** in the list view.  
-    ![](index/_static/image9.png)
+    ![Screenshot of the Configuration Editor feature showing the host name support option in the Deepest Path list view.](index/_static/image9.png)
 6. Choose **True** or **False** in the drop-down list for the **useDomainNameAsHostName** attribute.
 7. In the **Actions** pane, click **Apply**.
 

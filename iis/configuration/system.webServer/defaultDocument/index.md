@@ -73,13 +73,13 @@ The `<defaultDocument>` element is included in the default installation of IIS 7
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the Web site or application where you want to configure default documents.
 3. In the **Home** pane, double-click **Default Document**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![Screenshot of the Home pane with the Default Document option being highlighted.](index/_static/image1.png)
 4. In the **Actions** pane, click **Add...**
 5. In the **Add Default Document** dialog box, type the name of the default document that you want to add in the **Name** box, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of the Add Default Document dialog box.](index/_static/image3.png)
 6. If necessary, in the **Actions** pane, select a default document in the list, and then click **Move Up** or **Move Down** to define the order in which IIS should search through the default document list.
 7. In the **Default Document** alert box, click **Yes** to decline configuration inheritance from a parent configuration level, or click **No** or **Cancel** to cancel the change in default document order.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of the Default Document alert box with a focus on the Yes option.](index/_static/image5.png)
 8. If necessary, click **Remove** in the **Actions** pane to remove any file names that you do not want to use as default documents.
 
 <a id="005"></a>

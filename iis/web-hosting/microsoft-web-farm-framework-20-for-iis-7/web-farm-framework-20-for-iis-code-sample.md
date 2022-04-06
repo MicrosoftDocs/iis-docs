@@ -21,7 +21,7 @@ Before you begin, you must copy the appropriate version of **Microsoft.Web.Farm.
 2. Create a Visual Studio solution.
 3. Add a reference to the *Microsoft.Web.Farm.dll* assembly that you copied to your project. This enables you to add the **Microsoft.Web.Farm** namespace in your code.  
   
-    ![](web-farm-framework-20-for-iis-code-sample/_static/image1.png)
+    ![Screenshot of the Microsoft dot Web dot Farm navigation tree. Solution Web Farm Sample 1 project is highlighted.](web-farm-framework-20-for-iis-code-sample/_static/image1.png)
 4. Copy the following code into your project:
 
    [!code-csharp[Main](web-farm-framework-20-for-iis-code-sample/samples/sample1.cs)]

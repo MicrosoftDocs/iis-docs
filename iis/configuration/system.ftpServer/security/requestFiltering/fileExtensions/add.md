@@ -1,7 +1,7 @@
 ---
 title: "Adding FTP File Name Extensions &lt;add&gt;"
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;fileExtensions&gt; collection specifies a unique file name extension to add to the collection of file name extens..."
+description: The `<add>` element of the `<fileExtensions>` collection specifies a unique file name extension to add to the collection of file name extensions for FTP 7.
 ms.date: 09/26/2016
 ms.assetid: dd78d5b9-7ed8-4d2c-b6bf-321a46226311
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/fileextensions/add
@@ -56,7 +56,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot that shows F T P Extensibility for Windows Server 2012.](add/_static/image2.png)](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -69,7 +69,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot that shows F T P Extensibility for Windows 8.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -83,7 +83,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot that shows F T P Extensibility for Windows Server 2008.](add/_static/image6.png)](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -97,7 +97,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot that shows F T P Extensibility for Windows 7.](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -136,10 +136,10 @@ To support FTP publishing for your Web server, you must install the FTP service.
 2. In the **Connections** pane, go to the site or directory for which you want to modify your request filtering settings.
 3. In the **Home** pane, double-click **FTP Request Filtering**.
 4. In the **FTP Request Filtering** pane, click the **File Name Extensions** tab.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot that shows F T P Request Filtering pane.](add/_static/image10.png)](add/_static/image9.png)
 5. Click **Deny File Name Extension...** in the **Actions** pane.
 6. In the **Deny File Name Extension** dialog box, enter the file name extension that you wish to block. For example, to prevent access to files with a file name extension of .inc, you would enter "inc" in the dialog box.  
-    [![](add/_static/image12.png)](add/_static/image11.png)
+    [![Screenshot that shows Deny File Name Extension dialog box. Inc is entered in the File name extension box.](add/_static/image12.png)](add/_static/image11.png)
 7. Click **OK**.
 
 <a id="005"></a>

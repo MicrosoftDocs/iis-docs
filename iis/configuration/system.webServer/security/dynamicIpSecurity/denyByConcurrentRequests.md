@@ -37,7 +37,7 @@ To support blocking a client on your Web server by the number of concurrent requ
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Security**, and then select **IP and Domain Restrictions**. Click **Next**.  
-    [![](denyByConcurrentRequests/_static/image2.png)](denyByConcurrentRequests/_static/image1.png) .
+    ![Screenshot showing I P and Domain Restrictions selected.](denyByConcurrentRequests/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -47,7 +47,7 @@ To support blocking a client on your Web server by the number of concurrent requ
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Security**, and then select **IP Security**.  
-    [![](denyByConcurrentRequests/_static/image4.png)](denyByConcurrentRequests/_static/image3.png)
+    ![Screenshot showing Windows Features window with I P Security selected.](denyByConcurrentRequests/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -70,7 +70,7 @@ To support blocking a client on your Web server by the number of concurrent requ
 4. In the **Actions** pane, click **Edit Dynamic Restriction Settings...**.
 5. In the **Dynamic IP Restriction Settings** dialog box, select **Deny IP Address based on the number of concurrent requests**, enter the maximum number of concurrent requests, and then click **OK**.  
   
-    [![](denyByConcurrentRequests/_static/image6.png)](denyByConcurrentRequests/_static/image5.png)
+    ![Screenshot showing the Dynamic I P Restrictions Settings dialog box with Deny I P Address based on the number of concurrent requests selected.](denyByConcurrentRequests/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

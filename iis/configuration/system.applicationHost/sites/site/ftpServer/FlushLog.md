@@ -40,7 +40,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](FlushLog/_static/image2.png)](FlushLog/_static/image1.png) .
+    ![Screenshot of Server Roles page with Web Server (I I S) expanded and F T P Server selected.](FlushLog/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -53,7 +53,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](FlushLog/_static/image4.png)](FlushLog/_static/image3.png)
+    ![Screenshot of Windows Features window with F T P Service and F T P Extensibility selected.](FlushLog/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -67,7 +67,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](FlushLog/_static/image6.png)](FlushLog/_static/image5.png)
+    ![Screenshot of Select Role Services page with F T P Service selected in dialog box.](FlushLog/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](FlushLog/_static/image8.png)](FlushLog/_static/image7.png)
+    ![Screenshot of Windows Features window showing F T P Service selected.](FlushLog/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista

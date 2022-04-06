@@ -68,7 +68,7 @@ In this scenario, some bits of smpProcessorAffinityMask and smpProcessorAffinity
 
 The below image shows how you can configure the mask in the application pool advanced configuration dialog.
 
-![](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image1.png)
+![Screenshot that shows the Advanced Settings dialog box. Processor Affinity Mask and Processor Group are highlighted.](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image1.png)
 
 When this configuration is used, the ApplicationPools are *hard affinitized*, meaning there is no impact on other NUMA nodes. In testing, it has been shown that hard affinity offers higher throughput than soft affinity as measured in Requests per Second (RPS).
 
@@ -88,7 +88,7 @@ The following new schema element has been introduced in IIS 8 for configuring th
 
 The administrator can also configure the **numaNodeAffinityMode** attribute using the Internet Service Manager.
 
-![](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image2.png)
+![Screenshot that shows the Advanced Settings dialog box. NUMA Node Affinity Mode is set to Soft and is highlighted.](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image2.png)
 
 By default, Application Pools are soft affinitized because it is a more "forgiving" configuration for the majority of scenarios. If you are advanced enough to be able to intelligently configure the **smpProcessorAffinityMask** and **smpProcessorAffinityMask2** attributes, then configuring the hard/soft affinity in accord with the system&rsquo;s node layout can improve performance.
 
@@ -112,7 +112,7 @@ Configuring these options are done using new schema options:
 
 The administrator can configure the **numaNodeAssignment** attribute using the Internet Service Manager as well.
 
-![](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image3.png)
+![Screenshot that shows the Advanced Settings dialog box. NUMA Node Assignment is highlighted.](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image3.png)
 
 ## How this works?
 
@@ -136,6 +136,6 @@ Web garden behavior on IIS 8 and later has changed a little as well. On IIS 7.5 
 
 Naturally, this is also configurable with the GUI:
 
-![](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image4.png)
+![Screenshot that shows the Advanced Settings dialog box. Maximum Worker Processes is set 1 and is highlighted.](understanding-multicore-scaling-on-numa-hardware-with-iis-8/_static/image4.png)
 
 When this configuration is set to 0 on non-NUMA hardware, the default value of 1 is used. When it is set to 0 on NUMA hardware, IIS will launch as many worker processes as there are NUMA nodes on the system so that there is a 1:1 affinity between the worker processes and NUMA nodes. On such systems, you should set the **maxProcesses** value to 0 to achieve maximum performance.

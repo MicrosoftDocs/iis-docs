@@ -212,7 +212,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 4. In the **FTP Request Filtering** pane, click the **Hidden Segments** tab.  
     [![Screenshot of the F T P Request Filtering pane. The Hidden Segments tab is selected.](index/_static/image18.png)](index/_static/image17.png)
 5. Click **Add Hidden Segment** in the **Actions** pane.  
-    [![Screenshot of the Add Hidden Segement dialog box. In the Hidden segment box, a path is written.](index/_static/image20.png)](index/_static/image19.png)
+    [![Screenshot of the Add Hidden Segment dialog box. In the Hidden segment box, a path is written.](index/_static/image20.png)](index/_static/image19.png)
 6. In the **Add Hidden Segment** dialog box, enter the path that you want to hide.
 7. Click **OK**.
 

@@ -41,25 +41,25 @@ To get started with Zend Server, download the Windows installation package from 
 If you're using Windows XP Professional, Windows Vista or Windows Server 2008, IIS is included with your operating system (although it is an optional installation on Windows Vista). For purposes of this article, I'll assume that you're installing Zend Server on Windows Vista with Microsoft IIS 7.0. If you're using a different version of the operating system, relax - the Windows installation package also works with Windows XP Professional (IIS 5.1 and IIS 6.0) and Windows Server 2008 (IIS 7.5), with no changes necessary. I'll also assume that you have both MySQL 5.1 and Microsoft SQL Server Express 2008 installed on your system. If you don't, you can get Microsoft SQL Server Express 2008 free of charge from [the Microsoft Web site](https://www.microsoft.com/express/sql/download/), and MySQL 5.1 from [the MySQL Web site](http://www.mysql.com/) or via the Zend Server installer.
 
 Get things rolling by starting up the installer. You should see a welcome screen, as below:  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image2.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image1.jpg)
+[![Screenshot that shows the Zend Server Installer wizard.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image2.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image1.jpg)
 
 Accept the license terms, and choose a Custom Installation.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image4.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image3.jpg)
+[![Screenshot that shows the Setup Type page. Custom is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image4.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image3.jpg)
 
 At this point, you can choose which of the various Zend Server components should be installed. It's definitely worth keeping the bundled performance and monitoring tools, such as Zend Optimizer+ and Zend Monitor, and it's a good idea to install Zend Framework, which provides a set of ready-made components that simplify PHP development. I'll be showing you how to hook your PHP scripts up to Microsoft SQL Server Express and MySQL a little further along, so also install the MS-SQL Native Client, MySQL and phpMyAdmin if you don't already have them.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image6.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image5.jpg)
+[![Screenshot that shows the Custom Setup page. M S S Q L Native Client is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image6.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image5.jpg)
 
 Next, configure Zend Server to integrate with your existing IIS web server installation. If you're using Windows XP Professional, Windows Vista or Windows Server 2008, IIS should already be installed and working on your system.   
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image8.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image7.jpg)
+[![Screenshot of the Web Server page. Configure existing I I S Web Server is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image8.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image7.jpg)
 
 Confirm your choices, and let the installer go to work downloading files and setting things up.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image10.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image9.jpg)
+[![Screenshot that shows the installation progress of the file download.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image10.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image9.jpg)
 
 Once done, the installer will display a success message and allow you to immediately start the Zend Server process.  
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image12.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image11.jpg)
+[![Screenshot that says Zend Server was successfully installed. Start working with Zend Server is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image12.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image11.jpg)
 
 Since this is its first run, Zend Server will prompt for an administrator password, as well as your license key.   
-[![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image14.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image13.jpg)
+[![Screenshot that shows the Mozilla internet browser. The browser is open to the Welcome to Zend Server page.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image14.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image13.jpg)
 
 Enter the requested information and you'll be transferred to the server administration panel.
 
@@ -77,7 +77,7 @@ Zend Server is fully configurable via its Web-based administration panel, which 
 [![Screenshot of Zend Server administration panel. The Server Setup section is shown. Under the Server Setup heading are the tabs Components, Extensions, Directives, Debugger, and Monitor. The Directives tab is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image23.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image22.jpg)
 
 **Administration**: The Administration section provides tools to change the administrator password and update the license key. It also reports on available updates, and allows the administrator to install these with a single click. Under Zend Server CE, these update management tools are absent.  
-[![Screenshot of Zend Server administration panel. The Administration section is shown. At the top there are the Password and Licenses tab and the Updates tab. The Password and Licences tab is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image26.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image25.jpg)
+[![Screenshot of Zend Server administration panel. The Administration section is shown. At the top there are the Password and Licenses tab and the Updates tab. The Password and Licenses tab is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image26.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image25.jpg)
 
 ## Building A Simple Application...Or Two
 

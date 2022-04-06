@@ -45,7 +45,7 @@ To verify that &lt;traceFailedRequests&gt; has been setup for delegation from th
 2. Click the Machine name, then *Feature Delegation.*
 3. Verify that *Failed Request Tracing Rules* is set to **Read/Write**.
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image3.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image1.png)
+![Screenshot of the Feature Delegation dialog box. Failed Request Tracing Rules is highlighted.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image1.png)
 
 This allows developers who do not have access to ApplicationHost.config to create their own failure definitions in their application web.config files. Only when the administrator turns on failure request tracing will the rules then take effect.
 
@@ -82,7 +82,7 @@ These directions should be repeated on both the UNC server as well as the web se
    - check "user cannot change password"
    - Click **Create**, then **Close.**
 
-     [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
+     ![Screenshot of the New User dialog box is displayed.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
 
 Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server. You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
 
@@ -113,7 +113,7 @@ Part of the shared hosting guidance that the IIS team is creating is a new appli
 5. Under *Process Model*, select the *Identity* row and then on the **...** button.
 6. Click the **Set** button and configure the *Custom Identity* to match our user identity we just created - *PoolId1.* Click **OK** and **OK** again to change the identity of the application pool. You see:
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image8.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image7.png)
+![Screenshot of the Advanced Settings dialog box. Identity is highlighted.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image7.png)
 
 We must also drop a site into this application pool. Use Default Web Site for the purposes of this walkthrough. You can also create a new site for this (SITE1) via INETMGR.exe. Do the following:
 
@@ -180,7 +180,7 @@ To configure Failed Request Tracing to log to our UNC path, follow these directi
 
     [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample8.cmd)]
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image11.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
+![Screenshot of the Edit Web Site Failed Request Tracing Settings.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
 
 ## Testing
 
@@ -189,9 +189,9 @@ Configure a rule to catch all 200s for all URLs for **All Content** to run a tes
 1. In the INETMGR UI again, expand the *Sites* folder and click on *Default Web Site*.
 2. Double-click on **Failed Request Tracing Rules**.
 3. Under *Actions* on the right, click on **Add...**  
-    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image14.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image13.png)
+    ![Screenshot of the Add Failed Request Tracing Rule dialog box displaying the Specify Content to Trace page.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image13.png)
 4. Click **Next**, and set the status code to 200:  
-    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image16.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image15.png)
+    ![Screenshot of the Add Failed Request Tracing Rule dialog box displaying the Define Trace Conditions page.](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image15.png)
 5. Click **Next**, and leave the default to collect everything, then click **Finish.**
 
 ### XML: Configuring the Failed Request Tracing Rule in web.config

@@ -67,7 +67,7 @@ The `<authentication>` element is included in the default installation of IIS 7.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and go to the level in the hierarchy pane that you want to configure, and then click the Web site or Web application.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Anonymous Authentication**, and then click **Disable** in the **Actions** pane.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    [![Screenshot that shows the Authentication pane. Anonymous Authentication is enabled and selected.](index/_static/image2.png)](index/_static/image1.png)
 
 ### How to change anonymous authentication credentials from the IUSR account
 
@@ -93,9 +93,9 @@ The `<authentication>` element is included in the default installation of IIS 7.
 5. In the **Edit Anonymous Authentication Credentials** dialog box, do one of the following:
 
    - Select **Application pool identity** to use the identity set for the application pool, and then click **OK**.   
-       [![](index/_static/image4.png)](index/_static/image3.png)
+       [![Screenshot that shows the Edit Anonymous Authentication Credentials dialog box. Application pool identity is selected.](index/_static/image4.png)](index/_static/image3.png)
    - Click **Set...**, and then in the **Set Credentials** dialog box, enter the user name for the account in the **User name** box, enter the password for the account in the **Password** and **Confirm password** boxes, click **OK**, and then click **OK** again.  
-       [![](index/_static/image6.png)](index/_static/image5.png)
+       [![Screenshot that shows the Set Credentials dialog box.](index/_static/image6.png)](index/_static/image5.png)
 
      > [!NOTE]
      > If you use this procedure, only grant the new account minimal privileges on the IIS server computer.
@@ -123,7 +123,7 @@ The `<authentication>` element is included in the default installation of IIS 7.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then the site, application, or Web service for which you want to enable Windows authentication.
 3. Scroll to the **Security** section in the **Home** pane, and then double-click **Authentication**.
 4. In the **Authentication** pane, select **Windows Authentication**, and then click **Enable** in the **Actions** pane.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot that shows the Authentication pane. Windows Authentication is disabled and selected.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="005"></a>
 ## Configuration

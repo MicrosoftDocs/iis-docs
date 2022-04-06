@@ -1,7 +1,7 @@
 ---
 title: "How to Use Custom Properties With WebDAV"
 author: rmcmurray
-description: "Introduction Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server..."
+description: Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server® 2008. 
 ms.date: 02/14/2008
 ms.assetid: 9cedd308-783d-4a43-92c7-606c2f51bb6d
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-custom-properties-with-webdav
@@ -57,20 +57,20 @@ The above condition is required because the User Account Control (UAC) security 
 
 1. In IIS Manager, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
 2. As shown in the image below, double-click the **WebDAV Authoring Rules** feature.  
-    [![](how-to-use-custom-properties-with-webdav/_static/image2.png)](how-to-use-custom-properties-with-webdav/_static/image1.png)
+    [![Screenshot of the Default Web Site Home page. The Web DAV Authoring Rules features is highlighted.](how-to-use-custom-properties-with-webdav/_static/image2.png)](how-to-use-custom-properties-with-webdav/_static/image1.png)
 3. When the **WebDAV Authoring Rules** page is displayed, click the **WebDAV Settings** task in the **Actions** pane.  
-    [![](how-to-use-custom-properties-with-webdav/_static/image4.png)](how-to-use-custom-properties-with-webdav/_static/image3.png)
+    [![Screenshot of the Web DAV Authoring Rules page. In the Actions pane, Web DAV Settings is highlighted.](how-to-use-custom-properties-with-webdav/_static/image4.png)](how-to-use-custom-properties-with-webdav/_static/image3.png)
 4. When the **WebDAV Settings** page is displayed, specify the following options: 
 
     - Set **Allow anonymous property queries** to **False**
     - Set **Allow custom properties** to **True**
     - Set **Allow property queries with infinite depth** to **False**
-    - [![](how-to-use-custom-properties-with-webdav/_static/image2.jpg)](how-to-use-custom-properties-with-webdav/_static/image1.jpg)
+    - [![Screenshot of the Web DAV Settings page. The Property Behavior category is highlighted.](how-to-use-custom-properties-with-webdav/_static/image2.jpg)](how-to-use-custom-properties-with-webdav/_static/image1.jpg)
 5. Click on the [...] button to launch the Namespace Collection Editor
 6. Click on **Add** and then choose "**webdav\_simple\_prop**" from the drop-down list
 7. Specify '\*' for the XmlNameSpace and then click on **OK**.
 
-    [![](how-to-use-custom-properties-with-webdav/_static/image9.jpg)](how-to-use-custom-properties-with-webdav/_static/image8.jpg)
+    [![Screenshot of the Namespace Collection Editor dialog box. X m l Name Space is highlighted.](how-to-use-custom-properties-with-webdav/_static/image9.jpg)](how-to-use-custom-properties-with-webdav/_static/image8.jpg)
 8. Once you have completed the above steps, click the **Apply** task in the **Actions** pane.
 
 <a id="#02"></a>

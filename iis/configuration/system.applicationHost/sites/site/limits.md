@@ -59,7 +59,7 @@ The `<limits>` element of the `<site>` element is included in the default instal
 3. In the site's **Home** pane, click **Advanced Settings...** in the **Actions** pane.
 4. In the **Advanced Settings** dialog box, expand **Limits**, specify connection limit options, and then click **OK**.  
   
-    [![](limits/_static/image2.png)](limits/_static/image1.png)
+    ![Screenshot of the Advanced dialog box. Limits is highlighted and expanded.](limits/_static/image1.png)
 
 <a id="005"></a>
 ## Configuration
