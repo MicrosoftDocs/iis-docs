@@ -133,7 +133,7 @@ Do not edit the IIS or other schema files that are installed into this directory
 Three files make up the unified schema of the web server platform:
 
 - IIS\_schema.xml: covers the Windows Activation System and IIS web server settings in the `<system.applicationHost>` and `<system.webServer>` section groups.
-- ASPNET\_schema.xml: covers the ASP.NET settings in the <system.web> section group.
+- ASPNET\_schema.xml: covers the ASP.NET settings in the `<system.web>` section group.
 - FX\_schema.xml: covers other .NET framework settings in various section groups.
 
 <a id="OrgSchema"></a>
