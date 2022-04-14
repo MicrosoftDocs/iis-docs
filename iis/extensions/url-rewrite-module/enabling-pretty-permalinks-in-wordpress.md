@@ -18,7 +18,7 @@ This walkthrough describes how to enable "[Pretty Permalinks](http://codex.wordp
 This walkthrough requires the following prerequisites:
 
 1. IIS 7 or above with FastCGI and PHP installed. If you need to install PHP, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md "Install PHP").
-2. WordPress installed. If you need to install WordPress, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md "Install WordPress") or use the instructions from the official [WordPress site](https://wordpress.org/support/article/how-to-install-wordpress/ "Install WordPress").
+2. WordPress installed. If you need to install WordPress, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md "Install WordPress") or use the instructions from the official [WordPress site](https://wordpress.org/support/article/how-to-install-wordpress).
 3. URL Rewrite installed.
 
 Note that for the purposes of this walkthrough it is assumed that WordPress is installed in a Web site root directory. If WordPress is installed in a subdirectory, then the rewrite rules that are used in this walkthrough should be included in the Web.config file that is located within the same subdirectory where the WordPress files are.
