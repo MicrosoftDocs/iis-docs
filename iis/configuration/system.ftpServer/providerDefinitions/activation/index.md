@@ -54,7 +54,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of the Web Server (IIS) > FTP Server sub-options on the Server Roles page. The FTP Service and FTP Extensibility boxes are checked.](index/_static/image2.png)](index/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -67,7 +67,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    [![Screenshot of the Internet Information Services sub-options on the Programs and Features page in the Windows 8 control panel. The FTP Extensibility and FTP Servie boxes are checked.](index/_static/image4.png)](index/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -81,7 +81,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of the Web Server (IIS) pane in the Windows Server 2008 admin control panel. The FTP Service box is checked.](index/_static/image6.png)](index/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -95,7 +95,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of the FTP Server sub-options under Internet Information Services, on the Turn Windows Features on or off page in the Windows 7 control panel. The FTP Extensibility and FTP Service boxes are checked.](index/_static/image8.png)](index/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -129,13 +129,13 @@ To support FTP publishing for your Web server, you must install the FTP service.
     - Open **Internet Information Services (IIS) Manager**.
     - Click your computer name in the **Connections** pane.
     - Double-click **FTP Authentication** in the main window.  
-        [![](index/_static/image10.png)](index/_static/image9.png)
+        [![Screenshot of the FTP Authentication options dialog in the Internet Information Services manager.](index/_static/image10.png)](index/_static/image9.png)
     - Click **Custom Providers...** in the **Actions** pane.
     - Click **Register**.  
-        [![](index/_static/image12.png)](index/_static/image11.png)
+        [![Screenshot of the Custom Providers dialog, showing two custom providers.](index/_static/image12.png)](index/_static/image11.png)
     - Enter a friendly name for the custom authentication provider in the **Name** box. For example, **FtpAuthenticationDemo**.
     - Click **Managed Provider (.NET)**.  
-        [![](index/_static/image14.png)](index/_static/image13.png)
+        [![Screenshot of the Add Custom Authentication Provider dialog, showing the Name field.](index/_static/image14.png)](index/_static/image13.png)
     - Enter the assembly information for the extensibility provider using the information that you copied earlier. For example:  
         **FtpAuthentication.FtpAuthDemo, FtpAuthenticationDemo, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73**
     - Click **OK**.
