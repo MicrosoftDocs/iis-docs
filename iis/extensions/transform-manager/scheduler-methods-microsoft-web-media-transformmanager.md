@@ -1,5 +1,6 @@
 ---
 title: Scheduler Methods (Microsoft.Web.Media.TransformManager)
+description: Describes Scheduler methods and provides a table that outlines the Method, Name, and Description for various methods.
 TOCTitle: Scheduler Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.Scheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler_methods(v=VS.90)
@@ -14,7 +15,7 @@ The [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) type ex
 
 ## Methods
 
-||Name|Description|
+|Method|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](scheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the specified job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Removes scheduler artifacts for the specified job.|
