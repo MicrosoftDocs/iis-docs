@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition Fields (Microsoft.Web.Media.TransformManager)
+description: Describes the task definition type and provides a table that outlines the field, name, and description for various fields.
 TOCTitle: TaskDefinition Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.TaskDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition_fields(v=VS.90)

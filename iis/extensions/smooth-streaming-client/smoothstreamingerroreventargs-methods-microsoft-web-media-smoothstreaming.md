@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingErrorEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+title: Smooth Streaming Error Event Args Methods
+description: Describes the methods for smooth streaming errors, and provides various methods and references to reference.
 TOCTitle: SmoothStreamingErrorEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_methods(v=VS.90)
@@ -8,7 +9,7 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 ---
 
-# SmoothStreamingErrorEventArgs Methods
+# Smooth Streaming Error Event Args Methods
 
 The [SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

@@ -1,5 +1,6 @@
 ---
 title: ILogger Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the ILogger methods and provides a table that outlines the name and description for various methods.
 TOCTitle: ILogger Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ILogger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger_methods(v=VS.90)

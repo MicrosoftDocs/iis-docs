@@ -1,5 +1,6 @@
 ---
-title: TaskDefinition.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
+title: Add Configuration Message Method
+description: Describes the method of adding a configuration message and provides and Overload List and Remarks about configuration messages.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskDefinition.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.addconfigurationmessage(v=VS.90)
@@ -15,7 +16,7 @@ dev_langs:
 - FSharp
 ---
 
-# AddConfigurationMessage Method
+# Add Configuration Message Method
 
 Adds a message to the IIS Transform Manager configuration.
 

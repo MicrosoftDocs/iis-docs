@@ -1,5 +1,6 @@
 ---
 title: Scheduler Methods (Microsoft.Web.Media.TransformManager)
+description: Describes Scheduler methods and provides a table that outlines the Method, Name, and Description for various methods.
 TOCTitle: Scheduler Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.Scheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler_methods(v=VS.90)
