@@ -1,7 +1,7 @@
 ---
-title: "Adding FTP Authorization &lt;add&gt;"
+title: Adding FTP Authorization &lt;add&gt;
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;authorization&gt; collection defines an authorization rule that will either allow or deny access to specified use..."
+description: Provides an overview of the add element of the authorization collection and describes compatibility, setup, and configuration.
 ms.date: 09/26/2016
 ms.assetid: 3159460f-d3f7-4791-b515-255df21da9fb
 msc.legacyurl: /configreference/system.ftpserver/security/authorization/add

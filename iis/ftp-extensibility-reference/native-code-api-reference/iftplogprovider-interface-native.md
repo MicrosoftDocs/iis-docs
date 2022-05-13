@@ -1,8 +1,9 @@
 ---
-title: "IFtpLogProvider Interface (Native)"
-ms.date: "09/06/2017"
+title: IFtpLogProvider Interface (Native)
+description: Describe the IFtpLogProvider Native Interface and provides Syntax, Methods, Examples, and Requirements for logging FTP activity.
+ms.date: 09/06/2017
 ms.assetid: 164e8ebe-cae0-4e23-af04-34ef3f43954b
-ms.author: "robmcm"
+ms.author: robmcm
 ---
 # IFtpLogProvider Interface (Native)
 Provides an interface for logging FTP activity.  
