@@ -1,6 +1,6 @@
 ---
 title: Add Configuration Message Method
-description: Describes the method of adding a configuration message and provides and Overload List and Remarks about configuration messages.
+description: Describes the method of adding a configuration message and provides an Overload List and Remarks about configuration messages.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskDefinition.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.addconfigurationmessage(v=VS.90)
