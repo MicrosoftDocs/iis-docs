@@ -14,7 +14,7 @@ The [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) type ex
 
 ## Methods
 
-||Name|Description|
+|Method|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CancelJob](scheduler-canceljob-method-microsoft-web-media-transformmanager.md)|Cancels the specified job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CleanupJob](scheduler-cleanupjob-method-microsoft-web-media-transformmanager.md)|Removes scheduler artifacts for the specified job.|

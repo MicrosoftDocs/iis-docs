@@ -26,7 +26,7 @@ PlaylistProperty_LastModifiedTime = 5
 
 ## Arguments
 
-|||
+|File Name|Description|
 |--- |--- |
 |*PlaylistProperty_Title*|The title of the playlist entry.|
 |*PlaylistProperty_ExtraParam*|Additional parameters that are specific to the playlist format.|

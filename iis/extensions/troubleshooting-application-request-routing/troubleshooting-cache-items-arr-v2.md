@@ -115,9 +115,9 @@ In the previous step we identified this server as **W2K8WEBSERVER2** so we will 
 
 **FREB Logs:** The request can be identified by the **X-ARR-LOG-ID** sent from the child node. We identified this as **"fe9d20da-a571-4451-8ef3-0e7faf1a463a"** in the last step.
 
-| | | |
-| --- | --- | --- |
-| i | GENERAL\_REQUEST\_HEADERS | Headers="Connection: Keep-Alive Accept: \*/\* Host: localhost Max-Forwards: 10 X-Original-URL: /iisstart.htm X-Forwarded-For: 127.0.0.1:62489 X-ARR-LOG-ID: fe9d20da-a571-4451-8ef3-0e7faf1a463a |
+|Header|Details|
+| --- | --- |
+| GENERAL\_REQUEST\_HEADERS | Headers="Connection: Keep-Alive Accept: \*/\* Host: localhost Max-Forwards: 10 X-Original-URL: /iisstart.htm X-Forwarded-For: 127.0.0.1:62489 X-ARR-LOG-ID: fe9d20da-a571-4451-8ef3-0e7faf1a463a |
 
 **IIS Advanced Logging Module:** Using Advanced logging we can add custom logging fields based on the headers X-Forwarded-For and X-ARR-LOG-ID and then used filtering to only log when these headers are present.
 

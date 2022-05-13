@@ -39,7 +39,7 @@ The parent stream of this stream. This stream is typically a sparse stream.
 
 ## Requirements
 
-|||
+| Attribute | Support |
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
