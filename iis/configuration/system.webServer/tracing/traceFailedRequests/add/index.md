@@ -1,7 +1,7 @@
 ---
-title: "Adding Trace Failed Requests &lt;add&gt;"
+title: Adding Trace Failed Requests &lt;add&gt;
 author: rick-anderson
-description: "Overview Each &lt;add&gt; element in the &lt;traceFailedRequests&gt; collection can include a &lt;traceAreas&gt; element that defines the tracing providers a..."
+description: Each &lt;add&gt; element in the &lt;traceFailedRequests&gt; collection can include a &lt;traceAreas&gt; element that defines the tracing providers.
 ms.date: 09/26/2016
 ms.assetid: dadebb2e-6015-4d34-b35b-393853833fd0
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add
@@ -37,7 +37,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
 4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Health and Diagnostics**, and then select **Tracing**. Click **Next**.  
-    [![](index/_static/image2.png)](index/_static/image1.png) .
+    [![Screenshot of Server Roles page, with the Health and Diagnostics tree expanded and Tracing selected and outlined.](index/_static/image2.png)](index/_static/image1.png) .
 5. On the **Select features** page, click **Next**.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -47,7 +47,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
 3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Health and Diagnostics**, and then select **Tracing**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
+    [![Screenshot of Internet World Wide Web tree in Control Panel, with Health and Diagnostics expanded and Tracing selected.](index/_static/image4.png)](index/_static/image3.png)- Click **OK**.
 4. Click **Close**.
 
 ### Windows Server 2008 or Windows Server 2008 R2
@@ -56,7 +56,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, select **Tracing**, and then click **Next**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    [![Screenshot of Select Role Services page of the Add Role Services Wizard, with Health and Diagnostics expanded and Tracing selected.](index/_static/image6.png)](index/_static/image5.png)
 5. On the **Confirm Installation Selections** page, click **Install**.
 6. On the **Results** page, click **Close**.
 
@@ -66,7 +66,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Health and Diagnostics**.
 4. Select **Tracing**, and then click **OK**.  
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    [![Screenshot of World Wide Web Services tree, with Health and Diagnostics expanded and Tracing selected and outlined.](index/_static/image8.png)](index/_static/image7.png)
  
 <a id="004"></a>
 ## How To
@@ -91,9 +91,9 @@ After you finish the default installation of IIS 7 and later, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, select the server connection, site, application, or directory for which you want to configure failed request tracing.
 3. In the **Actions** pane, click **Failed Request Tracing...**  
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    [![Screenshot of Internet Information Services Manager dialog, with Failed Request Tracing selected in Actions pane.](index/_static/image10.png)](index/_static/image9.png)
 4. In the **Edit Web Site Failed Request Tracing Settings** dialog box, select the **Enable** check box to enable tracing, leave the default value or type a new directory where you want to store failed request log files in the **Directory** box, type the number of failed request trace files you want to store in the **Maximum number of trace files** box, and then click **OK**.  
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    [![Screenshot of Edit Web Site Failed Request Tracing Settings dialog box, with Enable check box selected to enable tracing.](index/_static/image12.png)](index/_static/image11.png)
 
 ### How to configure failure definitions
 
@@ -115,16 +115,16 @@ After you finish the default installation of IIS 7 and later, you must install t
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the connection, site, application, or directory for which you want to configure failed request tracing.
 3. In the **Home** pane, double-click **Failed Request Tracing Rules**.  
-    [![](index/_static/image14.png)](index/_static/image13.png)
+    [![Screenshot of Internet Information Services Manager dialog, with Failed Request Tracing Rules selected in Home pane.](index/_static/image14.png)](index/_static/image13.png)
 4. In the **Actions** pane, click **Add...**
 5. On the **Specify Content to Trace** page of the **Add Failed Request Tracing Rule** Wizard, select the content type you want to trace, and then click **Next**.  
-    [![](index/_static/image16.png)](index/_static/image15.png)
+    [![Screenshot of Specify Content to Trace page of the Add Failed Request Tracing Rule Wizard, with content type selected.](index/_static/image16.png)](index/_static/image15.png)
 6. On the **Define Trace Conditions** page, select the conditions you want to trace, and then click **Next**. Trace conditions can include any combination of status codes, a time limit that a request should take, or the event severity. If you specify all conditions, the first condition that is met generates the failed request trace log file.  
-    [![](index/_static/image18.png)](index/_static/image17.png)
+    [![Screenshot of Define Trace Conditions page of Add Failed Request Tracing Rule dialog, with conditions selected.](index/_static/image18.png)](index/_static/image17.png)
 7. On the **Select Trace Providers** page, select one or more of the trace providers under **Providers**.  
-    [![](index/_static/image20.png)](index/_static/image19.png)
+    [![Screenshot of Select Trace Providers page of Add Failed Request Tracing Rule dialog, with Providers selected.](index/_static/image20.png)](index/_static/image19.png)
 8. On the **Select Trace Providers** page, select one or more of the verbosity levels under **Verbosity**.  
-    [![](index/_static/image22.png)](index/_static/image21.png)
+    [![Screenshot of Select Trace Providers page of Add Failed Request Tracing Rule dialog, with Verbosity levels selected.](index/_static/image22.png)](index/_static/image21.png)
 9. If you selected the **ASPNET** or **WWW Server** trace provider in step 8, select one or more functional areas for the provider to trace under **Areas** of the **Select Trace Providers** page.
 10. Click **Finish**.
 
