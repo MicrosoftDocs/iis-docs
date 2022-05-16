@@ -51,7 +51,7 @@ If the method succeeds, it returns S\_OK. Otherwise, it returns an HRESULT error
 
 ## Requirements
 
-|||
+|Category|Selection|
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|
