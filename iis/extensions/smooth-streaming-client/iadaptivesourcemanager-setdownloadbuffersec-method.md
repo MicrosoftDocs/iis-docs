@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SetDownloadBufferSec Method
+description: The IAdaptiveSourceManager.SetDownloadBufferSec Method applies to Windows Store apps only and sets the download buffer in seconds.
 TOCTitle: SetDownloadBufferSec Method
 ms:assetid: 9cfd3bfa-0d75-467f-b4b2-d0920eccb3de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822794(v=VS.90)

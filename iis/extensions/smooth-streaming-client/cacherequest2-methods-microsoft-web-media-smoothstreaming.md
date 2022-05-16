@@ -1,5 +1,6 @@
 ---
 title: CacheRequest2 Methods (Microsoft.Web.Media.SmoothStreaming)
+description: The CacheRequest2 type exposes these members, including Equals, Finalize, GetHashCode, GetType, and MemberwiseClone.
 TOCTitle: CacheRequest2 Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest2
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2_methods(v=VS.95)
@@ -14,7 +15,7 @@ The [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) 
 
 ## Methods
 
-|Icon|Name|Description|  
+|Method Type|Name|Description|  
 |--- |--- |--- |  
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|  
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
