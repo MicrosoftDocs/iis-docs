@@ -1,5 +1,6 @@
 ---
 title: Column Class (Microsoft.Web.Management.DatabaseManager)
+description: FAQ listing the properties and methods of the column constructor.
 TOCTitle: Column Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Column
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column(v=VS.90)
