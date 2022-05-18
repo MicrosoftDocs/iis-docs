@@ -1,6 +1,7 @@
 ---
 title: "IUriKey::GetCacheName Method"
-ms.date: "10/07/2016"
+description: "Describes the IUriKey::GetCacheName method and details its parameters, return value, remarks, a code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 63be9189-08fd-0438-a200-e2813e698cbc
 ---
 # IUriKey::GetCacheName Method

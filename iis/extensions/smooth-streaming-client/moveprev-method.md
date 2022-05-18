@@ -1,5 +1,6 @@
 ---
 title: MovePrev Method
+description: Describes the Windows Store apps exclusive MovePrev method and details its syntax, return value, and requirements.
 TOCTitle: MovePrev Method
 ms:assetid: 08088c18-2c06-44d9-94b4-d40a45032766
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822673(v=VS.90)

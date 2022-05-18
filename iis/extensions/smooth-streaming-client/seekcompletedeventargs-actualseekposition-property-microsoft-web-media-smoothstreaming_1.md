@@ -1,5 +1,6 @@
 ---
 title: SeekCompletedEventArgs.ActualSeekPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SeekCompletedEventArgs.ActualSeekPosition property and details its syntax, property value, and Silverlight information.
 TOCTitle: ActualSeekPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.ActualSeekPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs.actualseekposition(v=VS.95)

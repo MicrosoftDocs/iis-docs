@@ -1,6 +1,7 @@
 ---
 title: "IHttpCacheKey::Enum Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCacheKey::Enum method and details its syntax, parameters, remarks, and requirements." 
+ms.date: 10/07/2016
 ms.assetid: 979f5cae-7487-de8b-2d93-7aab5b396862
 ---
 # IHttpCacheKey::Enum Method
