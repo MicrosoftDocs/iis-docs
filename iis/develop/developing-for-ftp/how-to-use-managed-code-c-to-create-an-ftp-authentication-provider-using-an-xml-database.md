@@ -1,7 +1,7 @@
 ---
-title: "Create an FTP Authentication Provider using an XML Database"
+title: Create an FTP Authentication Provider using an XML Database
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to create an FTP authentication provider using an XML database and Visual Studio 2008.
 ms.date: 07/23/2009
 ms.assetid: ab257257-4b17-4964-95bc-4db440db2c99
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database

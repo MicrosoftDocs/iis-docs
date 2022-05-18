@@ -1,7 +1,7 @@
 ---
-title: "How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider"
+title: How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to use managed code to create a simple FTP home directory provider using Visual Studio 2008.
 ms.date: 03/18/2009
 ms.assetid: b25f2dfa-a0f6-4ec7-9f6c-acd63ee57dac
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider

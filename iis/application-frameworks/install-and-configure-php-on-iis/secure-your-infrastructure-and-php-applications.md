@@ -1,7 +1,7 @@
 ---
-title: "Secure Your Infrastructure and PHP Applications"
+title: Secure Your Infrastructure and PHP Applications
 author: rick-anderson
-description: "Security is always a consideration; it is critical to make careful security considerations when you implement and maintain your Web sites, infrastructure, an..."
+description: Describes how to secure your infrastructure and PHP applications hosted on IIS through a variety of methods.
 ms.date: 11/15/2009
 ms.assetid: 3a346c3c-f9cc-49a5-9768-8ddd497935bb
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-your-infrastructure-and-php-applications

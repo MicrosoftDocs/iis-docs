@@ -1,7 +1,7 @@
 ---
-title: "Create an FTP Provider that Sends an Email when Files are Uploaded"
+title: Create an FTP Provider that Sends an Email when Files are Uploaded
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to create an FTP provider that sends an email message when files are uploaded to the FTP server.
 ms.date: 04/30/2009
 ms.assetid: 4df497d3-fdfc-4772-ae97-579f9aef1fc5
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded
