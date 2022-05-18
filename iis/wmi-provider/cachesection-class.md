@@ -1,5 +1,6 @@
 ---
 title: "CacheSection Class"
+description: Defines cache settings for a Web application.
 ms.date: "10/07/2016"
 ms.assetid: 399f2fd6-95c6-908a-a7ea-312cca9b1107
 ---

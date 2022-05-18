@@ -1,6 +1,7 @@
 ---
 title: AdvancedLoggingPlugin Properties (Microsoft.Web.Media.Diagnostics)
 TOCTitle: AdvancedLoggingPlugin Properties
+description: Properties exposed by the AdvancedLoggingPlugin type.
 ms:assetid: Properties.T:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin_properties(v=VS.90)
 ms:contentKeyID: 31469189
