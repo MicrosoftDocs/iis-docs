@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.Type Property
+description: This article outlines the syntax, property value, and system requirements for the IManifestStream.Type Property.
 TOCTitle: Type Property
 ms:assetid: c2ed2227-d1e5-4d4e-b25a-f23dd2a80050
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822828(v=VS.90)
