@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SetPlaybackOffsetSec Method
+description: Describes the AdaptiveSourceManager.SetPlaybackOffsetSec method and provides the method's syntax, parameters, and requirements.
 TOCTitle: SetPlaybackOffsetSec Method
 ms:assetid: 2eccc183-b379-48ef-a332-f8858d9a2084
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822710(v=VS.90)

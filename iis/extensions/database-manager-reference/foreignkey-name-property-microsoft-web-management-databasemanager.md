@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.Name Property (Microsoft.Web.Management.DatabaseManager)
+description: ForeignKey.Name property and provides the property's namespace, assembly, syntax, property value, examples, and permissions.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.name(v=VS.90)

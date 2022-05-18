@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
+description: ForeignKey.IsMarkedForDelete property and provides the property's namespace, assembly, syntax, property values, and permissions.
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.ismarkedfordelete(v=VS.90)

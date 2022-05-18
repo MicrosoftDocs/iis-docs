@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSource.ManifestReadyEvent Event
+description: Describes the IAdaptiveSource.ManifestReadyEvent Event and provides the event's syntax, event information, and requirements.
 TOCTitle: ManifestReadyEvent Event
 ms:assetid: 8bfe927b-9bc7-47b8-a8af-9c976831ff75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822776(v=VS.90)
