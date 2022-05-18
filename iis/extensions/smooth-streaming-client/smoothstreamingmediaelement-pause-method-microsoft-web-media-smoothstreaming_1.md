@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Pause Method  (Microsoft.Web.Media.SmoothStreaming)
+description: The SmootheStreamingMediaElement.Pause method pauses the playing of audio or video media.
 TOCTitle: Pause Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Pause
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pause(v=VS.95)
