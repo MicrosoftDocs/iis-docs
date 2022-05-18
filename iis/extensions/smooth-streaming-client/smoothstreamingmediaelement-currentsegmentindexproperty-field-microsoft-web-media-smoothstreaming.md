@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CurrentSegmentIndexProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CurrentSegmentIndexProperty field and provides the field's syntax, version information, and permissions.
 TOCTitle: CurrentSegmentIndexProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndexProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindexproperty(v=VS.90)

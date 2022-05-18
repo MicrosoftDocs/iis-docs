@@ -1,6 +1,7 @@
 ---
-title: "ProtocolsSection Class"
-ms.date: "10/07/2016"
+title: ProtocolsSection Class
+description: Describes the ProtocolsSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0cfbaf09-12eb-5d23-d331-931f5d6cfd6a
 ---
 # ProtocolsSection Class
