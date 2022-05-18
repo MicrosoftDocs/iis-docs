@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.CleanupJob Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax as well as links to additional reference materials for the CleanupJob Method.
 TOCTitle: CleanupJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.CleanupJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.cleanupjob(v=VS.90)

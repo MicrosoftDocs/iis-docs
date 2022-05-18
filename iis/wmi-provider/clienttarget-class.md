@@ -1,5 +1,6 @@
 ---
 title: "ClientTarget Class"
+description: This article describes syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ClientTarget Class. 
 ms.date: "10/07/2016"
 ms.assetid: 987b6112-75ff-8330-f1d0-4314881e0883
 ---

@@ -1,5 +1,6 @@
 ---
 title: JobTemplate Constructor  (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax for the JobTemplate Constructor, as well as links to reference materials. 
 TOCTitle: JobTemplate Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.jobtemplate(v=VS.90)

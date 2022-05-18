@@ -1,5 +1,6 @@
 ---
 title: IManagementService.DeleteJobTemplate Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax and exceptions for the DeleteJobTemplate Method, as well as links to reference materials. 
 TOCTitle: DeleteJobTemplate Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.DeleteJobTemplate(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.deletejobtemplate(v=VS.90)
