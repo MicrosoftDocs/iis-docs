@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingCacheProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingCacheProperty field and provides the field's syntax, version information, and permissions.
 TOCTitle: SmoothStreamingCacheProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingCacheProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingcacheproperty(v=VS.90)

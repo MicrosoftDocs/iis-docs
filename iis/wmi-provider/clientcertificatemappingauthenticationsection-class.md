@@ -1,6 +1,7 @@
 ---
-title: "ClientCertificateMappingAuthenticationSection Class"
-ms.date: "10/07/2016"
+title: ClientCertificateMappingAuthenticationSection Class
+description: Describes the ClientCertificateMappingAuthenticationSection class and provides the class' syntax, methods, properties, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7e66399a-d6fa-5d2e-68a1-d33e4e876c6a
 ---
 # ClientCertificateMappingAuthenticationSection Class
