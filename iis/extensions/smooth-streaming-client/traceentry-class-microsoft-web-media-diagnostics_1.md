@@ -1,5 +1,6 @@
 ---
 title: TraceEntry Class (Microsoft.Web.Media.Diagnostics)
+description: This article has information on syntax, methods, properties, constructors, inheritance hierarchy, and requirements for the TraceEntry Class.
 TOCTitle: TraceEntry Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceEntry
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry(v=VS.95)

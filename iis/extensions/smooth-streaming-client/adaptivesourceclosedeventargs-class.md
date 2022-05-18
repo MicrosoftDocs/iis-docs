@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceClosedEventArgs Class
+description: This article has information on syntax, members, and requirements for the AdaptiveSourceClosedEventArgs Class.
 TOCTitle: AdaptiveSourceClosedEventArgs Class
 ms:assetid: ea6434b1-3542-419d-a956-6580fc456e71
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822863(v=VS.90)

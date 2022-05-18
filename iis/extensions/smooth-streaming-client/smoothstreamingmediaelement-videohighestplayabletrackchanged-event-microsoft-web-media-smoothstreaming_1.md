@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged Event.
 TOCTitle: VideoHighestPlayableTrackChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrackchanged(v=VS.95)
