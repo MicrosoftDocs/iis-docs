@@ -1,5 +1,7 @@
 ---
 title: Column.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
+description: The following code sample shows how to use the GetTableInfomethod to retrieve the table information for the table name that the database manager provides by using an OLEDB connection.
+
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.DefaultValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.defaultvalue(v=VS.90)
