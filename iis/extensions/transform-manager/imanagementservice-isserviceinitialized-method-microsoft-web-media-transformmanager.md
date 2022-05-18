@@ -1,5 +1,6 @@
 ---
 title: IManagementService.IsServiceInitialized Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the IsServiceInitialized method and provides the method's namespace, assembly, syntax, and return value.
 TOCTitle: IsServiceInitialized Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.IsServiceInitialized
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.isserviceinitialized(v=VS.90)
