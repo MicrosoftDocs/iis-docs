@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.PositionProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.PositionProperty Field - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PositionProperty Field
 description: Represents a dependency property that specifies the Position property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PositionProperty

@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.Response Property (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.Response Property - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Response Property
 description: A Stream object that contains the response.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response

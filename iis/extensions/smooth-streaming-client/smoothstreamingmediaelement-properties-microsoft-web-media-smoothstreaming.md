@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement Properties (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement Properties - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Properties
 description: The SmoothStreamingMediaElement type exposes the following members.
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
@@ -9,7 +9,7 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 ---
 
-# SmoothStreamingMediaElement Properties
+# SmoothStreamingMediaElement Properties - (Microsoft.Web.Media.SmoothStreaming)
 
 The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

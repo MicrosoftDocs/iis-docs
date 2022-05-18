@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# UpdateTaskDefinition Method
+# UpdateTaskDefinition Method - (Microsoft.Web.Media.TransformManager)
 
 Adds or updates the specified [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) object.
 

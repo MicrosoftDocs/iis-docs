@@ -1,5 +1,5 @@
 ---
-title: SeekCompletedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+title: SeekCompletedEventArgs Properties - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompletedEventArgs Properties
 description: The SeekCompletedEventArgs type exposes the following members.
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
@@ -9,7 +9,7 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 ---
 
-# SeekCompletedEventArgs Properties
+# SeekCompletedEventArgs Properties - (Microsoft.Web.Media.SmoothStreaming)
 
 The [SeekCompletedEventArgs](seekcompletedeventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

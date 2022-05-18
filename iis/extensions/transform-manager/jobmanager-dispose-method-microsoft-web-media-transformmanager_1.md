@@ -1,5 +1,5 @@
 ---
-title: JobManager.Dispose Method  (Microsoft.Web.Media.TransformManager)
+title: JobManager.Dispose Method - (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
 description:  Releases all resources that are used by the current instance of the JobManager class.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManager.Dispose
@@ -24,7 +24,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Dispose Method
+# Dispose Method - (Microsoft.Web.Media.TransformManager)
 
 Releases all resources that are used by the current instance of the [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) class.
 

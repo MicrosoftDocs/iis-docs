@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.EnableGPUAccelerationProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.EnableGPUAccelerationProperty Field - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EnableGPUAccelerationProperty Field
 description: Represents a dependency property that specifies the EnableGPUAcceleration property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EnableGPUAccelerationProperty

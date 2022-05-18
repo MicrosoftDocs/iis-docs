@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# GetConfigurationMessages Method
+# GetConfigurationMessages Method - (Microsoft.Web.Media.TransformManager)
 
 Returns configuration messages that are related to the IIS Transform Manager service.
 

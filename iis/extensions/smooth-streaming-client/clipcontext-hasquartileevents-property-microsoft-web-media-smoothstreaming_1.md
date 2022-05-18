@@ -1,5 +1,5 @@
 ---
-title: ClipContext.HasQuartileEvents Property (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.HasQuartileEvents Property - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: HasQuartileEvents Property
 description: Gets or sets the HasQuartileEvents property.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.HasQuartileEvents
