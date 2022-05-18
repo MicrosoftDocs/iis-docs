@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.ChildStreams Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamInfo.ChildStreams property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: ChildStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChildStreams
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.childstreams(v=VS.95)

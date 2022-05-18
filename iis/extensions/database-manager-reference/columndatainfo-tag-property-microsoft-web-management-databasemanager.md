@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo.Tag Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ColumnDataInfo.Tag property and the property's syntax, property value, remarks, and permissions.
 TOCTitle: Tag Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.Tag
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.tag(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IDbTableManager.GetTables Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableManager.GetTables method and provides the method's syntax, remarks, examples, and permissions.
 TOCTitle: GetTables Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.gettables(v=VS.90)
