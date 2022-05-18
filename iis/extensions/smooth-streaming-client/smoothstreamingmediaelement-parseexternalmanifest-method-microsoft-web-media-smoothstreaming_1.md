@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.ParseExternalManifest Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParseExternalManifest Method
+description: "Downloads, parses, and returns an object that represents the specified external manifest. The result can be passed to MergeExternalManifest to override elements."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ParseExternalManifest(System.Uri,System.Int32,System.Object@)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.parseexternalmanifest(v=VS.95)
 ms:contentKeyID: 46307689
