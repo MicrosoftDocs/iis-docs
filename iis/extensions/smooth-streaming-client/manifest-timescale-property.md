@@ -1,5 +1,6 @@
 ---
 title: Manifest.TimeScale Property
+description: This article has information on syntax, property value, and requirements for the Manifest.TimeScale Property.
 TOCTitle: TimeScale Property
 ms:assetid: 0b420cf5-bdb3-456e-86f8-5d6cb2d4c0ac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822675(v=VS.90)

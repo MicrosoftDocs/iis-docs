@@ -1,5 +1,6 @@
 ---
 title: "HandlerAction Class"
+description: This article has information on syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the HandlerAction Class. 
 ms.date: "10/07/2016"
 ms.assetid: 68538138-fb53-ff14-d44e-d4dd82928822
 ---

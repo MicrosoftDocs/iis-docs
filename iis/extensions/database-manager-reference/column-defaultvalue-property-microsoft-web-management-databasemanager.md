@@ -1,5 +1,6 @@
 ---
 title: Column.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
+description: This article has information on syntax and permissions for the Column.DefaultValue Property, as well as links to reference materials. 
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.DefaultValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.defaultvalue(v=VS.90)
