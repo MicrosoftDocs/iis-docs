@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter Methods (Microsoft.Web.Management.DatabaseManager)
+description: This is a list of the StoredProcedureParameter methods that can be inherited.
 TOCTitle: StoredProcedureParameter Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter_methods(v=VS.90)
