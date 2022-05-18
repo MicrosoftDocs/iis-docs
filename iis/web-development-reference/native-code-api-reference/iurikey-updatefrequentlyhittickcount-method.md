@@ -1,6 +1,6 @@
 ---
 title: "IUriKey::UpdateFrequentlyHitTickCount Method"
-desription: "Syntax used to update the method that ticks counter increments each time the URI is requested on the IURIKey interface."
+description: "Syntax used to update the method that ticks counter increments each time the URI is requested on the IURIKey interface."
 ms.date: "10/07/2016"
 ms.assetid: 8996d0b8-7b23-4394-aee6-a809965e0e7e
 ---
