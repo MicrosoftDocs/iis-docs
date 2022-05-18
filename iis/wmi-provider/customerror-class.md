@@ -1,6 +1,6 @@
 ---
 title: "CustomError Class"
-description: Specifies an custom error message for an HTTP status code error.  
+description: Specifies a custom error message for an HTTP status code error.  
 ms.date: "10/07/2016"
 ms.assetid: ab3c0555-268b-4148-bdcf-622be2a4c4f7
 ---
