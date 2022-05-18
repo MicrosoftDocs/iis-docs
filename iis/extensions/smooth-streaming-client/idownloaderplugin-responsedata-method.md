@@ -1,6 +1,6 @@
 ---
 title: IDownloaderPlugin.ResponseData Method
-description: This article contains syntax, parameters, return values, and links to reference materials for the IDownloaderPlugin.ResponseData Method.
+description: This article contains syntax, parameters, return values, and links to reference materials for the IDownloaderPlugin.ResponseData method.
 TOCTitle: ResponseData Method
 ms:assetid: d74e3408-f57c-49b8-b61f-99f1ca873a1e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822842(v=VS.90)

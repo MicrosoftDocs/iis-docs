@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
-description: This article contains syntax, version information, and additional reference links for the VideoHighestPlayableTrack Property.
+description: This article contains syntax, version information, and additional reference links for the VideoHighestPlayableTrack property.
 TOCTitle: VideoHighestPlayableTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrack(v=VS.95)

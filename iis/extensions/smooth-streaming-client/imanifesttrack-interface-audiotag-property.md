@@ -1,6 +1,6 @@
 ---
 title: IManifestTrack Interface.AudioTag Property
-description: This article contains syntax, property value, and system requirements information for the IManifestTrack Interface.AudioTag Property.
+description: This article contains syntax, property value, and system requirements information for the IManifestTrack Interface.AudioTag property.
 TOCTitle: AudioTag Property
 ms:assetid: 1845504d-33fc-4150-a9f3-8df7c644602c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822686(v=VS.90)

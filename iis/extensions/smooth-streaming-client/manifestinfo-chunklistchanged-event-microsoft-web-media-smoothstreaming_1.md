@@ -1,6 +1,6 @@
 ---
 title: ManifestInfo.ChunkListChanged Event (Microsoft.Web.Media.SmoothStreaming)
-description: This article contains syntax, version information, and links to reference materials for the ManifestInfo.ChunkListChanged Event.
+description: This article contains syntax, version information, and links to reference materials for the ManifestInfo.ChunkListChanged event.
 TOCTitle: ChunkListChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.chunklistchanged(v=VS.95)

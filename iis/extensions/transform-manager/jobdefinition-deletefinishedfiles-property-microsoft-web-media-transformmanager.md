@@ -1,6 +1,6 @@
 ---
 title: JobDefinition.DeleteFinishedFiles Property (Microsoft.Web.Media.TransformManager)
-description: This article contains syntax as well as additional reference  links for the JobDefinition.DeleteFinishedFiles Property.
+description: This article contains syntax as well as additional reference  links for the JobDefinition.DeleteFinishedFiles property.
 TOCTitle: DeleteFinishedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFinishedFiles
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.deletefinishedfiles(v=VS.90)

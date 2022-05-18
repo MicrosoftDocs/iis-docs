@@ -1,6 +1,6 @@
 ---
 title: ClipContext.CurrentClipState Property (Microsoft.Web.Media.SmoothStreaming)
-description: This article contains information on syntax and version information for the ClipContext.CurrentClipState Property.
+description: This article contains information on syntax and version information for the ClipContext.CurrentClipState property.
 TOCTitle: CurrentClipState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.currentclipstate(v=VS.95)

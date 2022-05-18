@@ -1,6 +1,6 @@
 ---
 title: TrackChangedEventArgs.NewTrack Property (Microsoft.Web.Media.SmoothStreaming)
-description: This article contains the syntax, version information, and additional reference material for the TrackChangedEventArgs.NewTrack Property. 
+description: This article contains the syntax, version information, and additional reference material for the TrackChangedEventArgs.NewTrack property. 
 TOCTitle: NewTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.newtrack(v=VS.95)
