@@ -1,5 +1,6 @@
 ---
 title: "OutputCacheSettingsSection Class"
+description: Specifies the output-cache profile settings that can be applied to pages in an application.
 ms.date: "10/07/2016"
 ms.assetid: bbd6b8a2-c672-5f59-703d-063eaba979ab
 ---
