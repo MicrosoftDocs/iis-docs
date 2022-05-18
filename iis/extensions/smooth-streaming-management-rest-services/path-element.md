@@ -1,5 +1,6 @@
 ---
 title: Path Element
+description: Describes the Path element and provides the element's attributes, child elements, parent elements, and an example of the Path element.
 TOCTitle: Path Element
 ms:assetid: 6614def7-9f48-4b36-a478-7481e436a74f
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547044(v=VS.90)
@@ -12,7 +13,6 @@ mtps_version: v=VS.90
 
 Specifies a path that overwrites the default archive path that is set in the server configuration.
 
-```xml
 <Path useEventIdOnPath="true|false">
   "path"
 </Path>
