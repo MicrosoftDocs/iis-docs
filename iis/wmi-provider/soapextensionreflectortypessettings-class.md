@@ -1,5 +1,6 @@
 ---
 title: "SoapExtensionReflectorTypesSettings Class"
+description: This article outlines the syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SoapExtensionReflectorTypesSettings Class.
 ms.date: "10/07/2016"
 ms.assetid: 1e8f1231-c816-4b11-8019-865b42870a26
 ---

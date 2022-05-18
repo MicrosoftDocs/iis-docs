@@ -1,5 +1,6 @@
 ---
 title: "GlobalModuleElement Class"
+description: This article has information on syntax, methods, properties, subclasses, remarks, inheritance hierarchy, and requirements for the GlobalModuleElement Class.
 ms.date: "10/07/2016"
 ms.assetid: e1f046e1-2b3a-031f-d47b-aa0f97c2ba9f
 ---

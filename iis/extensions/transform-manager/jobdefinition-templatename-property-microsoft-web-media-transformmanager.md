@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.TemplateName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TemplateName Property
+description: This article contains syntax for the TemplateName Property, as well as links to additional reference materials.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.TemplateName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.templatename(v=VS.90)
 ms:contentKeyID: 35520927
