@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.FirstInCurrentChunkList Property
 TOCTitle: FirstInCurrentChunkList Property
+description: Gets the first chunk iterator in the current chunklist.
 ms:assetid: 4b2ce767-a162-47c0-9f38-9817c8179c2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822729(v=VS.90)
 ms:contentKeyID: 50079484
