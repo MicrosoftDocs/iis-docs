@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.IsRequired Property (Microsoft.Web.Management.DatabaseManager)
+description: This code sample offers the correct syntax to get or set a value for the connection argument as required.
 TOCTitle: IsRequired Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.isrequired(v=VS.90)

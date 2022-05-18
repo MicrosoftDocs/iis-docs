@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.Value Property (Microsoft.Web.Management.DatabaseManager)
+description: The ConnectionArgument.Value property gets or sets the value of the connection argument.
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.Value
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.value(v=VS.90)
