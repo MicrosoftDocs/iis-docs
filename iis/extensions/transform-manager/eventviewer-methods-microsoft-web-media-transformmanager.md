@@ -1,7 +1,7 @@
 ---
 title: EventViewer Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventViewer Methods
-description: Porperties exposed by the EventViewer type.
+description: Properties exposed by the EventViewer type.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.EventViewer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer_methods(v=VS.90)
 ms:contentKeyID: 35521092
