@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.RenderedFramesPerSecond Property - (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.RenderedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RenderedFramesPerSecond Property
 description: Gets the rate of rendered frames.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RenderedFramesPerSecond

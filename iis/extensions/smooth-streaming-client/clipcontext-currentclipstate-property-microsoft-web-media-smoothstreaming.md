@@ -1,5 +1,5 @@
 ---
-title: ClipContext.CurrentClipState Property - (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.CurrentClipState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentClipState Property
 description: Gets the CurrentClipState property.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
