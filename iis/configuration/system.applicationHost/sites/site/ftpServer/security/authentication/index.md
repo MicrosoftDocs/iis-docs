@@ -1,7 +1,7 @@
 ---
-title: "FTP Authentication &lt;authentication&gt;"
+title: FTP Authentication &lt;authentication&gt;
 author: rick-anderson
-description: "Overview The &lt;authentication&gt; element specifies the authentication settings for FTP sites. The authentication settings are configured at the site-level..."
+description: Describes the &lt;authentication&gt; element, which specifies the authentication settings for FTP sites, and its properties.
 ms.date: 09/26/2016
 ms.assetid: 9af58c0a-4ece-4e66-b3ee-4d3a4d90f95a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication

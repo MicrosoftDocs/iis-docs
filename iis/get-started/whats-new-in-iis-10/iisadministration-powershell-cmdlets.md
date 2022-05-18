@@ -1,7 +1,7 @@
 ---
-title: "IISAdministration PowerShell Cmdlets"
+title: IISAdministration PowerShell Cmdlets
 author: rick-anderson
-description: ""
+description: Describes the new IISAdministration module cmdlets and how they integrate with PowerShell, and provides usage examples.
 ms.date: 09/16/2016
 ms.assetid: adb61044-9074-4961-9186-cf5e340cee5b
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
@@ -58,4 +58,4 @@ As you can see, once you have access to the server manager, the sky is the limit
 
 By enclosing your operations between these commands, you can make sure that your changes are committed at the same time.
 
-These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/powershell/module/iisadministration/?view=win10-ps "IISAdministration") for the complete documentation and more examples.
+These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/powershell/module/iisadministration/ "IISAdministration") for the complete documentation and more examples.

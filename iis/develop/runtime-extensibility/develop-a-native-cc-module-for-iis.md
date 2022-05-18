@@ -1,7 +1,7 @@
 ---
-title: "Develop a Native C\\C++ Module for IIS 7.0"
+title: Develop a Native C\\C++ Module for IIS 7.0
 author: leanserver
-description: "IIS 7.0 and above allows for extending the server by modules which are developed in two ways: Using managed code, and the ASP.NET server extensibility APIs U..."
+description: Describes how to develop a native C++ module using the native server API and how to deploy a native module on the server.
 ms.date: 11/24/2007
 ms.assetid: 2cb45a9a-a111-4055-989f-25a19a668a00
 msc.legacyurl: /learn/develop/runtime-extensibility/develop-a-native-cc-module-for-iis

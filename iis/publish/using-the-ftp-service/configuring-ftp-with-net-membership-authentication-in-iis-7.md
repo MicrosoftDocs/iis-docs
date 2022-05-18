@@ -1,7 +1,7 @@
 ---
-title: "Configuring FTP with .NET Membership Authentication in IIS 7"
+title: Configuring FTP with .NET Membership Authentication in IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to configure a default web site for FTP membership-based authentication in IIS 7 on Windows Server 2008.
 ms.date: 03/09/2008
 ms.assetid: aae75692-8895-45f2-b3d4-027e22295a5a
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7

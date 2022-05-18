@@ -1,7 +1,7 @@
 ---
-title: "Developing a Module Using .NET"
+title: Developing a Module Using .NET
 author: leanserver
-description: "IIS 7.0 and above allows for extending the server by modules which are developed in two ways: Using managed code, and the ASP.NET server extensibility APIs U..."
+description: Provides a list of steps on how to develop and deploy a managed module on a server using ASP.NET APIs. 
 ms.date: 11/24/2007
 ms.assetid: d3c8271b-f860-43ca-b01a-85bfc35667f5
 msc.legacyurl: /learn/develop/runtime-extensibility/developing-a-module-using-net
