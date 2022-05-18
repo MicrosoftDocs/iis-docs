@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DroppedFramesPerSecond Property
 description: Gets or sets the percentage of dropped frames per second.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DroppedFramesPerSecond

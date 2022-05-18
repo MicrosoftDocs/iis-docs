@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedListEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedListEventArgs Properties - (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedListEventArgs Properties
 description: The StreamUpdatedListEventArgs type exposes the following properties.
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
@@ -9,7 +9,7 @@ ms.date: 05/31/2012
 mtps_version: v=VS.95
 ---
 
-# StreamUpdatedListEventArgs Properties
+# StreamUpdatedListEventArgs Properties - (Microsoft.Web.Media.SmoothStreaming)
 
 The [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

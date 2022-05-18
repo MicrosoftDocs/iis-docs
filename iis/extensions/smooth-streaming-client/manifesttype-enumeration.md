@@ -13,7 +13,7 @@ dev_langs:
 - jscript
 ---
 
-# ManifestType Enumeration
+# ManifestType Enumeration (Syntax, Values, and Requirements)
 
 **Applies to:** Windows Store apps only
 

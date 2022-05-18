@@ -1,5 +1,5 @@
 ---
-title: Tracing.Trace Method  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.Trace Method - (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Trace Method
 description: Traces a diagnostic message.
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.Trace
