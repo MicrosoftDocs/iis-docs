@@ -1,5 +1,6 @@
 ---
 title: Column.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Column.IsMarkedForDelete property and provides the property's syntax, examples, and permissions.
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.ismarkedfordelete(v=VS.90)
