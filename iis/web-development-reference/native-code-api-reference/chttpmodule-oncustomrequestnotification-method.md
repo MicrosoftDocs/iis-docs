@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnCustomRequestNotification Method"
+description: "Represents the method that will handle a custom event, which occurs when a module raises a user-defined notification."
 ms.date: "10/07/2016"
 ms.assetid: 6df88fb0-5384-5777-8b7f-6cdf04c07b7e
 ---

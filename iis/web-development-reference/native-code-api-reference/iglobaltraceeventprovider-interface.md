@@ -1,5 +1,6 @@
 ---
 title: "IGlobalTraceEventProvider Interface"
+description: "Extends the IHttpEventProvider interface by providing trace events for CGlobalModule derived classes."
 ms.date: "10/07/2016"
 ms.assetid: 2566adb1-eb89-6944-4724-f78f5277acf8
 ---

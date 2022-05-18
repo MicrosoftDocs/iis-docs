@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleFactory::Terminate Method"
+description: "In an HTTP module, the IHttpModuleFactory interface must provide a Terminate method to perform any cleanup tasks before it exits."
 ms.date: "10/07/2016"
 ms.assetid: d9fe6194-999d-df11-b41d-144d8bb1f0ed
 ---
