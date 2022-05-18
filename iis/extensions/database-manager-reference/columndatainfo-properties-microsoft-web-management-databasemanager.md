@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo Properties (Microsoft.Web.Management.DatabaseManager)
+description: This is a list of the properties for the ColumnDataInfo class.
 TOCTitle: ColumnDataInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo_properties(v=VS.90)
