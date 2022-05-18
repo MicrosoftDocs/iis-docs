@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
-description: Describes the SMoothStreamingMediaElement.StartPosition property and provides the property's syntax, property value, and version information.
+description: Describes the SmoothStreamingMediaElement.StartPosition property and provides the property's syntax, property value, and version information.
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.StartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.startposition(v=VS.95)

@@ -1,6 +1,6 @@
 ---
 title: DatabaseProvider Class (Microsoft.Web.Management.DatabaseManager)
-description: Describes the DatabaseProvider class adn provides the class' inheritance hierarchy, syntax, constructors, properties, methods, and remarks.
+description: Describes the DatabaseProvider class and provides the class' inheritance hierarchy, syntax, constructors, properties, methods, and remarks.
 TOCTitle: DatabaseProvider Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.DatabaseProvider
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider(v=VS.90)
