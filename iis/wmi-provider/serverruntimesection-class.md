@@ -1,5 +1,6 @@
 ---
 title: "ServerRuntimeSection Class"
+description: Configures request limits for applications on a Web server.
 ms.date: "10/07/2016"
 ms.assetid: 6fd863ba-e8d4-c1c4-904b-7b52a91843f6
 ---

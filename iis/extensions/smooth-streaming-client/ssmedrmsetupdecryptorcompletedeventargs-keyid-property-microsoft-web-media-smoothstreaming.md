@@ -1,6 +1,7 @@
 ---
 title: SSMEDrmSetupDecryptorCompletedEventArgs.KeyId Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: KeyId Property
+description: Gets the KeyID of the decryptor being set up.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.KeyId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmedrmsetupdecryptorcompletedeventargs.keyid(v=VS.95)
 ms:contentKeyID: 46307860

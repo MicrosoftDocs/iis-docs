@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.AudioStreamIndexProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamIndexProperty Field
+description: Represents a dependency property that specifies the AudioStreamIndex property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamIndexProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamindexproperty(v=VS.90)
 ms:contentKeyID: 23961171

@@ -1,6 +1,7 @@
 ---
 title: IDbTableDataManager.DeleteRow Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DeleteRow Method
+description: The DeleteRow Method removes a row from a table.
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.DeleteRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.deleterow(v=VS.90)
 ms:contentKeyID: 20476433
