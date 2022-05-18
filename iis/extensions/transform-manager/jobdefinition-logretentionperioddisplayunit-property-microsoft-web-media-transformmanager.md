@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.LogRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.LogRetentionPeriodDisplayUnit property and details its syntax, property value, and remarks.
 TOCTitle: LogRetentionPeriodDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperioddisplayunit(v=VS.90)

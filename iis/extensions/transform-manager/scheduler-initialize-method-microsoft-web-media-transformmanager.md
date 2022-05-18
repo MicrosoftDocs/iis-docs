@@ -1,5 +1,6 @@
 ---
 title: Scheduler.Initialize Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Scheduler.Initialize Method associated with Microsoft.Web.Media.TransformManager and details its syntax, parameters, and remarks.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.Initialize(System.String,Microsoft.Web.Media.TransformManager.Credential,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.initialize(v=VS.90)

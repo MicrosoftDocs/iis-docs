@@ -1,5 +1,6 @@
 ---
 title: IPlaylistFileInfo Interface
+description: Describes the IPlaylistFileInfo interface and details the IPlaylistFileInfo interface's members in a list.
 TOCTitle: IPlaylistFileInfo Interface
 ms:assetid: 7f19692b-8360-4493-84c0-63754d7982ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146277(v=VS.90)
