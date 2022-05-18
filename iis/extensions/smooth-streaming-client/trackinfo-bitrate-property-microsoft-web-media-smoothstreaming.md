@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.Bitrate Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains information on syntax, version information, and permissions for the TrackInfo.Bitrate Property.
 TOCTitle: Bitrate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Bitrate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.bitrate(v=VS.90)

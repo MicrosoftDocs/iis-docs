@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.MethodName Property (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the MethodName Property, as well as links to reference materials.
 TOCTitle: MethodName Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MethodName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.methodname(v=VS.90)

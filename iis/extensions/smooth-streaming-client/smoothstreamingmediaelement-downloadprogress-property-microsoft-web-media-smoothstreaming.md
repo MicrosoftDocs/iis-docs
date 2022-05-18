@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgress Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the DownloadProgress Property, as well as links to reference materials. 
 TOCTitle: DownloadProgress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogress(v=VS.90)
