@@ -1,13 +1,13 @@
 ---
-title: "Create a Simple FTP Home Directory Provide"
+title: Create a Simple FTP Home Directory Provider
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to use managed code to create a simple FTP home directory provider using Visual Studio 2008.
 ms.date: 09/11/2009
 ms.assetid: f080ec9b-81e4-4534-820f-938ff5ef9e14
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider
 msc.type: authoredcontent
 ---
-# Create a Simple FTP Home Directory Provide
+# Create a Simple FTP Home Directory Provider
 
 by [Robert McMurray](https://github.com/rmcmurray)
 

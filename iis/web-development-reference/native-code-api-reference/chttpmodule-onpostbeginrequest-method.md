@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnPostBeginRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnPostBeginRequest method and details its syntax, parameters, return value, remarks, a code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 7a229eb2-2ac9-6e7e-df50-cc5aa86cc2f7
 ---
 # CHttpModule::OnPostBeginRequest Method

@@ -1,7 +1,7 @@
 ---
-title: "How to Use Managed Code (Visual Basic) to Create a Simple FTP Logging Provider"
+title: How to Use Managed Code (Visual Basic) to Create a Simple FTP Logging Provider
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to use managed code in Visual Basic to create a simple FTP logging provider in Visual Studio 2008.
 ms.date: 07/27/2009
 ms.assetid: 2bdef4d0-a18b-4d98-9849-30600ebe8278
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-logging-provider
