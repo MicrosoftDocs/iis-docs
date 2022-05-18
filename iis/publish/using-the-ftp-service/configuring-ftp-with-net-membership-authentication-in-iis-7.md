@@ -103,7 +103,7 @@ If you do not already have an ASP.NET database created, you need to build the AS
     [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample3.cmd)]
 
 > [!NOTE]
-> To use a remote SQL server instead of "localhost" as shown in the above example, see the "Deployment Considerations" section in the [How To: Use Forms Authentication with SQL Server in ASP.NET 2.0](https://docs.microsoft.com/previous-versions/msp-n-p/ff649314(v=pandp.10)) article.
+> To use a remote SQL server instead of "localhost" as shown in the above example, see the "Deployment Considerations" section in the [How To: Use Forms Authentication with SQL Server in ASP.NET 2.0](/previous-versions/msp-n-p/ff649314(v=pandp.10)) article.
 
 Because the COM process for FTP extensibility runs as "NT AUTHORITY\Network Service", you need to add the "NT AUTHORITY\Network Service" account to the ASP.NET database on your SQL Server. To do so, use the following steps:
 

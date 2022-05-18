@@ -189,4 +189,4 @@ Save this configuration as web.config file in the root of your application:
 
 The ASP.NET 2.0 Membership service enables applications to quickly implement credential validation and user management required by most authentication and access control schemes. Membership isolates the application code from the actual credential store implementation, and provides a number of options for integrating with existing credential stores.
 
-To take advantage of Membership for this module sample, uncomment a call to Membership.ValidateUser inside the ValidateCredentials method, and configure a Membership provider for your application. For more information about configuring Membership, see [Configuring an ASP.NET Application to Use Membership](https://docs.microsoft.com/previous-versions/aspnet/6e9y4s5t(v=vs.100)).
+To take advantage of Membership for this module sample, uncomment a call to Membership.ValidateUser inside the ValidateCredentials method, and configure a Membership provider for your application. For more information about configuring Membership, see [Configuring an ASP.NET Application to Use Membership](/previous-versions/aspnet/6e9y4s5t(v=vs.100)).

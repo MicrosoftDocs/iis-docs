@@ -58,4 +58,4 @@ As you can see, once you have access to the server manager, the sky is the limit
 
 By enclosing your operations between these commands, you can make sure that your changes are committed at the same time.
 
-These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/powershell/module/iisadministration/ "IISAdministration") for the complete documentation and more examples.
+These are only a handful of examples of what you can do with the new provider. Visit [Online document](/powershell/module/iisadministration/ "IISAdministration") for the complete documentation and more examples.
