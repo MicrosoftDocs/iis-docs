@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.EndPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: This paged describes the EndPosition property's syntax for reading the end position in media.
 TOCTitle: EndPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.endposition(v=VS.90)

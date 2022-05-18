@@ -1,5 +1,6 @@
 ---
 title: "EventMappingElement Class"
+description: This page provides syntax mapping for friendly event names to related event types.
 ms.date: "10/07/2016"
 ms.assetid: 715f98e4-5d04-4813-ae6e-ec148f201a2e
 ---
