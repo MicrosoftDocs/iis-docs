@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.AllowIdentity Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.AllowIdentity property and provides the property's syntax, property value, examples, and permissions.
 TOCTitle: AllowIdentity Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.AllowIdentity
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.allowidentity(v=VS.90)
