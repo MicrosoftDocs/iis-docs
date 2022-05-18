@@ -1,6 +1,7 @@
 ---
 title: TrackInfo.CustomAttributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CustomAttributes Property
+description: "TrackInfo.CustomAttributes gets or sets the CustomAttributes property. This article describes its syntax, property value, and version information."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.CustomAttributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.customattributes(v=VS.95)
 ms:contentKeyID: 46307881
