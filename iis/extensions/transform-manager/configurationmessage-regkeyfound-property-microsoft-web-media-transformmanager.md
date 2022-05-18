@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage.RegKeyFound Property (Microsoft.Web.Media.TransformManager)
+description: Describes the RegKeyFound property type associated with Microsoft.Web.Media.TransformManager and details its properties.
 TOCTitle: RegKeyFound Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyFound
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.regkeyfound(v=VS.90)

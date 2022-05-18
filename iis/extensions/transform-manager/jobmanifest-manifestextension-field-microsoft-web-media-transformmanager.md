@@ -1,5 +1,6 @@
 ---
 title: JobManifest.ManifestExtension Field (Microsoft.Web.Media.TransformManager)
+description: Describes the ManifestExtension field associated with the job manifest file extension and details its namespace, assembly, and syntax. 
 TOCTitle: ManifestExtension Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobManifest.ManifestExtension
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.manifestextension(v=VS.90)
