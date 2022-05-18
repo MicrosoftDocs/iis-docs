@@ -13,10 +13,10 @@ mtps_version: v=VS.90
 
 Specifies a path that overwrites the default archive path that is set in the server configuration.
 
-<Path useEventIdOnPath="true|false">
+<!---<Path useEventIdOnPath="true|false">
   "path"
 </Path>
-
+--->
 ## Attributes
 
 |Attribute|Description|
