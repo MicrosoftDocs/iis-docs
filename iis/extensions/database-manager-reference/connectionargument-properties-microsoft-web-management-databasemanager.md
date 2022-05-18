@@ -1,6 +1,7 @@
 ---
 title: ConnectionArgument Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ConnectionArgument Properties
+description: The ConnectionArgument type exposes the following members.
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.ConnectionArgument
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument_properties(v=VS.90)
 ms:contentKeyID: 20476811
