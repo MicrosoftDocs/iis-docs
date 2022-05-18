@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field (Microsoft.Web.Media.SmoothStreaming)
-description: This article contains syntax and version information for the SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field.
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.ClipMediaElementStyleProperty field.
 TOCTitle: ClipMediaElementStyleProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyleproperty(v=VS.95)

@@ -1,6 +1,6 @@
 ---
 title: AdaptiveSourceManager.ManifestReadyEvent Event
-description: This article has information on syntax and requirements for the AdaptiveSourceManager.ManifestReadyEvent Event.
+description: This article has information on syntax and requirements for the AdaptiveSourceManager.ManifestReadyEvent event.
 TOCTitle: ManifestReadyEvent Event
 ms:assetid: c86cae95-9b84-45bd-8512-68183ceb72ec
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822833(v=VS.90)

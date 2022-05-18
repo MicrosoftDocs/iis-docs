@@ -1,6 +1,6 @@
 ---
 title: Manifest Class
-description: This article has information on syntax for the Manifest Class, as well as members exposed by this class. 
+description: This article has information on syntax for the Manifest class, as well as members exposed by this class. 
 TOCTitle: Manifest Class
 ms:assetid: f0a9e6d7-5714-49c0-9470-25fa5be0013f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822869(v=VS.90)
