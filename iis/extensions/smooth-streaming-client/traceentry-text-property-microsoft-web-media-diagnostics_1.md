@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.Text Property - (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.Text Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Text Property
 description: Gets or sets the Text property.
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Text

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LivePosition Property - (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LivePosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePosition Property
 description: Gets the position that is nearest to the live stream that a client can seek to.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePosition
