@@ -1,6 +1,7 @@
 ---
 title: IManifestTrack Interface.GetAttribute Method
 TOCTitle: GetAttribute Method
+description: The IManifestTrack Interface.GetAttribute Method gets the track level attributes from the manifest.
 ms:assetid: 260ffd2a-e641-4f56-8c29-8013bb7393fe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822705(v=VS.90)
 ms:contentKeyID: 50079460
