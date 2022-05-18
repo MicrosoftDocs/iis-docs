@@ -1,6 +1,7 @@
 ---
 title: MediaStreamType Enumeration
 TOCTitle: MediaStreamType Enumeration
+description: The media stream type enumeration.
 ms:assetid: 7ed200bf-14e6-494d-a306-79421f71d9e7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573687(v=VS.90)
 ms:contentKeyID: 49080928
