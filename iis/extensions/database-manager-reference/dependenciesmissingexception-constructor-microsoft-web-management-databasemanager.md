@@ -1,5 +1,6 @@
 ---
 title: DependenciesMissingException Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the DependenciesMissingException constructor and provides a table that outlines the name and description for various method types.
 TOCTitle: DependenciesMissingException Constructor
 ms:assetid: Overload:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)

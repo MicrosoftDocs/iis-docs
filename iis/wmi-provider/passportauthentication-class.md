@@ -1,6 +1,7 @@
 ---
-title: "PassportAuthentication Class"
-ms.date: "10/07/2016"
+title: PassportAuthentication Class
+description: Describes the PassportAuthentication class and provides the class' syntax, properties remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 499ec9c2-244d-83e0-88a5-3003ef7114bd
 ---
 # PassportAuthentication Class

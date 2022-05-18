@@ -1,6 +1,7 @@
 ---
-title: "IdentitySection Class"
-ms.date: "10/07/2016"
+title: IdentitySection Class
+description: Describes the IdentitySection class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8b530f31-4cb9-0def-a2d7-b21228f0a35c
 ---
 # IdentitySection Class
