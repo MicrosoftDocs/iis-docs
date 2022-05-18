@@ -1,5 +1,6 @@
 ---
 title: IndexColumn.Descending Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IndexColumn.Descending property and provides the property's syntax, property values, examples, and permissions.
 TOCTitle: Descending Property
 description: Gets or sets a value that indicates whether the index column is a descending index.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.IndexColumn.Descending

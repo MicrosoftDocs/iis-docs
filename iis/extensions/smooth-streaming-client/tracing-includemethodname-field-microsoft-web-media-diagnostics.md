@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeMethodName Field (Microsoft.Web.Media.Diagnostics)
+description: Describes the IncludeMethodName field and provides the field's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: IncludeMethodName Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeMethodName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includemethodname(v=VS.90)

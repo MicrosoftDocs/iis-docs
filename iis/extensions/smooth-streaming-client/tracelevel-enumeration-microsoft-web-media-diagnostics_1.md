@@ -1,5 +1,6 @@
 ---
 title: TraceLevel Enumeration (Microsoft.Web.Media.Diagnostics)
+description: Describes the TraceLevel enumeration and provides the enumeration's namespace, assembly, syntax, members, and version information.
 TOCTitle: TraceLevel Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracelevel(v=VS.95)
