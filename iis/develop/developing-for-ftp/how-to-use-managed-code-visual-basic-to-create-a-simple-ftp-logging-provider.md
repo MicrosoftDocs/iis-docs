@@ -102,7 +102,7 @@ In this step, you will implement the logging extensibility interface for the dem
 2. Save and compile the project.
 
 > [!NOTE]
-> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the [Global Assembly Cache Tool (Gacutil.exe)](https://docs.microsoft.com/dotnet/framework/tools/gacutil-exe-gac-tool) article.
+> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the [Global Assembly Cache Tool (Gacutil.exe)](/dotnet/framework/tools/gacutil-exe-gac-tool) article.
 
 ## Step 3: Add the Logging Provider to FTP
 
