@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceFunctionEntry Method (String, String, TraceArea) (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.TraceFunctionEntry method and provides the method's syntax, parameters, and version information.
 TOCTitle: TraceFunctionEntry Method (String, String, TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry(System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionentry(v=VS.95)

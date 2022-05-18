@@ -1,6 +1,7 @@
 ---
-title: "ConstructCommandLine"
-ms.date: "10/07/2016"
+title: ConstructCommandLine
+description: Describes the Construct Command Line's function and provides the line's syntax, parameters, and return value.
+ms.date: 10/07/2016
 ms.assetid: 9f3d0ab2-c083-471b-a6b1-160ab006c613
 ---
 # ConstructCommandLine
