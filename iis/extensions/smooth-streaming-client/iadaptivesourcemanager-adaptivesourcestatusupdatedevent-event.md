@@ -1,6 +1,7 @@
 ---
 title: IAdaptiveSourceManager.AdaptiveSourceStatusUpdatedEvent Event
 TOCTitle: AdaptiveSourceStatusUpdatedEvent Event
+description: Adds the status updated event handler.
 ms:assetid: 9368d96a-29ec-48e1-9eaa-4fb7b0fd0b67
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822785(v=VS.90)
 ms:contentKeyID: 50079539

@@ -1,6 +1,7 @@
 ---
 title: Settings Element
 TOCTitle: Settings Element
+description: Represents all available settings for a Live Smooth Streaming publishing point instance.
 ms:assetid: 584b7887-da08-4964-bed5-e0399719ed89
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206009(v=VS.90)
 ms:contentKeyID: 35990943

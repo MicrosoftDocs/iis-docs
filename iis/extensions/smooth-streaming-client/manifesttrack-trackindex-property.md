@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.TrackIndex Property
 TOCTitle: TrackIndex Property
+description: Gets the index of the track in the manifest.
 ms:assetid: ffa51f4a-fd4b-4881-8d8a-ff23512cf952
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822881(v=VS.90)
 ms:contentKeyID: 50079635
