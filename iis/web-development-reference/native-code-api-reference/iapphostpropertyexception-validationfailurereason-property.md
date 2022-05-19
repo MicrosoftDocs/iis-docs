@@ -1,6 +1,7 @@
 ---
 title: "IAppHostPropertyException::ValidationFailureReason Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostPropertyException::ValidationFailureReason property and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 02fada1b-ad19-af0e-6e28-7ceb7b136af3
 ---
 # IAppHostPropertyException::ValidationFailureReason Property

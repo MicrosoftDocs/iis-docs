@@ -1,6 +1,7 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED Function"
-ms.date: "10/07/2016"
+description: "Describes the PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED function and details its syntax, parameters, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1a2d44f9-3eb5-afbc-cd5b-dcaf8f6c33b4
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED Function
