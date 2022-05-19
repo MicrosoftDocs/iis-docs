@@ -1,5 +1,6 @@
 ---
 title: "IListenerChannelCallback::GetBlob Method"
+description: Learn how IListenerChannelCallback::GetBlob method it retrieves data that the protocol manager passes to a listener channel. 
 ms.date: "10/07/2016"
 ms.assetid: 5a264414-39bc-9cc7-dc58-04453914b7ab
 ---

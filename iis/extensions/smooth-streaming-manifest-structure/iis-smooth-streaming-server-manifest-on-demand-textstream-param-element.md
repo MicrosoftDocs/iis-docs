@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - textstream param Element
+description: Learn how the textstream param element specifies a single parameter for the textstream.
 TOCTitle: <param>
 ms:assetid: f91007b5-e98d-41e1-ae11-769c5f948203
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230822(v=VS.90)

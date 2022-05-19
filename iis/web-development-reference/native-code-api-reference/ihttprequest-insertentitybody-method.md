@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::InsertEntityBody Method"
+description: Learn how the IHttpRequest::InsertEntityBody method inserts a new entity body into the existing HTTP request body.
 ms.date: "10/07/2016"
 ms.assetid: 8e30471e-981b-9026-dc07-5dd2c1e81b02
 ---

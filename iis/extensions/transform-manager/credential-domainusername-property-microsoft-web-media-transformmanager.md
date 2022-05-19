@@ -1,5 +1,6 @@
 ---
 title: Credential.DomainUserName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the DomainUserName property gets or sets the credential domain that uses the credential user name.
 TOCTitle: DomainUserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.DomainUserName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.domainusername(v=VS.90)

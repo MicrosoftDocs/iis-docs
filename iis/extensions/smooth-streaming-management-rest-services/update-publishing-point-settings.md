@@ -1,5 +1,6 @@
 ---
 title: Update Publishing Point Settings
+description: Learn how the Update Publishing Point Settings operation updates the settings for an existing publishing point.
 TOCTitle: Update Publishing Point Settings
 ms:assetid: 9b5fd249-e353-4d94-ac83-08757314881b
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206011(v=VS.90)
