@@ -1,6 +1,7 @@
 ---
 title: CacheResponse Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Class
+description: "The CacheResponse class is the object describing the response from the cache. This article describes the syntax, constructors, properties, and methods."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheResponse
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse(v=VS.95)
 ms:contentKeyID: 46307928

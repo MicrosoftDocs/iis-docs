@@ -1,6 +1,7 @@
 ---
 title: Microsoft.Web.Media.SmoothStreaming Namespace ()
 TOCTitle: Microsoft.Web.Media.SmoothStreaming
+description: Client classes for Microsoft Smooth Streaming applications.
 ms:assetid: N:Microsoft.Web.Media.SmoothStreaming
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming(v=VS.95)
 ms:contentKeyID: 46307714

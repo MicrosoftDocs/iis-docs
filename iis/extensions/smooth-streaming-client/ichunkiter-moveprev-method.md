@@ -1,5 +1,6 @@
 ---
 title: IChunkIter.MovePrev Method
+description: This article contains information on syntax, return value, and requirements for the IChunkIter.MovePrev method.
 TOCTitle: MovePrev Method
 ms:assetid: bdf91f1d-c660-4ff3-9be8-789e5d8302a3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822821(v=VS.90)

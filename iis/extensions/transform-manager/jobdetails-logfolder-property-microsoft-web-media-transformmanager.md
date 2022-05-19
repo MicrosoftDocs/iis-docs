@@ -1,5 +1,6 @@
 ---
 title: JobDetails.LogFolder Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about the syntax and property value for the LogFolder property, as well as links to additional resources. 
 TOCTitle: LogFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.LogFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.logfolder(v=VS.90)

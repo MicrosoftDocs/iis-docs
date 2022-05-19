@@ -1,6 +1,7 @@
 ---
 title: JobDetails.CreateWorkItemElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateWorkItemElement Method
+description: "The CreateWorkItemElement method creates an XML element based on the specified JobDetails object that defines a work item."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItemElement(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.createworkitemelement(v=VS.90)
 ms:contentKeyID: 35520925

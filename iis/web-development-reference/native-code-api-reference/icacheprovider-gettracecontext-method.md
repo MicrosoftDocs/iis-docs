@@ -1,6 +1,7 @@
 ---
 title: "ICacheProvider::GetTraceContext Method"
-ms.date: "10/07/2016"
+description: Describes the ICacheProvider::GetTraceContext method and details its syntax, parameters, return value, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 82947c97-727f-455e-b773-9fa952194dc3
 ---
 # ICacheProvider::GetTraceContext Method

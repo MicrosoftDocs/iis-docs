@@ -1,5 +1,6 @@
 ---
 title: SetPlaybackRangeCompletedEventArgs.LeftEdge Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SetPlaybackRangeCompletedEventArgs.LeftEdge property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: LeftEdge Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.LeftEdge
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.leftedge(v=VS.95)

@@ -1,6 +1,7 @@
 ---
 title: ChunkInfo Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkInfo Methods
+description: "List of members that are exposed by the ChunkInfo type. Their method type, name, and description are provided."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo_methods(v=VS.95)
 ms:contentKeyID: 46307594

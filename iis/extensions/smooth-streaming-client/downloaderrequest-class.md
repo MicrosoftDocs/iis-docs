@@ -1,6 +1,7 @@
 ---
 title: DownloaderRequest Class
 TOCTitle: DownloaderRequest Class
+description: "DownloaderRequest Class syntax, members, and requirements. Properties of this class are AlternativeUris, Cookies, Headers, and RequestUri."
 ms:assetid: a2c51196-9bad-449b-a563-0f48b81e02cb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822798(v=VS.90)
 ms:contentKeyID: 50079552
