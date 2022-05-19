@@ -1,6 +1,7 @@
 ---
 title: JobManager.ShutdownComplete Event (Microsoft.Web.Media.TransformManager)
 TOCTitle: ShutdownComplete Event
+description: "The ShutdownComplete event occurs when all transform jobs have been processed. This article describes its syntax."
 ms:assetid: E:Microsoft.Web.Media.TransformManager.JobManager.ShutdownComplete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.shutdowncomplete(v=VS.90)
 ms:contentKeyID: 36868665
