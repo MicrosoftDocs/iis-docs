@@ -1,6 +1,7 @@
 ---
 title: TraceEntry Methods (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceEntry Methods
+description: Types of Methods exposed by TraceEntry.
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.TraceEntry
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry_methods(v=VS.90)
 ms:contentKeyID: 23960941

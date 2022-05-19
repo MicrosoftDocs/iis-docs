@@ -1,6 +1,7 @@
 ---
-title: "LogSection Class1"
-ms.date: "10/07/2016"
+title: LogSection Class1
+description: Describes the LogSection class and provides the class' syntax, methods, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: cc93d19f-64ef-2ee5-5266-93f14570d30c
 ---
 # LogSection Class1

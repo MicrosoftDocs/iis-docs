@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Constructor
+description: "The SmoothStreamingMediaElement syntax initializes a new instance of the SmoothStreamingMediaElement class."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingmediaelement(v=VS.90)
 ms:contentKeyID: 23961149

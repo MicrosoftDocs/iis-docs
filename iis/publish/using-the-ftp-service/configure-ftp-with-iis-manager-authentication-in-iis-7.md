@@ -1,7 +1,7 @@
 ---
-title: "Configure FTP with IIS Manager Authentication in IIS 7"
+title: Configure FTP with IIS Manager Authentication in IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to configure FTP authentication for IIS 7 manager accounts using two different methods.
 ms.date: 01/22/2008
 ms.assetid: d3e70ab0-0ce8-4a26-b017-e35de034f6d8
 msc.legacyurl: /learn/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7

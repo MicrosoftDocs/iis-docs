@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.MaxWidth Property
+description: Describes the IManifestStream.MaxWidth property and provides the property's syntax, property value, and requirements.
 TOCTitle: MaxWidth Property
 ms:assetid: de9f6156-7e97-48b7-bcad-1793e4959324
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822848(v=VS.90)

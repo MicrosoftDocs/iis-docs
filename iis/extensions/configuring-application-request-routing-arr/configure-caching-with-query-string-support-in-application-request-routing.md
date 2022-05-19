@@ -1,7 +1,7 @@
 ---
-title: "Configure Caching with Query String Support in Application Request Routing"
+title: Configure Caching with Query String Support in Application Request Routing
 author: rick-anderson
-description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To understand and configure caching with qu..."
+description: Learn to configure caching with query string support in Microsoft Application Request Routing Version 2 for IIS 7 and above.
 ms.date: 11/06/2009
 ms.assetid: 523dd540-8c29-454a-b189-a799505d9ee0
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-caching-with-query-string-support-in-application-request-routing
@@ -51,10 +51,10 @@ This walkthrough assumes that the server farm has already been created. If not, 
 4. Select the server farm that you created.
 5. The following icons are shown:
 
-     ![](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
+     ![Screenshot of Server Farms dialog in I I S Manager, with icons displayed and Caching highlighted.](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
 6. Double-click **Caching**.
 
-     ![](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
+     ![Screenshot of Caching dialog, with Ignore query string default setting selected in Query String Support drop down.](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
 
 4. Verify that **Query String Support** drop down is set to **Ignore query string**. This is the default setting.
 

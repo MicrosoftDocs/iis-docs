@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingErrorEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+title: Smooth Streaming Error Event Args Methods
+description: Describes the methods for smooth streaming errors, and provides various methods and references to consult for additional information.
 TOCTitle: SmoothStreamingErrorEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_methods(v=VS.90)
@@ -8,13 +9,13 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 ---
 
-# SmoothStreamingErrorEventArgs Methods
+# Smooth Streaming Error Event Args Methods
 
 The [SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Methods
 
-||Name|Description|
+|Method|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|

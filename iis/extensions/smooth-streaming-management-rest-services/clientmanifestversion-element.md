@@ -1,6 +1,7 @@
 ---
 title: ClientManifestVersion Element
 TOCTitle: ClientManifestVersion Element
+description: Specifies the client manifest version.
 ms:assetid: 1c430b30-da36-4464-9e81-ebf1d10adccd
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547028(v=VS.90)
 ms:contentKeyID: 37836869

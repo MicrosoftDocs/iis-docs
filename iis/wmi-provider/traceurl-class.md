@@ -1,6 +1,7 @@
 ---
-title: "TraceUrl Class"
-ms.date: "10/07/2016"
+title: TraceUrl Class
+description: Describes the TraceUrl class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c3e5f869-317e-ae63-b882-2f194e4c665a
 ---
 # TraceUrl Class

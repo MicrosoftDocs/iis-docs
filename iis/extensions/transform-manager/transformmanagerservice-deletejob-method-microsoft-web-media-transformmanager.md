@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.DeleteJob Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.DeleteJob method and details its syntax, parameters, and implements.
 TOCTitle: DeleteJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteJob(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.deletejob(v=VS.90)

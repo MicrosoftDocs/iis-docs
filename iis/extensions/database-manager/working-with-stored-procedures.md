@@ -1,7 +1,7 @@
 ---
-title: "Working with Stored Procedures"
+title: Working with Stored Procedures
 author: rick-anderson
-description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server. A database server (that could reside on the sam..."
+description: Describes how to use the IIS Database Manager to create new stored procedures, and how to manage and delete existing procedures.
 ms.date: 03/18/2009
 ms.assetid: 6dc63ae4-06dc-44b9-9504-580130a44c46
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures

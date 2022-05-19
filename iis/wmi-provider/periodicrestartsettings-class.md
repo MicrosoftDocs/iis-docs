@@ -1,5 +1,6 @@
 ---
 title: "PeriodicRestartSettings Class"
+description: Specifies the conditions under which worker processes will be recycled.  
 ms.date: "10/07/2016"
 ms.assetid: dfb46d88-0d13-f66b-440b-dd7eeef10582
 ---

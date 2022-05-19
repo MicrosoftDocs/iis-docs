@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.StartJob Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax for the LocalScheduler.StartJob method, as well as links to additional reference materials. 
 TOCTitle: StartJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.StartJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.startjob(v=VS.90)

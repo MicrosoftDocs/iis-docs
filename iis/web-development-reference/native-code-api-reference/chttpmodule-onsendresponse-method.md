@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnSendResponse Method"
+description: "OnSendResponse method will handle a SendResponse event, which occurs when IIS sends the response buffer."
 ms.date: "10/07/2016"
 ms.assetid: 972128f3-0603-da95-814b-3befc92d1764
 ---

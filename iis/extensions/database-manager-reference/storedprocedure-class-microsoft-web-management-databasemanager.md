@@ -1,5 +1,6 @@
 ---
 title: StoredProcedure Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the StoredProcedure class and provides the class' inheritance hierarchy, syntax, constructors, properties, methods, and remarks.
 TOCTitle: StoredProcedure Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.StoredProcedure
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure(v=VS.90)

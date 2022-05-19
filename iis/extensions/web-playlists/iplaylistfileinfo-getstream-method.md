@@ -1,5 +1,6 @@
 ---
-title: IPlaylistFileInfo::GetStream Method
+title: "IPlaylistFileInfo::GetStream Method"
+description: "Describes the IPlaylistFileInfo::GetStream method and details its arguments, return value, and requirements."
 TOCTitle: IPlaylistFileInfo::GetStream Method
 ms:assetid: 164b2ebd-d2b4-4990-b10e-f9e65db1e9a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146258(v=VS.90)

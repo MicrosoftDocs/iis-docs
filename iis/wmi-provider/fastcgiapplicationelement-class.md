@@ -1,6 +1,7 @@
 ---
-title: "FastCgiApplicationElement Class"
-ms.date: "10/07/2016"
+title: FastCgiApplicationElement Class
+description: Describes the FastCgiApplicationElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7b3b787a-4c1d-4639-bc23-38983fe65e8c
 ---
 # FastCgiApplicationElement Class

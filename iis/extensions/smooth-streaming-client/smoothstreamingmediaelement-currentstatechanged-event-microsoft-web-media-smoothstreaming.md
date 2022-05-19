@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CurrentStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CurrentStateChanged event and provides the event's syntax, remarks, examples, version information, and permissions.
 TOCTitle: CurrentStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentStateChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstatechanged(v=VS.90)

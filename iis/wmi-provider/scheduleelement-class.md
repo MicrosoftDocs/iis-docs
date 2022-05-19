@@ -1,6 +1,7 @@
 ---
-title: "ScheduleElement Class"
-ms.date: "10/07/2016"
+title: ScheduleElement Class
+description: Describes the ScheduleElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e9de8a29-15b2-4f63-9f61-f1e2315dc522
 ---
 # ScheduleElement Class

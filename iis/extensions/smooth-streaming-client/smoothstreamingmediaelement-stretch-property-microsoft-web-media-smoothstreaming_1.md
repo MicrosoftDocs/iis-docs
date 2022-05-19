@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Stretch Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stretch Property
+description: Gets or sets an object that determines how to stretch the media display.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stretch
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.95)
 ms:contentKeyID: 46307845
