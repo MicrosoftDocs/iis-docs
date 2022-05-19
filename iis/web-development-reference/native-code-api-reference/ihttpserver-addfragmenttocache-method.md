@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::AddFragmentToCache Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::AddFragmentToCache method and details its parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1b72f5c0-780b-61af-9796-7bdb5f2017ad
 ---
 # IHttpServer::AddFragmentToCache Method

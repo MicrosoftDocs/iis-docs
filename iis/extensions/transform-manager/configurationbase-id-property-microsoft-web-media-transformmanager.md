@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.Id Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationBase.Id property and details its namespace, assembly, syntax, and property value.
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.id(v=VS.90)

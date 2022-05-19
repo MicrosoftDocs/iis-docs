@@ -1,6 +1,7 @@
 ---
-title: "IReferencedMetadataInfo Interface"
-ms.date: "10/07/2016"
+title: IReferencedMetadataInfo Interface
+description: Describes the IReferencedMetadataInfo interface and details its syntax, methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 345258f4-4161-4f96-9ff1-2056d412d83b
 ---
 # IReferencedMetadataInfo Interface
