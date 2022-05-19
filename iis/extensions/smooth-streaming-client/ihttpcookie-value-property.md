@@ -1,5 +1,6 @@
 ---
 title: IHttpCookie.Value Property
+description: This article provides the syntax for the IHttpCookie.Value property which gets the HTTP cookie value.
 TOCTitle: Value Property
 ms:assetid: 1eb07595-3cee-4c49-862d-73955c35c325
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822694(v=VS.90)

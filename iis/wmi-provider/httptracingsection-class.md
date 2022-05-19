@@ -1,5 +1,6 @@
 ---
 title: "HttpTracingSection Class"
+description: This article details the syntax and methods used for the HttpTracingSection class.
 ms.date: "10/07/2016"
 ms.assetid: 038d500a-3026-be97-4539-205311ac53c3
 ---

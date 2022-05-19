@@ -1,5 +1,6 @@
 ---
 title: ILogger.WriteLine Method  (Microsoft.Web.Media.TransformManager)
+description: This article provides information on the WriteLine method overload list. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 TOCTitle: WriteLine Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ILogger.WriteLine
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.writeline(v=VS.90)

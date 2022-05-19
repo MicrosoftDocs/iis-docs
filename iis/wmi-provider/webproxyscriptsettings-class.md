@@ -1,5 +1,6 @@
 ---
 title: "WebProxyScriptSettings Class"
+description: This article provides code samples and syntax for the WebProxyScriptSettings class. This class configures Web proxy scripts.  
 ms.date: "10/07/2016"
 ms.assetid: 3e5f9462-6c46-4242-be1f-9c7c08928258
 ---

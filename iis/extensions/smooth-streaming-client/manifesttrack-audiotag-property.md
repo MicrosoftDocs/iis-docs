@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.AudioTag Property
+description: This article applies to Windows Store apps on and details the syntax for the ManifestTrack.AudioTag property.
 TOCTitle: AudioTag Property
 ms:assetid: dc68c56c-209a-4ac3-8efc-1a9a63638824
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822845(v=VS.90)

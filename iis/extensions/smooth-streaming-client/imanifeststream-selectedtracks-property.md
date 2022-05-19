@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.SelectedTracks Property
+description: This page gives code samples IManifestStream.SelectedTracks property gets the selected tracks in the current stream.
 TOCTitle: SelectedTracks Property
 ms:assetid: bca9989e-270d-4bf6-90ae-ae587b63855d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822818(v=VS.90)
