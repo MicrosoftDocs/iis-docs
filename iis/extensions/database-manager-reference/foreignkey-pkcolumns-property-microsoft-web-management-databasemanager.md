@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.PKColumns Property (Microsoft.Web.Management.DatabaseManager)
+description: This article has information on syntax and permissions for the ForeignKey.PKColumns property, as well as links to reference materials.
 TOCTitle: PKColumns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKColumns
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.pkcolumns(v=VS.90)

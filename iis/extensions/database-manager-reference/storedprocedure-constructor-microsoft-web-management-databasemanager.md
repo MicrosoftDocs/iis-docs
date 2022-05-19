@@ -1,5 +1,6 @@
 ---
 title: StoredProcedure Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the StoredProcedure constructor and provides the constructor's namespace, assembly, syntax, and permissions.
 TOCTitle: StoredProcedure Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.StoredProcedure.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.storedprocedure(v=VS.90)

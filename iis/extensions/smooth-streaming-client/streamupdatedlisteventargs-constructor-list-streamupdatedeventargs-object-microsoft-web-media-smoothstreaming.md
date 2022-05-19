@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedListEventArgs Constructor (List(StreamUpdatedEventArgs), Object) (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamUpdatedListEventArgs constructor and provides the constructor's syntax, parameters, version information, and permissions.
 TOCTitle: StreamUpdatedListEventArgs Constructor (List(StreamUpdatedEventArgs), Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor(System.Collections.Generic.List{Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs},System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs.streamupdatedlisteventargs(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "IsapiFilterElement Class"
-ms.date: "10/07/2016"
+title: IsapiFilterElement Class
+description: Describes the IsapiFilterElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ed7f5df4-a6e4-bdc5-c585-4b9e7936bbc2
 ---
 # IsapiFilterElement Class

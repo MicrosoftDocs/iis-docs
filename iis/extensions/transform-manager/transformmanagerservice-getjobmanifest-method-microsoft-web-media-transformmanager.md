@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobManifest Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobManifest method created for specified jobs and provides the syntax, parameters, and return value.
 TOCTitle: GetJobManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobManifest(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobmanifest(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobManager.CredentialId Property (Microsoft.Web.Media.TransformManager)
+description: Describes the CredentialId Property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: CredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.CredentialId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.credentialid(v=VS.90)

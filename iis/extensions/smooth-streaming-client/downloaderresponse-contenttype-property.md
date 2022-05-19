@@ -1,6 +1,7 @@
 ---
 title: DownloaderResponse.ContentType Property
 TOCTitle: ContentType Property
+description: Gets the content type.
 ms:assetid: 974810ac-3ca0-48e8-b18a-bb7c9e1da2fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822789(v=VS.90)
 ms:contentKeyID: 50079543

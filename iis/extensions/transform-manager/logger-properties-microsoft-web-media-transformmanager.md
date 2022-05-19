@@ -1,5 +1,6 @@
 ---
 title: Logger Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the Logger properties and provides a table that outlines the name and description for various property types.
 TOCTitle: Logger Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.Logger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger_properties(v=VS.90)

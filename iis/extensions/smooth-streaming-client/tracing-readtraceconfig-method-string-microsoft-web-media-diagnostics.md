@@ -1,5 +1,6 @@
 ---
 title: Tracing.ReadTraceConfig Method (String) (Microsoft.Web.Media.Diagnostics)
+description: Describes the ReadTraceConfig method and provides the method's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: ReadTraceConfig Method (String)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "NamespaceElement Class"
+description: Contains a single configuration namespace reference, similar to the `Import` directive.  
 ms.date: "10/07/2016"
 ms.assetid: b2e367e2-3a03-c212-a6d9-1e1775f0ec6b
 ---

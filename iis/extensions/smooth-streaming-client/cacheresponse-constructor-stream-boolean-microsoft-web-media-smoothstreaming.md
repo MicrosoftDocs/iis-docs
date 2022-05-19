@@ -1,6 +1,7 @@
 ---
 title: CacheResponse Constructor (Stream, Boolean) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Constructor (Stream, Boolean)
+description: Initializes a new instance of the CacheResponse object.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.IO.Stream,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.95)
 ms:contentKeyID: 46307640

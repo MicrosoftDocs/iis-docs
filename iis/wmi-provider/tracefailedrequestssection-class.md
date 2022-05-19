@@ -1,6 +1,7 @@
 ---
-title: "TraceFailedRequestsSection Class"
-ms.date: "10/07/2016"
+title: TraceFailedRequestsSection Class
+description: Describes the TraceFailedRequestsSection class and provides the class' syntax, methods, properties, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 6730e6f8-fff8-8e3b-b50c-42e67b9cec62
 ---
 # TraceFailedRequestsSection Class

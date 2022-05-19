@@ -1,6 +1,7 @@
 ---
-title: "SiteUsesSSLBinding Class1"
-ms.date: "10/07/2016"
+title: SiteUsesSSLBinding Class1
+description: Describes the SiteUsesSSLBinding class and provides the class' syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 69e2999c-5dad-e71b-afa4-677d94297146
 ---
 # SiteUsesSSLBinding Class1

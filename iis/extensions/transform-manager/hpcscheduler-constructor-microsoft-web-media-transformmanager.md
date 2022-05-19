@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: HpcScheduler Constructor
+description: Initializes a new instance of the HpcScheduler class.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.hpcscheduler(v=VS.90)
 ms:contentKeyID: 35520988

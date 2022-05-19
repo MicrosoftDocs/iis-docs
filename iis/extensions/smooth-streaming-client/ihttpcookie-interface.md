@@ -1,6 +1,7 @@
 ---
 title: IHttpCookie Interface
 TOCTitle: IHttpCookie Interface
+description: Represents the HttpCookie interface.
 ms:assetid: b3a990a9-ea5c-4102-8ad0-da7257b3fd38
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822813(v=VS.90)
 ms:contentKeyID: 50079567

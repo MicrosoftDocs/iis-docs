@@ -1,6 +1,7 @@
 ---
-title: "ConfigurationHistorySection Class"
-ms.date: "10/07/2016"
+title: ConfigurationHistorySection Class
+description: Describes the ConfigurationHistorySection class and provides the class' syntax, properties, remarks, examples, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a512b40b-5c31-4970-ba68-0a723fb9e5a5
 ---
 # ConfigurationHistorySection Class

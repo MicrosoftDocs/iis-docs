@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.Segment Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamInfo.Segment property and provides the property's syntax, remarks, and version information.
 TOCTitle: Segment Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.segment(v=VS.95)

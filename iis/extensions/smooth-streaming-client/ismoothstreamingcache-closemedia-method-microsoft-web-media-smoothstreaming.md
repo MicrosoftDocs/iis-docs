@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache.CloseMedia Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CloseMedia Method
+description: Ends ISmoothStreamingCache operations for the specified media.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.CloseMedia(System.Uri)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.closemedia(v=VS.95)
 ms:contentKeyID: 46307662

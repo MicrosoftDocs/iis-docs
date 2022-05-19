@@ -1,6 +1,7 @@
 ---
 title: SmoothByteStreamHandler.SetProperties Method
 TOCTitle: SetProperties Method
+description: Sets the Smooth Byte Stream Handler properties.
 ms:assetid: 1797d7e6-4646-4c00-9bdc-c51462705e66
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822685(v=VS.90)
 ms:contentKeyID: 50079440

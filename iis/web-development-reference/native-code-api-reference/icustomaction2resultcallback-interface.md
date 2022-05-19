@@ -1,6 +1,7 @@
 ---
-title: "ICustomAction2ResultCallback Interface"
-ms.date: "10/07/2016"
+title: ICustomAction2ResultCallback Interface
+description: Describes the ICustomAction2ResultCallback interface and details its syntax, methods, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 51616d49-1f8a-4379-8dd3-8520c846b185
 ---
 # ICustomAction2ResultCallback Interface

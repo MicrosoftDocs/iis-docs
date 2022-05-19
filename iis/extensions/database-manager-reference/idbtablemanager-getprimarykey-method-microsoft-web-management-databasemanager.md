@@ -1,5 +1,6 @@
 ---
 title: IDbTableManager.GetPrimaryKey Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableManager.GetPrimaryKey method and provides the method's syntax, remarks, examples, and permissions.
 TOCTitle: GetPrimaryKey Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetPrimaryKey(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.getprimarykey(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskIndex Method
+description: Sets the index of a task for the local scheduler.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskIndex(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.settaskindex(v=VS.90)
 ms:contentKeyID: 35520966

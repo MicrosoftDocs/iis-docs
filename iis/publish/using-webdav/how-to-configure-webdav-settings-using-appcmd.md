@@ -1,7 +1,7 @@
 ---
-title: "How to Configure WebDAV Settings Using AppCmd"
+title: How to Configure WebDAV Settings Using AppCmd
 author: rmcmurray
-description: "Introduction Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server..."
+description: Describes how to configure WebDAV settings using the AppCmd.exe utility from a command-line or batch script.
 ms.date: 02/14/2008
 ms.assetid: 375c1a34-4245-46de-a700-13def000bfc4
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd
