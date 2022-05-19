@@ -1,6 +1,7 @@
 ---
-title: "DiagnosticsSettings Class"
-ms.date: "10/07/2016"
+title: DiagnosticsSettings Class
+description: Describes the DiagnosticsSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: fcaedf87-b8b1-4520-1213-c8d107069ec6
 ---
 # DiagnosticsSettings Class
