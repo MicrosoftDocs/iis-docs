@@ -1,6 +1,6 @@
 ---
 title: CacheRequest.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
-description: The CanonicalUri Property provides the URL of a request. This page details the syntax used.
+description: The CanonicalUri property provides the URL of a request. This page details the code syntax used.
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.canonicaluri(v=VS.90)
