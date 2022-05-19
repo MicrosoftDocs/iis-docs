@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::GetVrPath Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpFileInfo::GetVrPath method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: ac22a82f-31dc-f432-2fe0-9e816e439d91
 ---
 # IHttpFileInfo::GetVrPath Method
