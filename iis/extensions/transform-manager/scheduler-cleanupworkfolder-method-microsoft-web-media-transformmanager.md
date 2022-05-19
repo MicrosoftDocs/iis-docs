@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# CleanupWorkFolder Method
+# Scheduler.CleanupWorkFolder Method
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Markers Property (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Markers Property | Microsoft.Web.Media.SmoothStreaming
 description: "This article shares the syntax for the Markers Property, which gets the markers collection for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: Markers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers

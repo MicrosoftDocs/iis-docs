@@ -1,5 +1,5 @@
 ---
-title: ClipContext.ClipInformation Property (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.ClipInformation Property | Microsoft.Web.Media.SmoothStreaming
 description: "This article shows the ClipContext.ClipInformation Property syntax, which gets or sets the ClipInformation Property for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: ClipInformation Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.ClipInformation

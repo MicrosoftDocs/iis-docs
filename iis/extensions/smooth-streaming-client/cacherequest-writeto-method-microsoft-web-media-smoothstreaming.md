@@ -25,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# WriteTo Method
+# WriteTo Method (Microsoft.Web.Media.SmoothStreaming)
 
 Writes the request to a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.
 

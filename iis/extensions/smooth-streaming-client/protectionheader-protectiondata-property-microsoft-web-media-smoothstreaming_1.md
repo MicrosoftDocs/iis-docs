@@ -1,5 +1,5 @@
 ---
-title: ProtectionHeader.ProtectionData Property (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader.ProtectionData Property | Microsoft.Web.Media.SmoothStreaming
 description: "This article shows the ProtectorHead.ProtectionData Property syntax, which gets or sets the protection data relevant to the SystemID Property."
 TOCTitle: ProtectionData Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionData
