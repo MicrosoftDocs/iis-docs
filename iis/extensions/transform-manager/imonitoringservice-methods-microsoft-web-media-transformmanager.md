@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the IMonitoringService methods and provides a table that outlines the name and description for various method types.
 TOCTitle: IMonitoringService Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IMonitoringService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice_methods(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: Column.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
-description: This code sample details how to get or set a value that specifies the original name of the database column.
+=======
+description: This article has information on syntax and permissions for the Column.OriginalName property, as well as links to reference materials.
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.OriginalName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.originalname(v=VS.90)

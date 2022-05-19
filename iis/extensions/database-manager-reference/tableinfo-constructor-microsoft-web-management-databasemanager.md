@@ -1,6 +1,7 @@
 ---
 title: TableInfo Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TableInfo Constructor
+description: Creates a new instance of the TableInfo class.
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.TableInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.tableinfo(v=VS.90)
 ms:contentKeyID: 20476397

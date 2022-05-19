@@ -1,5 +1,6 @@
 ---
 title: PublishingPoint Element
+description: Describes the PublishingPoint element and provides the element's attributes, parent element, and remarks.
 TOCTitle: PublishingPoint Element
 ms:assetid: 863b8bf0-67ba-4d6c-b7c4-28059d5ef9c1
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547048(v=VS.90)

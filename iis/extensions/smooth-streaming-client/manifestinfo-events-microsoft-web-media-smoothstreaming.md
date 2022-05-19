@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo Events (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ManifestInfo event type and provides available events via a table that provides a Name and Description of each event type.
 TOCTitle: ManifestInfo Events
 ms:assetid: Events.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_events(v=VS.90)

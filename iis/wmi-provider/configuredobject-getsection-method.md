@@ -1,6 +1,7 @@
 ---
-title: "ConfiguredObject.GetSection Method"
-ms.date: "10/07/2016"
+title: ConfiguredObject.GetSection Method
+description: Describes the ConfiguredObject.GetSection method and provides the method's syntax, parameters, remarks, examples, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 31cf1e5c-75cd-6fc6-ac1e-1fdf1da1061d
 ---
 # ConfiguredObject.GetSection Method

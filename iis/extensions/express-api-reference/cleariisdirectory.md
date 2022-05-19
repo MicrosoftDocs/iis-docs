@@ -1,5 +1,6 @@
 ---
 title: "ClearIISDirectory"
+description: Deletes the IIS Express directory for the current user.  
 ms.date: "10/07/2016"
 ms.assetid: bdeb24c3-2917-4218-86b7-b78818649a6a
 ---

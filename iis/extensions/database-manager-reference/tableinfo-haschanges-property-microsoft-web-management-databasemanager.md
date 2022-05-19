@@ -1,6 +1,7 @@
 ---
 title: TableInfo.HasChanges Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: HasChanges Property
+description: Gets or sets a value that indicates whether the table information has changes.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.HasChanges
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.haschanges(v=VS.90)
 ms:contentKeyID: 22049619

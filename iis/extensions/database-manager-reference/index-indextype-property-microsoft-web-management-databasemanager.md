@@ -1,5 +1,6 @@
 ---
 title: Index.IndexType Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index.IndexType property and provides the property's syntax, property value, examples, and permissions.
 TOCTitle: IndexType Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IndexType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.indextype(v=VS.90)

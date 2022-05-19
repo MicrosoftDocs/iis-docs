@@ -1,5 +1,6 @@
 ---
 title: "IAppDomainInfoEnum Interface"
+description: "Syntax used to provide access to each application domain and methods exposed by the IAppDomainInfoEnum interface."
 ms.date: "10/07/2016"
 ms.assetid: 518d5cde-6260-9f20-ae66-05cd38edcddd
 ---

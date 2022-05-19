@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo.OriginalValue Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ColumnDataInfo.OriginalValue property and provides the property's syntax, property value, examples, and permissions.
 TOCTitle: OriginalValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.OriginalValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.originalvalue(v=VS.90)

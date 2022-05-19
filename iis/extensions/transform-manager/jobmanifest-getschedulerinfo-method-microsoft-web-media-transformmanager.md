@@ -1,5 +1,6 @@
 ---
 title: JobManifest.GetSchedulerInfo Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetSchedulerInfo method and provides the method's syntax, return value, and what the method implements.
 TOCTitle: GetSchedulerInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetSchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getschedulerinfo(v=VS.90)

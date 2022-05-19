@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty.CreatePropertyElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreatePropertyElement Method
+description: "Syntax used to create a manifest property element located in the Microsoft.Web.Media.TransformManager.Sdk assembly."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.CreatePropertyElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.createpropertyelement(v=VS.90)
 ms:contentKeyID: 35521196

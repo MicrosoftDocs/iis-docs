@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.GetJobDetailsById Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobDetailsById method and provide the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: GetJobDetailsById Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsById(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobdetailsbyid(v=VS.90)

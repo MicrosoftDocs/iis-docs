@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceFailedEventArgs.FailType Property
+description: Describes the AdaptiveSourceFailedEventArgs.FailType property and provides the property's syntax, property value, and requirements.
 TOCTitle: FailType Property
 ms:assetid: 01c5f676-773e-46f5-9c7f-1ab8c2a53dad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ851082(v=VS.90)

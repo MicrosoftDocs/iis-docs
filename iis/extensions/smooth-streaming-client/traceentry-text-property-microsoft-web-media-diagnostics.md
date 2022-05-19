@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.Text Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the Text property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: Text Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Text
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.text(v=VS.90)

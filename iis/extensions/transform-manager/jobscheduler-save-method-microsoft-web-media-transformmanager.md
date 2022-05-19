@@ -1,5 +1,6 @@
 ---
 title: JobScheduler.Save Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Save method and provides the method's namespace, assembly, syntax, parameters, and exceptions.
 TOCTitle: Save Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobScheduler.Save(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.save(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: IncomingBitRate Element
 TOCTitle: IncomingBitRate Element
+description: "Specifies the rate, in bits per second, that the live source sends the track data to the publishing point."
 ms:assetid: d1ac089c-220b-474d-ab68-11911dc8736a
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547063(v=VS.90)
 ms:contentKeyID: 37836904

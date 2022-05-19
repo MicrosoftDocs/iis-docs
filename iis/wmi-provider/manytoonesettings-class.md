@@ -1,5 +1,6 @@
 ---
 title: "ManyToOneSettings Class"
+description: Specifies many-to-one client certificate mappings.
 ms.date: "10/07/2016"
 ms.assetid: 3e491109-fc59-41cd-b25f-0f5eddca04cc
 ---

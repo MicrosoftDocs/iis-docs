@@ -1,5 +1,6 @@
 ---
 title: IDownloaderPlugin.RequestAsync Method
+description: This article outlines syntax, parameters, return value, and requirements for the IDownloaderPlugin.RequestAsync method.
 TOCTitle: RequestAsync Method
 ms:assetid: 5fc7254f-afe3-4245-acfa-a5ed986e3dc9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822748(v=VS.90)

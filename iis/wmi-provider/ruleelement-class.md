@@ -1,6 +1,7 @@
 ---
-title: "RuleElement Class"
-ms.date: "10/07/2016"
+title: RuleElement Class
+description: Describes the RuleElement class and provides the class' syntax, properties, remarks, inheritance hierarchies, and requirements.
+ms.date: 10/07/2016
 ms.assetid: cc574d49-ab7a-4bf9-8d38-5b20d01ff33a
 ---
 # RuleElement Class

@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Constructor (Uri) (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheRequest Constructor and provides the constructor's syntax, parameters, and version information.
 TOCTitle: CacheRequest Constructor (Uri)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor(System.Uri)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.95)

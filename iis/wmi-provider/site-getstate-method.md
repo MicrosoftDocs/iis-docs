@@ -1,6 +1,7 @@
 ---
-title: "Site.GetState Method1"
-ms.date: "10/07/2016"
+title: Site.GetState Method1
+description: Describes the Site.GetState method and provides the method's syntax, parameters, return value, example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c645f4bb-5ba5-9bcd-1edb-b64867b8663a
 ---
 # Site.GetState Method1

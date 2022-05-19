@@ -1,6 +1,7 @@
 ---
-title: "BuildProviderSettings Class"
-ms.date: "10/07/2016"
+title: BuildProviderSettings Class
+description: Describes the BuildProviderSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8158fe94-1afe-4ce0-b2eb-c3be4f15a3fa
 ---
 # BuildProviderSettings Class

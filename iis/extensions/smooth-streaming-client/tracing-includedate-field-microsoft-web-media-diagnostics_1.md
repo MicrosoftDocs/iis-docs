@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeDate Field (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.IncludeDate field and details the field's syntax, version information, and Silverlight information.
 TOCTitle: IncludeDate Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeDate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includedate(v=VS.95)

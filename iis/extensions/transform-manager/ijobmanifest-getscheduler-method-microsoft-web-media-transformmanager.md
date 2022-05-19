@@ -1,5 +1,6 @@
 ---
 title: IJobManifest.GetScheduler Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetScheduler method and provides the method's namespace, assembly, syntax, and return value.
 TOCTitle: GetScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobManifest.GetScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest.getscheduler(v=VS.90)

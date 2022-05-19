@@ -1,5 +1,6 @@
 ---
 title: Delete a Publishing Point
+description: Describes the Delete a Publishing Point operation and details its point state, request, URI parameters, request body, response, and status code.
 TOCTitle: Delete a Publishing Point
 ms:assetid: 00e26775-66b9-49f5-aad9-bf445205cdda
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206005(v=VS.90)

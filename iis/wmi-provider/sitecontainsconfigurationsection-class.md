@@ -1,5 +1,6 @@
 ---
 title: "SiteContainsConfigurationSection Class1"
+description: Provides a relationship between a Web site and its configuration sections.  
 ms.date: "10/07/2016"
 ms.assetid: 41e78754-a0bb-4800-aaad-4c6ed9392d4d
 ---

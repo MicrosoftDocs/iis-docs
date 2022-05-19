@@ -1,7 +1,7 @@
 ---
-title: "Mayando FAQ"
+title: Mayando FAQ
 author: rick-anderson
-description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+description: Provides a list of frequently asked questions and answers regarding Mayando installation, configuration, and known issues.
 ms.date: 07/06/2010
 ms.assetid: 3c94f680-9725-4f82-a1ae-514e8fd662ba
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/mayando-faq
