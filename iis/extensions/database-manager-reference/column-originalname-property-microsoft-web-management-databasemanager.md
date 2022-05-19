@@ -1,6 +1,5 @@
 ---
 title: Column.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
-=======
 description: This article has information on syntax and permissions for the Column.OriginalName property, as well as links to reference materials.
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.OriginalName
