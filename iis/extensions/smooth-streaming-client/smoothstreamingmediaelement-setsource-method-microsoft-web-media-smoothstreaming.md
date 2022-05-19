@@ -25,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SetSource Method
+# SetSource Method | Microsoft.Web.Media.SmoothStreaming
 
 Sets the source of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object.
 
