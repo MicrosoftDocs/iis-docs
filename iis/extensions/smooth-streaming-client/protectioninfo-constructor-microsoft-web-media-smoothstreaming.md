@@ -1,6 +1,7 @@
 ---
 title: ProtectionInfo Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Constructor
+description: Initializes a new instance of the ProtectionInfo class.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo.protectioninfo(v=VS.90)
 ms:contentKeyID: 31469177
