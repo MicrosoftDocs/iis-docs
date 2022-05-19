@@ -1,6 +1,6 @@
 ---
 title: Column Methods (Microsoft.Web.Management.DatabaseManager)
-description: A list of column methods available for columns.
+description: This article provides a description and list of public and private column methods available for databases.
 TOCTitle: Column Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Column
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column_methods(v=VS.90)

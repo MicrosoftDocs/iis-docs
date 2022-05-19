@@ -1,6 +1,6 @@
 ---
 title: Column.Length Property (Microsoft.Web.Management.DatabaseManager)
-description: The code presented show how to get or set a value that specifies the length of the database column.
+description: The code samples presented show how to get or set a value that specifies the length of the database column.
 TOCTitle: Length Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Length
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.length(v=VS.90)

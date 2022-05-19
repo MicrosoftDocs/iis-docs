@@ -1,6 +1,6 @@
 ---
 title: Column Properties (Microsoft.Web.Management.DatabaseManager)
-description: This is a list of properties that can be used with a column.
+description: This article provides a link and description for a list of properties available for the column class.
 TOCTitle: Column Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.Column
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column_properties(v=VS.90)
