@@ -1,6 +1,7 @@
 ---
 title: Table.CreateDate Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: CreateDate Property
+description: "The Table.CreateDate property gets or sets the creation date for a table. This article describes its syntax, property value, examples, and permissions."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Table.CreateDate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table.createdate(v=VS.90)
 ms:contentKeyID: 20476800

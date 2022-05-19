@@ -1,6 +1,7 @@
 ---
 title: IndexColumn Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexColumn Methods
+description: "The names and descriptions of the members that are exposed by the IndexColumn type. Additional references are provided."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IndexColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn_methods(v=VS.90)
 ms:contentKeyID: 20476647

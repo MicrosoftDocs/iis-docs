@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSources Property
 TOCTitle: AdaptiveSources Property
+description: "The AdaptiveSourceManager.AdaptiveSources property gets the list of opened adaptive sources. This article describes its syntax, property value, and requirements."
 ms:assetid: 4876a0b2-6da2-41d3-a8de-f122335bfc2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822727(v=VS.90)
 ms:contentKeyID: 50079482
