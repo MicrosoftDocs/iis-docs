@@ -1,5 +1,6 @@
 ---
 title: Logger Class (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax, methods, properties, constructors, inheritence hierarchy, and thread safety for the Logger class.
 TOCTitle: Logger Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Logger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger(v=VS.90)

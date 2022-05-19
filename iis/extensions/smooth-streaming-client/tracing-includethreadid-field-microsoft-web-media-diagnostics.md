@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeThreadId Field (Microsoft.Web.Media.Diagnostics)
+description: This article contains information on syntax, versions, and permissions for the IncludeThreadId field.
 TOCTitle: IncludeThreadId Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeThreadId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includethreadid(v=VS.90)

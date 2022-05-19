@@ -1,5 +1,6 @@
 ---
 title: "HealthMonitoringSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritence hierarchy, and requirements for the HealthMonitoringSection class.
 ms.date: "10/07/2016"
 ms.assetid: 8fd30064-d022-b1a0-6011-75b020d101dd
 ---
