@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Master Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shows the SmoothStreamingMediaElement.Master Property syntax, which gets or sets the master (parent) object for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: Master Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.master(v=VS.95)

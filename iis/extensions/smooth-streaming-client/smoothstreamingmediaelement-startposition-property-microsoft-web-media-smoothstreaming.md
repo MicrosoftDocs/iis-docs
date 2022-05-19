@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares syntax for the StartPosition Property, which gets or sets the start position of the current stream for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.StartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.startposition(v=VS.90)

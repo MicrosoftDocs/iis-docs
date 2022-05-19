@@ -1,5 +1,6 @@
 ---
-title: CacheRequest.WriteTo Method  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheRequest.WriteTo Method (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares the syntax of the CacheRequest.WriteTo Method, which writes the request to a Stream object for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: WriteTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.WriteTo(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.writeto(v=VS.90)

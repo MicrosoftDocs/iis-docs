@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoDownloadTrack Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares the VideoDownloadTrack Property syntax, which gets the video download track for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: VideoDownloadTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoDownloadTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videodownloadtrack(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: TableInfo.Indexes Property (Microsoft.Web.Management.DatabaseManager)
+description: "This article shares the syntax of the TableInfo.Indexes Property, which returns a list of indexes within the table information with Microsoft.Web.Management.DatabaseManager."
 TOCTitle: Indexes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Indexes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.indexes(v=VS.90)

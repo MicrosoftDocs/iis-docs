@@ -1,5 +1,6 @@
 ---
-title: Scheduler.CleanupWorkFolder Method  (Microsoft.Web.Media.TransformManager)
+title: Scheduler.CleanupWorkFolder Method (Microsoft.Web.Media.TransformManager)
+description: "This article shares the Scheduler.CleanupWorkFolder Method syntax for Microsoft.Web.Media.TransformManager."
 TOCTitle: CleanupWorkFolder Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.CleanupWorkFolder(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.cleanupworkfolder(v=VS.90)

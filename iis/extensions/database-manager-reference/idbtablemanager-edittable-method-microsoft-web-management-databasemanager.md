@@ -1,5 +1,6 @@
 ---
-title: IDbTableManager.EditTable Method  (Microsoft.Web.Management.DatabaseManager)
+title: IDbTableManager.EditTable Method (Microsoft.Web.Management.DatabaseManager)
+description: "This article shares the IDbTableManager.EditTable Method syntax, which modifies a table in a database for Microsoft.Web.Management.DatabaseManager."
 TOCTitle: EditTable Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.EditTable(System.String,System.String,Microsoft.Web.Management.DatabaseManager.TableInfo)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.edittable(v=VS.90)

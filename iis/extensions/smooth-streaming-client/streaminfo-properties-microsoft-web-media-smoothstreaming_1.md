@@ -1,5 +1,6 @@
 ---
 title: StreamInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares properties exposed by the StreamInfo type for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: StreamInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo_properties(v=VS.95)

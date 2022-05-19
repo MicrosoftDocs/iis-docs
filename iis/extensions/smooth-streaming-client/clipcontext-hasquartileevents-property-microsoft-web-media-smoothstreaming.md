@@ -1,5 +1,6 @@
 ---
 title: ClipContext.HasQuartileEvents Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares the syntax for ClipContext.HasQuartileEvents Property, which gets or sets the HasQuartileEvents Property. This value specifies whether the clip context has inserted quartile event markers into the clip."
 TOCTitle: HasQuartileEvents Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.HasQuartileEvents
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.hasquartileevents(v=VS.90)
