@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceFailedEventHandler Delegate
 TOCTitle: AdaptiveSourceFailedEventHandler Delegate
+description: "The AdaptiveSourceFailedEventHandler delegate is the actual handler for the failed event. This article describes its syntax, parameters, return value, and requirements."
 ms:assetid: debc6975-a965-488b-80bc-be84b77ac056
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822849(v=VS.90)
 ms:contentKeyID: 50079603

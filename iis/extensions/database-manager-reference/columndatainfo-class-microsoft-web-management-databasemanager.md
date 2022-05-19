@@ -1,6 +1,7 @@
 ---
 title: ColumnDataInfo Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnDataInfo Class
+description: "The ColumnDataInfo class represents the information about the data in a column within the database that is being managed."
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo(v=VS.90)
 ms:contentKeyID: 20476418
