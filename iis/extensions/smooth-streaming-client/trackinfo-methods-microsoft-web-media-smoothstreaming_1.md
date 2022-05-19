@@ -1,6 +1,6 @@
 ---
 title: TrackInfo Methods (Microsoft.Web.Media.SmoothStreaming)
-description: Describes the TrackInfo methods and provides a table that outlines the name and description for various method types.
+description: Describes the TrackInfo methods and contains a table that provides the name and description for various method types.
 TOCTitle: TrackInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo_methods(v=VS.95)
