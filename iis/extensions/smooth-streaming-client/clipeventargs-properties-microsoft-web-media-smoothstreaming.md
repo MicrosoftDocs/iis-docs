@@ -1,6 +1,7 @@
 ---
 title: ClipEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipEventArgs Properties
+descriptions: "The Context property is listed as a member that is exposed by the ClipEventArgs type. It shows the property type, name, and description."
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs_properties(v=VS.90)
 ms:contentKeyID: 23961151

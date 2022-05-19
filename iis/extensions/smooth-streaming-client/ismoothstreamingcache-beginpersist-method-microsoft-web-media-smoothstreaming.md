@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache.BeginPersist Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BeginPersist Method
+description: "The ISmoothStreamingCache.BeginPersist method begins to persist a cache response. This article describes its syntax, examples, and version information."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginPersist(Microsoft.Web.Media.SmoothStreaming.CacheRequest,Microsoft.Web.Media.SmoothStreaming.CacheResponse,System.AsyncCallback,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.beginpersist(v=VS.90)
 ms:contentKeyID: 31469282

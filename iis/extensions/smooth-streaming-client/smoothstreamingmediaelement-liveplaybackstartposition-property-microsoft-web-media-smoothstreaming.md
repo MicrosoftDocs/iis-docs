@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LivePlaybackStartPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackStartPosition Property
+description: "The LivePlaybackStartPosition property gets or sets the starting position to use during live playback."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackStartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackstartposition(v=VS.90)
 ms:contentKeyID: 23961197
