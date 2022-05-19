@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.ExpiryTime Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shows the CacheResponse.ExpiryTime Property syntax for the Microsoft.Web.Media.SmoothStreaming extension."
 TOCTitle: ExpiryTime Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.expirytime(v=VS.90)

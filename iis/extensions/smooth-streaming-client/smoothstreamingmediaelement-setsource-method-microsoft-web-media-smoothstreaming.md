@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SetSource Method  (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shows how to set the source method for the SmoothStreamingMediaElement object, providing syntax, parameters, notes, version information, permissions, and reference links."
 TOCTitle: SetSource Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetSource(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setsource(v=VS.90)

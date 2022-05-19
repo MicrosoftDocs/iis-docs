@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty Fields (Microsoft.Web.Media.TransformManager)
+description: "This article shows what fields are exposed by the ManifestProperty type."
 TOCTitle: ManifestProperty Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.ManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty_fields(v=VS.90)

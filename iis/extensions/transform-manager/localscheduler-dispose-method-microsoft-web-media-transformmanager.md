@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: "This article contains a Dispose Method Overload List within TransformManager."
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.LocalScheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
