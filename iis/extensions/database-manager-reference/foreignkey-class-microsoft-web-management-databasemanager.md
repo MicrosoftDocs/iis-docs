@@ -1,6 +1,6 @@
 ---
 title: ForeignKey Class (Microsoft.Web.Management.DatabaseManager)
-description: This article has information about inheritence hierarchy, syntax, constructors, properties, methods, and thread safety for the ForeignKey class.
+description: This article has information about inheritance hierarchy, syntax, constructors, properties, methods, and thread safety for the ForeignKey class.
 TOCTitle: ForeignKey Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ForeignKey
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey(v=VS.90)
