@@ -1,5 +1,6 @@
 ---
 title: JobManager.SchedulerId Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and property value for the SchedulerId property, as well as links to additional resources.
 TOCTitle: SchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.schedulerid(v=VS.90)

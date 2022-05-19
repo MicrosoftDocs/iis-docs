@@ -1,5 +1,6 @@
 ---
 title: EstimatedDuration Element
+description: This article contains information about child elements and parent elements for the EstimatedDuration element.
 TOCTitle: EstimatedDuration Element
 ms:assetid: c4281a2c-9d44-413c-9f79-62402a355427
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547060(v=VS.90)
