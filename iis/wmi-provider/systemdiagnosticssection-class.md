@@ -1,6 +1,7 @@
 ---
-title: "SystemDiagnosticsSection Class"
-ms.date: "10/07/2016"
+title: SystemDiagnosticsSection Class
+description: Describes the SystemDiagnosticsSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d7245c41-accd-e0ea-162b-412d8c1cdd33
 ---
 # SystemDiagnosticsSection Class
