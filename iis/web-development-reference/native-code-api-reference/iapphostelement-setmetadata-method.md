@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElement::SetMetadata Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostElement::SetMetadata method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5d899f75-0c27-5c5a-4fb9-f023be42222d
 ---
 # IAppHostElement::SetMetadata Method

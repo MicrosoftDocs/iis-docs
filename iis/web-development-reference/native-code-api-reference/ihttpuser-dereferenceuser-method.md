@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::DereferenceUser Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUser::DereferenceUser method and details its syntax, parameters, thread safety, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 2d8b0c37-ea6a-2bd6-a6f6-0df5c62f513e
 ---
 # IHttpUser::DereferenceUser Method
