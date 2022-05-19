@@ -1,5 +1,6 @@
 ---
 title: "NameValueConfigurationElement Class"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the NameValueConfigurationElement class.
 ms.date: "10/07/2016"
 ms.assetid: 73267495-b5ed-38d8-d9b0-eac32f22dbd2
 ---
