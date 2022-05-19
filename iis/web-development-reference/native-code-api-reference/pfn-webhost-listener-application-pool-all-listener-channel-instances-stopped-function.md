@@ -1,6 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function"
-ms.date: "10/07/2016"
+title: PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function
+description: Describes the PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED function and details its syntax and requirements.
+ms.date: 10/07/2016
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function

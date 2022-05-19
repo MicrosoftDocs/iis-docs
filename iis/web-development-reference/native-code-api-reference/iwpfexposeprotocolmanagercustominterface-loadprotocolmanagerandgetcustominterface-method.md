@@ -1,5 +1,6 @@
 ---
-title: IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
+title: "IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method"
+description: "Describes the IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface method and details its syntax and requirements."
 TOCTitle: IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 ms:assetid: 2e151498-c316-680f-71cf-84ab02245717
 ms:mtpsurl: https://msdn.microsoft.com/library/ms690765(v=VS.90)
