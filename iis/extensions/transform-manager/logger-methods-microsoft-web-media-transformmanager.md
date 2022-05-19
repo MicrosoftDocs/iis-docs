@@ -1,6 +1,6 @@
 ---
 title: Logger Methods (Microsoft.Web.Media.TransformManager)
-description: This article has information about the members exposed by Logger methods. There aer also links to reference materials. 
+description: This article has information about the members exposed by Logger methods. There are also links to reference materials. 
 TOCTitle: Logger Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.Logger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger_methods(v=VS.90)
