@@ -1,5 +1,6 @@
 ---
 title: ForeignKeyColumn Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ForeignKeyColumn class and provides the class' inheritance hierarchy, namespace, assembly, syntax, methods, and fields.
 TOCTitle: ForeignKeyColumn Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn(v=VS.90)

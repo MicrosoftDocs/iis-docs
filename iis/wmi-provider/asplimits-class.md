@@ -1,6 +1,7 @@
 ---
-title: "AspLimits Class"
-ms.date: "10/07/2016"
+title: AspLimits Class
+descriptions: Describes the AspLimits class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7e2263ab-ad01-26b5-3846-fdf08a65f7bb
 ---
 # AspLimits Class
