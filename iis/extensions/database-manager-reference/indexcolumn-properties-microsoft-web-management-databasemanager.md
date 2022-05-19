@@ -17,8 +17,8 @@ The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
+|**![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")**|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
+|**![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")**|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
 
 ## See Also
 
