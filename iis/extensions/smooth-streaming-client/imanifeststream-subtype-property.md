@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.SubType Property
+description: This article contains informaation about syntax, property value, and requirements for the IManifestStream.SubType property.
 TOCTitle: SubType Property
 ms:assetid: 226202f3-45b1-406e-a58f-5db7648655e8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822702(v=VS.90)

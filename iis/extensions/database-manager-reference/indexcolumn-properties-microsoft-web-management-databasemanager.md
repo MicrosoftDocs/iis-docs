@@ -1,5 +1,6 @@
 ---
 title: IndexColumn Properties (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines the members exposed by the IndexColumn properties, with links to additional reference materials.
 TOCTitle: IndexColumn Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.IndexColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn_properties(v=VS.90)
