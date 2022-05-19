@@ -1,6 +1,7 @@
 ---
 title: AdvancedLoggingPlugin Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: AdvancedLoggingPlugin Class
+description: Posts advanced logs to a server that by default will upload a log every 30 seconds.
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin(v=VS.90)
 ms:contentKeyID: 31469158

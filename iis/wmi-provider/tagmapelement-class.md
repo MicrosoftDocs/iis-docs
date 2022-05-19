@@ -1,5 +1,6 @@
 ---
 title: "TagMapElement Class"
+description: Contains a statement that remaps a tag type.
 ms.date: "10/07/2016"
 ms.assetid: d7ab3ae1-eb52-436f-ae9b-8be91af32849
 ---

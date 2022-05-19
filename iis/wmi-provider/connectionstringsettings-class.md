@@ -1,5 +1,6 @@
 ---
 title: "ConnectionStringSettings Class"
+description: Represents a named database connection string.
 ms.date: "10/07/2016"
 ms.assetid: 0b744a62-f9b9-3be4-b471-5aa5a6ad7ffd
 ---
