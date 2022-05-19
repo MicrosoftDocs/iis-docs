@@ -1,6 +1,7 @@
 ---
 title: "IHttpApplication2::EndApplicationWarmup Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpApplication2::EndApplicationWarmup method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: cff4a5d4-1e23-489b-8b50-ce4466d505dc
 ---
 # IHttpApplication2::EndApplicationWarmup Method

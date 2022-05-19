@@ -1,8 +1,9 @@
 ---
-title: "IHttpContext3 Interface"
-ms.date: "10/07/2016"
+title: IHttpContext3 Interface
+description: Describes the IHttpContext3 interface and details its syntax, methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0d446756-92cf-4edb-a806-615829b55339
-ms.author: "robmcm"
+ms.author: robmcm
 ---
 # IHttpContext3 Interface
 Represents the reprocessing of an HTTP request and enables additional support for asynchronous operations.  
