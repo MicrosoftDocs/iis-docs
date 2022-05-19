@@ -29,7 +29,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SmoothStreamingMediaElement.StartPosition Property
+# StartPosition Property | Microsoft.Web.Media.SmoothStreaming
 
 Gets or sets the start position of the current stream.
 
