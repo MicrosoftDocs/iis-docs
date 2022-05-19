@@ -1,6 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs.LogSource Property (Microsoft.Web.Media.SmoothStreaming)
-description: Describes the LogSource property and provides the property's namespace, assembly, syntasx, property value, version information, and permissions.
+description: Describes the LogSource property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: LogSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.LogSource
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.logsource(v=VS.90)
