@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedListEventArgs Constructor (Exception, Object) (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedListEventArgs Constructor (Exception, Object) | Microsoft.Web.Media.SmoothStreaming
 description: "This article shows the StreamUpdatedListEventArgs Constructor syntax, which initializes a new instance of the StreamUpdatedListEventArgs class."
 TOCTitle: StreamUpdatedListEventArgs Constructor (Exception, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor(System.Exception,System.Object)
@@ -24,7 +24,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# StreamUpdatedListEventArgs Constructor (Exception, Object)
+# StreamUpdatedListEventArgs Constructor (Exception, Object) | Microsoft.Web.Media.SmoothStreaming
 
 Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md) class.
 

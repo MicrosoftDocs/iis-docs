@@ -1,5 +1,5 @@
 ---
-title: ISmoothStreamingCache.OpenMedia Method  (Microsoft.Web.Media.SmoothStreaming)
+title: ISmoothStreamingCache.OpenMedia Method (Microsoft.Web.Media.SmoothStreaming)
 description: "This article shows the OpenMedia Method syntax for ISmoothStreaming cache operations."
 TOCTitle: OpenMedia Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.OpenMedia(System.Uri)

@@ -1,6 +1,6 @@
 ---
-title: ManifestInfo.Segments Property (Microsoft.Web.Media.SmoothStreaming)
-descrption: "This article shows the ManifestInfo.Segments Property syntax, which lists SegmentInfo objects." 
+title: ManifestInfo.Segments Property | Microsoft.Web.Media.SmoothStreaming
+description: "This article shows the ManifestInfo.Segments Property syntax, which lists SegmentInfo objects." 
 TOCTitle: Segments Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.segments(v=VS.95)
