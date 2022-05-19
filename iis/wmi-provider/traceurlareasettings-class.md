@@ -1,5 +1,6 @@
 ---
 title: "TraceUrlAreaSettings Class"
+description: "TraceUrlAreaSettings class contains criteria for generating trace events and configuring the content of log file entries."
 ms.date: "10/07/2016"
 ms.assetid: 6d9d1413-0f79-41e3-b6d5-449319de2bb9
 ---

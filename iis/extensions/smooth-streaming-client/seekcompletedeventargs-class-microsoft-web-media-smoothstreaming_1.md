@@ -1,6 +1,7 @@
 ---
 title: SeekCompletedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompletedEventArgs Class
+description: "The SeekCompletedEventArgs class is used to pass event argument information when a seek event completes."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs(v=VS.95)
 ms:contentKeyID: 46307946
