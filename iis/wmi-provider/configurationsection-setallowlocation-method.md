@@ -1,6 +1,7 @@
 ---
-title: "ConfigurationSection.SetAllowLocation Method"
-ms.date: "10/07/2016"
+title: ConfigurationSection.SetAllowLocation Method
+description: Describes the ConfigurationSection.SetAllowLocation method and provides the method's syntax, parameters, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ef360cdc-bd3f-4731-8e6c-87d0219903b2
 ---
 # ConfigurationSection.SetAllowLocation Method

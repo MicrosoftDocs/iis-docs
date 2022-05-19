@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.CreateInstance Method (Logger) (Microsoft.Web.Media.TransformManager)
+description: Describes the CreateInstance method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: CreateInstance Method (Logger)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance(Microsoft.Web.Media.TransformManager.Logger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.createinstance(v=VS.90)

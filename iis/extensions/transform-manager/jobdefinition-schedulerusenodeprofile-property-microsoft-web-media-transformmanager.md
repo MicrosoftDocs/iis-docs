@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerUseNodeProfile Property (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerUseNodeProfile property and provides the property's syntax, property value, remarks, namespace, and assembly.
 TOCTitle: SchedulerUseNodeProfile Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerUseNodeProfile
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulerusenodeprofile(v=VS.90)
