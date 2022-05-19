@@ -1,6 +1,7 @@
 ---
-title: "HttpErrorsSection Class"
-ms.date: "10/07/2016"
+title: HttpErrorsSection Class
+description: Describes the HttpErrorsSection class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 70c759aa-ac2e-4dde-89e3-60f1a1a2d2bb
 ---
 # HttpErrorsSection Class
