@@ -1,6 +1,7 @@
 ---
 title: JobDetails.ManifestName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestName Property
+description: Gets or sets the name of the manifest file that defines this job.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.ManifestName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.manifestname(v=VS.90)
 ms:contentKeyID: 35520874

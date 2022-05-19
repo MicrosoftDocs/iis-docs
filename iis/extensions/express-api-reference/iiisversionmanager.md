@@ -1,5 +1,6 @@
 ---
 title: "IIISVersionManager"
+description: Represents a COM object that enables IIS versions to be queried and manipulated.  
 ms.date: "10/07/2016"
 ms.assetid: 54c836ae-d188-4ea2-bc00-2729d38a5edf
 ---
