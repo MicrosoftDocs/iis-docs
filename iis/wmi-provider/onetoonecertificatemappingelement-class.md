@@ -1,5 +1,6 @@
 ---
 title: "OneToOneCertificateMappingElement Class"
+description: "The OneToOneCertificateMappingElement class represents a one to one mapping of a Secure Sockets Layer (SSL) certificate to a user account."
 ms.date: "10/07/2016"
 ms.assetid: 0bacbe93-6725-b59a-6776-9f74e8de1484
 ---

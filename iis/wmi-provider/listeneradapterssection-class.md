@@ -1,5 +1,6 @@
 ---
 title: "ListenerAdaptersSection Class"
+description: "A list of the names and descriptions of the methods and properties that are exposed by the ListenerAdaptersSection class."
 ms.date: "10/07/2016"
 ms.assetid: 1099c91e-cb93-fa4d-c7f4-b7abfe8cb6e5
 ---
