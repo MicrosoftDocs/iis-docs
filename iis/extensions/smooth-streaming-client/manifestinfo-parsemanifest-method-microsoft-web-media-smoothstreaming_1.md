@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.ParseManifest Method  (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the ManifestInfo.ParseManifest method, as well as links to additional resources.
 TOCTitle: ParseManifest Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ParseManifest(System.IO.Stream,System.Uri)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.parsemanifest(v=VS.95)
