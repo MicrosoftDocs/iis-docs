@@ -1,6 +1,7 @@
 ---
 title: Tracing.IncludeTraceLevel Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeTraceLevel Field
+description: A Boolean value that indicates whether to include the trace level severity in traces.
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracelevel(v=VS.95)
 ms:contentKeyID: 46307529
