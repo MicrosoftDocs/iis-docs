@@ -1,6 +1,7 @@
 ---
 title: QueryResult.QueryResults Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResults Property
+description: This article contains syntax, examples, and permission information for the QueryResult.QueryResults property.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult.queryresults(v=VS.90)
 ms:contentKeyID: 20476478

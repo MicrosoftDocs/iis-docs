@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SetPlaybackRate Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRate Method
+description: This article contains syntax, examples, and permission information for the SmoothStreamingMediaElement.SetPlaybackRate method.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRate(System.Double)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrate(v=VS.90)
 ms:contentKeyID: 23961014

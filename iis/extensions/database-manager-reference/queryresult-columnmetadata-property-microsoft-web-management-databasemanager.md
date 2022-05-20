@@ -1,6 +1,7 @@
 ---
 title: QueryResult.ColumnMetadata Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnMetadata Property
+description: This article contains syntax, examples, and permission information for the QueryResult.ColumnMetadata property.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult.columnmetadata(v=VS.90)
 ms:contentKeyID: 20476453
