@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Position Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article provides syntax, remarks, examples, version information, and permissions for the Position Property, which gets or sets the position in the current stream."
 TOCTitle: Position Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Position
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.position(v=VS.90)

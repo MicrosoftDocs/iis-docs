@@ -1,5 +1,6 @@
 ---
 title: ManifestReadyEventHandler Delegate
+description: "This article provides syntax, parameters, return value, and system requirements for the ManifestReadyEventHandler Delegate the actual handler for the manifest ready event."
 TOCTitle: ManifestReadyEventHandler Delegate
 ms:assetid: 11612fc5-187b-4658-b09e-554a145bbea3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573658(v=VS.90)

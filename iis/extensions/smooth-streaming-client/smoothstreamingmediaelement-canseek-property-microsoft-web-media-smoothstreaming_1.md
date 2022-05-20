@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CanSeek Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article provides syntax and version information for the CanSeek Property, which gets or sets whether the position in the stream can be reset."
 TOCTitle: CanSeek Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanSeek
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canseek(v=VS.95)
