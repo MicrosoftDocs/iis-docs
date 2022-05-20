@@ -1,6 +1,7 @@
 ---
-title: "SiteLogFile Class1"
-ms.date: "10/07/2016"
+title: SiteLogFile Class1
+description: Describes the SiteLogFile class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 050e3616-7de7-3c97-187e-11d9fd4dc070
 ---
 # SiteLogFile Class1
