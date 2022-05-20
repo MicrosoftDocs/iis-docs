@@ -1,6 +1,7 @@
 ---
-title: "DefaultProxySection Class"
-ms.date: "10/07/2016"
+title: DefaultProxySection Class
+description: Describes the DefaultProxySection class and provides the class' syntax, methods, properties, subclasses, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d2318b31-4a59-2850-0eb2-c8a5230a1b64
 ---
 # DefaultProxySection Class

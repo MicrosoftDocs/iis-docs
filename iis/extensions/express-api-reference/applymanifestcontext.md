@@ -1,5 +1,6 @@
 ---
 title: "ApplyManifestContext"
+description: Applies the Fusion manifest context on the calling thread enabling the creation of COM objects.
 ms.date: "10/07/2016"
 ms.assetid: 13f0c1a6-4ba3-4261-8dd5-4dcf1ce4eec2
 ---

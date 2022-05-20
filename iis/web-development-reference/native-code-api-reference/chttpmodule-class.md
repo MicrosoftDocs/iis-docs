@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule Class"
+description: "Defines the base class for request-level HTTP modules. De-allocates an instance and initializes a new instance of the CHttpModule Class."
 ms.date: "10/07/2016"
 ms.assetid: d2cd5a3e-e7a4-5706-5441-9190228d36b0
 ---

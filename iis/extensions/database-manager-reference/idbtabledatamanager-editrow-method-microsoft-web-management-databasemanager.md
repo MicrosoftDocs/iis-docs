@@ -1,5 +1,6 @@
 ---
 title: IDbTableDataManager.EditRow Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableDataManger.EditRow method and provides the method's syntax, parameters, remarks, examples, and permissions.
 TOCTitle: EditRow Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.EditRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.editrow(v=VS.90)

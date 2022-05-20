@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo.Duration Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkInfo.Duration property and details its syntax, property value, and Silverlight information.
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.Duration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.duration(v=VS.95)

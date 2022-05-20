@@ -1,5 +1,6 @@
 ---
-title: TaskDefinition.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
+title: Add Configuration Message Method
+description: Describes the method of adding a configuration message and provides an Overload List and Remarks about configuration messages.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskDefinition.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.addconfigurationmessage(v=VS.90)
@@ -15,7 +16,7 @@ dev_langs:
 - FSharp
 ---
 
-# AddConfigurationMessage Method
+# Add Configuration Message Method
 
 Adds a message to the IIS Transform Manager configuration.
 
@@ -23,7 +24,7 @@ This member is overloaded. For complete information about this member, including
 
 ## Overload List
 
-||Name|Description|
+|Method|Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String)](configurationbase-addconfigurationmessage-method-string-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String, ConfigurationMessageSeverity)](configurationbase-addconfigurationmessage-method-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration using the specified severity value. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|

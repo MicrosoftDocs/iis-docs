@@ -1,5 +1,6 @@
 ---
 title: Scheduler.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetRunningJobs method and provides the method's namespace, assembly, syntax, return value, and additional references.
 TOCTitle: GetRunningJobs Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.GetRunningJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.getrunningjobs(v=VS.90)

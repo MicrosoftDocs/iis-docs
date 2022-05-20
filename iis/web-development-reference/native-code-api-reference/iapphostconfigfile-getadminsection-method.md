@@ -1,6 +1,7 @@
 ---
 title: "IAppHostConfigFile::GetAdminSection Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostConfigFile::GetAdminSection method and details its parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 83c44f92-2b3a-ee32-3bd3-34ae9284d12d
 ---
 # IAppHostConfigFile::GetAdminSection Method

@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.CleanupWorkFolder Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the CleanupWorkFolder method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: CleanupWorkFolder Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.CleanupWorkFolder(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.cleanupworkfolder(v=VS.90)

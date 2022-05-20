@@ -1,5 +1,6 @@
 ---
 title: CacheRequest2.SelectableTracks Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, property value, and version information for the CacheRequest2.SelectableTracks property.
 TOCTitle: SelectableTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.SelectableTracks
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.selectabletracks(v=VS.95)

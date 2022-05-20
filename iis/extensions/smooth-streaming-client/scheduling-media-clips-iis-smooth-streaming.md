@@ -1,5 +1,6 @@
 ---
 title: Scheduling Media Clips (IIS Smooth Streaming)
+description: This article has examples of how to insert advertising clips to play before, during, and after a Smooth Streaming media presentation.
 TOCTitle: Scheduling Media Clips (IIS Smooth Streaming)
 ms:assetid: d56b53f9-6cff-4145-a447-917e0bd55147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958036(v=VS.90)

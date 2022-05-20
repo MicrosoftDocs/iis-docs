@@ -1,5 +1,6 @@
 ---
 title: Logger.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Dispose method and provides the method's namespace, assembly, syntax, implements, and additional references.
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.dispose(v=VS.90)

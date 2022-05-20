@@ -1,5 +1,6 @@
 ---
 title: JobDetails.StatusFromString Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the StatusFromString method and provides the method's namespace, assembly, syntax, parameters, return value, and remarks.
 TOCTitle: StatusFromString Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.StatusFromString(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.statusfromstring(v=VS.90)

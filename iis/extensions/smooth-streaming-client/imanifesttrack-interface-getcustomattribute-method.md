@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.GetCustomAttribute Method
+description: Describes the IManifestTrack Interface.GetCustomAttribute method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: GetCustomAttribute Method
 ms:assetid: 65e59412-e7f9-4d26-954f-8d803ce347d2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822752(v=VS.90)

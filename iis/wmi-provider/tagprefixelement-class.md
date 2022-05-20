@@ -1,5 +1,6 @@
 ---
 title: "TagPrefixElement Class"
+description: "The TagPrefixElement class contains configuration information for a custom or user control. This article describes its syntax, methods, and properties."
 ms.date: "10/07/2016"
 ms.assetid: 194e106d-b30e-473b-92da-3aeccdfedd07
 ---

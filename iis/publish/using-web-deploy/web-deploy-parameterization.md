@@ -37,15 +37,15 @@ This article presents each of these steps in detail.
 
 An easy way to create an application to experiment with web deploy parameterization is to use WebMatrix. WebMatrix can be installed using the Microsoft Web Platform Installer, which you can download [here](https://www.microsoft.com/web/downloads/platform.aspx). After installing Web Platform Installer, search for "WebMatrix" and **install** it:
 
-[![](web-deploy-parameterization/_static/image3.png)](web-deploy-parameterization/_static/image1.png)
+[![Screenshot shows the Web Platform Installer 3 point zero window highlighting the Microsoft Web Matrix option to install.](web-deploy-parameterization/_static/image3.png)](web-deploy-parameterization/_static/image1.png)
 
 After WebMatrix finishes installing, run the program and at the start screen select **Site From Template**:
 
-[![](web-deploy-parameterization/_static/image7.png)](web-deploy-parameterization/_static/image5.png)
+[![Screenshot shows the directory of Microsoft Web Matrix to select the Site from Template folder.](web-deploy-parameterization/_static/image7.png)](web-deploy-parameterization/_static/image5.png)
 
 The **Site from Template** page appears.
 
-[![](web-deploy-parameterization/_static/image11.png)](web-deploy-parameterization/_static/image9.png)
+[![Screenshot shows the Site from Template folder with its templates.](web-deploy-parameterization/_static/image11.png)](web-deploy-parameterization/_static/image9.png)
 
 Since the photo gallery template application can use a Microsoft SQL Server database, it is a good choice for showing how Web Deploy parameterization can be used.
 
@@ -53,27 +53,27 @@ On the **Site from Template** page, select **Photo Gallery**. In the **Site Name
 
 Out of the box, the photo gallery application uses a file-based, SDF database. However, most real-world applications use a non-file based database, so you will convert (or "migrate") the SDF database into a Microsoft SQL Server database. If you don't have SQL Server, use Web Platform Installer to search for "SQL Server Express 2008 R2". Next, click **Add,** and then click **Install** to install it:
 
-[![](web-deploy-parameterization/_static/image15.png)](web-deploy-parameterization/_static/image13.png)
+[![Screenshot shows database search results highlighting S Q L Server Express 2 zero zero 8 R 2.](web-deploy-parameterization/_static/image15.png)](web-deploy-parameterization/_static/image13.png)
 
 During the application setup, remember the administrative username ("sa") and the password that you enter:
 
-[![](web-deploy-parameterization/_static/image19.png)](web-deploy-parameterization/_static/image17.png)
+[![Screenshot shows the Web Platform Installation window choosing the Mixed Mode Authentication option and specifying the password.](web-deploy-parameterization/_static/image19.png)](web-deploy-parameterization/_static/image17.png)
 
 Now that a SQL server instance is available, navigate back to WebMatrix. In the bottom left corner of WebMatrix, click the **Databases** tab to open the databases workspace.
 
-![](web-deploy-parameterization/_static/image21.png)
+![Screenshot shows the Web Matrix dialogue box with navigation tabs to select Databases option.](web-deploy-parameterization/_static/image21.png)
 
 When the database workspace is open, click the database file **, PhotoGallery.sdf**, in the left pane:
 
-![](web-deploy-parameterization/_static/image23.png)
+![Screenshot shows the files in Database workspace highlighting the PhotoGallery dot s d f file. ](web-deploy-parameterization/_static/image23.png)
 
 This should light up the **Migrate** button in the ribbon control at the top of the application. Click **Migrate** to begin the migration:
 
-![](web-deploy-parameterization/_static/image25.png)
+![Screenshot shows the Microsoft Web Matrix window highlighting the Migrate navigation icon.](web-deploy-parameterization/_static/image25.png)
 
 The **Migrate Database** dialog box appears:
 
-![](web-deploy-parameterization/_static/image27.png)
+![Screenshot shows the Migrate Database dialog box with database authentication details.](web-deploy-parameterization/_static/image27.png)
 
 Leave the default database name and SQL server name unchanged. Change the dropdown from **Windows Authentication** to **Database Authentication**. In **Login** and **Password** boxes, enter the database administrator's username and password (if you installed SQL Express, use the same values that you entered during installation.)
 
@@ -81,11 +81,11 @@ Click **OK**. The database migration begins.
 
 After migration completes, you can verify that the application still works by running the application in a web browser. In the top control ribbon, click **Run** to launch the application in a web browser:
 
-![](web-deploy-parameterization/_static/image29.png)
+![Screenshot shows a web browser window highlighting the Run navigation icon.](web-deploy-parameterization/_static/image29.png)
 
 This should bring up an application that looks similar to this:
 
-[![](web-deploy-parameterization/_static/image33.png)](web-deploy-parameterization/_static/image31.png)
+[![Screenshot shows that the application is launched successfully in a web browser.](web-deploy-parameterization/_static/image33.png)](web-deploy-parameterization/_static/image31.png)
 
 Now you have an application that is ready to be packaged and parameterized so that other developers can download and install it by using Web Platform Installer. The next step is to set up a file that will tell Web Deploy the steps required to install the application.
 
@@ -93,7 +93,7 @@ Now you have an application that is ready to be packaged and parameterized so th
 
 The Web Deploy tool can perform a number of functions, including copying files, web server configuration settings, and databases. Each of these functions is made possible by a Web Deploy "**provider**". In order to install the application you just created, you'll use the **iisApp** provider, which helps copy files and create the application on the server; the **setAcl** provider, which sets necessary file permissions; and the **dbFullSql** provider, which sets up the database. In order to tell Web Deploy to use multiple providers during setup, you need to create a Manifest.xml file that declares these three providers in the following way ([you can copy a sample from here](web-deploy-parameterization.md#Manifest.xml)):
 
-[![](web-deploy-parameterization/_static/image35.png)](web-deploy-parameterization.md#Manifest.xml)
+[![Screenshot shows the manifest dot x m l icon.](web-deploy-parameterization/_static/image35.png)](web-deploy-parameterization.md#Manifest.xml)
 
 [!code-xml[Main](web-deploy-parameterization/samples/sample1.xml)]
 
@@ -121,7 +121,7 @@ The **dbFullSQL** provider entries point to different SQL scripts that are used 
 
 The CreateDBAndUser.sql script is a fairly simple script that can be [copied from here](web-deploy-parameterization.md#CreateDBAndUser.sql):
 
-[![](web-deploy-parameterization/_static/image37.png)](web-deploy-parameterization.md#CreateDBAndUser.sql)
+[![Screenshot shows the Create D B And User dot s q l icon.](web-deploy-parameterization/_static/image37.png)](web-deploy-parameterization.md#CreateDBAndUser.sql)
 
 The VacPicDBSchema.sql is the script that creates all the tables in the database that the application uses. This file can created using the Web Deploy command line tool. From the command line, navigate to where Web Deploy is installed (typically %programfiles%\IIS\Microsoft Web Deploy &lt;LatestVersion&gt;) and enter the following command:
 
@@ -146,7 +146,7 @@ The basic pieces that would be useful to transform are:
 
 Web Deploy reads parameterization information from an XML file. In this case, you'll call the file Parameters.xml. For this demo, the parameters file can be [copied from here](web-deploy-parameterization.md#Parameters.xml) and looks like this (on the website, this XML file can be expanded into a code box like is used on [this page](https://blogs.iis.net/kateroh/archive/2009/10/24/web-pi-extensibility-custom-feeds-installing-custom-products.aspx)):
 
-[![](web-deploy-parameterization/_static/image39.png)](web-deploy-parameterization.md#Parameters.xml)
+[![Screenshot shows the parameters dot x m l icon.](web-deploy-parameterization/_static/image39.png)](web-deploy-parameterization.md#Parameters.xml)
 
 Next, you'll learn now to parameterize the application name and the database name.
 
@@ -186,19 +186,19 @@ You now have the basic building blocks needed to deploy the application using We
 
 In the lower left corner of WebMatrix, click the **Site** tab to navigate to the site's content.
 
-![](web-deploy-parameterization/_static/image41.png)
+![Screenshot shows the Web Matrix dialogue box highlighting the Site tab.](web-deploy-parameterization/_static/image41.png)
 
 The site page has a link to where the application content lives:
 
-![](web-deploy-parameterization/_static/image43.png)
+![Screenshot shows the URL and Path of the application content.](web-deploy-parameterization/_static/image43.png)
 
 Click the link to navigate to the application content. Navigate up another level from this folder and create a new folder called "VacationPicsWPIInstaller". Copy the application content folder, the Manifest.xml and Parameters.xml files, and the database installation scripts into the newly created folder:
 
-![](web-deploy-parameterization/_static/image45.png)
+![Screenshot shows the application content folder with files and database installation scripts.](web-deploy-parameterization/_static/image45.png)
 
 With all of the files selected, right click-&gt;Send to-&gt;Compressed (zipped) folder:
 
-![](web-deploy-parameterization/_static/image47.png)
+![Screenshot shows the files right selected highlighting the Send to and Compressed folder options.](web-deploy-parameterization/_static/image47.png)
 
 This zipped file can be named anything, but to work better with the demo, name it "VacationPicsWPIInstaller.zip".
 
@@ -212,7 +212,7 @@ The applications and products listed by Web Platform Installer are defined insid
 
 A feed that works with the application created in this demo can be [copied from here](web-deploy-parameterization.md#VacationFeed.xml):
 
-[![](web-deploy-parameterization/_static/image49.png)](web-deploy-parameterization.md#VacationFeed.xml)
+[![Screenshot shows the VacationFeed dot x m l icon.](web-deploy-parameterization/_static/image49.png)](web-deploy-parameterization.md#VacationFeed.xml)
 
 Two values need to be modified in order for the feed to work properly. First, in the middle of the feed is the path to where the "VacationPicsWPIInstaller.zip" is located on disk. It should look like:
 
@@ -228,7 +228,7 @@ After unpacking the application, run this command from the command line to gener
 
 This will output the hash of the file, which will look something like this:
 
-![](web-deploy-parameterization/_static/image51.png)
+![Screenshot shows the hash output for the application package.](web-deploy-parameterization/_static/image51.png)
 
 Copy the long number and use it to replace the value in the feed XML that looks like:
 
@@ -238,27 +238,27 @@ Copy the long number and use it to replace the value in the feed XML that looks 
 
 Now that we have a custom feed, we need to tell Web Platform installer to load this feed. Inside Web Platform installer, click the **options** link at the bottom of the application:
 
-![](web-deploy-parameterization/_static/image53.png)
+![Screenshot shows the Web Platform Installer page with the Options link and Install buttons.](web-deploy-parameterization/_static/image53.png)
 
 Fill out the path to the custom application feed, and then click **Add Feed**:
 
-[![](web-deploy-parameterization/_static/image57.png)](web-deploy-parameterization/_static/image55.png)
+[![Screenshot shows a text field to add custom application feed.](web-deploy-parameterization/_static/image57.png)](web-deploy-parameterization/_static/image55.png)
 
 Finally, click **OK** to close the options dialog.
 
 If everything works, a new entry will be displayed in the Web Platform Installer:
 
-[![](web-deploy-parameterization/_static/image61.png)](web-deploy-parameterization/_static/image59.png)
+[![Screenshot shows the Web Platform Installer 3 point zero Sample Applications window highlighting Vacation Picture App.](web-deploy-parameterization/_static/image61.png)](web-deploy-parameterization/_static/image59.png)
 
 Click **Add** to test installing your application. If everything is working, you will be presented with a page to enter the parameters that you previously declared in the Parameters.xml file:
 
-[![](web-deploy-parameterization/_static/image65.png)](web-deploy-parameterization/_static/image63.png)
+[![Screenshot shows the Web Platform Installation window to enter application information.](web-deploy-parameterization/_static/image65.png)](web-deploy-parameterization/_static/image63.png)
 
 Fill out information for the application to finalize the installation. If everything is working, the application will launch inside WebMatrix after the installation completes. From there, you can click **Run** in the ribbon at the top of WebMatrix to view the application in a web browser.
 
 For reference, you can download a copy of the original application used to create this demo from here:
 
-[![](web-deploy-parameterization/_static/image67.png)](web-deploy-parameterization/_static/web-deploy-parameterization-1082-vacationpicswpiinstaller1.zip)
+[![Screenshot shows the VacationPics W P I Installer dot zip icon.](web-deploy-parameterization/_static/image67.png)](web-deploy-parameterization/_static/web-deploy-parameterization-1082-vacationpicswpiinstaller1.zip)
 
 ##### More Information about Creating Custom Application Feeds
 

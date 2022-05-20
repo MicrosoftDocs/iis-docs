@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
+description: Describes the Dispose Boolean method and provides the method's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: Dispose Method (Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.dispose(v=VS.90)

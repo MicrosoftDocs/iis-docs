@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceClosedEventHandler Delegate
+description: This article has information on syntax, parameters, return value, and requirements for the AdaptiveSourceClosedEventHandler delegate. 
 TOCTitle: AdaptiveSourceClosedEventHandler Delegate
 ms:assetid: fbe5303f-95bc-4f42-8287-3052bb457f93
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822876(v=VS.90)

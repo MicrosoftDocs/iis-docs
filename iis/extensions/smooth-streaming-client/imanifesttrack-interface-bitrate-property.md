@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.Bitrate Property
+description: Describes the IManifestTrack Interface.Bitrate property and provides the syntax, property value, and requirements.
 TOCTitle: Bitrate Property
 ms:assetid: f201f570-f172-4655-b12f-eeccbb146346
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822872(v=VS.90)

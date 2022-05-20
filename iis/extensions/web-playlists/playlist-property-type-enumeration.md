@@ -1,5 +1,6 @@
 ---
 title: PLAYLIST_PROPERTY_TYPE Enumeration
+description: Describes the enumeration that provides a list of properties for a playlist, and provides arguments and requirements for the enumeration.
 TOCTitle: PLAYLIST_PROPERTY_TYPE Enumeration
 ms:assetid: be911916-f647-4a13-9732-e78e53c05bbf
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146289(v=VS.90)
@@ -26,7 +27,7 @@ PlaylistProperty_LastModifiedTime = 5
 
 ## Arguments
 
-|||
+|File Name|Description|
 |--- |--- |
 |*PlaylistProperty_Title*|The title of the playlist entry.|
 |*PlaylistProperty_ExtraParam*|Additional parameters that are specific to the playlist format.|

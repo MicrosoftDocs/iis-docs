@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsId Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetailsId field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: JobDetailsId Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsid(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: Query Publishing Point Settings
+description: This article outlines the Query Publishing Point Settings operation, which retrieves settings for a specific publishing point.
 TOCTitle: Query Publishing Point Settings
 ms:assetid: b26b9f05-4350-456f-8aee-33aaec45b193
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206012(v=VS.90)

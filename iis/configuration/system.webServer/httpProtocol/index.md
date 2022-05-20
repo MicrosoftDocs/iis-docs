@@ -56,11 +56,11 @@ The `<httpProtocol>` element is included in the default installation of IIS 7.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, go to the site, application, or directory for which you want to enable HTTP keep-alives.
 3. In the **Home** pane, double-click **HTTP Response Headers**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![Screenshot of the Default Web Site Home page. The H T T P Response Headers icon is highlighted. ](index/_static/image1.png)
 4. In the **HTTP Response Headers** pane, click **Set Common Headers...** in the **Actions** pane.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of the H T T P Response Headers page.](index/_static/image3.png)
 5. In the **Set Common HTTP Response Headers** dialog box, check the box to enable HTTP keep-alives, and then click **OK**.  
-    [![](index/_static/image6.png)](index/_static/image5.png)
+    ![Screenshot of the Set Common H T T P Response Headers dialog box.](index/_static/image5.png)
 
 <a id="005"></a>
 ## Configuration

@@ -1,6 +1,7 @@
 ---
 title: Tracing.TraceFunctionEntry Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionEntry Method
+description: Records the entry into a function.
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionentry(v=VS.95)
 ms:contentKeyID: 46307704

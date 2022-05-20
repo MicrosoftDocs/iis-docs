@@ -1,6 +1,7 @@
 ---
 title: ConfigurationMessage Constructor (XElement, ConfigurationBase) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor (XElement, ConfigurationBase)
+description: "Initializes a new instance of the ConfigurationMessage class using the specified message element and configuration object."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.Xml.Linq.XElement,Microsoft.Web.Media.TransformManager.ConfigurationBase)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
 ms:contentKeyID: 35520604

@@ -28,10 +28,10 @@ Follow the steps below to consume an ISX (Web Playlist) file in Windows Media Pl
 1. Open Windows Media Player 11.
 2. Click File. Select Open URL.
 
-    [![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image2.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image1.jpg)
+    [![Screenshot that shows the Windows Media Player pane. Open U R L is highlighted.](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image2.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image1.jpg)
 3. Type in the URL to the .isx file and click OK.
 
-    [![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image4.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image3.jpg)
+    [![Screenshot that shows the Windows Media Player pane. Now Playing is selected. Open U R L dialog box is shown.](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image4.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image3.jpg)
 
 <a id="Silverlight"></a>
 

@@ -1,6 +1,7 @@
 ---
-title: "OutputCacheSection Class"
-ms.date: "10/07/2016"
+title: OutputCacheSection Class
+description: Describes the OutputCacheSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: fc8a6956-81a6-2150-f8b3-3193efdbd354
 ---
 # OutputCacheSection Class

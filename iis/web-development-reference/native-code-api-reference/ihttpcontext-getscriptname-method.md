@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetScriptName Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetScriptName method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: be5e6a7d-b4b4-adf7-6d38-8619d053a0e0
 ---
 # IHttpContext::GetScriptName Method

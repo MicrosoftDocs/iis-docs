@@ -1,5 +1,5 @@
 ---
-title: "Application Defaults &lt;applicationDefaults&gt;"
+title: Application Defaults `<applicationDefaults>`  element of the `<sites>` element
 author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;sites&gt; element specifies the default application settings for all applications on the server...."
 ms.date: 09/26/2016
@@ -7,12 +7,12 @@ ms.assetid: 1adff8d1-0312-47d0-8d6a-9779d16bf78a
 msc.legacyurl: /configreference/system.applicationhost/sites/applicationdefaults
 msc.type: config
 ---
-# Application Defaults &lt;applicationDefaults&gt;
+# IIS Application Defaults &lt;applicationDefaults&gt;
 
 <a id="001"></a>
 ## Overview
 
-The `<applicationDefaults>` element of the `<sites>` element specifies the default application settings for all applications on the server.
+The `<applicationDefaults>` element of `<sites>` specifies the default app settings for all apps on the server.
 
 > [!NOTE]
 > If the same attribute or child element is configured in both the `<applicationDefaults>` section and in the `<application>` section for a specific application, the configuration in the `<application>` section is used for that application.
@@ -57,9 +57,9 @@ The `<applicationDefaults>` element of the `<sites>` element is included in the 
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, then click the **Sites** node.
 3. In the server's **Sites** pane, click **Set Web Site Defaults...** in the **Actions** pane.  
-    [![](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
+    [![Screenshot shows the Sites pane with Set Web Site Defaults tab in the Actions pane.](applicationDefaults/_static/image2.png)](applicationDefaults/_static/image1.png)
 4. In the **Web Site Defaults** dialog box, specify your default application settings for all Web sites, and then click **OK**.  
-    [![](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
+    [![Screenshot of Web Site Defaults dialog box with Application Pool highlighted.](applicationDefaults/_static/image4.png)](applicationDefaults/_static/image3.png)
 
 <a id="005"></a>
 ## Configuration

@@ -1,6 +1,7 @@
 ---
 title: "IAppHostSectionGroup::DeleteSectionGroup Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostSectionGroup::DeleteSectionGroup Method and details the syntax, parameters, and requirements associated with the method."
+ms.date: 10/07/2016
 ms.assetid: 39db83f7-5580-2e1f-07dc-cfdaa63241fd
 ---
 # IAppHostSectionGroup::DeleteSectionGroup Method

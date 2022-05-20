@@ -1,5 +1,6 @@
 ---
 title: IDbTableManager.CreateTable Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableManager.CreateTable method and provides the method's syntax, remarks, examples, and permissions.
 TOCTitle: CreateTable Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.CreateTable(System.String,System.String,Microsoft.Web.Management.DatabaseManager.TableInfo)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.createtable(v=VS.90)

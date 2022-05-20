@@ -1,6 +1,7 @@
 ---
-title: "HttpCompressionSection Class"
-ms.date: "10/07/2016"
+title: HttpCompressionSection Class
+description: Describes the HttpCompressionSection class and provides class' syntax, methods, properties, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ce0cb6ed-e8a5-ebb7-d063-cdd80ccf6ac9
 ---
 # HttpCompressionSection Class

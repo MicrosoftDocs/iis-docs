@@ -58,9 +58,9 @@ To configure the FTP service to deny malicious users from accessing your FTP ser
 1. Log in as an administrator on your Windows Server 2012 computer.
 2. Open the **Internet Information Services (IIS) Manager**.
 3. Highlight your server name in the **Connections** pane, and then double-click **FTP Logon Attempt Restrictions** in the list of features.  
-    [![](iis-80-ftp-logon-attempt-restrictions/_static/image2.png)](iis-80-ftp-logon-attempt-restrictions/_static/image1.png)
+    [![Screenshot of the Connections pane with a focus on the F T P Logon Attempt Restrictions option.](iis-80-ftp-logon-attempt-restrictions/_static/image2.png)](iis-80-ftp-logon-attempt-restrictions/_static/image1.png)
 4. Check the box to **Enable FTP Logon Attempt Restrictions**, and specify the number of failed login attempts and time period that the FTP service uses to determine whether to block access for FTP clients.  
-    [![](iis-80-ftp-logon-attempt-restrictions/_static/image4.png)](iis-80-ftp-logon-attempt-restrictions/_static/image3.png)
+    [![Screenshot of the F T P Logon Attempt Restrictions screen.](iis-80-ftp-logon-attempt-restrictions/_static/image4.png)](iis-80-ftp-logon-attempt-restrictions/_static/image3.png)
 5. Click **Apply**.
 
 "Write to the log only" option does not block logon attempts. Instead, it logs that the condition has been met. The IT administrator can then try different configuration parameters to evaluate how the settings impacts their users before enforcing them.

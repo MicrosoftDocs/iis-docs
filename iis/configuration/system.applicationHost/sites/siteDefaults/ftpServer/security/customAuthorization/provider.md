@@ -1,7 +1,7 @@
 ---
 title: "Default FTP Custom Authorization Provider &lt;provider&gt;"
 author: rick-anderson
-description: "Overview The &lt;customAuthorization&gt; element specifies the default settings for custom authorization of FTP sites. This form of authorization uses custom..."
+description: The `<customAuthorization>` element specifies the default settings for custom authorization of FTP sites.
 ms.date: 09/26/2016
 ms.assetid: d4f4d32f-efb9-40f4-a5cc-b1940d8045d6
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/customauthorization/provider
@@ -77,7 +77,7 @@ To support FTP authorization using a custom provider on your Web server, you mus
 4. In the **Actions** pane, click **Edit Feature settings**.
 5. In the **Authorization Feature Settings** dialog box, select **Choose a custom authorization provider** to enable FTP authorization by a custom provider. In the associated drop-down list, select a custom provider from the list.   
   
-    [![](provider/_static/image2.png)](provider/_static/image1.png)  
+    ![Screenshot of the Choose a custom authorization provider option being selected.](provider/_static/image1.png)
   
     > [!NOTE]
     > When a custom FTP authorization provider has been enabled, the **FTP Authorization Rules** feature is disabled.

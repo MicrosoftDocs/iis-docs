@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.MediaElementId Property (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the TraceEntry.MediaElementId property. There are also links to reference materials.
 TOCTitle: MediaElementId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MediaElementId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.mediaelementid(v=VS.90)

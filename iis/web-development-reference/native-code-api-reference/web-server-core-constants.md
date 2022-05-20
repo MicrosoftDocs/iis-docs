@@ -1,6 +1,7 @@
 ---
-title: "Web Server Core Constants"
-ms.date: "10/07/2016"
+title: Web Server Core Constants
+description: Describes the Web Server Core and integrated request-processing pipeline constants, and provides links to articles about the constants.
+ms.date: 10/07/2016
 ms.assetid: 406a10c7-f2ef-4b1d-baf6-b3a3259c2783
 ---
 # Web Server Core Constants

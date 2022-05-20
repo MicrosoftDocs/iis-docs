@@ -1,6 +1,7 @@
 ---
-title: "WebRequestModulesSection Class"
-ms.date: "10/07/2016"
+title: WebRequestModulesSection Class
+description: Describes the WebRequestModulesSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 9b20c485-d919-5e9f-2d81-f8600961e038
 ---
 # WebRequestModulesSection Class

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingAsyncResult class and provides the class' inheritance hierarchy, syntax, properties, methods, and version information.
 TOCTitle: SmoothStreamingAsyncResult Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult(v=VS.95)

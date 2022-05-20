@@ -1,6 +1,7 @@
 ---
 title: DownloaderResponse.Cookies Property
 TOCTitle: Cookies Property
+description: Gets the cookies.
 ms:assetid: 013b7696-7cc9-45db-b736-ce3b5916f7d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ851080(v=VS.90)
 ms:contentKeyID: 50079419

@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.GetIterator Method
 TOCTitle: GetIterator Method
+description: Gets the last chunk iterator within the specified time range.
 ms:assetid: 73aa4861-e973-48bb-a4d4-67b233875c42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822758(v=VS.90)
 ms:contentKeyID: 50079513

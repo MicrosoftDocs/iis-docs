@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalDurationProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the NaturalDurationProperty field and provides the field's syntax, version information, and permissions.
 TOCTitle: NaturalDurationProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDurationProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturaldurationproperty(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Volume Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Volume property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: Volume Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Volume
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.volume(v=VS.90)

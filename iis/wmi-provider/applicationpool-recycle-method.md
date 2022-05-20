@@ -1,6 +1,7 @@
 ---
-title: "ApplicationPool.Recycle Method2"
-ms.date: "10/07/2016"
+title: ApplicationPool.Recycle Method2
+description: Describes the ApplicationPool.Recycle method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5a5feebf-714a-7032-b8c5-c75d6487fac9
 ---
 # ApplicationPool.Recycle Method2

@@ -1,6 +1,7 @@
 ---
 title: "IWpfReferencedObject::Release Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfReferencedObject::Release method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 069ddfd4-c9d2-f0d0-01ee-aaa2a70973fd
 ---
 # IWpfReferencedObject::Release Method

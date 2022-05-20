@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.JobTemplatesDirectory Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobTemplatesDirectory field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: JobTemplatesDirectory Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ConfigurationBase.JobTemplatesDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.jobtemplatesdirectory(v=VS.90)

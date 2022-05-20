@@ -1,5 +1,6 @@
 ---
 title: JobStatus Enumeration (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax for the JobStatus enumeration, as well as links to additional reference materials. 
 TOCTitle: JobStatus Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobstatus(v=VS.90)

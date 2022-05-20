@@ -1,6 +1,7 @@
 ---
-title: "SoapExtensionTypesInfo Class"
-ms.date: "10/07/2016"
+title: SoapExtensionTypesInfo Class
+description: Describes the SoapExtensionTypesInfo class and provides the class' syntax, properties, subclasses, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7a8dcc50-3f03-9c7c-23f3-a7682dbaacbc
 ---
 # SoapExtensionTypesInfo Class

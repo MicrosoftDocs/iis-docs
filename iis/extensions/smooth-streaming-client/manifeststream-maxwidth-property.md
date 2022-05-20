@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.MaxWidth Property
+description: Describes the ManifestStream.MaxWidth property and provides the property's syntax, property value, and requirements.
 TOCTitle: MaxWidth Property
 ms:assetid: 99af3308-f641-4351-842b-7491247d67a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822791(v=VS.90)

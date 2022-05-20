@@ -1,6 +1,7 @@
 ---
 title: Microsoft Smooth Streaming Client for Windows 8
 TOCTitle: Microsoft Smooth Streaming Client for Windows 8
+description: The Smooth Streaming Client SDK for Windows 8 enables development of Smooth Streaming Windows Store applications.
 ms:assetid: c4430e6a-6e18-41ae-880f-3585378f2769
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573703(v=VS.90)
 ms:contentKeyID: 49080944

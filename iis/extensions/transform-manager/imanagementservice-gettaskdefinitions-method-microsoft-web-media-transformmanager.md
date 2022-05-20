@@ -1,5 +1,6 @@
 ---
 title: IManagementService.GetTaskDefinitions Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetTaskDefinitions method and provides the method's namespace, assembly, syntax, and return value.
 TOCTitle: GetTaskDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetTaskDefinitions
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.gettaskdefinitions(v=VS.90)

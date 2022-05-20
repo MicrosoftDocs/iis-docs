@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.ToString Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo.ToString method and details its syntax, return value, and Silverlight information.
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.tostring(v=VS.95)

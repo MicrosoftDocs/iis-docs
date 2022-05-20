@@ -1,5 +1,6 @@
 ---
 title: TrackInfo Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo class and provides the class' inheritance hierarchy, syntax, properties, methods, remarks, and version information.
 TOCTitle: TrackInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo(v=VS.90)

@@ -22,9 +22,9 @@ Using the delegation functionality of IIS 7 and above, you can delegate this pro
 1. From the **Administrative Tools** menu, click **Internet Information Services (IIS) Manager**.
 2. In IIS Manager, click the server name node, and then scroll to locate the **Default Document** icon.
 3. Double click **Default Document**.  
-    ![](default-documents/_static/image1.jpg)
+    ![Screenshot of the P 8701 Home page. The default Document icon is selected.](default-documents/_static/image1.jpg)
 4. In the Actions pane, click **Add**.  
-    ![](default-documents/_static/image3.jpg)
+    ![Screenshot of the Default Document page. In the Actions pane, Add is highlighted.](default-documents/_static/image3.jpg)
 5. In the **Add Default Document** dialog box, type the name of the default document.
 6. Click **OK**.
 

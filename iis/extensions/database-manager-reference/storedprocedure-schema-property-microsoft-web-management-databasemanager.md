@@ -1,5 +1,6 @@
 ---
 title: StoredProcedure.Schema Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the StoredProcedure.Schema property and provides the property's syntax, property value, and permissions.
 TOCTitle: Schema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Schema
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.schema(v=VS.90)

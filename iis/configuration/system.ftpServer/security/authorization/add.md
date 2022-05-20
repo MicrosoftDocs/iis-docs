@@ -1,7 +1,7 @@
 ---
-title: "Adding FTP Authorization &lt;add&gt;"
+title: Adding FTP Authorization &lt;add&gt;
 author: rick-anderson
-description: "Overview The &lt;add&gt; element of the &lt;authorization&gt; collection defines an authorization rule that will either allow or deny access to specified use..."
+description: Provides an overview of the add element of the authorization collection and describes compatibility, setup, and configuration.
 ms.date: 09/26/2016
 ms.assetid: 3159460f-d3f7-4791-b515-255df21da9fb
 msc.legacyurl: /configreference/system.ftpserver/security/authorization/add
@@ -52,7 +52,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
-    [![](add/_static/image2.png)](add/_static/image1.png) .
+    [![Screenshot of the F T P Extensibility option being selected and highlighted along with the F T P Service option being selected.](add/_static/image2.png)](add/_static/image1.png) .
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -65,7 +65,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image4.png)](add/_static/image3.png)
+    [![Screenshot of the Internet Information Services folder's contained folders being selected, with the F T P Extensibility folder being highlighted.](add/_static/image4.png)](add/_static/image3.png)
 4. Click **OK**.
 5. Click **Close**.
 
@@ -79,7 +79,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    [![](add/_static/image6.png)](add/_static/image5.png)
+    [![Screenshot of the Service Manager hierarchy pane, with the F T P Service and F T P Extensibility options being selected and highlighted.](add/_static/image6.png)](add/_static/image5.png)
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -93,7 +93,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    [![](add/_static/image8.png)](add/_static/image7.png)
+    [![Screenshot of the Control Panel showing the expanding Internet Information Services folder, with the F T P Extensibility folder being selected.](add/_static/image8.png)](add/_static/image7.png)
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista
@@ -128,7 +128,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then navigate to the site or URL on which you want to configure authorization.
 3. In the **Home** pane, double-click **Authorization Rules**.  
-    [![](add/_static/image10.png)](add/_static/image9.png)
+    [![Screenshot of the Home pane showing the F T P Authorization Rules screen with a focus on the Users and Roles columns.](add/_static/image10.png)](add/_static/image9.png)
 4. To add a new authorization rule, click **Add Allow Rule...** or **Add Deny Rule...** in the **Actions** pane.
 5. Apply the authorization settings needed for your site or application. There are two sections that need to be considered: 
 
@@ -139,7 +139,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
         - **Specified roles or user groups** (multiple groups/roles can be separated by a comma)
         - **Specified users** (multiple users can be separated by a comma)
     - Permissions: Use the check box to specify **Read** or **Write** access for the rule.  
-        [![](add/_static/image12.png)](add/_static/image11.png)
+        [![Screenshot of the Add Allow Authorization Rule screen with the Allow access to this content to All Users option being selected.](add/_static/image12.png)](add/_static/image11.png)
 6. Click **OK**.
 
 <a id="005"></a>

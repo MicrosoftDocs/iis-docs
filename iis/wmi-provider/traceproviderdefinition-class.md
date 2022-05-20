@@ -1,6 +1,7 @@
 ---
-title: "TraceProviderDefinition Class"
-ms.date: "10/07/2016"
+title: TraceProviderDefinition Class
+description: Describes the TraceProviderDefinition class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d800efb0-c7af-4e21-f3ad-336536b5604d
 ---
 # TraceProviderDefinition Class

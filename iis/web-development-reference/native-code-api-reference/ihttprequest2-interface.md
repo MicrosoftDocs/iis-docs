@@ -1,6 +1,7 @@
 ---
-title: "IHttpRequest2 Interface"
-ms.date: "10/07/2016"
+title: IHttpRequest2 Interface
+description: Describes the IHttpRequest2 Interface and details the interface's methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 6716632d-e1a9-44a6-bdac-36075d50dadb
 ---
 # IHttpRequest2 Interface

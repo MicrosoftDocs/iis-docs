@@ -1,6 +1,7 @@
 ---
-title: "AnonymousIdentificationSection Class1"
-ms.date: "10/07/2016"
+title: AnonymousIdentificationSection Class1
+description: Describes the AnonymousIdentificationSection class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2dfffff0-93df-8dbd-4d01-36f83e72ca5b
 ---
 # AnonymousIdentificationSection Class1

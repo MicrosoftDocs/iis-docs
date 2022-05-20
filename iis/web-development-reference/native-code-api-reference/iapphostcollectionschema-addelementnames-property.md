@@ -1,5 +1,6 @@
 ---
 title: "IAppHostCollectionSchema::AddElementNames Property"
+description: Learn how the AddElementNames property gets a comma-delimited list of add element names that are valid for the collection.
 ms.date: "10/07/2016"
 ms.assetid: 1629405d-9d72-fb6f-4079-ba5354709c6f
 ---

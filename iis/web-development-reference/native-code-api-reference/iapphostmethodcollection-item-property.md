@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodCollection::Item Property"
+description: "Syntax used to get the IAppHostMethod Interface that is specified by the requested index. A VARIANT specifies which IAppHostMethod is being selected."
 ms.date: "10/07/2016"
 ms.assetid: 20d6b0bc-5c11-44ca-bb02-91440c404d5b
 ---

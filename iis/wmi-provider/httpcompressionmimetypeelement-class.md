@@ -1,5 +1,6 @@
 ---
 title: "HttpCompressionMimeTypeElement Class"
+description: Specifies whether IIS will compress a particular MIME type before serving it.
 ms.date: "10/07/2016"
 ms.assetid: cda3cb3f-32b6-9ee2-9dec-35f00f19fc5b
 ---

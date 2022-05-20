@@ -73,14 +73,14 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
         - Double-click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
 2. In the **Connections** pane, expand the server name, expand **Sites**, and then click the Web site on which you want to configure logging.
 3. In the **Home** pane, double-click **Logging**.  
-    [![](index/_static/image2.png)](index/_static/image1.png)
+    ![Screenshot of the Default Web Site Home page. The icon for Logging is highlighted.](index/_static/image1.png)
 4. In the **Logging** pane, select the log file format in the **Format** box, and then type the path to the directory where you store the log files in the **Directory** box or click **Browse...** to choose the directory in which to store the log files.  
-    [![](index/_static/image4.png)](index/_static/image3.png)
+    ![Screenshot of the Logging page within I I S Manager.](index/_static/image3.png)
 5. If you choose to use the W3C log file format: 
 
     - Click **Select Fields** to choose the types of information to log.
     - In the **W3C Logging Fields** dialog box, select the check boxes for options you want to log, clear the check boxes for options you do not want to log, and then click **OK**.  
-        [![](index/_static/image6.png)](index/_static/image5.png)
+        ![Screenshot of the W 3 C Logging Fields dialog box.](index/_static/image5.png)
 
 ### How to configure ETW or file logging for W3C logs
 
@@ -97,7 +97,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
 3. In the site's home pane, double-click **Logging**.
 4. In the **Logging** home page, for **Log Event Destination**, select **Log file only**, **ETW event only**, or **Both log file and ETW event**.  
   
-    [![](index/_static/image8.png)](index/_static/image7.png)
+    ![Screenshot of the I I S Manager window displaying the Logging page.](index/_static/image7.png)
 
 ### How to configure flushing a W3C log by entry count
 
@@ -117,7 +117,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
 6. For **flushByEntryCountW3Clog**, enter the number of events to be stored in the buffer before they are flushed to the log file.
 7. In the **Action** pane, click **Apply**.  
   
-    [![](index/_static/image10.png)](index/_static/image9.png)
+    ![Screenshot of the Collection Editor Window. Flush By Entry Count W 3 C Log is highlighted in the Properties field.](index/_static/image9.png)
 
 ### How to configure the maximum log line length
 
@@ -137,7 +137,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
 6. For **maxLogLineLength**, enter the maximum number of bytes in a single line of a log file.
 7. In the **Action** pane, click **Apply**.  
   
-    [![](index/_static/image12.png)](index/_static/image11.png)
+    ![Screenshot of the Collection Editor window. Max Log Line Length is highlighted in the Properties field.](index/_static/image11.png)
 
 <a id="005"></a>
 ## Configuration

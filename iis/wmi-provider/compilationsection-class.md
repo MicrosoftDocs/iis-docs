@@ -1,6 +1,7 @@
 ---
-title: "CompilationSection Class"
-ms.date: "10/07/2016"
+title: CompilationSection Class
+description: Describes the CompilationSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c3a136d5-a102-8b61-8fa2-1b6864423c35
 ---
 # CompilationSection Class

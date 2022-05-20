@@ -1,7 +1,7 @@
 ---
-title: "Installing and Configuring FTP 7 on IIS 7"
+title: Installing and Configuring FTP 7 on IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to install and configure FTP 7 on IIS 7, and provides a list of prerequisites and troubleshooting advice.
 ms.date: 12/06/2007
 ms.assetid: 1d813d22-e411-4a5a-a0f1-689421b498ae
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7

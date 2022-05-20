@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection::Count Property"
+description: Learn how the Count property gets the number of configuration section definitions in the current collection.
 ms.date: "10/07/2016"
 ms.assetid: 631fa9c1-c313-51b0-4397-27b3c638bf97
 ---

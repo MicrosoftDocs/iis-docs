@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.FourCC Property
+description: Describes the ManifestTrack.FourCC property and provides the property's syntax, property value, and requirements.
 TOCTitle: FourCC Property
 ms:assetid: d3edd4de-df00-4f98-b371-d2f8b9c4ff48
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822840(v=VS.90)

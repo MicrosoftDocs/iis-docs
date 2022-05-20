@@ -51,7 +51,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will need to select **FTP Extensibility**, in addition to **FTP Service**.  
+
     ![Screenshot of the Roles dialog box. F T P Extensibility is highlighted in the drop down menu.](index/_static/image1.png) .
+
 5. Click **Next**, and then on the **Select features** page, click **Next** again.
 6. On the **Confirm installation selections** page, click **Install**.
 7. On the **Results** page, click **Close**.
@@ -64,7 +66,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
+
     ![Screenshot of Windows Features dialog box. F T P Extensibility is highlighted.](index/_static/image3.png)
+
 4. Click **OK**.
 5. Click **Close**.
 
@@ -78,7 +82,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.  
-    ![Screenshot of the Add Roles Services wizard displaying the Select Role Services page. F T P Service is highlighted in the menu.](index/_static/image5.png)
+
+    ![Screenshot of the Select Role Service page. F T P Service is highlighted.](index/_static/image5.png)
+
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -92,7 +98,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
   
     > [!NOTE]
     > To support ASP.Membership authentication or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.   
-    ![Screenshot of the Windows Features dialog box displaying the Turn Windows features on or off page.  ](index/_static/image7.png)
+
+    ![Screenshot of the Windows Features dialog box with the features menu expanded.](index/_static/image7.png)
+
 5. Click **OK**.
 
 ### Windows Server 2008 or Windows Vista

@@ -1,5 +1,6 @@
 ---
 title: "IGlobalRSCAQueryProvider::GetFunctionParameters Method"
+description: Learn how the GetFunctionParameters method returns the parameters of the dynamic function call that caused the event.
 ms.date: "10/07/2016"
 ms.assetid: 66f47e85-f9ad-b65a-aa82-9372115f9f82
 ---

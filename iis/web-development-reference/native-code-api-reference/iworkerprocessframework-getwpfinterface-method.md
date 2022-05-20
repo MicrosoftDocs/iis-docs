@@ -1,6 +1,7 @@
 ---
 title: "IWorkerProcessFramework::GetWpfInterface Method"
-ms.date: "10/07/2016"
+description: "Describes the IWorkerProcessFramework::GetWpfInterface method and details its parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 04831e84-27c5-015d-1008-83b0a5ce2966
 ---
 # IWorkerProcessFramework::GetWpfInterface Method

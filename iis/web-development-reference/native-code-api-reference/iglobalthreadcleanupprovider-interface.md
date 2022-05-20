@@ -1,5 +1,6 @@
 ---
 title: "IGlobalThreadCleanupProvider Interface"
+description: Learn how the IGlobalThreadCleanupProvider interface provides an interface for thread cleanup notifications.
 ms.date: "10/07/2016"
 ms.assetid: 81fe1c2f-2088-0306-641b-00de09242675
 ---

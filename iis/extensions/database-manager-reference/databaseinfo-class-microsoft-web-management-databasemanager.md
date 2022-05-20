@@ -1,5 +1,6 @@
 ---
 title: DatabaseInfo Class (Microsoft.Web.Management.DatabaseManager)
+description: The DatabaseInfo Class contains database-specific information for a provider. This page lists the constructors, properties, and methods available.
 TOCTitle: DatabaseInfo Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.DatabaseInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo(v=VS.90)
