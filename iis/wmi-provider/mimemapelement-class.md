@@ -1,5 +1,6 @@
 ---
 title: "MimeMapElement Class"
+description: Specifies a MIME type associated with a file extension.
 ms.date: "10/07/2016"
 ms.assetid: a7659ca3-3b28-4d7d-17ea-ed98c46ce831
 ---

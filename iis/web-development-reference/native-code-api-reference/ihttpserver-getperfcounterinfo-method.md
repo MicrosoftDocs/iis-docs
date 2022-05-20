@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::GetPerfCounterInfo Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::GetPerfCounterInfo method and details its syntax, parameteres, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 23f0f7c4-3edd-0308-8491-91a27e1c0acc
 ---
 # IHttpServer::GetPerfCounterInfo Method

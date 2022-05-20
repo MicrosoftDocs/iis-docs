@@ -1,5 +1,6 @@
 ---
 title: Query Publishing Point State
+description: Describes the query publishing point state and provides the state's restrictions, request, URI parameters, response, status code, and authorization.
 TOCTitle: Query Publishing Point State
 ms:assetid: 60bb6b60-4909-416d-9183-1afede0cb26c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206010(v=VS.90)

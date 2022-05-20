@@ -1,6 +1,7 @@
 ---
 title: "IMetadataInfo::GetMetaPath Method"
-ms.date: "10/07/2016"
+description: "Describe the IMetadataInfo::GetMetaPath method and details its syntax, parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 939615c0-3b0f-3fe7-42af-ef430a251532
 ---
 # IMetadataInfo::GetMetaPath Method

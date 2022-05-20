@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetConnection Method"
+description: Learn how the GetConnection method retrieves the connection container for the current context.
 ms.date: "10/07/2016"
 ms.assetid: d6bf938c-60e8-5d4b-408b-916efcad9f6c
 ---

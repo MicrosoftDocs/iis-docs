@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.RemoveRestartWarningMessage Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationBase.RemoveRestartWarningMessage method and details its namespace, assembly, and syntax.
 TOCTitle: RemoveRestartWarningMessage Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.RemoveRestartWarningMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.removerestartwarningmessage(v=VS.90)

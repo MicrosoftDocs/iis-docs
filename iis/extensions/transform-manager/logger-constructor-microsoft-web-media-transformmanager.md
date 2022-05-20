@@ -1,5 +1,6 @@
 ---
 title: Logger Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the Logger constructor and provides the constructor's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: Logger Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.#ctor(System.String,Microsoft.Web.Media.TransformManager.LogLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.logger(v=VS.90)

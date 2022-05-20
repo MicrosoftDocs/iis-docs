@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::RecycleApplication Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::RecycleApplication method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a80a7157-39a1-6c4e-ef4b-c03d6e913361
 ---
 # IHttpServer::RecycleApplication Method

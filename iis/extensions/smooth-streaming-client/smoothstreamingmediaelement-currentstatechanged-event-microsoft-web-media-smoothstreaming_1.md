@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CurrentStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentStateChanged Event
+description: "The CurrentStateChanged event occurs when the current state of media element changes. This article describes its syntax, examples, and version information."
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentStateChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstatechanged(v=VS.95)
 ms:contentKeyID: 46307491

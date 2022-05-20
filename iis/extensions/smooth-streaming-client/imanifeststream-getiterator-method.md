@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.GetIterator Method
 TOCTitle: GetIterator Method
+description: "The IManifestStream.GetIterator method gets the last chunk iterator within the specified time range."
 ms:assetid: 6f7a05a1-98ca-4aa4-941d-6c4f835ad830
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822757(v=VS.90)
 ms:contentKeyID: 50079512

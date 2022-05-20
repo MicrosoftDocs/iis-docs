@@ -1,6 +1,7 @@
 ---
-title: "IAppHostWritableAdminManager Interface"
-ms.date: "10/07/2016"
+title: IAppHostWritableAdminManager Interface
+description: Describes the IAppHostWritableAdminManager interface and details its syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f1ca4d4d-b421-eba8-a50a-74305fa71944
 ---
 # IAppHostWritableAdminManager Interface

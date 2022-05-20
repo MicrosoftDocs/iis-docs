@@ -1,5 +1,6 @@
 ---
 title: Events (IIS Smooth Streaming)
+description: Describes the IIS Smooth Streaming events and outlines the media ended event, seek completed event, and exception event.
 TOCTitle: Events (IIS Smooth Streaming)
 ms:assetid: 875f74b0-e627-4e0a-8397-1e7fbe2bf8eb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958033(v=VS.90)

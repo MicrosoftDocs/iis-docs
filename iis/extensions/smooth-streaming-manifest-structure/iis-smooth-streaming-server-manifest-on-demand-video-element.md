@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - video Element
+description: Learn how the IIS Smooth Streaming Server Manifest (On-Demand) video element specifies a single track of video data.
 TOCTitle: <video>
 ms:assetid: 06fa3ec9-3f49-4533-8737-6809e07392c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230807(v=VS.90)

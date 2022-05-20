@@ -1,6 +1,7 @@
 ---
 title: Fast Forward and Rewind Modes (IIS Smooth Streaming)
 TOCTitle: Fast Forward and Rewind Modes (IIS Smooth Streaming)
+description: "The SmoothStreamingMediaElement includes the SetPlaybackRate method to set the rate to fast forward/rewind. Examples are shown for the method and implementation."
 ms:assetid: c46bc9ab-d3ef-4b4d-8dc6-46ba1bb14233
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff402323(v=VS.90)
 ms:contentKeyID: 28731579

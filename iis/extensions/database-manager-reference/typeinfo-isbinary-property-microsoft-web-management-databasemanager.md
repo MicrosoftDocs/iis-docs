@@ -1,6 +1,7 @@
 ---
 title: TypeInfo.IsBinary Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsBinary Property
+description: Gets or sets a value that indicates whether the data type is a binary data type.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsBinary
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.isbinary(v=VS.90)
 ms:contentKeyID: 20476408

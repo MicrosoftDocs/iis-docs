@@ -1,6 +1,7 @@
 ---
 title: "IAppHostPropertySchema::IsRequired Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostPropertySchema::IsRequired property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4e91e3d6-b4fc-ea94-2a92-95edd88fe75e
 ---
 # IAppHostPropertySchema::IsRequired Property

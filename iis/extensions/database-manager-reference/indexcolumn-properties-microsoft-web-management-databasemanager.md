@@ -1,5 +1,6 @@
 ---
 title: IndexColumn Properties (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines the members exposed by the IndexColumn properties, with links to additional reference materials.
 TOCTitle: IndexColumn Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.IndexColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn_properties(v=VS.90)
@@ -16,8 +17,8 @@ The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
+|**![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")**|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
+|**![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")**|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
 
 ## See Also
 

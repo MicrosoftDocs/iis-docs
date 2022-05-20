@@ -1,5 +1,6 @@
 ---
 title: Microsoft.Web.Media.TransformManager Namespace ()
+description: Describes the Microsoft.Web.Media.Transform manager namespace and provides tables for classes, structures, interfaces, delegates, and enumerations.
 TOCTitle: Microsoft.Web.Media.TransformManager
 ms:assetid: N:Microsoft.Web.Media.TransformManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager(v=VS.90)

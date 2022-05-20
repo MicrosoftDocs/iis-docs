@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::GetAuthenticationType Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUser::GetAuthenticationType method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 2479e617-a064-8d06-504e-c00175c6e986
 ---
 # IHttpUser::GetAuthenticationType Method

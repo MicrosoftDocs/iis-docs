@@ -1,6 +1,7 @@
 ---
 title: IDbStoredProcedureManager.GetStoredProcedureParameters Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetStoredProcedureParameters Method
+description: "The IDbStoredProcedureManager.GetStoredProcedureParameters method returns a collection of parameters for a stored procedure."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureParameters(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedureparameters(v=VS.90)
 ms:contentKeyID: 20476701

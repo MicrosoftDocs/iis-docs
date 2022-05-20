@@ -1,5 +1,6 @@
 ---
 title: DownloaderResponse.BypassBandwidthMeasurement Property
+description: Describes the DownloaderResponse.BypassBandwidthMeasurement property and provides the property's syntax, property value, and requirements.
 TOCTitle: BypassBandwidthMeasurement Property
 ms:assetid: a6b5d250-7343-4676-9c75-c6a5f6ae2890
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822804(v=VS.90)

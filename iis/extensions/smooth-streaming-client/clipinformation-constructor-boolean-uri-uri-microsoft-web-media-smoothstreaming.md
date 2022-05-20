@@ -1,5 +1,6 @@
 ---
 title: ClipInformation Constructor (Boolean, Uri, Uri) (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipInformation constructor and details its syntax, parameters, Silverlight information, and permissions. 
 TOCTitle: ClipInformation Constructor (Boolean, Uri, Uri)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor(System.Boolean,System.Uri,System.Uri)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipinformation(v=VS.90)

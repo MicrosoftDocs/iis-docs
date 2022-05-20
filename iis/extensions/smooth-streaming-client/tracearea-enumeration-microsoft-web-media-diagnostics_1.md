@@ -1,5 +1,6 @@
 ---
 title: TraceArea Enumeration (Microsoft.Web.Media.Diagnostics)
+description: Describes the TraceArea enumeration and provides the enumeration's namespace, assembly, syntax, members, and version information.
 TOCTitle: TraceArea Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceArea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracearea(v=VS.95)

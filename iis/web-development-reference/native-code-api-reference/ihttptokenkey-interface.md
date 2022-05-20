@@ -1,6 +1,7 @@
 ---
-title: "IHttpTokenKey Interface"
-ms.date: "10/07/2016"
+title: IHttpTokenKey Interface
+description: Describes the IHttpTokenKey interface and details its syntax, methods, derived classes, remarks, inheritance hierarchy, and requirements. 
+ms.date: 10/07/2016
 ms.assetid: cefa2c4f-3fde-009e-ee80-3af8719b3175
 ---
 # IHttpTokenKey Interface

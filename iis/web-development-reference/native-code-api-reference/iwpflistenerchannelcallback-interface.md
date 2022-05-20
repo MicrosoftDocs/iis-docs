@@ -1,6 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback Interface"
-ms.date: "10/07/2016"
+title: IWpfListenerChannelCallback Interface
+description: Describes the IWpfListenerChannelCallback interface and details its syntax, methods, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 21c0150e-9250-3276-9220-7adca4453bc0
 ---
 # IWpfListenerChannelCallback Interface

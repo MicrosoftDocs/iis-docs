@@ -1,5 +1,6 @@
 ---
 title: TableInfo Properties (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines the TableInfo properties by type, name, and description. There are also links to reference materials.
 TOCTitle: TableInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.TableInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo_properties(v=VS.90)

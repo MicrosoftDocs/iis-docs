@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingException Class (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains information about inheritance hierarchy, syntax, properties, methods, version, and thready safety for the SmoothStreamingException class.
 TOCTitle: SmoothStreamingException Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingexception(v=VS.95)

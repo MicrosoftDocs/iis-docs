@@ -1,5 +1,6 @@
 ---
 title: "SoapExtensionTypeElement Class"
+description: "The SoapExtensionTypeElement class specifies a SOAP extension used to inspect or modify a SOAP message during processing on the Web service or client. "
 ms.date: "10/07/2016"
 ms.assetid: c8acd16b-2eb2-4dae-a2a2-feb9f41a1ddb
 ---

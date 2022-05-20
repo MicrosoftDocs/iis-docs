@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MarkerReached Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.MarkerReached event.
 TOCTitle: MarkerReached Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MarkerReached
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.markerreached(v=VS.95)

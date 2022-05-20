@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::GetHttpCacheAllowed Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpFileInfo::GetHttpCacheAllowed method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a46e00e7-47ae-2359-120d-0883ee73f8a9
 ---
 # IHttpFileInfo::GetHttpCacheAllowed Method

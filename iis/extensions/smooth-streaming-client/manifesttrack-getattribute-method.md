@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.GetAttribute Method
 TOCTitle: GetAttribute Method
+description: Gets the track level attributes from the manifest.
 ms:assetid: b0ed9843-4ef2-4fdc-be81-738373f07492
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822809(v=VS.90)
 ms:contentKeyID: 50079563

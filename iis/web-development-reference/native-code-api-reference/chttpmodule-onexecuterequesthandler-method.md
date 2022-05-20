@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnExecuteRequestHandler Method"
-ms.date: "10/07/2016"
+description: "Details the CHttpModule::OnExecuteRequestHandler method and its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4fedb9ff-4001-44da-b64d-4ce605d15182
 ---
 # CHttpModule::OnExecuteRequestHandler Method

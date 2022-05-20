@@ -1,6 +1,7 @@
 ---
-title: "TagPrefixInfo Class"
-ms.date: "10/07/2016"
+title: TagPrefixInfo Class
+description: Describes the TagPrefixInfo class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3e58fb0c-d2be-0f53-3524-99eedba3567f
 ---
 # TagPrefixInfo Class
