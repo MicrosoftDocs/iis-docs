@@ -1,8 +1,9 @@
 ---
-title: "IHttpContext4 Interface"
-ms.date: "10/07/2016"
+title: IHttpContext4 Interface
+description: "Describes the IHttpContext4 interface and details its syntax, methods, derived classes, inheritance hierarchy, and requirements."
+ms.date: 10/07/2016
 ms.assetid: fbb3e3e5-8063-41ab-a5e5-e00d63955682
-ms.author: "robmcm"
+ms.author: robmcm
 ---
 # IHttpContext4 Interface
 Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.  
