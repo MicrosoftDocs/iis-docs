@@ -1,5 +1,6 @@
 ---
 title: Manifest.MajorVersion Property
+description: This article contains information about syntax, property value, and requirements for the Manifest.MajorVersion property.
 TOCTitle: MajorVersion Property
 ms:assetid: bdbda4e8-0c84-438f-babc-c18c67fbbb10
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822820(v=VS.90)

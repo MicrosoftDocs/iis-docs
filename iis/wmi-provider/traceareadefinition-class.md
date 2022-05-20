@@ -1,5 +1,6 @@
 ---
 title: "TraceAreaDefinition Class"
+description: Specifies trace area names and their corresponding enumeration values for a trace provider.  
 ms.date: "10/07/2016"
 ms.assetid: 2e7a5f92-c545-bddf-e717-433ae9baa574
 ---

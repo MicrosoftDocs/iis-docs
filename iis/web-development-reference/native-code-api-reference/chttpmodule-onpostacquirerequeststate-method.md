@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostAcquireRequestState Method"
+description: Learn about the CHttpModule::OnPostAcquireRequestState method and how it represents the method that will handle an AcquireRequestState post-event.
 ms.date: "10/07/2016"
 ms.assetid: ac11ea35-625a-0246-f97f-5c855a018912
 ---

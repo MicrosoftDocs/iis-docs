@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs.AdaptiveSource Property
+description: Describes the AdaptiveSourceStatusUpdatedEventArgs.AdaptiveSource property and provides the property's syntax and requirements.
 TOCTitle: AdaptiveSource Property
 ms:assetid: e183678b-e19f-48cc-b2c5-fc713a63ec43
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822852(v=VS.90)

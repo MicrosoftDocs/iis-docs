@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileMonitor::GetModuleContextContainer Method"
+description: "Syntax to retrieve the module context container for a file monitor interface. Default implementation creates an IDispensedHttpModuleContextContainer interface."
 ms.date: "10/07/2016"
 ms.assetid: 1106992e-ff65-d57e-683b-fadf9844efbd
 ---

@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement method and provides the method's syntax and permissions.
 TOCTitle: GetStoredProcedureCreateFromExistingStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedurecreatefromexistingstatement(v=VS.90)

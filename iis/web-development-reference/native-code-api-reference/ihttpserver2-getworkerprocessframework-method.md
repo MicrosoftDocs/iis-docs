@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer2::GetWorkerProcessFramework Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer2::GetWorkerProcessFramework method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 0fde6681-e858-4593-92fe-e957f8cc6207
 ---
 # IHttpServer2::GetWorkerProcessFramework Method

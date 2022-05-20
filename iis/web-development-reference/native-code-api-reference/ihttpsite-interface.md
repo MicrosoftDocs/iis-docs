@@ -1,6 +1,7 @@
 ---
-title: "IHttpSite Interface"
-ms.date: "10/07/2016"
+title: IHttpSite Interface
+description: Describes the IHttpSite interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3cd41621-c5a7-d717-2138-b5c34abbb539
 ---
 # IHttpSite Interface

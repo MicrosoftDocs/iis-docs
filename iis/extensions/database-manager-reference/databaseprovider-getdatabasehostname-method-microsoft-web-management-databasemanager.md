@@ -1,6 +1,7 @@
 ---
 title: DatabaseProvider.GetDatabaseHostName Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetDatabaseHostName Method
+description: "The DatabaseProvider.GetDatabaseHostName method returns the host name of the computer where the database in the connection string is located."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseHostName(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.getdatabasehostname(v=VS.90)
 ms:contentKeyID: 22049502

@@ -1,6 +1,7 @@
 ---
 title: DatabaseProvider.TestConnection Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TestConnection Method
+description: "The DatabaseProvider.TestConnection method tests a connection string for a database provider. This article describes its syntax, remarks, examples, and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.TestConnection(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.testconnection(v=VS.90)
 ms:contentKeyID: 20476646

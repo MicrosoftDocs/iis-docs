@@ -1,5 +1,6 @@
 ---
 title: CircularList(T) Methods (Microsoft.Web.Media.Diagnostics)
+description: Describes the CircularList(T) Methods and provides a table that outlines the name and description for various method types.
 TOCTitle: CircularList(T) Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.CircularList`1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728198(v=VS.95)

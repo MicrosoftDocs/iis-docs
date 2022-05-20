@@ -1,6 +1,7 @@
 ---
-title: "TransactionsDefaultSettingsSection Class"
-ms.date: "10/07/2016"
+title: TransactionsDefaultSettingsSection Class
+description: Describes the TransactionsDefaultSettingsSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3fed9528-f632-d270-6196-3b37bb64ca08
 ---
 # TransactionsDefaultSettingsSection Class

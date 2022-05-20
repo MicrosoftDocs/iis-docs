@@ -1,6 +1,7 @@
 ---
 title: ClipInformation.Duration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Duration Property
+description: Gets or sets the running time of the media clip.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.Duration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.duration(v=VS.90)
 ms:contentKeyID: 23960958

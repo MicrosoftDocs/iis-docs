@@ -1,6 +1,7 @@
 ---
-title: "SSLBinding Class"
-ms.date: "10/07/2016"
+title: SSLBinding Class
+description: Describes the SSLBinding class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 1c7b8e2b-2ce9-5bb5-87a5-4ac1603c0c66
 ---
 # SSLBinding Class

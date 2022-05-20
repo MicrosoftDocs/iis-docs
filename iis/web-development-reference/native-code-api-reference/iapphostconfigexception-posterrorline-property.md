@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigException::PostErrorLine Property"
+description: Learn how the PostErrorLine property gets the contents of the line after the line in the configuration file that caused the current exception to be thrown. 
 ms.date: "10/07/2016"
 ms.assetid: a1d4a093-133e-170f-fb48-82e1a67f3ca0
 ---

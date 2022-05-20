@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StartPosition property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.startposition(v=VS.90)

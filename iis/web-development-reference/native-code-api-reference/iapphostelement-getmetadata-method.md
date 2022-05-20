@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::GetMetadata Method"
+description: Learn how the IAppHostElement::GetMetadata method gets metadata values from the current element. 
 ms.date: "10/07/2016"
 ms.assetid: 49d70180-8cb5-d22e-1ca7-14ab7ffe2edf
 ---

@@ -1,6 +1,7 @@
 ---
-title: "IAppDomainInfo::GetIsIdle Method"
-ms.date: "10/07/2016"
+title: IAppDomainInfo::GetIsIdle Method
+description: Describes the IAppDomainInfo::GetIsIdle method and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: cf1700cc-952e-4215-4343-ef4e8ebd9fb3
 ---
 # IAppDomainInfo::GetIsIdle Method

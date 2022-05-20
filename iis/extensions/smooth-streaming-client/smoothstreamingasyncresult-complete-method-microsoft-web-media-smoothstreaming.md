@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingAsyncResult.Complete Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Complete Method
+description: Called when the operation has completed.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Complete(System.Object,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.complete(v=VS.95)
 ms:contentKeyID: 46307683

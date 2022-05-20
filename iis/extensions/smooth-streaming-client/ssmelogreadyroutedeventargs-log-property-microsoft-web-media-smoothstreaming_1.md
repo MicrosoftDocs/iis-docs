@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs.Log Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SSMELogReadyRoutedEventArgs.Log property gets or sets an XML string in the Windows Media Log format. 
 TOCTitle: Log Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.log(v=VS.95)

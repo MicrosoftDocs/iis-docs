@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::GetVaryByHeaders Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCachePolicy::GetVaryByHeaders method and details its syntax, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: fe12d854-b4bb-4c68-bcdb-a0294bd8cffd
 ---
 # IHttpCachePolicy::GetVaryByHeaders Method

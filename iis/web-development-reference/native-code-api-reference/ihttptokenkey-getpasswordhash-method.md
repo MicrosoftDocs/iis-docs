@@ -1,6 +1,7 @@
 ---
 title: "IHttpTokenKey::GetPasswordHash Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpTokenKey::GetPasswordHash method and details its parameters, return value, remarks, notes, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1259192c-d947-3f24-d7e8-f72092b07e38
 ---
 # IHttpTokenKey::GetPasswordHash Method

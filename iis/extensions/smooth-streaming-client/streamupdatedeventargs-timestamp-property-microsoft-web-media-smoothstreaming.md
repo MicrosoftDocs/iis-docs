@@ -1,6 +1,7 @@
 ---
 title: StreamUpdatedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
+description: "The Timestamp property is an optional timestamp for the StreamSelected, ChunkAdded and TracksSelected actions."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.timestamp(v=VS.90)
 ms:contentKeyID: 31469237

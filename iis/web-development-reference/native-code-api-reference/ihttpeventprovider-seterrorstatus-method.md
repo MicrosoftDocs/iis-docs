@@ -1,5 +1,6 @@
 ---
 title: "IHttpEventProvider::SetErrorStatus Method"
+description: Learn how the SetErrorStatus method specifies an error to return.
 ms.date: "10/07/2016"
 ms.assetid: 62f84393-a0b2-32f6-6f80-6db3ada4378a
 ---

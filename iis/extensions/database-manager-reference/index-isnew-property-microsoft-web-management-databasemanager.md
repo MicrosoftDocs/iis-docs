@@ -1,6 +1,7 @@
 ---
 title: Index.IsNew Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNew Property
+description: Gets or sets a value that indicates whether the index is new.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IsNew
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.isnew(v=VS.90)
 ms:contentKeyID: 20476653

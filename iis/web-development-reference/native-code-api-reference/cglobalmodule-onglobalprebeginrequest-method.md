@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalPreBeginRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the CGlobalModule::OnGlobalPreBeginRequest method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1c552a04-f229-33c5-af7f-05d28e55b9c9
 ---
 # CGlobalModule::OnGlobalPreBeginRequest Method

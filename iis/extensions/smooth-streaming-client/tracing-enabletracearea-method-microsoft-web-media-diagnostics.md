@@ -1,6 +1,7 @@
 ---
 title: Tracing.EnableTraceArea Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: EnableTraceArea Method
+description: "The EnableTraceArea method enables the trace area that is specified by the traceArea parameter. This article describes its syntax, version information, and permissions."
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.EnableTraceArea(Microsoft.Web.Media.Diagnostics.TraceArea)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.enabletracearea(v=VS.90)
 ms:contentKeyID: 23961233

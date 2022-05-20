@@ -1,5 +1,6 @@
 ---
-title: Column Constructor (Microsoft.Web.Management.DatabaseManager)
+title: Column Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: This article provides a code sample for the syntax of the column constructor.
 TOCTitle: Column Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.column(v=VS.90)

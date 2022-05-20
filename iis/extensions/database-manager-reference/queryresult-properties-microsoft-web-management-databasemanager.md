@@ -1,6 +1,7 @@
 ---
 title: QueryResult Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResult Properties
+description: The QueryResult type exposes the following members.
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.QueryResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult_properties(v=VS.90)
 ms:contentKeyID: 20476488

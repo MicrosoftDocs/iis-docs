@@ -1,6 +1,7 @@
 ---
-title: "ObjectContainerAssociation Class1"
-ms.date: "10/07/2016"
+title: ObjectContainerAssociation Class1
+description: Describes the ObjectContainerAssociation class and the class' syntax, properties, subclasses, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 40a82997-34e7-1626-d580-a3d6b90ce7f6
 ---
 # ObjectContainerAssociation Class1

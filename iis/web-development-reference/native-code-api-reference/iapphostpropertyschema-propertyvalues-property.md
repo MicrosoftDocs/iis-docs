@@ -1,6 +1,7 @@
 ---
 title: "IAppHostPropertySchema::PropertyValues Property"
-ms.date: "10/07/2016"
+description: Describes the IAppHostPropertySchema::PropertyValues property and details its syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ae129322-e427-4265-9498-4ae6656644c6
 ---
 # IAppHostPropertySchema::PropertyValues Property

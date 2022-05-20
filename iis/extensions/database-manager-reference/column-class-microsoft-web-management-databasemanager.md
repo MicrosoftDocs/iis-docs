@@ -1,5 +1,6 @@
 ---
 title: Column Class (Microsoft.Web.Management.DatabaseManager)
+description: This article has information about syntax, methods, properties, constructors, inheritance hierarchy, and thread safety for the Column class.
 TOCTitle: Column Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Column
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column(v=VS.90)

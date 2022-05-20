@@ -1,6 +1,7 @@
 ---
 title: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration
+description: "The StreamUpdatedEventArgs.StreamUpdatedAction enumeration is used for the StreamSelected, ChunkAdded, and TracksSelected in the StreamUpdatedEventArgs class."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.streamupdatedaction(v=VS.90)
 ms:contentKeyID: 31469245

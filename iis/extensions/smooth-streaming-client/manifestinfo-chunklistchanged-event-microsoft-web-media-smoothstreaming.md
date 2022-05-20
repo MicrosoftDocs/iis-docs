@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.ChunkListChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ManifestInfo.ChunkListChanged event and details its namespace, assembly, syntax, and Silverlight information.
 TOCTitle: ChunkListChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.chunklistchanged(v=VS.90)

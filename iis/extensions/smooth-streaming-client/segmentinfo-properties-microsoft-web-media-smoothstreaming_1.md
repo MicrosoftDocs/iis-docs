@@ -1,6 +1,7 @@
 ---
 title: SegmentInfo Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SegmentInfo Properties
+description: "List of properties that are exposed by the SegmentInfo property type. It shows the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SegmentInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo_properties(v=VS.95)
 ms:contentKeyID: 46307909

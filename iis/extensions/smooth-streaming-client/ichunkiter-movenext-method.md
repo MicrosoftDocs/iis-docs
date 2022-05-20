@@ -1,5 +1,6 @@
 ---
 title: IChunkIter.MoveNext Method
+description: Describes the IChunkIter.MoveNext method and provides the method's syntax, return value, and requirements.
 TOCTitle: MoveNext Method
 ms:assetid: 2bb7c370-40dd-4e46-a0a1-1115a3552027
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822706(v=VS.90)

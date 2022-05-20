@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::IsCached Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCachePolicy::IsCached method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c79e046a-5fd3-58d7-7962-1ff4120a06b3
 ---
 # IHttpCachePolicy::IsCached Method

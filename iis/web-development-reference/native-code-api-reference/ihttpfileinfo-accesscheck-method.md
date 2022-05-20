@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::AccessCheck Method"
+description: "Describes the IHttpFileInfo::AccessCheck method and details its syntax, parameters, return value, remarks, a code example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 87318954-5b0c-3d49-5cf5-b9d58de912a5
 ---

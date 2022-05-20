@@ -1,7 +1,7 @@
 ---
-title: "Joomla! FAQ"
+title: Joomla! FAQ
 author: rick-anderson
-description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+description: Provides a list of frequently asked questions and answers regarding Joomla installation and configuration.
 ms.date: 07/06/2010
 ms.assetid: d06d5158-13c1-44f0-a0b6-6c8e45e60f75
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/joomla-faq

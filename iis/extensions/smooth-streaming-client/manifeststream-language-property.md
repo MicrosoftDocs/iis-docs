@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.Language Property
+description: Describes the ManifestStream.Language property and provides the property's syntax, property values, and requirements.
 TOCTitle: Language Property
 ms:assetid: 59417067-492c-47c7-9cd7-ece2c5b0de5f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822738(v=VS.90)

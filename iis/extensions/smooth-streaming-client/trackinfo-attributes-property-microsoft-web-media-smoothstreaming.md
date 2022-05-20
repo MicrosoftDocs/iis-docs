@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Attributes property and provides the property's syntax, property value, version information, and permissions.
 TOCTitle: Attributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.attributes(v=VS.90)

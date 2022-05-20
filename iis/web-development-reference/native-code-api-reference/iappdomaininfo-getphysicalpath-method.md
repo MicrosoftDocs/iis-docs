@@ -1,6 +1,7 @@
 ---
 title: "IAppDomainInfo::GetPhysicalPath Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppDomainInfo::GetPhysicalPath method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d248cfb6-55a2-3f6e-5353-e03d8baec11d
 ---
 # IAppDomainInfo::GetPhysicalPath Method

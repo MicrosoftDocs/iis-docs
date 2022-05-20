@@ -1,6 +1,7 @@
 ---
 title: ILogger.WriteLine Method (LogLevel, String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: WriteLine Method (LogLevel, String)
+description: Writes a line to the log.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ILogger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.writeline(v=VS.90)
 ms:contentKeyID: 35521199

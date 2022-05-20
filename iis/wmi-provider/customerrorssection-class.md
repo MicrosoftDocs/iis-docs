@@ -1,6 +1,7 @@
 ---
-title: "CustomErrorsSection Class"
-ms.date: "10/07/2016"
+title: CustomErrorsSection Class
+description: Describes the CustomErrorsSection class and provides the class' syntax, methods, properties, remarks, an example, an inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e5dc46f2-d3ae-7978-93ba-9ee594b54e70
 ---
 # CustomErrorsSection Class

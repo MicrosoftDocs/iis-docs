@@ -1,5 +1,6 @@
 ---
 title: ChunkResult.ChunkResultState Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkResult.ChunkResultState Enumeration and provides enumeration's syntax, examples, and version information.
 TOCTitle: ChunkResult.ChunkResultState Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.chunkresultstate(v=VS.90)

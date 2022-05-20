@@ -1,5 +1,6 @@
 ---
 title: QueryColumnMetadata.ColumnWidth Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the QueryColumnMetadata.ColumnWidth property and provides the property's syntax, examples, and permissions.
 TOCTitle: ColumnWidth Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.ColumnWidth
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.columnwidth(v=VS.90)

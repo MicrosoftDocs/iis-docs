@@ -1,5 +1,6 @@
 ---
 title: Table Class (Microsoft.Web.Management.DatabaseManager)
+description: This page provides the syntax for constructors, properties, and methods of the table class within a database.
 TOCTitle: Table Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Table
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table(v=VS.90)
