@@ -1,6 +1,7 @@
 ---
 title: "ICustomNotificationProvider::QueryNotificationType Method"
 ms.date: "10/07/2016"
+description: Create an iCustom Notification Provider interface with a Query Notification Type method that returns a pointer to a string unique for your notification type.
 ms.assetid: 3e9e0872-241b-ba12-14a5-80ab8de2a516
 ---
 # ICustomNotificationProvider::QueryNotificationType Method
