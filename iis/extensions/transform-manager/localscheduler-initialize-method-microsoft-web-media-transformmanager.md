@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.Initialize Method  (Microsoft.Web.Media.TransformManager)
+description: Syntax for setting the name, priority, and properties for the media scheduler.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.Initialize(System.String,Microsoft.Web.Media.TransformManager.Credential,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.initialize(v=VS.90)
