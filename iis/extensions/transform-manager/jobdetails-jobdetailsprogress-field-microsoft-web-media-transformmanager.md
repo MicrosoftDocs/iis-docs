@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsProgress Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsProgress Field
+description: "JobDetailsProgress syntax to represent a constant that is used when transform jobs are sorted by the progress field."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsprogress(v=VS.90)
 ms:contentKeyID: 35520574

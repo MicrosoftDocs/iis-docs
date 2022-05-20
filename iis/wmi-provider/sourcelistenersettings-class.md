@@ -1,5 +1,6 @@
 ---
 title: "SourceListenerSettings Class"
+description: This article has information on syntax, methods, properties, subclasses, inheritance hierarchy, and system requirements for the SourceListenerSettings class. 
 ms.date: "10/07/2016"
 ms.assetid: 82f8d1af-2f9d-4f39-88f4-5f965f996dae
 ---

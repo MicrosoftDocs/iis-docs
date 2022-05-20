@@ -1,6 +1,7 @@
 ---
-title: "UrlMappingsSection Class"
-ms.date: "10/07/2016"
+title: UrlMappingsSection Class
+description: Describes the UrlMappingsSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ba5da9be-ac31-816e-6074-d3578b432a13
 ---
 # UrlMappingsSection Class

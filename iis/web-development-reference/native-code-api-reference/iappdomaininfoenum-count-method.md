@@ -1,5 +1,6 @@
 ---
 title: "IAppDomainInfoEnum::Count Method"
+description: Learn how the IAppDomainInfoEnum::Count method retrieves the number of application domains.
 ms.date: "10/07/2016"
 ms.assetid: f1d97ad2-cde6-9f28-8bca-9b22d6105d22
 ---

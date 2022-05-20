@@ -1,5 +1,6 @@
 ---
 title: IDbRestoreManager Methods (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbRestoreManager method and provides a table that outlines the method's name and description for the method type.
 TOCTitle: IDbRestoreManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbRestoreManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbrestoremanager_methods(v=VS.90)

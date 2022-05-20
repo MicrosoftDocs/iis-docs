@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalRSCAQuery Method"
+description: Learn how the OnGlobalRSCAQuery method represents the method handles a GlobalRSCAQuery event, which occurs when a Run-Time Status and Control query is executed.
 ms.date: "10/07/2016"
 ms.assetid: 6487da24-9a75-3a63-a9af-5f3842d7a5ff
 ---

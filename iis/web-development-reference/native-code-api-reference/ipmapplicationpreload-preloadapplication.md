@@ -1,5 +1,6 @@
 ---
 title: "IPmApplicationPreload::PreloadApplication"
+description: Learn how IPmApplicationPreload::PreloadApplication preloads an application into server memory given its site ID and configuration file path.
 ms.date: "10/07/2016"
 ms.assetid: 299d95c6-8184-4dda-8a54-8bcc9ce63447
 ---

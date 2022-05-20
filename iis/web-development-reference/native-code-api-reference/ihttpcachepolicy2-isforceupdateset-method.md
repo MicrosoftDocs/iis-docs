@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy2::IsForceUpdateSet Method"
+description: Learn how the IsForceUpdateSet method gets a value that determines if the force update flag has been set. 
 ms.date: "10/07/2016"
 ms.assetid: 68106133-322a-4e6a-9178-b5e4496bd438
 ---

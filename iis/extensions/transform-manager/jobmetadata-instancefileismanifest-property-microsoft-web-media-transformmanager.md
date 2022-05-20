@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.InstanceFileIsManifest Property (Microsoft.Web.Media.TransformManager)
+description: Describes the InstanceFileIsManifest property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: InstanceFileIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.InstanceFileIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.instancefileismanifest(v=VS.90)

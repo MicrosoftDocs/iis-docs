@@ -1,6 +1,7 @@
 ---
-title: "ConformanceWarningSettings Class"
-ms.date: "10/07/2016"
+title: ConformanceWarningSettings Class
+description: Describes the ConformanceWarningSettings class and provides syntax, methods, properties, subclasses, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c30bae9a-cfb7-471e-b39e-06d04693564a
 ---
 # ConformanceWarningSettings Class

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::DefaultValue Property"
+description: Learn how the IAppHostPropertySchema::DefaultValue property gets the value that the IAppHostProperty::Value property returns when a value is not explicitly set.
 ms.date: "10/07/2016"
 ms.assetid: 54736bab-b42a-26d2-ccd0-ca2de1056d4c
 ---

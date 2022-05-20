@@ -1,6 +1,7 @@
 ---
-title: "TraceFailedRequestsLogging Class1"
-ms.date: "10/07/2016"
+title: TraceFailedRequestsLogging Class1
+description: Describes the TraceFiledRequestsLogging class and provides the class' syntax, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8940ea70-501f-ef7a-6c59-a88b909db8e4
 ---
 # TraceFailedRequestsLogging Class1

@@ -95,7 +95,7 @@ You then must check the version number of Windows you have installed. To find th
     - In the explorer, browse to the Windows direct and locate the regedit.exe
     - Right click on **regedit.exe** and select **Properties**
     - In the Properties dialog box, select the **Details** tab and note the Product Version.  
-        [![](using-unattended-setup-to-install-iis/_static/image3.jpg)](using-unattended-setup-to-install-iis/_static/image1.jpg)
+        [![Screenshot of the regedit Properties dialog box's Details tab, with the Product version field being highlighted.](using-unattended-setup-to-install-iis/_static/image3.jpg)](using-unattended-setup-to-install-iis/_static/image1.jpg)
 2. In your notepad, enter this value in the XML attribute version to match the build you have installed.  
 
     - In this case, version="6.0.5308.6"

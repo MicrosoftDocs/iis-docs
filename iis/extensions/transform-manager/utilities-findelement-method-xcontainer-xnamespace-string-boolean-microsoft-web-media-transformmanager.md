@@ -1,5 +1,6 @@
 ---
 title: Utilities.FindElement Method (XContainer, XNamespace, String, Boolean) (Microsoft.Web.Media.TransformManager)
+description: Describes the Utilities.FindElement method and details its syntax, parameters, return value, and exceptions.
 TOCTitle: FindElement Method (XContainer, XNamespace, String, Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.FindElement(System.Xml.Linq.XContainer,System.Xml.Linq.XNamespace,System.String,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)

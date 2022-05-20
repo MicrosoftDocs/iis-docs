@@ -1,6 +1,7 @@
 ---
 title: IJobMetadata.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
+description: "This class is a containment association between two namespace objects; the base type from which all object–configuration section associations derive."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.InputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.inputfolder(v=VS.90)
 ms:contentKeyID: 35520916

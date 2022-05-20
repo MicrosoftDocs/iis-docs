@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.ConfigurationMessages Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the ConfigurationMessages property gets or sets a list of IIS Transform Manager configuration messages.
 TOCTitle: ConfigurationMessages Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationMessages
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationmessages(v=VS.90)

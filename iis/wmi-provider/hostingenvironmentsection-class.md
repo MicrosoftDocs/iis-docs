@@ -1,5 +1,6 @@
 ---
 title: "HostingEnvironmentSection Class"
+description: "The HostingEnvironmentSection class defines the configuration settings that control the behavior of the application hosting environment."
 ms.date: "10/07/2016"
 ms.assetid: ada5901e-b150-4cd5-4175-5d495ad6808f
 ---

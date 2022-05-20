@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.ParentStream Property
+description: Describes the properties of manifest and parent streams and provides the syntax, property values, and requirements for the stream types.
 TOCTitle: ParentStream Property
 ms:assetid: 12414628-3a17-4353-9b3b-32b11a4dfd46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822681(v=VS.90)
@@ -39,7 +40,7 @@ The parent stream of this stream. This stream is typically a sparse stream.
 
 ## Requirements
 
-|||
+| Attribute | Support |
 |--- |--- |
 |**Minimum supported client**|Windows 8|
 |**Minimum supported server**|Not Supported|

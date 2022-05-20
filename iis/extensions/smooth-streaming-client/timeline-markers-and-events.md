@@ -1,5 +1,6 @@
 ---
 title: Timeline Markers and Events
+description: Describes timeline markers and events, outlining the process of defining and creating content and specifying navigation.
 TOCTitle: Timeline Markers and Events
 ms:assetid: afe85bdd-ff5f-4e07-b8ca-6471ff1f04b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958034(v=VS.95)

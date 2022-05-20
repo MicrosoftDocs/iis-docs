@@ -35,7 +35,7 @@ The most common set of objects are available to use via the server manager inclu
 
 The following shows the main objects (excluding Configuration related classes).
 
-[![](using-managed-apis-in-iis-7/_static/image3.jpg)](using-managed-apis-in-iis-7/_static/image1.jpg)
+[![Diagram of the main objects, showing the Server Manager class' relationship to other classes.](using-managed-apis-in-iis-7/_static/image3.jpg)](using-managed-apis-in-iis-7/_static/image1.jpg)
 
 The ServerManager class also provides methods for obtaining different configurations, such as web.config, and administration.config, etc., and returns as Configuration class, which allows you to navigate the different XML entities to manage various configuration settings.
 

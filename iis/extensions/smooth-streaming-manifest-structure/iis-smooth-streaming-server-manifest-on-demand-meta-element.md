@@ -1,6 +1,7 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - meta Element
 TOCTitle: <meta>
+description: The meta element specifies a single piece of presentation-level metadata.
 ms:assetid: e4397b74-1779-48a3-97a2-cffeb65ccdd5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230820(v=VS.90)
 ms:contentKeyID: 22049448

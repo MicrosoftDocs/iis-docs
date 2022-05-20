@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider.GetServerTypes Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the DatabaseProvider.GetServerTypes method and provides the method's syntax, remarks, examples, and permissions.
 TOCTitle: GetServerTypes Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetServerTypes(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.getservertypes(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "HttpModuleAction Class"
+description: Represents an ASP.NET module.
 ms.date: "10/07/2016"
 ms.assetid: 74ccab52-cc4b-a564-29be-dc629671b13c
 ---

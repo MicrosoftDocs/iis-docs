@@ -1,6 +1,7 @@
 ---
-title: "IHttpRequest3 Interface"
-ms.date: "10/07/2016"
+title: IHttpRequest3 Interface
+description: Describes the IHttpRequest3 interface and details the interface's methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2c2d3051-2747-4f8b-8c64-504b417b041c
 ---
 # IHttpRequest3 Interface

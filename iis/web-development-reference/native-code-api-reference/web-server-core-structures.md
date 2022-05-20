@@ -1,5 +1,6 @@
 ---
 title: "Web Server Core Structures"
+description: "This section describes the Web Server Core and integrated request-processing pipeline structures including HTTP TRACE CONFIGURATION, EVENT, and EVENT ITEM."
 ms.date: "10/07/2016"
 ms.assetid: 06bec1e4-cbbf-4fe9-99b1-68a97aa9a96e
 ---

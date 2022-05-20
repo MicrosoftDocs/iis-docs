@@ -1,5 +1,6 @@
 ---
 title: "IGlobalRSCAQueryProvider::GetFunctionName Method"
+description: Learn how the GetFunctionName method returns the name of the dynamic function call that caused the event.
 ms.date: "10/07/2016"
 ms.assetid: c55da23c-5526-427f-6583-55b584e6ada3
 ---

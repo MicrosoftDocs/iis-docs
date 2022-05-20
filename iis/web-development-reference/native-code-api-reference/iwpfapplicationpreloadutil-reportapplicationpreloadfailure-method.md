@@ -1,6 +1,7 @@
 ---
 title: "IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure method and details its parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 20bb6577-7910-4878-bf32-1791784b78c2
 ---
 # IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method

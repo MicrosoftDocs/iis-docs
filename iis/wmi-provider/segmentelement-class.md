@@ -1,5 +1,6 @@
 ---
-title: "SegmentElement Class"
+title: SegmentElement Class
+description: Describes the SegmentElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: cf01de87-faab-2713-2b85-8d18629dd664
 ---

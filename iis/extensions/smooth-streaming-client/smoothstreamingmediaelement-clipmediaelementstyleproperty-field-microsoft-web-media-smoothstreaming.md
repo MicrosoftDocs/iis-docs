@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipMediaElementStyleProperty Field
+description: Represents a dependency property that specifies the ClipMediaElementStyle property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyleproperty(v=VS.90)
 ms:contentKeyID: 23961201

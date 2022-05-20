@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::IncrementThreadCount Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::IncrementThreadCount method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 6e59d669-1eae-b7a2-debb-de86ca8f5017
 ---
 # IHttpServer::IncrementThreadCount Method

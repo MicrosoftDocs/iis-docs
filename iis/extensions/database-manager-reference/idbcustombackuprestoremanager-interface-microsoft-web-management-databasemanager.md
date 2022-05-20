@@ -1,6 +1,7 @@
 ---
 title: IDbCustomBackupRestoreManager Interface (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbCustomBackupRestoreManager Interface
+description: Represents a custom database backup and restore manager interface.
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbcustombackuprestoremanager(v=VS.90)
 ms:contentKeyID: 22049493

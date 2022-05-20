@@ -1,5 +1,6 @@
 ---
 title: LookAheadChunks Element
+description: The LookAheadChunks element specifies the number of lookahead fragments that the server buffers.
 TOCTitle: LookAheadChunks Element
 ms:assetid: 4ffacfe2-7758-4555-986e-edcc14fc21ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547038(v=VS.90)

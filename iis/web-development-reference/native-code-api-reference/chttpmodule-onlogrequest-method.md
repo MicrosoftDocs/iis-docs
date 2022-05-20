@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnLogRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnLogRequest method and details its parameters, return value, remarks, a code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 0e7add72-ad38-d1a6-1682-7a6efcd5f41d
 ---
 # CHttpModule::OnLogRequest Method

@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.GetJobFiles Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobFiles Method
+description: Returns a list of the files in the folder that is created for this job.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobFiles(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobfiles(v=VS.90)
 ms:contentKeyID: 35520621

@@ -1,6 +1,7 @@
 ---
-title: "IAppHostElementExtension Interface"
-ms.date: "10/07/2016"
+title: IAppHostElementExtension Interface
+description: Describes the IAppHostElementExtension interface and details its syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a59b1d04-31f6-470a-9ee2-f6068b755e7f
 ---
 # IAppHostElementExtension Interface

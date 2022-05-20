@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalCacheOperation Method"
-ms.date: "10/07/2016"
+description: "Describes the CGlobalModule::OnGlobalCacheOperation method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a8c6dc27-5c45-4235-c8ce-214edf536328
 ---
 # CGlobalModule::OnGlobalCacheOperation Method

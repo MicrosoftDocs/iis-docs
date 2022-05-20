@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.BufferingTime Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.BufferingTime property.
 TOCTitle: BufferingTime Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingtime(v=VS.95)

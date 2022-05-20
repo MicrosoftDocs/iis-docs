@@ -1,7 +1,7 @@
 ---
-title: "FTP SSL Client Certificates &lt;sslClientCertificates&gt;"
+title: FTP SSL Client Certificates &lt;sslClientCertificates&gt;
 author: rick-anderson
-description: "Overview The &lt;sslClientCertificates&gt; element specifies the SSL client certificate options for FTP sites. More specifically, this element contains the f..."
+description: Describes the &lt;sslClientCertificates&gt; element, which specifies the SSL client certificate options for FTP sites.
 ms.date: 09/26/2016
 ms.assetid: abe8c0ef-cbd8-4432-89eb-98804985e7ab
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/sslclientcertificates

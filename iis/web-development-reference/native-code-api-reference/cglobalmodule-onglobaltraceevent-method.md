@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalTraceEvent Method"
+description: "Describes the CGlobalModule::OnGlobalTraceEvent method and details its syntax, parameters, return value, remarks, code example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 0c551af0-1f2a-ed9f-2d2b-896771e0bb92
 ---

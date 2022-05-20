@@ -1,6 +1,7 @@
 ---
 title: "IWpfSettings::GetStringProperty Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfSettings::GetStringProperty method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 45f47ea3-1a10-6bad-326d-45ca18b7e24c
 ---
 # IWpfSettings::GetStringProperty Method

@@ -1,7 +1,7 @@
 ---
-title: "Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt;"
+title: Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt;
 author: rick-anderson
-description: "Overview The &lt;sslClientCertificates&gt; element specifies the SSL client certificate options for FTP sites. More specifically, this element contains the f..."
+description: Describes the default &lt;sslClientCertificates&gt; element, which specifies the SSL client certificate options for FTP sites.
 ms.date: 09/26/2016
 ms.assetid: 45ff664f-8857-40bc-b3ee-f6dcd7ab99bc
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates

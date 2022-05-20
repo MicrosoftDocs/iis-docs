@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest3::ReadEntityBody Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpRequest3::ReadEntityBody method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4ae5283e-43eb-4f0c-9f42-a40c9e2bf317
 ---
 # IHttpRequest3::ReadEntityBody Method

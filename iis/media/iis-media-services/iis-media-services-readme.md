@@ -255,13 +255,13 @@ These issues occur because the string that specifies the HTTP verbs contains a s
 
 1. In IIS Manager, navigate to the web server level. For information about navigating to locations in the UI, see [Navigation in IIS Manager (IIS 7)](https://go.microsoft.com/?linkid=9735240).
 2. In **Features View**, double-click **Handler Mappings**.  
-    [![](iis-media-services-readme/_static/image2.jpg)](iis-media-services-readme/_static/image1.jpg)
+    ![Screenshot of Handler Mappings selected in the Features View of the server Home pane.](iis-media-services-readme/_static/image1.jpg)
 3. On the **Handler Mappings** page, right-click **SmoothHandler**, and then click **Edit**.  
-    [![](iis-media-services-readme/_static/image4.jpg)](iis-media-services-readme/_static/image3.jpg)
+    ![Screenshot of the Edit option after right-clicking Smooth Handler in the Handler Mappings pane.](iis-media-services-readme/_static/image3.jpg)
 4. In the **Edit Module Mapping** dialog box, click **Request Restrictions**.  
-    [![](iis-media-services-readme/_static/image6.jpg)](iis-media-services-readme/_static/image5.jpg)
+    ![Screenshot of the Edit Module Mapping dialog with the Request Restrictions button emphasized.](iis-media-services-readme/_static/image5.jpg)
 5. In the **Request Restrictions** dialog box, on the **Verbs** tab, select the option **One of the following verbs**, and then type the following in the corresponding box: **GET,HEAD**  
-    [![](iis-media-services-readme/_static/image8.jpg)](iis-media-services-readme/_static/image7.jpg)
+    ![Screenshot of specifying the verbs to be handled as GET or HEAD in the Request Restrictions dialog.](iis-media-services-readme/_static/image7.jpg)
 
 ##### To configure request restrictions for the SmoothHandler handler mapping in the Command Prompt window
 

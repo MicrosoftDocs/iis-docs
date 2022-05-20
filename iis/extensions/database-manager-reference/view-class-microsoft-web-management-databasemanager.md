@@ -1,5 +1,6 @@
 ---
 title: View Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the View Class and provides the class' inheritance hierarchy, syntax, constructors, properties, and methods.
 TOCTitle: View Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.View
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view(v=VS.90)

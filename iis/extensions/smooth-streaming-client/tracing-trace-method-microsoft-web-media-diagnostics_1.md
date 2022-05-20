@@ -1,5 +1,6 @@
 ---
 title: Tracing.Trace Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.Trace method and provides a table that outlines the name and description for various method types.
 TOCTitle: Trace Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.Trace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.95)

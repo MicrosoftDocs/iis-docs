@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.ExpiryTime Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ExpiryTime Property
+description: "The CacheResponse.ExpiryTime property represents a DateTime object that contains the time of response expiration."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.expirytime(v=VS.95)
 ms:contentKeyID: 46307744
