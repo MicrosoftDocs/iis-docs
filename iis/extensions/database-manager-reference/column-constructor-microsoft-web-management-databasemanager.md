@@ -1,5 +1,5 @@
 ---
-title: Column Constructor  (Microsoft.Web.Management.DatabaseManager)
+title: Column Constructor (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Column Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.column(v=VS.90)
