@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.NodeTaskCodePathX64 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NodeTaskCodePathX64 Property
+description: "The JobDefinition.NodeTaskCodePathX64 property gets or sets a location for x64 binary files. This article describes its syntax, property value, and remarks."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX64
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.nodetaskcodepathx64(v=VS.90)
 ms:contentKeyID: 35521084

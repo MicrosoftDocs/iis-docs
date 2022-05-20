@@ -1,6 +1,7 @@
 ---
 title: Select and Monitor Bitrate
 TOCTitle: Select and Monitor Bitrate
+description: "The bitrate of Smooth Streaming media automatically adjusts to the bandwidth capacity of the processors. Applications can monitor the bitrate and apply limits."
 ms:assetid: e2d27108-4d9b-4fca-9f10-a638f7232032
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff182017(v=VS.95)
 ms:contentKeyID: 46359333
