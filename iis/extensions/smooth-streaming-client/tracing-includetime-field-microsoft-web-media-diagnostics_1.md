@@ -1,5 +1,5 @@
 ---
-title: Tracing.IncludeTime Field (Microsoft.Web.Media.Diagnostics)
+title: Tracing.IncludeTime Field (Microsoft.Web.Media.Diagnostics) (1)
 TOCTitle: IncludeTime Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetime(v=VS.95)
@@ -25,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Tracing.IncludeTime Field
+# Tracing.IncludeTime Field (1)
 
 A Boolean value that indicates whether to include the time in traces.
 

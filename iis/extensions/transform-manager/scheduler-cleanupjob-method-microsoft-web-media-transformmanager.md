@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# CleanupJob Method
+# Scheduler.CleanupJob Method
 
 Removes scheduler artifacts for the specified job.
 

@@ -24,7 +24,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# WriteLine Method (LogLevel, String, Int32)
+# WriteLine Method (LogLevel, String, Int32) (Microsoft.Web.Media.TransformManager)
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
