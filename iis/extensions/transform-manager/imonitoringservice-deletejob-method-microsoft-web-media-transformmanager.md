@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.DeleteJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteJob Method
+description: "The DeleteJob method deletes all input files, output files, and work item details of a job. This article describes its syntax and parameters."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.DeleteJob(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.deletejob(v=VS.90)
 ms:contentKeyID: 35520956
