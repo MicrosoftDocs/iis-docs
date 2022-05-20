@@ -1,6 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - textstream Element
-description: Describes the textstream element and details its attributes, child elements, parent elements, and remarks.
+description: Describes the textstream element related to the IIS Smooth Streaming server manifest and details its attributes, related elements, and remarks.
 TOCTitle: <textstream>
 ms:assetid: 2ca89d4c-abe0-482c-9391-4d3ee2eb677a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673431(v=VS.90)
