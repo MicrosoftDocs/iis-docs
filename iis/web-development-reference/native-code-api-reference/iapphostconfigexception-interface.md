@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigException Interface"
+description: Learn how the IAppHostConfigException interface represents an exception in the IIS 7 configuration system.
 ms.date: "10/07/2016"
 ms.assetid: 09e456cc-7b93-2227-adf1-18f2287be43c
 ---

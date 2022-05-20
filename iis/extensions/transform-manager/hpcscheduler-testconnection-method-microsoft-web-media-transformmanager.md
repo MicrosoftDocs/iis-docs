@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.TestConnection Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TestConnection method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: TestConnection Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnection(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.testconnection(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSection.GetAllowLocation Method"
+description: Retrieves the allowLocation attribute for a configuration section.
 ms.date: "10/07/2016"
 ms.assetid: f0488c2d-152c-4b55-a96a-f43b33ee34e1
 ---

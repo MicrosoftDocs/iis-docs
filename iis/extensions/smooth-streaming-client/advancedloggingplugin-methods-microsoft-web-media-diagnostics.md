@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin Methods (Microsoft.Web.Media.Diagnostics)
+description: This article contains information about members exposed by the AdvancedLoggingPlugin methods, as well as links to additional reference materials. 
 TOCTitle: AdvancedLoggingPlugin Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin_methods(v=VS.90)

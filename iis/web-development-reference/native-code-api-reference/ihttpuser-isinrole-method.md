@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::IsInRole Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUser::IsInRole method and details its syntax, parameters, return value, remarks, code examples, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 578b34a8-b697-0f48-20d0-4cf448388c91
 ---
 # IHttpUser::IsInRole Method

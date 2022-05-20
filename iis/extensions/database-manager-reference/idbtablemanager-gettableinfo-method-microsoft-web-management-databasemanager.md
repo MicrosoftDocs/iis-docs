@@ -1,6 +1,7 @@
 ---
 title: IDbTableManager.GetTableInfo Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetTableInfo Method
+description: "The IDbTableManager.GetTableInfo method returns the table information for a table. This article describes its syntax, remarks, examples, and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTableInfo(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.gettableinfo(v=VS.90)
 ms:contentKeyID: 20476477

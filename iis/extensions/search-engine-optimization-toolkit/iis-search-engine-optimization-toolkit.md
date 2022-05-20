@@ -1,6 +1,7 @@
 ---
 title: IIS Search Engine Optimization Toolkit
 TOCTitle: IIS Search Engine Optimization Toolkit
+description: "The IIS Search Engine Optimization (SEO) Toolkit helps web developers, hosting providers, and web server admin improve their website's relevance in search results."
 ms:assetid: ccc9d948-83ad-454e-ada1-71d52d39af7c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh943088(v=VS.90)
 ms:contentKeyID: 46305583

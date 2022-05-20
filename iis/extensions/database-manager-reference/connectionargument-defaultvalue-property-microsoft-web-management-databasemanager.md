@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
+description: This code sample give the syntax to get or set the default value for the database connection argument.
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.DefaultValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.defaultvalue(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.MaximumLength Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.MaximumLength property and provides the property's namespace, assembly, syntax, and permissions.
 TOCTitle: MaximumLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.maximumlength(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "CreateCompression Function"
-ms.date: "10/07/2016"
+title: CreateCompression Function
+description: Describes the CreateCompression function and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 4b421b62-db6b-4ed8-9dff-e9c6c1d8ad0e
 ---
 # CreateCompression Function

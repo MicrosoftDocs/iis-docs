@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsFolder Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetailsFolder filed and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: JobDetailsFolder Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsfolder(v=VS.90)

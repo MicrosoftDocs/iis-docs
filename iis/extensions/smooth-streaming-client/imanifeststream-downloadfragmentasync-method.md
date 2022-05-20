@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.DownloadFragmentAsync Method
 TOCTitle: DownloadFragmentAsync Method
+description: Downloads the fragment data for the given chunk iterator through async call.
 ms:assetid: 9613ba62-8b18-4eeb-aa33-2e40d5c543f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822787(v=VS.90)
 ms:contentKeyID: 50079541

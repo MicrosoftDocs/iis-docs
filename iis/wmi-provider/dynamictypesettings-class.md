@@ -1,6 +1,7 @@
 ---
-title: "DynamicTypeSettings Class"
-ms.date: "10/07/2016"
+title: DynamicTypeSettings Class
+description: Describes the DynamicTypeSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: aad015a1-5db6-4792-aa51-300cde9889f9
 ---
 # DynamicTypeSettings Class

@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::DisableKernelCache Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::DisableKernelCache Method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: cb176222-ffa6-4591-b5ec-dc22d164fa3e
 ---
 # IHttpResponse::DisableKernelCache Method

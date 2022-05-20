@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementSchema::CollectionSchema Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostElementSchema::CollectionSchema property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 3337bf7b-7f53-4bb6-8de3-45f53cdea894
 ---
 # IAppHostElementSchema::CollectionSchema Property

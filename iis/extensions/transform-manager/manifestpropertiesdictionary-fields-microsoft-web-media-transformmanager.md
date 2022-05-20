@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Fields (Microsoft.Web.Media.TransformManager)
+description: Describes the ManifestPropertiesDictionary fields and provides a table that outlines the name and description for the field type.
 TOCTitle: ManifestPropertiesDictionary Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary_fields(v=VS.90)

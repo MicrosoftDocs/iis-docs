@@ -1,6 +1,7 @@
 ---
 title: "IAppHostProperty::GetMetadata Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostProperty::GetMetadata method and details its parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 53ff5239-6b31-1fd2-4f9d-4779adf27628
 ---
 # IAppHostProperty::GetMetadata Method

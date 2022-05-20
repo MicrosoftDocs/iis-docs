@@ -1,6 +1,7 @@
 ---
 title: TableInfo Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TableInfo Class
+description: "The TableInfo class represents the information for a table within a database. This article describes its syntax, constructors, properties, methods and thread safety."
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.TableInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo(v=VS.90)
 ms:contentKeyID: 20476651

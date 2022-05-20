@@ -1,6 +1,7 @@
 ---
-title: "INamedContextContainer Interface"
-ms.date: "10/07/2016"
+title: INamedContextContainer Interface
+description: Describes the INamedContextContainer interface and details its syntax, methods, derived classes, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c3e298de-4f26-4766-86cd-5d70e1346acd
 ---
 # INamedContextContainer Interface
