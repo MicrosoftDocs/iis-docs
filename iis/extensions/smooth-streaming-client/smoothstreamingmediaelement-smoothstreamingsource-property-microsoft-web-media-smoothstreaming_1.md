@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.SmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SmoothStreamingSource Property | Microsoft.Web.Media.SmoothStreaming
 description: "This article shows syntax, property value, and references for the SmoothStreamingMediaElement.SmoothStreamingSource Property, which can either get or set the URI of the Smooth Streaming source."
 TOCTitle: SmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingSource
