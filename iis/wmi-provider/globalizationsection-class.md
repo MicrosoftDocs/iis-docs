@@ -1,5 +1,6 @@
 ---
 title: "GlobalizationSection Class"
+description: Configures the globalization settings for a Web application.
 ms.date: "10/07/2016"
 ms.assetid: 287cc0cf-ca19-687e-ca3c-ec5a64d0a64d
 ---
