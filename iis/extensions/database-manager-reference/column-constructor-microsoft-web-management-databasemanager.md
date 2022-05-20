@@ -9,7 +9,7 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.Column
-- Microsoft.Web.Management.DatabaseManager.Column.
+- Microsoft.Web.Management.DatabaseManager.Column.#ctor
 dev_langs:
 - csharp
 - jscript
