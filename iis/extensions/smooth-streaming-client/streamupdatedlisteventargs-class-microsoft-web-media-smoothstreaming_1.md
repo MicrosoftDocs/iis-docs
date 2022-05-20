@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedListEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedListEventArgs Class (Microsoft.Web.Media.SmoothStreaming) (1)
 TOCTitle: StreamUpdatedListEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs(v=VS.95)
@@ -25,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# StreamUpdatedListEventArgs Class
+# StreamUpdatedListEventArgs Class (1)
 
 A list of [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md).
 

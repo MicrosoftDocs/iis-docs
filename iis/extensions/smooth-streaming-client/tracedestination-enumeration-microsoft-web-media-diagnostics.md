@@ -1,5 +1,5 @@
 ---
-title: TraceDestination Enumeration (Microsoft.Web.Media.Diagnostics)
+title: TraceDestination Enumeration (Microsoft.Web.Media.Diagnostics) (2)
 description: Enumeration that specifies destinations for trace data.
 TOCTitle: TraceDestination Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceDestination
@@ -39,7 +39,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TraceDestination Enumeration
+# TraceDestination Enumeration (2)
 
 Enumeration that specifies destinations for trace data.
 
