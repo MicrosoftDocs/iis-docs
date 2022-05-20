@@ -1,6 +1,7 @@
 ---
 title: "IProtocolManager::GetCustomInterface Method"
-ms.date: "10/07/2016"
+description: "Describes the IProtocolManager::GetCustomInterface method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: beefd5ac-d536-32c9-6e96-2518c6482b1f
 ---
 # IProtocolManager::GetCustomInterface Method

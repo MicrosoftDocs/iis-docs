@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::SuppressHeaders Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::SuppressHeaders method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 09879c26-c001-5d7e-6c82-e53005d55120
 ---
 # IHttpResponse::SuppressHeaders Method
