@@ -1,6 +1,7 @@
 ---
-title: "ManyToOneCertificateMappingRuleElement Class"
-ms.date: "10/07/2016"
+title: ManyToOneCertificateMappingRuleElement Class
+description: Describes the ManyToOneCertificateMappingRuleElement class and provides the class' syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 04fe2a42-1c6f-8e6c-c296-7c03eec6ec42
 ---
 # ManyToOneCertificateMappingRuleElement Class
