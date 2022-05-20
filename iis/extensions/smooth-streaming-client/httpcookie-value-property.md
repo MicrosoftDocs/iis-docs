@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.Value Property
+description: Describes the HttpCookie.Value property and provides the property's syntax, property value, and requirements.
 TOCTitle: Value Property
 ms:assetid: 9d33fd25-e5d7-4ca0-bcc1-e97ff49617bf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822795(v=VS.90)
