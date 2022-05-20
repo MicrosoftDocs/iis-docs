@@ -1,6 +1,7 @@
 ---
-title: "IHttpResponse::GetCachePolicy Method"
-ms.date: "10/07/2016"
+title: IHttpResponse::GetCachePolicy Method
+description: The Get Cache Policy method returns a pointer to an I H t t p Cache Policy interface, which enables you to call any one of the available methods for that interface.
+ms.date: 10/07/2016
 ms.assetid: ca34e089-b2d7-386a-e3f5-4c7dfa213d91
 ---
 # IHttpResponse::GetCachePolicy Method

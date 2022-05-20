@@ -1,6 +1,7 @@
 ---
-title: "IAppHostCollectionSchema Interface"
-ms.date: "10/07/2016"
+title: IAppHostCollectionSchema Interface
+description: Represents a schema for a collection in the INCLUDE i i s v e r configuration system.
+ms.date: 10/07/2016
 ms.assetid: 4f0fe5e3-1283-6da8-ba92-a0d6a330838b
 ---
 # IAppHostCollectionSchema Interface

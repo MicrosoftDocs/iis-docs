@@ -1,6 +1,7 @@
 ---
-title: "HTTP_TRACE_CONFIGURATION Structure"
-ms.date: "10/07/2016"
+title: HTTP_TRACE_CONFIGURATION Structure
+ms.date: 10/07/2016
+description: Contains tracing information for use with trace providers and consumers.
 ms.assetid: 933a2496-8b0a-256c-e75f-b0a461b58d20
 ---
 # HTTP_TRACE_CONFIGURATION Structure

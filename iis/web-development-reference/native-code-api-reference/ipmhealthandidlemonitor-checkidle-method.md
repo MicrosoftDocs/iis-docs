@@ -1,6 +1,7 @@
 ---
-title: "IPmHealthAndIdleMonitor::CheckIdle Method"
-ms.date: "10/07/2016"
+title: IPmHealthAndIdleMonitor::CheckIdle Method
+ms.date: 10/07/2016
+description: Enables the worker process framework to request whether all the listener channels for a protocol manager are idle.
 ms.assetid: cc25da61-1020-c6bb-c52d-97257629495b
 ---
 # IPmHealthAndIdleMonitor::CheckIdle Method

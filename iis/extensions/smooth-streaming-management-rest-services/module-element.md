@@ -1,5 +1,6 @@
 ---
 title: Module Element
+description: Defines a module.
 TOCTitle: Module Element
 ms:assetid: dd92d88f-b63e-479a-8810-3eb3af58ae28
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547066(v=VS.90)
