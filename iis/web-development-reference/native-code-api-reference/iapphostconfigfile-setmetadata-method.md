@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::SetMetadata Method"
+description: Learn how the SetMetadata method sets metadata in the IIS 7 configuration system.
 ms.date: "10/07/2016"
 ms.assetid: fb1403c4-1144-5169-c770-92680c558765
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::TimeSpanFormat Property"
+description: Learn how the TimeSpanFormat property gets a string that describes how the corresponding property should be formatted if the property represents a time span.
 ms.date: "10/07/2016"
 ms.assetid: ff13d198-e9fd-4e9f-8a77-dd9825ddac68
 ---

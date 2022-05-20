@@ -1,5 +1,6 @@
 ---
 title: "IGlobalApplicationPreloadProvider::ExecuteRequest Method"
+description: Learn how the ExecuteRequest method runs an HTTP request given its context and user information. 
 ms.date: "10/07/2016"
 ms.assetid: 1aa835a0-0dc5-4a77-a241-fab587dba22e
 ---

@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostMapRequestHandler Method"
+description: Learn how the OnPostMapRequestHandler method represents the method that handles a MapRequestHandler post-event.
 ms.date: "10/07/2016"
 ms.assetid: 0890eee7-5ac6-7ad3-47f8-b211611aa90f
 ---

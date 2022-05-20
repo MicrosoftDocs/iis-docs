@@ -1,5 +1,6 @@
 ---
 title: "Application Host Administration Interfaces"
+description: Learn how the API provides read and write access to configuration data and read access to the configuration schema.   
 ms.date: "10/07/2016"
 ms.assetid: e222d822-4d00-431a-8fc4-e09496636681
 ---
