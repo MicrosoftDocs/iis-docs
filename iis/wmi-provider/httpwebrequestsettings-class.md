@@ -1,5 +1,6 @@
 ---
 title: "HttpWebRequestSettings Class"
+description: "The HttpWebRequestSettings class configures the maximum length for response headers. This article describes its syntax, methods, properties, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: e3c34f66-20eb-c2e1-b0ee-f3f127d8b35c
 ---

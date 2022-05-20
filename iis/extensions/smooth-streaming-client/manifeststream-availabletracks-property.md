@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.AvailableTracks Property
 TOCTitle: AvailableTracks Property
+description: "The ManifestStream.AvailableTracks property gets the available tracks in the current stream."
 ms:assetid: 9cd8b94c-363d-4683-ba41-2c095d577331
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822793(v=VS.90)
 ms:contentKeyID: 50079547
