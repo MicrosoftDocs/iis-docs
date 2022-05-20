@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs.RequestType Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ChunkDownloadedEventArgs.RequestType property gets the request type being downloaded.
 TOCTitle: RequestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.RequestType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.requesttype(v=VS.95)

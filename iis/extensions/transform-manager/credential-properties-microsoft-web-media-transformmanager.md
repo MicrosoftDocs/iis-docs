@@ -1,5 +1,6 @@
 ---
 title: Credential Properties (Microsoft.Web.Media.TransformManager)
+description: Learn how the Credential type exposes the following members. 
 TOCTitle: Credential Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.Credential
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential_properties(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: Utilities.GetInstallLocation Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the GetInstallLocation method returns the installation location of IIS Transform Manager from the local computer.
 TOCTitle: GetInstallLocation Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.GetInstallLocation
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.getinstalllocation(v=VS.90)
