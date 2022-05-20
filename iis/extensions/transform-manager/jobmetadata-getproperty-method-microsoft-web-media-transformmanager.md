@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# GetProperty Method
+# JobMetaData.GetProperty Method
 
 Returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.
 

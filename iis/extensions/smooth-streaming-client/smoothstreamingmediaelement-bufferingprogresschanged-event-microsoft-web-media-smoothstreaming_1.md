@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.BufferingProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.BufferingProgressChanged Event (Microsoft.Web.Media.SmoothStreaming) (1)
 description: Occurs when the Buffering Progress property changes.
 TOCTitle: BufferingProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressChanged
@@ -28,7 +28,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SmoothStreamingMediaElement.BufferingProgressChanged Event
+# SmoothStreamingMediaElement.BufferingProgressChanged Event (1)
 
 Occurs when the [BufferingProgress](smoothstreamingmediaelement-bufferingprogress-property-microsoft-web-media-smoothstreaming_1.md) property changes.
 

@@ -1,5 +1,5 @@
 ---
-title: CacheResponse Properties (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse Properties (Microsoft.Web.Media.SmoothStreaming) (1)
 description: The Cache Response type exposes the following members.
 TOCTitle: CacheResponse Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.CacheResponse
@@ -9,7 +9,7 @@ ms.date: 05/31/2012
 mtps_version: v=VS.95
 ---
 
-# CacheResponse Properties
+# CacheResponse Properties (1)
 
 The [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# WorkFolder Property
+# JobDefinition.WorkFolder Property
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)

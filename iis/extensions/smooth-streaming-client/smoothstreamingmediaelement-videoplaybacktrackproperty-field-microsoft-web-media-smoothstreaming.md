@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.VideoPlaybackTrackProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.VideoPlaybackTrackProperty Field (Microsoft.Web.Media.SmoothStreaming) (1)
 TOCTitle: VideoPlaybackTrackProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrackProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videoplaybacktrackproperty(v=VS.90)
