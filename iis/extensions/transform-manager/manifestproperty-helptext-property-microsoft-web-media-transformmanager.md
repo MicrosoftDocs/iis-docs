@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.HelpText Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ManifestProperty.HelpText property. There are also links to reference materials.
 TOCTitle: HelpText Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.HelpText
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.helptext(v=VS.90)

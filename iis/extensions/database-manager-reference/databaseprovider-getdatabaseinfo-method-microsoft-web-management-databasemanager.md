@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider.GetDatabaseInfo Method  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information on syntax and permissions for the DatabaseProvider.GetDatabaseInfo method. 
 TOCTitle: GetDatabaseInfo Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseInfo(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.getdatabaseinfo(v=VS.90)

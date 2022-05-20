@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the LocalScheduler.Dispose method. There are also links to reference materials.
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
