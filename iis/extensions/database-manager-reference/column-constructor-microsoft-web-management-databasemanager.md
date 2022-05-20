@@ -2,9 +2,9 @@
 title: Column Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Column Constructor
 description: "The Column constructor creates a new instance of Column class; this article describes its syntax and permissions."
-ms.assetid: M:Microsoft.Web.Management.DatabaseManager.Column.#ctor
-ms.mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.column(v=VS.90)
-ms.contentKeyID: 20476719
+ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.column(v=VS.90)
+ms:contentKeyID: 20476719
 ms.date: 05/02/2012
 mtps_version: v=VS.90
 f1_keywords:
