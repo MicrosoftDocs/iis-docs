@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.DescriptionElement Property (Microsoft.Web.Media.TransformManager)
+description: Gets or set the XML element that contains the description of the I I S Transform Manager configuration.
 TOCTitle: DescriptionElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.DescriptionElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.descriptionelement(v=VS.90)

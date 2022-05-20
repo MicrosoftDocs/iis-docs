@@ -1,5 +1,6 @@
 ---
 title: "IMapPathProvider::SetPhysicalPath Method"
+description: The Set Physical Path method modifies the mapped path for requests.
 ms.date: "10/07/2016"
 ms.assetid: 0c3ecda8-d86b-f299-d3c5-cee8b9b761c2
 ---

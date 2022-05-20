@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection::Item Property"
+description: A VARIANT that contains the index of the requested configuration section definition.
 ms.date: "10/07/2016"
 ms.assetid: d472d5bd-168a-b3d4-f4e8-7a68bf4b1086
 ---

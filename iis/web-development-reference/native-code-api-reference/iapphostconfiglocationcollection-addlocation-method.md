@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigLocationCollection::AddLocation Method"
+description: Adds a new configuration location to the collection.
 ms.date: "10/07/2016"
 ms.assetid: 4223693f-1a64-b222-74bc-8505955306bb
 ---

@@ -1,5 +1,6 @@
 ---
 title: Credential.Domain Property (Microsoft.Web.Media.TransformManager)
+description: Gets or sets the credential domain.
 TOCTitle: Domain Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Domain
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.domain(v=VS.90)

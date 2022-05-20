@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty Constructor  (Microsoft.Web.Media.TransformManager)
+description: Initializes a new instance of the Manifest Property class.
 TOCTitle: ManifestProperty Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)

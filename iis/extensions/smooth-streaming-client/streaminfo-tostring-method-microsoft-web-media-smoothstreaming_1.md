@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.ToString Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Writes the Stream Info item to a string.
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.tostring(v=VS.95)

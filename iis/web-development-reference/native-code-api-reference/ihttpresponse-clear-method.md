@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::Clear Method"
+description: The Clear method empties the response contents, including the HTTP headers, the response body, and the HTTP status information.
 ms.date: "10/07/2016"
 ms.assetid: a85335e5-7fe8-d504-1a18-7ca0081c7317
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::DoesAllowInfinite Property"
+description: Gets a value that indicates whether the property supports having an infinite value set.
 ms.date: "10/07/2016"
 ms.assetid: 01548b7f-4c03-4407-aac8-30916da9ae01
 ---

@@ -1,5 +1,6 @@
 ---
 title: "ResetCompression Function"
+description: This function is a required export, but is not used in I I S 7.0 on Windows Vista or on Windows Server 2008.
 ms.date: "10/07/2016"
 ms.assetid: 8c4c5c42-9c9a-4075-b618-3b2057be2e46
 ---
