@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ScheduleLinearClip Method  (Microsoft.Web.Media.SmoothStreaming)
-description: This article describes a ClipContext object.The method inserts a clip that will play for its duration, after which the stream that was interrupted resumes.
+description: This page details the syntax for the SmoothStreamingMediaElement.ScheduleLinearClip method Schedules play of a linear media clip.
 TOCTitle: ScheduleLinearClip Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleLinearClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,System.TimeSpan,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.schedulelinearclip(v=VS.95)
