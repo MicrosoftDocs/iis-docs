@@ -2,6 +2,7 @@
 title: ColumnDataInfo Properties (Microsoft.Web.Management.DatabaseManager)
 description: This article provides a list and description of the properties for the ColumnDataInfo class. Each one is linked to code samples.
 TOCTitle: ColumnDataInfo Properties
+description: "List of the members that are exposed by the ColumnDataInfo type. The property type, name, and description for each are provided."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo_properties(v=VS.90)
 ms:contentKeyID: 20476625

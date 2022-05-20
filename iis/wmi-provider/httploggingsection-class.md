@@ -1,5 +1,6 @@
 ---
 title: "HttpLoggingSection Class1"
+description: "The HttpLoggingSection Class1 configures the logging of HTTP requests. This article describes its syntax, methods, properties, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 28d7825f-54f6-d715-c32b-13d911e6763d
 ---
