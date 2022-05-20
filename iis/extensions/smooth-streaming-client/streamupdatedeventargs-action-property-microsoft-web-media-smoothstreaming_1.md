@@ -1,5 +1,6 @@
 ---
-title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming) (1)
+title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming)
+description: Gets or sets StreamUpdatedEventArgs.StreamUpdatedAction.
 TOCTitle: Action Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Action
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.action(v=VS.95)
@@ -29,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# StreamUpdatedEventArgs.Action Property (1)
+# StreamUpdatedEventArgs.Action Property
 
 Gets or sets [StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md).
 
