@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.CancelJobById Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the IMonitoringService.CancelJobById method and details its syntax, parameters, return value, and remarks.
 TOCTitle: CancelJobById Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.CancelJobById(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.canceljobbyid(v=VS.90)
