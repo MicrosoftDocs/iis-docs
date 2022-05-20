@@ -1,5 +1,6 @@
 ---
 title: Archive Element
+description: Describes the Archive element and details its attributes, child elements, parent elements, and code example.
 TOCTitle: Archive Element
 ms:assetid: af2f9adb-07d8-4c60-9bc4-036dbbe08577
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547057(v=VS.90)
