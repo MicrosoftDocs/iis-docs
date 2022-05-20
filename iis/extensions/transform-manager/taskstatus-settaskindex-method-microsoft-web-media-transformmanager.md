@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TaskStatus.SetTaskIndex Method
+# SetTaskIndex Method
 
 Sets the index of the task to be performed by the scheduler.
 
