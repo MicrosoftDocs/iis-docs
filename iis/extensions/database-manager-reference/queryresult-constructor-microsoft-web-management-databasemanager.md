@@ -1,5 +1,6 @@
 ---
 title: QueryResult Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the QueryResult constructor. There are also links to reference materials.
 TOCTitle: QueryResult Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.QueryResult.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult.queryresult(v=VS.90)
