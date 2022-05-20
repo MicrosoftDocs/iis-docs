@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).Reverse Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Reverse Method
+description: This article contains the overload list for the CircularList(T).Reverse method.
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.Reverse
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728300(v=VS.90)
 ms:contentKeyID: 31469319

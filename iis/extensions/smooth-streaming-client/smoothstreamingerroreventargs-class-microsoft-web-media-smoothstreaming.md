@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingErrorEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorEventArgs Class
+description: Class to pass error event information about a Smooth Streaming operation.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs(v=VS.90)
 ms:contentKeyID: 23960987

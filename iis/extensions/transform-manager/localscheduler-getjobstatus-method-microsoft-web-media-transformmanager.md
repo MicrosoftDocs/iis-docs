@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobStatus Method
+description: This article contains syntax, parameters, and return values for the LocalScheduler.GetJobStatus method.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetJobStatus(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.getjobstatus(v=VS.90)
 ms:contentKeyID: 35521193
