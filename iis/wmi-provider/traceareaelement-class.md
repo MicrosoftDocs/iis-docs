@@ -1,5 +1,6 @@
 ---
 title: "TraceAreaElement Class"
+description: "The TraceAreaElement class specifies criteria for generating trace events and configures the content of log file entries."
 ms.date: "10/07/2016"
 ms.assetid: 886766c8-3b3c-14f3-9633-0443a6497a9c
 ---

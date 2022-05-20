@@ -1,6 +1,7 @@
 ---
 title: IHttpCookie.P3PPolicy Property
 TOCTitle: P3PPolicy Property
+description: "The P3PPolicy property gets or sets the P3P policy. This article describes its syntax, property value, and requirements."
 ms:assetid: 7eb4f9b2-f1bf-4bc9-9b58-2fb0f4700454
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822764(v=VS.90)
 ms:contentKeyID: 50079519
