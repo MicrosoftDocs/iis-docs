@@ -1,6 +1,6 @@
 ---
 title: ForeignKeyColumn.Name Property (Microsoft.Web.Management.DatabaseManager)
-descriptions: This article contains information about syntax and permissions for the ForeignKeyColumn.Name property.
+description: This article contains information about syntax and permissions for the ForeignKeyColumn.Name property.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn.name(v=VS.90)
