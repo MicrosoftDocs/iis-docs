@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.VideoPlaybackTrackProperty Field (Microsoft.Web.Media.SmoothStreaming) (1)
+title: SmoothStreamingMediaElement.VideoPlaybackTrackProperty Field (Microsoft.Web.Media.SmoothStreaming) (2)
+description: Represents a dependency property.
 TOCTitle: VideoPlaybackTrackProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrackProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videoplaybacktrackproperty(v=VS.90)
@@ -24,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# VideoPlaybackTrackProperty Field
+# VideoPlaybackTrackProperty Field (2)
 
 Represents a dependency property.
 
