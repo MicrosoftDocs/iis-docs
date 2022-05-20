@@ -1,6 +1,7 @@
 ---
 title: "IAppHostMethodExtension::ProvideMethod Method"
-ms.date: "10/07/2016"
+description: Describes the IAppHostMethodExtension::ProvideMethod method and details its parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 393c6056-eaee-4f74-b81a-8a1688e1baff
 ---
 # IAppHostMethodExtension::ProvideMethod Method

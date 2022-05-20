@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming On-Demand Server Manifest Format
+description: Describes the IIS Smooth Streaming On-Demand Server Manifest format and provides the structure of the server manifest file.
 TOCTitle: On-Demand Server Manifest Format
 ms:assetid: 52c07be6-0a29-4eb5-a99e-307ddf1ac47b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230813(v=VS.90)

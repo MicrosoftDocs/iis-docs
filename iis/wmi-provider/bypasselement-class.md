@@ -1,6 +1,7 @@
 ---
-title: "BypassElement Class"
-ms.date: "10/07/2016"
+title: BypassElement Class
+description: Describes the BypassElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5169123e-c88c-f1a4-750f-159bb0db613a
 ---
 # BypassElement Class

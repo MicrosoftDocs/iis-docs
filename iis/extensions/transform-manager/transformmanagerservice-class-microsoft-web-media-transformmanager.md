@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: TransformManagerService Class
+description: Provides control of on-demand media transformation services.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TransformManagerService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice(v=VS.90)
 ms:contentKeyID: 35521146

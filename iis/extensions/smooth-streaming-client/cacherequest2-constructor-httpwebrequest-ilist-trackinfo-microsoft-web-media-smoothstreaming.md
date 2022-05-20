@@ -1,5 +1,6 @@
 ---
 title: CacheRequest2 Constructor (HttpWebRequest, IList(TrackInfo)) (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheRequest2 constructor and provides the constructor's namespace, assembly, syntax, parameters, and version information.
 TOCTitle: CacheRequest2 Constructor (HttpWebRequest, IList(TrackInfo))
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor(System.Net.HttpWebRequest,System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.cacherequest2(v=VS.95)

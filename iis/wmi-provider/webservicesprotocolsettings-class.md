@@ -1,5 +1,6 @@
 ---
 title: "WebServicesProtocolSettings Class"
+description: Specifies protocols that decrypt data sent from a client browser in an HTTP request.
 ms.date: "10/07/2016"
 ms.assetid: 185f1e2f-20c7-450f-ae59-aac6fcfe5c91
 ---

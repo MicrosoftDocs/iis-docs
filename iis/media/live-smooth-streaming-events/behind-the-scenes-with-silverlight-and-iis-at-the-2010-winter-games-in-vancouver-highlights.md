@@ -1,6 +1,6 @@
 ---
-title: "Behind the Scenes with Silverlight and IIS at the Winter Games - Highlights"
-description: "Find out how Microsoft and 14 partners powered live and on-demand online coverage of the 2010 Vancouver Winter Olympics for broadcasters CTV (Canada), NBC (U..."
+title: Behind the Scenes with Silverlight and IIS at the Winter Games - Highlights
+description: Provides highlights of a behind-the-scenes look at the usage of Microsoft Silverlight and IIS in the 2010 Vancouver Winter Olympics broadcast.
 ms.date: 05/05/2010
 ms.assetid: 82650174-4843-4df8-9163-fe444e1510dd
 msc.legacyurl: /learn/media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights

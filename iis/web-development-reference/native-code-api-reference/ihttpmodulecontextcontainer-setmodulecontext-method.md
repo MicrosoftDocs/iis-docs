@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleContextContainer::SetModuleContext Method"
+description: Learn how the SetModuleContext method sets the stored context on the context container.
 ms.date: "10/07/2016"
 ms.assetid: b6c08c35-90c0-c5b4-c59c-2a280b6f00d9
 ---

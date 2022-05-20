@@ -1,6 +1,7 @@
 ---
 title: StreamInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
+description: "The Attributes property gets or sets attributes for this stream. This article describes its syntax, examples, and version information."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.attributes(v=VS.90)
 ms:contentKeyID: 31469151

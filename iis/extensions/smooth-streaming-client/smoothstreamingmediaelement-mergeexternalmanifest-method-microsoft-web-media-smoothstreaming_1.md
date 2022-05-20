@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MergeExternalManifest Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.MergeExternalManifest method and provides the method's syntax, examples, and version information.
 TOCTitle: MergeExternalManifest Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mergeexternalmanifest(v=VS.95)

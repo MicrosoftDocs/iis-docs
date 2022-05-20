@@ -1,5 +1,6 @@
 ---
 title: Query Properties (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Query properties and provides a table that outlines the name and description for various property types.
 TOCTitle: Query Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.Query
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query_properties(v=VS.90)

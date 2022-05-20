@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.ConfigurationExtension Field (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationExtension field and provides the field's namespace, assembly, and syntax.
 TOCTitle: ConfigurationExtension Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationExtension
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationextension(v=VS.90)

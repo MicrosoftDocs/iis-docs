@@ -1,6 +1,7 @@
 ---
 title: Microsoft.Media.AdaptiveStreaming Namespace
 TOCTitle: Microsoft.Media.AdaptiveStreaming Namespace
+description: "This article provides a list of classes, delegates, enumerations, interfaces and a structure in the Microsoft.Media.AdaptiveStreaming namespace."
 ms:assetid: a6987d7f-5c75-42e3-ae20-886db2fee3ed
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822803(v=VS.90)
 ms:contentKeyID: 50079557

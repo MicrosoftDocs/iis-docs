@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.SelectTracks Method
 TOCTitle: SelectTracks Method
+description: Selects the tracks in a subset of all the available tracks.
 ms:assetid: 173bc76d-1179-4345-8f55-aba78ae7d7df
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822684(v=VS.90)
 ms:contentKeyID: 50079439

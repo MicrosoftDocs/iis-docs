@@ -1,6 +1,7 @@
 ---
 title: "IHttpTraceContext::GetTraceConfiguration Method"
-ms.date: "10/07/2016"
+description: Describes the IHttpTraceContext::GetTraceConfiguration Method and details its syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 57ac1397-e4e0-422c-af57-cd441981bce9
 ---
 # IHttpTraceContext::GetTraceConfiguration Method

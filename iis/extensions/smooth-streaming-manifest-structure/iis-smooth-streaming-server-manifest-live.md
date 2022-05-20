@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live)
+description: Learn how The Live Server Manifest is provided to the server by the encoder and used to enable the server to interpret the incoming live stream.
 TOCTitle: Live Server Manifest
 ms:assetid: 8328370a-b63c-4a65-ab89-270b6d5e8b8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230816(v=VS.90)

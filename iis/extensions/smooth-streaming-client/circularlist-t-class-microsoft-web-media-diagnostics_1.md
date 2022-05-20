@@ -1,5 +1,6 @@
 ---
 title: CircularList(T) Class (Microsoft.Web.Media.Diagnostics)
+description: Learn how the CircularList\<T\> class implements a circular list. This class is deprecated.
 TOCTitle: CircularList(T) Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.CircularList`1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728278(v=VS.95)

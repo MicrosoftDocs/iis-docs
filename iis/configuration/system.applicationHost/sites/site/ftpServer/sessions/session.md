@@ -1,7 +1,7 @@
 ---
-title: "FTP Session &lt;session&gt;"
+title: FTP Session &lt;session&gt;
 author: rick-anderson
-description: "Overview The &lt;sessions&gt; element is a dynamically generated collection of &lt;session&gt; elements, each of which is dynamically created by the FTP serv..."
+description: Provides an overview of the &lt;sessions&gt; element, which is is a dynamically generated collection of &lt;session&gt; elements, and its properties.
 ms.date: 09/26/2016
 ms.assetid: 6990a0fd-d325-42a1-8bf8-43fea5664a87
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/sessions/session

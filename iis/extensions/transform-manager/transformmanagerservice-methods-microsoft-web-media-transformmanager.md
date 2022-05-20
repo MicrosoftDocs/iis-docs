@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the Transform ManagerService methods and provides a table that outlines the name and description for various method types.
 TOCTitle: TransformManagerService Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.TransformManagerService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice_methods(v=VS.90)

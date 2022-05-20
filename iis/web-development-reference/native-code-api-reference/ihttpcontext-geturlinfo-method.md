@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetUrlInfo Method"
+description: Learn how the GetUrlInfo method retrieves the URL information container for the current context.
 ms.date: "10/07/2016"
 ms.assetid: c7f49659-be13-b8eb-d401-3f35cdf88213
 ---

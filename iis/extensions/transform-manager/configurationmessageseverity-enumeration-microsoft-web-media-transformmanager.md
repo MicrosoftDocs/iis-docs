@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessageSeverity Enumeration (Microsoft.Web.Media.TransformManager)
+description: Learn how the ConfigurationMessageSeverity enumeration specifies how to display IIS Transform Manager configuration messages.
 TOCTitle: ConfigurationMessageSeverity Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessageseverity(v=VS.90)

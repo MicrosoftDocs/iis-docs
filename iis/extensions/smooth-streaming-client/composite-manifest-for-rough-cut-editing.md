@@ -1,5 +1,6 @@
 ---
 title: Composite Manifest for Rough Cut Editing
+description: Describes the composite manifest and its contained StreamIndex segments. Discusses various calculations and configurations.
 TOCTitle: Composite Manifest for Rough Cut Editing
 ms:assetid: 50fe2563-f99a-4393-8a07-6a5437ae47ba
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff402314(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.ToString Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the TrackInfo.ToString method writes a TrackInfo object to string.
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.tostring(v=VS.90)

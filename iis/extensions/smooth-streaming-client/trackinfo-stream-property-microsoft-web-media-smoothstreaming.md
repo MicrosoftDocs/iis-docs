@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.Stream Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, version information, and permissions, and reference materials for the TrackInfo.Stream property.
 TOCTitle: Stream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Stream
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.stream(v=VS.90)

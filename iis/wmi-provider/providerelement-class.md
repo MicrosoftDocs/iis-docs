@@ -1,6 +1,7 @@
 ---
-title: "ProviderElement Class"
-ms.date: "10/07/2016"
+title: ProviderElement Class
+description: Describes the ProviderElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: aad00f2c-a37d-4424-8b21-3c40c34a86a3
 ---
 # ProviderElement Class

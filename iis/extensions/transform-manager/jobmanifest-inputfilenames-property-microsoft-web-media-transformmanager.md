@@ -1,6 +1,7 @@
 ---
 title: JobManifest.InputFileNames Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFileNames Property
+description: Gets a collection of input file names for a job.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InputFileNames
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.inputfilenames(v=VS.90)
 ms:contentKeyID: 35520801

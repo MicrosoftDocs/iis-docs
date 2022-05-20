@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - smil Element
+description: Describes the smil element and details the element's attributes, child elements, parent elements, and code example.
 TOCTitle: <smil>
 ms:assetid: 1f93add4-d463-4503-8c9f-063beac6bbb2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230810(v=VS.90)

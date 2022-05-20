@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.GetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetTaskChildProcessId method and provides the method's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: GetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetTaskChildProcessId(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.gettaskchildprocessid(v=VS.90)

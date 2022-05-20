@@ -1,6 +1,7 @@
 ---
 title: ConfigurationBase.LastModified Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LastModified Property
+description: "The ConfigurationBase.LastModified property gets or sets the date and time when the IIS Transform Manager configuration was last modified."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LastModified
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.lastmodified(v=VS.90)
 ms:contentKeyID: 35520753

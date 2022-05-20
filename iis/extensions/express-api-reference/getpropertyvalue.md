@@ -1,5 +1,6 @@
 ---
 title: "GetPropertyValue"
+description: "GetPropertyValue queries the specified property of the IIS version. This article describes its syntax, parameters, return value, exceptions, and remarks."
 ms.date: "10/07/2016"
 ms.assetid: 09c0dfd3-69ad-42b8-87cf-5edd6d9b858b
 ---

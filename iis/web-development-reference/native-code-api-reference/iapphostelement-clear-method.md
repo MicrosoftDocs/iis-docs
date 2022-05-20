@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::Clear Method"
+description: Learn how the IAppHostElement::Clear method removes all elements from the configuration system. 
 ms.date: "10/07/2016"
 ms.assetid: 84ab0e10-0c50-6a3a-5bf6-67dd08552d74
 ---

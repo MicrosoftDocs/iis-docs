@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MediaEnded Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contain syntax and version information for the SmoothStreamingMediaElement.MediaEnded event.
 TOCTitle: MediaEnded Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaEnded
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediaended(v=VS.95)

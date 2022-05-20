@@ -1,6 +1,7 @@
 ---
-title: "ExpressionBuilderSettings Class"
-ms.date: "10/07/2016"
+title: ExpressionBuilderSettings Class
+description: Describes the ExpressionBuilderSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 706dd237-4fa5-433c-8e21-5c929bdf1136
 ---
 # ExpressionBuilderSettings Class

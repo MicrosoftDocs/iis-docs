@@ -1,6 +1,7 @@
 ---
 title: AdvancedLoggingPlugin.TimerInterval Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TimerInterval Property
+description: Gets or sets the timer interval for periodic advanced logging posts.
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.TimerInterval
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.timerinterval(v=VS.95)
 ms:contentKeyID: 46307724

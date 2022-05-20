@@ -1,5 +1,6 @@
 ---
 title: ProtectionInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the protectionInfo properties and provides a table that outlines the name and description for the property type.
 TOCTitle: ProtectionInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo_properties(v=VS.95)

@@ -1,6 +1,7 @@
 ---
-title: "VirtualDirectory Class2"
-ms.date: "10/07/2016"
+title: VirtualDirectory Class2
+description: Describes the VirtualDirectory class and provides the class' syntax, methods, properties, remarks, examples, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 87c349b9-1d64-ac13-cb24-e70a5c209b6e
 ---
 # VirtualDirectory Class2

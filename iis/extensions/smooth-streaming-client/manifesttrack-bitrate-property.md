@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.Bitrate Property
+description: This article contains information on syntax, property value, and requirements for the ManifestTrack.Bitrate property.
 TOCTitle: Bitrate Property
 ms:assetid: ec767aa8-5dc6-43ae-abef-0dd7b0bf5558
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822866(v=VS.90)

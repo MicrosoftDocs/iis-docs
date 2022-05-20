@@ -1,6 +1,7 @@
 ---
 title: JobManifest.FindJobElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: FindJobElement Method
+description: Returns the XML job element from the manifest.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.FindJobElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.findjobelement(v=VS.90)
 ms:contentKeyID: 35520636

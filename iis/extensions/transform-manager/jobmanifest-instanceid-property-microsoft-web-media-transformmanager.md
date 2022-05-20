@@ -1,6 +1,7 @@
 ---
 title: JobManifest.InstanceId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceId Property
+description: "The JobManifest.InstanceId property gets or sets the ID of the manifest instance. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InstanceId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.instanceid(v=VS.90)
 ms:contentKeyID: 35520911

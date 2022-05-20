@@ -1,5 +1,6 @@
 ---
 title: IManagementService.InitializeService Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the InitializeService method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: InitializeService Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.InitializeService(Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.initializeservice(v=VS.90)

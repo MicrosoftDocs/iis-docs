@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetIsLastNotification Method"
+description: Learn how the GetIsLastNotification method indicates whether more notifications are pending for this request within the current module host.
 ms.date: "10/07/2016"
 ms.assetid: 6e2375e4-264e-ccdb-6fee-3f07d258ca3b
 ---

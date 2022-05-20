@@ -1,6 +1,7 @@
 ---
 title: QueryColumnMetadata.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Property
+description: Retrieves the type information for the query column's metadata.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.typeinfo(v=VS.90)
 ms:contentKeyID: 22049469

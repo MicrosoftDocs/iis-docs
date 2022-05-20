@@ -1,7 +1,7 @@
 ---
-title: "Create an FTP Authentication Provider with Dynamic IP Restrictions"
+title: Create an FTP Authentication Provider with Dynamic IP Restrictions
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to create an FTP authentication provider with dynamics IP restrictions using Visual Studio 2008.
 ms.date: 08/06/2009
 ms.assetid: ee23f7b8-5500-411f-9050-91410c0f3dfc
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions
@@ -188,7 +188,7 @@ In this step, you will implement the logging extensibility interface for the dem
 6. Save and compile the project.
 
 > [!NOTE]
-> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see [Gacutil.exe (Global Assembly Cache Tool)](https://docs.microsoft.com/dotnet/framework/tools/gacutil-exe-gac-tool).
+> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see [Gacutil.exe (Global Assembly Cache Tool)](/dotnet/framework/tools/gacutil-exe-gac-tool).
 
 <a id="03"></a>
 

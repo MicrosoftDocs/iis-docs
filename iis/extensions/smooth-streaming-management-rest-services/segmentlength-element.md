@@ -1,6 +1,7 @@
 ---
 title: SegmentLength Element
 TOCTitle: SegmentLength Element
+description: "The SegmentLength element sets an xs:duration value that specifies the archive segment length."
 ms:assetid: 04d892cd-8e33-4896-a29a-3fc07831a40f
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547023(v=VS.90)
 ms:contentKeyID: 37836864

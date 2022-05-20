@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Client Manifest - Protection Element
+description: Describes the Protection element associated with the IIS Smooth Streaming client manifest and details its attributes and elements.
 TOCTitle: <Protection>
 ms:assetid: 4157e025-1b78-4bdd-a24d-04118e72ace5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673433(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition Properties (Microsoft.Web.Media.TransformManager)
+description: Learn how the TaskDefinition type exposes the following members.
 TOCTitle: TaskDefinition Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.TaskDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition_properties(v=VS.90)

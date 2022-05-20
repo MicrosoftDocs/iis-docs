@@ -1,6 +1,7 @@
 ---
-title: "GetRunningProcessForSite"
-ms.date: "10/07/2016"
+title: GetRunningProcessForSite
+description: Describes the GetRunningProcessForSite function and provides the function's syntax, parameters, and return value.
+ms.date: 10/07/2016
 ms.assetid: 97a095d4-839a-4405-9b4d-7142be2ba815
 ---
 # GetRunningProcessForSite

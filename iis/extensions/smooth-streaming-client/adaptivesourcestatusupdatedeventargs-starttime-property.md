@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs.StartTime Property
 TOCTitle: StartTime Property
+description: "The AdaptiveSourceStatusUpdatedEventArgs.StartTime property gets the start time. This article describes its syntax. property value, and requirements."
 ms:assetid: 77f6c5f3-8b67-488b-84b3-3a8b83dc6f58
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822761(v=VS.90)
 ms:contentKeyID: 50079516

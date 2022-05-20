@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobName Property
+description: Gets or set the name of this job.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobname(v=VS.90)
 ms:contentKeyID: 35521195

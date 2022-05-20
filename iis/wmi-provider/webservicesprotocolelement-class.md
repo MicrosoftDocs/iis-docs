@@ -1,5 +1,6 @@
 ---
 title: "WebServicesProtocolElement Class"
+description: "The WebServicesProtocolElement class specifies a transmission protocol or protocols that are used to decrypt data sent from a client browser in an HTTP request."
 ms.date: "10/07/2016"
 ms.assetid: a9d8a894-5643-050e-f028-3af31e0202a3
 ---

@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Class
+description: "Defines the manifest properties that contain task-specific metadata for task definitions, in job templates, and in tasks."
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty(v=VS.90)
 ms:contentKeyID: 31477621

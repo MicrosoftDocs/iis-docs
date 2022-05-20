@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetMetadata Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetMetadata method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 9d5031b5-474a-1bbd-87c5-fb6743568419
 ---
 # IHttpContext::GetMetadata Method
