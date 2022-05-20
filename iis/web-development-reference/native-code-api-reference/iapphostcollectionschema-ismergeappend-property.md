@@ -1,5 +1,6 @@
 ---
 title: "IAppHostCollectionSchema::IsMergeAppend Property"
+description: Learn how the IsMergeAppend property gets a value that determines whether local collection elements are merged after inherited elements are added.
 ms.date: "10/07/2016"
 ms.assetid: 22dabafd-081f-bebe-24de-c5ed61dbc6d9
 ---

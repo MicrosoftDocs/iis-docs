@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::IsUniqueKey Property"
+description: Learn how the IsUniqueKey property determines whether a property value is a unique key for a collection.
 ms.date: "10/07/2016"
 ms.assetid: 8ab3c522-03ae-4d2f-daf4-e82086b6c1a2
 ---

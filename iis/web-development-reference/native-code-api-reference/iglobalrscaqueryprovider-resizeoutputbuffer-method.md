@@ -1,5 +1,6 @@
 ---
 title: "IGlobalRSCAQueryProvider::ResizeOutputBuffer Method"
+description: Learn how the ResizeOutputBuffer method resizes and returns the output BYTE array.
 ms.date: "10/07/2016"
 ms.assetid: 0f550da6-ac62-5d76-e29c-08d5e1238762
 ---
