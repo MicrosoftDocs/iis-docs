@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult.CompletedSynchronously Property (Microsoft.Web.Media.SmoothStreaming)
+description: This page details the syntax for the SmoothStreamingAsyncResult.CompletedSynchronously property. This indicates whether the operation completed synchronously on the same thread.
 TOCTitle: CompletedSynchronously Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.CompletedSynchronously
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.completedsynchronously(v=VS.95)
