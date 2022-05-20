@@ -1,5 +1,6 @@
 ---
 title: ManifestReadyEventArgs Class
+description: This article contains information on syntax, members, and requirements for the ManifestReadyEventArgs class. 
 TOCTitle: ManifestReadyEventArgs Class
 ms:assetid: a85e12bb-b93e-4ca0-9bdf-5205956cda7a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822806(v=VS.90)

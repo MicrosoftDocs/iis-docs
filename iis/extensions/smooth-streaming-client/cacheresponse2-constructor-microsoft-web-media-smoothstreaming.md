@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2 Constructor  (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains information on the overload list for the CacheResponse2 constructor. There are also links to reference materials.
 TOCTitle: CacheResponse2 Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2.cacheresponse2(v=VS.95)

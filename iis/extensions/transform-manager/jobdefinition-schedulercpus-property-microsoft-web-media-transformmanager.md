@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerCpus Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobDefinition.SchedulerCpus property. There are also links to additional resources.
 TOCTitle: SchedulerCpus Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpus(v=VS.90)
