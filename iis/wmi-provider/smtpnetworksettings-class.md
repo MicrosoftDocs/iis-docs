@@ -1,5 +1,6 @@
 ---
 title: "SmtpNetworkSettings Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SmtpNetworkSettings class.
 ms.date: "10/07/2016"
 ms.assetid: 56fb1598-1a9e-3fa0-08c4-2789202f1d4b
 ---

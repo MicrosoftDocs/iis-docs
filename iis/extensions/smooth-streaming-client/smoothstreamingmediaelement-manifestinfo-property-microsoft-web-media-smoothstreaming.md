@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ManifestInfo Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, property value, and version information for the SmoothStreamingMediaElement.ManifestInfo property.
 TOCTitle: ManifestInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestinfo(v=VS.90)
