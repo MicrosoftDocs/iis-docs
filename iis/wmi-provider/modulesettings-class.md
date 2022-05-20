@@ -1,5 +1,6 @@
 ---
 title: "ModuleSettings Class"
+description: This article contains the syntax, method, properties, classes, and requirements for the ModuleSettings class.
 ms.date: "10/07/2016"
 ms.assetid: 760f4adf-3e89-4a5d-9648-ca4753f5eb65
 ---

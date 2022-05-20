@@ -1,6 +1,7 @@
 ---
 title: IManifestTrack Interface.TrackIndex Property
 TOCTitle: TrackIndex Property
+description: Describes the IManifestTrack Interface.TrackIndex property field and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: d64469c3-d119-4f6f-a2cb-d91d1d3d858f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822841(v=VS.90)
 ms:contentKeyID: 50079595
