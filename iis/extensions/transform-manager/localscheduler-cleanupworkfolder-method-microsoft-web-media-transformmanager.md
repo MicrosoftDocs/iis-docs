@@ -1,6 +1,5 @@
 ---
 title: LocalScheduler.CleanupWorkFolder Method  (Microsoft.Web.Media.TransformManager)
-description: This member overrides Scheduler.CleanupWorkFolder.
 TOCTitle: CleanupWorkFolder Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.CleanupWorkFolder(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.cleanupworkfolder(v=VS.90)
@@ -26,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# LocalScheduler.CleanupWorkFolder Method
+# CleanupWorkFolder Method
 
 This member overrides [Scheduler.CleanupWorkFolder(String)](scheduler-cleanupworkfolder-method-microsoft-web-media-transformmanager.md).
 

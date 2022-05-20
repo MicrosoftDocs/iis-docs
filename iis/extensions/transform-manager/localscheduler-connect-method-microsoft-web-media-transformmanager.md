@@ -1,6 +1,5 @@
 ---
 title: LocalScheduler.Connect Method  (Microsoft.Web.Media.TransformManager)
-description: Connects to the local scheduler.
 TOCTitle: Connect Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.Connect(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.connect(v=VS.90)
@@ -26,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# LocalScheduler.Connect Method
+# Connect Method
 
 Connects to the local scheduler.
 

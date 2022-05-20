@@ -1,7 +1,7 @@
 ---
-title: IAppHostConfigException::FileName Property
-ms.date: 10/07/2016
-description: Gets the physical path of the configuration file that caused the current exception to be thrown.
+title: "IAppHostConfigException::FileName Property"
+description: A pointer to a `BSTR` that contains the path to the configuration file.
+ms.date: "10/07/2016"
 ms.assetid: 5af2e96b-cfa0-a9b9-bb28-b0665c85427e
 ---
 # IAppHostConfigException::FileName Property
