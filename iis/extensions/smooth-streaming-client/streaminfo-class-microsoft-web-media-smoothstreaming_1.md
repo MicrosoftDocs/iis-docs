@@ -1,6 +1,7 @@
 ---
 title: StreamInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamInfo Class
+description: "The StreamInfo class defines the basic information for each stream. This class corresponds to the StreamIndex element of the client manifest."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo(v=VS.95)
 ms:contentKeyID: 46307966
