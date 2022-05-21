@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.Save Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax, parameters, and exceptions for the TaskDefinition.Save method.
 TOCTitle: Save Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskDefinition.Save(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.save(v=VS.90)

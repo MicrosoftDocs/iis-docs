@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PipModeProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.PipModeProperty field.
 TOCTitle: PipModeProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipModeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmodeproperty(v=VS.95)

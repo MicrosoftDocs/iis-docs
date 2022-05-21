@@ -1,5 +1,6 @@
 ---
 title: "CreateObjectFromCLSID"
+description: This article describes creating a COM object using the specified class ID.
 ms.date: "10/07/2016"
 ms.assetid: 94eaf219-d206-4f90-9eef-940a96f2d9a7
 ---

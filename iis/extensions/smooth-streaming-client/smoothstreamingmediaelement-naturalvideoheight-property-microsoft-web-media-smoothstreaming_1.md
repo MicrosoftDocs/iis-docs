@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.NaturalVideoHeight Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalVideoHeight Property
+description: Describes the SmoothStreamingMediaElement.NaturalVideoHeightpProperty and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoHeight
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideoheight(v=VS.95)
 ms:contentKeyID: 46307839

@@ -1,6 +1,7 @@
 ---
 title: TaskDefinition.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
+description: Describes the TaskDefinition.InputFolder property and provides the namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.InputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.inputfolder(v=VS.90)
 ms:contentKeyID: 35520787

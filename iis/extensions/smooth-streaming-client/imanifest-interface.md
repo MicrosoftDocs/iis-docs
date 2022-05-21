@@ -1,5 +1,6 @@
 ---
 title: IManifest Interface
+description: Describes the IManifest interface and provides the interface's syntax and a table that outlines the description for various requirements.
 TOCTitle: IManifest Interface
 ms:assetid: fd03cc5f-c391-478b-8528-c74a5531ed16
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822879(v=VS.90)

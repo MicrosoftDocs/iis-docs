@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer2::GetExtendedInterface Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer2::GetExtendedInterface method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 36084663-a38a-4941-bfe4-f6782594efd9
 ---
 # IHttpServer2::GetExtendedInterface Method

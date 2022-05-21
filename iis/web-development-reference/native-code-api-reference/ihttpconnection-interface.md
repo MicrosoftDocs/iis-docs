@@ -1,6 +1,7 @@
 ---
-title: "IHttpConnection Interface"
-ms.date: "10/07/2016"
+title: IHttpConnection Interface
+description: Describes the IHttpConnection interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b4c860fc-5e1a-e3ce-ec6c-c1fdda229eed
 ---
 # IHttpConnection Interface

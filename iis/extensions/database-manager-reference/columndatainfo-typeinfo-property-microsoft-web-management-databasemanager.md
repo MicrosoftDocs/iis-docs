@@ -1,6 +1,6 @@
 ---
 title: ColumnDataInfo.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
-description: The following code sample offers the syntax for the InsertRow method to insert data into a database table in an OLEDB data source.
+description: This article contains information on syntax and permissions for the ColumnDataInfo.TypeInfo property. 
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.typeinfo(v=VS.90)

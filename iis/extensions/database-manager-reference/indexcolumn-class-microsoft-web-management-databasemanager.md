@@ -1,5 +1,6 @@
 ---
 title: IndexColumn Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IndexColumn class and provides the class' inheritance hierarchy, syntax, constructors, properties, methods, and fields.
 TOCTitle: IndexColumn Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IndexColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn(v=VS.90)

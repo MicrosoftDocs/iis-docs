@@ -1,5 +1,6 @@
 ---
 title: ChunkResult Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkResult properties type and provides a list of the properties and links to corresponding documentation.
 TOCTitle: ChunkResult Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ChunkResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult_properties(v=VS.90)

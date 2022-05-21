@@ -1,5 +1,6 @@
 ---
 title: JobDefinition Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition constructor and provides a list of JobDefinition's methods and related articles.
 TOCTitle: JobDefinition Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobDefinition.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobdefinition(v=VS.90)

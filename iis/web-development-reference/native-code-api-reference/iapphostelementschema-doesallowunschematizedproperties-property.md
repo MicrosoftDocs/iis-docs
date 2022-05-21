@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementSchema::DoesAllowUnschematizedProperties Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostElementSchema::DoesAllowUnschematizedProperties property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 280ce38d-cf6a-10e4-eab5-5fdf7dd65097
 ---
 # IAppHostElementSchema::DoesAllowUnschematizedProperties Property

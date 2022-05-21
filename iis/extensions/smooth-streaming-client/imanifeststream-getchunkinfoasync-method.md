@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.GetChunkInfoAsync Method
+description: This article contains information about syntax, parameters, and return value for the IManifestStream.GetChunkInfoAsync method.
 TOCTitle: GetChunkInfoAsync Method
 ms:assetid: 00ee0434-0e92-4fa9-a0be-30643081a99f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ851079(v=VS.90)

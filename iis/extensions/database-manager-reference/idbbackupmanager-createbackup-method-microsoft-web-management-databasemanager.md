@@ -1,5 +1,6 @@
 ---
 title: IDbBackupManager.CreateBackup Method  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the IDbBackupManager.CreateBackup method.
 TOCTitle: CreateBackup Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbBackupManager.CreateBackup(System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbbackupmanager.createbackup(v=VS.90)

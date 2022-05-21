@@ -1,6 +1,7 @@
 ---
-title: "AppDomain Class"
-ms.date: "10/07/2016"
+title: AppDomain Class
+description: Describes the AppDomain class and provides the class' syntax, methods, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 946ad294-b5f2-15ee-f980-853d28c89400
 ---
 # AppDomain Class
