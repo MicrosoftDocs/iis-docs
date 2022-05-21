@@ -1,5 +1,6 @@
 ---
 title: "INamedContextContainer::GetNamedContext Method"
+description: Learn how the GetNamedContext method retrieves a stored context given its name.
 ms.date: "10/07/2016"
 ms.assetid: 639f9b9d-8141-41ce-97cd-4e623090a602
 ---
