@@ -1,5 +1,6 @@
 ---
 title: "Native-Code Administration API Reference"
+description: Learn how this section of the IIS SDK discusses the API that developers use to administer a web server running IIS.
 ms.date: "10/07/2016"
 ms.assetid: 5e7f5050-c436-49b5-ab8a-0303ff2d3a0d
 ---

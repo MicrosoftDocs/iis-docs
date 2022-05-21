@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetForwardedUrl Method"
+description: Learn how the IHttpRequest::GetForwardedUrl method returns the forwarded URL, as well as details about its parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 610c7fcd-5354-9021-d7a7-f8543c916143
 ---

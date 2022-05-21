@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileMonitor Interface"
+description: Learn how the IHttpFileMonitor interface acts as a file change monitor.
 ms.date: "10/07/2016"
 ms.assetid: d7385ff5-6b80-6604-72fc-822aa18fe453
 ---
