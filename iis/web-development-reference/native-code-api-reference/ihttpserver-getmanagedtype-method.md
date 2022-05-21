@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::GetManagedType Method"
+description: Learn how the GetManagedType method retrieves the managed type for a specific site and Uniform Resource Identifier (URI).
 ms.date: "10/07/2016"
 ms.assetid: b4e71c1b-10cd-5cf2-0198-0d73ba87fd9f
 ---
