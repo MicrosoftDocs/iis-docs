@@ -1,5 +1,6 @@
 ---
 title: "IWpfActions::RecycleWorkerProcess Method"
+description: Learn how the IWpfActions::RecycleWorkerProcess method enables a protocol manager to request a recycle of the worker process and to log an event to the Event Viewer.
 ms.date: "10/07/2016"
 ms.assetid: 37d0d934-27e2-28e7-3220-ffa3103ee865
 ---

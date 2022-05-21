@@ -1,5 +1,6 @@
 ---
 title: "WebhostOpenListenerChannelInstance Function"
+description: Learn how the WebhostOpenListenerChannelInstance function requests that a listener channel be started in a worker process for this application pool.
 ms.date: "10/07/2016"
 ms.assetid: 40420cdc-4133-273e-ddbc-d42ab2046558
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IHealthStatusCallback Interface"
+description: Learn how the IHealthStatusCallback interface allows a protocol manager, to which this interface is passed by the worker process framework, to report its current health status.  
 ms.date: "10/07/2016"
 ms.assetid: 88486f72-a4f1-90cd-5f66-3c60f8ab8fe3
 ---

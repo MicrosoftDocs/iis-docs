@@ -1,5 +1,6 @@
 ---
 title: "WebhostGetVersion Function"
+description: Learn how the WebhostGetVersion function returns the version of the Web host, as well as 4details about its parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 85ef0836-7686-8e9b-d274-252714ec1c2a
 ---

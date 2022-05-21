@@ -1,5 +1,6 @@
 ---
 title: "WebhostRegisterProtocol Function"
+description: Learn how the WebhostRegisterProtocol function declares the protocol that the listener adapter supports.
 ms.date: "10/07/2016"
 ms.assetid: 85ff51f6-ffcc-ff2c-1bbf-0b7fc3a556a8
 ---
