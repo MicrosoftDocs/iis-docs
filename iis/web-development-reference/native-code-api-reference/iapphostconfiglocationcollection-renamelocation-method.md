@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigLocationCollection::RenameLocation method"
+description: Learn how the IAppHostConfigLocationCollection::RenameLocation method changes the location at the specified index in the collection.
 ms.date: "10/07/2016"
 ms.assetid: 2d2cf153-c806-40e3-9c18-c681f7146796
 ---

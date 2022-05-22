@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplicationResolveModulesProvider::RegisterModule Method"
+description: Learn how the IHttpApplicationResolveModulesProvider::RegisterModule method registers an HTTP module.
 ms.date: "10/07/2016"
 ms.assetid: 32674f32-24a8-a8cf-57f6-2c942ed29b26
 ---

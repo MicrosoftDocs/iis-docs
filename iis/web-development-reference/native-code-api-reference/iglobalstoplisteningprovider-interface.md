@@ -1,5 +1,6 @@
 ---
 title: "IGlobalStopListeningProvider Interface"
+description: Learn how the IGlobalStopListeningProvider interface provides an interface for notifications that indicate whether a worker process is shutting down.
 ms.date: "10/07/2016"
 ms.assetid: c0fc5a79-ccca-77d2-421d-0da4cec63f78
 ---
