@@ -1,6 +1,6 @@
 ---
 title: IHttpCacheKey::GetIsEqual Method
-description: Returns a value that indicates whether two I H t t p Cache Key pointers are equivalent.
+description: The IHttpCacheKey::GetIsEqual Method returns a value that indicates whether two I H t t p Cache Key pointers are equivalent.
 ms.date: 10/07/2016
 ms.assetid: ac83971b-5092-42c7-d20f-dba89ab5dcad
 ---

@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
-description: Gets the track that has the highest available bandwidth.
+description: VideoHighestPlayableTrack Property gets the track that has the highest available bandwidth.
 TOCTitle: VideoHighestPlayableTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrack(v=VS.90)

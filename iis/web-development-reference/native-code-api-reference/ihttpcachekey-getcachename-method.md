@@ -1,7 +1,7 @@
 ---
 title: IHttpCacheKey::GetCacheName Method
 ms.date: 10/07/2016
-description: CGlobalModule derived classes that register for GL_CACHE_OPERATION events receive an ICacheProvider pointer as a parameter on the CGlobalModule::OnGlobalCacheOperation virtual method.
+description: The IHttpCacheKey::GetCacheName Method returns the unique name of the cache where a GL CACHE OPERATION event has occurred.
 ms.assetid: 9051f74f-4c24-4af5-9cdb-a3b6038b6149
 ---
 # IHttpCacheKey::GetCacheName Method

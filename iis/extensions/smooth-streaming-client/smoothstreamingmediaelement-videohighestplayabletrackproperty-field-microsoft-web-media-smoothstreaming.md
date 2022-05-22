@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrackProperty Field (Microsoft.Web.Media.SmoothStreaming) (2)
-description: Represents a dependency property.
+description: VideoHighestPlayableTrackProperty Field represents a dependency property.
 TOCTitle: VideoHighestPlayableTrackProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrackProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrackproperty(v=VS.90)

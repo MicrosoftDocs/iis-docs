@@ -1,6 +1,6 @@
 ---
 title: IAppHostElementCollection::Schema Property
-description: Returns the schema assigned to the current collection.
+description: The IAppHostElementCollection::Schema Property returns the schema assigned to the current collection.
 ms.date: 10/07/2016
 ms.assetid: 31883945-ed20-f557-ea92-e05226340a14
 ---

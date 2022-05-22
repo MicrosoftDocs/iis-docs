@@ -1,6 +1,6 @@
 ---
 title: IHttpFileMonitor::DereferenceFileMonitor Method
-description: Releases a file monitor interface. 
+description: The IHttpFileMonitor::DereferenceFileMonitor Method releases a file monitor interface. 
 ms.date: 10/07/2016
 ms.assetid: 13610ef2-eadf-2dfe-cb84-aad275c0e8bb
 ---

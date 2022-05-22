@@ -1,6 +1,6 @@
 ---
 title: IAppHostCollectionSchema::DoesAllowDuplicates Property
-description: Gets a Boolean value that determines whether a collection that implements the current schema allows for duplicate keys.
+description: The IAppHostCollectionSchema::DoesAllowDuplicates Property gets a boolean value that determines whether a collection that implements the current schema allows for duplicate keys.  
 ms.date: 10/07/2016
 ms.assetid: a57aec87-3cc3-4734-848a-9d27ccdf40db
 ---

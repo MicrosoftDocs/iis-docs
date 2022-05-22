@@ -1,7 +1,7 @@
 ---
 title: IAuthenticationProvider Interface
 ms.date: 10/07/2016
-description: Accepts a validated I H t t p User pointer through the Set User method.
+description: The IAuthenticationProvider Interface accepts a validated I H t t p User pointer through the Set User method.
 ms.assetid: 0b7fa94a-41b3-0863-1549-ad130e749269
 ---
 # IAuthenticationProvider Interface

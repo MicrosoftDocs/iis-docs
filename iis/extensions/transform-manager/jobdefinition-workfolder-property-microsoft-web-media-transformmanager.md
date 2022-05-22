@@ -1,6 +1,6 @@
 ---
 title: JobDefinition.WorkFolder Property (Microsoft.Web.Media.TransformManager)
-description: Describes Microsoft Web Media Transform Manager Job Definition Work Folder.
+description:  The JobDefinition.WorkFolder Property describes Microsoft Web Media Transform Manager Job Definition Work Folder.
 TOCTitle: WorkFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.WorkFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.workfolder(v=VS.90)
@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# JobDefinition.WorkFolder Property
+# WorkFolder Property
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)

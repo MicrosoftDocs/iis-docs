@@ -1,7 +1,7 @@
 ---
 title: IHttpContext2 Interface
 ms.date: 10/07/2016
-description: Represents the reprocessing of an HTTP request and enables the retrieval of information about the original user during asynchronous operation.
+description: The IHttpContext2 Interface represents the reprocessing of an HTTP request and enables the retrieval of information about the original user during asynchronous operation.
 ms.assetid: 8637cfed-ff2d-43ef-aaf3-771cb1fb6c61
 ms.author: robmcm
 ---

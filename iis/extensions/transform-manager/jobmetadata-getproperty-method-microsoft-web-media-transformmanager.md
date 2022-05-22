@@ -1,6 +1,6 @@
 ---
 title: JobMetadata.GetProperty Method  (Microsoft.Web.Media.TransformManager)
-description: Returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.
+description: The JobMetaData.GetProperty Method returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.
 TOCTitle: GetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobMetadata.GetProperty(System.Xml.Linq.XName)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.getproperty(v=VS.90)

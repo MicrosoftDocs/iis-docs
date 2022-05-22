@@ -1,6 +1,6 @@
 ---
 title: PFN_WEB_CORE_SET_METADATA_DLL_ENTRY Function
-description: Sets metadata options for a web core activation.
+description: The PFN_WEB_CORE_SET_METADATA_DLL_ENTRY function sets metadata options for a web core activation.
 ms.date: 10/07/2016
 ms.assetid: 378b9c64-303b-4c09-a3e5-48507650192e
 ---

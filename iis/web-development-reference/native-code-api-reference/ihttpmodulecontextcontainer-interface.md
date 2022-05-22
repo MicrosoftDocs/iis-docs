@@ -1,6 +1,6 @@
 ---
 title: IHttpModuleContextContainer Interface
-description: Maintains a collection of IHttpStoredContext pointers.
+description: The IHttpModuleContextContainer Interface maintains a collection of IHttpStoredContext pointers.
 ms.date: 10/07/2016
 ms.assetid: 9e80529b-fc32-c845-5d31-6feac3d7034b
 ---
