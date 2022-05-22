@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.LogLevelElement Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the LogLevelElement property gets or sets an XML element that contains log level details.
 TOCTitle: LogLevelElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevelElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.loglevelelement(v=VS.90)

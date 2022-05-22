@@ -1,5 +1,6 @@
 ---
 title: TrackChangedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the TrackChangedEventArgs class contains arguments for an event that occurs when a media track changes.
 TOCTitle: TrackChangedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs(v=VS.90)
