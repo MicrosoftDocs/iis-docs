@@ -1,6 +1,6 @@
 ---
 title: "IHttpContext::ExecuteRequest Method"
-description: The I H t t p Context Execute Request Method executes a child request.
+description: IHttpContext::ExecuteRequest Method the I H t t p Context Execute Request Method executes a child request.
 ms.date: "10/07/2016"
 ms.assetid: b52b477c-0e04-f8f1-4607-13ba5212f91e
 ---

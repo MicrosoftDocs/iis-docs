@@ -1,6 +1,6 @@
 ---
 title: "IHttpContext::IndicateCompletion Method"
-description: An HTTP module can use the Indicate Completion method to indicate that an asynchronous operation has completed and request that I I S resume processing on the calling thread.
+description: IHttpContext::IndicateCompletion Method Indicates the completion of asynchronous work and requests that IIS resume execution on the calling thread.
 ms.date: "10/07/2016"
 ms.assetid: 02555911-f488-b3e9-74d9-97a0b3bd5b89
 ---

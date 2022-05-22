@@ -1,6 +1,6 @@
 ---
 title: "IWebSocketContext::WriteFragment Method"
-description: Writes a data fragment to an asynchronous connection.
+description: IWebSocketContext::WriteFragment Method writes a data fragment to an asynchronous connection.
 ms.date: "10/07/2016"
 ms.assetid: 26d0aad9-adfb-4db9-83b0-d8dd936c1dbc
 ---

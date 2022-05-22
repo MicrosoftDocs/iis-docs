@@ -1,6 +1,6 @@
 ---
 title: "IScriptMapInfo::GetRequiredAccess Method"
-description: Retrieves the required-access setting for the script processor.
+description: IScriptMapInfo::GetRequiredAccess Method retrieves the required-access setting for the script processor.
 ms.date: "10/07/2016"
 ms.assetid: 05d6d12c-ab7b-aa07-63ce-d3e061fe0057
 ---

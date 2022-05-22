@@ -1,6 +1,6 @@
 ---
 title: Logger.WriteLine Method (LogLevel, String, Int32) (Microsoft.Web.Media.TransformManager)
-description: Describes the Microsoft Web Media Transform Manager Write Line Method.
+description: Logger.WriteLine Method describes the Microsoft Web Media Transform Manager Write Line Method.
 TOCTitle: WriteLine Method (LogLevel, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.writeline(v=VS.90)
