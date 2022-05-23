@@ -1,6 +1,6 @@
 ---
 title: "IAppHostElement Interface"
-description: IAppHostElement Interface represents a single element in the INCLUDE i i s v e r configuration system.
+description: IAppHostElement Interface represents a single element in the INCLUDE iisver configuration system.
 ms.date: "10/07/2016"
 ms.assetid: b2e024dd-f7e3-3e43-3343-0fde1a1851d8
 ---
