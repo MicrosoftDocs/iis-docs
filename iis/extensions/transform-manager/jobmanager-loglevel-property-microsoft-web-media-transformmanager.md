@@ -1,6 +1,7 @@
 ---
 title: JobManager.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
+description: Describes the JobManager.LogLevel property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.loglevel(v=VS.90)
 ms:contentKeyID: 35521166

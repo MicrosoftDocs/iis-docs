@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TransformManagerService Constructor
+description: Describes the TransformManagerService constructor and provides the field's namespace, assembly, and syntax.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.transformmanagerservice(v=VS.90)
 ms:contentKeyID: 35520913
