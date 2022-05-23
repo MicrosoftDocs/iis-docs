@@ -1,5 +1,6 @@
 ---
 title: "ICacheProvider Interface"
+description: "The ICacheProvider interface extends the IHttpEventProvider interface by adding support for retrieving cache information from a cache provider."
 ms.date: "10/07/2016"
 ms.assetid: ab6b60bf-88e1-51e1-7c34-e28000868c6a
 ---

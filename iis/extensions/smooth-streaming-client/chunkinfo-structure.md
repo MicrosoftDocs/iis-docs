@@ -1,6 +1,7 @@
 ---
 title: ChunkInfo Structure
 TOCTitle: ChunkInfo Structure
+description: "This article describes the syntax, members exposed, and requirements for the ChunkInfo structure."
 ms:assetid: 8b252b79-f443-44ed-a426-04005697d5f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822772(v=VS.90)
 ms:contentKeyID: 50079527

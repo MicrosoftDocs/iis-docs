@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceFailedEventArgs.HttpResponse Property
 TOCTitle: HttpResponse Property
+description: "The AdaptiveSourceFailedEventArgs.HttpResponse property gets the HTTP response. This article describes its syntax, property value, and requirements."
 ms:assetid: e363d8a2-da36-429d-a643-c174c4b13e3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822855(v=VS.90)
 ms:contentKeyID: 50079609

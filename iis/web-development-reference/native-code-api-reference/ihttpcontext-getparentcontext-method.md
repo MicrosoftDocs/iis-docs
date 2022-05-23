@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetParentContext Method"
+description: "The IHttpContextGetParentContext method retrieves a pointer to the parent context for the current context."
 ms.date: "10/07/2016"
 ms.assetid: 99ef993a-b8a5-71d4-0223-f3d2acf489c8
 ---

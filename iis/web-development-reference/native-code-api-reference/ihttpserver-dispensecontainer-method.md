@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::DispenseContainer Method"
+description: "The IHttpServerDispenseContainer method returns a context container that may be dispensed. This article describes its syntax, remarks, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 6ba8224a-bd99-15b8-2025-64ea4b1578b0
 ---

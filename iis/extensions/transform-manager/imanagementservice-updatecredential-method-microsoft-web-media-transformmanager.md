@@ -1,6 +1,7 @@
 ---
 title: IManagementService.UpdateCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateCredential Method
+description: "The IManagementService.UpdateCredential method adds or replaces a Credential object for the service account from the Generic Credentials vault in Windows Credential Manager."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateCredential(Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.updatecredential(v=VS.90)
 ms:contentKeyID: 35521139
