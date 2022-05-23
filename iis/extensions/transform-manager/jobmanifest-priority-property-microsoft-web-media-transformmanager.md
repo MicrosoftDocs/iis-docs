@@ -1,5 +1,6 @@
 ---
 title: JobManifest.Priority Property (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax and property value information for the JobManifest.Priority property, as well as links to additional resources. 
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Priority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.priority(v=VS.90)

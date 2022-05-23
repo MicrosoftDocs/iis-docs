@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetServerVariable Method"
+description: Learn how the GetServerVariable method retrieves a specific server variable. 
 ms.date: "10/07/2016"
 ms.assetid: 7771e6fa-b157-4df6-5e6b-97749a3c9fdb
 ---

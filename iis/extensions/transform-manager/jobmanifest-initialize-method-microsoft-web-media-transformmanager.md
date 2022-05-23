@@ -1,5 +1,6 @@
 ---
 title: JobManifest.Initialize Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax, parameters, and implements for the JobManifest.Initialize method.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.Initialize(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.initialize(v=VS.90)

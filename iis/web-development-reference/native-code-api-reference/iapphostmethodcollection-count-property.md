@@ -1,6 +1,7 @@
 ---
 title: "IAppHostMethodCollection::Count Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostMethodCollection::Count property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5cbeb65c-03dc-4ae3-879f-af2f03afded0
 ---
 # IAppHostMethodCollection::Count Property

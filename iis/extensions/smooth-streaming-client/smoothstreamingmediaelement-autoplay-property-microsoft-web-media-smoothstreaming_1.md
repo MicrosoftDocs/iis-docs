@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.AutoPlay Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AutoPlay Property
+description: "The SmoothStreamingMediaElement.AutoPlay property gets or sets a value that specifies whether the media element starts automatically."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlay
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.autoplay(v=VS.95)
 ms:contentKeyID: 46307801

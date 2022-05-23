@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.BufferingProgressProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.BufferingProgressProperty field.
 TOCTitle: BufferingProgressProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogressproperty(v=VS.90)

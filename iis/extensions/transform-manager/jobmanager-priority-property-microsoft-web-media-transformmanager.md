@@ -1,5 +1,6 @@
 ---
-title: JobManager.Priority Property (Microsoft.Web.Media.TransformManager)
+title: JobManager.Priority Property (Microsoft.Web.Media.TransformManager) 
+description: Learn how the JobManager.Priority Property (Microsoft.Web.Media.TransformManager) gets the priority of a job.
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Priority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.priority(v=VS.90)

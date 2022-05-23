@@ -1,6 +1,7 @@
 ---
 title: JobDetails Fields (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetails Fields
+description: Fields exposed by the JobDetails type.
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails_fields(v=VS.90)
 ms:contentKeyID: 35520902

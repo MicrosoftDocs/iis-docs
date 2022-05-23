@@ -1,5 +1,6 @@
 ---
 title: Scheduler.SetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: This example sets the ID of the child process of an executable program by using the specified job instance ID and child process ID.
 TOCTitle: SetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SetTaskChildProcessId(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.settaskchildprocessid(v=VS.90)

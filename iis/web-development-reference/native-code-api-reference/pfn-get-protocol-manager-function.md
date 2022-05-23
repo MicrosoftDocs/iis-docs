@@ -1,6 +1,7 @@
 ---
-title: "PFN_GET_PROTOCOL_MANAGER Function"
-ms.date: "10/07/2016"
+title: PFN_GET_PROTOCOL_MANAGER Function
+description: Describes the PFN_GET_PROTOCOL_MANAGER function and details its syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ba896f3b-16b3-441e-b362-5c796e76f662
 ---
 # PFN_GET_PROTOCOL_MANAGER Function

@@ -1,5 +1,6 @@
 ---
 title: "Ipv6Settings Class"
+description: Determines whether Internet Protocol version 6 (IPv6) is enabled on the local computer.   
 ms.date: "10/07/2016"
 ms.assetid: eb6cfd6c-9625-0fe7-7e52-eb6291d58dd5
 ---

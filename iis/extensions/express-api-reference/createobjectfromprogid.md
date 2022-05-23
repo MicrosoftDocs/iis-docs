@@ -1,5 +1,6 @@
 ---
 title: "CreateObjectFromProgId"
+description: Creates a COM object using the specified ProgID.
 ms.date: "10/07/2016"
 ms.assetid: e04be95d-4c66-4fbf-8f39-6f96de98f053
 ---

@@ -1,5 +1,6 @@
 ---
 title: Column.IsIdentity Property (Microsoft.Web.Management.DatabaseManager)
+description: The following code sample shows how to use the GetTableInfo method to retrieve the table information for the table name from a database.
 TOCTitle: IsIdentity Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsIdentity
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.isidentity(v=VS.90)

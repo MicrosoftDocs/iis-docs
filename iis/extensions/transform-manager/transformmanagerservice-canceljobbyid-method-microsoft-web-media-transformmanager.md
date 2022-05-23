@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.CancelJobById Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the CancelJobById method and provides the method's namespace, assembly, syntax, parameters, return value, and what the method implements.
 TOCTitle: CancelJobById Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJobById(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.canceljobbyid(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MaximumLatencyProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.MaximumLatencyProperty field.
 TOCTitle: MaximumLatencyProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MaximumLatencyProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.maximumlatencyproperty(v=VS.90)

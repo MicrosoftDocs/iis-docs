@@ -1,5 +1,6 @@
 ---
 title: Scheduler.StartJob Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Scheduler.StartJob method and details the method's syntax, parameters, and return value.
 TOCTitle: StartJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.StartJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.startjob(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::GetVaryByQueryStrings Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCachePolicy::GetVaryByQueryStrings method and details its syntax, parameters, return value, remarks, examples, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 44714859-9692-7881-1978-662089aed17a
 ---
 # IHttpCachePolicy::GetVaryByQueryStrings Method

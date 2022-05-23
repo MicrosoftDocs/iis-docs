@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ManifestInfo methods and provides a table that outlines the name and description for various method types.
 TOCTitle: ManifestInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_methods(v=VS.90)

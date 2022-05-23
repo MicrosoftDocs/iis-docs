@@ -1,5 +1,6 @@
 ---
 title: "IHttpPerfCounterInfo Interface"
+description: Learn how the IHttpPerfCounterInfo interface provides an interface for incrementing and decrementing performance counters. 
 ms.date: "10/07/2016"
 ms.assetid: 3ca70926-30f4-ebc5-2148-a3b8d0a6cbbe
 ---

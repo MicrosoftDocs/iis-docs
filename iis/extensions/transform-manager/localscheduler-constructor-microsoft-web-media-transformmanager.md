@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler Constructor  (Microsoft.Web.Media.TransformManager)
+description: Learn how the LocalScheduler constructor (Microsoft.Web.Media.TransformManager) initializes a new instance of the LocalScheduler class.
 TOCTitle: LocalScheduler Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.localscheduler(v=VS.90)

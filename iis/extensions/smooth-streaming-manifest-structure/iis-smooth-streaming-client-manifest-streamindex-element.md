@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Client Manifest - StreamIndex Element
+description: Learn how the StreamIndex element specifies the metadata for one type of track (audio, video, or text).
 TOCTitle: <StreamIndex>
 ms:assetid: d4c9c38f-5f43-4e9e-aba7-82c13983c594
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673442(v=VS.90)

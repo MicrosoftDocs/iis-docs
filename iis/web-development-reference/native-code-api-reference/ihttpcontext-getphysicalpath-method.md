@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetPhysicalPath Method"
+description: This article contains syntax, parameters, return value, and requirements for the IHttpContext::GetPhysicalPath method.
 ms.date: "10/07/2016"
 ms.assetid: 664708a6-d319-eb3f-81fa-309082bce260
 ---

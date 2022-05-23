@@ -1,6 +1,7 @@
 ---
 title: ManifestInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Class
+description: "The ManifestInfo class represents the manifest in application code and corresponds to the SmoothStreamingMedia element and SmoothStreamingSource property of the SmoothStreamingMediaElement."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo(v=VS.95)
 ms:contentKeyID: 46307943

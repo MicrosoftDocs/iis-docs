@@ -1,6 +1,7 @@
 ---
 title: "IProcessHostFactoryHelper::GetProcessHost Method"
-ms.date: "10/07/2016"
+description: "Describes the IProcessHostFactoryHelper::GetProcessHost method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: e6b3d1b7-4430-6e51-53b5-27b125ae08bc
 ---
 # IProcessHostFactoryHelper::GetProcessHost Method

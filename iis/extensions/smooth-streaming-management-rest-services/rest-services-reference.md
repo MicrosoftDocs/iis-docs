@@ -1,5 +1,6 @@
 ---
 title: REST Services Reference
+description: Provides a list of links to reference documentation for the IIS Smooth Streaming Management REST services.
 TOCTitle: REST Services Reference
 ms:assetid: 08c9917b-45c3-458a-9909-1b54cbb9f0d7
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh239761(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnReleaseRequestState Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnReleaseRequestState method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 367d5db1-d91f-fb0a-539b-1807e705f539
 ---
 # CHttpModule::OnReleaseRequestState Method

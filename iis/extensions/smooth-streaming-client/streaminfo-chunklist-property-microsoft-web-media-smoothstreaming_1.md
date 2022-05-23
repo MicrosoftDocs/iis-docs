@@ -1,6 +1,7 @@
 ---
 title: StreamInfo.ChunkList Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkList Property
+description: Describes the StreamInfo.ChunkList property and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChunkList
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.chunklist(v=VS.95)
 ms:contentKeyID: 46307862

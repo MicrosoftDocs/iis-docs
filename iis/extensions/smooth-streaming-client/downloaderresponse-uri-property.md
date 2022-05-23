@@ -1,6 +1,7 @@
 ---
 title: DownloaderResponse.Uri Property
 TOCTitle: Uri Property
+description: "DownloaderResponse.Uri gets the uri for the response. This article describes its syntax, property value, and requirements."
 ms:assetid: 96aab3f5-03e6-4479-82c2-56393cd14086
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822788(v=VS.90)
 ms:contentKeyID: 50079542

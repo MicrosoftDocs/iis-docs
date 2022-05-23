@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.BufferingProgress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingProgress Property
+description: "The SmoothStreamingMediaElement.BufferingProgress property gets or sets the buffering progress."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogress(v=VS.90)
 ms:contentKeyID: 23961214

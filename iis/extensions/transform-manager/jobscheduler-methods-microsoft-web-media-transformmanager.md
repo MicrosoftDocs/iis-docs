@@ -1,5 +1,6 @@
 ---
 title: JobScheduler Methods (Microsoft.Web.Media.TransformManager)
+description: Learn about the JobScheduler methods and how the JobScheduler type exposes the following members.
 TOCTitle: JobScheduler Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler_methods(v=VS.90)

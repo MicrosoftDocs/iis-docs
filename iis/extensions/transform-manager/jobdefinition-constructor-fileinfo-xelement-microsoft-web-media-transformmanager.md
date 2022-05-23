@@ -1,6 +1,7 @@
 ---
 title: JobDefinition Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Constructor (FileInfo, XElement)
+description: "The JobDefinition constructor initializes a new instance of the JobDefinition class using the specified file and job definition information."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobdefinition(v=VS.90)
 ms:contentKeyID: 35520668

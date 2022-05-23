@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalCustomNotification Method"
-ms.date: "10/07/2016"
+description: "Describes the CGlobalModule::OnGlobalCustomNotification method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: f029ec16-7791-d9b4-042d-b18c2a4c36d7
 ---
 # CGlobalModule::OnGlobalCustomNotification Method

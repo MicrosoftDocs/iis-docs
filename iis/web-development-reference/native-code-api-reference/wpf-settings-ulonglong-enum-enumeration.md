@@ -1,6 +1,7 @@
 ---
-title: "WPF_SETTINGS_ULONGLONG_ENUM Enumeration"
-ms.date: "10/07/2016"
+title: WPF_SETTINGS_ULONGLONG_ENUM Enumeration
+description: Describes the WPF_SETTINGS_ULONGLONG_ENUM enumeration values and details its syntax, members, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5b3a9ff2-af4f-22e3-6be4-147cb195239e
 ---
 # WPF_SETTINGS_ULONGLONG_ENUM Enumeration

@@ -1,5 +1,6 @@
 ---
 title: "StaticTypeSettings Class"
+description: Specifies the MIME types that IIS serves with static compression.
 ms.date: "10/07/2016"
 ms.assetid: 32237c1b-06b3-44e4-b682-5a6abc7b3df7
 ---

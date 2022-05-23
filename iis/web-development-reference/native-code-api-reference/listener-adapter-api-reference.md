@@ -1,6 +1,7 @@
 ---
-title: "Listener Adapter API Reference"
-ms.date: "10/07/2016"
+title: Listener Adapter API Reference
+description: Describes the Listener Adapter API and provides links to documentation about its callback functions, exported functions, and structures.
+ms.date: 10/07/2016
 ms.assetid: 86bae60a-46b2-ceea-0606-bea86572c49e
 ---
 # Listener Adapter API Reference

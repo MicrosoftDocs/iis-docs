@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
+description: The Microsoft.Web.Media.TransformManager syntax declares the ProcessPriority for a class.
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.processpriority(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "SmtpMailSettingsSection Class"
+description: "The SmtpMailSettingsSection class contains Simple Mail Transfer Protocol (SMTP) configuration settings."
 ms.date: "10/07/2016"
 ms.assetid: 9d122b83-5fc7-477e-2496-3292c6d1b0ba
 ---

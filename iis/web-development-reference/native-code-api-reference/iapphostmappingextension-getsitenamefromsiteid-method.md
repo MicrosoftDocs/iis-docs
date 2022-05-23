@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMappingExtension::GetSiteNameFromSiteId Method"
+description: Learn how the GetSiteNameFromSiteId method gets the name of a site by using the unique identifier for the site.
 ms.date: "10/07/2016"
 ms.assetid: 4d881261-f89d-894c-4bc7-51623a7228ab
 ---

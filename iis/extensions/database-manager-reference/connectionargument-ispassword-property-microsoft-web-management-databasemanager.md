@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.IsPassword Property (Microsoft.Web.Management.DatabaseManager)
+description: This code sample offers the syntax to get or set a value that indicates whether the connection argument is a password.
 TOCTitle: IsPassword Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsPassword
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.ispassword(v=VS.90)

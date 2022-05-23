@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: HpcScheduler Methods
+description: "List of members that the HpcScheduler type exposes. The method type, name, and description of each is provided."
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.HpcScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler_methods(v=VS.90)
 ms:contentKeyID: 35520934

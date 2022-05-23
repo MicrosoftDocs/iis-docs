@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.DrmSetupDecryptorCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DrmSetupDecryptorCompleted Event
+description: Occurs when the digital rights management (DRM) decryptor setup has completed.
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DrmSetupDecryptorCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.drmsetupdecryptorcompleted(v=VS.95)
 ms:contentKeyID: 46307495

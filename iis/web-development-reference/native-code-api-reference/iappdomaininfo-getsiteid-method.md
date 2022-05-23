@@ -1,6 +1,7 @@
 ---
 title: "IAppDomainInfo::GetSiteId Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppDomainInfo::GetSiteId method and details its parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 0ac73a5c-9e63-0b28-f2d7-235b937b2e91
 ---
 # IAppDomainInfo::GetSiteId Method

@@ -1,5 +1,6 @@
 ---
 title: SourceType Element
+description: Describes the SourceType element, which determines if the publishing point pushes or pulls the encoder stream, and describes its parent element.
 TOCTitle: SourceType Element
 ms:assetid: bcc44441-a36c-4540-86ab-23b11772d958
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547058(v=VS.90)

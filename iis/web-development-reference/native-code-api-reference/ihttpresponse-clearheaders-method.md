@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::ClearHeaders Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::ClearHeaders method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 2b25fafe-a88a-ed99-699d-7f5ee33003c8
 ---
 # IHttpResponse::ClearHeaders Method

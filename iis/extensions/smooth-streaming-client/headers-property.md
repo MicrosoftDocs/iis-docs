@@ -1,5 +1,6 @@
 ---
 title: Headers Property
+description: This article contains information about syntax, property value, and requirements for the Headers property.
 TOCTitle: Headers Property
 ms:assetid: fff38b05-57c8-43fe-9542-820baa63c0f0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822882(v=VS.90)

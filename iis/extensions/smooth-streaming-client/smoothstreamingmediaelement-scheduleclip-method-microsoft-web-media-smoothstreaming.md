@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ScheduleClip Method  (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines the overload list for the SmoothStreamingMediaElement.ScheduleClip method, and as links to additional resources.
 TOCTitle: ScheduleClip Method
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.scheduleclip(v=VS.90)

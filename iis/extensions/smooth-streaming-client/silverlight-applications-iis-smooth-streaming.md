@@ -1,5 +1,6 @@
 ---
 title: Silverlight Applications (IIS Smooth Streaming)
+description: This article outlines how you can build a Silverlight application that displays and interacts with IIS Smooth Streaming media content using Silverlight 4 SDK.
 TOCTitle: Silverlight Applications (IIS Smooth Streaming)
 ms:assetid: 70f30e39-c466-48cc-a81a-356690730bac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958032(v=VS.90)

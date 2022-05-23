@@ -1,5 +1,6 @@
 ---
 title: "HttpCookiesSection Class"
+description: Configures properties for cookies used by a Web application.  
 ms.date: "10/07/2016"
 ms.assetid: 77afdef8-8d29-579c-e5f9-3b199fc2596f
 ---

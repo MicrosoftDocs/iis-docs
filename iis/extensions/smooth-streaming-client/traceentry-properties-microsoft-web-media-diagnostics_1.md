@@ -1,5 +1,6 @@
 ---
 title: TraceEntry Properties (Microsoft.Web.Media.Diagnostics)
+description: TraceEntry Properties type exposes the following members.
 TOCTitle: TraceEntry Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.Diagnostics.TraceEntry
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry_properties(v=VS.95)

@@ -1,6 +1,7 @@
 ---
-title: "VirtualDirectory.Create Method1"
-ms.date: "10/07/2016"
+title: VirtualDirectory.Create Method1
+description: Describes the VirtualDirectory.Create method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0e9a76f1-3fe0-cbb0-6ac5-e258c4b5df06
 ---
 # VirtualDirectory.Create Method1

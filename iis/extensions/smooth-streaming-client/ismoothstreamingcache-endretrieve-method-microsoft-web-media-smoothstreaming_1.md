@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache.EndRetrieve Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndRetrieve Method
+description: "The ISmoothStreamingCache.EndRetrieve method ends an asynchronous cache response retrieval started by the BeginRetrieve method."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.EndRetrieve(System.IAsyncResult)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.endretrieve(v=VS.95)
 ms:contentKeyID: 46307671

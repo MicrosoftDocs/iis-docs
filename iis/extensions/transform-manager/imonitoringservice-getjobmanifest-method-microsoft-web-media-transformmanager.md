@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.GetJobManifest Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobManifest Method
+description: Returns the job manifest that IIS Transform Manager created for a job.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobManifest(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobmanifest(v=VS.90)
 ms:contentKeyID: 35520881

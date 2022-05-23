@@ -1,6 +1,7 @@
 ---
 title: ForeignKeyColumn Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeyColumn Properties
+description: "The Name property is exposed by the ForeignKeyColumn type. The property type and description is provided."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn_properties(v=VS.90)
 ms:contentKeyID: 20476809

@@ -1,5 +1,6 @@
 ---
 title: Scheduler.SetTaskCount Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the SetTaskCount method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: SetTaskCount Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SetTaskCount(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.settaskcount(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
+description: This article outlines the overload list for the JobDefinition.AddConfigurationMessage method. There are also links to reference materials.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobDefinition.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.addconfigurationmessage(v=VS.90)

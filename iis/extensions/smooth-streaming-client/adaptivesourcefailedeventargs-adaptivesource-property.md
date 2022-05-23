@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceFailedEventArgs.AdaptiveSource Property
+description: Describes the AdaptiveSourceFailedEventArgs.AdaptiveSource property and provides the property's syntax, property value, and requirements.
 TOCTitle: AdaptiveSource Property
 ms:assetid: 365442fe-fb97-4117-94d8-1f9be7925731
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822714(v=VS.90)

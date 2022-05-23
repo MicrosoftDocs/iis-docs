@@ -1,6 +1,7 @@
 ---
 title: "IHttpTokenEntry::GetSid Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpTokenEntry::GetSid method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4d08a669-2c55-4cbc-afc2-20e7dc15532d
 ---
 # IHttpTokenEntry::GetSid Method

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConstantValueCollection::Item Property"
+description: IAppHostConstantValueCollection::Item Property gets the constant value at the specified index.
 ms.date: "10/07/2016"
 ms.assetid: c38ab36a-6af1-4d86-9a94-cad9a8950d58
 ---

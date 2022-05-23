@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CurrentStateProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentStateProperty Field
+description: Represents a dependency property that specifies the CurrentState property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentStateProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstateproperty(v=VS.90)
 ms:contentKeyID: 23961155
