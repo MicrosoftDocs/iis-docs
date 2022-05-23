@@ -1,6 +1,6 @@
 ---
 title: LogLevelHelper.GetLogLevel Method (String) (Microsoft.Web.Media.TransformManager)
-description: This page details the syntax for the GetLogLevel method and returns a value that specifies the level of detail for a log.
+description: Describes the syntax for the GetLogLevel method and returns a value that specifies the level of detail for a log.
 TOCTitle: GetLogLevel Method (String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LogLevelHelper.GetLogLevel(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper.getloglevel(v=VS.90)

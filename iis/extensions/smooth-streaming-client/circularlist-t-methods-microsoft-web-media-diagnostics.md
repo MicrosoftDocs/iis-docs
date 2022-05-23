@@ -1,6 +1,6 @@
 ---
 title: CircularList(T) Methods (Microsoft.Web.Media.Diagnostics)
-description: This page details the syntax for the CircularList(T) methods and explicit interface implementations.
+description: Details a list of the syntax for the CircularList(T) methods and explicit interface implementations.
 TOCTitle: CircularList(T) Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.CircularList`1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728198(v=VS.90)

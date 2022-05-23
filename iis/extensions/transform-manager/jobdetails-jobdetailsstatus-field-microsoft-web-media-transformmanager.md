@@ -1,6 +1,6 @@
 ---
 title: JobDetails.JobDetailsStatus Field (Microsoft.Web.Media.TransformManager)
-description: This page details the syntax for the JobDetailsStatus Field. This represents a constant that is used when transform jobs are sorted by the "status" field.
+description: Describes the syntax for the JobDetailsStatus Field. This represents a constant that is used when transform jobs are sorted by the "status" field.
 TOCTitle: JobDetailsStatus Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsstatus(v=VS.90)

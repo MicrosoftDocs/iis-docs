@@ -1,6 +1,6 @@
 ---
 title: IAdaptiveSourceManager Interface
-description: This page details the syntax for the IAdaptiveSourceManager interface. It gets the list of opened adaptive sources.
+description: Describes the syntax for the IAdaptiveSourceManager interface. It gets the list of opened adaptive sources.
 TOCTitle: IAdaptiveSourceManager Interface
 ms:assetid: 1eb62758-d31e-4b24-9251-db31f5ad9015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822695(v=VS.90)

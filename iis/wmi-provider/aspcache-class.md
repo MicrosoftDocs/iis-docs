@@ -1,6 +1,6 @@
 ---
 title: "AspCache Class"
-description: This page details the syntax for the AspCache class and configures properties related to ASP caching.
+description: Describes the code syntax for the AspCache class, configures properties, and requirements related to ASP caching.
 ms.date: "10/07/2016"
 ms.assetid: fa41a3b8-75e1-529f-acc0-1fcb467704f3
 ---

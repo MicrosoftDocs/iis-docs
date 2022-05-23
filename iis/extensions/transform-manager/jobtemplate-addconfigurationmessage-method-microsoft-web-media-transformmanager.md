@@ -1,6 +1,6 @@
 ---
 title: JobTemplate.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
-description: This page details the syntax for the AddConfigurationMessage method. This adds a message to the IIS Transform Manager configuration.
+description: Describes the syntax for the AddConfigurationMessage method. This adds a message to the IIS Transform Manager configuration.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobTemplate.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.addconfigurationmessage(v=VS.90)
