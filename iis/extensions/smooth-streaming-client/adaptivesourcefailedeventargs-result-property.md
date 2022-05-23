@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceFailedEventArgs.Result Property
+description: Describes the AdaptiveSourceFailedEventArgs.Result property and provides the property's syntax, property value, and requirements.
 TOCTitle: Result Property
 ms:assetid: 1db67e50-ed22-4cc4-8037-b9377b786920
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822693(v=VS.90)
