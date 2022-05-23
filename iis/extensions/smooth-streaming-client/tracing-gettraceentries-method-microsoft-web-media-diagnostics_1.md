@@ -1,6 +1,7 @@
 ---
 title: Tracing.GetTraceEntries Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: GetTraceEntries Method
+description: Describes the GetTraceEntries Method and provides the namespace, assembly, syntax, return value, and version information.
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.GetTraceEntries(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.gettraceentries(v=VS.95)
 ms:contentKeyID: 46307619
