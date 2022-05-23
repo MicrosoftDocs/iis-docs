@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs.UpdateType Property
+description: "This article outlines syntax, property value, and system requirements for the AdaptiveSourceStatusUpdatedEventArgs.UpdateType Property, which gets the update type for the user."
 TOCTitle: UpdateType Property
 ms:assetid: 7c755409-a747-4882-ab46-6763aabcf8c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822763(v=VS.90)

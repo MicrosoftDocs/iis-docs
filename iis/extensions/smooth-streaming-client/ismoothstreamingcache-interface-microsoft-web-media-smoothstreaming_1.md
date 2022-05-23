@@ -1,5 +1,6 @@
 ---
 title: ISmoothStreamingCache Interface (Microsoft.Web.Media.SmoothStreaming)
+description: "This article outlines syntax, methods, remarks, and examples for the ISmoothStreamingCache Interface, which is an interface definition for writing a cache plug-in."
 TOCTitle: ISmoothStreamingCache Interface
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache(v=VS.95)
