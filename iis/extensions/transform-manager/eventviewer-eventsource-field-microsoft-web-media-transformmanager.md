@@ -1,6 +1,7 @@
 ---
 title: EventViewer.EventSource Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventSource Field
+description: "The EventViewer.EventSource field represents a constant that is used when event source information is written to the event viewer."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventSource
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventsource(v=VS.90)
 ms:contentKeyID: 35520849
