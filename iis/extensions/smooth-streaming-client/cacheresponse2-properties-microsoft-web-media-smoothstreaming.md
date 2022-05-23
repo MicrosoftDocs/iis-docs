@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2 Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheResponse2 properties and provides a list of the properties with links to corresponding documentation.
 TOCTitle: CacheResponse2 Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.CacheResponse2
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2_properties(v=VS.95)
