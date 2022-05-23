@@ -1,7 +1,7 @@
 ---
 title: ClipInformation.UseSmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UseSmoothStreamingCache Property
-description: Describes the UseSmoothStreamingCache Property and provides the namespace, assembly, syntax, and version information.
+description: Describes the UseSmoothStreamingCache property and provides the namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.usesmoothstreamingcache(v=VS.95)
 ms:contentKeyID: 46307785

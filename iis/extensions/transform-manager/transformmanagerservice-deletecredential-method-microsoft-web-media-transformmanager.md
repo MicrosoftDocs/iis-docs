@@ -1,7 +1,7 @@
 ---
 title: TransformManagerService.DeleteCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteCredential Method
-description: Describes the DeleteCredential Method and provides the namespace, assembly, syntax, and parameters.
+description: Describes the DeleteCredential method and provides the namespace, assembly, syntax, and parameters.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteCredential(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.deletecredential(v=VS.90)
 ms:contentKeyID: 35520833

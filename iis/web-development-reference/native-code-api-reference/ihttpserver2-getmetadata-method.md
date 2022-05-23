@@ -1,6 +1,6 @@
 ---
 title: "IHttpServer2::GetMetadata Method"
-description: Describes the syntax, parameters, return value and requirements for the IHttpServer2::GetMetadata Method.
+description: Describes the syntax, parameters, return value and requirements for the IHttpServer2::GetMetadata method.
 ms.date: "10/07/2016"
 ms.assetid: 780c10e6-4cfb-4cc9-9111-24ff1591fd76
 ---
