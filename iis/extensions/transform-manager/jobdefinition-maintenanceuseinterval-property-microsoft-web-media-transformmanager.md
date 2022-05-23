@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.MaintenanceUseInterval Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.MaintenanceUseInterval property and details its namespace, assembly, syntax, and property value.
 TOCTitle: MaintenanceUseInterval Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceUseInterval
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceuseinterval(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "IAppHostAdminManager::GetMetadata Method"
-ms.date: "10/07/2016"
+title: IAppHostAdminManager::GetMetadata Method
+description: Describes the IAppHostAdminManager::GetMetadata method and details its syntax, parameters, return value, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 90d5e0f5-d4be-ac77-27f8-f7cceff48380
 ---
 # IAppHostAdminManager::GetMetadata Method
