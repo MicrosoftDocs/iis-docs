@@ -1,5 +1,6 @@
 ---
 title: TableInfo.Columns Property (Microsoft.Web.Management.DatabaseManager)
+description: Details the syntax for the TableInfo.Columns property which returns a list of columns within the table information.
 TOCTitle: Columns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Columns
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.columns(v=VS.90)
