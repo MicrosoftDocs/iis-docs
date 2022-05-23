@@ -1,6 +1,7 @@
 ---
 title: JobDefinition Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Properties
+description: "List of members exposed by the JobDefinition type, including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition_properties(v=VS.90)
 ms:contentKeyID: 35520793

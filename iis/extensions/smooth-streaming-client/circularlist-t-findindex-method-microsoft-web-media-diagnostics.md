@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).FindIndex Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FindIndex Method
+description: "An overload list for the CircularListT.FindIndex method including the method type, name, and description of each item."
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.FindIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728160(v=VS.90)
 ms:contentKeyID: 31469180

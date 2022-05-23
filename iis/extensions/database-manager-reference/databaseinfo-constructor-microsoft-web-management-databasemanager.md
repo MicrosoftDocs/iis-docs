@@ -1,6 +1,7 @@
 ---
 title: DatabaseInfo Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Constructor
+description: "The DatabaseInfo constructor creates a new instance of the DatabaseInfo class. This article describes its syntax and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo.databaseinfo(v=VS.90)
 ms:contentKeyID: 22049501
