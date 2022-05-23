@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).CopyTo Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CopyTo Method
+description: "Overload list for the CircularList(T).CopyTo type, including the method type, name, and description of each item."
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.CopyTo
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728154(v=VS.95)
 ms:contentKeyID: 46500553

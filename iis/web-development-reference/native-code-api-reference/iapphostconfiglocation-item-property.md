@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigLocation::Item Property"
+description: "The IAppHostConfigLocation::Item property gets the requested configuration section from the current location."
 ms.date: "10/07/2016"
 ms.assetid: 7e531625-e3b7-ab30-3c6a-c1a7a2977b45
 ---

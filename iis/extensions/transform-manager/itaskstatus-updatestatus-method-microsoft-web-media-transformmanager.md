@@ -1,6 +1,7 @@
 ---
 title: ITaskStatus.UpdateStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateStatus Method
+description: "The ITaskStatus.UpdateStatus method updates the status of an ongoing task. This article describes its syntax and parameters."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITaskStatus.UpdateStatus(System.Int32,Microsoft.Web.Media.TransformManager.JobStatus,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.updatestatus(v=VS.90)
 ms:contentKeyID: 35521141

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostProperty Interface"
+description: "The IAppHostProperty interface represents a property of a configuration element. This article describes its syntax, methods, properties, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 8cb03b60-3a5c-d308-1532-9f625ec1c5ec
 ---

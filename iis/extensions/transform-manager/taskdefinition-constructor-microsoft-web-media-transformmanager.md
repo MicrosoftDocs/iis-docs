@@ -1,6 +1,7 @@
 ---
 title: TaskDefinition Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Constructor
+description: "The TaskDefinition constructor initializes a new instance of the TaskDefinition class. An overload list is provided."
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)
 ms:contentKeyID: 35521020
