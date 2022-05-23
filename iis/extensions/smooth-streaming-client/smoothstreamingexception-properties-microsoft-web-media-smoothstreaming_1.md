@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingException Properties (Microsoft.Web.Media.SmoothStreaming)
+description: SmoothStreamingException Properties type exposes the following members.
 TOCTitle: SmoothStreamingException Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingexception_properties(v=VS.95)
