@@ -1,5 +1,6 @@
 ---
 title: "Configuring Step 1: Install IIS and ASP.NET Modules"
+description: This article describes configuration and installation of IIS and ASP.NET Modules.
 author: rmcmurray
 description: ""
 ms.date: 04/14/2013

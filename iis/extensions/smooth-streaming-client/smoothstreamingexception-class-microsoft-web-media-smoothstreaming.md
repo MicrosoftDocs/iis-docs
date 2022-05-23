@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingException Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingException Class
+description: This article contains namespace, assembly, syntax, properties, methods, and version information for the SmoothStreamingException Class.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingexception(v=VS.90)
 ms:contentKeyID: 23960980

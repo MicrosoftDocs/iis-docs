@@ -1,6 +1,7 @@
 ---
 title: SchedulerInfo.CreateInstance Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateInstance Method
+description: This article contains namespace, assembly, syntax, and return value for the SchedulerInfo.CreateInstance Method.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.createinstance(v=VS.90)
 ms:contentKeyID: 35520615

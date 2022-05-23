@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementCollection::Clear Method"
+description: This article provides syntax, parameters, return value, and requirements for the IAppHostElementCollection::Clear Method.
 ms.date: "10/07/2016"
 ms.assetid: 2b5715fc-8b3b-fa21-7054-987c5b0a3968
 ---

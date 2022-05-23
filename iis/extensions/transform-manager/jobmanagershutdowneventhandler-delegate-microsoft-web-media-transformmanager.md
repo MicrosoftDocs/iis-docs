@@ -1,6 +1,7 @@
 ---
 title: JobManagerShutDownEventHandler Delegate (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerShutDownEventHandler Delegate
+description: Describes the JobManagerShutDownEventHandler Delegate and provides the field's namespace, assembly, syntax, and parameters.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManagerShutDownEventHandler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanagershutdowneventhandler(v=VS.90)
 ms:contentKeyID: 36868659

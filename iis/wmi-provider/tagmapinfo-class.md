@@ -1,5 +1,6 @@
 ---
 title: "TagMapInfo Class"
+description:  This articles provides syntax, properties, and requirements, for the TagMapInfo Class.
 ms.date: "10/07/2016"
 ms.assetid: 8e0bf24d-5acf-847c-89c1-51d5fa5a922e
 ---

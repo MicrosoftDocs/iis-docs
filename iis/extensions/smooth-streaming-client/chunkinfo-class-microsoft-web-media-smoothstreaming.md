@@ -1,6 +1,7 @@
 ---
 title: ChunkInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkInfo Class
+description: Describes the ChunkInfo Class and provides the field's namespace, assembly, syntax, properties, methods and version information.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo(v=VS.90)
 ms:contentKeyID: 31469186

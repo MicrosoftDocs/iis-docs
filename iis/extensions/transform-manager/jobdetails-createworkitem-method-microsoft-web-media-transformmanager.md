@@ -1,6 +1,7 @@
 ---
 title: JobDetails.CreateWorkItem Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateWorkItem Method
+description: This article contains namespace, assembly, syntax, parameters, and return value for the JobDetails.CreateWorkItem Method.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItem(Microsoft.Web.Media.TransformManager.JobManifest)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.createworkitem(v=VS.90)
 ms:contentKeyID: 35521182
