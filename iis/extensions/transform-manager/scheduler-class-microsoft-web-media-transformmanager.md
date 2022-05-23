@@ -1,5 +1,6 @@
 ---
 title: Scheduler Class (Microsoft.Web.Media.TransformManager)
+description: Scheduler Class schedules I I S Transform Manager jobs.
 TOCTitle: Scheduler Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Scheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler(v=VS.90)
