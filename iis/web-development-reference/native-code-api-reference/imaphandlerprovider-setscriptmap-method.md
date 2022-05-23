@@ -1,6 +1,7 @@
 ---
 title: "IMapHandlerProvider::SetScriptMap Method"
-ms.date: "10/07/2016"
+description: "Describes the IMapHandlerProvider::SetScriptMap method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: f1fde288-284d-7035-201c-fb3c508b0213
 ---
 # IMapHandlerProvider::SetScriptMap Method

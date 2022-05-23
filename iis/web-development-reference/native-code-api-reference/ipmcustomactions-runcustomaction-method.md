@@ -1,6 +1,7 @@
 ---
 title: "IPmCustomActions::RunCustomAction Method"
-ms.date: "10/07/2016"
+description: "Describes the IPmCustomActions::RunCustomAction method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1e5e7cb6-1dd9-e28e-d4c7-e94454dd1c8b
 ---
 # IPmCustomActions::RunCustomAction Method
