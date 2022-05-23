@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::GetConfigObject Method"
+description: IHttpServer::GetConfigObject Method retrieves the configuration object for the current context.
 ms.date: "10/07/2016"
 ms.assetid: 5b9a91b4-edf1-7007-e985-5877c4a89786
 ---

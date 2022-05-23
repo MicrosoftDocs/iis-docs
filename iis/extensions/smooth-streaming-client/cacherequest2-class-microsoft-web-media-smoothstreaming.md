@@ -1,5 +1,6 @@
 ---
 title: CacheRequest2 Class (Microsoft.Web.Media.SmoothStreaming)
+description: CacheRequest2 Class provides an extension of the CacheRequest class that enables creation of a CacheRequest object based on a specified stream or a specified HttpWebRequest object and list of selectable tracks.
 TOCTitle: CacheRequest2 Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheRequest2
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2(v=VS.95)
