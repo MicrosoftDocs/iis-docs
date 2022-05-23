@@ -1,5 +1,6 @@
 ---
 title: ITaskStatus.PercentComplete Property (Microsoft.Web.Media.TransformManager)
+description: "The PerceptComplete Property gets the percentage of task completion. This article details syntax, property value, and remarks."
 TOCTitle: PercentComplete Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.PercentComplete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.percentcomplete(v=VS.90)

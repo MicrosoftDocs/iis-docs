@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.DefaultPrecision Property (Microsoft.Web.Management.DatabaseManager)
+description: "The DefaultPrecision Property gets or sets the default precision for the data type. This article details syntax, property value, code examples, remarks, and permissions."
 TOCTitle: DefaultPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultPrecision
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.defaultprecision(v=VS.90)
