@@ -1,5 +1,6 @@
 ---
 title: "UrlSequenceSettings Class"
+description: Details the syntax for the UrlSequenceSettings class which contains URL sequences that request filtering will deny.
 ms.date: "10/07/2016"
 ms.assetid: a0ad4140-3f63-4615-8387-930b80bd16e7
 ---

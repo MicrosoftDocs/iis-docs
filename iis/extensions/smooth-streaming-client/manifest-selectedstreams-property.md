@@ -1,5 +1,6 @@
 ---
 title: Manifest.SelectedStreams Property
+description: Details the syntax and requirements for the Manifest.SelectedStreams property and gets the selected streams.
 TOCTitle: SelectedStreams Property
 ms:assetid: 5201803e-d8bf-44e8-b34d-95c86d88f305
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822735(v=VS.90)
