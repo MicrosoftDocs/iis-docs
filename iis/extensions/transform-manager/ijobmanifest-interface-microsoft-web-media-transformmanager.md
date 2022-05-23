@@ -1,5 +1,6 @@
 ---
 title: IJobManifest Interface (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the IJobManifest interface and represents an interface that retrieves job scheduler information.
 TOCTitle: IJobManifest Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IJobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest(v=VS.90)

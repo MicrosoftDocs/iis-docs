@@ -1,5 +1,6 @@
 ---
 title: JobManifest.CreateManifest Method  (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the CreateManifest method and creates a JobManifest object by using the properties to create the manifest.
 TOCTitle: CreateManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.CreateManifest(Microsoft.Web.Media.TransformManager.JobDefinition,System.String,Microsoft.Web.Media.TransformManager.SchedulerInfo,System.Xml.Linq.XElement,System.Collections.Generic.ICollection{System.Xml.Linq.XElement},System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.createmanifest(v=VS.90)

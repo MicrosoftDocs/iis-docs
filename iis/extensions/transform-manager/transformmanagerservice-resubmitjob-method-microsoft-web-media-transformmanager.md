@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.ResubmitJob Method  (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the ResubmitJob method. This moves a job to the configuring queue where it can be resubmitted.
 TOCTitle: ResubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.ResubmitJob(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.resubmitjob(v=VS.90)
