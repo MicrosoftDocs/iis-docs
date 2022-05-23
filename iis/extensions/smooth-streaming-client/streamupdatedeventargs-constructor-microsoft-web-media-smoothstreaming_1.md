@@ -1,5 +1,6 @@
 ---
-title: StreamUpdatedEventArgs Constructor  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedEventArgs Constructor (Microsoft.Web.Media.SmoothStreaming)
+description: "This article provides syntax and version information for the StreamUpdatedEventArgs Constructor, which initializes a new instance of the StreamUpdatedEventArgs class."
 TOCTitle: StreamUpdatedEventArgs Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor(Microsoft.Web.Media.SmoothStreaming.StreamInfo,Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction,System.Nullable{System.TimeSpan})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.streamupdatedeventargs(v=VS.95)

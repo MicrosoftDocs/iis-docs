@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::DeleteHeader Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::DeleteHeader method and details its syntax, parameters, return value, remarks, example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 39de98ea-52fa-2f0c-b077-646f1995042a
 ---
 # IHttpResponse::DeleteHeader Method

@@ -1,6 +1,7 @@
 ---
 title: TrackInfo.CompareTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompareTo Method
+description: "The TrackInfo.CompareTo method compares a T:Microsoft.Web.Media.SmoothStreaming.TrackInfo object to an object specified by the obj parameter."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.CompareTo(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.compareto(v=VS.95)
 ms:contentKeyID: 46307699

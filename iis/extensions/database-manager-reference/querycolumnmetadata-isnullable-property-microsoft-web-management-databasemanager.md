@@ -1,5 +1,6 @@
 ---
 title: QueryColumnMetadata.IsNullable Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the QueryColumnMetadata.IsNullable property and provides the property's namespace, assembly, syntax, examples, and permissions.
 TOCTitle: IsNullable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsNullable
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.isnullable(v=VS.90)

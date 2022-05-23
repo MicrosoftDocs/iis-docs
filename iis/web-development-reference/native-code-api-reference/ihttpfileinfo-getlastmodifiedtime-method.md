@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetLastModifiedTime Method"
+description: Learn how the GetLastModifiedTime method retrieves the last modified time structure of the corresponding file for an IHttpFileInfo interface. 
 ms.date: "10/07/2016"
 ms.assetid: 8bfb6d62-8091-00fd-b72d-cfb4e6d47bf2
 ---

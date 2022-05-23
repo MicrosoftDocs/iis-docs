@@ -1,6 +1,7 @@
 ---
 title: DownloaderResponse Class
 TOCTitle: DownloaderResponse Class
+description: "This article describes the members that the DownloaderResponse type exposes as well as its syntax and requirements."
 ms:assetid: 07593678-52e7-4785-905d-90334d6e5842
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822671(v=VS.90)
 ms:contentKeyID: 50079426

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::AssociateWithThreadPool Method"
+description: Learn how the AssociateWithThreadPool method associates an asynchronous completion operation with the thread pool. 
 ms.date: "10/07/2016"
 ms.assetid: b215486a-b494-4873-044a-9d105ce7744e
 ---

@@ -1,5 +1,6 @@
 ---
 title: Scheduler.CleanupJob Method  (Microsoft.Web.Media.TransformManager)
+description: Scheduler.CleanupJob Method removes scheduler artifacts for the specified job.
 TOCTitle: CleanupJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.CleanupJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.cleanupjob(v=VS.90)

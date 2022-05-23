@@ -1,5 +1,6 @@
 ---
 title: Multiple Camera Angles (IIS Smooth Streaming)
+description: "This article provides guidelines on multiple camera angles for IIS Smooth Streaming, including code examples on configuring multiple camera angles in manifest, parsing the manifest and sorting tracks, and changing camera angles."
 TOCTitle: Multiple Camera Angles (IIS Smooth Streaming)
 ms:assetid: 2c2a8b91-a760-426f-853a-5806163170d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg134026(v=VS.90)

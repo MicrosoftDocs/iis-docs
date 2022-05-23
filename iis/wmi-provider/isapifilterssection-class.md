@@ -1,5 +1,6 @@
 ---
 title: "IsapiFiltersSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the IsapiFiltersSection class.
 ms.date: "10/07/2016"
 ms.assetid: 2592c8b2-ade9-2569-8e44-8cca63d22c3d
 ---

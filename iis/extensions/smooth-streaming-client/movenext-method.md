@@ -1,6 +1,7 @@
 ---
 title: MoveNext Method
 TOCTitle: MoveNext Method
+description: "The MoveNext method moves to the next chunk. This article describes its syntax, return value, and requirements."
 ms:assetid: 913910b8-29e9-461c-b236-4d9f0abbfcff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822782(v=VS.90)
 ms:contentKeyID: 50079536

@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.DisplayWidth Property
 TOCTitle: DisplayWidth Property
+description: "The ManifestStream.DisplayWidth property gets the stream DisplayWidth field. This article describes its syntax, property value, and requirements."
 ms:assetid: 3848a9f3-d817-4d54-aa02-7265c5b7d76c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822717(v=VS.90)
 ms:contentKeyID: 50079472

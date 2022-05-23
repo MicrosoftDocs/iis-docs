@@ -1,5 +1,6 @@
 ---
 title: "IHttpUser::ReferenceUser Method"
+description: IHttpUser::ReferenceUser Method increments the user internal reference count.
 ms.date: "10/07/2016"
 ms.assetid: dcb74db6-9cbb-08ad-7993-8b6bbdb760ae
 ---

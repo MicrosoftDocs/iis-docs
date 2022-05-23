@@ -1,5 +1,6 @@
 ---
 title: "IHttpTokenKey::GetUserName Method"
+description: Learn how the GetUserName method returns the user name.
 ms.date: "10/07/2016"
 ms.assetid: 3659a1ad-d0f4-9c43-8c6a-492cfe033d93
 ---

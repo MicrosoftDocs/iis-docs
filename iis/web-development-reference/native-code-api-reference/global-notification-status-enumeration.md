@@ -1,6 +1,7 @@
 ---
-title: "GLOBAL_NOTIFICATION_STATUS Enumeration"
-ms.date: "10/07/2016"
+title: GLOBAL_NOTIFICATION_STATUS Enumeration
+description: Describes the GLOBAL_NOTIFICATION_STATUS enumeration and details its syntax, members, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8b0333b8-b0cd-4846-776d-29e52fbbb214
 ---
 # GLOBAL_NOTIFICATION_STATUS Enumeration

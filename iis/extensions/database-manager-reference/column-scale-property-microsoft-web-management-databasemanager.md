@@ -1,6 +1,7 @@
 ---
 title: Column.Scale Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Scale Property
+description: "The Column.Scale property gets or sets a value that specifies the numeric scale of the database column."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Scale
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.scale(v=VS.90)
 ms:contentKeyID: 20476449

@@ -1,5 +1,6 @@
 ---
 title: Tracing.IsTraceLevelEnabled Method  (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the Tracing.IsTraceLevelEnabled method, with links to reference materials.
 TOCTitle: IsTraceLevelEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceLevelEnabled(Microsoft.Web.Media.Diagnostics.TraceLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.istracelevelenabled(v=VS.95)

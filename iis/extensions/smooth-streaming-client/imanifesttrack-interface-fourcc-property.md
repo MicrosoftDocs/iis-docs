@@ -1,6 +1,7 @@
 ---
 title: IManifestTrack Interface.FourCC Property
 TOCTitle: FourCC Property
+description: "The IManifestTrack Interface.FourCC property gets the four character code (FourCC). This article describes its syntax, property value, and requirements."
 ms:assetid: e66e5eb4-bf5b-4d05-ba15-6a3c0453037b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822857(v=VS.90)
 ms:contentKeyID: 50079611

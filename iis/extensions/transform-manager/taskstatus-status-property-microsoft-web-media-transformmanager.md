@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
+description: Describes the TaskStatus.Status property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Status
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.status(v=VS.90)
 ms:contentKeyID: 35520598
