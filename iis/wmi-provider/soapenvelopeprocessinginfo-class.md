@@ -1,5 +1,6 @@
 ---
 title: "SoapEnvelopeProcessingInfo Class"
+description: "This article lists syntax, methods, properties, remarks, inheritance hierarchy, and system requirements for the SoapEnvelopeProcessingInfo Class, which configures a time-out that helps mitigate denial of service attacks."
 ms.date: "10/07/2016"
 ms.assetid: 05a66125-7647-f904-145a-9aae7f29272a
 ---

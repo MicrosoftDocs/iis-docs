@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.Url Property
+description: "The IManifestStream.Url Property gets the URL template. This article shows its syntax, property value, and system requirements."
 TOCTitle: Url Property
 ms:assetid: 25ae13bd-1aca-4a52-b2e5-603b3fb283ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822704(v=VS.90)
