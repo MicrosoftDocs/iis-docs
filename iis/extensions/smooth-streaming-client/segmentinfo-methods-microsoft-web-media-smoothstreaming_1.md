@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SegmentInfo methods and provides a table that outlines the name and description for various method types.
 TOCTitle: SegmentInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SegmentInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo_methods(v=VS.95)
