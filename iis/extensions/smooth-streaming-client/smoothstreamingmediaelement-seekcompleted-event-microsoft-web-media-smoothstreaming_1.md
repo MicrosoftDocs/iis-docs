@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SeekCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompleted Event
+description: "The SmoothStreamingMediaElement.SeekCompleted event occurs when a seek operation completes. This article describes its syntax and version information."
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SeekCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.seekcompleted(v=VS.95)
 ms:contentKeyID: 46307523

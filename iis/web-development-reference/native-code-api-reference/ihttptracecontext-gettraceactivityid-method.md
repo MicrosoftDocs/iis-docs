@@ -1,5 +1,6 @@
 ---
 title: "IHttpTraceContext::GetTraceActivityId Method"
+description: "The IHttpTraceContextGetTraceActivityId method returns the trace activity identifier for the trace context."
 ms.date: "10/07/2016"
 ms.assetid: f3398f6c-34ce-4051-9dca-f2a1f8726395
 ---
