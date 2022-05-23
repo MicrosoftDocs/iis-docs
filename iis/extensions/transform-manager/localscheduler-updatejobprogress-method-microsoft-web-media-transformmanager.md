@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.UpdateJobProgress Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and parameters for the LocalScheduler.UpdateJobProgress, with links to reference materials.
 TOCTitle: UpdateJobProgress Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.UpdateJobProgress(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.updatejobprogress(v=VS.90)
