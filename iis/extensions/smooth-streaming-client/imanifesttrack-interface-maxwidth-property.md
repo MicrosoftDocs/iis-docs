@@ -1,6 +1,6 @@
 ---
 title: IManifestTrack Interface.MaxWidth Property
-description: This page details the syntax for the IManifestTrack Interface.MaxWidth property and gets the track 'MaxWidth' field.
+description: Describes the IManifestTrack Interface.MaxWidth property and provides the property's syntax, property value, and requirements.
 TOCTitle: MaxWidth Property
 ms:assetid: a4053a30-4392-4df2-9276-abc94639f6f5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822799(v=VS.90)

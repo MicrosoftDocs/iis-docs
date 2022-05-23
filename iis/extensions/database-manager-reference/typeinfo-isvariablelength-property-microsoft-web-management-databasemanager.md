@@ -1,6 +1,6 @@
 ---
 title: TypeInfo.IsVariableLength Property (Microsoft.Web.Management.DatabaseManager)
-description: This page details the syntax for the TypeInfo.IsVariableLength property which gets or sets a value that indicates whether the data type supports variable length.
+description: Details the syntax for the TypeInfo.IsVariableLength property which gets or sets a value that indicates whether the data type supports variable length.
 TOCTitle: IsVariableLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsVariableLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.isvariablelength(v=VS.90)

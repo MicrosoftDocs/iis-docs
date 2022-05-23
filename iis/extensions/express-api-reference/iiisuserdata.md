@@ -1,6 +1,6 @@
 ---
 title: "IIISUserData"
-description: This page details the syntax for the IIISUserData. This allows per-user IIS Express directories to be queried and created for IIISVersion objects that describe IIS Express.
+description: Details the syntax for the IIISUserData and allows IIS Express directories to be queried and created for IIISVersion objects.
 ms.date: "10/07/2016"
 ms.assetid: 7acb6312-1d49-4ed6-afe1-d31b94cd6f2c
 ---

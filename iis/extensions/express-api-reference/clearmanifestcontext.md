@@ -1,7 +1,6 @@
 ---
 title: "ClearManifestContext"
-description: This page details the syntax for the ClearManifestContext. It clears the manifest context created using an earlier call to ApplyManifestContext.
-
+description: Describes ClearManifestContext and provides the manifest context's syntax, return value, and additional references.
 ms.date: "10/07/2016"
 ms.assetid: b0582f38-94ae-4c04-a12f-4038b5c4a4e8
 ---
