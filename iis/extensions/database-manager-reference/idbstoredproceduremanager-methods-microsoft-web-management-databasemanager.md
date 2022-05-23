@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines members exposed by the IDbStoredProcedureManager methods. There are also links to reference materials.
 TOCTitle: IDbStoredProcedureManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager_methods(v=VS.90)

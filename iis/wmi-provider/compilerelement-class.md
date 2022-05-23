@@ -1,5 +1,6 @@
 ---
 title: "CompilerElement Class"
+description: Specifies a compiler that is used for Web applications.
 ms.date: "10/07/2016"
 ms.assetid: d2f44e2f-ae63-421b-9071-ddf9809fc21c
 ---

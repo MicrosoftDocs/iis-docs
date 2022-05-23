@@ -1,6 +1,7 @@
 ---
 title: JobMetadata.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
+description: Describes the JobMetadata.InputFolder Property and provides the field's namespace, assembly, syntax, and return value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.InputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.inputfolder(v=VS.90)
 ms:contentKeyID: 35520562

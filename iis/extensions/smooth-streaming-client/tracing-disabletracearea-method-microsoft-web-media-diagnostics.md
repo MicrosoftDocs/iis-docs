@@ -1,6 +1,7 @@
 ---
 title: Tracing.DisableTraceArea Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: DisableTraceArea Method
+description: Disables the trace area that is specified by the traceArea parameter.
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceArea(Microsoft.Web.Media.Diagnostics.TraceArea)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.disabletracearea(v=VS.90)
 ms:contentKeyID: 23961209

@@ -1,5 +1,6 @@
 ---
 title: "Site.Start Method1"
+description: This article contains information about syntax and requirements for the Site.Start method. 
 ms.date: "10/07/2016"
 ms.assetid: 5fb2096c-75dd-1a4c-2491-a40f01e8aa98
 ---

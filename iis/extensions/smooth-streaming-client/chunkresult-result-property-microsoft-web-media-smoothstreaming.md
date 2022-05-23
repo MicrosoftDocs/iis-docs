@@ -1,5 +1,6 @@
 ---
 title: ChunkResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkResult.Result property and details its syntax, property value, and Silverlight information.
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.result(v=VS.90)

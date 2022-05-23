@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.MergeExternalManifest Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MergeExternalManifest Method
+description: Replaces some elements of the main manifest with others from an external manifest or adds new elements to the main manifest.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mergeexternalmanifest(v=VS.90)
 ms:contentKeyID: 28440970

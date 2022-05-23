@@ -1,6 +1,7 @@
 ---
 title: "IHttpModuleRegistrationInfo::GetId Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpModuleRegistrationInfo::GetId method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 3b6e7b30-e480-8d34-8f75-196430e3951e
 ---
 # IHttpModuleRegistrationInfo::GetId Method

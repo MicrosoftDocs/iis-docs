@@ -1,5 +1,6 @@
 ---
 title: "IHttpTraceContext::SetTraceConfiguration Method"
+description: Learn how the SetTraceConfiguration method sets the trace configuration for the trace context.
 ms.date: "10/07/2016"
 ms.assetid: d625426f-a634-4ff0-98b7-91ddeb6d9e8d
 ---

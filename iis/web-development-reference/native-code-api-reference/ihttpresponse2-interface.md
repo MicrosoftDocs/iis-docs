@@ -1,6 +1,7 @@
 ---
-title: "IHttpResponse2 Interface"
-ms.date: "10/07/2016"
+title: IHttpResponse2 Interface
+description: Describes the IHttpResponse2 interface and details its syntax, methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 926ab657-fabb-4523-8f1e-c372f6871f8a
 ---
 # IHttpResponse2 Interface

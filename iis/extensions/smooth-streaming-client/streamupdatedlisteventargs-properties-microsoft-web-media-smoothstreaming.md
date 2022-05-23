@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedListEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the StreamUpdatedListEventArgs properties. There are also links to reference materials. 
 TOCTitle: StreamUpdatedListEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs_properties(v=VS.90)

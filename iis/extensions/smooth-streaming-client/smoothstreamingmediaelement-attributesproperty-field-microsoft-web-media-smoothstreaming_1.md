@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.AttributesProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AttributesProperty Field
+description: "The SmoothStreamingMediaElement.AttributesProperty field represents a dependency property that specifies the Attributes property dictionary object."
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AttributesProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.attributesproperty(v=VS.95)
 ms:contentKeyID: 46307538

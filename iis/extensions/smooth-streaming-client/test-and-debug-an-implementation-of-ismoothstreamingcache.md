@@ -1,6 +1,7 @@
 ---
 title: Test and Debug an Implementation of ISmoothStreamingCache
 TOCTitle: Test and Debug an Implementation of ISmoothStreamingCache
+description: "To test and debug an implementation of ISmoothStreamingCache requires monitoring the data transferred from the IIS server and monitoring data storage on a client computer."
 ms:assetid: 84c92472-1f5c-4763-ab21-93f264951129
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg296363(v=VS.90)
 ms:contentKeyID: 32879084

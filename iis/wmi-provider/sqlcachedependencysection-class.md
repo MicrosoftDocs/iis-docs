@@ -1,5 +1,6 @@
 ---
 title: "SqlCacheDependencySection Class"
+description: "The SqlCacheDependencySection class represents a System.Web.Caching.SqlCacheDependency configuration section. The methods and properties exposed by this class are provided."
 ms.date: "10/07/2016"
 ms.assetid: 2a4b23dc-734b-7b32-bd9e-724ce3d88fb2
 ---

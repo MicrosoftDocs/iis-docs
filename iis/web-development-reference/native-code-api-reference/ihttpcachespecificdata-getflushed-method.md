@@ -1,5 +1,6 @@
 ---
 title: "IHttpCacheSpecificData::GetFlushed Method"
+description: Learn how the IHttpCacheSpecificData::GetFlushed method returns a value indicating whether the specific data has been flushed from the cache.
 ms.date: "10/07/2016"
 ms.assetid: 4cce500d-c3e2-a52c-3a15-32887e29c3dd
 ---

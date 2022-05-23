@@ -1,6 +1,7 @@
 ---
 title: "IAppHostConfigLocation::Count Property"
-ms.date: "10/07/2016"
+description: Describes the IAppHostConfigLocation::Count property and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 1f635871-55f1-9e9f-8cda-1f215cb2f40d
 ---
 # IAppHostConfigLocation::Count Property

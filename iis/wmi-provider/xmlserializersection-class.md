@@ -1,6 +1,7 @@
 ---
-title: "XmlSerializerSection Class"
-ms.date: "10/07/2016"
+title: XmlSerializerSection Class
+description: Describes the XmlSerializerSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 319cbd7d-bcdd-c186-eedc-68456a6070cb
 ---
 # XmlSerializerSection Class

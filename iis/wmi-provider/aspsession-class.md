@@ -1,5 +1,6 @@
 ---
 title: "AspSession Class"
+description: This page describes the properties of the AspSession class.
 ms.date: "10/07/2016"
 ms.assetid: 56b14f51-9718-e5b5-28ab-12687cb8167f
 ---

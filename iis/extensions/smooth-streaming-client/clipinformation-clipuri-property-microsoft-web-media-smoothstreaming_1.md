@@ -1,6 +1,7 @@
 ---
 title: ClipInformation.ClipUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipUri Property
+description: "The ClipInformation.ClipUri property gets or sets a Uri object that contains the clip source. This article describes its syntax and version information."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipuri(v=VS.95)
 ms:contentKeyID: 46307782

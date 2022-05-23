@@ -1,5 +1,6 @@
 ---
 title: "TypedElement Class"
+description: Defines a filter for a trace listener.
 ms.date: "10/07/2016"
 ms.assetid: 4fc60971-e167-f204-984a-80a0eadb884f
 ---

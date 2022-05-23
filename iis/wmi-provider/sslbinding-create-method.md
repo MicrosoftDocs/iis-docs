@@ -1,5 +1,6 @@
 ---
 title: "SSLBinding.Create Method1"
+description: Creates a Secure Sockets Layer (SSL) binding.  
 ms.date: "10/07/2016"
 ms.assetid: b68af3fb-9509-4d3d-9787-be79438a47f2
 ---

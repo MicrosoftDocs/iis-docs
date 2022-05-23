@@ -1,6 +1,7 @@
 ---
 title: JobManifest.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
+description: "The JobManifest.TaskIndex property gets or sets the task index value from the task index element."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.TaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.taskindex(v=VS.90)
 ms:contentKeyID: 35521060

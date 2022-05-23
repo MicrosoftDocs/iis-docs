@@ -1,5 +1,6 @@
 ---
 title: ColumnChanges Enumeration (Microsoft.Web.Management.DatabaseManager)
+description: Provides detailed syntax for pending column changes for the Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 TOCTitle: ColumnChanges Enumeration
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ColumnChanges
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columnchanges(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "VirtualDirectory.RevertToParent Method2"
-ms.date: "10/07/2016"
+title: VirtualDirectory.RevertToParent Method2
+description: Describes the VirtualDirectory.RevertToParent method and provides the method's syntax, parameters, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 4cae86e8-cbbf-4e0b-a0aa-f32d32412e25
 ---
 # VirtualDirectory.RevertToParent Method2

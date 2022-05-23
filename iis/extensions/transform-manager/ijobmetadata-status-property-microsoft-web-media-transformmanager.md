@@ -1,6 +1,7 @@
 ---
 title: IJobMetadata.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
+description: Gets or sets the status of an ongoing transform.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.Status
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.status(v=VS.90)
 ms:contentKeyID: 35520634

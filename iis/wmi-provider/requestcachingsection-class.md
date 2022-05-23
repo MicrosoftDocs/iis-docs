@@ -1,6 +1,7 @@
 ---
-title: "RequestCachingSection Class"
-ms.date: "10/07/2016"
+title: RequestCachingSection Class
+description: Describes the RequestCachingSection class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 142f14bd-be2f-2ed7-a8ac-f2eae361c96e
 ---
 # RequestCachingSection Class

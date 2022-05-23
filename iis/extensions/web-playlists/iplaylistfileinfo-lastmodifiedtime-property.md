@@ -1,6 +1,7 @@
 ---
 title: IPlaylistFileInfo::LastModifiedTime Property
 TOCTitle: IPlaylistFileInfo::LastModifiedTime Property
+description: "The IPlaylistFileInfoLastModifiedTime property gets the last modified time stamp of the file that contains the playlist."
 ms:assetid: 36887ce1-2e87-4cde-956c-e98464345e7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146261(v=VS.90)
 ms:contentKeyID: 19132332

@@ -1,5 +1,6 @@
 ---
 title: ChunkResult Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkResult class and details its syntax, properties, methods, examples, Silverlight information, and thread safety.
 TOCTitle: ChunkResult Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult(v=VS.90)

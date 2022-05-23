@@ -1,6 +1,7 @@
 ---
 title: TrackChangedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackChangedEventArgs Methods
+description: "List of members that the TrackChangedEventArgs type exposes. Method type, name, and description are provided for each."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs_methods(v=VS.95)
 ms:contentKeyID: 46307609

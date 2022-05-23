@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::GetUserName Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUser::GetUserName method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a958e0e3-4166-13a2-ab9d-ff79fd8aa67a
 ---
 # IHttpUser::GetUserName Method

@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalThreadCleanup Method"
-ms.date: "10/07/2016"
+description: "Describes the CGlobalModule::OnGlobalThreadCleanup method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 2aaac10f-de71-71ff-5547-a098f91e717d
 ---
 # CGlobalModule::OnGlobalThreadCleanup Method

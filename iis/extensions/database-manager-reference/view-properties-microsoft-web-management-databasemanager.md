@@ -1,5 +1,6 @@
 ---
 title: View Properties (Microsoft.Web.Management.DatabaseManager)
+description: Describes the view type and provides a table that outlines the name and description for various method types.
 TOCTitle: View Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.View
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view_properties(v=VS.90)

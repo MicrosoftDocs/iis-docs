@@ -1,5 +1,6 @@
 ---
 title: Index.Clustered Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index.Clustered property and provides the property's namespace, assembly, syntax, property value, and permissions.
 TOCTitle: Clustered Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Clustered
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.clustered(v=VS.90)

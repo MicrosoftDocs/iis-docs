@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.MinimumLength Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the TypeInfo.MinimumLength property. 
 TOCTitle: MinimumLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MinimumLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.minimumlength(v=VS.90)

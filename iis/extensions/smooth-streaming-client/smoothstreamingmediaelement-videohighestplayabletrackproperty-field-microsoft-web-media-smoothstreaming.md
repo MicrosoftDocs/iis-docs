@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrackProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.VideoHighestPlayableTrackProperty field.
 TOCTitle: VideoHighestPlayableTrackProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrackProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrackproperty(v=VS.90)

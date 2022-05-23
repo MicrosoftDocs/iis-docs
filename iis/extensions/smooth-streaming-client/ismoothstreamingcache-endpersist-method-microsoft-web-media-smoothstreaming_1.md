@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache.EndPersist Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndPersist Method
+description: "The ISmoothStreamingCache.EndPersist method represents a AsyncCallback delegate method to complete the operation started by the BeginPersist method."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.EndPersist(System.IAsyncResult)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.endpersist(v=VS.95)
 ms:contentKeyID: 46307667

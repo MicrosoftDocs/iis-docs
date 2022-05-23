@@ -1,6 +1,7 @@
 ---
 title: "IHttpCacheSpecificData::SetFlushed Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCacheSpecificData::SetFlushed method and details its syntax, parameters, thread safety, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d4cdb17b-f795-d42d-844b-3228571b804e
 ---
 # IHttpCacheSpecificData::SetFlushed Method

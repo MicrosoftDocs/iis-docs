@@ -1,6 +1,7 @@
 ---
-title: "Worker Process and Protocol Manager Exported Functions"
-ms.date: "10/07/2016"
+title: Worker Process and Protocol Manager Exported Functions
+description: Describes the worker process and protocol manager exported functions and provides links to documentation on exported functions.
+ms.date: 10/07/2016
 ms.assetid: 5be47a79-5e0d-47b4-9d3c-36a9b7b04c07
 ---
 # Worker Process and Protocol Manager Exported Functions

@@ -1,5 +1,6 @@
 ---
 title: "HttpRedirectSection Class"
+description: "The HttpRedirectSection class configures HTTP redirection. This article describes its syntax, methods, properties, remarks, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 437c5154-8165-1852-d8f5-aeb7f68fdc05
 ---

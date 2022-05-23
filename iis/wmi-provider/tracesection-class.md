@@ -1,5 +1,6 @@
 ---
 title: "TraceSection Class"
+description: "The TraceSection class configures the vstecasp code-tracing service. This article describes its syntax, methods, properties, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: c6205ff6-062d-7f7a-98a3-2df6a50bc47b
 ---

@@ -1,5 +1,6 @@
 ---
 title: "GetIsapiProcessHost Function"
+description: This article contains the syntax, parameters, and requirements for the GetIsapiProcessHost Function.
 ms.date: "10/07/2016"
 ms.assetid: df43ddf4-ec60-42a3-2dd5-f1738ffbb8ad
 api_name:

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LinearClipChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LinearClipChanged Event
+description: This article contains the namespace, assembly, syntax, and version information for the SmoothStreamingMediaElement.LinearClipChanged event.
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LinearClipChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.linearclipchanged(v=VS.95)
 ms:contentKeyID: 46307496

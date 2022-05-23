@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LatencyCorrectionThreshold Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LatencyCorrectionThreshold Property
+description: "The SmoothStreamingMediaElement.LatencyCorrectionThreshold property gets or sets the latency correction threshold for live playback."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LatencyCorrectionThreshold
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.latencycorrectionthreshold(v=VS.90)
 ms:contentKeyID: 32682299

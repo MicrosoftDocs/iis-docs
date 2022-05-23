@@ -1,5 +1,6 @@
 ---
 title: "ISendResponseProvider::GetHeadersBeingSent Method"
+description: "The ISendResponseProvider::GetHeadersBeingSent method retrieves a value that indicates whether the HTTP headers are being returned."
 ms.date: "10/07/2016"
 ms.assetid: 948a9a12-0ce1-9d96-c798-b3d8e6a377fa
 ---

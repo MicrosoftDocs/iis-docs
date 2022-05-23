@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::GetFileInfo Method"
+description: Learn how the GetFileInfo method returns an IHttpFileInfo interface for a specific file path.
 ms.date: "10/07/2016"
 ms.assetid: 1c3d91fe-062b-93c1-c5ad-e0dda028d987
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext2::GetOriginalUser Method"
+description: Learn how the GetOriginalUser method retrieves the user information associated with the original request during asynchronous operation.
 ms.date: "10/07/2016"
 ms.assetid: 9367926f-6a54-4f85-9900-00c7d44bc6e4
 ---

@@ -1,5 +1,6 @@
 ---
 title: "VirtualDirectoryElementDefaults Class1"
+description: This article contains syntax, properties, examples and requirements for the VirtualDirectoryElementDefaults Class1.
 ms.date: "10/07/2016"
 ms.assetid: 270a77bc-b340-b5b7-05f2-d7fbc0f9f34a
 ---

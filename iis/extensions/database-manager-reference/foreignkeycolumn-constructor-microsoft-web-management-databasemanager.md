@@ -1,6 +1,7 @@
 ---
 title: ForeignKeyColumn Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeyColumn Constructor
+description: Creates a new instance of the ForeignKeyColumn class.
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn.foreignkeycolumn(v=VS.90)
 ms:contentKeyID: 20476450

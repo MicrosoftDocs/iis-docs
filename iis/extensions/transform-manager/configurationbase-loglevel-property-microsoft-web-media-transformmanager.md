@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.LogLevel Property (Microsoft.Web.Media.TransformManager)
+description: The LogLevel property gets or sets a value that represents the level of log detail that is contained in the log level element of the IIS Transform Manager configuration.
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.loglevel(v=VS.90)

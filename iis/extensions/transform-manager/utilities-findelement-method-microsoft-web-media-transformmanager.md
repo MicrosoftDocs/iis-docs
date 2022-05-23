@@ -1,5 +1,6 @@
 ---
 title: Utilities.FindElement Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the Utilities.FindElement method (Microsoft.Web.Media.TransformManager) finds a specific element in the container.
 TOCTitle: FindElement Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.Utilities.FindElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)

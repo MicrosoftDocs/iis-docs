@@ -1,5 +1,6 @@
 ---
 title: "GlobalModulesSection Class"
+description: Exposes configuration settings for IIS global modules.
 ms.date: "10/07/2016"
 ms.assetid: 33de2b19-45d0-5b8d-da62-cc95a314d8d4
 ---
