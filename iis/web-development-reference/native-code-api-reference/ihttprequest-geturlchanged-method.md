@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetUrlChanged Method"
+description: Learn how the GetUrlChanged method determines whether the request URL has been modified.
 ms.date: "10/07/2016"
 ms.assetid: fb1a6f37-8da1-5118-a581-5fe6684a88a2
 ---
