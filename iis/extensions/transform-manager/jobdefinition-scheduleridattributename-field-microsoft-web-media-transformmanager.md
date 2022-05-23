@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerIdAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.SchedulerIdAttributeName field and details its namespace, assembly, and syntax.
 TOCTitle: SchedulerIdAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerIdAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.scheduleridattributename(v=VS.90)
