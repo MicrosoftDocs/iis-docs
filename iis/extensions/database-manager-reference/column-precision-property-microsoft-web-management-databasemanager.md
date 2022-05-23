@@ -1,5 +1,6 @@
 ---
 title: Column.Precision Property (Microsoft.Web.Management.DatabaseManager)
+description: "The Precision Property gets or sets a value that specifies the numeric precision of the database column. This article shows its syntax, property value, remarks, code examples, and permissions."
 TOCTitle: Precision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Precision
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.precision(v=VS.90)
