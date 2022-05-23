@@ -1,5 +1,6 @@
 ---
 title: "IMapPathProvider::SetPhysicalPath Method"
+description: IMapPathProvider::SetPhysicalPath Method sets the physical path mapping for the current request.
 ms.date: "10/07/2016"
 ms.assetid: 0c3ecda8-d86b-f299-d3c5-cee8b9b761c2
 ---
