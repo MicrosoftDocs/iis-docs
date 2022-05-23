@@ -1,5 +1,6 @@
 ---
 title: ITask Interface (Microsoft.Web.Media.TransformManager)
+description: Describes the ITask interface and provides the interface's namespace, assembly, syntax, methods, and remarks.
 TOCTitle: ITask Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ITask
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itask(v=VS.90)

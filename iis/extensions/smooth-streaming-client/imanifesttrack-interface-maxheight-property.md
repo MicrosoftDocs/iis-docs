@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.MaxHeight Property
+description: Describes the IManifestTrack Interface.MaxHeight property and provides the property's syntax, property value, and requirements.
 TOCTitle: MaxHeight Property
 ms:assetid: 541ece41-9508-4381-af46-23de0b6f4d5d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822736(v=VS.90)

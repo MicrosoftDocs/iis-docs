@@ -1,6 +1,7 @@
 ---
-title: "ApplicationElementDefaults Class2"
-ms.date: "10/07/2016"
+title: ApplicationElementDefaults Class2
+description: Describes the ApplicationElementDefaults class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a07c6d97-5338-8e18-a96e-ece01b6b7738
 ---
 # ApplicationElementDefaults Class2
