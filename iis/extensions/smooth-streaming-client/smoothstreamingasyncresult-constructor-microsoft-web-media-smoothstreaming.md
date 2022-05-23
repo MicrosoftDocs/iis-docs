@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingAsyncResult Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingAsyncResult Constructor
+description: "The SmoothStreamingAsyncResult constructor initializes a new instance of the SmoothStreamingAsyncResult class."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.#ctor(System.AsyncCallback,System.Object,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.smoothstreamingasyncresult(v=VS.95)
 ms:contentKeyID: 46307680

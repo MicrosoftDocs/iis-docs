@@ -1,6 +1,7 @@
 ---
 title: StreamInfo Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamInfo Methods
+description: "List of members exposed by the StreamInfo type including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo_methods(v=VS.95)
 ms:contentKeyID: 46307604
