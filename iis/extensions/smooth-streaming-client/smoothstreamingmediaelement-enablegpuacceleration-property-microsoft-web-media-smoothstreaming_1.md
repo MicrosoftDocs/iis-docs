@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.EnableGPUAcceleration Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.EnableGPUAcceleration property.
 TOCTitle: EnableGPUAcceleration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EnableGPUAcceleration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.enablegpuacceleration(v=VS.95)

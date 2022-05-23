@@ -1,5 +1,6 @@
 ---
 title: "DirectoryBrowseSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the DirectoryBrowseSection class.
 ms.date: "10/07/2016"
 ms.assetid: 9bb4e71c-9b3c-7539-a6a1-33808d7698ce
 ---
