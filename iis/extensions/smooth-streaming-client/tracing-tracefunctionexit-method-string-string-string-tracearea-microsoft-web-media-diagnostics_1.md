@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceFunctionExit Method (String, String, String, TraceArea) (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the Tracing.TraceFunctionExit method,
 TOCTitle: TraceFunctionExit Method (String, String, String, TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionexit(v=VS.95)

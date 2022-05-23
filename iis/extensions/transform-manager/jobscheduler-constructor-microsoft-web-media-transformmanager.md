@@ -1,5 +1,6 @@
 ---
 title: JobScheduler Constructor  (Microsoft.Web.Media.TransformManager)
+description: This article outlines the overload list for the JobScheduler constructor, with links to reference materials.
 TOCTitle: JobScheduler Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobScheduler.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.jobscheduler(v=VS.90)
