@@ -1,6 +1,7 @@
 ---
 title: Query.Tag Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Tag Property
+description: Describes the Query.Tag property and provides the field's namespace, assembly, syntax, and permissions.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.Tag
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.tag(v=VS.90)
 ms:contentKeyID: 22049482
