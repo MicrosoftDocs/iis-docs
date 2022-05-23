@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.FileName Property (Microsoft.Web.Media.TransformManager)
+description: Describes the FileName property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.filename(v=VS.90)

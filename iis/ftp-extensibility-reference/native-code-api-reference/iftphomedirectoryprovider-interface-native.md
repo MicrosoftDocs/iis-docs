@@ -1,6 +1,7 @@
 ---
-title: "IFtpHomeDirectoryProvider Interface (Native)"
-ms.date: "09/06/2017"
+title: IFtpHomeDirectoryProvider Interface (Native)
+description: Describe the IFtpHomeDirectoryProvider native interface and provides the interface's syntax, methods, an example, and requirements.
+ms.date: 09/06/2017
 ms.assetid: b7bc3cf4-96eb-4cb2-ad39-1323d581da3f
 ms.author: "robmcm"
 ---
