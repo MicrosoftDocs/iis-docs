@@ -1,5 +1,6 @@
 ---
 title: TrackInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo properties and provides a table that outlines the name and description for various property types.
 TOCTitle: TrackInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo_properties(v=VS.95)
