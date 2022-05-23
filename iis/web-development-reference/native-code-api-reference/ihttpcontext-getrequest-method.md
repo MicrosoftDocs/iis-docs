@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetRequest method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 566b6315-00a6-0d9a-17ae-e531139a4912
 ---
 # IHttpContext::GetRequest Method

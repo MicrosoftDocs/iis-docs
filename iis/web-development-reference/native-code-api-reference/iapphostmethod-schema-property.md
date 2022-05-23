@@ -1,6 +1,7 @@
 ---
 title: "IAppHostMethod::Schema Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostMethod::Schema property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d611032c-f7bd-43d0-ab3a-9c6cfa2ffd65
 ---
 # IAppHostMethod::Schema Property
