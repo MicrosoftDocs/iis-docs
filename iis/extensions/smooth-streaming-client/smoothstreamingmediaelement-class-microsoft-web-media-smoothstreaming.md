@@ -1,7 +1,7 @@
 ---
 title: SmoothStreamingMediaElement Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Class
-description:  This article describes the SmoothStreamingMediaElement class and provides inheritance, syntax, constructors, properties.
+description:  This article describes the SmoothStreamingMediaElement class and provides inheritance, syntax, constructors, and properties.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.90)
 ms:contentKeyID: 23961053
