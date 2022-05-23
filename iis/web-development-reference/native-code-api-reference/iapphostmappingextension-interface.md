@@ -1,6 +1,7 @@
 ---
-title: "IAppHostMappingExtension Interface"
-ms.date: "10/07/2016"
+title: IAppHostMappingExtension Interface
+description: Describes the IAppHostMappingExtension interface and details its syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5ed0d0dd-8dfb-df88-a7a8-c0ec0e805f2c
 ---
 # IAppHostMappingExtension Interface
