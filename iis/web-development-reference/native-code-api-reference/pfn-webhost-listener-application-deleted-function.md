@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_DELETED Function"
+description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_DELETED function notifies the listener adapter that the application is no longer active for a protocol.
 ms.date: "10/07/2016"
 ms.assetid: 48bb404c-cee5-574f-652f-068666f12571
 ---

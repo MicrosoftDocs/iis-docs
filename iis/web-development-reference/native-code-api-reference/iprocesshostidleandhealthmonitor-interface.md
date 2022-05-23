@@ -1,5 +1,6 @@
 ---
 title: "IProcessHostIdleAndHealthMonitor Interface"
+description: Describes the IProcessHostIdleAndHealthMonitor Interface and details its syntax, methods, properties, and requirements. 
 ms.date: "10/07/2016"
 ms.assetid: 0cecacb6-0772-3d95-af9c-edf5069d30ac
 ---
