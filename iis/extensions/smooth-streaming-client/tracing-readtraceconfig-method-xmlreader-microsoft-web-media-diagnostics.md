@@ -1,6 +1,6 @@
 ---
 title: Tracing.ReadTraceConfig Method (XmlReader) (Microsoft.Web.Media.Diagnostics)
-description: Describes the ReadTraceConfig method and provides the method's namespace, assembly, syntax, version information, and permissions.
+description: Describes the ReadTraceConfig XmlReader method and provides the method's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: ReadTraceConfig Method (XmlReader)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig(System.Xml.XmlReader)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.90)
