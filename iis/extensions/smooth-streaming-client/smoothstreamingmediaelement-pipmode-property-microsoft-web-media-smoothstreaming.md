@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PipMode Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the PipMode property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: PipMode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipMode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmode(v=VS.90)

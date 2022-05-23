@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.CustomAttributeNames Property
+description: Describes the IManifestTrack Interface.CustomAttributeNames property and provides the property's syntax, property value, and requirements.
 TOCTitle: CustomAttributeNames Property
 ms:assetid: 08043f81-e8bb-4e50-9614-b05abdee82b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822672(v=VS.90)
