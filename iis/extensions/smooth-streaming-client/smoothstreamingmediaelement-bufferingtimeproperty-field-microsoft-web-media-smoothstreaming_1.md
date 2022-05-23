@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.BufferingTimeProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingTimeProperty Field
+description: "The SmoothStreamingMediaElement.BufferingTimeProperty field represents a dependency property that specifies the BufferingTime property."
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingTimeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingtimeproperty(v=VS.95)
 ms:contentKeyID: 46307544

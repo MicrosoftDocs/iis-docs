@@ -1,6 +1,7 @@
 ---
 title: Query Publishing Point Statistics
 TOCTitle: Query Publishing Point Statistics
+description: "The Query Publishing Point statistics operation retrieves statistics for a specific publishing point. Describes its restrictions, request, response, and authorization."
 ms:assetid: ea6936a4-c399-4bc7-998f-f088fa3fba81
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547070(v=VS.90)
 ms:contentKeyID: 37836911
