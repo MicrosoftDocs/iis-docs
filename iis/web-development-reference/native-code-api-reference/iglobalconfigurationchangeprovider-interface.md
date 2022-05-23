@@ -1,5 +1,6 @@
 ---
 title: "IGlobalConfigurationChangeProvider Interface"
+description: IGlobalConfigurationChangeProvider Interface provides a global-level interface for GL_CONFIGURATION_CHANGE notifications.
 ms.date: "10/07/2016"
 ms.assetid: c919ff1f-d592-f8ec-f2a5-f644eb0f7e7a
 ---

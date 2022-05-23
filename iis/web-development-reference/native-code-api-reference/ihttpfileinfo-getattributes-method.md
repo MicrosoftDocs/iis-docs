@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetAttributes Method"
+description: IHttpFileInfo::GetAttributes Method retrieves the attributes of the corresponding file for an IHttpFileInfo interface.
 ms.date: "10/07/2016"
 ms.assetid: 4b602175-bf9b-19c7-dd9b-2313bbf30d5a
 ---
