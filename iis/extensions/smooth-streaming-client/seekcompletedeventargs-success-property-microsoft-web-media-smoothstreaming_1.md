@@ -1,5 +1,6 @@
 ---
 title: SeekCompletedEventArgs.Success Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SeekCompletedEventArgs.Success property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: Success Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.Success
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs.success(v=VS.95)
