@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty.CultureInfoMoniker Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfoMoniker Property
+description: "The ManifestProperty.CultureInfoMoniker property gets or sets a value that represents the culture language."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfoMoniker
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.cultureinfomoniker(v=VS.90)
 ms:contentKeyID: 35521031

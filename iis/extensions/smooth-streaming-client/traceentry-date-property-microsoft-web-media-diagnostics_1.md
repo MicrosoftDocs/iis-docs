@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.Date Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the TraceEntry.Date property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: Date Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Date
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.date(v=VS.95)

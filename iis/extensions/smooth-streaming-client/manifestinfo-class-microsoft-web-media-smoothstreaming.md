@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ManifestInfo class and provides the class' inheritance hierarchy, syntax, properties, methods, events, and version information.
 TOCTitle: ManifestInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo(v=VS.90)

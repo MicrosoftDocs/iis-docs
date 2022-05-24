@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::DisableBuffering Method"
+description: Learn how the DisableBuffering method disables response buffering for the current request.
 ms.date: "10/07/2016"
 ms.assetid: 20bd4ed1-77a9-edd0-dae9-0cc77a1876ec
 ---

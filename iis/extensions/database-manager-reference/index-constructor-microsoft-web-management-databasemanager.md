@@ -1,5 +1,6 @@
 ---
 title: Index Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index constructor and provides the constructor's namespace, assembly, syntax, and permissions.
 TOCTitle: Index Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Index.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.index(v=VS.90)

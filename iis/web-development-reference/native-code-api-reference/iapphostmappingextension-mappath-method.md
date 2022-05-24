@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMappingExtension::MapPath Method"
+description: "The IAppHostMappingExtensionMapPath method maps a site to a physical path, virtual directory, and application path by using the site name and virtual path."
 ms.date: "10/07/2016"
 ms.assetid: 6daf0cdd-531a-223a-e875-8fc145223a56
 ---

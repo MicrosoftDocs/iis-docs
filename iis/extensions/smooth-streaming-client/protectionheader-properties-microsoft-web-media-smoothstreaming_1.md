@@ -1,5 +1,6 @@
 ---
 title: ProtectionHeader Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the ProtectionHeader properties and lists the links for additional information.
 TOCTitle: ProtectionHeader Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader_properties(v=VS.95)

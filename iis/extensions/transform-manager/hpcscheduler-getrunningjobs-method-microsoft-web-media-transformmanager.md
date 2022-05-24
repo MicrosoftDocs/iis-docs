@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetRunningJobs Method
+description: "The HpcScheduler.GetRunningJobs method returns a list of job instance IDs based on the currently running jobs."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetRunningJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.getrunningjobs(v=VS.90)
 ms:contentKeyID: 35520599

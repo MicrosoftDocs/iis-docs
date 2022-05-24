@@ -1,6 +1,7 @@
 ---
 title: "IReferencedMetadataInfo::DereferenceMetadata Method"
-ms.date: "10/07/2016"
+description: "Describes the IReferencedMetadataInfo::DereferenceMetadata method and details its syntax, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 076fc1d6-8a46-4b82-970d-edb4de672efe
 ---
 # IReferencedMetadataInfo::DereferenceMetadata Method

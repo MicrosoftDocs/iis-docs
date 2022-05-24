@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element
+description: Describes the SmoothStreamingMedia element, details its attributes, child elements, and parent elements, and provides a code example.
 TOCTitle: <SmoothStreamingMedia>
 ms:assetid: 958229a6-94d5-4fd5-929b-163a7d1e76bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673438(v=VS.90)

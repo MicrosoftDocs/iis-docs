@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingErrorEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingErrorEventArgs Properties
+description: "List of members that the SmoothStreamingErrorEventArgs type exposes, including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs_properties(v=VS.90)
 ms:contentKeyID: 23961278

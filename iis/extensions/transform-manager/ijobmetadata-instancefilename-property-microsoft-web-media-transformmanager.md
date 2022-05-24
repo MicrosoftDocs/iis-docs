@@ -1,6 +1,7 @@
 ---
 title: IJobMetadata.InstanceFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileName Property
+description: Describes the IJobMetadata.InstanceFileName property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.InstanceFileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.instancefilename(v=VS.90)
 ms:contentKeyID: 35520765

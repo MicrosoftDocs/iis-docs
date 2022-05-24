@@ -1,6 +1,7 @@
 ---
-title: "IHttpRequest2::GetChannelBindingToken Method"
-ms.date: "10/07/2016"
+title: IHttpRequest2::GetChannelBindingToken Method
+description: Describes the IHttpRequest2::GetChannelBindingToken method and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 307775f3-dc62-49a7-8237-6a48966ee980
 ---
 # IHttpRequest2::GetChannelBindingToken Method

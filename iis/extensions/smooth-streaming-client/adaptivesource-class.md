@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSource Class
+description: Describes the AdaptiveSource class and provides the class' syntax, members, properties, events, and requirements.
 TOCTitle: AdaptiveSource Class
 ms:assetid: a9628170-8425-4e70-98f9-26f255731f5c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822807(v=VS.90)

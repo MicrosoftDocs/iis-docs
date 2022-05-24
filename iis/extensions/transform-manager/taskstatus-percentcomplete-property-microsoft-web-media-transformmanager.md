@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.PercentComplete Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: PercentComplete Property
+description: Describes the TaskStatus.PercentComplete property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.PercentComplete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.percentcomplete(v=VS.90)
 ms:contentKeyID: 35520698

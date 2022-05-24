@@ -1,6 +1,7 @@
 ---
 title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
+description: Describes the ProtectionHeader.SystemID property and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.90)
 ms:contentKeyID: 31469272

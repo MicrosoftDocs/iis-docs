@@ -1,5 +1,6 @@
 ---
 title: ILogger Properties (Microsoft.Web.Media.TransformManager)
+description: The ILogger type exposes the following members.
 TOCTitle: ILogger Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ILogger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger_properties(v=VS.90)

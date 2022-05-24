@@ -1,6 +1,7 @@
 ---
 title: StoredProcedureParameter.Tag Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Tag Property
+description: "The StoredProcedureParameter.Tag property returns a generic object that is stored in the StoredProcedureParameter class."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Tag
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.tag(v=VS.90)
 ms:contentKeyID: 22049506

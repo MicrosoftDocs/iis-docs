@@ -1,6 +1,7 @@
 ---
 title: Manifest.GetAttribute Method
 TOCTitle: GetAttribute Method
+description: "The Manifest.GetAttribute method gets the stream level attributes from the manifest. This article describes its syntax, return value, and requirements."
 ms:assetid: 94e846e7-90f8-489c-81f7-1b8a0190672a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822786(v=VS.90)
 ms:contentKeyID: 50079540

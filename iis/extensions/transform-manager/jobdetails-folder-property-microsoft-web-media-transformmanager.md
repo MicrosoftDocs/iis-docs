@@ -1,6 +1,7 @@
 ---
 title: JobDetails.Folder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Folder Property
+description: "The JobDetails.Folder property gets or sets the root folder of the JobManager object that is processing the job."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Folder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.folder(v=VS.90)
 ms:contentKeyID: 35520717

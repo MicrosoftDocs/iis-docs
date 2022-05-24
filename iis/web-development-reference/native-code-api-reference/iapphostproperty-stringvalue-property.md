@@ -1,6 +1,7 @@
 ---
 title: "IAppHostProperty::StringValue Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostProperty::StringValue property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d55d3060-e34a-21db-c73f-b5f45e1f2d8c
 ---
 # IAppHostProperty::StringValue Property

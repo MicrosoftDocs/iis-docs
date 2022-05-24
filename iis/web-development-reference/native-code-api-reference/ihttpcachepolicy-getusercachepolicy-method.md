@@ -1,6 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetUserCachePolicy Method"
-ms.date: "10/07/2016"
+title: IHttpCachePolicy::GetUserCachePolicy Method
+description: Describes the IHttpCachePolicy::GetUserCachePolicy method and details its syntax, return value, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8d007e1a-16e6-ab44-bb60-7ce16e56f806
 ---
 # IHttpCachePolicy::GetUserCachePolicy Method

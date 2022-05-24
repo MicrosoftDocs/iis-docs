@@ -1,5 +1,6 @@
 ---
 title: "SourceSettings Class"
+description: Details the syntax for the SourceSettings class and contains trace sources that initiate tracing messages.
 ms.date: "10/07/2016"
 ms.assetid: b0c54741-fbf8-4420-8e95-7d834aa7a218
 ---

@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information on syntax and exceptions for the LocalScheduler.GetRunningJobs method.
 TOCTitle: GetRunningJobs Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetRunningJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.getrunningjobs(v=VS.90)

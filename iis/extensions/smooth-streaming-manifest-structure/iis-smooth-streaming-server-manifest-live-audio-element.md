@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - audio Element
+description: Describes the IIS Smooth Streaming Server Manifest (Live) audio element and provides the element's attributes, elements, and remarks.
 TOCTitle: <audio>
 ms:assetid: 1fd6433b-5115-4716-88f2-773a98051021
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673430(v=VS.90)

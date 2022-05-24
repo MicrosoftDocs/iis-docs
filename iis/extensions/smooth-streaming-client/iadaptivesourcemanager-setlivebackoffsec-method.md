@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SetLiveBackoffSec Method
+description: "This article provides syntax, parameters, and return value for the SetLiveBackoffSec Method, which sets the seconds backed off from current live server time."
 TOCTitle: SetLiveBackoffSec Method
 ms:assetid: e2019ff5-6f08-4779-aab9-432076042660
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822853(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.DeleteFailedFiles Property (Microsoft.Web.Media.TransformManager)
+description: The DeleteFailedFiles Property gets or sets a value that indicates whether asset files for failed jobs should be deleted during the maintenance cycle.
 TOCTitle: DeleteFailedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFailedFiles
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.deletefailedfiles(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: JobManager.RunningJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RunningJobs Property
+description: "The JobManager.RunningJobs property gets a collection of job details that specify jobs that are running."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.RunningJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.runningjobs(v=VS.90)
 ms:contentKeyID: 35521164

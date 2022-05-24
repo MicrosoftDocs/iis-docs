@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext3::InheritServerVariable Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext3::InheritServerVariable method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 53aec6b2-0ca9-4bc9-96bb-fd2a13a066ae
 ---
 # IHttpContext3::InheritServerVariable Method

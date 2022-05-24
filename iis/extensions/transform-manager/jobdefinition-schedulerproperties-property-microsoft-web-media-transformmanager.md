@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.SchedulerProperties Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerProperties Property
+description: "The JobDefinition.SchedulerProperties property gets a list of additional scheduler properties. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerProperties
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulerproperties(v=VS.90)
 ms:contentKeyID: 35521073

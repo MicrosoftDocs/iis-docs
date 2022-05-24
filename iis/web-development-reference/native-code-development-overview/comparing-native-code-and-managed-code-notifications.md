@@ -1,6 +1,7 @@
 ---
-title: "Comparing Native-Code and Managed-Code Notifications"
-ms.date: "10/07/2016"
+title: Comparing Native-Code and Managed-Code Notifications
+description: Describes native-code and managed-code notifications and provides lists of event notification methods.
+ms.date: 10/07/2016
 ms.assetid: 7c240516-85f0-441a-8d2a-b8aebd6884a7
 ---
 # Comparing Native-Code and Managed-Code Notifications

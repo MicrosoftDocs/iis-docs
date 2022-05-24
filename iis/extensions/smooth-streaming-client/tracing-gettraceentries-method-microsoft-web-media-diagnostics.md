@@ -1,5 +1,6 @@
 ---
 title: Tracing.GetTraceEntries Method  (Microsoft.Web.Media.Diagnostics)
+description: This page describes the syntax for the GetTraceEntries method, a Boolean value that specifies whether to flush the current buffer of trace entries.
 TOCTitle: GetTraceEntries Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.GetTraceEntries(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.gettraceentries(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs.Track Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkDownloadedEventArgs.Track property and details its syntax, property value, and Silverlight information.
 TOCTitle: Track Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.track(v=VS.95)

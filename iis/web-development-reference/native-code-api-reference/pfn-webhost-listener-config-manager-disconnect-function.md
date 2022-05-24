@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT Function"
+description: Learn how the PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT function notifies the listener adapter that the Windows Process Activation Service (WAS) has disconnected.
 ms.date: "10/07/2016"
 ms.assetid: f0bb001d-e5fe-3e6c-b8b5-6df3baa70d28
 ---

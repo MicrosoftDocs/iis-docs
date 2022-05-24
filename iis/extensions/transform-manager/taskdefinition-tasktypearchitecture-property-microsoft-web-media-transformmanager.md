@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.TaskTypeArchitecture Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDefinition.TaskTypeArchitecture property and details its namespace, assembly, syntax, and property value.
 TOCTitle: TaskTypeArchitecture Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskTypeArchitecture
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.tasktypearchitecture(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobDetails.TaskCount Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information on syntax and property value for the JobDetails.TaskCount property.
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.TaskCount
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.taskcount(v=VS.90)

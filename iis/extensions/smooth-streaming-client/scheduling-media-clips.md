@@ -1,5 +1,6 @@
 ---
 title: Scheduling Media Clips
+description: Describes the process of scheduling media clips and outlines how to add clip information, how to schedule clips by events, and chaining clips together.
 TOCTitle: Scheduling Media Clips
 ms:assetid: d56b53f9-6cff-4145-a447-917e0bd55147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958036(v=VS.95)

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Stop Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stop Method
+description: "The SmoothStreamingMediaElement.Stop method stops playing by the SmoothStreamingMediaElement object."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stop
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stop(v=VS.90)
 ms:contentKeyID: 23961059

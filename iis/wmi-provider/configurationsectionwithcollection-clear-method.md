@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSectionWithCollection.Clear Method"
+description: "The ConfigurationSectionWithCollection.Clear method clears all elements from a collection in a configuration section."
 ms.date: "10/07/2016"
 ms.assetid: f37e0c33-fc7d-b3ce-32b4-e980b4ffff06
 ---

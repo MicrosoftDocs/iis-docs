@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.NotificationIncludeLogForFailedJob Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.NotificationIncludeLogForFailedJob property and details its syntax and property value.
 TOCTitle: NotificationIncludeLogForFailedJob Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationIncludeLogForFailedJob
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.notificationincludelogforfailedjob(v=VS.90)

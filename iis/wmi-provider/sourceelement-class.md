@@ -1,5 +1,6 @@
 ---
 title: "SourceElement Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SourceElement class.
 ms.date: "10/07/2016"
 ms.assetid: 096ddffe-341a-57e7-0b2a-29fdc0cff3ec
 ---

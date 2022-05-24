@@ -1,6 +1,7 @@
 ---
-title: "IAppHostChangeHandler Interface"
-ms.date: "10/07/2016"
+title: IAppHostChangeHandler Interface
+description: Describes the IAppHostChangeHandler interface and details its syntax, methods, remarks, inheritance hierachy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e5d96058-2b9b-381e-2bab-51514d730c0a
 ---
 # IAppHostChangeHandler Interface

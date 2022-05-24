@@ -1,6 +1,7 @@
 ---
-title: "ApplicationPool.Stop Method1"
-ms.date: "10/07/2016"
+title: ApplicationPool.Stop Method1
+description: Describes the ApplicationPool.Stop method and provides the method's syntax, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 993e71b6-ee93-10d4-8db1-36d6d78ebb02
 ---
 # ApplicationPool.Stop Method1

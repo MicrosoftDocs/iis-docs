@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED Function"
+description: "The PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED function notifies the listener adapter that the application pool configured to receive messages has been created."
 ms.date: "10/07/2016"
 ms.assetid: 21449350-c524-5a19-6847-698f4f353a38
 ---

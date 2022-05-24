@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementSchemaCollection::Count Property"
+description: IAppHostElementSchemaCollection::Count Property gets the number of IAppHostElementSchema Interface objects in the current collection.
 ms.date: "10/07/2016"
 ms.assetid: 6acd4d15-2d01-441d-ae2d-e2858b7a42f9
 ---

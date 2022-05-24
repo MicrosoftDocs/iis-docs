@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgressOffset Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article provides syntax, version information, and permissions for the DownloadProgressOffset Property, which returns a Boolean value that indicates whether the specified TraceLevel severity is enabled."
 TOCTitle: DownloadProgressOffset Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressOffset
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressoffset(v=VS.90)

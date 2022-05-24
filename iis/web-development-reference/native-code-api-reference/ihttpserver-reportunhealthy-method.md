@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::ReportUnhealthy Method"
+description: Learn how the ReportUnhealthy method reports the worker process as unhealthy.
 ms.date: "10/07/2016"
 ms.assetid: 08546d0e-7d6c-eb00-0cd8-2bcf460e7674
 ---

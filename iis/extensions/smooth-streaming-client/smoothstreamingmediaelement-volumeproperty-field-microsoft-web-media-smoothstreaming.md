@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VolumeProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the VolumeProperty field and provides the field's namespace, assembly, remarks, version information, and permissions.
 TOCTitle: VolumeProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VolumeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.volumeproperty(v=VS.90)

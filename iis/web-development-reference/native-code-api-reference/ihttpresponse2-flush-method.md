@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse2::Flush Method"
+description: Learn how the Flush method sends all currently buffered output of an asynchronous operation to the client.
 ms.date: "10/07/2016"
 ms.assetid: 238fa073-667c-41bd-9f25-68407b2b1f10
 ---
