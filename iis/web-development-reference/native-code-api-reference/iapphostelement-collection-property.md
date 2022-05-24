@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::Collection Property"
+description: "The IAppHostElementCollection property represents a collection of elements that belongs to a collection."
 ms.date: "10/07/2016"
 ms.assetid: 520835fe-cff6-7dbd-5154-a827a983b734
 ---

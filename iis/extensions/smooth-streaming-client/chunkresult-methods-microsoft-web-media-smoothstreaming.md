@@ -1,6 +1,7 @@
 ---
 title: ChunkResult Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkResult Methods
+description: "List of members exposed by the ChunkResult type, including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ChunkResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult_methods(v=VS.90)
 ms:contentKeyID: 31469306

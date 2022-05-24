@@ -1,6 +1,7 @@
 ---
 title: SchedulerInfo.SchedulerType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerType Property
+description: "The SchedulerInfo.SchedulerType property gets or sets the scheduler type. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.SchedulerType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulertype(v=VS.90)
 ms:contentKeyID: 35520705

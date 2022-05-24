@@ -1,6 +1,7 @@
 ---
 title: JobManager Events (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManager Events
+description: "The ShutdownComplete event is exposed by the JobManager type. It occurs when all transform jobs have been processed."
 ms:assetid: Events.T:Microsoft.Web.Media.TransformManager.JobManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager_events(v=VS.90)
 ms:contentKeyID: 36868661
