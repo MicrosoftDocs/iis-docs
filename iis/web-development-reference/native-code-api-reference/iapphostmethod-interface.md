@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethod Interface"
+description: Describes the IAppHostMethod interface and provides the syntax, methods, properties, inheritance hierarchy, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 86f78e95-288b-4fd5-979c-33a4a0e891e9
 ---
