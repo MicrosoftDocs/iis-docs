@@ -574,6 +574,11 @@
       "source_path": "iis/web-hosting/web-server-for-shared-hosting/index.md",
       "redirect_url": "/iis/web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/get-started/whats-new-in-iis-10-version-1809/index.md",
+      "redirect_url": "/iis/get-started/whats-new-in-iis-10-version-1809/new-features-introduced-in-iis-10-1809",
+      "redirect_document_id": false
     }
   ]
 }
