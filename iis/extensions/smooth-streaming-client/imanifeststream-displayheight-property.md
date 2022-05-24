@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.DisplayHeight Property
 TOCTitle: DisplayHeight Property
+description: The DisplayHeight Property gets the stream DisplayHeight field.
 ms:assetid: 0cbb2142-a95d-4c8d-8172-d34a7fe62875
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822677(v=VS.90)
 ms:contentKeyID: 50079432

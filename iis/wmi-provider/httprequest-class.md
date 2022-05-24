@@ -1,5 +1,6 @@
 ---
 title: "HttpRequest Class"
+description: Represents an HTTP request in a worker process. 
 ms.date: "10/07/2016"
 ms.assetid: ed8a3b96-f70d-da12-6181-5f7a4ad734fd
 ---

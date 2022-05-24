@@ -1,5 +1,6 @@
 ---
 title: "XhtmlConformanceSection Class"
+description: Specifies the XHTML rendering mode for applications.
 ms.date: "10/07/2016"
 ms.assetid: 05f20508-da93-46f6-3d93-a08cf6aa7b92
 ---

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgressProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadProgressProperty Field
+description: Represents a dependency property that specifies the DownloadProgress property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressproperty(v=VS.95)
 ms:contentKeyID: 46307555
