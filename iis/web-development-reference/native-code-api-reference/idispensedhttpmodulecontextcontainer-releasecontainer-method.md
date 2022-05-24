@@ -1,6 +1,7 @@
 ---
-title: "IDispensedHttpModuleContextContainer::ReleaseContainer Method"
-ms.date: "10/07/2016"
+title: IDispensedHttpModuleContextContainer::ReleaseContainer Method
+description: Describes the IDispensedHttpModuleContextContainer::ReleaseContainer method and provides the method's syntax, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: cb956ec2-9da1-8259-c487-872aae697d55
 ---
 # IDispensedHttpModuleContextContainer::ReleaseContainer Method

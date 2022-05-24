@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerInfo properties and provides a table that outlines the name and description for various property types.
 TOCTitle: SchedulerInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.SchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo_properties(v=VS.90)

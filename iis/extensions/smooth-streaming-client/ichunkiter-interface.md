@@ -1,5 +1,6 @@
 ---
 title: IChunkIter Interface
+description: Describes the IChunkIter interface and provides the interface's syntax, members, methods, and requirements.
 TOCTitle: IChunkIter Interface
 ms:assetid: bff052ca-5f58-4f2e-8c99-cdabbed9a130
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822824(v=VS.90)
