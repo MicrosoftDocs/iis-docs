@@ -1,6 +1,7 @@
 ---
 title: IPlaylistProvider::Initialize Method
 TOCTitle: IPlaylistProvider::Initialize Method
+description: Describes the IPlaylistProvider::Initialize method and provides syntax, return value, and requirements.
 ms:assetid: 21faac8a-b6eb-4fd9-a0cd-daf331119e05
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146259(v=VS.90)
 ms:contentKeyID: 19132330

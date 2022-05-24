@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.UpdateStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateStatus Method
+description: Describes the TaskStatus.UpdateStatus method and provides the namespace, assembly, syntax, and parameters.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.UpdateStatus(System.Int32,Microsoft.Web.Media.TransformManager.JobStatus,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.updatestatus(v=VS.90)
 ms:contentKeyID: 35521104

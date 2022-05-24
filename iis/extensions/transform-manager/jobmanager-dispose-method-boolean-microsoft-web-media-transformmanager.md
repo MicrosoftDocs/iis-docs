@@ -1,6 +1,7 @@
 ---
 title: JobManager.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method (Boolean)
+description: Describes the JobManager.Dispose method (boolean) and provides the field's namespace, assembly, syntax, and parameters.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManager.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.dispose(v=VS.90)
 ms:contentKeyID: 35520822

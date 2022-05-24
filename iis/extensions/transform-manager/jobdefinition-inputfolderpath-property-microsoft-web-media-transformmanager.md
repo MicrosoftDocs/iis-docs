@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.InputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolderPath Property
+description: Describes the JobDefinition.InputFolderPath property and provides the namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.inputfolderpath(v=VS.90)
 ms:contentKeyID: 35521079

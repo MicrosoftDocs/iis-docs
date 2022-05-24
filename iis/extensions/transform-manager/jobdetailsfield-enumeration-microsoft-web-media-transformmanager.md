@@ -1,6 +1,7 @@
 ---
 title: JobDetailsField Enumeration (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsField Enumeration
+description: Describes the JobDetailsField enumeration and provides syntax.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobDetailsField
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetailsfield(v=VS.90)
 ms:contentKeyID: 35521067
