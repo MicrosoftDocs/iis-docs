@@ -13,10 +13,10 @@ Represents a Web service extension upon which one or more Web applications depen
 class GroupDependency : CollectionElement  
 ```  
   
-## Methods  
+## Methods
  This class contains no methods.  
   
-## Properties  
+## Properties
  The following table lists the properties exposed by the `GroupDependency` class.  
   
 |Name|Description|  
