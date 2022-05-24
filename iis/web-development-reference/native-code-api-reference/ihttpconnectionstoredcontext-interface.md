@@ -1,6 +1,7 @@
 ---
 title: "IHttpConnectionStoredContext Interface"
 ms.date: "10/07/2016"
+description: IHttp Connection Stored Context Interface defines context information for connection-stored data which exposes the method Notify Disconnect.
 ms.assetid: f6a67d77-c255-4c59-9f05-a65552534dee
 ---
 # IHttpConnectionStoredContext Interface

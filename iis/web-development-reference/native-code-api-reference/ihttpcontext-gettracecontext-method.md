@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetTraceContext Method"
 ms.date: "10/07/2016"
+description: IHttp Context Get Trace Context Method retrieves the trace context container for the current context.
 ms.assetid: 49aa513f-da98-dd64-2aac-91abc2df844b
 ---
 # IHttpContext::GetTraceContext Method

@@ -1,6 +1,7 @@
 ---
 title: "IReadEntityProvider::SetEntity Method"
 ms.date: "10/07/2016"
+description: The Set Entity method replaces the preloaded HTTP request entity body with the entity body that is pointed to by the pBuffer parameter.
 ms.assetid: 894a9196-08e5-51a6-e804-6d2f6b4c28d3
 ---
 # IReadEntityProvider::SetEntity Method

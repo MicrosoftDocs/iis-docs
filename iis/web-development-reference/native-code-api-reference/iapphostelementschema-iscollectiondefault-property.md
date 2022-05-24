@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementSchema::IsCollectionDefault Property"
 ms.date: "10/07/2016"
+description: The IAppHost Element Schema is the Collection Default Property that gets a corresponding IApp Host Element Interface object.
 ms.assetid: ecc6b08c-2abe-49e8-a2d2-2327e6942644
 ---
 # IAppHostElementSchema::IsCollectionDefault Property

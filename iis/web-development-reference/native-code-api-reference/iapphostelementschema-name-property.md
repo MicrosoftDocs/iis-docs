@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementSchema::Name Property"
 ms.date: "10/07/2016"
+description: The IApp Host Element Schema Name Property gets the name of the current schema.
 ms.assetid: f45abe3b-7d52-0681-b895-35485f6c0c86
 ---
 # IAppHostElementSchema::Name Property

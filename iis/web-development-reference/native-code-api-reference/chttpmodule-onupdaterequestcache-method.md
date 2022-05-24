@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnUpdateRequestCache Method"
 ms.date: "10/07/2016"
+description: This represents the method that will handle an Update Request Cache event, which occurs when IIS stores the request in the cache.
 ms.assetid: 2e6abd31-8a3a-00a7-424f-f79b5d97c3d2
 ---
 # CHttpModule::OnUpdateRequestCache Method

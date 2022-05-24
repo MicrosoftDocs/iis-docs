@@ -1,6 +1,7 @@
 ---
 title: "IModuleAllocator Interface"
 ms.date: "10/07/2016"
+description: The IModule Allocator Interface allocates memory within the current request's memory pool.
 ms.assetid: 1e5ba946-ff20-85a7-8be2-117a3bcea494
 ---
 # IModuleAllocator Interface

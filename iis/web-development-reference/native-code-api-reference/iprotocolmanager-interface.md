@@ -1,6 +1,7 @@
 ---
 title: "IProtocolManager Interface"
 ms.date: "10/07/2016"
+description: This defines the base interface for protocol managers, and exposes methods for the worker process framework to interact with protocol managers.
 ms.assetid: ef6cac9a-055e-0b8b-7f7a-6548a6e6543b
 ---
 # IProtocolManager Interface

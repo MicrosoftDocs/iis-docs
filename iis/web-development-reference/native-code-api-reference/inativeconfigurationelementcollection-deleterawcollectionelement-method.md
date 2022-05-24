@@ -1,6 +1,7 @@
 ---
 title: INativeConfigurationElementCollection::DeleteRawCollectionElement Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::DeleteRawCollectionElement Method
+description: It deletes a configuration element from a collection of native configuration elements with an HRESULT.
 ms:assetid: 3c48bd7d-ebb1-46c6-8688-7b15c1d14d43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424816(v=VS.90)
 ms:contentKeyID: 23044163

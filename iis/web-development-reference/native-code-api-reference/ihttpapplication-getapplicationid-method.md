@@ -1,6 +1,7 @@
 ---
 title: "IHttpApplication::GetApplicationId Method"
 ms.date: "10/07/2016"
+description: The Get Application Id method returns the unique identity path for the application that is processing the current request.
 ms.assetid: 08081804-c3f1-7971-b5f9-fc4e5e967106
 ---
 # IHttpApplication::GetApplicationId Method
