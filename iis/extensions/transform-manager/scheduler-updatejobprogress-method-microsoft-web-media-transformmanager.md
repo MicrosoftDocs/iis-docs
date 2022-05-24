@@ -1,5 +1,6 @@
 ---
 title: Scheduler.UpdateJobProgress Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the Scheduler.UpdateJobProgress method, with links to reference materials.
 TOCTitle: UpdateJobProgress Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.UpdateJobProgress(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.updatejobprogress(v=VS.90)

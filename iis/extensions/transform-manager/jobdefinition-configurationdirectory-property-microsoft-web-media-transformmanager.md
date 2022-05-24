@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobDefinition.ConfigurationDirectory property.
 TOCTitle: ConfigurationDirectory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.configurationdirectory(v=VS.90)
