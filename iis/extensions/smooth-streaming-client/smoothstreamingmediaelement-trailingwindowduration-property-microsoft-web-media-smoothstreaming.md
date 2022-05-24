@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.TrailingWindowDuration Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the SmoothStreamingMediaElement.TrailingWindowDuration property.
 TOCTitle: TrailingWindowDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TrailingWindowDuration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.trailingwindowduration(v=VS.90)

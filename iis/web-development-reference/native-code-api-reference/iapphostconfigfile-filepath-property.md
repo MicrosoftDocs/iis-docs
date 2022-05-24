@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::FilePath Property"
+description: This article has information about syntax, return value, and requirements for the IAppHostConfigFile::FilePath property.
 ms.date: "10/07/2016"
 ms.assetid: 7c19ce49-4b71-5add-9ac5-545a6cad13fa
 ---

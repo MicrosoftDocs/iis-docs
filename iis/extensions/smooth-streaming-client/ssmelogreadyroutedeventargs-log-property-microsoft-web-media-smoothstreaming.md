@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs.Log Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article has syntax, permissions, and version information for the SSMELogReadyRoutedEventArgs.Log property.
 TOCTitle: Log Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.log(v=VS.90)

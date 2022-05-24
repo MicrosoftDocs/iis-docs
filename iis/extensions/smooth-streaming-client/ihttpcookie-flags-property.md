@@ -1,5 +1,6 @@
 ---
 title: IHttpCookie.Flags Property
+description: This article contains information about syntax, property value, and requirements for the IHttpCookie.Flags property.
 TOCTitle: Flags Property
 ms:assetid: 378ce4b0-837c-4c12-bca4-c22f71ee3fcd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822715(v=VS.90)
