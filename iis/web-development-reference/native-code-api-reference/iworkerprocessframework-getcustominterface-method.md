@@ -1,6 +1,6 @@
 ---
 title: "IWorkerProcessFramework::GetCustomInterface Method"
-description: IWorkerProcessFramework::GetCustomInterface Method retrieves a custom interface from the worker process framework
+description: IWorkerProcessFramework::GetCustomInterface Method retrieves a custom interface from the worker process framework.
 ms.date: "10/07/2016"
 ms.assetid: c39f9e81-7186-b497-3d95-e44fe963a694
 ---
