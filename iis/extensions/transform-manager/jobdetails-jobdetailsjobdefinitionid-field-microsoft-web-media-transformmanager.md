@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsJobDefinitionId Field (Microsoft.Web.Media.TransformManager)
+description: "The JobDetailsJobDefinitionId Field represents a constant that is used when transform jobs are sorted by the JobDefinitionId field. This article shows its syntax."
 TOCTitle: JobDetailsJobDefinitionId Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsJobDefinitionId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsjobdefinitionid(v=VS.90)

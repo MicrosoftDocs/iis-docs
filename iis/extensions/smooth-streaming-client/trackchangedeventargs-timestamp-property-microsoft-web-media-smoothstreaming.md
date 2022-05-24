@@ -1,5 +1,6 @@
 ---
 title: TrackChangedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
+description: "The TrackChangedEventArgs.Timestamp Property gets or sets the Timestamp property. This article shares syntax, property value, version information, and permissions."
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.timestamp(v=VS.90)

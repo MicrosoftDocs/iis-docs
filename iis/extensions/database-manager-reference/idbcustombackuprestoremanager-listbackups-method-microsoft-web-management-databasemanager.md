@@ -1,5 +1,5 @@
 ---
-title: IDbCustomBackupRestoreManager.ListBackups Method  (Microsoft.Web.Management.DatabaseManager)
+title: IDbCustomBackupRestoreManager.ListBackups Method (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ListBackups Method
 description: Retrieves a list of database backup names for a custom backup and restore module.
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager.ListBackups(System.String)

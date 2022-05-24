@@ -1,5 +1,6 @@
 ---
-title: TypeInfo Constructor  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo Constructor (Microsoft.Web.Management.DatabaseManager)
+description: "This article shares syntax and permissions of TypeInfo Constructor, which creates a new instance of the TypeInfo class."
 TOCTitle: TypeInfo Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.TypeInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.typeinfo(v=VS.90)

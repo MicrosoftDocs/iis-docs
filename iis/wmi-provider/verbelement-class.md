@@ -1,5 +1,6 @@
 ---
 title: "VerbElement Class"
+description: "The VerbElement Class represents an HTTP verb that is allowed or denied. This article details syntax, properties, remarks, inheritance hierarchy, and system requirements."
 ms.date: "10/07/2016"
 ms.assetid: ef70ae25-d13b-1f8c-4057-cb388586fdf1
 ---
