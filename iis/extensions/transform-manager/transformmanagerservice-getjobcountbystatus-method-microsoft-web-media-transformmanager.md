@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobCountByStatus Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TransformManagerService.GetJobCountByStatus method.
 TOCTitle: GetJobCountByStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobCountByStatus(Microsoft.Web.Media.TransformManager.JobStatus)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobcountbystatus(v=VS.90)

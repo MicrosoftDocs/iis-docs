@@ -1,5 +1,6 @@
 ---
 title: Logger.LogFile Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the Logger.LogFile property, with links to reference materials.
 TOCTitle: LogFile Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogFile
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.logfile(v=VS.90)

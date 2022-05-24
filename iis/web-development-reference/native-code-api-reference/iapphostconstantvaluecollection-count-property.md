@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConstantValueCollection::Count Property"
+description: This article contains information about syntax, return value, and requirements for the IAppHostConstantValueCollection::Count property.
 ms.date: "10/07/2016"
 ms.assetid: f6179238-e430-484f-9f2d-c55a8ef06375
 ---
