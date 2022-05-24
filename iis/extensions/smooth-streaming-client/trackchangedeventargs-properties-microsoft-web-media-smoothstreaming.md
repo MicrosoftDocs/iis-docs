@@ -1,5 +1,6 @@
 ---
 title: TrackChangedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackChangedEventArgs properties and provides a table that outlines the name and description for various property types.
 TOCTitle: TrackChangedEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs_properties(v=VS.90)

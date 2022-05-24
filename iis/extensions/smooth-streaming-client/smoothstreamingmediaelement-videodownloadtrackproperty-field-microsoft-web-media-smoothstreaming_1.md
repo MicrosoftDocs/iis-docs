@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoDownloadTrackProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.VideoDownloadTrackProperty field and provides the field's syntax and version information.
 TOCTitle: VideoDownloadTrackProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoDownloadTrackProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videodownloadtrackproperty(v=VS.95)

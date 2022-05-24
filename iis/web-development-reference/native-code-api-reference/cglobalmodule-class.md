@@ -1,6 +1,7 @@
 ---
-title: "CGlobalModule Class"
-ms.date: "10/07/2016"
+title: CGlobalModule Class
+description: Describes the CGlobalModule class and provides the class' syntax, methods, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: fbe43040-c8ab-f991-c09c-49362d321c67
 ---
 # CGlobalModule Class

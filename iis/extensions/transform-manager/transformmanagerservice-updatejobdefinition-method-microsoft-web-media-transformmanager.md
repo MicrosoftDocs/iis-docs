@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.UpdateJobDefinition Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the UpdateJobDefinition method and provides the method's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: UpdateJobDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobDefinition(Microsoft.Web.Media.TransformManager.JobDefinition)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.updatejobdefinition(v=VS.90)
