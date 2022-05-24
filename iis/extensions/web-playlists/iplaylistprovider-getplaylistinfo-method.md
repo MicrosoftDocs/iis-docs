@@ -1,7 +1,7 @@
 ---
 title: IPlaylistProvider::GetPlaylistInfo Method
 TOCTitle: IPlaylistProvider::GetPlaylistInfo Method
-description: IPlaylistProvider::GetPlaylistInfo method and provides the syntax, arguments, return value, and requirements.
+description: Describes the IPlaylistProvider::GetPlaylistInfo method and provides the syntax, arguments, return value, and requirements.
 ms:assetid: d702aa1e-2df9-489c-903f-f678982bdd53
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146292(v=VS.90)
 ms:contentKeyID: 19132363
