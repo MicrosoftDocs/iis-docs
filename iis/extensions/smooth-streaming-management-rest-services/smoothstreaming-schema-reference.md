@@ -1,5 +1,6 @@
 ---
 title: SmoothStreaming Schema Reference
+description: Provides reference for the the SmoothStreaming schema and provides a list of elements related to the schema.
 TOCTitle: SmoothStreaming Schema Reference
 ms:assetid: 6df06a17-bef6-4a2b-b406-a5d3d39f9feb
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547046(v=VS.90)

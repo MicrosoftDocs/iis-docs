@@ -1,5 +1,6 @@
 ---
 title: "IHttpStoredContext Interface"
+description: Describes the syntax, methods, classes, and requirements for the IHttpStoredContext interface.
 ms.date: "10/07/2016"
 ms.assetid: 55e0ddf6-4df3-87c2-ad25-2aa1b903aa76
 ---

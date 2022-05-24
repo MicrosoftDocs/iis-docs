@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsPriority Field (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the JobDetails.JobDetailsPriority field. There are also links to reference materials.
 TOCTitle: JobDetailsPriority Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsPriority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailspriority(v=VS.90)

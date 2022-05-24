@@ -1,5 +1,6 @@
 ---
 title: JobManifest.LoadManifest Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the LoadManifest method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: LoadManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.LoadManifest(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.loadmanifest(v=VS.90)

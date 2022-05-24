@@ -1,6 +1,7 @@
 ---
 title: IndexColumn Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexColumn Constructor
+description: "The IndexColumn constructor creates a new instance of the IndexColumn class. This article describes its syntax and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IndexColumn.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn.indexcolumn(v=VS.90)
 ms:contentKeyID: 20476425

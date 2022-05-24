@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.SetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax and parameters for the LocalScheduler.SetTaskChildProcessId method.
 TOCTitle: SetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskChildProcessId(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.settaskchildprocessid(v=VS.90)

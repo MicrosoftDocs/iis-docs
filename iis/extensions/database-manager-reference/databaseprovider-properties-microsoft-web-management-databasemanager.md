@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider Properties (Microsoft.Web.Management.DatabaseManager)
+description: Describes the DatabaseProvider properties and provides a table that outlines the name and description of the property type.
 TOCTitle: DatabaseProvider Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.DatabaseProvider
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider_properties(v=VS.90)

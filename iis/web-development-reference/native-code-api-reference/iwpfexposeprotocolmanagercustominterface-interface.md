@@ -1,6 +1,7 @@
 ---
-title: "IWpfExposeProtocolManagerCustomInterface Interface"
-ms.date: "10/07/2016"
+title: IWpfExposeProtocolManagerCustomInterface Interface
+description: Describes the IWpfExposeProtocolManagerCustomInterface interface and details its syntax, methods, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 9e69a763-bb41-3d69-c3de-d8d4498acae6
 ---
 # IWpfExposeProtocolManagerCustomInterface Interface

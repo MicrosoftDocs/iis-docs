@@ -1,5 +1,6 @@
 ---
 title: JobTemplate.JobTemplateElement Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobTemplateElement property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: JobTemplateElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.JobTemplateElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.jobtemplateelement(v=VS.90)

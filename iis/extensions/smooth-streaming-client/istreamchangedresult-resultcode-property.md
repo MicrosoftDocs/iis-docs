@@ -1,5 +1,6 @@
 ---
 title: IStreamChangedResult.ResultCode Property
+description: Describes the IStreamChangedResult.ResultCode property and provides syntax, property value, and requirements.
 TOCTitle: ResultCode Property
 ms:assetid: 20b47891-f695-4405-abe0-dffc20f6fd8b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822700(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: WorkQueue.SubmittedJobs Property (Microsoft.Web.Media.TransformManager)
+description: Describes the WorkQueue.SubmittedJobs property and details its namespace, assembly, syntax, and property value.
 TOCTitle: SubmittedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.SubmittedJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.submittedjobs(v=VS.90)

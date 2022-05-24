@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.Smil20 Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the Smil20 property gets the URI of an XML based Synchronized Multimedia Integration Language (SMIL) namespace.
 TOCTitle: Smil20 Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil20
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.smil20(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SeekCompletedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the SeekCompletedEventArgs methods, with links to reference materials.
 TOCTitle: SeekCompletedEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs_methods(v=VS.90)

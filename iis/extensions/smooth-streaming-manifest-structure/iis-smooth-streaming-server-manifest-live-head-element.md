@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - head Element
+description: Learn how the IIS Smooth Streaming Server Manifest (Live) head element is a container for presentation-level metadata.
 TOCTitle: <head>
 ms:assetid: 6b210ab2-6f70-4c9d-bfa5-c4d413cc71b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673434(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobTemplate.FileName Property (Microsoft.Web.Media.TransformManager)
+description: Describes the FileName property and provides the property's namespace, assembly, syntax, property value, and additional references.
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.filename(v=VS.90)

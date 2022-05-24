@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetFileInfo Method"
+description: Learn how the IHttpContext::GetFileInfo method retrieves the file information container for the current context.
 ms.date: "10/07/2016"
 ms.assetid: a3f4a0d8-8524-95a1-d8f0-22852f72736d
 ---

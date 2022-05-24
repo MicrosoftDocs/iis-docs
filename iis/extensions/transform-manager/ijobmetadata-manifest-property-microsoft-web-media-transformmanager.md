@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata.Manifest Property (Microsoft.Web.Media.TransformManager)
+description: "This article shows the syntax of the Manifest Property, which gets the full job manifest from the synchronized multimedia interface language (SMIL) manifest."
 TOCTitle: Manifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.Manifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.manifest(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "NameTypeElement Class"
+description: This article describes the syntax, properties, inheritance, and requirements for the NameTypeElement class.
 ms.date: "10/07/2016"
 ms.assetid: ee410798-43e4-96dc-a07c-a823804e7822
 ---

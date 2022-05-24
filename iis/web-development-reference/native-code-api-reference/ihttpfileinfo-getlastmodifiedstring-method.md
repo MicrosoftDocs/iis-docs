@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetLastModifiedString Method"
+description: Learn how the IHttpFileInfo::GetLastModifiedString method retrieves the last modified string of the corresponding file for an IHttpFileInfo interface.
 ms.date: "10/07/2016"
 ms.assetid: 935948f5-f9cc-9cdf-10f9-46b5dcc86ea9
 ---

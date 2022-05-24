@@ -1,5 +1,6 @@
 ---
 title: "ICustomNotificationProvider Interface"
+description: Describes the ICustomNotificationProvider interface and provides the interface's syntax, methods, remarks, inheritance hierarchy, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: c5128143-054d-e2a2-f839-2a1231e1f31e
 ---

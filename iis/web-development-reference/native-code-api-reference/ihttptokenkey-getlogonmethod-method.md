@@ -1,5 +1,6 @@
 ---
 title: "IHttpTokenKey::GetLogonMethod Method"
+description: Learn how the GetLogonMethod method returns the LOGON32_* value used when the user logs on.
 ms.date: "10/07/2016"
 ms.assetid: 6afc12d7-fcec-58f8-7c75-ebd2be61eede
 ---

@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.IdElement Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationBase.IdElement property and provides the property's syntax, property value, and remarks.
 TOCTitle: IdElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.IdElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.idelement(v=VS.90)

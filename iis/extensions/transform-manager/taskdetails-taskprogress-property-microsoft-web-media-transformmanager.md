@@ -1,5 +1,6 @@
 ---
 title: TaskDetails.TaskProgress Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDetails.TaskProgress property and details its namespace, assembly, syntax, and property value. 
 TOCTitle: TaskProgress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails.taskprogress(v=VS.90)

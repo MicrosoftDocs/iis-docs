@@ -1,6 +1,7 @@
 ---
 title: TrackInfo.Index Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Index Property
+description: Describes the TrackInfo.Index Property field and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.index(v=VS.95)
 ms:contentKeyID: 46307895

@@ -1,6 +1,7 @@
 ---
 title: Tracing.UpdateIsolatedStorageAvailableFreeSpace Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: UpdateIsolatedStorageAvailableFreeSpace Method
+description: Updates the free space available for trace operations.
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.UpdateIsolatedStorageAvailableFreeSpace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.updateisolatedstorageavailablefreespace(v=VS.90)
 ms:contentKeyID: 23961225

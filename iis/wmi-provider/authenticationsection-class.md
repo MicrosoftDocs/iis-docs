@@ -1,5 +1,6 @@
 ---
 title: "AuthenticationSection Class1"
+description: Describes the AuthenticationSection class and provides lists of its methods, properties, and remarks, followed by syntax and requirements.
 ms.date: "10/07/2016"
 ms.assetid: e8860ac3-d303-c19e-a3df-f1b1456f42ba
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Designing Native-Code HTTP Modules"
+description: "This article describes the requirements for Native-Code HTTP modules and information about creating both request-level and global-level modules."
 ms.date: "10/07/2016"
 ms.assetid: 7af6e299-ae44-4d9b-911f-0d29f19daf2a
 ---

@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).FindLastIndex Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FindLastIndex Method
+description: Describes the overload list for the CircularList(T).FindLastIndex method.
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.FindLastIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728255(v=VS.95)
 ms:contentKeyID: 46500554

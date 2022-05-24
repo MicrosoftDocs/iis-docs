@@ -1,5 +1,6 @@
 ---
 title: "Worker Process and Protocol Manager Enumerations"
+description: Worker Process and Protocol Manager Enumerations describes the enumerations that are used by the interfaces and methods in the worker process framework. These enumerations are defined in the Wpframework.h header file.
 ms.date: "10/07/2016"
 ms.assetid: 2b076ecb-77cb-4c76-b96b-500d6e1d6a10
 ---

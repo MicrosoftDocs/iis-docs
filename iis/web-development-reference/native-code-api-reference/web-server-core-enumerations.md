@@ -1,5 +1,6 @@
 ---
 title: "Web Server Core Enumerations"
+description: Describes the Web Server Core enumerations and provides a list of enumerations with corresponding links to documentation.
 ms.date: "10/07/2016"
 ms.assetid: 6ea0ab85-153f-4c51-9d2e-4c963b38210a
 ---

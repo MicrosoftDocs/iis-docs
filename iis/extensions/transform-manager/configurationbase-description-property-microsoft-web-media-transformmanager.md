@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.Description Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Description property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: Description Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Description
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.description(v=VS.90)

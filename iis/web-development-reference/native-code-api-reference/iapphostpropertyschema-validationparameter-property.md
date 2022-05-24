@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::ValidationParameter Property"
+description: This article has information about syntax, return value, and requirements for the IAppHostPropertySchema::ValidationParameter property.
 ms.date: "10/07/2016"
 ms.assetid: 44cfa36d-c54d-3c23-6ca6-7509e9dfc8f4
 ---

@@ -1,5 +1,6 @@
 ---
 title: ChunkResult.Error Property (Microsoft.Web.Media.SmoothStreaming)
+description: Error Property contains error information if an error occurs.
 TOCTitle: Error Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Error
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.error(v=VS.90)

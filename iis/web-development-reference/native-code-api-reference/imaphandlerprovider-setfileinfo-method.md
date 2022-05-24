@@ -1,5 +1,6 @@
 ---
 title: "IMapHandlerProvider::SetFileInfo Method"
+description: The SetFileInfo method is not supported.
 ms.date: "10/07/2016"
 ms.assetid: f50a94f0-33d7-95de-65a9-345f0ab6e4e0
 ---

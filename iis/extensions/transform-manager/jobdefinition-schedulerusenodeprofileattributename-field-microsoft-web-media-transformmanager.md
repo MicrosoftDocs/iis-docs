@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerUseNodeProfileAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: The SchedulerUseNodeProfileAttributeName Field represents a constant used when the scheduler useNodeProfile attribute is assigned to a job definition.
 TOCTitle: SchedulerUseNodeProfileAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerUseNodeProfileAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulerusenodeprofileattributename(v=VS.90)

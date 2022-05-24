@@ -1,6 +1,7 @@
 ---
 title: JobScheduler.LocalSchedulerFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalSchedulerFolder Property
+description: "The JobScheduler.LocalSchedulerFolder property gets the local scheduler folder name. This article describes its syntax, property value, and remarks."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.localschedulerfolder(v=VS.90)
 ms:contentKeyID: 35520576

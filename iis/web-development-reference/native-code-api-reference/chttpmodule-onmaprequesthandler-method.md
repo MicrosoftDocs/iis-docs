@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnMapRequestHandler Method"
+description: Describes the CHttpModule::OnMapRequestHandler method and provides its syntax, parameters, return value, remarks, a code example, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 9ed609a7-6575-a032-83dc-07a1565313c0
 ---

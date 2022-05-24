@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.SharedData Property (Microsoft.Web.Media.TransformManager)
+description: Describes the IisNamespaces.SharedData property and details its namespace, assembly, syntax, and property value.
 TOCTitle: SharedData Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.SharedData
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.shareddata(v=VS.90)

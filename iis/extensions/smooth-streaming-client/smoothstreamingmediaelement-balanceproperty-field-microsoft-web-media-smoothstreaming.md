@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.BalanceProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.BalanceProperty field and details its syntax, Silverlight information, and permissions.
 TOCTitle: BalanceProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BalanceProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balanceproperty(v=VS.90)

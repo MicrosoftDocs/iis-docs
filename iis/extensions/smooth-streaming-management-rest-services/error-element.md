@@ -1,5 +1,6 @@
 ---
 title: Error Element
+description: Provides a description of the error element and details the element's child elements and parent elements.
 TOCTitle: Error Element
 ms:assetid: a3721020-e2bd-4eba-a005-813d2452b95d
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547054(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinition::AllowDefinition Property"
+description: Describes the IAppHostSectionDefinition::AllowDefinition property and provides its syntax, parameters, return value, requirements, and a code example.
 ms.date: "10/07/2016"
 ms.assetid: 1b17e521-76e4-4b7b-c891-b771a83ccd6c
 ---

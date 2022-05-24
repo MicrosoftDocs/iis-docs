@@ -1,6 +1,7 @@
 ---
 title: "IAppHostSectionGroup::Sections Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostSectionGroup::Sections property and details its syntax, parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 498a3d40-6c65-5d00-67d1-32ed3689d4bc
 ---
 # IAppHostSectionGroup::Sections Property

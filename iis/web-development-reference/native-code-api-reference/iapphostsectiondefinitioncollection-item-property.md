@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection::Item Property"
+description: IAppHostSectionDefinitionCollection::Item Property Gets the configuration section definition at the requested index from the current collection.
 ms.date: "10/07/2016"
 ms.assetid: d472d5bd-168a-b3d4-f4e8-7a68bf4b1086
 ---

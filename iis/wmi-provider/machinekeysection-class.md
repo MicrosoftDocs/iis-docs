@@ -1,6 +1,7 @@
 ---
-title: "MachineKeySection Class"
-ms.date: "10/07/2016"
+title: MachineKeySection Class
+description: Describes the MachineKeySection class and provides the class' syntax, methods, properties, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 6811603d-8bc9-590e-9bd3-4356b1d5190b
 ---
 # MachineKeySection Class

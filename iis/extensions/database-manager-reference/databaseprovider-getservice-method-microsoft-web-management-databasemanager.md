@@ -1,5 +1,6 @@
 ---
-title: DatabaseProvider.GetService Method  (Microsoft.Web.Management.DatabaseManager)
+title: DatabaseProvider.GetService Method (Microsoft.Web.Management.DatabaseManager)
+description: "This article provides syntax, parameters, return value, implements, remarks, permissions, and references for the DatabaseProvider.GetService Method, which returns the service object for a database provider."
 TOCTitle: GetService Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetService(System.Type)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.getservice(v=VS.90)

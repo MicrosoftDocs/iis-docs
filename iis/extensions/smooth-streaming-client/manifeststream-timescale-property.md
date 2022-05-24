@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.TimeScale Property
+description: Describes the ManifestStream.TimeScale property and provides the property's syntax, property value, and requirements.
 TOCTitle: TimeScale Property
 ms:assetid: e6b219af-b960-4422-881e-c71eacf3fa84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822858(v=VS.90)

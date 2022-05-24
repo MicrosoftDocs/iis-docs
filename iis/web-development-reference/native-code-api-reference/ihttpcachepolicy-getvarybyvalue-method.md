@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::GetVaryByValue Method"
+description: IHttpCachePolicy::GetVaryByValue Method returns the variable value for the cache policy.
 ms.date: "10/07/2016"
 ms.assetid: b97e5c3f-fc26-a90e-3115-e499693333e1
 ---

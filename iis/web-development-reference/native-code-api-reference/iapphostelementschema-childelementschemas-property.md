@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementSchema::ChildElementSchemas Property"
+description: Learn how the IAppHostElementSchema::ChildElementSchemas property gets the schema used for child elements that are contained in the corresponding IAppHostElement Interface object. 
 ms.date: "10/07/2016"
 ms.assetid: 5682845e-c5c1-4bf8-aaed-54c17c940214
 ---

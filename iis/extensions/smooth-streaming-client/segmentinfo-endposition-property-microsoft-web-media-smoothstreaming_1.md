@@ -1,6 +1,7 @@
 ---
 title: SegmentInfo.EndPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndPosition Property
+description: Gets the minimum of the end time for the last audio chunk and last video chunk.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.endposition(v=VS.95)
 ms:contentKeyID: 46307796

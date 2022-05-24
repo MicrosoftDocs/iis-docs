@@ -1,5 +1,6 @@
 ---
 title: IManagementService.StartJobManager Method  (Microsoft.Web.Media.TransformManager)
+description: StartJobManager Method enables jobs to be processed using a JobManager object.
 TOCTitle: StartJobManager Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.StartJobManager(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.startjobmanager(v=VS.90)

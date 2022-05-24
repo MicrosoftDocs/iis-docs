@@ -1,6 +1,7 @@
 ---
 title: ILogger.LogFile Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFile Property
+description: "The ILogger.LogFile property gets the StreamWriter object for the logger. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ILogger.LogFile
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.logfile(v=VS.90)
 ms:contentKeyID: 35521081

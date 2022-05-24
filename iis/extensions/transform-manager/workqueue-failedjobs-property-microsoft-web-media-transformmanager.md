@@ -1,6 +1,7 @@
 ---
 title: WorkQueue.FailedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FailedJobs Property
+description: "The WorkQueue.FailedJobs property gets a collection of job details that specify jobs that have failed."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FailedJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.failedjobs(v=VS.90)
 ms:contentKeyID: 35520880

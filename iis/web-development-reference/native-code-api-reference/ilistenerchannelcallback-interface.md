@@ -1,6 +1,7 @@
 ---
-title: "IListenerChannelCallback Interface"
-ms.date: "10/07/2016"
+title: IListenerChannelCallback Interface
+description: Describes the IListenerChannelCallback interface and details its syntax, methods, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a44e1556-723f-91a8-46e5-5553b676d201
 ---
 # IListenerChannelCallback Interface

@@ -1,5 +1,6 @@
 ---
 title: "AuthenticationModuleElement Class"
+description: Learn how the AuthenticationModuleElement class represents the type information for an authentication module.
 ms.date: "10/07/2016"
 ms.assetid: 56865273-994b-3555-f65b-ce89ac36a5ec
 ---

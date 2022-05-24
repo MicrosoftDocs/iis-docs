@@ -1,5 +1,6 @@
 ---
 title: "IFtpProviderConstruct::Construct Method"
+description: "The IFtpProviderConstruct::Construct method retrieves an array of key/value pairs from an FTP provider's configuration settings in the IIS ApplicationHost.config file."
 ms.date: "09/06/2017"
 ms.assetid: 897bde2f-6b40-46eb-b290-d0f92e454f09
 ms.author: "robmcm"

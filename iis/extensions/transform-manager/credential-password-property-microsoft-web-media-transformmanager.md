@@ -1,5 +1,6 @@
 ---
 title: Credential.Password Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Credential.Password property and details its namespace, assembly, syntax, and property value.
 TOCTitle: Password Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Password
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.password(v=VS.90)

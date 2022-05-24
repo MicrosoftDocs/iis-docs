@@ -1,5 +1,6 @@
 ---
 title: "FTP Native-Code Extensibility API Reference"
+description: Learn about the native-code APIs that developers use to extend the functionality of the FTP 7.5 service for IIS 7.5. 
 ms.date: "09/20/2017"
 ms.assetid: 50b67888-09fc-4aab-bf51-86b2365461ba
 ms.author: "robmcm"

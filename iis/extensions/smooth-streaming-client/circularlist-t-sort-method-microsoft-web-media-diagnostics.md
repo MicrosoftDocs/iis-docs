@@ -1,5 +1,6 @@
 ---
-title: CircularList(T).Sort Method  (Microsoft.Web.Media.Diagnostics)
+title: CircularList(T).Sort Method (Microsoft.Web.Media.Diagnostics)
+description: "This article provides an overload list for CircularList(T).Sort Method, sorting overloads by method type, name, and description."
 TOCTitle: Sort Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.Sort
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728197(v=VS.90)

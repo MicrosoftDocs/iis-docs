@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.HardwareProfile Property
+description: The IManifestTrack Interface.HardwareProfile Property gets the HardwareProfile field.
 TOCTitle: HardwareProfile Property
 ms:assetid: 5d83abca-f06a-48af-900d-db0493791e33
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822744(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "HttpCompressionSchemeElement Class"
+description: Details the syntax for the HttpCompressionSchemeElement class and configures a compression scheme for dynamic or static content.
 ms.date: "10/07/2016"
 ms.assetid: ac61f270-669f-7a6f-08fe-88a293426d7a
 ---

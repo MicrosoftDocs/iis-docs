@@ -1,6 +1,7 @@
 ---
 title: Tracing.FormatTraceOutput Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: FormatTraceOutput Method
+description: Describes the Tracing.FormatTraceOutput method and provides the namespace, assembly, syntax, and version information.
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.FormatTraceOutput(Microsoft.Web.Media.Diagnostics.TraceEntry)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.formattraceoutput(v=VS.90)
 ms:contentKeyID: 23961101

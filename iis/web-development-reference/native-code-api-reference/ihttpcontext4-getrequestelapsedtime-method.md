@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext4::GetRequestElapsedTime Method"
+description: Learn how the IHttpContext4::GetRequestElapsedTime method retrieves the elapsed time of the request in milliseconds.
 ms.date: "10/07/2016"
 ms.assetid: 8020886b-c917-44b1-9cfc-c03973b3fca1
 ms.author: "robmcm"

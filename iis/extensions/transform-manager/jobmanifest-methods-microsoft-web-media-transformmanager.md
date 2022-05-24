@@ -1,5 +1,6 @@
 ---
 title: JobManifest Methods (Microsoft.Web.Media.TransformManager)
+description: This article outlines members exposed by the JobManifest methods. There are also links to reference materials.
 TOCTitle: JobManifest Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest_methods(v=VS.90)

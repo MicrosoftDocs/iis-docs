@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.AudioStreamIndex Property (Microsoft.Web.Media.SmoothStreaming)
+description: The SmoothStreamingMediaElement.AudioStreamIndex Property gets or sets the audio stream index for Windows Media Video (.wmv) content.
 TOCTitle: AudioStreamIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamindex(v=VS.95)

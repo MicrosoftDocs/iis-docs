@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceHistoryMaxLines Field (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.TraceHistoryMaxLines field and details its syntax, Silverlight information, and permissions.
 TOCTitle: TraceHistoryMaxLines Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracehistorymaxlines(v=VS.90)

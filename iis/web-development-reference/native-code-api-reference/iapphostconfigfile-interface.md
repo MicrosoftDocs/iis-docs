@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile Interface"
+description: This article has information about syntax, methods, properties, inheritance hierarchy, and requirements for the IAppHostConfigFile interface.
 ms.date: "10/07/2016"
 ms.assetid: 4b03fb70-e66d-226a-1bfe-5a5cd863e439
 ---

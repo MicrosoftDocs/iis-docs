@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::GetMetadata Method"
+description: Learn how the IAppHostConfigFile::GetMetadata method gets metadata from the IIS 7 configuration system.
 ms.date: "10/07/2016"
 ms.assetid: 7bc68fac-0728-3141-904e-f0c5f833bf3c
 ---

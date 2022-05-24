@@ -1,6 +1,7 @@
 ---
 title: TaskDefinition.Properties Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Properties Property
+description: Describes the TaskDefinition.Properties property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.Properties
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.properties(v=VS.90)
 ms:contentKeyID: 35521144

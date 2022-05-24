@@ -1,5 +1,6 @@
 ---
 title: JobManifest.InstanceFileIsManifest Property (Microsoft.Web.Media.TransformManager)
+description: "This article shows the syntax of the InstanceFileIsManifest Property, which gets a value that indicates whether the file that initiates job creation is a SMIL 2.0-compliant manifest."
 TOCTitle: InstanceFileIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InstanceFileIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.instancefileismanifest(v=VS.90)

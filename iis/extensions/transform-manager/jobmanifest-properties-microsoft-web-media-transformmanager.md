@@ -1,6 +1,7 @@
 ---
 title: JobManifest Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Properties
+description: "A list of members exposed by the JobManifest type, including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest_properties(v=VS.90)
 ms:contentKeyID: 35520972

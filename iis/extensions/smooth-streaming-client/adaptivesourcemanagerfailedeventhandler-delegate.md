@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManagerFailedEventHandler Delegate
+description: Learn how the AdaptiveSourceManagerFailedEventHandler delegate is the actual handler for the adaptive source manager failed event handler.
 TOCTitle: AdaptiveSourceManagerFailedEventHandler Delegate
 ms:assetid: 16ef48ff-cdfc-445d-8f84-cdc52cc5f575
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822683(v=VS.90)

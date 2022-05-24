@@ -1,5 +1,6 @@
 ---
 title: JobManager Properties (Microsoft.Web.Media.TransformManager)
+description: "This article lists properties exposed by the JobManager type."
 TOCTitle: JobManager Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager_properties(v=VS.90)

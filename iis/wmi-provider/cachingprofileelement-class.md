@@ -1,5 +1,6 @@
 ---
 title: "CachingProfileElement Class"
+description: "This article lists syntax, properties, remarks, a code example, inheritance hierarchy, and system requirements for the CachingProfileElement Class."
 ms.date: "10/07/2016"
 ms.assetid: 5152947a-4fcf-afcc-70a5-b370b0bf7301
 ---

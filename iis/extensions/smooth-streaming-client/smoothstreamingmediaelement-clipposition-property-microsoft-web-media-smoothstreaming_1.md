@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: The ClipPosition Property gets or sets the position in a clip stream. This article details syntax, property value, and version information.
 TOCTitle: ClipPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipposition(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsMuted Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.IsMuted property.
 TOCTitle: IsMuted Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsMuted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.ismuted(v=VS.90)

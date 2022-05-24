@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.LogRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the LogRetentionPeriodMinutes property gets or sets the number of minutes that the log that is associated with a job is retained before being deleted during maintenance.
 TOCTitle: LogRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodMinutes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperiodminutes(v=VS.90)

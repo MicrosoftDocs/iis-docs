@@ -1,5 +1,6 @@
 ---
 title: Custom Task Registration (IIS Transform Manager)
+description: Describes the custom task registration process by creating a task definition XML file with provided instructions.
 TOCTitle: Custom Task Registration (IIS Transform Manager)
 ms:assetid: 4b3135a5-d21f-4210-9801-acedcaad7faa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728120(v=VS.90)

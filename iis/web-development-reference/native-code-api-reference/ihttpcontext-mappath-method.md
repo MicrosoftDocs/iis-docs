@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::MapPath Method"
+description: Describes the IHttpContext::MapPath method and provides its syntax, parameters, return value, remarks, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: e4f19ece-2ef0-7e2f-b4b0-24f406979753
 ---

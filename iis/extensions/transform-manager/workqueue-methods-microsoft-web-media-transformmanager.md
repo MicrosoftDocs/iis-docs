@@ -1,5 +1,6 @@
 ---
 title: WorkQueue Methods (Microsoft.Web.Media.TransformManager)
+description: Learn about the WorkQueue methods and how the WorkQueue type exposes the members described in this article. 
 TOCTitle: WorkQueue Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.WorkQueue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue_methods(v=VS.90)

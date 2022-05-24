@@ -1,5 +1,6 @@
 ---
 title: ProtectionInfo Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the  ProtectionInfo methods and links to additional information for each method.
 TOCTitle: ProtectionInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo_methods(v=VS.95)

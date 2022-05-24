@@ -1,6 +1,7 @@
 ---
 title: JobDefinition Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Methods
+description: This article provides the JobDefinition method types, names, and descriptions. 
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition_methods(v=VS.90)
 ms:contentKeyID: 35521051

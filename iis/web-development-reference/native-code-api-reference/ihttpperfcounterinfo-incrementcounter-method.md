@@ -1,5 +1,6 @@
 ---
 title: "IHttpPerfCounterInfo::IncrementCounter Method"
+description: Learn how the IHttpPerfCounterInfo::IncrementCounter method increments a performance counter by a specified amount.
 ms.date: "10/07/2016"
 ms.assetid: 38f4fbb2-7ae1-0028-4c19-53abe9d9ead2
 ---

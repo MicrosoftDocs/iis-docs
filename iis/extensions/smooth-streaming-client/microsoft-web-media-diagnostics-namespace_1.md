@@ -1,6 +1,7 @@
 ---
 title: Microsoft.Web.Media.Diagnostics Namespace ()
 TOCTitle: Microsoft.Web.Media.Diagnostics
+description: Describes the Microsoft.Web.Media.Diagnostics namespace and provides the classes and enumerations.
 ms:assetid: N:Microsoft.Web.Media.Diagnostics
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics(v=VS.95)
 ms:contentKeyID: 46307702

@@ -1,5 +1,6 @@
 ---
 title: IManagementService.GetJobDefinitions Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the GetJobDefinitions method returns all JobDefinition objects from IIS Transform Manager.
 TOCTitle: GetJobDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobDefinitions
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getjobdefinitions(v=VS.90)

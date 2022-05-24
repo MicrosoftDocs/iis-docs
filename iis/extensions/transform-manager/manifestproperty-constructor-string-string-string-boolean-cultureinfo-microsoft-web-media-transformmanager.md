@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo) (Microsoft.Web.Media.TransformManager)
+description: Learn how the ManifestProperty constructor initializes a new instance of the ManifestProperty class using the specified namespace, name, value, and culture.
 TOCTitle: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.String,System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)

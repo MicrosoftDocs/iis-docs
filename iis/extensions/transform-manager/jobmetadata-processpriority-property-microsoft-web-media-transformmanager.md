@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
+description: Learn about the ProcessPriority property, specifically learn details about its syntax and property value.
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.processpriority(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::AppendVaryByQueryString Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCachePolicy::AppendVaryByQueryString method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 3206c30a-032a-6d25-3204-0c14f9b34586
 ---
 # IHttpCachePolicy::AppendVaryByQueryString Method

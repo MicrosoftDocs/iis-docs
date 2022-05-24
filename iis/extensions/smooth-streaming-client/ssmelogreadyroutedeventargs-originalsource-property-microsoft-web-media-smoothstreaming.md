@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs.OriginalSource Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the OriginalSource property and provides the property's syntax, property value, version information, and permissions.
 TOCTitle: OriginalSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.OriginalSource
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.originalsource(v=VS.90)

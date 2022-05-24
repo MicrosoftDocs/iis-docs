@@ -1,5 +1,6 @@
 ---
 title: "IMapPathProvider::GetPhysicalPath Method"
+description: Learn how the IMapPathProvider::GetPhysicalPath method retrieves the physical path for the current request.
 ms.date: "10/07/2016"
 ms.assetid: 57fd7bef-bc47-7fac-286d-f1dec29f8732
 ---

@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.SelectTracks Method
+description: Describes the ManifestStream.SelectTracks method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: SelectTracks Method
 ms:assetid: bcaaf5c4-3f40-4dfa-926c-01508efab3df
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822819(v=VS.90)

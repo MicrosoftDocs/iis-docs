@@ -1,6 +1,7 @@
 ---
-title: "IHttpServer::GetTraceContext Method"
-ms.date: "10/07/2016"
+title: IHttpServer::GetTraceContext Method
+description: Describes the IHttpServer::GetTraceContext method and details its syntax, parameters, return value, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f1f6b14a-e7a6-948f-89f4-cdebea2b8a87
 ---
 # IHttpServer::GetTraceContext Method

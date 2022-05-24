@@ -1,6 +1,7 @@
 ---
 title: ClipInformation.SetSource Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetSource Method
+description: "The ClipInformation.SetSource method sets the source for the clip and enables setting the clip information on the clip MediaElement for extensibility purposes."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.SetSource(Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement,System.Windows.Controls.MediaElement,System.String,System.Int64)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.setsource(v=VS.90)
 ms:contentKeyID: 31469302

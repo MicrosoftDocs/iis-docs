@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::GetKernelCacheInvalidatorSet"
+description: Describes the IHttpCachePolicy::GetKernelCacheInvalidatorSet and provides syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: ffaff14b-291f-4a3f-bb21-47792da9440b
 ---

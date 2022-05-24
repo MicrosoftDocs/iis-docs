@@ -1,5 +1,6 @@
 ---
 title: "IPmCustomActions2::RegisterCustomActionCallback Method"
+description: IPmCustomActions2::RegisterCustomActionCallback Method registers a custom callback method for actions that will result in multiple responses.
 ms.date: "10/07/2016"
 ms.assetid: fa176765-b774-4bd3-a155-56fcfb0886b7
 ---

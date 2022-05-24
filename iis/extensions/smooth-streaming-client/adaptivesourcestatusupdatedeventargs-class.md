@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs Class
+description: Describes the AdaptiveSourceStatusUpdatedEventArgs class and provides the class' syntax, members, properties, and requirements.
 TOCTitle: AdaptiveSourceStatusUpdatedEventArgs Class
 ms:assetid: 4751c700-87ee-470c-85e7-9baca8b7dec9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822725(v=VS.90)
