@@ -1,5 +1,6 @@
 ---
 title: "CustomHeaderSettings Class"
+description: "The CustomHeaderSettings class contains name/value pairs that are added to the HTTP headers in responses from the Web server."
 ms.date: "10/07/2016"
 ms.assetid: 019fe3ea-ba55-4ef7-94cf-bcd64f98261b
 ---

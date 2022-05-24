@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Stretch Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Stretch property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: Stretch Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stretch
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.90)

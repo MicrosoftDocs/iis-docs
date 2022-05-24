@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.ThreadId Property (Microsoft.Web.Media.Diagnostics)
+description: "The TraceEntry.TheadId Property gets or sets the ThreadId property. This article outlines its syntax, version information, and permissions."
 TOCTitle: ThreadId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.ThreadId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.threadid(v=VS.90)

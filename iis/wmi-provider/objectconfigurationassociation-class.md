@@ -1,5 +1,6 @@
 ---
 title: "ObjectConfigurationAssociation Class"
+description: "ObjectConfigurationAssociation class associates a configured object with its configuration section and describes a containment association between two namespace objects."
 ms.date: "10/07/2016"
 ms.assetid: c67f2a8d-efac-9e05-784d-82333e1017d5
 ---

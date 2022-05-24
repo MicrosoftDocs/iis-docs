@@ -1,6 +1,7 @@
 ---
 title: IDbViewManager.CreateView Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: CreateView Method
+description: "The IDbViewManager.CreateView method creates a view within the database. This article describes its syntax, examples, and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.CreateView(System.String,System.String,Microsoft.Web.Management.DatabaseManager.View)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbviewmanager.createview(v=VS.90)
 ms:contentKeyID: 20476744

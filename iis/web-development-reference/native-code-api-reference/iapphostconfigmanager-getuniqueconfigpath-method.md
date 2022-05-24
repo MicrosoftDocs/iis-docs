@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigManager::GetUniqueConfigPath Method"
+description: This article contains syntax, parameters, and requirements for the IAppHostConfigManager::GetUniqueConfigPath method.
 ms.date: "10/07/2016"
 ms.assetid: f4f189e2-0977-dae4-7e84-8a9b79cefab9
 ---

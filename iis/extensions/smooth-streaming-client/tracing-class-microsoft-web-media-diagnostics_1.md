@@ -1,5 +1,6 @@
 ---
 title: Tracing Class (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing class and provides the class' inheritance hierarchy, namespace, assembly, syntax, methods, and requirements.
 TOCTitle: Tracing Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.Tracing
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing(v=VS.95)

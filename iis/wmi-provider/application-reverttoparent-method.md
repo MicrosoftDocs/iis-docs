@@ -1,6 +1,7 @@
 ---
-title: "Application.RevertToParent Method1"
-ms.date: "10/07/2016"
+title: Application.RevertToParent Method1
+description: "Describes the Application.RevertToParent method1 and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 18b70a15-3c52-44be-a411-7b2b89216936
 ---
 # Application.RevertToParent Method1

@@ -1,6 +1,7 @@
 ---
 title: StreamChangedResult.Action Property
 TOCTitle: Action Property
+description: The StreamChangedResult.Action Property gets the action of the stream.
 ms:assetid: 1f041b21-1a8a-41c5-81ee-da573d3c517c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822696(v=VS.90)
 ms:contentKeyID: 50079451

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingErrorEventArgs.ErrorException Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ErrorException property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: ErrorException Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorexception(v=VS.90)

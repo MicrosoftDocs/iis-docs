@@ -1,5 +1,6 @@
 ---
 title: Utilities.GetTypeName Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax, parameters, and return value for the Utilities.GetTypeName method.
 TOCTitle: GetTypeName Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.GetTypeName(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.gettypename(v=VS.90)

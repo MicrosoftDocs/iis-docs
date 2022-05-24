@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: This article provides a code sample in several programming languages for creating a new instance of the ConnectionArgument class.
 TOCTitle: ConnectionArgument Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.connectionargument(v=VS.90)

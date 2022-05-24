@@ -1,6 +1,7 @@
 ---
 title: "ISendResponseProvider::SetFlags Method"
-ms.date: "10/07/2016"
+description: "Describes the ISendResponseProvider::SetFlags method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 854d8dd1-0c04-e658-3526-0baba7e36f96
 ---
 # ISendResponseProvider::SetFlags Method

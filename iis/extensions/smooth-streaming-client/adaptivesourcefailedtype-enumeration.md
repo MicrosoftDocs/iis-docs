@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceFailedType Enumeration
+description: Describes the AdaptiveSourceFailedType enumeration and provides the enumeration's syntax, enumeration values, and requirements.
 TOCTitle: AdaptiveSourceFailedType Enumeration
 ms:assetid: 190445d0-5d54-4739-9feb-5a289e29971a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822688(v=VS.90)

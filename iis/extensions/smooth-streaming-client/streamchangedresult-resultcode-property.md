@@ -1,5 +1,6 @@
 ---
 title: StreamChangedResult.ResultCode Property
+description: Describes the StreamChangedResult.ResultCode property and provides the property's syntax, property value, and requirements.
 TOCTitle: ResultCode Property
 ms:assetid: 3a2bbc4c-91be-4d12-a03c-1b837a7b8b0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822718(v=VS.90)

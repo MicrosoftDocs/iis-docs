@@ -1,5 +1,6 @@
 ---
 title: PlaybackMode Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the PlaybackMode enumeration and provides the enumeration's syntax, members, remarks, and version information.
 TOCTitle: PlaybackMode Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.PlaybackMode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.playbackmode(v=VS.95)

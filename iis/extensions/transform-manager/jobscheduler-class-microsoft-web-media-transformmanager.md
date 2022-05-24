@@ -1,5 +1,6 @@
 ---
 title: JobScheduler Class (Microsoft.Web.Media.TransformManager)
+description: This article has information on inheritance hierarchy, syntax, constructors, properties, methods, and thread safety for the JobScheduler class.  
 TOCTitle: JobScheduler Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler(v=VS.90)

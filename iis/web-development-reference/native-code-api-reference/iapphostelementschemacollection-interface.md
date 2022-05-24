@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementSchemaCollection Interface"
+description: Learn how the IAppHostElementSchemaCollection interface represents a collection of IAppHostElementSchema objects.
 ms.date: "10/07/2016"
 ms.assetid: ce2e0069-bc9b-4a83-98d1-727690e424bb
 ---

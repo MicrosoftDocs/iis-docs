@@ -1,6 +1,7 @@
 ---
 title: Tracing Fields (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Tracing Fields
+description: "A list of the members that the Tracing type exposes that includes their field type, name, and description."
 ms:assetid: Fields.T:Microsoft.Web.Media.Diagnostics.Tracing
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing_fields(v=VS.90)
 ms:contentKeyID: 23960946

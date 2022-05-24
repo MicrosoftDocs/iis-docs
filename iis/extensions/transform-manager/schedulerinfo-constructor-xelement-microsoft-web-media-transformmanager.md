@@ -1,6 +1,7 @@
 ---
 title: SchedulerInfo Constructor (XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (XElement)
+description: Initializes a new instance of the SchedulerInfo class using the specified RDF scheduler node.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35521169

@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.taskDefinitionElementName Field (Microsoft.Web.Media.TransformManager)
+description: Learn how the taskDefinitionElementName field represents a constant that is used when assigning the taskDefinition element name of the task.
 TOCTitle: taskDefinitionElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.TaskDefinition.taskDefinitionElementName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinitionelementname(v=VS.90)

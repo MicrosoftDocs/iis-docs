@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED Function"
+description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED function notifies the listener adapter that the application pool has been deleted from its view. 
 ms.date: "10/07/2016"
 ms.assetid: 22e77a24-aaca-c593-c46f-cbbe073e1b4a
 ---

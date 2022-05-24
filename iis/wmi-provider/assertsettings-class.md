@@ -1,6 +1,7 @@
 ---
-title: "AssertSettings Class"
-ms.date: "10/07/2016"
+title: AssertSettings Class
+description: Describes the AssertSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: fa5f3d0e-0722-0bfb-3d98-45b5d6803df9
 ---
 # AssertSettings Class

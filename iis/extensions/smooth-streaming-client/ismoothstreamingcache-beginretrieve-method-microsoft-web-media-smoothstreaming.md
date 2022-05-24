@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache.BeginRetrieve Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BeginRetrieve Method
+description: Begins an asynchronous cache response retrieval.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginRetrieve(Microsoft.Web.Media.SmoothStreaming.CacheRequest,System.AsyncCallback,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache.beginretrieve(v=VS.90)
 ms:contentKeyID: 31469254

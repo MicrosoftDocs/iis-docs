@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.Name Property (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerInfo.Name property and details its namespace, assembly, syntax, and property value.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.name(v=VS.90)

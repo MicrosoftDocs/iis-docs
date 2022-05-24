@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::Dispose Method"
+description: CHttpModule::Dispose Method releases all resources used by the current instance of the C H t t p Module class.
 ms.date: "10/07/2016"
 ms.assetid: f5640e4c-5cf4-b7a5-8980-71b0c814b450
 ---

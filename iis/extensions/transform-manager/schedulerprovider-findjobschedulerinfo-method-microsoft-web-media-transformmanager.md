@@ -1,5 +1,6 @@
 ---
 title: SchedulerProvider.FindJobSchedulerInfo Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the FindJobSchedulerInfo method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: FindJobSchedulerInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerProvider.FindJobSchedulerInfo(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerprovider.findjobschedulerinfo(v=VS.90)

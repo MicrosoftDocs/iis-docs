@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingAsyncResult.Result property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Result
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.result(v=VS.95)

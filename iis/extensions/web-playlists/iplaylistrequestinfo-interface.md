@@ -1,5 +1,6 @@
 ---
 title: IPlaylistRequestInfo Interface
+description: The I Playlist Request Info interface represents a playlist request.
 TOCTitle: IPlaylistRequestInfo Interface
 ms:assetid: fd76c5c9-d76e-424f-b287-8b03e3e4418b
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146293(v=VS.90)

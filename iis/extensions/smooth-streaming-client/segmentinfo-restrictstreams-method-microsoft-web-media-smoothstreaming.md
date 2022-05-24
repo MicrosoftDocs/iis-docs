@@ -1,5 +1,6 @@
 ---
-title: SegmentInfo.RestrictStreams Method  (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo.RestrictStreams Method (Microsoft.Web.Media.SmoothStreaming)
+description: "This article provides syntax, remarks, and version information for the SegmentInfo.RestrictStreams Method, which restricts decoder initialization to the specified list of available streams."
 TOCTitle: RestrictStreams Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.RestrictStreams(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.StreamInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.restrictstreams(v=VS.95)

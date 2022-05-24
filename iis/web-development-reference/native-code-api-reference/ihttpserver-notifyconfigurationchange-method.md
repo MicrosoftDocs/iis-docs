@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::NotifyConfigurationChange Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::NotifyConfigurationChange method and details its syntax, parameters, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: da798d70-df91-5214-1c4f-845d79ece45f
 ---
 # IHttpServer::NotifyConfigurationChange Method

@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsQueueTime Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsQueueTime Field
+description: "Syntax that represents a constant that is used when transform jobs are sorted by the queueTime field."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsQueueTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsqueuetime(v=VS.90)
 ms:contentKeyID: 35521133

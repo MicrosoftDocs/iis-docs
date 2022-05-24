@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.TaskElement Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and property value for the JobMetadata.TaskElement property.
 TOCTitle: TaskElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.taskelement(v=VS.90)

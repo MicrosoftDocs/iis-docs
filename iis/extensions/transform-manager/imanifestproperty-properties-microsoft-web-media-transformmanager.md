@@ -1,5 +1,6 @@
 ---
 title: IManifestProperty Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the iManifestProperty type associated with Microsoft.Web.Media.TransformManager and details its properties.
 TOCTitle: IManifestProperty Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.IManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanifestproperty_properties(v=VS.90)

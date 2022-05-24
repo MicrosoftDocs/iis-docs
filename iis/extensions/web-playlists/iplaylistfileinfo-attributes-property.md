@@ -1,5 +1,6 @@
 ---
 title: IPlaylistFileInfo::Attributes Property
+description: Learn how the IPlaylistFileInfo::Attributes property gets the attributes of the physical playlist file.
 TOCTitle: IPlaylistFileInfo::Attributes Property
 ms:assetid: 39fc629a-7acd-410b-9f9d-b048ffa2b639
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146263(v=VS.90)

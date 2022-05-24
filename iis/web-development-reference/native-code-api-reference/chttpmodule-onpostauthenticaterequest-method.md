@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnPostAuthenticateRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnPostAuthenticateRequest method and details its parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 9766fd4f-cb67-bac2-a6e4-41b269d42353
 ---
 # CHttpModule::OnPostAuthenticateRequest Method

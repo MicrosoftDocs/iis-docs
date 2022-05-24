@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.AdaptiveSourceFailedEvent Event
+description: Describes the IAdaptiveSourceManager.AdaptiveSourceFailedEvent event and provides the event's syntax, event information, and requirements.
 TOCTitle: AdaptiveSourceFailedEvent Event
 ms:assetid: 6719debe-d6c9-4be3-84ca-1fe1b2837f82
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822753(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::SetRequestHandled Method"
+description: Learn how the SetRequestHandled method indicates that the handlers for the current request have completed.
 ms.date: "10/07/2016"
 ms.assetid: e83d7e00-39ad-b989-971a-d65b62220fe4
 ---

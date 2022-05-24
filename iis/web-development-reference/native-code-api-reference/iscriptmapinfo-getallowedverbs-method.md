@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetAllowedVerbs Method"
+description: Learn how the IScriptMapInfo::GetAllowedVerbs method retrieves the list of allowed verbs for a script map.  
 ms.date: "10/07/2016"
 ms.assetid: d3e0a65b-859d-b782-9469-4979ae0fb7bd
 ---

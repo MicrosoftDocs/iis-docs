@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - video param Element
+description: Describes the video param element and details its attributes, child elements, parent elements, and remarks.
 TOCTitle: <param>
 ms:assetid: d31cadf9-35f1-404a-b41f-9f501888657a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673441(v=VS.90)

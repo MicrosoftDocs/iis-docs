@@ -1,6 +1,7 @@
 ---
 title: "IAppHostProperty::Name Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostProperty::Name property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 07e162b1-4dfe-508b-a95d-f4dec0c939d0
 ---
 # IAppHostProperty::Name Property

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: SmoothStreamingMediaElement.DownloadProgressChanged Event occurs when the DownloadProgress property changes.
 TOCTitle: DownloadProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogresschanged(v=VS.95)

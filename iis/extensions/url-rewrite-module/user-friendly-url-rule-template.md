@@ -1,7 +1,7 @@
 ---
-title: "User Friendly URL - rule template"
+title: User Friendly URL - rule template
 author: rick-anderson
-description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
+description: Describes rule templates and provides steps for using the user friendly rule template that is included with the URL rewrite module.
 ms.date: 09/11/2008
 ms.assetid: b78078fb-e762-4256-84eb-6d564f6475e0
 msc.legacyurl: /learn/extensions/url-rewrite-module/user-friendly-url-rule-template

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PlaybackRateProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the PlaybackRateProperty field and provides the field's syntax, version information, and permissions.
 TOCTitle: PlaybackRateProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackRateProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.playbackrateproperty(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpCacheSpecificData::DecrementTTL Method"
+description: Learn how the DecrementTTL method decrements the Time-to-Live (TTL) setting of the cached data.
 ms.date: "10/07/2016"
 ms.assetid: 71fef368-1f35-a42d-35eb-8a053fd03bd9
 ---

@@ -1,5 +1,6 @@
 ---
-title: "ListenerElement Class"
+title: ListenerElement Class
+description: Describes the ListenerElement class and provides syntax, methods, properties, subclasses, remarks, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 1d144054-260c-f615-00c8-76b5a51166bd
 ---

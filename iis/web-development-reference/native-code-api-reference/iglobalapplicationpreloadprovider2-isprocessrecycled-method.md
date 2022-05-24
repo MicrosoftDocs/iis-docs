@@ -1,6 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider2::IsProcessRecycled Method"
-ms.date: "10/07/2016"
+title: IGlobalApplicationPreloadProvider2::IsProcessRecycled Method
+description: Describes the IGlobalApplicationPreloadProvider2::IsProcessRecycled method and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 1f882ddc-2a96-46ee-8b3f-1d72ed17601d
 ---
 # IGlobalApplicationPreloadProvider2::IsProcessRecycled Method

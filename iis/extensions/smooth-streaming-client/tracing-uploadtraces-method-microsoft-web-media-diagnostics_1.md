@@ -1,5 +1,6 @@
 ---
 title: Tracing.UploadTraces Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.UploadTraces method and provides the method's namespace, assembly, syntax, and version information.
 TOCTitle: UploadTraces Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.UploadTraces
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.uploadtraces(v=VS.95)

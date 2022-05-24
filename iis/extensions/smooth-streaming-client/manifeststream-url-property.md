@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.Url Property
 TOCTitle: Url Property
+description: Describes the ManifestStream.Url property and provides the syntax, property value, and requirements.
 ms:assetid: c4224429-208e-4697-b733-ae9594b161bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822831(v=VS.90)
 ms:contentKeyID: 50079585

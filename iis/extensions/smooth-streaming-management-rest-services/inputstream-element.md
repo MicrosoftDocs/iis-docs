@@ -1,5 +1,6 @@
 ---
 title: InputStream Element
+description: Describes the InputStream element and details the element's attributes, child elements, and parent element.
 TOCTitle: InputStream Element
 ms:assetid: 8c8fdfa3-cb65-4c5c-ae53-e86c981ca857
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547050(v=VS.90)

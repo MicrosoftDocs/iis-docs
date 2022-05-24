@@ -1,5 +1,6 @@
 ---
 title: INativeConfigurationElementCollection::NotUsed2 Method [IIS 7]
+description: Learn how the NotUsed2 method is an infrastructure method and is not intended to be called directly.
 TOCTitle: INativeConfigurationElementCollection::NotUsed2 Method
 ms:assetid: a1dd8968-050b-473f-8ad6-0b425cf04263
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424820(v=VS.90)

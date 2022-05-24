@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo.NewValue Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ColumnDataInfo.NewValue property and provides the property's syntax, property value, examples, and permissions.
 TOCTitle: NewValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.NewValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.newvalue(v=VS.90)

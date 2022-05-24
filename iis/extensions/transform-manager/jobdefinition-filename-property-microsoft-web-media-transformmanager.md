@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.FileName Property (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the FileName property which gets or sets the name of the configuration file for the current job definition.
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.filename(v=VS.90)

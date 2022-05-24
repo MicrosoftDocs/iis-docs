@@ -1,5 +1,6 @@
 ---
 title: ClipProgress Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the ClipProgress enumeration, as well as links to reference materials. 
 TOCTitle: ClipProgress Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipprogress(v=VS.90)

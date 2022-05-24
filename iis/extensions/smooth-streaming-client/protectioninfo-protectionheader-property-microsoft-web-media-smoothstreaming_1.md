@@ -1,5 +1,6 @@
 ---
 title: ProtectionInfo.ProtectionHeader Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ProtectionInfo.ProtectionHeader property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: ProtectionHeader Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo.protectionheader(v=VS.95)

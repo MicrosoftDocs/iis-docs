@@ -1,6 +1,7 @@
 ---
-title: "SwitchSettings Class"
-ms.date: "10/07/2016"
+title: SwitchSettings Class
+description: Describes the SwitchSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 518cc5f2-fce3-4941-9aef-4db335ecf065
 ---
 # SwitchSettings Class

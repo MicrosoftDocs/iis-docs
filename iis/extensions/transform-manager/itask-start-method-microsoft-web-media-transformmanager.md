@@ -1,6 +1,7 @@
 ---
 title: ITask.Start Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Start Method
+description: Called by the framework to start the task immediately after the Initialize(ITaskStatus, IJobMetadata, ILogger) method runs.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITask.Start
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itask.start(v=VS.90)
 ms:contentKeyID: 35520816

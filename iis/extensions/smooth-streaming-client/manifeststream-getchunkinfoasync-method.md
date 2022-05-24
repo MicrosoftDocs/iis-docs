@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.GetChunkInfoAsync Method
+description: Describes the ManifestStream.GetChunkInfoAsync method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: GetChunkInfoAsync Method
 ms:assetid: 3e737bcc-ccc5-44b5-a34e-9cb46e08f495
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822721(v=VS.90)

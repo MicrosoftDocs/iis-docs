@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler Class (Microsoft.Web.Media.TransformManager)
+description: Describes the LocalScheduler class and provides the class' inheritance hierarchy, syntax, constructors, methods, and remarks.
 TOCTitle: LocalScheduler Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.LocalScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler(v=VS.90)

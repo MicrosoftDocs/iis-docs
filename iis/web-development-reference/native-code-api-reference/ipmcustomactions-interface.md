@@ -1,5 +1,6 @@
 ---
 title: "IPmCustomActions Interface"
+description: Learn how the IPmCustomActions interface allows the worker process framework to request custom Run-Time Status and Control operations from a protocol manager. 
 ms.date: "10/07/2016"
 ms.assetid: 276195fc-250c-b641-a410-5fc32e21967b
 ---

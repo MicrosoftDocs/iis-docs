@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.AdaptiveSources Property
+description: Describes the IAdaptiveSourceManager.AdaptiveSources property and provides the property's syntax, property value, and requirements.
 TOCTitle: AdaptiveSources Property
 ms:assetid: 64b4b8d7-2ec2-45a0-b3d6-5240c270633c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822750(v=VS.90)

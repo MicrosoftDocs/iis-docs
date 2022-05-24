@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.DeleteJobDefinition Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the TransformManagerService.DeleteJobDefinition method, with links to reference materials.
 TOCTitle: DeleteJobDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteJobDefinition(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.deletejobdefinition(v=VS.90)

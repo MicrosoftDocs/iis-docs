@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer2 Interface"
+description: Learn how the IHttpServer2 interface represents the processing context for global-level operations.
 ms.date: "10/07/2016"
 ms.assetid: 73ed3784-2b56-46f5-9b73-c2f47600f298
 ---

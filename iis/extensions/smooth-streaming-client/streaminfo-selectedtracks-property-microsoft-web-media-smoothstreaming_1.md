@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.SelectedTracks Property (Microsoft.Web.Media.SmoothStreaming)
+description: StreamInfo.SelectedTracks Property gets or sets the SelectedTracks property.
 TOCTitle: SelectedTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectedTracks
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.selectedtracks(v=VS.95)

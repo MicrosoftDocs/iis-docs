@@ -1,5 +1,6 @@
 ---
 title: IManagementService.GetCredential Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetCredential method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: GetCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetCredential(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getcredential(v=VS.90)

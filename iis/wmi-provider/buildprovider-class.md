@@ -1,5 +1,6 @@
 ---
 title: "BuildProvider Class"
+description: Compiles custom resource files of a particular file type and generates code during compilation.
 ms.date: "10/07/2016"
 ms.assetid: 86c97635-9cea-7ced-e217-276667534258
 ---

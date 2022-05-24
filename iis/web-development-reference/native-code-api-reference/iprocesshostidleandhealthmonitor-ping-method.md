@@ -1,6 +1,7 @@
 ---
 title: "IProcessHostIdleAndHealthMonitor::Ping Method"
-ms.date: "10/07/2016"
+description: "Describes the IProcessHostIdleAndHealthMonitor::Ping method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a5a02b12-f6e8-f8bf-40ac-153d9dea93be
 ---
 # IProcessHostIdleAndHealthMonitor::Ping Method

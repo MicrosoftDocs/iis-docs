@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPropertySchema::ValidationType Property"
-ms.date: "10/07/2016"
+title: IAppHostPropertySchema::ValidationType Property
+description: Describes the IAppHostPropertySchema::ValidationType property and details its syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3cbea5c1-7476-4c2e-6df3-b8187306a268
 ---
 # IAppHostPropertySchema::ValidationType Property

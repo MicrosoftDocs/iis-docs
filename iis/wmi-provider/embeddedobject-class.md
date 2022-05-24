@@ -1,5 +1,6 @@
 ---
 title: "EmbeddedObject Class1"
+description: Serves as a base type for embedded objects.  
 ms.date: "10/07/2016"
 ms.assetid: 0cca8529-7424-62d9-301c-e3c44fd1cd4b
 ---

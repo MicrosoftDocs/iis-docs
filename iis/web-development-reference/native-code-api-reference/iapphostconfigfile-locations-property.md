@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::Locations Property"
+description: IAppHostConfigFile::Locations Property returns a collection of [IAppHostConfigLocatio interfaces that represent location tags defined for the current configuration file.
 ms.date: "10/07/2016"
 ms.assetid: 731ea11c-d7af-219c-4936-9bb386f71625
 ---

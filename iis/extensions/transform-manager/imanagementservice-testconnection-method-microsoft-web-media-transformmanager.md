@@ -1,5 +1,6 @@
 ---
 title: IManagementService.TestConnection Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information on syntax and exceptions for the IManagementService.TestConnection method.
 TOCTitle: TestConnection Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.TestConnection(Microsoft.Web.Media.TransformManager.JobScheduler,Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.testconnection(v=VS.90)

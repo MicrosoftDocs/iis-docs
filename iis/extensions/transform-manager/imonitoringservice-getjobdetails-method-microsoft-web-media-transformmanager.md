@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.GetJobDetails Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the IMonitoringService.GetJobDetails method and details its syntax, parameters, and return value.
 TOCTitle: GetJobDetails Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetails(Microsoft.Web.Media.TransformManager.JobStatus,Microsoft.Web.Media.TransformManager.JobDetailsField,System.Boolean,System.Int32,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobdetails(v=VS.90)

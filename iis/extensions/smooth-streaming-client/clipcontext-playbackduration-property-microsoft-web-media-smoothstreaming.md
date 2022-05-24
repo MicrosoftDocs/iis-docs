@@ -1,5 +1,6 @@
 ---
 title: ClipContext.PlaybackDuration Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the PlaybackDuration property and provides the property's syntax, property value, version information, and permissions.
 TOCTitle: PlaybackDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.PlaybackDuration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.playbackduration(v=VS.90)

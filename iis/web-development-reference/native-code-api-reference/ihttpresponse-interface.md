@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse Interface"
+description: Learn how the IHttpResponse interface provides an interface to an HTTP response object and how to use the interface to retrieve and modify data in the current HTTP response. 
 ms.date: "10/07/2016"
 ms.assetid: 718f9094-273e-713f-1d18-08fec8c0a6bb
 ---

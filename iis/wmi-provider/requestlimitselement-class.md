@@ -1,6 +1,7 @@
 ---
-title: "RequestLimitsElement Class"
-ms.date: "10/07/2016"
+title: RequestLimitsElement Class
+description: Describes the RequestLimitsElement class and provides the class' syntax, properties, remarks, examples, inheritance hierarchies, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ad0f126f-9538-318d-dee0-c77a72fba0c5
 ---
 # RequestLimitsElement Class

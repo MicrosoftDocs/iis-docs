@@ -1,6 +1,7 @@
 ---
 title: DatabaseProvider Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseProvider Constructor
+description: "DatabaseProvider constructor creates a new instance of the DatabaseProvider class. This article describes its syntax and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.databaseprovider(v=VS.90)
 ms:contentKeyID: 20476611

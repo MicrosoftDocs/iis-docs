@@ -1,5 +1,6 @@
 ---
 title: "IsapiCgiRestrictionSection Class"
+description: Configures ISAPI and Common Gateway Interface (CGI) restrictions for a Web server that runs in ISAPI mode.
 ms.date: "10/07/2016"
 ms.assetid: c774177c-4c4b-8d8b-bfb4-b7b7cd985b65
 ---

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ConfigPath Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.ConfigPath property and provides the property's syntax and version information.
 TOCTitle: ConfigPath Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ConfigPath
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.configpath(v=VS.95)

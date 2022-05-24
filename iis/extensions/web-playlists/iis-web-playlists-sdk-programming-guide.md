@@ -1,5 +1,6 @@
 ---
 title: IIS Web Playlists SDK Programming Guide
+description: Learn how you an use the information in the following sections to build providers that extend the capabilities of the IIS Web Playlists module of IIS Media Services.
 TOCTitle: Programming Guide
 ms:assetid: 37b62f62-e32e-4927-af34-bd6c38a0e26a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146262(v=VS.90)

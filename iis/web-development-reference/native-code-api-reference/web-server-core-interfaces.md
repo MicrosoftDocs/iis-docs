@@ -1,6 +1,7 @@
 ---
-title: "Web Server Core Interfaces"
-ms.date: "10/07/2016"
+title: Web Server Core Interfaces
+description: Describes the Web Server Core and integrated request-processing pipeline interfaces, and provides links to interface documentation.
+ms.date: 10/07/2016
 ms.assetid: a541dc16-8cd9-48f2-833d-eea649ef6b25
 ms.author: "robmcm"
 ---

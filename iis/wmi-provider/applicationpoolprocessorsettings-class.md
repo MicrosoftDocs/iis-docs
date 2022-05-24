@@ -1,6 +1,7 @@
 ---
-title: "ApplicationPoolProcessorSettings Class1"
-ms.date: "10/07/2016"
+title: ApplicationPoolProcessorSettings Class1
+description: Describes the ApplicationPoolProcessorSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 6e61a326-16df-fe3c-d9f5-0face443ef71
 ---
 # ApplicationPoolProcessorSettings Class1

@@ -1,5 +1,6 @@
 ---
 title: Title Element
+description: Describes the title element, which is the title of the publishing point, and details the element's child elements and parent elements.
 TOCTitle: Title Element
 ms:assetid: 72e0de25-3104-4fd9-9922-43b53ec09c9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547047(v=VS.90)

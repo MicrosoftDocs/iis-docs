@@ -1,5 +1,6 @@
 ---
 title: QueryResult Methods (Microsoft.Web.Management.DatabaseManager)
+description: "This article lists the methods exposed by the QueryResult type."
 TOCTitle: QueryResult Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.QueryResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult_methods(v=VS.90)

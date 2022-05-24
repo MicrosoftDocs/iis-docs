@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::NegotiateClientCertificate Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpRequest::NegotiateClientCertificate method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c140602f-90ef-75b2-ce8e-676a3b8a722f
 ---
 # IHttpRequest::NegotiateClientCertificate Method

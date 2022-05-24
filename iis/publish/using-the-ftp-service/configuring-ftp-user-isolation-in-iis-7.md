@@ -1,7 +1,7 @@
 ---
-title: "Configuring FTP User Isolation in IIS 7"
+title: Configuring FTP User Isolation in IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to configure FTP user isolation settings in IIS 7 and Windows Server 2008 using two methods.
 ms.date: 01/15/2008
 ms.assetid: 5ac9a26d-f3f4-489e-a2c9-d7a6dd3fc95c
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7

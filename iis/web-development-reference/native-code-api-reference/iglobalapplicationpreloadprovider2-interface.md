@@ -1,6 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider2 Interface"
-ms.date: "10/07/2016"
+title: IGlobalApplicationPreloadProvider2 Interface
+description: Describes the IGlobalApplicationPreloadProvider2 interface and details its syntax, methods, derived classes, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d9f95de2-db90-4f28-b6ba-d37b9d7972bf
 ---
 # IGlobalApplicationPreloadProvider2 Interface

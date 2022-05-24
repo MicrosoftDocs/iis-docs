@@ -1,5 +1,6 @@
 ---
 title: "DirectorySettings Class"
+description: "DirectorySettings class specifies code subdirectories for vstecasp Web applications. This describes its syntax, properties, remarks, inheritance hierarchy, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: c5bc7262-5a76-4b6f-a3eb-71fa8c038b0f
 ---

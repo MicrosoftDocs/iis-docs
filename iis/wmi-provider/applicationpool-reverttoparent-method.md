@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPool.RevertToParent Method1"
+description: Reverts an application pool's configuration value or values to the default.
 ms.date: "10/07/2016"
 ms.assetid: 919397d4-8c16-4d0b-83d7-b4be7052e3c9
 ---

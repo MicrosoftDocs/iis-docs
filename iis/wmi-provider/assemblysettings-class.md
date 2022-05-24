@@ -1,6 +1,7 @@
 ---
-title: "AssemblySettings Class"
-ms.date: "10/07/2016"
+title: AssemblySettings Class
+description: Describes the AssemblySettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5ecbf32a-62e2-4b86-ab40-d1d0cf90d8a7
 ---
 # AssemblySettings Class

@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.AdaptiveSourceOpenedEvent Event
+description: This article outlines syntax, event information, and requirements for the IAdaptiveSourceManager.AdaptiveSourceOpenedEvent event.
 TOCTitle: AdaptiveSourceOpenedEvent Event
 ms:assetid: 0a53331b-023c-4c9e-b8f8-d491f2d49d77
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822674(v=VS.90)
