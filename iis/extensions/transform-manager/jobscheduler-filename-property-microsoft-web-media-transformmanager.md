@@ -1,5 +1,6 @@
 ---
 title: JobScheduler.FileName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the FileName property gets or sets the name of this configuration file.
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.filename(v=VS.90)
