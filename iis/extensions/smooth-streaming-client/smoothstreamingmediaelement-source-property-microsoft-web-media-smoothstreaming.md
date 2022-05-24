@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Source Property (Microsoft.Web.Media.SmoothStreaming)
+description: The Source Property gets or sets a media stream source that is not a Smooth Streaming source. This article details syntax, property value, remarks, and version information.
 TOCTitle: Source Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Source
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.source(v=VS.90)
