@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase Properties (Microsoft.Web.Media.TransformManager)
+description: Learn how the ConfigurationBase type exposes the following members.
 TOCTitle: ConfigurationBase Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ConfigurationBase
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase_properties(v=VS.90)

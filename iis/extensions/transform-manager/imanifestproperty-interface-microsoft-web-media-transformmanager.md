@@ -1,5 +1,6 @@
 ---
 title: IManifestProperty Interface (Microsoft.Web.Media.TransformManager)
+description: Learn how the IManifestProperty interface defines the interface template for the definition of a manifest property that contains task-specific metadata.
 TOCTitle: IManifestProperty Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanifestproperty(v=VS.90)

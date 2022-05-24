@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobSchedulerName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the JobSchedulerName property gets or sets the name of the job scheduler that runs this job.
 TOCTitle: JobSchedulerName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobschedulername(v=VS.90)
