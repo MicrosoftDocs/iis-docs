@@ -1,5 +1,6 @@
 ---
 title: "IMapPathProvider Interface"
+description: Learn how the IMapPathProvider interface retrieves information about a path that is being physically mapped.
 ms.date: "10/07/2016"
 ms.assetid: e4fbca50-3c9a-35c2-a23a-55c50e650886
 ---

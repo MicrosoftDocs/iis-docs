@@ -1,5 +1,6 @@
 ---
 title: JobDetails.EndTime Property (Microsoft.Web.Media.TransformManager)
+description: Describes the EndTime property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: EndTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.EndTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.endtime(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetNextNotification Method"
+description: Learn how the GetNextNotification method retrieves the next notification for the current module host.
 ms.date: "10/07/2016"
 ms.assetid: c80eea1c-5c85-a1be-c990-ed8e89de7d78
 ---

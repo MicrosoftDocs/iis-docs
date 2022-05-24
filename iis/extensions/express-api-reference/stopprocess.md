@@ -1,6 +1,7 @@
 ---
-title: "StopProcess"
-ms.date: "10/07/2016"
+title: StopProcess
+description: Describes the Stop process and provides the process' syntax, parameters, return value, and additional references.
+ms.date: 10/07/2016
 ms.assetid: 3329bdda-a098-4d67-941b-f72c6a5486bd
 ---
 # StopProcess

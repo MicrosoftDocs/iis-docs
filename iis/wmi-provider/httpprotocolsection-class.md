@@ -1,5 +1,6 @@
 ---
 title: "HttpProtocolSection Class"
+description: "This article shares syntax, methods, properties, inheritance hierarchy, and system requirements for the HttpProtocolSection Class, which represents an HTTP protocol configuration section."
 ms.date: "10/07/2016"
 ms.assetid: b106f804-8831-1080-c63f-c27203537e62
 ---

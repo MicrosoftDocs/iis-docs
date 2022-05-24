@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.JobDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax for the IisNamespaces.JobDefinitionNamespace property. There are also links to reference materials.
 TOCTitle: JobDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobDefinitionNamespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.jobdefinitionnamespace(v=VS.90)

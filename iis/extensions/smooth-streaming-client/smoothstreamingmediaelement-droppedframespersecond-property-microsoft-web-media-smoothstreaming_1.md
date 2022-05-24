@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.DroppedFramesPerSecond property and details its syntax, property value, and Silverlight information.
 TOCTitle: DroppedFramesPerSecond Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DroppedFramesPerSecond
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.droppedframespersecond(v=VS.95)

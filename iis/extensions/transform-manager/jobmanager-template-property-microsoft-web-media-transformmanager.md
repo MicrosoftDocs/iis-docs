@@ -1,5 +1,6 @@
 ---
 title: JobManager.Template Property (Microsoft.Web.Media.TransformManager)
+description: "This article shares syntax, property value, and references for the JobManager.Template Property, which gets the job template that defines the tasks for this job with Microsoft.Web.Media.TransformManager."
 TOCTitle: Template Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Template
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.template(v=VS.90)

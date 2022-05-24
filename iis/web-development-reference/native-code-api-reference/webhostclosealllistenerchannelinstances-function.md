@@ -1,5 +1,6 @@
 ---
 title: "WebhostCloseAllListenerChannelInstances Function"
+description: WebhostCloseAllListenerChannelInstances Function requests all instances of this listener channel to stop.
 ms.date: "10/07/2016"
 ms.assetid: f8fbf5d5-83ce-0e07-15fd-cf40174ea7bd
 ---

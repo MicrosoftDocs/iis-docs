@@ -1,6 +1,7 @@
 ---
 title: SegmentInfo.SelectStreamsAsync Method (IList(StreamInfo), Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectStreamsAsync Method (IList(StreamInfo), Object)
+description: Describes the SegmentInfo.SelectStreamsAsync Method (IList(StreamInfo), Object) and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.StreamInfo},System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.95)
 ms:contentKeyID: 46307677

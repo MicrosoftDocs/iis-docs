@@ -1,5 +1,6 @@
 ---
 title: Properties Element
+description: Details the syntax for the Properties element which specifies properties that are associated with a specific stream source or destination.
 TOCTitle: Properties Element
 ms:assetid: 4334b7b2-a53b-41eb-b620-57ea02867275
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547035(v=VS.90)

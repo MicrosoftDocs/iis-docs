@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDefinitionName Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetails.JobDefinitionName property and details its namespace, assembly, syntax, and property value.
 TOCTitle: JobDefinitionName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobDefinitionName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdefinitionname(v=VS.90)

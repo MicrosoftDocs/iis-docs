@@ -1,5 +1,6 @@
 ---
 title: Create a New Publishing Point
+description: Describes the process of creating a new publishing point and outlines how to structure a request and response.
 TOCTitle: Create a New Publishing Point
 ms:assetid: 30f3f6e1-214b-4e8f-8e81-1c1a62182c18
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206008(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::IsEncrypted Property"
+description: IAppHostPropertySchema::IsEncrypted Property gets a value that indicates whether the property should be encrypted when it is persisted in the administration system.
 ms.date: "10/07/2016"
 ms.assetid: dfb2f35b-800e-42d9-99a8-6b231a1527f9
 ---

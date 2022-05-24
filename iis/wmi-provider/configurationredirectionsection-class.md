@@ -1,6 +1,7 @@
 ---
-title: "ConfigurationRedirectionSection Class"
-ms.date: "10/07/2016"
+title: ConfigurationRedirectionSection Class
+description: Describes the ConfigurationRedirectionSection class and provides the class' syntax, methods, properties, remark, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: bdea9a0b-25f3-4d68-8ad1-8ec80312fb67
 ---
 # ConfigurationRedirectionSection Class

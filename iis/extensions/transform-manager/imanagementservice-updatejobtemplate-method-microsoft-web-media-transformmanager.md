@@ -1,5 +1,6 @@
 ---
 title: IManagementService.UpdateJobTemplate Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the UpdateJobTemplate method and provides the method's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: UpdateJobTemplate Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobTemplate(Microsoft.Web.Media.TransformManager.JobTemplate)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.updatejobtemplate(v=VS.90)

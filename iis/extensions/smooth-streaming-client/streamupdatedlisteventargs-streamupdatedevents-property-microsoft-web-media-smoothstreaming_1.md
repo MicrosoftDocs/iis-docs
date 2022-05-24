@@ -1,7 +1,7 @@
 ---
 title: StreamUpdatedListEventArgs.StreamUpdatedEvents Property (Microsoft.Web.Media.SmoothStreaming)
+description: "The StreamUpdatedEvents Property gets the list of stream updated events. This article shows its syntax, property value, and version information."
 TOCTitle: StreamUpdatedEvents Property
-description: Gets the list of stream updated events.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.StreamUpdatedEvents
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs.streamupdatedevents(v=VS.95)
 ms:contentKeyID: 46307891

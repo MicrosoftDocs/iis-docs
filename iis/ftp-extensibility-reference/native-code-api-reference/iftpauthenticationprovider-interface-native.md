@@ -1,5 +1,6 @@
 ---
 title: "IFtpAuthenticationProvider Interface (Native)"
+description: This article describes the syntax, methods, and requirements for the IFtpAuthenticationProvider interface (native).
 ms.date: "09/06/2017"
 ms.assetid: 843eaeff-6349-465d-958f-12d940763122
 ms.author: "robmcm"

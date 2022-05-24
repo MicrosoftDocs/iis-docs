@@ -1,6 +1,7 @@
 ---
 title: StreamInfo Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamInfo Methods
+description: This article provides the methods and reference links for StreamInfo.
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo_methods(v=VS.90)
 ms:contentKeyID: 23960994

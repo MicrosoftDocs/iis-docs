@@ -1,5 +1,6 @@
 ---
 title: IDbTableDataManager.GetData Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableDataManager.GetData method and provides the method's namespace, assembly, syntax, remarks, examples, and permissions.
 TOCTitle: GetData Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.GetData(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.getdata(v=VS.90)

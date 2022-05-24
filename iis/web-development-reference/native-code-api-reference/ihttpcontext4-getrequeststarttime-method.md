@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext4::GetRequestStartTime Method"
+description: Learn how the IHttpContext4::GetRequestStartTime method retrieves the start time of the request in milliseconds. 
 ms.date: "10/07/2016"
 ms.assetid: e7af95c6-d1f5-4c0e-9a08-14374586a7c7
 ms.author: "robmcm"

@@ -1,5 +1,6 @@
 ---
 title: "FTP Native-Code Extensibility Structures"
+description: This article describes the native-code structures for FTP 7.5 in IIS 7.5.
 ms.date: "09/06/2017"
 ms.assetid: bc442670-15a7-4cc2-a601-0e217173f828
 ms.author: "robmcm"

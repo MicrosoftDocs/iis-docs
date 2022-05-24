@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::GetKernelCachePolicy Method"
+description: Learn how the IHttpCachePolicy::GetKernelCachePolicy method returns the cache policy for the kernel.
 ms.date: "10/07/2016"
 ms.assetid: b74c5e72-f193-9c6c-9651-b1c08ebb127c
 ---

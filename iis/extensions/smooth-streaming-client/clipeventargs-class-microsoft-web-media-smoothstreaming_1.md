@@ -1,5 +1,6 @@
 ---
 title: ClipEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipEventArgs class and provides the class' inheritance hierarchy, namespace, assembly, syntax, examples, and version information.
 TOCTitle: ClipEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs(v=VS.95)
