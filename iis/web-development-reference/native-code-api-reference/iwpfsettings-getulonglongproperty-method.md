@@ -1,6 +1,7 @@
 ---
-title: "IWpfSettings::GetUlonglongProperty Method"
-ms.date: "10/07/2016"
+title: IWpfSettings::GetUlonglongProperty Method
+description: Describes the IWpfSettings::GetUlonglongProperty method and provides the method's syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b4654835-6827-0db2-3669-6ea67d4f8d05
 ---
 # IWpfSettings::GetUlonglongProperty Method

@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary.Namespace Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Namespace property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: Namespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Namespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.namespace(v=VS.90)

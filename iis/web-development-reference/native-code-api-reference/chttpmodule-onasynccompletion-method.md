@@ -1,6 +1,7 @@
 ---
-title: "CHttpModule::OnAsyncCompletion Method"
-ms.date: "10/07/2016"
+title: CHttpModule::OnAsyncCompletion Method
+description: Describes the CHttpModule::OnAsyncCompletion method and provides the method's syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b11efc80-7135-b1c5-0c2d-93cfda92f783
 ---
 # CHttpModule::OnAsyncCompletion Method

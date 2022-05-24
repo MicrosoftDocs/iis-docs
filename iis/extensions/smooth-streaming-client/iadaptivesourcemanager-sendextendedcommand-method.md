@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SendExtendedCommand Method
+description: Describes the IAdaptiveSourceManager.SendExtendedCommand method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: SendExtendedCommand Method
 ms:assetid: 2ce10730-3944-4f32-910e-416cbdba2eab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822708(v=VS.90)
