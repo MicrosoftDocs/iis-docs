@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.SetTaskCount Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskCount Method
+description: "The LocalScheduler.SetTaskCount method sets the task count for the local scheduler by using the specified job and task count."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskCount(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.settaskcount(v=VS.90)
 ms:contentKeyID: 35521094
