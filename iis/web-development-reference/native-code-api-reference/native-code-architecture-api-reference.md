@@ -1,5 +1,6 @@
 ---
 title: "Native-Code Architecture API Reference"
+description: Learn how this section discusses the APIs that define the core architecture for IIS. 
 ms.date: "10/07/2016"
 ms.assetid: 6cb22f31-7ef6-4fe6-b686-36b04d8c4f52
 ---
