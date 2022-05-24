@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceFunctionEntry Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes the TraceFunctionEntry method and provides an overload list that outlines the name and description for various method types.
 TOCTitle: TraceFunctionEntry Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionentry(v=VS.90)
