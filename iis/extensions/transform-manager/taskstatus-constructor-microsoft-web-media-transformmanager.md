@@ -1,6 +1,7 @@
 ---
 title: TaskStatus Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskStatus Constructor
+description: "The TaskStatus constructor initializes a new instance of the TaskStatus class by using the specified manifest and logger."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.#ctor(Microsoft.Web.Media.TransformManager.JobManifest,Microsoft.Web.Media.TransformManager.ILogger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskstatus(v=VS.90)
 ms:contentKeyID: 35520679

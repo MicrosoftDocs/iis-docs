@@ -1,6 +1,7 @@
 ---
 title: SmoothStreaming Element
 TOCTitle: SmoothStreaming Element
+description: "The SmoothStreaming element provides the root element for Smooth Streaming management services. A list of child elements are provided."
 ms:assetid: 2684ff3e-2731-4a28-a6f7-09236bd26ef8
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547030(v=VS.90)
 ms:contentKeyID: 37836871

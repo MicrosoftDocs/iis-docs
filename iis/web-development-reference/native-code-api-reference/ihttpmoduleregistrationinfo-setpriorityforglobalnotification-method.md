@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method"
+description: "The IHttpModuleRegistrationInfoSetPriorityForGlobalNotification method sets the global-level priority for a module."
 ms.date: "10/07/2016"
 ms.assetid: ad47de99-e784-6394-0193-696bfdc3e89d
 ---

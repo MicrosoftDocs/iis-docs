@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostResolveRequestCache Method"
+description: "The CHttpModuleOnPostResolveRequestCache method will handle a ResolveRequestCache post-event, which occurs after IIS has resolved a request from the cache."
 ms.date: "10/07/2016"
 ms.assetid: ea055934-77aa-356a-5d6e-067aee33a3f6
 ---

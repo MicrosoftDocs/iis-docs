@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty Constructor (XName, String, Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (XName, String, Boolean)
+description: "The ManifestProperty constructor initializes a new instance of the ManifestProperty class using the specified name and value, and whether the property is required."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.Xml.Linq.XName,System.String,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)
 ms:contentKeyID: 33674377
