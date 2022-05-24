@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CanPause Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanPause Property
+description: "The SmoothStreamingMediaElement.CanPause property gets or sets a value that specifies whether the stream can be paused."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanPause
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canpause(v=VS.90)
 ms:contentKeyID: 23961255

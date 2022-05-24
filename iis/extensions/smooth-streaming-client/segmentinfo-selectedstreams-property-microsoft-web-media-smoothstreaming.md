@@ -1,6 +1,7 @@
 ---
 title: SegmentInfo.SelectedStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectedStreams Property
+description: "The SegmentInfo.SelectedStreams property gets the selected StreamInfo objects. This article describes its syntax, version information, and permissions."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectedstreams(v=VS.90)
 ms:contentKeyID: 31469144
