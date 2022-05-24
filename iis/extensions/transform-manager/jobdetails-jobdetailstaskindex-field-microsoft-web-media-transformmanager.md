@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsTaskIndex Field (Microsoft.Web.Media.TransformManager)
+description: JobDetailsTaskIndex Field represents a constant that is used when transform jobs are sorted by the "taskIndex" field.
 TOCTitle: JobDetailsTaskIndex Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsTaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailstaskindex(v=VS.90)

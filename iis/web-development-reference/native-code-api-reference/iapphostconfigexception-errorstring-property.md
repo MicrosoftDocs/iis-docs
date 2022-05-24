@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigException::ErrorString Property"
+description: IAppHostConfigException::ErrorString Property gets a description of the reason for the exception.
 ms.date: "10/07/2016"
 ms.assetid: 15796ec2-a9b7-6d9b-9bca-42286cea2d1b
 ---
