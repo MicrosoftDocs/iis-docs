@@ -1,5 +1,6 @@
 ---
 title: "SoapTransportImporterTypeElement Class"
+description: Details the syntax for the SoapTransportImporterTypeElement class. This imports a SOAP transmission protocol into an XML Web service.
 ms.date: "10/07/2016"
 ms.assetid: 3b116efc-e40f-4c9e-a440-4854cb71daf5
 ---

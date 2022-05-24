@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingCacheProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Syntax for the SmoothStreamingMediaElement.SmoothStreamingCacheProperty field it's a dependency that works with the SmoothStreamingCache property.
 TOCTitle: SmoothStreamingCacheProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingCacheProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingcacheproperty(v=VS.95)

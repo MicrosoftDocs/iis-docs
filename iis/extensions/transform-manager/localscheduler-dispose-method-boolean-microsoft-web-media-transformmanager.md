@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the Dispose Method, a boolean, releases the unmanaged resources and optionally releases managed resources.
 TOCTitle: Dispose Method (Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
