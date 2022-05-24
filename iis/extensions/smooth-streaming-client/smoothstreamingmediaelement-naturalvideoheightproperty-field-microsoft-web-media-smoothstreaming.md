@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalVideoHeightProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: The NaturalVideoHeightProperty Field represents a dependency property that specifies the NaturalHeight()()()() property. This article details syntax, version information, and permissions.
 TOCTitle: NaturalVideoHeightProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoHeightProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideoheightproperty(v=VS.90)
