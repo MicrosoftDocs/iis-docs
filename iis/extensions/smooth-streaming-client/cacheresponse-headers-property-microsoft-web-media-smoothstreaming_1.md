@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
+description: Describes the CacheResponse.Headers property and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.95)
 ms:contentKeyID: 46307740

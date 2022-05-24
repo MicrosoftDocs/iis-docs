@@ -1,6 +1,7 @@
 ---
-title: "HttpHandlersSection Class"
-ms.date: "10/07/2016"
+title: HttpHandlersSection Class
+description: Describes the HttpHandlersSection class and provides the class' syntax, methods, properties, remarks, examples, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 6172d775-56fd-b3a6-ef47-803f372aeebd
 ---
 # HttpHandlersSection Class

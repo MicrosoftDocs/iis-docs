@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PositionProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.PositionProperty field.
 TOCTitle: PositionProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PositionProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.positionproperty(v=VS.95)

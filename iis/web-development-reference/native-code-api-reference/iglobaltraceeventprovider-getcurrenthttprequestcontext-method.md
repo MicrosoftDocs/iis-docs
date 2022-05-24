@@ -1,6 +1,7 @@
 ---
-title: "IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method"
-ms.date: "10/07/2016"
+title: IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method
+description: Describes the IGlobalTraceEventProvider::GetCurrentHttpRequestContext method and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 42b1ea65-1333-aad1-b27f-7bd788f346c4
 ---
 # IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method

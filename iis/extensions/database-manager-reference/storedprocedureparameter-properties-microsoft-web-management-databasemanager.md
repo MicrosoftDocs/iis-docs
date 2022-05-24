@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter Properties (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines the members exposed by the StoredProcedureParameter properties. There are also links to additional reference materials.
 TOCTitle: StoredProcedureParameter Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter_properties(v=VS.90)

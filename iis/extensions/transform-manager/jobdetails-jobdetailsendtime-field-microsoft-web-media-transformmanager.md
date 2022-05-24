@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsEndTime Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsEndTime Field
+description: Describes the JobDetailsEndTime field, which represents a constant for transform job sorting, and details its namespace, assembly, and syntax. 
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsEndTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsendtime(v=VS.90)
 ms:contentKeyID: 35520865

@@ -1,5 +1,6 @@
 ---
 title: JobManager.InputFolderPath Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobManager.InputFolderPath, with links to reference materials.
 TOCTitle: InputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.InputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.inputfolderpath(v=VS.90)

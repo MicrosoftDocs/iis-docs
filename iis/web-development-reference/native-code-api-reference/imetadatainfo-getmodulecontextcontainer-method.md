@@ -1,5 +1,6 @@
 ---
 title: "IMetadataInfo::GetModuleContextContainer Method"
+description: Learn how the GetModuleContextContainer method returns the context container for the metadata.
 ms.date: "10/07/2016"
 ms.assetid: 6dbdd9f8-9202-4e2c-07c3-aea8b4729ece
 ---

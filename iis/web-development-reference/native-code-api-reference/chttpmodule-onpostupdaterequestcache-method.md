@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostUpdateRequestCache Method"
+description: "The CHttpModuleOnPostUpdateRequestCache method represents the method that will handle an UpdateRequestCache post-event, which occurs after IIS has stored the request in the cache."
 ms.date: "10/07/2016"
 ms.assetid: 5aee0fb4-821e-e84d-b933-9374a5173e9a
 ---

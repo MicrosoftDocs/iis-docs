@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer2::GetToken Method"
+description: IHttpServer2::GetToken Method retrieves an authentication token given a user name, password, and login method.
 ms.date: "10/07/2016"
 ms.assetid: 797d704e-9540-4b04-bd6a-6d01d48819a4
 ---

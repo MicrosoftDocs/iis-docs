@@ -1,5 +1,6 @@
 ---
 title: EncodedBitRate Element
+description: Describes the EncodedBitRate element and details the element's child elements, parent elements, and remarks.
 TOCTitle: EncodedBitRate Element
 ms:assetid: eb01eac1-19b0-47bb-b906-aa83354aa86c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547071(v=VS.90)

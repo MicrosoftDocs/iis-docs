@@ -1,6 +1,7 @@
 ---
 title: ForeignKey.IsNew Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNew Property
+description: "The ForeignKey.IsNew property gets or sets a value that indicates whether the foreign key is new."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.IsNew
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.isnew(v=VS.90)
 ms:contentKeyID: 20476454

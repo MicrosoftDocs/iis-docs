@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MediaOpened Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.MediaOpened event.
 TOCTitle: MediaOpened Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaOpened
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediaopened(v=VS.95)

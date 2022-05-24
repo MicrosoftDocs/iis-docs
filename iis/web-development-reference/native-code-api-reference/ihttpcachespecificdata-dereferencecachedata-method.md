@@ -1,6 +1,7 @@
 ---
 title: "IHttpCacheSpecificData::DereferenceCacheData Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCacheSpecificData::DereferenceCacheData method and details its syntax, thread safety, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5717cb11-2b6a-bac5-4f92-4d9d83340192
 ---
 # IHttpCacheSpecificData::DereferenceCacheData Method

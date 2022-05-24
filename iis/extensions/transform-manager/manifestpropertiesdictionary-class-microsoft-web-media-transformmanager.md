@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Class (Microsoft.Web.Media.TransformManager)
+description: This article outlines the ManifestPropertiesDictionary class, which provides properties that can be used for task definitions and job templates. 
 TOCTitle: ManifestPropertiesDictionary Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary(v=VS.90)

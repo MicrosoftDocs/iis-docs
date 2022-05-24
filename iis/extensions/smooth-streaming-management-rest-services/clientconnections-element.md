@@ -1,6 +1,7 @@
 ---
 title: ClientConnections Element
 TOCTitle: ClientConnections Element
+description: This article contains the syntax, attributes, and example of the ClientConnections element.
 ms:assetid: d106d15a-9b41-4d62-b52d-5fcec1c54558
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547062(v=VS.90)
 ms:contentKeyID: 37836903

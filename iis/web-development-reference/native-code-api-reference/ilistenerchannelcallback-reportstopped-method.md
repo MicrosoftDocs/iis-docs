@@ -1,5 +1,6 @@
 ---
 title: "IListenerChannelCallback::ReportStopped Method"
+description: Learn how the ReportStopped method notifies the worker process framework that a listener channel has shut down.
 ms.date: "10/07/2016"
 ms.assetid: 3f8b7b7a-bc38-4f30-96e3-f116cbda5909
 ---

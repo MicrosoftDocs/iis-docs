@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.JobManagerLogRolloverIntervalDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogRolloverIntervalDisplayUnit Property
+description: "The JobManagerLogRolloverIntervalDisplayUnit property gets or sets the unit of time used with the LogRolloverIntervalMinutes property to indicate when to create a new log."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobmanagerlogrolloverintervaldisplayunit(v=VS.90)
 ms:contentKeyID: 35521154

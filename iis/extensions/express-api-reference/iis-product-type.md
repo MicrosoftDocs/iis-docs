@@ -1,6 +1,7 @@
 ---
-title: "IIS_PRODUCT_TYPE"
-ms.date: "10/07/2016"
+title: IIS_PRODUCT_TYPE
+description: Describes the IIS product type and provides the product type's syntax, member descriptions, and additional references.
+ms.date: 10/07/2016
 ms.assetid: d6d67b0d-91e3-4856-b740-eb221cef2621
 ---
 # IIS_PRODUCT_TYPE

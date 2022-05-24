@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.ManifestType Property (Microsoft.Web.Media.SmoothStreaming)
+description: The ManifestInfo.ManifestType Property gets or sets the properties for ManifestInfo.ManifestType.
 TOCTitle: ManifestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ManifestType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.manifesttype(v=VS.95)

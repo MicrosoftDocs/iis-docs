@@ -1,6 +1,7 @@
 ---
 title: "IGlobalThreadCleanupProvider::GetApplication"
-ms.date: "10/07/2016"
+description: "Describes the IGlobalThreadCleanupProvider::GetApplication call and details its syntax, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 58b4d588-36c4-574f-f180-02d305f7b22d
 ---
 # IGlobalThreadCleanupProvider::GetApplication

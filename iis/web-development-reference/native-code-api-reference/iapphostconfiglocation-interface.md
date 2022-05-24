@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigLocation Interface"
+description: "The IAppHostConfigLocation interface represents a configuration location in the iisver configuration system."
 ms.date: "10/07/2016"
 ms.assetid: 561b9314-d818-d465-9445-209aa61c44f9
 ---

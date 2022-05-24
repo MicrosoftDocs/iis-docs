@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.PropertyNamespace Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDefinition.PropertyNamespace property and details its namespace, assembly, syntax, and property value.
 TOCTitle: PropertyNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.PropertyNamespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.propertynamespace(v=VS.90)

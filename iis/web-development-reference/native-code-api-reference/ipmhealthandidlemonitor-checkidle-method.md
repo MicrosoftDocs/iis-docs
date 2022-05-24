@@ -1,5 +1,6 @@
 ---
 title: "IPmHealthAndIdleMonitor::CheckIdle Method"
+description: Learn how the CheckIdle method enables the worker process framework to request whether all the listener channels for a protocol manager are idle.
 ms.date: "10/07/2016"
 ms.assetid: cc25da61-1020-c6bb-c52d-97257629495b
 ---

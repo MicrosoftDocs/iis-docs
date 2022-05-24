@@ -1,5 +1,6 @@
 ---
 title: "SystemWebDeploymentSection Class"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SystemWebDeploymentSection class.
 ms.date: "10/07/2016"
 ms.assetid: 0a6fec4d-62c5-1a87-f0e3-50d8134e7179
 ---

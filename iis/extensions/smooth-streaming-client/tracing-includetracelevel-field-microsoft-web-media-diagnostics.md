@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeTraceLevel Field (Microsoft.Web.Media.Diagnostics)
+description: Describes the IncludeTraceLevel field and provides the field's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: IncludeTraceLevel Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracelevel(v=VS.90)

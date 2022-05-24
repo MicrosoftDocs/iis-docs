@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest Interface"
+description: Learn how the IHttpRequest interface provides an interface to an HTTP request object you can use to retrieve and modify data in the current HTTP request.
 ms.date: "10/07/2016"
 ms.assetid: f5f0c9bf-e374-a948-63bc-1b2c50555751
 ---

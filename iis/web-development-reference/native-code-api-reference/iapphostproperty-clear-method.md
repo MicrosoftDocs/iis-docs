@@ -1,6 +1,7 @@
 ---
 title: "IAppHostProperty::Clear Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostProperty::Clear method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 378902f7-413f-d68f-7245-dc9476bf27bd
 ---
 # IAppHostProperty::Clear Method

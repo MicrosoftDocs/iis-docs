@@ -1,5 +1,6 @@
 ---
 title: ILogger.LogLevel Property (Microsoft.Web.Media.TransformManager)
+description: "This article shares syntax, property value, remarks, and references for the ILogger.LogLevel Property, which gets the level of errors that will be logged for Microsoft.Web.Media.TransformManager."
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ILogger.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.loglevel(v=VS.90)

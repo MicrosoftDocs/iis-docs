@@ -1,6 +1,7 @@
 ---
 title: Table Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Table Constructor
+description: "The Table constructor creates a new instance of the Table class. This article describes its syntax and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Table.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table.table(v=VS.90)
 ms:contentKeyID: 20476599

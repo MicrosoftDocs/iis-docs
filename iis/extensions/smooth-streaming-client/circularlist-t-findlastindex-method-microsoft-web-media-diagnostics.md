@@ -1,5 +1,6 @@
 ---
 title: CircularList(T).FindLastIndex Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes syntax, usage, and examples of FindLastIndex Method.
 TOCTitle: FindLastIndex Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.FindLastIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728255(v=VS.90)

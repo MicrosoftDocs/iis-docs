@@ -1,6 +1,7 @@
 ---
 title: StreamChangedAction Enumeration
 TOCTitle: StreamChangedAction Enumeration
+description: "The StreamChangedAction enumeration represents the Stream changed action enumeration. This article describes its syntax, enumeration values, and requirements."
 ms:assetid: c329d3d1-8ff7-4364-a385-91fff8bc51c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822829(v=VS.90)
 ms:contentKeyID: 50079583

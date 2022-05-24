@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetName Method"
+description: Learn how the IScriptMapInfo::GetName method retrieves the configured name for a request handler.
 ms.date: "10/07/2016"
 ms.assetid: 9b717857-631e-9a0e-38fd-ab2b62c3d284
 ---

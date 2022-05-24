@@ -1,6 +1,7 @@
 ---
 title: Result Property
 TOCTitle: Result Property
+description: This article contains syntax, property value, and requirements for the Result property.
 ms:assetid: 4f783aaa-42a1-4bda-aec7-0ccd5c6d4cf5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822733(v=VS.90)
 ms:contentKeyID: 50079488

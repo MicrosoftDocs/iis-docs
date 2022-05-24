@@ -1,6 +1,7 @@
 ---
-title: "IHttpFileInfo Interface"
-ms.date: "10/07/2016"
+title: IHttpFileInfo Interface
+description: Describes the IHttpFileInfo interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 82e00c1a-d54d-64d2-465b-581234ab0d24
 ---
 # IHttpFileInfo Interface

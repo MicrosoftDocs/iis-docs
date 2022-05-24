@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter.IsNull Property (Microsoft.Web.Management.DatabaseManager)
+description: Details the syntax for the StoredProcedureParameter.IsNull property and returns a value that indicates if the parameter is a null reference.
 TOCTitle: IsNull Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsNull
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.isnull(v=VS.90)

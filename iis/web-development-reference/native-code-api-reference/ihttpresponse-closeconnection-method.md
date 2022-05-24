@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::CloseConnection Method"
+description: IHttpResponse::CloseConnection Method closes he connection and sends a reset packet to the client.
 ms.date: "10/07/2016"
 ms.assetid: 2f7c50a3-d8a4-445d-9201-62edf52d4051
 ---

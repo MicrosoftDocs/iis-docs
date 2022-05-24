@@ -1,6 +1,7 @@
 ---
-title: "Hosted Web Core API Reference"
-ms.date: "10/07/2016"
+title: Hosted Web Core API Reference
+description: Describes the Hosted Web Core API and provides remarks and a list of documentation related to API functions.
+ms.date: 10/07/2016
 ms.assetid: d9d5406e-edef-ab14-c78a-711f70d5cda2
 ---
 # Hosted Web Core API Reference

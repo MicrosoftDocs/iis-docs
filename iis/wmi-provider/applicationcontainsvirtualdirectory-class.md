@@ -1,6 +1,7 @@
 ---
-title: "ApplicationContainsVirtualDirectory Class2"
-ms.date: "10/07/2016"
+title: ApplicationContainsVirtualDirectory Class2
+description: Describes the ApplicationContainsVirtualDirectory class and provides the class' syntax, properties, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f0d66fa9-7661-4f48-99e1-c14e72d3c045
 ---
 # ApplicationContainsVirtualDirectory Class2

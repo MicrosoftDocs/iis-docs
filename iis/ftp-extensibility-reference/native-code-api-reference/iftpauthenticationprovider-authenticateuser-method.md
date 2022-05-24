@@ -1,8 +1,9 @@
 ---
 title: "IFtpAuthenticationProvider::AuthenticateUser Method"
-ms.date: "09/06/2017"
+description: "Describes the IFtpAuthenticationProvider::AuthenticateUser method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 09/06/2017
 ms.assetid: ab84c942-f9e5-4dc9-9c51-cb25906deb15
-ms.author: "robmcm"
+ms.author: robmcm
 ---
 # IFtpAuthenticationProvider::AuthenticateUser Method
 Checks to see whether a user name and password are valid.  

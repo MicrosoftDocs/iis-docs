@@ -1,6 +1,7 @@
 ---
 title: "IReferencedMetadataInfo::ReferenceMetadata Method"
-ms.date: "10/07/2016"
+description: "Describes the IReferencedMetadataInfo::ReferenceMetadata method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 6c58b484-dbec-4fc2-9625-40b35ec86ce9
 ---
 # IReferencedMetadataInfo::ReferenceMetadata Method

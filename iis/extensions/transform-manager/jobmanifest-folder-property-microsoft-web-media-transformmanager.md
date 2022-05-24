@@ -1,5 +1,6 @@
 ---
 title: JobManifest.Folder Property (Microsoft.Web.Media.TransformManager)
+description: "The JobManifest.Folder Property gets or sets the folder name of the manifest. This article shares its syntax."
 TOCTitle: Folder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Folder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.folder(v=VS.90)
