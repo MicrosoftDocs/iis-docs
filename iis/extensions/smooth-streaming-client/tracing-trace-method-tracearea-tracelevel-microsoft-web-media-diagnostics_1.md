@@ -1,5 +1,6 @@
 ---
 title: Tracing.Trace Method (TraceArea, TraceLevel) (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.Trace method and provides the method's syntax, parameters, and Silverlight information.
 TOCTitle: Trace Method (TraceArea, TraceLevel)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Trace(Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.95)
