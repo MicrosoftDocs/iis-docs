@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsDecodingOnGPUProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.IsDecodingOnGPUProperty field and provides the field's syntax and version information.
 TOCTitle: IsDecodingOnGPUProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPUProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.isdecodingongpuproperty(v=VS.95)

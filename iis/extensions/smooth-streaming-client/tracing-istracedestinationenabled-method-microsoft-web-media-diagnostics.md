@@ -1,5 +1,6 @@
 ---
 title: Tracing.IsTraceDestinationEnabled Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes the IsTraceDestinationEnabled method and provides the method's syntax, version information, and permissions.
 TOCTitle: IsTraceDestinationEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceDestinationEnabled(Microsoft.Web.Media.Diagnostics.TraceDestination)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.istracedestinationenabled(v=VS.90)
