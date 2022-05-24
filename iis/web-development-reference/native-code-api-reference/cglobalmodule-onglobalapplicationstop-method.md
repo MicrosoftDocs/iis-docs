@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalApplicationStop Method"
+description: This article contains information about syntax, return value, and requirements for the CGlobalModule::OnGlobalApplicationStop method.
 ms.date: "10/07/2016"
 ms.assetid: ec5e525d-906d-c505-40cc-8f5788367ff0
 ---
