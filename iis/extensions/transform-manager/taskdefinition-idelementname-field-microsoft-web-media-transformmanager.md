@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.idElementName Field (Microsoft.Web.Media.TransformManager)
+description: Learn how the idElementName field represents a constant that is used when assigning the ID of the element that contains the input folder of the task.
 TOCTitle: idElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.TaskDefinition.idElementName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.idelementname(v=VS.90)

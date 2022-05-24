@@ -1,5 +1,6 @@
 ---
 title: WorkQueue.FinishedJobs Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the FinishedJobs property gets a collection of job details that specify jobs that have finished.
 TOCTitle: FinishedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.finishedjobs(v=VS.90)

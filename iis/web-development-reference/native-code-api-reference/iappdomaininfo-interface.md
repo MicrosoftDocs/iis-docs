@@ -1,5 +1,6 @@
 ---
 title: "IAppDomainInfo Interface"
+description: Learn how the IAppDomainInfo interface provides information about the application domain.
 ms.date: "10/07/2016"
 ms.assetid: c56ab96e-4307-6959-2276-7523527d96c2
 ---
