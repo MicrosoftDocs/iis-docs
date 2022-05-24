@@ -1,5 +1,6 @@
 ---
 title: Tracing Class (Microsoft.Web.Media.Diagnostics)
+description: Details the syntax for the Tracing class. This class of utilities that provide tracing and debugging routines.
 TOCTitle: Tracing Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.Tracing
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing(v=VS.90)

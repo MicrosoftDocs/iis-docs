@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SmoothStreamingMediaElement. NaturalDuration property. This gets the duration of the current stream when it plays to the end.
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDuration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalduration(v=VS.95)
