@@ -1,5 +1,6 @@
 ---
 title: "ConformanceWarning Class"
+description: Details the syntax for the ConformanceWarning class. It exposes a specification to which a web service declares that it conforms.
 ms.date: "10/07/2016"
 ms.assetid: 6143dc15-7a1d-c00b-94ed-a446964cb705
 ---

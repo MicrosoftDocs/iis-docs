@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.StartSeekToLive Method  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.StartSeekToLive Method (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SmoothStreamingMediaElement.StartSeekToLive method. Starts a seek to a live media stream.
 TOCTitle: StartSeekToLive Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.StartSeekToLive
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.startseektolive(v=VS.95)

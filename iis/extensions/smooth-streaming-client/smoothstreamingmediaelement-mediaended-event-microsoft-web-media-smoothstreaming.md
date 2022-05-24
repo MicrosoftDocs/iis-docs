@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MediaEnded Event (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the MediaEnded event. This event occurs when the media playback reaches the end.
 TOCTitle: MediaEnded Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaEnded
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediaended(v=VS.90)
