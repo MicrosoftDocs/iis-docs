@@ -1,5 +1,6 @@
 ---
 title: "IWpfActions Interface"
+description: Learn how the IWpfActions interface allows a protocol manager to request that the worker process framework request a recycle or an immediate shutdown of the host process.
 ms.date: "10/07/2016"
 ms.assetid: 66a0c836-9313-85e0-936c-975987275500
 ---
