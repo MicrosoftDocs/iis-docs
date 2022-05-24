@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::IsExpanded Property"
+description: IAppHostPropertySchema::IsExpanded Property determines whether environment variables in a property value should be expanded.
 ms.date: "10/07/2016"
 ms.assetid: 0d896c4e-ff58-b570-b77e-6a6b4687913e
 ---

@@ -1,5 +1,6 @@
 ---
 title: Authentication and Authorization
+description: IIS Smooth Streaming Management REST Services provides security by supporting both authentication and authorization features.
 TOCTitle: Authentication and Authorization
 ms:assetid: 3c577f0b-e21a-4d26-9304-e73292b90ff6
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547032(v=VS.90)
