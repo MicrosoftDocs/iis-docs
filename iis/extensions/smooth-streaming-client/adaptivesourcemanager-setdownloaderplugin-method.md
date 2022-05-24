@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SetDownloaderPlugin Method
+description: This article has information about syntax, parameters, return value, and requirements for the AdaptiveSourceManager.SetDownloaderPlugin method.
 TOCTitle: SetDownloaderPlugin Method
 ms:assetid: 0f7821a0-3edc-46c1-bd82-0ca4487ae1c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822680(v=VS.90)

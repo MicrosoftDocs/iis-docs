@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2 Class (Microsoft.Web.Media.SmoothStreaming)
+description: This article has information about inheritance hierarchy, syntax, properties, methods, version information, and thready safety for the CacheResponse2 class.
 TOCTitle: CacheResponse2 Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheResponse2
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2(v=VS.95)

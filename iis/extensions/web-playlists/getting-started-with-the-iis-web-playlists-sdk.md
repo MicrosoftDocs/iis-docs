@@ -1,5 +1,6 @@
 ---
 title: Getting Started with the IIS Web Playlists SDK
+description: This article contain basic information that you need before you start using the IIS Web Playlists SDK.
 TOCTitle: Getting Started
 ms:assetid: 69459dc9-4f54-46db-ae7d-83a42be8b627
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146274(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack Class
+description: This article contains information about syntax, members, and requirements for the ManifestTrack class.
 TOCTitle: ManifestTrack Class
 ms:assetid: 9782a68b-91c3-4a9c-9a78-b2a73c5351cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822790(v=VS.90)

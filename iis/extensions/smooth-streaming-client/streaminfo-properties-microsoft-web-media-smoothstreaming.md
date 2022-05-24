@@ -1,5 +1,6 @@
 ---
 title: StreamInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the StreamInfo properties, with links to reference materials.
 TOCTitle: StreamInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo_properties(v=VS.90)

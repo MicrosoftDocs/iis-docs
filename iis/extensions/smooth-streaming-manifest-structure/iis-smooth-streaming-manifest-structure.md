@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Manifest Structure
+description: This article specifies the formats and schemas of manifest files that encoders generate and developers create to support Smooth Streaming.
 TOCTitle: IIS Smooth Streaming Manifest Structure
 ms:assetid: f0f33006-8bfd-43e0-895e-b2778c0f8451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff436055(v=VS.90)

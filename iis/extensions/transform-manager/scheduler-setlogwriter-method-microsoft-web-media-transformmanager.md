@@ -1,5 +1,6 @@
 ---
 title: Scheduler.SetLogWriter Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the Scheduler.SetLogWriter method, with links to reference materials.
 TOCTitle: SetLogWriter Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SetLogWriter(Microsoft.Web.Media.TransformManager.Logger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.setlogwriter(v=VS.90)
