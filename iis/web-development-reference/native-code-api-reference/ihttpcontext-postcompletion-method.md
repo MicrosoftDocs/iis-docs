@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::PostCompletion Method"
+description: IHttpContext::PostCompletion Method indicates the completion of asynchronous work and requests that IIS queue execution to the thread pool.
 ms.date: "10/07/2016"
 ms.assetid: 94fb5164-1bd1-57bb-255d-cb6ff409cd12
 ---
