@@ -1,5 +1,6 @@
 ---
 title: SmoothByteStreamHandler Class
+description: Describes the SmoothByteStreamHandler class and provides the class' syntax, members, methods, and requirements.
 TOCTitle: SmoothByteStreamHandler Class
 ms:assetid: 60649bf3-76af-4b89-8975-f38e719a8936
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573680(v=VS.90)

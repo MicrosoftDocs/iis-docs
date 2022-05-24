@@ -1,6 +1,7 @@
 ---
 title: JobMetadata.Manifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Manifest Property
+description: Describes the JobMetadata.Manifest property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.Manifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.manifest(v=VS.90)
 ms:contentKeyID: 35521159

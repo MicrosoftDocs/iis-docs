@@ -1,6 +1,7 @@
 ---
 title: ISmoothStreamingCache Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ISmoothStreamingCache Methods
+description: This article contains the methods for the ISmoothStreamingCache.
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache_methods(v=VS.90)
 ms:contentKeyID: 31469255

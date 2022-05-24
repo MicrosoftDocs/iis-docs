@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, TimeSpan, Boolean, Object) (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.ScheduleClip method and provides the method's syntax, parameters, examples, and version information.
 TOCTitle: ScheduleClip Method (ClipInformation, TimeSpan, Boolean, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,System.TimeSpan,System.Boolean,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.scheduleclip(v=VS.95)

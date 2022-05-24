@@ -1,5 +1,6 @@
 ---
 title: "IHttpEventProvider Interface"
+description: IHttpEventProvider Interface provides a generic event-reporting interface.
 ms.date: "10/07/2016"
 ms.assetid: 1f7b9790-66d0-fd22-edf0-721693702d35
 ---

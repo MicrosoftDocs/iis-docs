@@ -1,5 +1,6 @@
 ---
 title: "ModulesSection Class"
+description: Details the syntax for the ModulesSection class which represents the modules section in a configuration file.
 ms.date: "10/07/2016"
 ms.assetid: b3dd0504-bf13-b108-ecce-65a96fc1d014
 ---

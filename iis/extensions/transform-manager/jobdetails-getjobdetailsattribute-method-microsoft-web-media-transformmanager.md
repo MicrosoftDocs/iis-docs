@@ -1,5 +1,6 @@
 ---
 title: JobDetails.GetJobDetailsAttribute Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobDetailsAttribute method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: GetJobDetailsAttribute Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.GetJobDetailsAttribute(Microsoft.Web.Media.TransformManager.JobDetailsField)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.getjobdetailsattribute(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement Properties (Microsoft.Web.Media.SmoothStreaming)
+description: "This article lists properties exposed by the SmoothStreamingMediaElement type."
 TOCTitle: SmoothStreamingMediaElement Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_properties(v=VS.95)

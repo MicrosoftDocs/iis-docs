@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.SelectStreamsAsync Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SegmentInfo.SelectStreamsAsync method and provides a table that outlines the name and description for various method types.
 TOCTitle: SelectStreamsAsync Method
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.95)

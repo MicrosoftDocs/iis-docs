@@ -1,6 +1,7 @@
 ---
 title: JobDetails.StartTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartTime Property
+description: "The JobDetails.StartTime property gets or sets the date and time when the job was started by the scheduler."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.StartTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.starttime(v=VS.90)
 ms:contentKeyID: 35520726

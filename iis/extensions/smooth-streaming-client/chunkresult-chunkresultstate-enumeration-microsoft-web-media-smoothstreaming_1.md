@@ -1,6 +1,7 @@
 ---
 title: ChunkResult.ChunkResultState Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkResult.ChunkResultState Enumeration
+description: "The ChunkResult.ChunkResultState enumeration contains the possible result states during processing by the BeginGetChunk and EndGetChunk methods."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.chunkresultstate(v=VS.95)
 ms:contentKeyID: 46307934

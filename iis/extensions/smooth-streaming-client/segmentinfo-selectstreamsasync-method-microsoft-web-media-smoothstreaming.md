@@ -1,5 +1,6 @@
 ---
-title: SegmentInfo.SelectStreamsAsync Method  (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo.SelectStreamsAsync Method (Microsoft.Web.Media.SmoothStreaming)
+description: "This article contains an overload list for the SelectStreamsAsync Method, which initializes a new instance of the SegmentInfo Class."
 TOCTitle: SelectStreamsAsync Method
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.90)

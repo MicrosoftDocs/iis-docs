@@ -1,7 +1,7 @@
 ---
-title: "Introducing IIS on Nano Server"
+title: Introducing IIS on Nano Server
 author: davidso
-description: ""
+description: Introduces IIS on Nano Server and outlines compatibility, outlines the purpose of Nano servers and the process of installing and connecting servers.
 ms.date: 09/16/2016
 ms.assetid: 85331f22-aa25-4837-a6b7-cecdc5400012
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/introducing-iis-on-nano-server

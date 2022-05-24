@@ -1,5 +1,6 @@
 ---
 title: "IGlobalApplicationPreloadProvider::CreateContext Method"
+description: IGlobalApplicationPreloadProvider::CreateContext Method creates an HTTP context and returns a pointer to the context object.
 ms.date: "10/07/2016"
 ms.assetid: 0e916878-ab72-427c-9518-9f34cd2e81a6
 ---

@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin.SmoothStreamingMediaElement Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the syntax for the AdvancedLoggingPlugin.SmoothStreamingMediaElement property which gets or sets the that this plug-in will service.
 TOCTitle: SmoothStreamingMediaElement Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.smoothstreamingmediaelement(v=VS.95)

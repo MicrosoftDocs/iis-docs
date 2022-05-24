@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MediaFailed Event (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.MediaFailed event and provides the event's namespace, assembly, syntax, remarks, examples, and version information.
 TOCTitle: MediaFailed Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaFailed
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediafailed(v=VS.95)

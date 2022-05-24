@@ -1,6 +1,7 @@
 ---
 title: SchedulerProvider Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerProvider Class
+description: "The SchedulerProvider class provides information about scheduled jobs. This article describes its syntax, methods, and thread safety."
 ms:assetid: T:Microsoft.Web.Media.TransformManager.SchedulerProvider
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerprovider(v=VS.90)
 ms:contentKeyID: 35520823

@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.BeginGetChunk Method  (Microsoft.Web.Media.SmoothStreaming)
+description: TrackInfo.BeginGetChunk Method beginning method of the asynchronous API for the application to get chunk content based on the timestamp.
 TOCTitle: BeginGetChunk Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.BeginGetChunk(System.TimeSpan,System.AsyncCallback,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.begingetchunk(v=VS.95)

@@ -1,6 +1,7 @@
 ---
 title: QualityLevel, Attributes
 TOCTitle: QualityLevel, Attributes
+description: "The QualityLevel element of the client manifest specifies metadata for a video or audio track at a specified quality level. A list of  QualityLevel attributes is provided."
 ms:assetid: c33074d3-f806-450d-98e9-ef307c532d26
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728116(v=VS.95)
 ms:contentKeyID: 46359331

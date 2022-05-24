@@ -1,5 +1,6 @@
 ---
 title: JobManifest.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ProcessPriority property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.processpriority(v=VS.90)

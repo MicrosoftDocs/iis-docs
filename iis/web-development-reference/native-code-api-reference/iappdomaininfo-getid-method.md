@@ -1,5 +1,6 @@
 ---
 title: "IAppDomainInfo::GetId Method"
+description: "The IAppDomainInfoGetId method retrieves the application domain ID. This article describes its syntax, return value, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 6fc0b61d-8f0a-a82b-0c7f-084f35f33455
 ---

@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.MaximumPrecision Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.MaximumPrecision property and provides the property's namespace, assembly, syntax, examples, and permissions.
 TOCTitle: MaximumPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumPrecision
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.maximumprecision(v=VS.90)

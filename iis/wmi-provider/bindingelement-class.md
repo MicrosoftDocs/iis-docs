@@ -1,5 +1,6 @@
 ---
 title: "BindingElement Class1"
+description: Details the properties for the BindingElement class1 which represents a binding element for a Web site. 
 ms.date: "10/07/2016"
 ms.assetid: 359250eb-6680-f075-7ccb-cebc4850903e
 ---

@@ -1,6 +1,7 @@
 ---
 title: Tracing.TraceFunctionExit Method (TraceArea) (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionExit Method (TraceArea)
+description: "The Tracing.TraceFunctionExit method records the exit from a function as specified by the parameter."
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit(Microsoft.Web.Media.Diagnostics.TraceArea)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionexit(v=VS.95)
 ms:contentKeyID: 46307633

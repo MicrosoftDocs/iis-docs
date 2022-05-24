@@ -1,6 +1,7 @@
 ---
 title: Microsoft.Web.Management.DatabaseManager Namespace ()
 TOCTitle: Microsoft.Web.Management.DatabaseManager
+description: "The Microsoft.Web.Management.DatabaseManager namespace contains classes that a developer can use to build a provider to manage a database by using IIS Manager."
 ms:assetid: N:Microsoft.Web.Management.DatabaseManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager(v=VS.90)
 ms:contentKeyID: 20476685

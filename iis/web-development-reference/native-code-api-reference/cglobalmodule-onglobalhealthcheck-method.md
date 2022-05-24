@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalHealthCheck Method"
+description: CGlobalModule::OnGlobalHealthCheck Method represents the method that will handle a GlobalHealthCheck event, which occurs when a health-related operation is executed.
 ms.date: "10/07/2016"
 ms.assetid: fb5cd1b1-c034-55a5-bcc4-b1f66ba03498
 ---

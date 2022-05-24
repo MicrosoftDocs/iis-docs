@@ -1,6 +1,7 @@
 ---
-title: "OutputCacheProfile Class"
-ms.date: "10/07/2016"
+title: OutputCacheProfile Class
+description: Describes the OutputCacheProfile class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d61ba4fe-4570-e1a3-62ca-db897a24de99
 ---
 # OutputCacheProfile Class

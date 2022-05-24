@@ -1,5 +1,6 @@
 ---
-title: IDbViewManager.DropView Method  (Microsoft.Web.Management.DatabaseManager)
+title: IDbViewManager.DropView Method (Microsoft.Web.Management.DatabaseManager)
+description: "This article shows syntax, parameters, remarks, code examples, and permissions for DropView Method, which removes a view from the database."
 TOCTitle: DropView Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.DropView(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbviewmanager.dropview(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: Table Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Table Properties
+description: "List of members exposed by the Table type including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.Table
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table_properties(v=VS.90)
 ms:contentKeyID: 20476626

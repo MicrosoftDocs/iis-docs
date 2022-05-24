@@ -1,6 +1,7 @@
 ---
-title: "BasicAuthenticationSection Class"
-ms.date: "10/07/2016"
+title: BasicAuthenticationSection Class
+description: Describes the BasicAuthenticationSection class and provides the class' syntax, methods, properties, examples, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 55a1ded7-a01b-c38c-b661-ea61ab261400
 ---
 # BasicAuthenticationSection Class

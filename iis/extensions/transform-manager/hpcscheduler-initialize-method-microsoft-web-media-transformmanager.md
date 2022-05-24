@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.Initialize Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the syntax for the Initialize method. It sets the name, priority, and properties for this scheduler instance.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.Initialize(System.String,Microsoft.Web.Media.TransformManager.Credential,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.initialize(v=VS.90)

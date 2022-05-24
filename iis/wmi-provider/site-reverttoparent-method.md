@@ -1,5 +1,6 @@
 ---
 title: "Site.RevertToParent Method1"
+description: "This article shares syntax, parameters, remarks, an example, and system requirements for the Site.RevertToParent Method1, a Method which reverts a Web site configuration value or values to the default."
 ms.date: "10/07/2016"
 ms.assetid: 8bf5c02f-2b11-458a-830a-4cb6d255a4d5
 ---

@@ -1,6 +1,7 @@
 ---
 title: JobDetails.StatusString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: StatusString Property
+description: Describes the JobDetails.StatusString property and provides the field's namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.StatusString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.statusstring(v=VS.90)
 ms:contentKeyID: 35521034

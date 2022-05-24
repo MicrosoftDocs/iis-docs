@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.ConcurrentJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConcurrentJobs Property
+description: "The JobDefinition.ConcurrentJobs property gets or sets the number of concurrent jobs that the job manager can start when it uses this job definition."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.ConcurrentJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.concurrentjobs(v=VS.90)
 ms:contentKeyID: 35520819

@@ -1,6 +1,7 @@
 ---
-title: "IAppHostSectionDefinition Interface"
-ms.date: "10/07/2016"
+title: IAppHostSectionDefinition Interface
+description: Describes the IAppHostSectionDefinition interface and details its syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 429518b6-f1be-413b-a98c-4cad57b3aaa4
 ---
 # IAppHostSectionDefinition Interface
