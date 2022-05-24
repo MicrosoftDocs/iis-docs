@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService Interface (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax and methods for the IMonitoringService interface. There are also links to reference materials.
 TOCTitle: IMonitoringService Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IMonitoringService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice(v=VS.90)
