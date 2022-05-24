@@ -1,5 +1,6 @@
 ---
 title: AutoRestartOnEncoderReconnect Element
+description: Learn how the AutoRestartOnEncoderReconnect element, for Push publishing points, determines whether the publishing point automatically restarts when new encoder streams are available.
 TOCTitle: AutoRestartOnEncoderReconnect Element
 description: "For Push publishing points, the AutoRestartOnEncoderReconnect element determines whether the publishing point automatically restarts when new encoder streams are available."
 ms:assetid: 5be8acf9-8da5-402f-83fb-938176b74d57

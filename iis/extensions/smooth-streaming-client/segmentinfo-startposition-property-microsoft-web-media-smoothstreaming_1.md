@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SegmentInfo.StartPosition property gets the maximum of the start times of the first audio chunk and first video chunk.
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.startposition(v=VS.95)

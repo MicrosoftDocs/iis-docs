@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.ContinueProcessing Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the CacheResponse.ContinueProcessing property gets a Boolean value indicating whether cache response processing continues to the next cache module in case of a cache miss.
 TOCTitle: ContinueProcessing Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContinueProcessing
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.continueprocessing(v=VS.95)
