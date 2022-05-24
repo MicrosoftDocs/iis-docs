@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.ChildStreams Property
+description: Describes the ManifestStream.ChildStreams property and provides the property's syntax, property value, and requirements.
 TOCTitle: ChildStreams Property
 ms:assetid: 5a4899ff-d440-423f-baa2-543c9ce634cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822739(v=VS.90)

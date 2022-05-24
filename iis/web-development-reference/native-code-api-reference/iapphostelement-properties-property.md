@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::Properties Property"
+description: "The IAppHostElementProperties property gets the collection of properties that are defined for the current element."
 ms.date: "10/07/2016"
 ms.assetid: 357d4d6b-291c-90ec-a39b-59f6de3fdd61
 ---

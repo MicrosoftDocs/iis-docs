@@ -1,5 +1,6 @@
 ---
 title: "ISendResponseProvider::GetFlags Method"
+description: Learn how the ISendResponseProvider::GetFlags method retrieves the flags for the current HTTP response.
 ms.date: "10/07/2016"
 ms.assetid: 3062e690-a714-515f-bdc8-7f7ec38716e9
 ---

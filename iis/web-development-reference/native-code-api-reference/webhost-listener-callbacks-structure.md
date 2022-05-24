@@ -1,6 +1,7 @@
 ---
-title: "WEBHOST_LISTENER_CALLBACKS Structure"
-ms.date: "10/07/2016"
+title: WEBHOST_LISTENER_CALLBACKS Structure
+description: Describes the WEBHOST_LISTENER_CALLBACKS structure, details its syntax and requirements, and lists its members.
+ms.date: 10/07/2016
 ms.assetid: e8978941-3c73-cf7f-c3eb-3375e7d12b85
 ---
 # WEBHOST_LISTENER_CALLBACKS Structure

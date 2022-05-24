@@ -1,5 +1,6 @@
 ---
 title: TaskStatus.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
+description: SetTaskIndex Method sets the index of the task to be performed by the scheduler.
 TOCTitle: SetTaskIndex Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskIndex(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.settaskindex(v=VS.90)

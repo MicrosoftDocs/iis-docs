@@ -1,6 +1,7 @@
 ---
 title: JobManifest.FileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FileName Property
+description: This article contains syntax, property value, and reference information for the JobManifest.FileName property.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.filename(v=VS.90)
 ms:contentKeyID: 35520861

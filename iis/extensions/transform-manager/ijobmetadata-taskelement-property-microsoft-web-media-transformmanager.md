@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata.TaskElement Property (Microsoft.Web.Media.TransformManager)
+description: "This article shows the syntax of the TaskElement Property, which gets the task element from the manifest."
 TOCTitle: TaskElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.TaskElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata.taskelement(v=VS.90)

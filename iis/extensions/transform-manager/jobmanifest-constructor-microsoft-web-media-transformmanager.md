@@ -1,6 +1,7 @@
 ---
 title: JobManifest Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManifest Constructor
+description: "The JobManifest constructor initializes a new instance of the JobManifest class. This article describes its syntax."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.jobmanifest(v=VS.90)
 ms:contentKeyID: 35520909

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistProvider Interface
+description: Describes the IPlaylistProvider interface and lists its members with links to corresponding documentation.
 TOCTitle: IPlaylistProvider Interface
 ms:assetid: b4baeec6-a0f6-4a22-9278-0611b29818e9
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146285(v=VS.90)

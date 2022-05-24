@@ -1,6 +1,7 @@
 ---
 title: "IUriKey::GetSiteName Method"
-ms.date: "10/07/2016"
+description: "Describes the IUriKey::GetSiteName method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c2e5a65e-b0c5-e25c-411b-5e742e1ea77c
 ---
 # IUriKey::GetSiteName Method

@@ -1,5 +1,6 @@
 ---
 title: "CompilerSettings Class"
+description: "The CompilerSettings Class contains compilers that are used for Web applications. This article details its syntax, methods, properties, inheritance hierarchy, and system requirements."
 ms.date: "10/07/2016"
 ms.assetid: eb08e62f-1a91-422d-265d-04fdcd47dac0
 ---

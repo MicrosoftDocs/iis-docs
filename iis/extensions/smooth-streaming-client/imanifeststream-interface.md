@@ -1,5 +1,6 @@
 ---
 title: IManifestStream Interface
+description: Describes the IManifestStream interface and provides the interface's syntax, members, methods, properties, and requirements.
 TOCTitle: IManifestStream Interface
 ms:assetid: ddaf345c-e931-40e2-82eb-e819f04876d2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822846(v=VS.90)

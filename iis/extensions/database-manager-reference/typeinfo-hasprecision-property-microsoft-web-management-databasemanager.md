@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.HasPrecision Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the TypeInfo.HasPrecision property.
 TOCTitle: HasPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.HasPrecision
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.hasprecision(v=VS.90)

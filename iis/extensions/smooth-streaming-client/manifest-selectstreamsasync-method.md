@@ -1,6 +1,7 @@
 ---
 title: Manifest.SelectStreamsAsync Method
 TOCTitle: SelectStreamsAsync Method
+description: Select the streams in the current manifest.
 ms:assetid: 839f4238-95ce-466f-b41a-4d8db65542ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822765(v=VS.90)
 ms:contentKeyID: 50079520

@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusCode Property
+description: "The CacheResponse.StatusCode property is a System.Net.HTTPStatusCode enumeration object. This article describes its syntax and version information."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusCode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.statuscode(v=VS.95)
 ms:contentKeyID: 46307747

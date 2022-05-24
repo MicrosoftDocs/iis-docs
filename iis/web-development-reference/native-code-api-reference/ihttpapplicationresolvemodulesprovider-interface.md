@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplicationResolveModulesProvider Interface"
+description: Learn how the IHttpApplicationResolveModulesProvider interface provides an interface for registering HTTP modules. 
 ms.date: "10/07/2016"
 ms.assetid: 25a6eaf7-468a-fba7-ac30-54cf1af989ec
 ---

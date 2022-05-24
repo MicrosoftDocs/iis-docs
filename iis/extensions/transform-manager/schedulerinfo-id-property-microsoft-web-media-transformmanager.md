@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.Id Property (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax and property value information for the SchedulerInfo.Id, with links to reference materials.
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.Id
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.id(v=VS.90)

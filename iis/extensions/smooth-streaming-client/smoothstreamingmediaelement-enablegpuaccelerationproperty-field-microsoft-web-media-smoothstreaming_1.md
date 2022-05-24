@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.EnableGPUAccelerationProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.EnableGPUAccelerationProperty field and details its namespace, assembly, and syntax.
 TOCTitle: EnableGPUAccelerationProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EnableGPUAccelerationProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.enablegpuaccelerationproperty(v=VS.95)

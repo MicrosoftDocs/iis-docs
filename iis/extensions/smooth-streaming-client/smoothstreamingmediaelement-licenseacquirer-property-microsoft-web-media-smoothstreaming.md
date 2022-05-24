@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.LicenseAcquirer Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.LicenseAcquirer property.
 TOCTitle: LicenseAcquirer Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LicenseAcquirer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.licenseacquirer(v=VS.90)

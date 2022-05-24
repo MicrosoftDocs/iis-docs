@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.CommandLine Property (Microsoft.Web.Media.TransformManager)
+description: CommandLine Property gets or sets a command line for the task.
 TOCTitle: CommandLine Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLine
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.commandline(v=VS.90)

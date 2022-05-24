@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::CancelIo Method"
+description: Learn how the CancelIo method cancels any pending send or receive operations.
 ms.date: "10/07/2016"
 ms.assetid: 19c06998-0eb7-41f9-81b2-7fd0278dac34
 ---

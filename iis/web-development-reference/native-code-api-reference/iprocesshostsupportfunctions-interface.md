@@ -1,6 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions Interface"
-ms.date: "10/07/2016"
+title: IProcessHostSupportFunctions Interface
+description: Describes the IProcessHostSupportFunctions interface and details its syntax, methods, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0e13e83c-9f64-b9a0-ff4c-0138931fb70d
 ---
 # IProcessHostSupportFunctions Interface

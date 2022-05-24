@@ -1,5 +1,6 @@
 ---
 title: "WPF_SETTINGS_HANDLE_ENUM Enumeration"
+description: Learn how the WPF_SETTINGS_HANDLE_ENUM enumeration defines the HANDLE values that the IWpfSettings::GetHandleProperty method returns.
 ms.date: "10/07/2016"
 ms.assetid: 81a84a38-c9ab-323f-f181-8379d50c26c8
 ---

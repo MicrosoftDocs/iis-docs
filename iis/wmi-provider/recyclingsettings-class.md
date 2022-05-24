@@ -1,5 +1,6 @@
 ---
 title: "RecyclingSettings Class1"
+description: Specifies recycling settings for worker processes.  
 ms.date: "10/07/2016"
 ms.assetid: dee0e6af-883c-f4ac-ee15-d2de53ddb010
 ---

@@ -1,5 +1,6 @@
 ---
 title: TypeInfo Properties (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo properties and provides a table that outlines the name and description for various property types.
 TOCTitle: TypeInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo_properties(v=VS.90)

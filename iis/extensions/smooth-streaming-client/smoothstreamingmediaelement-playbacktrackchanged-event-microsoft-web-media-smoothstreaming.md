@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PlaybackTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the PlaybackTrackChanged event which occurs when the currently playing track changes.
 TOCTitle: PlaybackTrackChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackTrackChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.playbacktrackchanged(v=VS.90)

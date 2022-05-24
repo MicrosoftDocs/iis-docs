@@ -1,5 +1,6 @@
 ---
 title: SetPlaybackRangeCompletedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the SetPlaybackRangeCompletedEventArgs methods. There are also links to reference materials.
 TOCTitle: SetPlaybackRangeCompletedEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs_methods(v=VS.95)

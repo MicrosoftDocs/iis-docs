@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::RemoveFragmentFromCache Method"
+description: Learn how the IHttpServer::RemoveFragmentFromCache method removes a specific fragment from the cache.
 ms.date: "10/07/2016"
 ms.assetid: d2fcb067-d89b-e57f-4faf-8f38d79843f8
 ---

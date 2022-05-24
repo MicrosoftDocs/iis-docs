@@ -1,6 +1,7 @@
 ---
-title: "HTTP_TRACE_EVENT Structure"
-ms.date: "10/07/2016"
+title: HTTP_TRACE_EVENT Structure
+description: Describes the HTTP_TRACE_EVENT structure and details its syntax, members, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3e72fafd-2422-eb83-1e1f-4359f65ff06e
 ---
 # HTTP_TRACE_EVENT Structure

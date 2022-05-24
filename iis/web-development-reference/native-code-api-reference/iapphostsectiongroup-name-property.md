@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionGroup::Name Property"
+description: IAppHostSectionGroup::Name Property gets the name of the configuration section group.
 ms.date: "10/07/2016"
 ms.assetid: 94c060aa-b3e8-6a90-aeca-f11efc16ffa4
 ---

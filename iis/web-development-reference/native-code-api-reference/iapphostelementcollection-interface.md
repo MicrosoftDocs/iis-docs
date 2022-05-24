@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementCollection Interface"
+description: "The IAppHostElementCollection interface represents a collection of IAppHostElement interfaces."
 ms.date: "10/07/2016"
 ms.assetid: 93b238c5-ad20-6322-59c6-6d61b1b120bc
 ---

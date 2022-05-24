@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.NameElement Property (Microsoft.Web.Media.TransformManager)
+description: Describes the NameElement property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: NameElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.NameElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.nameelement(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerCpuDisplayUnit Property (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the SchedulerCpuDisplayUnit property which gets or sets an HPC CPU unit value.
 TOCTitle: SchedulerCpuDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpudisplayunit(v=VS.90)

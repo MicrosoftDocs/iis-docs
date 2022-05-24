@@ -1,5 +1,6 @@
 ---
 title: InputStreams Element
+description: Describes the InputStreams element, which provides summary information about live Smooth Streams, and details its child elements and parent elements.
 TOCTitle: InputStreams Element
 ms:assetid: 3fb98cb2-036a-43e6-939e-ba83892df9ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547034(v=VS.90)

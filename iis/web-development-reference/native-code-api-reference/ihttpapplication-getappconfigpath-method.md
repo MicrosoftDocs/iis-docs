@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplication::GetAppConfigPath Method"
+description: IHttpApplication::GetAppConfigPath Method retrieves the application configuration path.
 ms.date: "10/07/2016"
 ms.assetid: 03799acd-fcad-0c04-f840-6065198e4c97
 ---

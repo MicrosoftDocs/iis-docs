@@ -1,5 +1,6 @@
 ---
 title: "ProxySettings Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ProxySettings class.
 ms.date: "10/07/2016"
 ms.assetid: f5126ff9-aa48-48ca-ff1f-e1da8eb99fc1
 ---

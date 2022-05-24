@@ -1,14 +1,15 @@
 ---
 title: LoadManagedRuntimeEx function
+description: Describes the LoadManagedRuntimeEx function and details the function's syntax, parameters, and requirements.
 ms.date: 02/03/2021
 api_name:
   - LoadManagedRuntimeEx
 api_location:
-  - "webengine4.dll"
+  - webengine4.dll
 api_type:
-  - "DLLExport"
+  - DLLExport
 topic_type:
-  - "apiref"
+  - apiref
 ---
 # LoadManagedRuntimeEx function
 

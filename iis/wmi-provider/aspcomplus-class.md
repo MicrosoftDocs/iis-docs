@@ -1,5 +1,6 @@
 ---
 title: "AspComPlus Class"
+description: "The AspComPlus class exposes properties related to COM+. A list is provided of those properties and a list of possible values for the AppServiceFlags property."
 ms.date: "10/07/2016"
 ms.assetid: 8aea95ad-b8a7-6ba0-1155-f1000b176bfd
 ---

@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the CacheRequest constructor, with links to reference materials.
 TOCTitle: CacheRequest Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.95)

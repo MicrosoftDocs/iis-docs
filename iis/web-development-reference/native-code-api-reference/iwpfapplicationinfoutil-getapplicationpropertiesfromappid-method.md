@@ -1,6 +1,7 @@
 ---
 title: "IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d6401224-4d22-a604-2afe-18fba495f7bd
 ---
 # IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method

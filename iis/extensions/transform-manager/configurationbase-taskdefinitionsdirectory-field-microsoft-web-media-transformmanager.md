@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.TaskDefinitionsDirectory Field (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDefinitionsDirectory field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: TaskDefinitionsDirectory Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ConfigurationBase.TaskDefinitionsDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.taskdefinitionsdirectory(v=VS.90)

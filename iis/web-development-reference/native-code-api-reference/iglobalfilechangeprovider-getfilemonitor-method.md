@@ -1,5 +1,6 @@
 ---
 title: "IGlobalFileChangeProvider::GetFileMonitor Method"
+description: Learn how the IGlobalFileChangeProvider::GetFileMonitor method returns an IHttpFileMonitor file-change monitor.
 ms.date: "10/07/2016"
 ms.assetid: 899ac7c8-6596-e1a0-b5b2-4ee7abe6863e
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::ChildElements Property"
+description: Describes the IAppHostElement::ChildElements property and provides syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 0cd7c82f-59a3-c8c3-2e34-78bcf5b601cd
 ---

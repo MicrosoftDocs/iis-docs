@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager.GetStoredProcedureEditStatement Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbStoredProcedureManager.GetStoredProcedureEditStatement method and provides the method's syntax, remarks, and permissions.
 TOCTitle: GetStoredProcedureEditStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureEditStatement(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedureeditstatement(v=VS.90)

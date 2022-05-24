@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConstantValueCollection Interface"
-ms.date: "10/07/2016"
+title: IAppHostConstantValueCollection Interface
+description: Describes the IAppHostConstantValueCollection interface and details its syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 90e2f8f5-7b99-40c5-a911-a583abc73080
 ---
 # IAppHostConstantValueCollection Interface

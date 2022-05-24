@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.AssetRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the AssetRetentionPeriodMinutes property and gets or sets the number of minutes that the asset files are retained.
 TOCTitle: AssetRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodMinutes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.assetretentionperiodminutes(v=VS.90)

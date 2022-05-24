@@ -1,5 +1,6 @@
 ---
 title: EventViewer Class (Microsoft.Web.Media.TransformManager)
+description: EventViewer Class provides event details that are written to an event viewer for an IIS Transform Manager job.
 TOCTitle: EventViewer Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.EventViewer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer(v=VS.90)

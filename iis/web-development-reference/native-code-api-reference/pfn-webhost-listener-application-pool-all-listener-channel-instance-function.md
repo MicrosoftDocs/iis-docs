@@ -1,6 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function"
-ms.date: "10/07/2016"
+title: PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
+description: Describes the PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE function and details its parameters and requirements.
+ms.date: 10/07/2016
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instance-function
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function

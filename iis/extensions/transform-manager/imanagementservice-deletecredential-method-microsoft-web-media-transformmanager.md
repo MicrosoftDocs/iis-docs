@@ -1,5 +1,6 @@
 ---
 title: IManagementService.DeleteCredential Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the DeleteCredential method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: DeleteCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.DeleteCredential(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.deletecredential(v=VS.90)

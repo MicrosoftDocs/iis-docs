@@ -1,5 +1,6 @@
 ---
 title: "Microsoft.Web.Diagnostics (IIS Express)"
+description: "The Microsoft.Web.Diagnostics namespace includes classes that provide diagnostics messages for IIS Express failure conditions."
 ms.date: "10/07/2016"
 ms.assetid: 4fb1afc8-df55-4a96-bd13-04f4b03f3c98
 ---

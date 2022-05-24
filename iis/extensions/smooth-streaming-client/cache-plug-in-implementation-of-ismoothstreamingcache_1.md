@@ -1,5 +1,6 @@
 ---
 title: Cache Plug-in Implementation of ISmoothStreamingCache
+description: Learn how the Smooth Streaming Client provides the ISmoothStreamingCache interface to support offline scenarios.
 TOCTitle: Cache Plug-in Implementation of ISmoothStreamingCache
 ms:assetid: 6f24c4c0-5aef-4f24-ba9f-d0ed902e68a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg296362(v=VS.95)

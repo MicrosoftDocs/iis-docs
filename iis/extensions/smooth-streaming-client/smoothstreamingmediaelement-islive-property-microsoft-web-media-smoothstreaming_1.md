@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsLive Property (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SmoothStreamingMediaElement.IsLive property and gets or sets a value to indicates the current position for a live broadcast.
 TOCTitle: IsLive Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsLive
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.islive(v=VS.95)

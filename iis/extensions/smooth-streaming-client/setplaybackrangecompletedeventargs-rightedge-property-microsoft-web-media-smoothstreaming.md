@@ -1,6 +1,7 @@
 ---
 title: SetPlaybackRangeCompletedEventArgs.RightEdge Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RightEdge Property
+description: "The SetPlaybackRangeCompletedEventArgs.RightEdge property gets the player application's expected right-most position or chunk timestamp."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.RightEdge
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.rightedge(v=VS.95)
 ms:contentKeyID: 46307795

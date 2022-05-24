@@ -1,5 +1,6 @@
 ---
 title: "CachingSection Class"
+description: "The CachingSection class configures output and kernel caching. This article describes its syntax, methods, properties, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 0353b00e-efaf-761b-2218-178cf807c834
 ---

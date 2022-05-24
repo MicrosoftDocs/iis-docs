@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ChunkDownloadedEventArgs type exposes the members described in this article.
 TOCTitle: ChunkDownloadedEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs_properties(v=VS.95)

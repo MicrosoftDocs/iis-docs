@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSourceOpenedEvent Event
 TOCTitle: AdaptiveSourceOpenedEvent Event
+description: "The AdaptiveSourceManager.AdaptiveSourceOpenedEvent event adds/removes a subscription to AdaptiveSourceOpenedEvent events, which fire when the Adaptive Source is opened."
 ms:assetid: b77b4f93-3775-46ae-b986-ddc53e532400
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822816(v=VS.90)
 ms:contentKeyID: 50079570

@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.Type Property (Microsoft.Web.Media.SmoothStreaming)
+description: StreamInfo.Type Property gets or sets the Type property.
 TOCTitle: Type Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Type
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.type(v=VS.95)

@@ -1,6 +1,7 @@
 ---
-title: "ApplicationPoolFailureSettings Class1"
-ms.date: "10/07/2016"
+title: ApplicationPoolFailureSettings Class1
+description: Describes the ApplicationPoolFailureSettings Class and details its syntax, properties, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8e1aa657-4665-39cb-afee-d927d33c3f85
 ---
 # ApplicationPoolFailureSettings Class1

@@ -1,5 +1,6 @@
 ---
 title: JobTemplate.TaskDefinitions Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the TaskDefinitions property gets or sets a collection of the task definitions for the job template.
 TOCTitle: TaskDefinitions Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.TaskDefinitions
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.taskdefinitions(v=VS.90)

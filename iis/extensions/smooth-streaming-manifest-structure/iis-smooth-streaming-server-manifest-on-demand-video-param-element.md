@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - video param Element
+description: IIS Smooth Streaming Server Manifest video param element specifies a single parameter for the video.
 TOCTitle: <param>
 ms:assetid: ca32dcba-7a17-4ec9-b8d9-f5bb8f221354
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230818(v=VS.90)

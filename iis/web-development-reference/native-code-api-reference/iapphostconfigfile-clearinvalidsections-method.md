@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::ClearInvalidSections Method"
+description: Learn how the IAppHostConfigFile::ClearInvalidSections method removes invalid configuration sections from a configuration file. 
 ms.date: "10/07/2016"
 ms.assetid: 48ec1fd6-938f-39e8-d624-eb3c73972730
 ---

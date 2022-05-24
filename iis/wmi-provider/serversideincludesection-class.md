@@ -1,6 +1,7 @@
 ---
-title: "ServerSideIncludeSection Class"
-ms.date: "10/07/2016"
+title: ServerSideIncludeSection Class
+description: Describes the ServerSideIncludeSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2f90a8c0-35ec-4c82-460a-03ea1f24a094
 ---
 # ServerSideIncludeSection Class

@@ -1,6 +1,7 @@
 ---
 title: Query Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Query Methods
+description: This article contains methods and references for the Query methods.
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Query
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query_methods(v=VS.90)
 ms:contentKeyID: 22049494

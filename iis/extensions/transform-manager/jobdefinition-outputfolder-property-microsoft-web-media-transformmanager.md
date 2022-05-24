@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
+description: "The JobDefinition.OutputFolder property gets or sets the output folder for a job and supports the IIS Transform Manager infrastructure."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.OutputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.outputfolder(v=VS.90)
 ms:contentKeyID: 35520569

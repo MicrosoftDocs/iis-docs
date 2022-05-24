@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs.LogSource Property (Microsoft.Web.Media.SmoothStreaming)
+description: SSMELogReadyRoutedEventArgs.LogSource Property gets a value that indicates why a log is generated.
 TOCTitle: LogSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.LogSource
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.logsource(v=VS.95)

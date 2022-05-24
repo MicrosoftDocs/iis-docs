@@ -1,6 +1,7 @@
 ---
-title: "IFileKey Interface"
-ms.date: "10/07/2016"
+title: IFileKey Interface
+description: Describes the IFileKey interface and details its syntax, methods, derived classes, remarks, code example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f99a547e-97e3-0298-09df-297719c95c20
 ---
 # IFileKey Interface

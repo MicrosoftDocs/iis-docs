@@ -1,6 +1,7 @@
 ---
 title: "IWpfListenerChannelCallback::ReportStarted Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfListenerChannelCallback::ReportStarted method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 8f6cbccd-addf-2518-4f9c-bad648898483
 ---
 # IWpfListenerChannelCallback::ReportStarted Method

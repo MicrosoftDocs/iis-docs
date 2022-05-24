@@ -1,5 +1,6 @@
 ---
 title: DownloaderResponse.Headers Property
+description: Describes the DownloaderResponse.Headers property and provides the property's syntax, property value, and requirements.
 TOCTitle: Headers Property
 ms:assetid: 184557ee-7d91-463a-926a-fbf9de688344
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822687(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: TaskDetails.TaskIndex Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TaskDetails.TaskIndex property, with links to reference materials.
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails.taskindex(v=VS.90)

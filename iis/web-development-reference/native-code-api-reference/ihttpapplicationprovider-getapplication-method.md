@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplicationProvider::GetApplication Method"
+description: Learn how the GetApplication method retrieves an IHttpApplication interface.
 ms.date: "10/07/2016"
 ms.assetid: 0fe58b12-e575-f28c-028e-1235e6f2d321
 ---

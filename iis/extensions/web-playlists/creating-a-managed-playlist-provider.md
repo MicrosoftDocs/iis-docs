@@ -1,5 +1,6 @@
 ---
 title: Creating a Managed Playlist Provider
+description: Describes the process of creating a managed playlist provider and displays a table that outlines the description for various sections.
 TOCTitle: Creating a Managed Playlist Provider
 ms:assetid: 5e110f4b-49ff-491f-9b7e-c9254e2c9597
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146272(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::NotifyCustomNotification Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::NotifyCustomNotification method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: fa61640c-8bb4-fb19-c69e-7219a3260fca
 ---
 # IHttpServer::NotifyCustomNotification Method

@@ -1,5 +1,6 @@
 ---
-title: "Tracing Constants"
+title: Tracing Constants
+description: Describes the Httptrace.h header file constants, details their requirements, and provides lists of the tracing constants and tracing GUIDs.
 ms.date: "10/07/2016"
 ms.assetid: 03514e54-e634-49d2-ac3f-08866fca03ee
 ---

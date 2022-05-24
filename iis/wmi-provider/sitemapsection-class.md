@@ -1,5 +1,6 @@
 ---
 title: "SiteMapSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SiteMapSection class.
 ms.date: "10/07/2016"
 ms.assetid: a84bf3e2-4778-07c5-c157-c2c70d36cb18
 ---

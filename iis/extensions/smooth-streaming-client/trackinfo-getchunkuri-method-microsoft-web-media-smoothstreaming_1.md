@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.GetChunkUri Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo.GetChunkUri method and provides the method's namespace, assembly, syntax, parameters, and version information.
 TOCTitle: GetChunkUri Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.GetChunkUri(System.TimeSpan)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.getchunkuri(v=VS.95)

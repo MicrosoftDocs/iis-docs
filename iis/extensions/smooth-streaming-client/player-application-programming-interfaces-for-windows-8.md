@@ -1,5 +1,6 @@
 ---
 title: Player Application Programming Interfaces for Windows 8
+description: Describes the application programming interfaces for Windows 8 and provides a reference section that describes each API in the namespace.
 TOCTitle: Player Application Programming Interfaces for Windows 8
 ms:assetid: 9b11d8eb-6663-4507-a53a-faba4ad4d9c3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573695(v=VS.90)

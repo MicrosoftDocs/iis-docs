@@ -1,5 +1,6 @@
 ---
 title: Column.Changes Property (Microsoft.Web.Management.DatabaseManager)
+description: "The Colum.Changes Property gets or sets the flags that indicate which changes are pending for the database column. This article outlines its syntax, property value, and permissions."
 TOCTitle: Changes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Changes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.changes(v=VS.90)

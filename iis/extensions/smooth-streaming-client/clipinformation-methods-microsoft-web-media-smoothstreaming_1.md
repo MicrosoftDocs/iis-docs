@@ -1,6 +1,7 @@
 ---
 title: ClipInformation Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Methods
+description: "List of the members exposed by the ClipInformation type, including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation_methods(v=VS.95)
 ms:contentKeyID: 46307585

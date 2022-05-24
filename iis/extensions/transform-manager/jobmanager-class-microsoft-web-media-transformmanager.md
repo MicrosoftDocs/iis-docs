@@ -1,5 +1,6 @@
 ---
 title: JobManager Class (Microsoft.Web.Media.TransformManager)
+description: Describes the JobManager class and details its inheritance hierarchy, syntax, properties, methods, events, and thread safety.
 TOCTitle: JobManager Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager(v=VS.90)

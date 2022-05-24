@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer2::GetAppPoolConfigFile Method"
+description: IHttpServer2::GetAppPoolConfigFile Method retrieves the path of the application pool’s configuration file.
 ms.date: "10/07/2016"
 ms.assetid: 9c43fdc5-be61-4557-8873-5af3c4f806af
 ---

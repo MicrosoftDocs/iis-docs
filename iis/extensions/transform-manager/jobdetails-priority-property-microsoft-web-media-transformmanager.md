@@ -1,6 +1,7 @@
 ---
 title: JobDetails.Priority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Priority Property
+description: "The JobDetails.Priority property gets or sets the priority of the job. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Priority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.priority(v=VS.90)
 ms:contentKeyID: 35520884

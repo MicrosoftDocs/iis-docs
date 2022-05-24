@@ -1,5 +1,6 @@
 ---
 title: "IHttpCacheSpecificData::ReferenceCacheData Method"
+description: IHttpCacheSpecificData::ReferenceCacheData Method increments the internal reference count for the cached data.
 ms.date: "10/07/2016"
 ms.assetid: e200bb07-9b60-ec28-fe4d-c2c24643c3de
 ---

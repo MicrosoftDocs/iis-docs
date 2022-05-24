@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingErrorEventArgs.ErrorMessage Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ErrorMessage property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: ErrorMessage Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errormessage(v=VS.90)

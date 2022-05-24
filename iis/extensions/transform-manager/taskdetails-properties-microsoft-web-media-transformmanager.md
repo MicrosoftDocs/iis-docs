@@ -1,5 +1,6 @@
 ---
 title: TaskDetails Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDetails properties and provides a table that outlines the name and description for various property types.
 TOCTitle: TaskDetails Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.TaskDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails_properties(v=VS.90)

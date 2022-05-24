@@ -1,5 +1,6 @@
 ---
 title: "IAppHostAdminManager::SetMetadata Method"
+description: Learn how the IAppHostAdminManager::SetMetadata method sets metadata values in the IIS 7 configuration system.
 ms.date: "10/07/2016"
 ms.assetid: 1fb582bf-d87e-7f90-6846-f1e00bce9b70
 ---

@@ -1,6 +1,7 @@
 ---
 title: "IMetadataInfo::GetVrPath Method"
-ms.date: "10/07/2016"
+description: "Describes the IMetadataInfo::GetVrPath method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 59cc1bc2-1437-2ecc-cfae-a2ffbaed9130
 ---
 # IMetadataInfo::GetVrPath Method

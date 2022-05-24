@@ -1,6 +1,7 @@
 ---
 title: JobScheduler.ConcurrentJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConcurrentJobs Property
+description: "The JobScheduler.ConcurrentJobs property gets or sets the number of concurrent jobs that this scheduler can run."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.ConcurrentJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.concurrentjobs(v=VS.90)
 ms:contentKeyID: 35520744

@@ -1,6 +1,7 @@
 ---
-title: "TypeElement Class"
-ms.date: "10/07/2016"
+title: TypeElement Class
+description: Describes the TypeElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8103c618-5040-16d7-3708-0b5a74b3b95e
 ---
 # TypeElement Class

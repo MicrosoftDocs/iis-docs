@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsLogFolder Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetailsLogFolder field and provides the filed's namespace, assembly, syntax, and additional references.
 TOCTitle: JobDetailsLogFolder Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsLogFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailslogfolder(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSourceStatusUpdatedEvent Event
 TOCTitle: AdaptiveSourceStatusUpdatedEvent Event
+description: Adds or removes a subscription to AdaptiveSourceStatusUpdatedEvent events.
 ms:assetid: fa8b8e57-c632-45b5-b9da-c65e5bc271de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822875(v=VS.90)
 ms:contentKeyID: 50079629
