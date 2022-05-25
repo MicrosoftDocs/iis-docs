@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobSchedulerId Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobSchedulerId property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: JobSchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobschedulerid(v=VS.90)

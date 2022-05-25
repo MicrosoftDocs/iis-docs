@@ -1,6 +1,7 @@
 ---
-title: "IMapHandlerProvider::SetScriptName Method"
-ms.date: "10/07/2016"
+title: IMapHandlerProvider::SetScriptName Method
+description: Describes the IMapHandlerProvider::SetScriptName method and provides the method's syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 73a6422e-0505-3923-d4e4-85b5d988bc20
 ---
 # IMapHandlerProvider::SetScriptName Method

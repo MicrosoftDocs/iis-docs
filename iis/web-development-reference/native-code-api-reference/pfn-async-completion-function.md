@@ -1,6 +1,7 @@
 ---
-title: "PFN_ASYNC_COMPLETION function"
-ms.date: "10/07/2016"
+title: PFN_ASYNC_COMPLETION function
+description: Describes the PFN_ASYNC_COMPLETION function and provides the function's syntax, parameters, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b67d92d6-e099-4a9a-9862-993f00ff395b
 ---
 # PFN_ASYNC_COMPLETION function

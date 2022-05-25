@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - body Element
+description: Describes the IIS Smooth Streaming Server Manifest (On-Demand) body element and provides the element's child elements and parent elements.
 TOCTitle: <body>
 ms:assetid: 5f4d812d-16ea-4112-809b-9e1e67e72356
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230814(v=VS.90)
