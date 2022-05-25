@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Markers Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Markers property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: Markers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.markers(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - switch Element
+description: Describes the IIS Smooth Streaming Server Manifest (Live) switch element and provides the element's attributes, child and parent elements, and remarks.
 TOCTitle: <switch>
 ms:assetid: 09c33157-d875-4afa-ac0d-5e74e5ddcd0d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673427(v=VS.90)

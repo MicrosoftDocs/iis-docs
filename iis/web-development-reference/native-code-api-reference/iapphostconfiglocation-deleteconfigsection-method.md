@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConfigLocation::DeleteConfigSection Method"
-ms.date: "10/07/2016"
+title: IAppHostConfigLocation::DeleteConfigSection Method
+description: Describes the IAppHostConfigLocation::DeleteConfigSection method and provides the method's syntax, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 98697b04-2d7a-20a5-14c5-95883eed8b2b
 ---
 # IAppHostConfigLocation::DeleteConfigSection Method
