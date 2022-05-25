@@ -1,6 +1,7 @@
 ---
 title: "IAppHostMappingExtension::GetSiteIdFromSiteName Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostMappingExtension::GetSiteIdFromSiteName method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 2653aec1-2aa6-bb86-2790-c6295e15bb17
 ---
 # IAppHostMappingExtension::GetSiteIdFromSiteName Method

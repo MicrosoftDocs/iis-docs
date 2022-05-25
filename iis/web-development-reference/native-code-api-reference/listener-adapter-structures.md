@@ -1,6 +1,7 @@
 ---
-title: "Listener Adapter Structures"
-ms.date: "10/07/2016"
+title: Listener Adapter Structures
+description: Describes the listener adapter structures and provides links to documentation about the webhost listener callback.
+ms.date: 10/07/2016
 ms.assetid: 38a87b10-3b8b-46fd-b3ae-8a2eeae99152
 ---
 # Listener Adapter Structures

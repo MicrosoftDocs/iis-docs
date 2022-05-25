@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage.ObjectId Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationMessage.ObjectId property and details its namespace, assembly, syntax, and property value.
 TOCTitle: ObjectId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.ObjectId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.objectid(v=VS.90)

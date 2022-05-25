@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::GetRemoteUserName Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUser::GetRemoteUserName method and details the syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1feddf04-b7c2-888b-05c4-af1e2478e411
 ---
 # IHttpUser::GetRemoteUserName Method
