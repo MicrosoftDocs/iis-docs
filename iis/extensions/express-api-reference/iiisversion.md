@@ -1,5 +1,6 @@
 ---
 title: "IIISVersion"
+description: "This article shares the syntax of IIISVersion, which returns details about an IIS product version that is installed on the current computer." 
 ms.date: "10/07/2016"
 ms.assetid: 788ea4aa-7117-4ab1-b800-00a29aeb072d
 ---

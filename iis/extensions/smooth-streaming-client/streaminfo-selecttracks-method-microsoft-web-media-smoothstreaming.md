@@ -1,5 +1,6 @@
 ---
-title: StreamInfo.SelectTracks Method  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.SelectTracks Method (Microsoft.Web.Media.SmoothStreaming)
+description: This article provides syntax, parameters, remarks, return value, and a code example of the SelectTracks Method.
 TOCTitle: SelectTracks Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectTracks(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo},System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.selecttracks(v=VS.90)

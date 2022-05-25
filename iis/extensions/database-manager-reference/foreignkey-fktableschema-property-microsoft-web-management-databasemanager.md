@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.FKTableSchema Property (Microsoft.Web.Management.DatabaseManager)
+description: The ForeignKey.FKTableSchema Property gets or sets the schema table name for a foreign key. This article provides its syntax, property value, permissions, and a code example.
 TOCTitle: FKTableSchema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKTableSchema
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.fktableschema(v=VS.90)

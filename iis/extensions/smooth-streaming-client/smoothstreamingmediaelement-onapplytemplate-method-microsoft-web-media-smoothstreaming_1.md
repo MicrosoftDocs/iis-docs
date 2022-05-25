@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.OnApplyTemplate Method  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.OnApplyTemplate Method (Microsoft.Web.Media.SmoothStreaming)
+description: This article details syntax for the OnApplyTemplate Method, which disconnects and connects event handlers and key properties during a template change.
 TOCTitle: OnApplyTemplate Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.OnApplyTemplate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.onapplytemplate(v=VS.95)

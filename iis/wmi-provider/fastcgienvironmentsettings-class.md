@@ -1,5 +1,6 @@
 ---
 title: "FastCgiEnvironmentSettings Class"
+descirption: "The FastCgiEnvironmentSettings Class contains environment variables for the process executable program of an application pool. This article details its syntax, properties, remarks, and inheritance hierarchy."
 ms.date: "10/07/2016"
 ms.assetid: f2bfccf2-95b3-4b6b-af5d-1e631d4babad
 ---

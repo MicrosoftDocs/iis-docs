@@ -1,5 +1,6 @@
 ---
 title: TraceLevel Enumeration (Microsoft.Web.Media.Diagnostics)
+description: This article provides syntax for TraceLevel Enumeration, an enumeration that specifies the severity of a trace event.
 TOCTitle: TraceLevel Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracelevel(v=VS.90)

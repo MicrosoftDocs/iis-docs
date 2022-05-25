@@ -1,5 +1,6 @@
 ---
 title: "StaticContentSection Class"
+description: "The StaticContentSection Class exposes configuration settings for static content on a Web site. This article details its syntax, methods, properties, remarks, a code example, and inheritance hierarchy."
 ms.date: "10/07/2016"
 ms.assetid: 0f53f631-c9e7-5eb6-5bc0-8516079ac610
 ---

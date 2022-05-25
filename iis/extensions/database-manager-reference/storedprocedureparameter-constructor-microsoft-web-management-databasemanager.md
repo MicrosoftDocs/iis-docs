@@ -1,5 +1,6 @@
 ---
-title: StoredProcedureParameter Constructor  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedureParameter Constructor (Microsoft.Web.Management.DatabaseManager)
+description: This article provides syntax and permissions for the StoredProcedureParameter Constructor, which creates a new instance of the StoredProcedureParameter Class.
 TOCTitle: StoredProcedureParameter Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.storedprocedureparameter(v=VS.90)

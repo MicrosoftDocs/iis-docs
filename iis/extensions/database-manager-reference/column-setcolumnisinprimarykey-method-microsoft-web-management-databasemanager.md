@@ -1,5 +1,6 @@
 ---
-title: Column.SetColumnIsInPrimaryKey Method  (Microsoft.Web.Management.DatabaseManager)
+title: Column.SetColumnIsInPrimaryKey Method (Microsoft.Web.Management.DatabaseManager)
+description: This article details syntax, parameters, and permissions for the Column.SetColumnIsInPrimaryKey Method, which specifies the database column as part of the primary key.
 TOCTitle: SetColumnIsInPrimaryKey Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.SetColumnIsInPrimaryKey(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.setcolumnisinprimarykey(v=VS.90)

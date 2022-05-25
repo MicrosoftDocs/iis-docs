@@ -1,5 +1,6 @@
 ---
 title: "ProvidersSettings Class"
+description: "This article provides syntax, properties, remarks, and inheritance hierarchy of the ProvidersSettings Class."
 ms.date: "10/07/2016"
 ms.assetid: b333c163-5099-493a-b4ac-da50c029fd55
 ---
