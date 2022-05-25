@@ -1,6 +1,7 @@
 ---
 title: "IModuleAllocator::AllocateMemory Method"
 ms.date: "10/07/2016"
+description: With IModuleAllocator, the AllocateMemory method allocates a specified amount of memory that is specified by the cbAllocation parameter.
 ms.assetid: 0d96c164-62ed-4ee5-89ad-77961d929411
 ---
 # IModuleAllocator::AllocateMemory Method
