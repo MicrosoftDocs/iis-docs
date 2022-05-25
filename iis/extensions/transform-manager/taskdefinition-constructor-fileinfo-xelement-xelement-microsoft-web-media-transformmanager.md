@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition Constructor (FileInfo, XElement, XElement) (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TaskDefinition constructor. There are also links to reference materials.
 TOCTitle: TaskDefinition Constructor (FileInfo, XElement, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinition(v=VS.90)

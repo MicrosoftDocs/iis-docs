@@ -1,5 +1,6 @@
 ---
 title: JobManifest.JobDetails Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobManifest.JobDetails property, with links to reference materials.
 TOCTitle: JobDetails Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.jobdetails(v=VS.90)

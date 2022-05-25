@@ -1,5 +1,6 @@
 ---
 title: "IProcessHost Interface"
+description: This article has information about syntax, methods, derived classes, inheritance hierarchy, and requirements for the IProcessHost interface.
 ms.date: "10/07/2016"
 ms.assetid: 5bfd0e30-2f05-ddd4-307f-810158e93339
 ---

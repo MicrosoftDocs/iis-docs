@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.StatusDescription Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the CacheResponse.StatusDescription property.
 TOCTitle: StatusDescription Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.statusdescription(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: IIS URL Rewrite
+description: Describes IIS URL Rewrite, which implements URLs that are easier for users to remember and easier for search engines to find.
 TOCTitle: IIS URL Rewrite
 ms:assetid: c544427a-c29d-4a54-a559-530384bbbb81
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh943097(v=VS.90)

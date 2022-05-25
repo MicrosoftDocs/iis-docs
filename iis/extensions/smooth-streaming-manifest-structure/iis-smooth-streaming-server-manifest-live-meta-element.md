@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - meta Element
+description: This article contains information about attributes and elements for the IIS Smooth Streaming Server manifest.
 TOCTitle: <meta>
 ms:assetid: fe6e56c1-2d82-405d-b00b-d843316675ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673446(v=VS.90)

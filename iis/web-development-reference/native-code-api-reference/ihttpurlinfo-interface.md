@@ -1,5 +1,6 @@
 ---
 title: "IHttpUrlInfo Interface"
+description: This article has information about syntax, methods, derived classes, and requirements for the IHttpUrlInfo interface.
 ms.date: "10/07/2016"
 ms.assetid: b167da0a-aa53-2848-82a9-4d741987defc
 ---

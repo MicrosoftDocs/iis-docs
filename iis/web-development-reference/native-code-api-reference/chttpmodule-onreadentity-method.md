@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnReadEntity Method"
+description: This article contains information about syntax, return value, and requirements for the CHttpModule::OnReadEntity method.
 ms.date: "10/07/2016"
 ms.assetid: 97ba205d-2c55-d9e1-c0b1-36928035fd74
 ---

@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsStartTime Field (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobDetails.JobDetailsStartTime field, with links to reference materials.
 TOCTitle: JobDetailsStartTime Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsStartTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsstarttime(v=VS.90)
