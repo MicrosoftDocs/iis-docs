@@ -1,6 +1,7 @@
 ---
 title: JobTemplate.Save Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Save Method
+description: "The JobTemplate.Save method saves a JobTemplate object to a configuration file. This article describes its syntax, parameters, and exceptions."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.Save(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.save(v=VS.90)
 ms:contentKeyID: 35521072
