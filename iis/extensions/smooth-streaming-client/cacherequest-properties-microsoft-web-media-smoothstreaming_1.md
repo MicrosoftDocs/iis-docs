@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the CacheRequest type. There are also links to reference materials.
 TOCTitle: CacheRequest Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest_properties(v=VS.95)
