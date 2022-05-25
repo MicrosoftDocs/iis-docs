@@ -1,6 +1,7 @@
 ---
 title: Tracing.TraceHistoryMaxLines Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceHistoryMaxLines Field
+description: "TraceHistoryMaxLines field represents the maximum trace history size in number of lines. This article describes its syntax and version information."
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracehistorymaxlines(v=VS.95)
 ms:contentKeyID: 46307537
