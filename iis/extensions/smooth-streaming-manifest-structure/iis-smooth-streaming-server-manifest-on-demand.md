@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand)
+description: Learn how the IIS Smooth Streaming Server Manifest allows for a variety of management tasks to be performed without altering the underlying media files.
 TOCTitle: On-Demand Server Manifest
 ms:assetid: 9fafe692-87d3-41d9-a882-76e266f74bf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230817(v=VS.90)

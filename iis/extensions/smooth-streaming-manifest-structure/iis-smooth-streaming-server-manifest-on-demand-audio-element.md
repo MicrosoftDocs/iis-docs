@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - audio Element
+description: Learn how the IIS Smooth Streaming Server Manifest (On-Demand) audio element specifies a single track of audio data.
 TOCTitle: <audio>
 ms:assetid: e23be25a-940f-4124-8bb4-b92aeac7b401
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230819(v=VS.90)
