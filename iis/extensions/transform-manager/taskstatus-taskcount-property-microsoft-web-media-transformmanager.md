@@ -1,6 +1,6 @@
 ---
 title: TaskStatus.TaskCount Property (Microsoft.Web.Media.TransformManager)
-description: Describes the TaskCount property and provides the property's namespace, assembly, syntax, and property value.
+description: This article describes the TaskCount property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskCount
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskcount(v=VS.90)

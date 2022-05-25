@@ -1,5 +1,6 @@
 ---
 title: ClipInformation Constructor (Boolean, Uri, Uri, Duration, ISmoothStreamingCache) (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the ClipInformation constructor. There are also links to reference materials.
 TOCTitle: ClipInformation Constructor (Boolean, Uri, Uri, Duration, ISmoothStreamingCache)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor(System.Boolean,System.Uri,System.Uri,System.Windows.Duration,Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipinformation(v=VS.95)
