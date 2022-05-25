@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
+description:  SubmitJob Method submits a job to the IIS Transform Manager service.
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.SubmitJob(System.String,System.String,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.submitjob(v=VS.90)
