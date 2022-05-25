@@ -1,6 +1,6 @@
 ---
 title: ConfigurationBase.Name Property (Microsoft.Web.Media.TransformManager)
-description: Describes the Name property and provides the property's namespace, assembly, syntax, property value, and remarks.
+description: Describes the Name property and provides the property's namespace, assembly, syntax, property value, remarks, and additional references.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.name(v=VS.90)

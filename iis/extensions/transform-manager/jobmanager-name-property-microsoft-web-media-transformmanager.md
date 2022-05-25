@@ -1,6 +1,6 @@
 ---
 title: JobManager.Name Property (Microsoft.Web.Media.TransformManager)
-description: Describes the Name property and provides the property's namespace, assembly, syntax, property value, and additional references.
+description: Describes the Name property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.name(v=VS.90)
