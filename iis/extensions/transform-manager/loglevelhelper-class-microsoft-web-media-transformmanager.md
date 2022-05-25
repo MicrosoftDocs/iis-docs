@@ -1,5 +1,6 @@
 ---
 title: LogLevelHelper Class (Microsoft.Web.Media.TransformManager)
+description: Describes the LogLevelHelper class and provides the class' inheritance hierarchy, namespace, assembly, syntax, methods, and thread safety.
 TOCTitle: LogLevelHelper Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.LogLevelHelper
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper(v=VS.90)

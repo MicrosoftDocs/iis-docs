@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Constructor  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheRequest constructor and provides a table that outlines the name and description for various method types.
 TOCTitle: CacheRequest Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.cacherequest(v=VS.90)
