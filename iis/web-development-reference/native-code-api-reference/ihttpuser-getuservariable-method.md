@@ -1,7 +1,7 @@
 ---
 title: "IHttpUser::GetUserVariable Method"
 ms.date: "10/07/2016"
-description: The IHttp User Get User Variable Method returns the custom user data by name with a void pointer that contains the upcast data.
+description: The IHttpUser GetUserVariable method returns the custom user data by name with a void pointer that contains the upcast data.
 ms.assetid: 44dee11b-8008-48d9-b6a6-df173acd3507
 ---
 # IHttpUser::GetUserVariable Method

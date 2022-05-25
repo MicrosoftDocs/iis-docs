@@ -1,7 +1,7 @@
 ---
 title: "ISendResponseProvider::SetLogData Method"
 ms.date: "10/07/2016"
-description: ISend Response Provider Set Log Data Method configures logging information for the current response.
+description: ISendResponseProvider SetLogData method configures logging information for the current response.
 ms.assetid: 9862aeef-c8c2-789f-9981-648f4b35271b
 ---
 # ISendResponseProvider::SetLogData Method

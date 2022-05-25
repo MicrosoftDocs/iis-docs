@@ -1,7 +1,7 @@
 ---
 title: "IHttpCompletionInfo::GetCompletionBytes Method"
 ms.date: "10/07/2016"
-description: The IHttp Completion Info, Get Completion Bytes Method, returns the number of bytes completed for an asynchronous operation.
+description: The IHttpCompletionInfo, GetCompletionBytes method returns the number of bytes completed for an asynchronous operation.
 ms.assetid: 1562904a-cf4d-50e3-802d-f11702097944
 ---
 # IHttpCompletionInfo::GetCompletionBytes Method
