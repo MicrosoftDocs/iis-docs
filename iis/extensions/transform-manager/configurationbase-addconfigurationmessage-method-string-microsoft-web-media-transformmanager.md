@@ -1,6 +1,7 @@
 ---
 title: ConfigurationBase.AddConfigurationMessage Method (String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: AddConfigurationMessage Method (String)
+description: Learn how to add the specified message to the IIS Transform Manager configuration.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.addconfigurationmessage(v=VS.90)
 ms:contentKeyID: 35521017

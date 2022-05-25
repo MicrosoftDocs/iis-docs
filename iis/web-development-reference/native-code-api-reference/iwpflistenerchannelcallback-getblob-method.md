@@ -1,6 +1,7 @@
 ---
 title: "IWpfListenerChannelCallback::GetBlob Method"
 ms.date: "10/07/2016"
+description: Learn how to retrieve data that the protocol manager will pass to a listener channel when the protocol manager is starting a listener channel.
 ms.assetid: 31afe7e7-b508-326a-3770-485b4429c29f
 ---
 # IWpfListenerChannelCallback::GetBlob Method

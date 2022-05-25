@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::Flush Method"
 ms.date: "10/07/2016"
+description: Discover how to send the existing content in the response buffer to the client.
 ms.assetid: 2e52ec34-c034-1386-61dc-f36126855931
 ---
 # IHttpResponse::Flush Method
