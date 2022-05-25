@@ -1,5 +1,6 @@
 ---
 title: Task Definition Schema (IIS Transform Manager)
+description: This article defines elements and attributes of the task definition XML specified in the Task Definition schema.
 TOCTitle: Task Definition Schema (IIS Transform Manager)
 ms:assetid: 1d1ca5be-c667-4ec2-b475-9470002893cc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728119(v=VS.90)

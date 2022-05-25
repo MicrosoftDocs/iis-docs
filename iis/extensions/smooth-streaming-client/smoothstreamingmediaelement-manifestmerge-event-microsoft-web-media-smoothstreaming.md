@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ManifestMerge Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.ManifestMerge event.
 TOCTitle: ManifestMerge Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMerge
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestmerge(v=VS.90)
