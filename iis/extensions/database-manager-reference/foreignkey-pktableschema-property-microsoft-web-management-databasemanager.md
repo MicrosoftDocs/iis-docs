@@ -1,6 +1,7 @@
 ---
 title: ForeignKey.PKTableSchema Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: PKTableSchema Property
+description: Gets or sets the schema table name of the primary key.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableSchema
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.pktableschema(v=VS.90)
 ms:contentKeyID: 20476765

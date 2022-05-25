@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition Class (Microsoft.Web.Media.TransformManager)
+description: Learn how the TaskDefinition class represents a single task that defines a transformation process.
 TOCTitle: TaskDefinition Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TaskDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "Native-Code Development Overview"
+description: This article provides a native-code development overview.
 ms.date: "10/07/2016"
 ms.assetid: f7677287-55f8-40ac-94c0-fb2e0d8037ed
 ---

@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# CacheResponse.Response Property
+# Response Property
 
 A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object that contains the response.
 

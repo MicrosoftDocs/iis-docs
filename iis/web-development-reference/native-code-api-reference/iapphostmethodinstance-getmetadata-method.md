@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance::GetMetadata Method"
+description: Learn how the IAppHostMethodInstance::GetMetadata method gets the metadata specified. 
 ms.date: "10/07/2016"
 ms.assetid: 209af03c-7f2c-4884-9ea2-87452cbcff7e
 ---

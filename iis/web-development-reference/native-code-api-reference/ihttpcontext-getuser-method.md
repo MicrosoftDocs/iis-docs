@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetUser Method"
+description: "The IHttpContextGetUser method retrieves the user information container for the current context."
 ms.date: "10/07/2016"
 ms.assetid: f98e6f16-fa74-fa56-d9cb-26529064e4fa
 ---

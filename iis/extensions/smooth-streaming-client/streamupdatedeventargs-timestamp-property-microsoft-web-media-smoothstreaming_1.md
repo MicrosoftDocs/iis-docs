@@ -1,6 +1,7 @@
 ---
 title: StreamUpdatedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
+description: Describes the StreamUpdatedEventArgs.Timestamp property and provides the field's namespace, assembly, syntax, property value, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.timestamp(v=VS.95)
 ms:contentKeyID: 46307877

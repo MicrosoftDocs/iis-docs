@@ -1,6 +1,7 @@
 ---
-title: "HeaderLimitsSettings Class"
-ms.date: "10/07/2016"
+title: HeaderLimitsSettings Class
+description: Describes the HeaderLimitsSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: c7357037-e4e5-4358-8d5b-982e59e25507
 ---
 # HeaderLimitsSettings Class

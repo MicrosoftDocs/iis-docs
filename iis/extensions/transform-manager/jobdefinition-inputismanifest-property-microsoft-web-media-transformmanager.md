@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.InputIsManifest Property (Microsoft.Web.Media.TransformManager)
+description: Describes the InputIsManifest property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: InputIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.inputismanifest(v=VS.90)

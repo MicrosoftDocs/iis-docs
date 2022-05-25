@@ -1,5 +1,6 @@
 ---
 title: "UrlSequence Class"
+description: This article contains properties and requirements for the UrlSequence class.
 ms.date: "10/07/2016"
 ms.assetid: efdb9814-1ad9-320d-03c0-df843a5a0043
 ---

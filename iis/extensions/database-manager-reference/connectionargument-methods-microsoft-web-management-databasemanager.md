@@ -1,6 +1,6 @@
 ---
 title: ConnectionArgument Methods (Microsoft.Web.Management.DatabaseManager)
-description: This article describes how the  ConnectionArgument type uses various methods. Each one is linked to code samples.
+description: Describes the ConnectionArgument methods and provides a table that outlines the name and description for various method types.
 TOCTitle: ConnectionArgument Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.ConnectionArgument
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument_methods(v=VS.90)

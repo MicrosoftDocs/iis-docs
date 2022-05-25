@@ -1,6 +1,7 @@
 ---
-title: "IUriKey::GetSiteId Method"
-ms.date: "10/07/2016"
+title: IUriKey::GetSiteId Method
+description: Describes the IUriKey::GetSiteId method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 691f1a35-1d36-82b5-fae4-45641398004f
 ---
 # IUriKey::GetSiteId Method

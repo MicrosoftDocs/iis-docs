@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the StoredProcedureParameter class and provides the class' inheritance hierarchy, namespace, assembly, syntax, methods, and remarks.
 TOCTitle: StoredProcedureParameter Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter(v=VS.90)

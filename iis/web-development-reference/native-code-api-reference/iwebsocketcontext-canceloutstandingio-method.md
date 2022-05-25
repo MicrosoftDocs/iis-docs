@@ -1,5 +1,6 @@
 ---
 title: "IWebSocketContext::CancelOutstandingIO Method"
+description: IWebSocketContext::CancelOutstandingIO Method cancels all remaining input or output operations.
 ms.date: "10/07/2016"
 ms.assetid: 58b1a23e-2e46-4fa0-844e-80a04ac3d206
 ---

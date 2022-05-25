@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerMemoryAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: Learn how the SchedulerMemoryAttributeName field represents a constant that is used when the scheduler memory attribute is assigned to a job definition.
 TOCTitle: SchedulerMemoryAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemoryAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulermemoryattributename(v=VS.90)

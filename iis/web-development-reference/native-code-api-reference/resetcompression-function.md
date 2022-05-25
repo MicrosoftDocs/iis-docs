@@ -1,5 +1,6 @@
 ---
 title: "ResetCompression Function"
+description: The ResetCompression Function Resets the compression context.
 ms.date: "10/07/2016"
 ms.assetid: 8c4c5c42-9c9a-4075-b618-3b2057be2e46
 ---

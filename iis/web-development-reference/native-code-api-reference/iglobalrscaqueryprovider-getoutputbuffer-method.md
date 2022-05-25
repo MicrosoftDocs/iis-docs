@@ -1,5 +1,6 @@
 ---
 title: "IGlobalRSCAQueryProvider::GetOutputBuffer Method"
+description: IGlobalRSCAQueryProvider::GetOutputBuffer Method creates a new BYTE array.
 ms.date: "10/07/2016"
 ms.assetid: 22f7388d-9dcc-6b6d-694d-0b5332e826fe
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetIsStarScriptMap Method"
+description: Learn how the IScriptMapInfo::GetIsStarScriptMap method retrieves a value that indicates whether a request handler is a wildcard mapping. 
 ms.date: "10/07/2016"
 ms.assetid: 4b357c85-4be2-8ec0-d43e-8453736ddb9b
 ---

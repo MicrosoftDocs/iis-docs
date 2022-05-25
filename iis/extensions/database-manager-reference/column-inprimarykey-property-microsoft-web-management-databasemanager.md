@@ -1,6 +1,6 @@
 ---
 title: Column.InPrimaryKey Property (Microsoft.Web.Management.DatabaseManager)
-description: The syntax presented gets or sets a value that indicates whether the database column is in the primary key.
+description: Describes the Column.InPrimaryKey property and provides the property's namespace, assembly, syntax, examples, and permissions.
 TOCTitle: InPrimaryKey Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.InPrimaryKey
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.inprimarykey(v=VS.90)

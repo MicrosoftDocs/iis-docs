@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance::Output Property"
+description: Learn how the Output property gets an IAppHostElement Interface in which output parameters may be retrieved after a specified method instance has been executed.
 ms.date: "10/07/2016"
 ms.assetid: 69d9d293-d5d8-4443-8e24-e0e3a76f0721
 ---

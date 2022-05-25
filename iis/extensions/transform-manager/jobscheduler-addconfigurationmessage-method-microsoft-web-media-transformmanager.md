@@ -1,6 +1,7 @@
 ---
 title: JobScheduler.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: AddConfigurationMessage Method
+description: "The JobScheduler.AddConfigurationMessage method adds a message to the IIS Transform Manager configuration. This article provides its overload list."
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobScheduler.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.addconfigurationmessage(v=VS.90)
 ms:contentKeyID: 35520905

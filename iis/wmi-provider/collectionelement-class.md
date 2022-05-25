@@ -1,5 +1,6 @@
 ---
 title: "CollectionElement Class"
+description: Groups classes whose instances form part of a collection.
 ms.date: "10/07/2016"
 ms.assetid: 2476947b-5036-a2f4-440a-2074a7dfeb29
 ---

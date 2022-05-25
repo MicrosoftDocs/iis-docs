@@ -1,5 +1,6 @@
 ---
 title: "AccessSection Class"
+description: Describes the syntax for the AccessSection class which specifies access permissions to content protected by Secure Sockets Layer (SSL).
 ms.date: "10/07/2016"
 ms.assetid: 8b902925-aeba-077a-a991-6bc9982a757a
 ---

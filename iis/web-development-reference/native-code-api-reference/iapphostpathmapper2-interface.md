@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPathMapper2 Interface"
+description: IAppHostPathMapper2 Interface provides methods that are called by the server implementation when the server informs the client about the hierarchy mapping decisions.
 ms.date: "10/07/2016"
 ms.assetid: 4037d4c6-28dd-4c53-8f61-5d099946cf45
 ---

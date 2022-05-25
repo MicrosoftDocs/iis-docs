@@ -1,6 +1,7 @@
 ---
 title: ConfigurationMessage.Message Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Message Property
+description: Describes the ConfigurationMessage.Message property and provides the namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Message
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.message(v=VS.90)
 ms:contentKeyID: 35520715

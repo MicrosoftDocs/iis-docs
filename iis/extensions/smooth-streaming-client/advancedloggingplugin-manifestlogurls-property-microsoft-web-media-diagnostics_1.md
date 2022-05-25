@@ -1,6 +1,7 @@
 ---
 title: AdvancedLoggingPlugin.ManifestLogUrls Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ManifestLogUrls Property
+description: "The AdvancedLoggingPlugin.ManifestLogUrls property gets the ManifestLogUrls. This article describes its syntax, remarks, and version information."
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.manifestlogurls(v=VS.95)
 ms:contentKeyID: 46307723

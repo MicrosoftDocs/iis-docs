@@ -1,5 +1,6 @@
 ---
 title: "IWorkerProcessFramework Interface"
+description: Learn how the IWorkerProcessFramework interface defines the base interface for the worker process framework.
 ms.date: "10/07/2016"
 ms.assetid: fd47af87-0694-edb2-e8da-190a871e3372
 ---

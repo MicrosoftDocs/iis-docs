@@ -1,6 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::GetCacheKey Method"
-ms.date: "10/07/2016"
+title: IHttpCacheSpecificData::GetCacheKey Method
+description: Describes the IHttpCacheSpecificData::GetCacheKey method and details its syntax, parameters, return value, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3e91916c-8c29-70fa-7985-acb0b2beccdc
 ---
 # IHttpCacheSpecificData::GetCacheKey Method

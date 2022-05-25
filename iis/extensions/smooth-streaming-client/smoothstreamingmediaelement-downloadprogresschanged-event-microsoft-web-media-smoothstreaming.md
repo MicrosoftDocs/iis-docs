@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.DownloadProgressChanged event.
 TOCTitle: DownloadProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogresschanged(v=VS.90)

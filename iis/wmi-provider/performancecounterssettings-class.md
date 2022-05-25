@@ -1,6 +1,7 @@
 ---
-title: "PerformanceCountersSettings Class"
-ms.date: "10/07/2016"
+title: PerformanceCountersSettings Class
+description: Describes the PerformanceCountersSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 597facb0-2ee7-30f0-cc86-e53a89e761cb
 ---
 # PerformanceCountersSettings Class

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistProvider::Shutdown Method
+description: Learn how the The IPlaylistProvider::Shutdown method is called before playlist provider is released.
 TOCTitle: IPlaylistProvider::Shutdown Method
 ms:assetid: 57ea47b7-0033-4c13-b30e-e1f3a998a325
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146271(v=VS.90)

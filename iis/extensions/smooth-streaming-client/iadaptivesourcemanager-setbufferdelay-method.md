@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SetBufferDelay Method
+description: Describes the IAdaptiveSourceManager.SetBufferDelay method and provides its syntax, parameters, and return value.
 TOCTitle: SetBufferDelay Method
 ms:assetid: b2d1afc0-9653-4bbe-bf18-48700a9bec4c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822812(v=VS.90)

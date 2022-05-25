@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.PKTableName Property (Microsoft.Web.Management.DatabaseManager)
+description: "The PKTableName Property gets or sets the table name of the primary key. This article shares its syntax, property value, code example, and permissions."
 TOCTitle: PKTableName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.pktablename(v=VS.90)

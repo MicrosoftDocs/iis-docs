@@ -1,5 +1,6 @@
 ---
 title: "WorkerProcess Class2"
+description: Represents a Windows Process Activation Service (WAS) worker process.
 ms.date: "10/07/2016"
 ms.assetid: dd8bf382-1523-1da8-f2b6-0cceb66fec82
 ---

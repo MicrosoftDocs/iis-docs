@@ -1,6 +1,7 @@
 ---
 title: ProtectionInfo Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Constructor
+description: This article contains syntax and version information for the ProtectionInfo Constructor.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo.protectioninfo(v=VS.95)
 ms:contentKeyID: 46307673

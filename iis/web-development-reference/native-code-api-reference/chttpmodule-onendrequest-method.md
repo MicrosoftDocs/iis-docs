@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnEndRequest Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnEndRequest method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 7a21aa28-ef78-c89d-c0cd-3f9f12e6aab9
 ---
 # CHttpModule::OnEndRequest Method

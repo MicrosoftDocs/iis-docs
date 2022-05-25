@@ -1,6 +1,6 @@
 ---
 title: "BufferModeElement Class"
-description: "This article details syntax, methods, properties, inheritance hierarchy, remarks, and requirements of the BufferModeElement Class."
+description: Learn how the BufferModeElement class configures the ASP.NET event-buffering settings for event providers.
 ms.date: "10/07/2016"
 ms.assetid: d8e3a0d7-bf72-473d-915a-0a7d9f714c23
 ---

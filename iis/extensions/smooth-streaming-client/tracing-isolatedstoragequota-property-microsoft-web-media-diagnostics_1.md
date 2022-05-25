@@ -1,6 +1,7 @@
 ---
 title: Tracing.IsolatedStorageQuota Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsolatedStorageQuota Property
+description: Describes the Tracing.IsolatedStorageQuota property and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.IsolatedStorageQuota
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.isolatedstoragequota(v=VS.95)
 ms:contentKeyID: 46307730

@@ -1,5 +1,6 @@
 ---
 title: SchedulerProvider.LoadSchedulerInfoObjects Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the LoadSchedulerInfoObjects method and provides the method's namespace, assembly, syntax, parameters, and exceptions.
 TOCTitle: LoadSchedulerInfoObjects Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerProvider.LoadSchedulerInfoObjects(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.JobScheduler})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerprovider.loadschedulerinfoobjects(v=VS.90)

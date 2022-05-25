@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.GetCumulativeJobCountByStatus Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetCumulativeJobCountByStatus method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: GetCumulativeJobCountByStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetCumulativeJobCountByStatus(Microsoft.Web.Media.TransformManager.JobStatus)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getcumulativejobcountbystatus(v=VS.90)

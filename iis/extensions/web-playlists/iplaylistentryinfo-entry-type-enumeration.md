@@ -1,5 +1,6 @@
 ---
 title: IPlaylistEntryInfo::ENTRY_TYPE Enumeration
+description: Describes the IPlaylistEntryInfo::ENTRY_TYPE enumeration and provides the enumeration's arguments, return value, and requirements.
 TOCTitle: IPlaylistEntryInfo::ENTRY_TYPE Enumeration
 ms:assetid: c0881e6d-daac-4f14-a61a-9c587c347cc9
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146290(v=VS.90)

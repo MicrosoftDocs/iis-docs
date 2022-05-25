@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata Interface (Microsoft.Web.Media.TransformManager)
+description: Describes the IJobMetadata interface and provides the interface's namespace, assembly, syntax, properties, methods, and remarks.
 TOCTitle: IJobMetadata Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IJobMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata(v=VS.90)

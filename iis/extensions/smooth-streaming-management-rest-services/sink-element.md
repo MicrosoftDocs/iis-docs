@@ -1,5 +1,6 @@
 ---
 title: Sink Element
+description: Learn how the Sink element represents a media stream destination and type of output.
 TOCTitle: Sink Element
 ms:assetid: fae373bb-4e57-43d7-8537-967cf4744356
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547076(v=VS.90)

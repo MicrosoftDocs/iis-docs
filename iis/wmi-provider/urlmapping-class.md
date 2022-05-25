@@ -1,5 +1,6 @@
 ---
 title: "UrlMapping Class"
+description: "The UrlMapping class maps a displayed URL to the URL of a page in a Web application. This article describes its syntax, properties, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: b3f94d7a-9c83-4a85-c066-b208ff03ea45
 ---

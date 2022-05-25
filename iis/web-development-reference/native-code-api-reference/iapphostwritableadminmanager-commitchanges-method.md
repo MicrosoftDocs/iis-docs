@@ -1,5 +1,6 @@
 ---
 title: "IAppHostWritableAdminManager::CommitChanges Method"
+description: IAppHostWritableAdminManager::CommitChanges Method commits configuration changes to the INCLUDE iisver configuration system.
 ms.date: "10/07/2016"
 ms.assetid: 88065b35-00ae-4de4-7de5-e4178b8f3ed9
 ---

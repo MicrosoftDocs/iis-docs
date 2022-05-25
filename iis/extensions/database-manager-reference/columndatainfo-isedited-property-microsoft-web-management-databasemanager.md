@@ -1,6 +1,6 @@
 ---
 title: ColumnDataInfo.IsEdited Property (Microsoft.Web.Management.DatabaseManager)
-description: The following code sample gets or sets a value that indicates whether the database column has been edited.
+description: This article contains information on syntax, property value, and permissions for the ColumnDataInfo.IsEdited property. 
 TOCTitle: IsEdited Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.IsEdited
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.isedited(v=VS.90)

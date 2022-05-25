@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the SetJobTemplates method and provides the method's namespace, assembly, syntax, parameters, and additional references.
 TOCTitle: SetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.SetJobTemplates(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.JobTemplate})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.setjobtemplates(v=VS.90)

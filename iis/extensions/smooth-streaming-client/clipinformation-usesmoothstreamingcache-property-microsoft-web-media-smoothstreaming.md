@@ -1,6 +1,7 @@
 ---
 title: ClipInformation.UseSmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UseSmoothStreamingCache Property
+description: "The ClipInformation.UseSmoothStreamingCache property gets or sets a Boolean value that indicates whether to use the Smooth Streaming cache."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.usesmoothstreamingcache(v=VS.90)
 ms:contentKeyID: 31469291

@@ -1,5 +1,6 @@
 ---
 title: "ApplicationDependency Class"
+description: "The ApplicationDependency class represents a dependency between a Web application and one or more Web service extensions."
 ms.date: "10/07/2016"
 ms.assetid: a2b235cd-4d10-8d8a-648c-311f6c9465d4
 ---

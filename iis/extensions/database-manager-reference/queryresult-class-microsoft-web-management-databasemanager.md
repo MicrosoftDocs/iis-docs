@@ -1,6 +1,7 @@
 ---
 title: QueryResult Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResult Class
+description: "The QueryResult class represents a query result that was returned from a database query. This article describes its syntax, constructors, properties, and methods."
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.QueryResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.queryresult(v=VS.90)
 ms:contentKeyID: 20476472

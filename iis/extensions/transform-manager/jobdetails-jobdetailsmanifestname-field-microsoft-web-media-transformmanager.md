@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsManifestName Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetailsManifestName field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: JobDetailsManifestName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsManifestName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsmanifestname(v=VS.90)

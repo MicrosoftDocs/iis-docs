@@ -1,6 +1,7 @@
 ---
 title: TraceEntry Constructor  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceEntry Constructor
+description: Describes the TraceEntry constructor and provides the field's namespace, assembly, syntax, parameters, and version information.
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.traceentry(v=VS.90)
 ms:contentKeyID: 23960947

@@ -1,5 +1,6 @@
 ---
 title: Logger.WriteLine Method  (Microsoft.Web.Media.TransformManager)
+description: Describes syntax, usage, and examples of WriteLine Method.
 TOCTitle: WriteLine Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.Logger.WriteLine
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.writeline(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.GetTaskProgress Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the LocalScheduler.GetTaskProgress method. There are also links to reference materials.
 TOCTitle: GetTaskProgress Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetTaskProgress(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.gettaskprogress(v=VS.90)

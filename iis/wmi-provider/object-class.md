@@ -1,5 +1,6 @@
 ---
 title: "Object Class1"
+description: Object Class1 serves as a base class from which to derive the primary namespace objects for the !INCLUDEiisver] WMI provider.
 ms.date: "10/07/2016"
 ms.assetid: e0c0f720-51e6-d244-eb1a-e4551d427019
 ---

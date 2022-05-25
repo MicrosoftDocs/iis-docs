@@ -1,6 +1,7 @@
 ---
-title: "IPmListenerChannelManager Interface"
-ms.date: "10/07/2016"
+title: IPmListenerChannelManager Interface
+description: Describes the IPmListenerChannelManager interface and details its syntax, methods, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 044efded-da6d-ea48-0759-b8188c824be7
 ---
 # IPmListenerChannelManager Interface

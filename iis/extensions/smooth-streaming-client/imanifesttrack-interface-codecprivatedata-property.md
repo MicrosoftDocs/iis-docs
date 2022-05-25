@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.CodecPrivateData Property
+description: This article has information about syntax, property value, and requirements for the IManifestTrack Interface.CodecPrivateData property.
 TOCTitle: CodecPrivateData Property
 ms:assetid: e9b3f56b-2a72-4ae0-8b41-cbe54df464ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822862(v=VS.90)

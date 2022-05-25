@@ -1,6 +1,6 @@
 ---
 title: Column.IsNew Property (Microsoft.Web.Management.DatabaseManager)
-description: The code on this page shows how to get or set a value that indicates whether the database column is new.
+description: This article contains information about syntax and permissions for the Column.IsNew property.
 TOCTitle: IsNew Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsNew
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.isnew(v=VS.90)

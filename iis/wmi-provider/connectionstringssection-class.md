@@ -1,5 +1,6 @@
 ---
 title: "ConnectionStringsSection Class"
+description: "This article details syntax, methods, properties, remarks, inheritance hierarchy, and requirements for the ConnectionStringsSection Class."
 ms.date: "10/07/2016"
 ms.assetid: b7f6b1a5-d277-08fa-f697-3a250e9e07a7
 ---

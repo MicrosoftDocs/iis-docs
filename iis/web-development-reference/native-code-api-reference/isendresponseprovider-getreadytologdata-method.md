@@ -1,6 +1,7 @@
 ---
 title: "ISendResponseProvider::GetReadyToLogData Method"
-ms.date: "10/07/2016"
+description: "Describes the ISendResponseProvider::GetReadyToLogData method and details its syntax, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c3ddf072-65c5-3260-de3f-653255dc7513
 ---
 # ISendResponseProvider::GetReadyToLogData Method

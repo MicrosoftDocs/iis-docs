@@ -1,6 +1,7 @@
 ---
 title: Table.Schema Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Schema Property
+description: Gets or sets the schema name for a table.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Table.Schema
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table.schema(v=VS.90)
 ms:contentKeyID: 20476395

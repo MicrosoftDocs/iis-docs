@@ -1,5 +1,6 @@
 ---
 title: IPlaylistFileInfo::IsCached Property
+description: Learn how the IPlaylistFileInfo::IsCached property gets the value indicating whether the file is cached by IIS 7.
 TOCTitle: IPlaylistFileInfo::IsCached Property
 ms:assetid: 1615b2e9-15ee-4405-b89d-a4d39f2357cc
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146257(v=VS.90)

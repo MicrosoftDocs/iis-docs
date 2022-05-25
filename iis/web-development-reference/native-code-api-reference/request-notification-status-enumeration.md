@@ -1,5 +1,6 @@
 ---
 title: "REQUEST_NOTIFICATION_STATUS Enumeration"
+description: Learn how the REQUEST_NOTIFICATION_STATUS enumeration defines the return values for request-level notifications.
 ms.date: "10/07/2016"
 ms.assetid: 318f6aef-c052-9021-b89f-fbcfe9caf014
 ---

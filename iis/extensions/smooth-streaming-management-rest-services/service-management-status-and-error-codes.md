@@ -1,6 +1,7 @@
 ---
 title: Service Management Status and Error Codes
 TOCTitle: Service Management Status and Error Codes
+description: "REST API operations for the Service Management API return standard HTTP status codes which may return error information. List of errors returned by the management service. "
 ms:assetid: b6cd719c-0af5-416c-a92d-3953670974d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh204601(v=VS.90)
 ms:contentKeyID: 35968610

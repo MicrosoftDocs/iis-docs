@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceFunctionExit Method  (Microsoft.Web.Media.Diagnostics)
+description: This article outlines the overload list for the Tracing.TraceFunctionExit method, with links to reference materials.
 TOCTitle: TraceFunctionExit Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionexit(v=VS.95)

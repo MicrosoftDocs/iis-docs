@@ -1,5 +1,6 @@
 ---
 title: JobManager.Enabled Property (Microsoft.Web.Media.TransformManager)
+description: Enabled Property gets a value that indicates whether the job manager that is associated with this job definition can be started.
 TOCTitle: Enabled Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Enabled
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.enabled(v=VS.90)
