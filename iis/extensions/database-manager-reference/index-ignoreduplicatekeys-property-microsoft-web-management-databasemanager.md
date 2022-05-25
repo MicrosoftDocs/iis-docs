@@ -1,5 +1,6 @@
 ---
 title: Index.IgnoreDuplicateKeys Property (Microsoft.Web.Management.DatabaseManager)
+description: The Index.IgnoreDuplicateKeys Property gets or sets a value that indicates whether the index ignores duplicate keys. This article details syntax, property value, and permissions.
 TOCTitle: IgnoreDuplicateKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IgnoreDuplicateKeys
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.ignoreduplicatekeys(v=VS.90)

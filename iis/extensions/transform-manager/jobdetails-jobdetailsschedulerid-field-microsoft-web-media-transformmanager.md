@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsSchedulerId Field (Microsoft.Web.Media.TransformManager)
+description: This article shows the syntax of the JobDetailsSchedulerId Field, which represents a constant that is used when transform jobs are sorted by the JobSchedulerId Field.
 TOCTitle: JobDetailsSchedulerId Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSchedulerId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsschedulerid(v=VS.90)
