@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.DisplayHeight Property
+description: Describes the ManifestStream.DisplayHeight property and provides the property's syntax, property value, and requirements.
 TOCTitle: DisplayHeight Property
 ms:assetid: fa63dd00-0ff4-4ee3-81c0-a48a9c340213
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822874(v=VS.90)

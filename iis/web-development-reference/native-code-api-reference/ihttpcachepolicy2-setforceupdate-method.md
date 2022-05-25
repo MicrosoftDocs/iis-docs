@@ -1,6 +1,7 @@
 ---
-title: "IHttpCachePolicy2::SetForceUpdate Method"
-ms.date: "10/07/2016"
+title: IHttpCachePolicy2::SetForceUpdate Method
+description: Describes the IHttpCachePolicy2::SetForceUpdate method and provides the method's syntax, parameters, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 21f01a8a-79fb-4fc5-8e53-3f80664c8686
 ---
 # IHttpCachePolicy2::SetForceUpdate Method

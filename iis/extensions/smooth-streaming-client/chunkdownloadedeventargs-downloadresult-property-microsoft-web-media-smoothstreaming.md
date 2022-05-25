@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs.DownloadResult Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkDownloadedEventArgs.DownloadResult property and provides the property's syntax, property value, and version information.
 TOCTitle: DownloadResult Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.DownloadResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.downloadresult(v=VS.95)
