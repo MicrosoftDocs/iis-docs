@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.TaskDefinitionElement Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TaskDefinition.TaskDefinitionElement property.
 TOCTitle: TaskDefinitionElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskDefinitionElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskdefinitionelement(v=VS.90)

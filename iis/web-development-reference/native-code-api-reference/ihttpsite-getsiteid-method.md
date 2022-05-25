@@ -1,5 +1,6 @@
 ---
 title: "IHttpSite::GetSiteId Method"
+description: This article has information about syntax, return value, and requirements for the IHttpSite::GetSiteId method.
 ms.date: "10/07/2016"
 ms.assetid: 6caea2a6-61c6-b527-0127-e2cbb1d0d6bf
 ---

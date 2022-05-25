@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage Class (Microsoft.Web.Media.TransformManager)
+description: This article has information about inheritance hierarchy, syntax, properties, methods, constructors, and thready safety for the ConfigurationMessage class.
 TOCTitle: ConfigurationMessage Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage(v=VS.90)

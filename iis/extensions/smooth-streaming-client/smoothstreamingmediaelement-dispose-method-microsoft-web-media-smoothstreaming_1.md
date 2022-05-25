@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Dispose Method  (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.Dispose method.
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.dispose(v=VS.95)
