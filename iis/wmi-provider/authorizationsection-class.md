@@ -1,5 +1,6 @@
 ---
 title: "AuthorizationSection Class1"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the AuthorizationSection class.
 ms.date: "10/07/2016"
 ms.assetid: cc944fcc-836f-d6e7-b78d-6539bea71054
 ---

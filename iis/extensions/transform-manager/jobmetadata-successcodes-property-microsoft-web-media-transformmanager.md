@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.SuccessCodes Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information on syntax and property value for the JobMetadata.SuccessCodes property.
 TOCTitle: SuccessCodes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.SuccessCodes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.successcodes(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: View Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the View constructor. There are links to reference materials.
 TOCTitle: View Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.View.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view.view(v=VS.90)
