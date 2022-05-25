@@ -1,5 +1,6 @@
 ---
 title: Logger.LogFileName Property (Microsoft.Web.Media.TransformManager)
+description: The LogFileName property gets or sets the name of the log file. This page includes syntax samples for the code.
 TOCTitle: LogFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogFileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.logfilename(v=VS.90)
