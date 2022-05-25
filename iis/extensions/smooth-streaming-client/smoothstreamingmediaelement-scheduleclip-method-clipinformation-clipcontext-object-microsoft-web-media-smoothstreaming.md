@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, ClipContext, Object) (Microsoft.Web.Media.SmoothStreaming)
-description: This page details the syntax for the SmoothStreamingMediaElement.ScheduleClip method (ClipInformation, ClipContext, object). It schedules play of a media clip.
+description: Details the syntax for the SmoothStreamingMediaElement.ScheduleClip method (ClipInformation, ClipContext, object). It schedules play of a media clip.
 TOCTitle: ScheduleClip Method (ClipInformation, ClipContext, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,Microsoft.Web.Media.SmoothStreaming.ClipContext,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.scheduleclip(v=VS.90)

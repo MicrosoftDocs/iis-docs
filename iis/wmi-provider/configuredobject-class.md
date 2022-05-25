@@ -1,6 +1,6 @@
 ---
 title: "ConfiguredObject Class1"
-description: This page details the syntax for the ConfiguredObject Class1. It acts as a base type for namespace objects whose configuration can be specified in configuration sections.
+description: Details the syntax for the ConfiguredObject Class1 and acts as a base type for configurable namespace objects.
 ms.date: "10/07/2016"
 ms.assetid: fbc82145-2355-3b59-ad74-3eb7b5f3f5ec
 ---

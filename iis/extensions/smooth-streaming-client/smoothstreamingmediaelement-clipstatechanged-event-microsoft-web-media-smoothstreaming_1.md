@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
-description: This article provides code and syntax for the SmoothStreamingMediaElement.ClipStateChanged Event which occurs when a media clip state changes.
+description: Details the syntax for the for the SmoothStreamingMediaElement.ClipStateChanged Event which occurs when a media clip state changes.
 TOCTitle: ClipStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipstatechanged(v=VS.95)

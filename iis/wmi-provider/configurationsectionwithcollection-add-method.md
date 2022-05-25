@@ -1,6 +1,6 @@
 ---
 title: "ConfigurationSectionWithCollection.Add Method"
-description: This article provides code samples for ConfigurationSectionWithCollection.Add method which adds an element to a collection in a configuration section.
+description: Details the syntax for the ConfigurationSectionWithCollection.Add method which adds an element to a collection in a configuration section.
 ms.date: "10/07/2016"
 ms.assetid: ba05cc65-3f0e-35d5-f8a0-b4e3f82dc96e
 ---

@@ -1,6 +1,6 @@
 ---
 title: Index.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
-description: This page details the syntax for the Index.IsMarkedForDelete property. This property gets or sets a value that indicates whether the index is marked for deletion.
+description: Details the syntax for the Index.IsMarkedForDelete property, it gets or sets a value that indicates whether the index is marked for deletion.
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.ismarkedfordelete(v=VS.90)

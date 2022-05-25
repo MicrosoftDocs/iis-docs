@@ -1,6 +1,6 @@
 ---
 title: HpcScheduler.StartJob Method  (Microsoft.Web.Media.TransformManager)
-description: This article details the syntax for using the StartJob method which starts the specified job using the HPC scheduler.
+description: Details the syntax for using the StartJob method which starts the specified job using the HPC scheduler.
 TOCTitle: StartJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.StartJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.startjob(v=VS.90)
