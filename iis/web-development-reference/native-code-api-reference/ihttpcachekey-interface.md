@@ -1,5 +1,6 @@
 ---
 title: "IHttpCacheKey Interface"
+description: Learn how the IHttpCacheKey interface provides key information for corresponding data that is stored in a global cache.
 ms.date: "10/07/2016"
 ms.assetid: 5aee4c82-06de-08c4-ce8d-813dfcb8c506
 ---

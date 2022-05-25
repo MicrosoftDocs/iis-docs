@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetETag Method"
+description: Learn how the IHttpFileInfo::GetETag method retrieves the entity tag of the corresponding file for an IHttpFileInfo interface.
 ms.date: "10/07/2016"
 ms.assetid: d2d7360d-8d40-f029-02da-36572b1b8a52
 ---

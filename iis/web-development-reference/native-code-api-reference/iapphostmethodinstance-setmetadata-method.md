@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance::SetMetadata Method"
+description: Learn how the IAppHostMethodInstance::SetMetadata method sets the metadata specified, as well as details about its syntax and parameters. 
 ms.date: "10/07/2016"
 ms.assetid: 4970e8ed-b176-4f9c-9d72-74bc1954f3c0
 ---
