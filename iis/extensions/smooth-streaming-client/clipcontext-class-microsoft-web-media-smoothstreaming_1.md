@@ -1,6 +1,7 @@
 ---
 title: ClipContext Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipContext Class
+description: Context information for a Smooth Streaming media clip.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipContext
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext(v=VS.95)
 ms:contentKeyID: 46307931

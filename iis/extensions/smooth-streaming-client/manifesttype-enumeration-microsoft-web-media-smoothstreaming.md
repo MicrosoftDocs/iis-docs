@@ -1,5 +1,6 @@
 ---
 title: ManifestType Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ManifestType enumeration and provides the enumeration's namespace, assembly, syntax, members, and version information.
 TOCTitle: ManifestType Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ManifestType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifesttype(v=VS.95)

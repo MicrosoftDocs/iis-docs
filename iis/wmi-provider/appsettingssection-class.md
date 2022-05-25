@@ -1,5 +1,6 @@
 ---
 title: "AppSettingsSection Class1"
+description: "This article details syntax, methods, properties, inheritance hierarchy, and requirements of the AppSettingsSection Class1."
 ms.date: "10/07/2016"
 ms.assetid: 351d0415-644c-cdae-4bc9-add1c923f483
 ---

@@ -1,6 +1,7 @@
 ---
-title: "IHttpTokenEntry Interface"
-ms.date: "10/07/2016"
+title: IHttpTokenEntry Interface
+description: Describes the IHttpTokenEntry interface and details its syntax, methods, remarks, code example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a7244321-a081-c31a-69fc-c78ce0380226
 ---
 # IHttpTokenEntry Interface

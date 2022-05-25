@@ -1,6 +1,7 @@
 ---
 title: Index Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Index Properties
+description: "A list of the members that are exposed by the Index type including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.Index
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index_properties(v=VS.90)
 ms:contentKeyID: 20476491

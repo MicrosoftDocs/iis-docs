@@ -1,5 +1,6 @@
 ---
 title: "IWpfReferencedObject Interface"
+description: Learn how the IWpfReferencedObject Interface defines the base class for the worker process framework.
 ms.date: "10/07/2016"
 ms.assetid: 4db5d58d-a83c-3f28-deb7-bb9b88b0baaa
 ---

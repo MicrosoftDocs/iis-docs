@@ -1,6 +1,7 @@
 ---
 title: JobManifest.GetManifestElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetManifestElement Method
+description: "The JobManifest.GetManifestElement method returns an XML representation of the manifest metadata. This article describes its syntax and remarks."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetManifestElement(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace@)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getmanifestelement(v=VS.90)
 ms:contentKeyID: 35520973

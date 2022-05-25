@@ -1,6 +1,7 @@
 ---
 title: "IAppHostCollectionSchema::ClearElementSchema Property"
 ms.date: "10/07/2016"
+description: The IAppHostCollectionSchema ClearElementSchema property gets the schema for the element that will be used to clear all items from the collection.
 ms.assetid: 26ff0624-64ae-f45e-8ec1-39104ee5deb4
 ---
 # IAppHostCollectionSchema::ClearElementSchema Property

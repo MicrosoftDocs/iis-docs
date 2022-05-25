@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.ConfigurationMessagesElement Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationBase.ConfigurationMessagesElement property and details its syntax and property value.
 TOCTitle: ConfigurationMessagesElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationMessagesElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationmessageselement(v=VS.90)

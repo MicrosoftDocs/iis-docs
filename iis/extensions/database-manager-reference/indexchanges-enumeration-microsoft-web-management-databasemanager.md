@@ -1,5 +1,6 @@
 ---
 title: IndexChanges Enumeration (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IndexChanges enumeration and provides the enumeration's syntax, members, remarks, and examples.
 TOCTitle: IndexChanges Enumeration
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IndexChanges
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexchanges(v=VS.90)

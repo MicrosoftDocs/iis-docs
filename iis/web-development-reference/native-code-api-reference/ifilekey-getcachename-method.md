@@ -1,5 +1,6 @@
 ---
 title: "IFileKey::GetCacheName Method"
+description: Learn how the IFileKey::GetCacheName method returns the name of the global file cache.
 ms.date: "10/07/2016"
 ms.assetid: 1d0a3a67-6f6c-d0d7-f29f-19e9a40871a3
 ---

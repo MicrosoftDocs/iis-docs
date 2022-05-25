@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobDetails Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TransformManagerService.GetJobDetails method.
 TOCTitle: GetJobDetails Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDetails(Microsoft.Web.Media.TransformManager.JobStatus,Microsoft.Web.Media.TransformManager.JobDetailsField,System.Boolean,System.Int32,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdetails(v=VS.90)

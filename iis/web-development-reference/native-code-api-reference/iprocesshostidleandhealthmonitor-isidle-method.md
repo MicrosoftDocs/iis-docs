@@ -1,5 +1,6 @@
 ---
 title: "IProcessHostIdleAndHealthMonitor::IsIdle Method"
+description: Describes the IProcessHostIdleAndHealthMonitor::IsIdle method and provides the syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 0e39f1e6-1b54-a1ec-29a3-47bfe4cbe8ee
 ---

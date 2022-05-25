@@ -1,5 +1,6 @@
 ---
 title: IDbTableManager Interface (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and methods for the IDbTableManager interface, as well as links to reference materials. 
 TOCTitle: IDbTableManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbTableManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: TraceArea Enumeration (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Enumeration
+description: Enumeration that specifies the feature area from which a trace message originates.
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceArea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracearea(v=VS.90)
 ms:contentKeyID: 23961194

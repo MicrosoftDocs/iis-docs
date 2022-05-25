@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSource.AdaptiveSourceFailedEvent Event
 TOCTitle: AdaptiveSourceFailedEvent Event
+description: Occurs when the AdaptiveSource event failed.
 ms:assetid: b14983dd-5395-416a-b154-fbbdca77e81b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822810(v=VS.90)
 ms:contentKeyID: 50079564

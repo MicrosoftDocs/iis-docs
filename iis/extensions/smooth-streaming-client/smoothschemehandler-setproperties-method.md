@@ -1,6 +1,7 @@
 ---
 title: SmoothSchemeHandler.SetProperties Method
 TOCTitle: SetProperties Method
+description: "The SmoothSchemeHandler.SetProperties method sets the properties of the Smooth Scheme Handler. This article describes its syntax and requirements."
 ms:assetid: a42dacd8-8095-44cc-ba55-df395894f295
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822801(v=VS.90)
 ms:contentKeyID: 50079555

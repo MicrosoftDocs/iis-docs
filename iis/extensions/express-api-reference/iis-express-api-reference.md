@@ -1,6 +1,7 @@
 ---
-title: "IIS Express API Reference"
-ms.date: "10/07/2016"
+title: IIS Express API Reference
+description: Describes the IIS express API reference and outlines the Version Manager API and Microsoft.Web.Diagnostics namespace.
+ms.date: 10/07/2016
 ms.assetid: 62dd9909-03e0-4777-ac67-5a3b22331112
 ---
 # IIS Express API Reference

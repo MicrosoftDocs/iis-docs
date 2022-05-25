@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSectionWithCollection.Get Method"
+description: "The ConfigurationSectionWithCollection.Get Method retrieves the specified member of a collection from a configuration section. This article details syntax, parameters, return value, code example, and system requirements."
 ms.date: "10/07/2016"
 ms.assetid: 76e3b93f-8701-4c83-aa0c-08a662bcb258
 ---

@@ -1,5 +1,6 @@
 ---
 title: CacheRequest.ReadFrom Method  (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the CacheRequest.ReadFrom method.
 TOCTitle: ReadFrom Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest.readfrom(v=VS.90)

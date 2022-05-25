@@ -1,5 +1,6 @@
 ---
 title: "Server Class1"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the Server class.
 ms.date: "10/07/2016"
 ms.assetid: 52fd13ed-2645-bc13-c04d-a5e82ca50c0f
 ---

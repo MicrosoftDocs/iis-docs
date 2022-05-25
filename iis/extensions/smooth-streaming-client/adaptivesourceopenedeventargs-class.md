@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSourceOpenedEventArgs Class
 TOCTitle: AdaptiveSourceOpenedEventArgs Class
+description: "The AdaptiveSourceOpenedEventArgs class represents the arguments of the adaptive source opened event."
 ms:assetid: 510d7025-0c82-4210-a8b0-02bd674b5277
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822734(v=VS.90)
 ms:contentKeyID: 50079489

@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.Stream Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo.Stream property and details its syntax, property value, and Silverlight information.
 TOCTitle: Stream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Stream
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.stream(v=VS.95)

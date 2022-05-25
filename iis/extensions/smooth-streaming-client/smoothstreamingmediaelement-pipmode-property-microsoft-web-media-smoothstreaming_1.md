@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.PipMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PipMode Property
+description: Gets or sets a value that indicates whether the media stream is in picture-in-picture (PIP) mode.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipMode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmode(v=VS.95)
 ms:contentKeyID: 46307847

@@ -1,5 +1,6 @@
 ---
 title: "WPF_SETTINGS_DWORD_ENUM Enumeration"
+description: Learn how the WPF_SETTINGS_DWORD_ENUM enumeration defines the DWORD values that the IWpfSettings::GetDwordProperty method returns. 
 ms.date: "10/07/2016"
 ms.assetid: 0ed59b94-24e7-5d9d-b2a6-cc24a68a1bd0
 ---

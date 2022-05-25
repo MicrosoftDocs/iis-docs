@@ -1,5 +1,6 @@
 ---
 title: JobManager Methods (Microsoft.Web.Media.TransformManager)
+description: This article lists methods exposed by the JobManager type.
 TOCTitle: JobManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager_methods(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "ICacheProvider::GetCacheRecord Method"
-ms.date: "10/07/2016"
+title: ICacheProvider::GetCacheRecord Method
+description: Describes the ICacheProvider::GetCacheRecord method and provides the method's syntax, return value, remarks, examples, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 212ddfc3-7d3c-eca9-efa5-a87f340dcd69
 ---
 # ICacheProvider::GetCacheRecord Method

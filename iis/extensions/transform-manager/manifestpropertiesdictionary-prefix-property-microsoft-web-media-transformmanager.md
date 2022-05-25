@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary.Prefix Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ManifestPropertiesDictionary.Prefix property.
 TOCTitle: Prefix Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Prefix
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.prefix(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPool.Start Method1"
+description: "The ApplicationPool.Start Method1 starts an application pool. This article describes its syntax, remarks, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 1ead4ceb-81f8-992f-91f3-8de8b3345db4
 ---

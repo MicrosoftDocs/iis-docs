@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.GetRunningJobs Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetRunningJobs Method
+description: "The GetRunningJobs method returns a collection of all of the running jobs for all JobDefinition objects."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetRunningJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getrunningjobs(v=VS.90)
 ms:contentKeyID: 35520733

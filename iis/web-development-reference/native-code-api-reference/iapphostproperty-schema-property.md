@@ -1,5 +1,6 @@
 ---
 title: "IAppHostProperty::Schema Property"
+description: This article contains information about syntax, return value, and requirements for the IAppHostProperty::Schema property. 
 ms.date: "10/07/2016"
 ms.assetid: 468d6b7a-8fd3-99a4-07a8-3adf433fdfa3
 ---

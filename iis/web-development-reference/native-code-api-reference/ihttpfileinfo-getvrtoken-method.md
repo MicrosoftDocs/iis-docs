@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetVrToken Method"
+description: Learn how the IHttpFileInfo::GetVrToken method returns the virtual token for the corresponding file.
 ms.date: "10/07/2016"
 ms.assetid: 7a240fb1-dbff-a43b-418c-fa59d2c67d70
 ---

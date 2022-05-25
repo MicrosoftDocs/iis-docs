@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceOpenedEventArgs.AdaptiveSource Property
+description: This article contains information on syntax, property value, and requirements for the AdaptiveSourceOpenedEventArgs.AdaptiveSource property.
 TOCTitle: AdaptiveSource Property
 ms:assetid: bedf9c4f-4e22-41f6-b77c-88c3772f587f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822822(v=VS.90)

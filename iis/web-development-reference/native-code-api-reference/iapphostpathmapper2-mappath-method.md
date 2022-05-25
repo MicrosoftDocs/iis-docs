@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPathMapper2::MapPath Method"
+description: "The IAppHostPathMapper2MapPath method gets the details of the specific mapping decision and, optionally, can change the results in the return value."
 ms.date: "10/07/2016"
 ms.assetid: cb41794c-9656-47ba-92e3-b8d9af952243
 ---

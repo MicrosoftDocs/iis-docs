@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage.Name Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ConfigurationMessage.Name property. There are also links to reference materials.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.name(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Hosted Web Core Application"
+description: This walkthrough demonstrates how to create a Windows console application that uses the Hosted Web Core features.
 ms.date: "10/07/2016"
 ms.assetid: d59ceebe-e5dc-4e2d-a95d-cb98ad8ca331
 ---

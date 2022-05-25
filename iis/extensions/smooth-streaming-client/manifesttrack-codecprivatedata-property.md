@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.CodecPrivateData Property
+description: Describes the ManifestTrack.CodecPrivateData property and provides the property's syntax, property value, and requirements.
 TOCTitle: CodecPrivateData Property
 ms:assetid: 54a2f4e5-e1db-4cb1-9655-64977680b9f0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822737(v=VS.90)

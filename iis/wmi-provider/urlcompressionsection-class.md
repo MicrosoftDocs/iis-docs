@@ -1,5 +1,6 @@
 ---
 title: "UrlCompressionSection Class"
+description: "The UrlCompressionSection class enables or disables dynamic or static compression. This article lists its methods, properties, examples, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 356024fc-1000-cede-ffca-553146521b7a
 ---

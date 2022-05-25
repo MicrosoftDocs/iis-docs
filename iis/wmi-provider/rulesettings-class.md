@@ -1,5 +1,6 @@
 ---
 title: "RuleSettings Class"
+description: This article describes instances of this class that are contained in the Rules array property of the HealthMonitoringSection class.
 ms.date: "10/07/2016"
 ms.assetid: 4e3c52f7-ade6-e250-9a65-92e6c09bacd7
 ---

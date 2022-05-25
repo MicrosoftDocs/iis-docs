@@ -1,5 +1,6 @@
 ---
 title: JobManager.Id Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobManager.Id, with links to reference materials.
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Id
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.id(v=VS.90)

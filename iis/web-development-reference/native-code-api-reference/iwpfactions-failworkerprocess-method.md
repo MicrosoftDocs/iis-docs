@@ -1,6 +1,7 @@
 ---
 title: "IWpfActions::FailWorkerProcess Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfActions::FailWorkerProcess method and details its parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c1522380-9788-c51a-a614-3ba64de563f0
 ---
 # IWpfActions::FailWorkerProcess Method

@@ -1,6 +1,7 @@
 ---
 title: ProtectionHeader Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Methods
+description: "List of members that the ProtectionHeader type exposes including their method type, name, and description."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader_methods(v=VS.90)
 ms:contentKeyID: 31469295

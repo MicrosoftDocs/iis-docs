@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobTemplates method and provides the method's namespace, assembly, syntax, and return value.
 TOCTitle: GetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobTemplates
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobtemplates(v=VS.90)

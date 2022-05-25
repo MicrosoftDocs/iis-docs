@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance Interface"
+description: IAppHostMethodInstance Interface provides methods that access a specific invocation instance of the corresponding IAppHostMethod Interface.
 ms.date: "10/07/2016"
 ms.assetid: bd4b1420-4828-4fde-b0c9-5257cf408d5e
 ---

@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.HardwareProfile Property
 TOCTitle: HardwareProfile Property
+description: Gets the HardwareProfile field.
 ms:assetid: 02571594-2d8e-4846-85ab-91df9214dec8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822667(v=VS.90)
 ms:contentKeyID: 50079422

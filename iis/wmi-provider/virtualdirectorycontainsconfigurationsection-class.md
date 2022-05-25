@@ -1,6 +1,7 @@
 ---
-title: "VirtualDirectoryContainsConfigurationSection Class2"
-ms.date: "10/07/2016"
+title: VirtualDirectoryContainsConfigurationSection Class2
+description: Describes the VirtualDirectoryContainsConfigurationSection Class and provides the class' syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8d6f5aa5-9c66-24d3-ad57-b7e368a9a218
 ---
 # VirtualDirectoryContainsConfigurationSection Class2

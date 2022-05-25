@@ -1,6 +1,7 @@
 ---
 title: JobManifest.JobDefinitionName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionName Property
+description: Gets the name of the job definition from the job manifest.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.JobDefinitionName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.jobdefinitionname(v=VS.90)
 ms:contentKeyID: 35520926

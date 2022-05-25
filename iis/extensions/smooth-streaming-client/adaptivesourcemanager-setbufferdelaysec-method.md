@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SetBufferDelaySec Method
+description: Learn how the AdaptiveSourceManager.SetBufferDelaySec method sets the buffer delay in seconds before playback starts. 
 TOCTitle: SetBufferDelaySec Method
 ms:assetid: 3c7084a2-4270-4f87-bcb0-3bbcac268580
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822720(v=VS.90)

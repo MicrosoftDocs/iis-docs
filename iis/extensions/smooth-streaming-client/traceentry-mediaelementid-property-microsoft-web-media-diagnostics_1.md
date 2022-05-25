@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.MediaElementId Property (Microsoft.Web.Media.Diagnostics)
+description: The TraceEntry.MediaElementId property gets or sets the MediaElementId property.
 TOCTitle: MediaElementId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MediaElementId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.mediaelementid(v=VS.95)

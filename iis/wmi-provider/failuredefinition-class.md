@@ -1,5 +1,6 @@
 ---
 title: "FailureDefinition Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the FailureDefinition class.
 ms.date: "10/07/2016"
 ms.assetid: f563801a-d5fd-0f69-74bd-4be0b05c6871
 ---

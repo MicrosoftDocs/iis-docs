@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsSubmitTime Field (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetailsSubmitTime field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: JobDetailsSubmitTime Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSubmitTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailssubmittime(v=VS.90)

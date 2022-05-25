@@ -1,5 +1,6 @@
 ---
 title: "IGlobalFileChangeProvider Interface"
+description: This article has information about syntax, methods, derived classes, inheritance hierarchy, and requirements for the IGlobalFileChangeProvider interface.
 ms.date: "10/07/2016"
 ms.assetid: 14f8fe14-2950-0618-b7b0-bb930c5e8c60
 ---

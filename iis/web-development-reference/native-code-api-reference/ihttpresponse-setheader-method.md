@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::SetHeader Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::SetHeader method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: fda1440f-9c59-34cf-9f25-d3c632aca2b5
 ---
 # IHttpResponse::SetHeader Method

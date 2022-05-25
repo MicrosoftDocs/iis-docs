@@ -1,5 +1,6 @@
 ---
 title: JobDetails Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetails methods and provides a table that outlines the name and description for various method types.
 TOCTitle: JobDetails Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails_methods(v=VS.90)

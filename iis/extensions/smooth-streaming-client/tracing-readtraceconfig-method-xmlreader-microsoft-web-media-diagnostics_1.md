@@ -1,5 +1,6 @@
 ---
 title: Tracing.ReadTraceConfig Method (XmlReader) (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the Tracing.ReadTraceConfig method, with links to reference materials.
 TOCTitle: ReadTraceConfig Method (XmlReader)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig(System.Xml.XmlReader)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.95)

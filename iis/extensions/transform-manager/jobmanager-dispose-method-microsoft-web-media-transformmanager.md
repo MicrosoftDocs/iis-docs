@@ -1,5 +1,6 @@
 ---
 title: JobManager.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: This article outlines the overload list for the JobManager.Dispose method, with links to reference materials.
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobManager.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.dispose(v=VS.90)

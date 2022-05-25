@@ -1,6 +1,7 @@
 ---
-title: "StringElement Class"
-ms.date: "10/07/2016"
+title: StringElement Class
+description: Describes the StringElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e376d4dc-5ebe-6a12-b192-06cd5b8450a5
 ---
 # StringElement Class

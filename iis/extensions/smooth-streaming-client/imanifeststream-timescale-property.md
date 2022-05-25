@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.TimeScale Property
+description: Describes the IManifestStream.TimeScale property and provides the property's syntax, property value, and requirements.
 TOCTitle: TimeScale Property
 ms:assetid: 31454e84-ff64-45dc-822d-92b18fd5ab7b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822712(v=VS.90)

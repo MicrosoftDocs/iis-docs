@@ -1,5 +1,6 @@
 ---
 title: SetPlaybackRangeCompletedEventArgs Constructor (Exception, Object) (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SetPlaybackRangeCompletedEventArgs constructor initializes a new instance of the SetPlaybackRangeCompletedEventArgs class.
 TOCTitle: SetPlaybackRangeCompletedEventArgs Constructor (Exception, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor(System.Exception,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.setplaybackrangecompletedeventargs(v=VS.95)

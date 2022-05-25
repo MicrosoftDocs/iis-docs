@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetCurrentExecutionStats Method"
+description: Learn how the IHttpContext::GetCurrentExecutionStats method retrieves the execution statistics for the current context. 
 ms.date: "10/07/2016"
 ms.assetid: 583768f4-5b0d-25af-df8d-3f34126663ca
 ---

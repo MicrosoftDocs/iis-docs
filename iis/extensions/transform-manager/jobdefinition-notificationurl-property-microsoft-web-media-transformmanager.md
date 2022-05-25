@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.NotificationUrl Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NotificationUrl Property
+description: Gets or sets a URL to which HTTP POST request notifications are sent.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationUrl
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.notificationurl(v=VS.90)
 ms:contentKeyID: 35521062

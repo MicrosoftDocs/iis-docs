@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity) (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationMessage Constructor and details its namespace, assembly, syntax, and parameters.
 TOCTitle: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.String,System.String,System.String,System.String,Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "ServiceDescriptionFormatSettings Class"
-ms.date: "10/07/2016"
+title: ServiceDescriptionFormatSettings Class
+description: Describes the ServiceDescriptionFormatSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7fffcc59-13b7-4e54-892e-17cb49c01a42
 ---
 # ServiceDescriptionFormatSettings Class

@@ -1,5 +1,6 @@
 ---
 title: JobDetails.Status Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetails.Status property and details the property's namespace, assembly, syntax, and property value.
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Status
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.status(v=VS.90)

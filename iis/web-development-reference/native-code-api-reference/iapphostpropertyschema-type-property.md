@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::Type Property"
+description: Describes the IAppHostPropertySchema::Type property and provides the syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 5d097082-ce21-3515-cf8c-d04aa6fb9f00
 ---

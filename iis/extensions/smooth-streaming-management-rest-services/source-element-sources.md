@@ -1,5 +1,6 @@
 ---
 title: Source Element (Sources)
+description: Learn how the Source element represents a live stream source.
 TOCTitle: Source Element
 ms:assetid: f0571809-13b6-4278-8a64-8ae83f14e86d
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547072(v=VS.90)

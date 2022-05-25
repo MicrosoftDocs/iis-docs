@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager Class
+description: Details the syntax for the AdaptiveSourceManager class and represents the adaptive source single playback session.
 TOCTitle: AdaptiveSourceManager Class
 ms:assetid: e8073a26-452b-461a-9a0f-32085dc000ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822860(v=VS.90)

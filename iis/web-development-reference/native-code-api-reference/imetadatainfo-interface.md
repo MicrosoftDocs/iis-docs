@@ -1,6 +1,7 @@
 ---
-title: "IMetadataInfo Interface"
-ms.date: "10/07/2016"
+title: IMetadataInfo Interface
+description: Describes the IMetadataInfo interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a833d616-a815-b123-c943-df5af7c4025c
 ---
 # IMetadataInfo Interface

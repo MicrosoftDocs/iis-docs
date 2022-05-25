@@ -1,6 +1,7 @@
 ---
 title: "IScriptMapInfo Interface"
 ms.date: "10/07/2016"
+description: Learn how to retrieve configuration settings for request handlers using methods exposed by the IScriptMapInfo interface.
 ms.assetid: cc44126f-5ba3-b432-bc2c-aea50024efaa
 ---
 # IScriptMapInfo Interface

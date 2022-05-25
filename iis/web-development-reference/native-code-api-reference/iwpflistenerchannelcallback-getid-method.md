@@ -1,5 +1,6 @@
 ---
 title: "IWpfListenerChannelCallback::GetId Method"
+description: Learn how the IWpfListenerChannelCallback::GetId method retrieves the ID of a listener channel that needs to be started. 
 ms.date: "10/07/2016"
 ms.assetid: 031a01fe-3958-c081-d984-dcd22411eeb0
 ---

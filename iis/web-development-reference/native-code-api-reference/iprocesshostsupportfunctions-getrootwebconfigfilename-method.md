@@ -1,5 +1,6 @@
 ---
 title: "IProcessHostSupportFunctions::GetRootWebConfigFilename Method"
+description: Learn how the IProcessHostSupportFunctions::GetRootWebConfigFilename method retrieves the physical path for the ApplicationHost.config file.
 ms.date: "10/07/2016"
 ms.assetid: 5f721848-d568-ca68-b70e-2df063550cd2
 ---

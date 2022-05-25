@@ -1,5 +1,6 @@
 ---
 title: INativeConfigurationElementCollection::GetRawElementCount Method [IIS 7]
+description: INativeConfigurationElementCollection::GetRawElementCount Method retrieves an element from a collection of native configuration elements based on the element's index in the collection.
 TOCTitle: INativeConfigurationElementCollection::GetRawElementCount Method
 ms:assetid: f3d982ef-fecc-4101-8db2-6812590f9377
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424825(v=VS.90)

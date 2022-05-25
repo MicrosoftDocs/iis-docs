@@ -1,5 +1,6 @@
 ---
 title: "IHttpCacheKey::GetIsPrefix Method"
+description: Learn how the IHttpCacheKey::GetIsPrefix method returns a value that indicates whether two IHttpCacheKey pointers have the same prefix.
 ms.date: "10/07/2016"
 ms.assetid: 12816d70-6ae9-8035-f7d1-e4ceb2b78db0
 ---

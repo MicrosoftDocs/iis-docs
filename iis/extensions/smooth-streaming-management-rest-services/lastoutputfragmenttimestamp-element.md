@@ -1,6 +1,7 @@
 ---
 title: LastOutputFragmentTimestamp Element
 TOCTitle: LastOutputFragmentTimestamp Element
+description: "The LastOutputFragmentTimestamp element specifies the timestamp of the last output fragment. This article references its parent element."
 ms:assetid: 460f3bc7-6e1f-46a0-a55f-78d3e8f12c8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547036(v=VS.90)
 ms:contentKeyID: 37836877

@@ -1,5 +1,6 @@
 ---
 title: Tracing Methods (Microsoft.Web.Media.Diagnostics)
+description: This article outlines members exposed by the Tracing methods. There are also links to reference materials.
 TOCTitle: Tracing Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.Diagnostics.Tracing
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing_methods(v=VS.95)

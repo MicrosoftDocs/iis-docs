@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.MaxHeight Property
 TOCTitle: MaxHeight Property
+description: "The ManifestStream.MaxHeight property gets the stream MaxHeight field. This article describes its syntax, property value, and requirements."
 ms:assetid: 8a1268e9-76e8-49ad-9118-355554004e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822770(v=VS.90)
 ms:contentKeyID: 50079525

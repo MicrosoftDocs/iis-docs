@@ -1,5 +1,6 @@
 ---
 title: "IAppHostCollectionSchema::RemoveElementSchema Property"
+description: Learn how the IAppHostCollectionSchema::RemoveElementSchema property gets the schema for the element that will be used to remove an item from the collection.
 ms.date: "10/07/2016"
 ms.assetid: d5e28613-e83b-12df-792b-24b1cc457341
 ---

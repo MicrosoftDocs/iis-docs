@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - head Element
+description: This article contains information about attributes and elements of the IIS Smooth Streaming Server manifest.
 TOCTitle: <head>
 ms:assetid: eccabd5a-9046-4e6a-9654-ef1f9f632461
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230821(v=VS.90)

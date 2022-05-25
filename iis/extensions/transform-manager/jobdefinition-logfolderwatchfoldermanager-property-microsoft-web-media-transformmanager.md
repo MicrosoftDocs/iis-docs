@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.LogFolderWatchFolderManager Property (Microsoft.Web.Media.TransformManager)
+description: Describes the LogFolderWatchFolderManager property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: LogFolderWatchFolderManager Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderWatchFolderManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.logfolderwatchfoldermanager(v=VS.90)

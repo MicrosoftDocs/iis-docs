@@ -1,6 +1,7 @@
 ---
 title: IPlaylistEntryInfoCollection Interface
 TOCTitle: IPlaylistEntryInfoCollection Interface
+description: "The IPlaylistEntryInfoCollection interface represents a collection of playlist entries. This article includes a list of its members and their description."
 ms:assetid: 3fe6a8e5-a23f-46d8-9663-ae824cea9d1c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146264(v=VS.90)
 ms:contentKeyID: 19132335

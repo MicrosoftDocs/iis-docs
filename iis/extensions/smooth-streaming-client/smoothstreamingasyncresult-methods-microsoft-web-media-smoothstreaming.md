@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult Methods (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the SmoothStreamingAsyncResult methods, with links to reference materials.
 TOCTitle: SmoothStreamingAsyncResult Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult_methods(v=VS.95)

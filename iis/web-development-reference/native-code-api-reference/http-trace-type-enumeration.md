@@ -1,6 +1,7 @@
 ---
-title: "HTTP_TRACE_TYPE Enumeration"
-ms.date: "10/07/2016"
+title: HTTP_TRACE_TYPE Enumeration
+description: Describes HTTP_TRACE_TYPE enumeration and details its syntax, members, remarks, code example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f93c5c26-edf9-4577-5ff1-6a3491e1ff84
 ---
 # HTTP_TRACE_TYPE Enumeration

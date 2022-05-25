@@ -1,6 +1,7 @@
 ---
 title: ClipPlaybackEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipPlaybackEventArgs Properties
+description: "A list of members that are exposed by the ClipPlaybackEventArgs type, including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs_properties(v=VS.90)
 ms:contentKeyID: 23961243

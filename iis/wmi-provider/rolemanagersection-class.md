@@ -1,5 +1,6 @@
 ---
 title: "RoleManagerSection Class"
+description: The RoleManagerSection Class defines configuration settings that are used to support the role management infrastructure of Web applications.
 ms.date: "10/07/2016"
 ms.assetid: 4215b69c-7f4b-0364-eaf8-3c63d39a936f
 ---

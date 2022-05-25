@@ -1,5 +1,6 @@
 ---
 title: "TraceProviderDefinitionsSection Class"
+description: Represents the configuration section that defines trace providers.
 ms.date: "10/07/2016"
 ms.assetid: 04176419-60ef-c98e-ef0b-38987dace521
 ---

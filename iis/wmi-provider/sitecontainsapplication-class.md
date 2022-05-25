@@ -1,6 +1,7 @@
 ---
-title: "SiteContainsApplication Class1"
-ms.date: "10/07/2016"
+title: SiteContainsApplication Class1
+description: Describes the SiteContainsApplication class and provides the class' syntax, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: bb56f880-ee3d-06b3-467c-d4f58a7c80cd
 ---
 # SiteContainsApplication Class1

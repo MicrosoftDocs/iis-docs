@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobDetailsById Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.GetJobDetailsById method and details its syntax, parameters, return value, and implements.
 TOCTitle: GetJobDetailsById Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDetailsById(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdetailsbyid(v=VS.90)

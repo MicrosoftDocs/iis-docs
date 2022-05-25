@@ -1,5 +1,6 @@
 ---
 title: "IHttpCompletionInfo Interface"
+description: IHttpCompletionInfo Interface provides information about an asynchronous completion.
 ms.date: "10/07/2016"
 ms.assetid: 3f6d645d-aa2e-1de3-610d-104d8b775a10
 ---

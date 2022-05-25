@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.ClassName Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the ClassName property and provides the property's syntax, property value, version information, and permissions.
 TOCTitle: ClassName Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.ClassName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.classname(v=VS.90)

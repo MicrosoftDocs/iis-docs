@@ -1,5 +1,6 @@
 ---
 title: IManagementService.GetJobSchedulers Method  (Microsoft.Web.Media.TransformManager)
+description: GetJobSchedulers Method returns all JobScheduler objects from IIS Transform Manager.
 TOCTitle: GetJobSchedulers Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobSchedulers
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getjobschedulers(v=VS.90)

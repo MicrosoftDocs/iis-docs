@@ -1,5 +1,6 @@
 ---
 title: CircularList(T).BinarySearch Method  (Microsoft.Web.Media.Diagnostics)
+description: Learn how the CircularList\<T\>.BinarySearch method is overloaded. For complete information about this method, including syntax, usage, and examples, click a name in the overload list. 
 TOCTitle: BinarySearch Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.BinarySearch
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728251(v=VS.95)

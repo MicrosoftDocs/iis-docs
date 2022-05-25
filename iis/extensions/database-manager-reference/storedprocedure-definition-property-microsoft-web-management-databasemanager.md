@@ -1,6 +1,7 @@
 ---
 title: StoredProcedure.Definition Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Definition Property
+description: "The StoredProcedure.Definition property gets or sets the definition for a stored procedure. This article describes its syntax, remarks, and permissions."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Definition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure.definition(v=VS.90)
 ms:contentKeyID: 20476761

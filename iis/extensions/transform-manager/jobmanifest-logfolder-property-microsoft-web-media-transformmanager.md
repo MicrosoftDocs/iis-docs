@@ -1,5 +1,6 @@
 ---
 title: JobManifest.LogFolder Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobManifest.LogFolder property and details its namespace, assembly, syntax, and property value.
 TOCTitle: LogFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.logfolder(v=VS.90)

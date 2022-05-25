@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.GetJobLogFile Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobLogFile Method
+description: The GetJobLogFile Method returns the instance log for a job.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobLogFile(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjoblogfile(v=VS.90)
 ms:contentKeyID: 35520645

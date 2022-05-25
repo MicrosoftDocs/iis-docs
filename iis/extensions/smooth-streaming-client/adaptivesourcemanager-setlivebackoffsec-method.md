@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SetLiveBackoffSec Method
+description: This article contains information about syntax, parameters, return value, and requirements for the AdaptiveSourceManager.SetLiveBackoffSec method.
 TOCTitle: SetLiveBackoffSec Method
 ms:assetid: 19691763-2ca4-471a-8ef1-eebb5b8e8f11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822689(v=VS.90)

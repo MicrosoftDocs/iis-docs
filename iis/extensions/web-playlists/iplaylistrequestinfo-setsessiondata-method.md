@@ -1,5 +1,6 @@
 ---
 title: IPlaylistRequestInfo::SetSessionData Method
+description: Describes the IPlaylistRequestInfo::SetSessionData method and details its arguments, return value, and requirements.
 TOCTitle: IPlaylistRequestInfo::SetSessionData Method
 ms:assetid: 7a728484-e952-4d7d-ab4d-ea854bd359e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146276(v=VS.90)

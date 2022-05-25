@@ -1,6 +1,7 @@
 ---
 title: ChunkInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
+description: Gets or sets Attributes.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.attributes(v=VS.95)
 ms:contentKeyID: 46307759

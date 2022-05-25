@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.SetLogWriter Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the SetLogWriter method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: SetLogWriter Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SetLogWriter(Microsoft.Web.Media.TransformManager.Logger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.setlogwriter(v=VS.90)

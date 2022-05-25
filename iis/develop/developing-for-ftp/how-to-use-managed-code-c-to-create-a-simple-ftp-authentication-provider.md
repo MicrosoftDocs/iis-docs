@@ -1,7 +1,7 @@
 ---
-title: "How to Use Managed Code (C#) to Create a Simple FTP Authentication Provider"
+title: How to Use Managed Code (C#) to Create a Simple FTP Authentication Provider
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to use managed code to create a simple FTP authentication provider using Visual Studio 2008.
 ms.date: 03/18/2009
 ms.assetid: ed1d58d8-cd6e-43f2-b57c-4fac38b38e1b
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider
@@ -97,7 +97,7 @@ In this step, you will implement the extensibility interfaces for the demo provi
 4. Save and compile the project.
 
 > [!NOTE]
-> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the [Gacutil.exe (Global Assembly Cache Tool)](https://docs.microsoft.com/dotnet/framework/tools/gacutil-exe-gac-tool) article.
+> If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the [Gacutil.exe (Global Assembly Cache Tool)](/dotnet/framework/tools/gacutil-exe-gac-tool) article.
 
 ## Step 3: Add the Authentication Provider to FTP
 

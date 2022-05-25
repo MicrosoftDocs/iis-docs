@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CurrentState Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CurrentState property and provides the property's syntax, property value, remarks, version information, and permissions.
 TOCTitle: CurrentState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstate(v=VS.90)

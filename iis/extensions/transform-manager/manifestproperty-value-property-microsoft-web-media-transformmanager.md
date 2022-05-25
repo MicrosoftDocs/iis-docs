@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Value property and provides the property's namespace, assembly, syntax, property value, and what the property implements.
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Value
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.value(v=VS.90)

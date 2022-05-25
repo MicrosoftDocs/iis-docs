@@ -1,6 +1,7 @@
 ---
 title: CacheRequest Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Methods
+description: "List of members that are exposed by the CacheRequest type, including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest_methods(v=VS.90)
 ms:contentKeyID: 31469303

@@ -1,5 +1,6 @@
 ---
 title: LoadManagedRuntime function
+description: Describes the LoadManagedRuntime function and provides the function's syntax, parameters, and requirements.
 ms.date: 02/03/2021
 api_name:
   - LoadManagedRuntime

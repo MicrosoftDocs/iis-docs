@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobStatus Method
+description: "The HpcScheduler.GetJobStatus method returns the status of a job. This article describes its syntax, parameters, and return value."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetJobStatus(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.getjobstatus(v=VS.90)
 ms:contentKeyID: 35520702

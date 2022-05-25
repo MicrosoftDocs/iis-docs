@@ -1,6 +1,7 @@
 ---
-title: "Listener Adapter Callback Functions"
-ms.date: "10/07/2016"
+title: Listener Adapter Callback Functions
+description: Describes the listener adapter callback functions and provides a list of documentation links related to the functions.
+ms.date: 10/07/2016
 ms.assetid: 7e786e2b-c8a6-42d0-9aaa-572e7d19b30d
 ---
 # Listener Adapter Callback Functions

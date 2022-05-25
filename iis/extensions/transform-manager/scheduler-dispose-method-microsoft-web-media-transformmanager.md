@@ -1,6 +1,7 @@
 ---
 title: Scheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
+description: "Dispose method syntax used to release all resources that are used by the current instance of the Scheduler class."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.dispose(v=VS.90)
 ms:contentKeyID: 35520885

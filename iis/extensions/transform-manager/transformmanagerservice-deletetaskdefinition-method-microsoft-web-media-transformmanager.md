@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.DeleteTaskDefinition Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.DeleteTaskDefinition method and details its syntax, parameters, implements, and exceptions.
 TOCTitle: DeleteTaskDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteTaskDefinition(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.deletetaskdefinition(v=VS.90)

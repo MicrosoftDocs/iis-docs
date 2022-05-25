@@ -1,6 +1,7 @@
 ---
 title: StreamInfo.ParentStream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParentStream Property
+description: Gets or sets the parent stream in the case of a sparse stream. Otherwise this is null.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.parentstream(v=VS.90)
 ms:contentKeyID: 23961247

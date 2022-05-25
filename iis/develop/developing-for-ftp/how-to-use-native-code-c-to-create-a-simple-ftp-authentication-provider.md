@@ -1,7 +1,7 @@
 ---
-title: "How to Use Native Code (C++) to Create a Simple FTP Authentication Provider"
+title: How to Use Native Code (C++) to Create a Simple FTP Authentication Provider
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
+description: Describes how to use native code to create a simple FTP authentication provider using Visual Studio 2008.
 ms.date: 03/18/2009
 ms.assetid: 0c3f8020-24fd-4eca-9313-e656fb872cc4
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider

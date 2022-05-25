@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage.Severity Property (Microsoft.Web.Media.TransformManager)
+description: Severity Property gets or sets the error severity.
 TOCTitle: Severity Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Severity
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.severity(v=VS.90)

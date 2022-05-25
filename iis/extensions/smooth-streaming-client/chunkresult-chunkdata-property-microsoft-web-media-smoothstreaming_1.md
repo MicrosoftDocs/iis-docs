@@ -1,6 +1,7 @@
 ---
 title: ChunkResult.ChunkData Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkData Property
+description: Describes the ChunkResult.ChunkData property and provides the syntax, property value, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkData
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.chunkdata(v=VS.95)
 ms:contentKeyID: 46307755

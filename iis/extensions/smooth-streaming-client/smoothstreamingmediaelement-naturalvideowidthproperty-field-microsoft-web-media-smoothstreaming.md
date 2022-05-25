@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalVideoWidthProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article shows syntax and version information of the NaturalVideoWidthProperty Field, which represents a dependency property that specifies the NaturalVideoWidth property.
 TOCTitle: NaturalVideoWidthProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidthProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideowidthproperty(v=VS.90)

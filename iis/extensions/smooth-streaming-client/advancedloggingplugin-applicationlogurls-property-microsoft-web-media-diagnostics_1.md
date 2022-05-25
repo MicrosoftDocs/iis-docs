@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin.ApplicationLogUrls Property (Microsoft.Web.Media.Diagnostics)
+description: "This article provides syntax, remarks, and version information for the ApplicationLogUrls Property, which gets or sets the ApplicationLogUrls."
 TOCTitle: ApplicationLogUrls Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ApplicationLogUrls
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.applicationlogurls(v=VS.95)

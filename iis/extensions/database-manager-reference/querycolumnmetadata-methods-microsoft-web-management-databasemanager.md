@@ -1,6 +1,7 @@
 ---
 title: QueryColumnMetadata Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryColumnMetadata Methods
+description: "List of members exposed by the QueryColumnMetadata type including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata_methods(v=VS.90)
 ms:contentKeyID: 20476417

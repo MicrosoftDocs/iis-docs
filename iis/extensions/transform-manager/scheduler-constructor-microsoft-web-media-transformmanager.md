@@ -1,5 +1,6 @@
 ---
 title: Scheduler Constructor  (Microsoft.Web.Media.TransformManager)
+description: Learn how the Scheduler constructor initializes a new instance of the Scheduler class.
 TOCTitle: Scheduler Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.scheduler(v=VS.90)

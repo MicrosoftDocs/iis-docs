@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.CancelJob Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the IMonitoringService.CancelJob method, with links to reference materials.
 TOCTitle: CancelJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.CancelJob(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.canceljob(v=VS.90)

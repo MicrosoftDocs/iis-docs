@@ -1,5 +1,6 @@
 ---
 title: Index Class (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index class and provides the class' inheritance hierarchy, syntax, constructors, properties, and methods.
 TOCTitle: Index Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Index
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index(v=VS.90)

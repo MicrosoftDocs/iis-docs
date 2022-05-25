@@ -1,6 +1,7 @@
 ---
 title: Tracing.IncludeMediaElementId Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IncludeMediaElementId Field
+description: "The Tracing.IncludeMediaElementId field represents a Boolean value that indicates whether to include the media element ID in traces."
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeMediaElementId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includemediaelementid(v=VS.90)
 ms:contentKeyID: 23961103

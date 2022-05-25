@@ -1,6 +1,7 @@
 ---
 title: IManagementService.UpdateJobDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobDefinition Method
+description: "The IManagementService.UpdateJobDefinition method adds or replaces a JobDefinition object. This article describes its syntax, parameters, and remarks."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobDefinition(Microsoft.Web.Media.TransformManager.JobDefinition)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.updatejobdefinition(v=VS.90)
 ms:contentKeyID: 35520694

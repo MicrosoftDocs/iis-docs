@@ -1,5 +1,6 @@
 ---
 title: "SessionStateSection Class"
+description: "The SessionStateSection Class configures the session state for a Web application. This article details syntax, methods, properties, remarks, inheritance hierarchy, and system requirements."
 ms.date: "10/07/2016"
 ms.assetid: ad32bf4b-d28b-34d9-ef89-c28e34f8c8f5
 ---

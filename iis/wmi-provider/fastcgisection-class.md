@@ -1,5 +1,6 @@
 ---
 title: "FastCgiSection Class"
+description: "The FastCgiSection class contains configuration settings for FastCGI applications. This article describes its syntax, methods, properties, inheritance hierarchy, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 9622ab64-c41d-4b24-a696-5df6c282bf20
 ---

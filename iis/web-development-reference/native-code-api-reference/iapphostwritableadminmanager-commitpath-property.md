@@ -1,5 +1,6 @@
 ---
 title: "IAppHostWritableAdminManager::CommitPath Property"
+description: Learn how the CommitPath property gets or sets the configuration path where changes should be committed.
 ms.date: "10/07/2016"
 ms.assetid: f712b0e8-f424-93b7-d623-48619b02f99c
 ---

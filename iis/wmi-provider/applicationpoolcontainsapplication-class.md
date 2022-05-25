@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPoolContainsApplication Class1"
+description: This article contains syntax, properties, and requirements for the ApplicationPoolContainsApplication Class1.
 ms.date: "10/07/2016"
 ms.assetid: 7d574944-1324-9e06-bd93-c1c69280cc53
 ---

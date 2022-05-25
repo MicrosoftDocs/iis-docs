@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the ChunkInfo type. There are also links to reference materials.
 TOCTitle: ChunkInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo_properties(v=VS.90)

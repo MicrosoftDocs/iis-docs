@@ -1,6 +1,7 @@
 ---
 title: IAdaptiveSource.Manifest Property
 TOCTitle: Manifest Property
+description: "The IAdaptiveSource.Manifest property gets the manifest. This article describes its syntax, property value, and requirements."
 ms:assetid: 2e8c0b2b-8909-4ff3-8a33-bc4e179c6d6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822709(v=VS.90)
 ms:contentKeyID: 50079464

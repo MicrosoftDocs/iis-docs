@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.TaskIdAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: The TaskIdAttributeName field represents a constant that is used when the task Id attribute is assigned to a job definition. 
 TOCTitle: TaskIdAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.TaskIdAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.taskidattributename(v=VS.90)

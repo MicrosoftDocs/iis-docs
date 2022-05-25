@@ -1,6 +1,7 @@
 ---
-title: "IUriKey Interface"
-ms.date: "10/07/2016"
+title: IUriKey Interface
+description: Describes the IUriKey interface and details its syntax, methods, derived classes, remarks, code example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a922afbd-c069-af8f-3ac8-413c70eb1489
 ---
 # IUriKey Interface

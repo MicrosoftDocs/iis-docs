@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.Editable Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.Editable property and provides the property's namespace, assembly, syntax, property value, and permissions.
 TOCTitle: Editable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Editable
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.editable(v=VS.90)

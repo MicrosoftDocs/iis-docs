@@ -1,6 +1,7 @@
 ---
 title: "ServerContainsApplicationPool Class1"
 ms.date: "10/07/2016"
+description: Provides a relationship between a Web server and its application pools.
 ms.assetid: ca09ddf2-df30-a557-720a-8dd60e773365
 ---
 # ServerContainsApplicationPool Class1

@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: HpcScheduler Class
+description: "The HpcScheduler class manages IIS Transform Manager jobs that are run on a High Performance Computing (HPC) computer cluster."
 ms:assetid: T:Microsoft.Web.Media.TransformManager.HpcScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler(v=VS.90)
 ms:contentKeyID: 35520924

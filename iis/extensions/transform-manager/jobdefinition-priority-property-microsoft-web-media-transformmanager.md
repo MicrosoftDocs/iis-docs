@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.Priority Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Priority Property and provides the property's namespace, assembly, syntax, property value, and remarks.
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.Priority
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.priority(v=VS.90)

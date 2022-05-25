@@ -1,6 +1,7 @@
 ---
-title: "IisClientCertificateMappingAuthenticationSection Class"
-ms.date: "10/07/2016"
+title: IisClientCertificateMappingAuthenticationSection Class
+description: Describes the IisClientCertificateMappingAuthenticationSection class and provides the class' syntax, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: ab36fc78-170a-754c-8128-86e05a251fac
 ---
 # IisClientCertificateMappingAuthenticationSection Class

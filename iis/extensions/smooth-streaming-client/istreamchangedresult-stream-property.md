@@ -1,6 +1,7 @@
 ---
 title: IStreamChangedResult.Stream Property
 TOCTitle: Stream Property
+description: Gets the stream that is selected or de-selected.
 ms:assetid: d17fa187-f0fd-4302-a914-3604b9368204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822838(v=VS.90)
 ms:contentKeyID: 50079592

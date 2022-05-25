@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CanPauseProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanPauseProperty Field
+description: Describes the SmoothStreamingMediaElement.CanPauseProperty field and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanPauseProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canpauseproperty(v=VS.95)
 ms:contentKeyID: 46307549

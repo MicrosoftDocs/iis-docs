@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LiveEventCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LiveEventCompleted Event
+description: "The SmoothStreamingMediaElement.LiveEventCompleted event occurs when a live media stream ends."
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveEventCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveeventcompleted(v=VS.95)
 ms:contentKeyID: 46307520

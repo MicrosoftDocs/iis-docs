@@ -1,5 +1,6 @@
 ---
 title: QueryColumnMetadata Properties (Microsoft.Web.Management.DatabaseManager)
+description: Describes the QueryColumnMetadata properties and provides a table that outlines the name and description for various property types.
 TOCTitle: QueryColumnMetadata Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata_properties(v=VS.90)

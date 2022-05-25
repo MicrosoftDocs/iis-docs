@@ -1,5 +1,6 @@
 ---
 title: JobDetails Class (Microsoft.Web.Media.TransformManager)
+description: Learn how the JobDetails class provides details about an IIS Transform Manager job.
 TOCTitle: JobDetails Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails(v=VS.90)

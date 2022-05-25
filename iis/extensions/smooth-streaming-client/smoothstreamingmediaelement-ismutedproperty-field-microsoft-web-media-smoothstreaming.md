@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsMutedProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares syntax and version information of the IsMutedProperty Field, which represents a dependency property that specifies the IsMuted Property."
 TOCTitle: IsMutedProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsMutedProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.ismutedproperty(v=VS.90)

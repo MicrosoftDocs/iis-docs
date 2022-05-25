@@ -1,6 +1,7 @@
 ---
 title: CacheResponse Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Constructor
+description: "The CacheResponse constructor initializes a new instance of the CacheResponse class. An overload list is provided with each item's syntax, usage, and examples."
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.90)
 ms:contentKeyID: 31469200

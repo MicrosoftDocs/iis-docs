@@ -1,6 +1,7 @@
 ---
 title: ITaskStatus Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: ITaskStatus Methods
+description: This article contains the methods and reference information for the ITaskStatus methods.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ITaskStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus_methods(v=VS.90)
 ms:contentKeyID: 35520813

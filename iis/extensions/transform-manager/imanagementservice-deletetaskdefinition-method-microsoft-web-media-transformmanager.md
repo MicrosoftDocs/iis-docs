@@ -1,6 +1,7 @@
 ---
 title: IManagementService.DeleteTaskDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteTaskDefinition Method
+description: Deletes a TaskDefinition object from IIS Transform Manager.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.DeleteTaskDefinition(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.deletetaskdefinition(v=VS.90)
 ms:contentKeyID: 35520581

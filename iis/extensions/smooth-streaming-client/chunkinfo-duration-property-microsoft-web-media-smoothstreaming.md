@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo.Duration Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the Duration property is the time duration that corresponds the to the <d> element in the manifest for the chunk.
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.Duration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.duration(v=VS.90)

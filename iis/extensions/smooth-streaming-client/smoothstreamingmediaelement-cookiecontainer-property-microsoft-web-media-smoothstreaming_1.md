@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CookieContainer Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CookieContainer Property
+description: This article contains syntax, property value, and version information for the SmoothStreamingMediaElement.CookieContainer property.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CookieContainer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.cookiecontainer(v=VS.95)
 ms:contentKeyID: 46307813

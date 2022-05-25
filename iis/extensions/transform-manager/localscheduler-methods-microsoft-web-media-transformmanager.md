@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalScheduler Methods
+description: "List of members exposed by the LocalScheduler type, including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.LocalScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler_methods(v=VS.90)
 ms:contentKeyID: 35520746

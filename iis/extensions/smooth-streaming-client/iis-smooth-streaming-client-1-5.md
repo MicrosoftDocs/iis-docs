@@ -1,6 +1,7 @@
 ---
 title: IIS Smooth Streaming Client 1.5
 TOCTitle: IIS Smooth Streaming Client 1.5
+description: "This section provides an introduction to application development based on the IIS Smooth Streaming Client API including examples used to experiment with scenarios."
 ms:assetid: cee83024-5235-417c-b28f-952bb15e4342
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958035(v=VS.90)
 ms:contentKeyID: 28407137

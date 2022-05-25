@@ -1,5 +1,6 @@
 ---
 title: IStreamChangedResult.Action Property
+description: This article contains information about syntax, property value, and requirements for the IStreamChangedResult.Action property.
 TOCTitle: Action Property
 ms:assetid: baa176ea-018f-42b5-b1f4-9749eff35a34
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822817(v=VS.90)

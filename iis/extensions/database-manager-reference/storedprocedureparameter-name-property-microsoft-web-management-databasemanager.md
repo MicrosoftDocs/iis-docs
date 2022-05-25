@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter.Name Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the StoredProcedureParameter.Name property.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.name(v=VS.90)

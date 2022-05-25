@@ -1,5 +1,6 @@
 ---
 title: "IGlobalConfigurationChangeProvider::GetChangePath Method"
+description: Describes the IGlobalConfigurationChangeProvider::GetChangePath method and provides  the syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: bafedfc8-9b20-cef2-48cb-de1d8d9c1938
 ---

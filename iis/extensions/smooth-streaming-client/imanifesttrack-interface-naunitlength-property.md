@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.NAUnitLength Property
+description: Describes the IManifestTrack Interface.NAUnitLength property and provides the property's syntax, property value, and requirements.
 TOCTitle: NAUnitLength Property
 ms:assetid: 767610fd-bd09-4817-902a-8b23f87babc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822760(v=VS.90)

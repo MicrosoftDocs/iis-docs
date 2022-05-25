@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.ContentType Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the CacheResponse.ContentType property is a string object that identifies the content type.
 TOCTitle: ContentType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.contenttype(v=VS.95)

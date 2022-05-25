@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.WatchFolder Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.WatchFolder property and details its namespace, assembly, syntax, and property value.
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.WatchFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.watchfolder(v=VS.90)

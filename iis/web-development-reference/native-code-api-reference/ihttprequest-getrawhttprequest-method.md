@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetRawHttpRequest Method"
+description: Learn how the IHttpRequest::GetRawHttpRequest method returns a structure that contains the raw HTTP request.
 ms.date: "10/07/2016"
 ms.assetid: fa0ce96b-acb6-5dd8-5225-08909ff40868
 ---

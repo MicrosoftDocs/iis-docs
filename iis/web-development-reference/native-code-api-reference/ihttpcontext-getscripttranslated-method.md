@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetScriptTranslated Method"
+description: "The IHttpContext::GetScriptTranslated method retrieves the physical path of the current request. This article describes its syntax, return value, remarks, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 80a1063c-b33b-7af1-b445-1a49922cd728
 ---

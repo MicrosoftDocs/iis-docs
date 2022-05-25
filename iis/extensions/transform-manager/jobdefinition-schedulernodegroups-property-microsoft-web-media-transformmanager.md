@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.SchedulerNodeGroups Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerNodeGroups Property
+description: "The JobDefinition.SchedulerNodeGroups property gets or sets a list of compute nodes. This article describes its syntax and remarks."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroups
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroups(v=VS.90)
 ms:contentKeyID: 35520737

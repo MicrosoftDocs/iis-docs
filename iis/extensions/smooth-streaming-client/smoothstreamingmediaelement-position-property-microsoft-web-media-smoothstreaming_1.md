@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Position Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Position Property
+description: Gets or sets the position in the current stream.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Position
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.position(v=VS.95)
 ms:contentKeyID: 46307842

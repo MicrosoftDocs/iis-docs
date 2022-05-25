@@ -1,6 +1,7 @@
 ---
-title: "TrustSection Class"
-ms.date: "10/07/2016"
+title: TrustSection Class
+description: Describes the TrustSection class and provides the class' syntax, methods, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 4fdfb984-ac44-52c5-b709-b0dd2b08a942
 ---
 # TrustSection Class

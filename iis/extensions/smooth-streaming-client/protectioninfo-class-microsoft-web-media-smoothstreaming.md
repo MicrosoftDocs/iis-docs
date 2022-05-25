@@ -1,5 +1,6 @@
 ---
 title: ProtectionInfo Class (Microsoft.Web.Media.SmoothStreaming)
+description: The ProtectionInfo Class controls the digital rights management information. This article details the constructor, properties, and methods available.
 TOCTitle: ProtectionInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo(v=VS.90)

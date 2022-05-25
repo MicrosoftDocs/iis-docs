@@ -1,6 +1,7 @@
 ---
 title: Logger.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
+description: "The Logger.LogLevel property gets or sets the level of information that will be logged. This article describes its syntax, property value, and implements."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.loglevel(v=VS.90)
 ms:contentKeyID: 35521136

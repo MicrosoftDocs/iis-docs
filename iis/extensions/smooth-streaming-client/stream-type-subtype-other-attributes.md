@@ -1,5 +1,6 @@
 ---
 title: Stream Type, Subtype, Other Attributes
+description: Describes stream types, subtypes, and other attributes and outlines various StreamIndex attributes and other constraints on attributes.
 TOCTitle: Stream Type, Subtype, Other Attributes
 ms:assetid: eada3fe3-b0a0-4605-8b98-9c772c52e304
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728117(v=VS.95)

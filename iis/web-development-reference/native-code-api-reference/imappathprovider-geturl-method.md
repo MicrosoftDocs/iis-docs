@@ -1,5 +1,6 @@
 ---
 title: "IMapPathProvider::GetUrl Method"
+description: Learn how the IMapPathProvider::GetUrl method retrieves the relative URL for the request, as well as details about its syntax and parameters.
 ms.date: "10/07/2016"
 ms.assetid: 3e34715b-0a94-dd4a-8ec0-4974e470bb5d
 ---

@@ -1,6 +1,7 @@
 ---
 title: IIS Web Playlists SDK Programming Reference
 TOCTitle: Programming Reference
+description: "The IIS Web Playlists SDK allows developers to extend the default behavior through the development of custom providers and provides a COM interface."
 ms:assetid: b90dbdd2-a0e5-4675-8924-6507c1e2b66a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146287(v=VS.90)
 ms:contentKeyID: 19132358

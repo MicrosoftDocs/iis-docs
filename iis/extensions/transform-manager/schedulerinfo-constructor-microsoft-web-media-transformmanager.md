@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerInfo constructor and provides a table that outlines the name and description for various method types.
 TOCTitle: SchedulerInfo Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)

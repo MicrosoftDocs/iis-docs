@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.Status Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the Status property gets or sets the status of an ongoing transform.
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.Status
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.status(v=VS.90)

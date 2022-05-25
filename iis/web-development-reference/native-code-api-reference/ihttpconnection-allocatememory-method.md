@@ -1,5 +1,6 @@
 ---
 title: "IHttpConnection::AllocateMemory Method"
+description: Learn how the AllocateMemory method allocates a specified amount of memory.
 ms.date: "10/07/2016"
 ms.assetid: 25fd377b-68aa-c2da-f21d-bddc92f71a51
 ---
