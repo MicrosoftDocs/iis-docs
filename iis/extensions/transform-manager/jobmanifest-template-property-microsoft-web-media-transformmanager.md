@@ -1,6 +1,7 @@
 ---
 title: JobManifest.Template Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Template Property
+description: "The Template property gets an XML element that contains a set of sequential tasks that define a job."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Template
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.template(v=VS.90)
 ms:contentKeyID: 35520848
