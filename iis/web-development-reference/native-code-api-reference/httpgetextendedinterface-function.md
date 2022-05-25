@@ -1,6 +1,7 @@
 ---
-title: "HttpGetExtendedInterface Function"
-ms.date: "10/07/2016"
+title: HttpGetExtendedInterface Function
+description: Describes the HttpGetExtendedInterface function and provides the function's syntax, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 89120dc5-2cae-46a5-82b0-f2a06bc6a7eb
 ---
 # HttpGetExtendedInterface Function

@@ -1,6 +1,7 @@
 ---
-title: "IAuthenticationProvider::SetUser Method"
-ms.date: "10/07/2016"
+title: IAuthenticationProvider::SetUser Method
+description: Describes the IAuthenticationProvider::SetUser method and provides the method's syntax, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 14f0a659-e8ed-3010-11c5-9cb134455375
 ---
 # IAuthenticationProvider::SetUser Method

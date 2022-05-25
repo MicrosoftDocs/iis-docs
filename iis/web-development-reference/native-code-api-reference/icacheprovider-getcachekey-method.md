@@ -1,6 +1,7 @@
 ---
-title: "ICacheProvider::GetCacheKey Method"
-ms.date: "10/07/2016"
+title: ICacheProvider::GetCacheKey Method
+description: Describes the ICacheProvider::GetCacheKey method and provides the method's syntax, return value, remarks, notes for implementers, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 557ae36c-12e4-cbda-4178-67c3620067c6
 ---
 # ICacheProvider::GetCacheKey Method
