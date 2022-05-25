@@ -1,6 +1,7 @@
 ---
 title: HpcScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method
+description: "The HpcScheduler.Dispose Method releases all resources used by the HPC scheduler instance. This article provides its overload list."
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.HpcScheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.dispose(v=VS.90)
 ms:contentKeyID: 35520776
