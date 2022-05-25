@@ -1,7 +1,6 @@
 ---
 title: ConfigurationMessage Constructor (String, String, String, String) (Microsoft.Web.Media.TransformManager)
 description: This article contains information about syntax for the ConfigurationMessage constructor, with links to reference materials.
-description: Learn how the ConfigurationMessage constructor initializes a new instance of the ConfigurationMessage class using the specified name, file name, message, and help link ID. 
 TOCTitle: ConfigurationMessage Constructor (String, String, String, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.String,System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
