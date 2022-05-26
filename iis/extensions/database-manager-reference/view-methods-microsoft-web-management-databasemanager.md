@@ -1,6 +1,7 @@
 ---
 title: View Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: View Methods
+description: "List of members that the View type exposes including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.View
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view_methods(v=VS.90)
 ms:contentKeyID: 20476813

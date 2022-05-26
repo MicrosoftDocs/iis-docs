@@ -1,6 +1,7 @@
 ---
 title: SmoothSchemeHandler Class
 TOCTitle: SmoothSchemeHandler Class
+description: "The SmoothSchemeHandler class represents the Smooth Scheme Handler. This article describes its syntax, members, and requirements"
 ms:assetid: b57be6d7-a509-4a89-98c3-32f94912c2d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822814(v=VS.90)
 ms:contentKeyID: 50079568

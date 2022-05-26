@@ -1,6 +1,7 @@
 ---
 title: "IUriKay::GetConfigPath Method"
-ms.date: "10/07/2016"
+description: "Describes the IUriKay::GetConfigPath method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: fa8f2ba9-e540-45e9-8d4a-190991cac5cb
 ---
 # IUriKay::GetConfigPath Method

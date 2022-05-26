@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetCumulativeJobCountByStatus Method  (Microsoft.Web.Media.TransformManager)
+description: Learn about the TransformManagerService.GetCumulativeJobCountByStatus method, specifically learn details about its syntax and property value.
 TOCTitle: GetCumulativeJobCountByStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetCumulativeJobCountByStatus(Microsoft.Web.Media.TransformManager.JobStatus)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getcumulativejobcountbystatus(v=VS.90)

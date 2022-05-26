@@ -1,5 +1,6 @@
 ---
 title: WorkQueue Class (Microsoft.Web.Media.TransformManager)
+description: This article has information about inheritance hierarchy, syntax, properties, methods, and thready safety for the WorkQueue class.
 TOCTitle: WorkQueue Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.WorkQueue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IManagementService Interface (Microsoft.Web.Media.TransformManager)
+description: Describes the IManagementService interface and provides the interface's namespace, assembly, syntax, and methods.
 TOCTitle: IManagementService Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IManagementService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice(v=VS.90)

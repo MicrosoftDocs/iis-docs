@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingPlaybackModeProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingPlaybackModeProperty field and provides the field's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: SmoothStreamingPlaybackModeProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingPlaybackModeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingplaybackmodeproperty(v=VS.90)

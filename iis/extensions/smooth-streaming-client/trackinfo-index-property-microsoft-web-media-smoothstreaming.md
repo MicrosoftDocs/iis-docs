@@ -1,5 +1,6 @@
 ---
 title: TrackInfo.Index Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the TrackInfo.Index property and provides the property's syntax, property value, Silverlight information, and permissions.
 TOCTitle: Index Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.index(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: TypeInfo Class (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about inheritance hierarchy, syntax, properties, constructors, methods, and thready safety for the TypeInfo class.
 TOCTitle: TypeInfo Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo(v=VS.90)

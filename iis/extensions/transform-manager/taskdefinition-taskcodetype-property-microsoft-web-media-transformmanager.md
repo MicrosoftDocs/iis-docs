@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.TaskCodeType Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskCodeType property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: TaskCodeType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskCodeType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.taskcodetype(v=VS.90)

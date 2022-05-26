@@ -1,5 +1,6 @@
 ---
 title: JobDetails.Progress Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Progress property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Progress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.progress(v=VS.90)

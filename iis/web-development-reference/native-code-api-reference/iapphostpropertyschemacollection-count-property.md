@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPropertySchemaCollection::Count Property"
-ms.date: "10/07/2016"
+title: IAppHostPropertySchemaCollection::Count Property
+description: Describes the IAppHostPropertySchemaCollection::Count property and provides the property's syntax, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8ec63dd6-3e18-4a28-af5b-7e2211fcd4d1
 ---
 # IAppHostPropertySchemaCollection::Count Property

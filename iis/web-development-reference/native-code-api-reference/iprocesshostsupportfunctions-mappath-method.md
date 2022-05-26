@@ -1,6 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::MapPath Method"
-ms.date: "10/07/2016"
+title: IProcessHostSupportFunctions::MapPath Method
+ms.date: 10/07/2016
+description: The IProcessHostSupportFunctions::MapPath Method retrieves the physical path of a relative URL.
 ms.assetid: a4792b18-6e80-3b97-855b-30e5f937c80a
 ---
 # IProcessHostSupportFunctions::MapPath Method

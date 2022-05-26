@@ -1,5 +1,6 @@
 ---
 title: "IAppHostAdminManager Interface"
+description: Learn how the IAppHostAdminManager interface provides read-only access to effective data in the IIS 7 configuration system.
 ms.date: "10/07/2016"
 ms.assetid: 2e02f13e-9999-28dd-304d-507b041f9b5b
 ---

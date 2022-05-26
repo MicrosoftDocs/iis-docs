@@ -1,5 +1,6 @@
 ---
 title: "IAppDomainInfo::GetVirtualPath Method"
+description: IAppDomainInfo::GetVirtualPath Method retrieves the root virtual path of the application domain.
 ms.date: "10/07/2016"
 ms.assetid: 24d3efb6-8bab-52b0-181f-c07eef374eca
 ---

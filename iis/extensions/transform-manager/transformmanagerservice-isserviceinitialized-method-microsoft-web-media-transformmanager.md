@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.IsServiceInitialized Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: IsServiceInitialized Method
+description: "The TransformManagerService.IsServiceInitialized method determines whether the IIS Transform Manager service is initialized."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.IsServiceInitialized
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.isserviceinitialized(v=VS.90)
 ms:contentKeyID: 35520652

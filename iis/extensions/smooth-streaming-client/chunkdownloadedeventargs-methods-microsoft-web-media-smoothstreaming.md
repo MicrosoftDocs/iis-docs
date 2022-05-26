@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkDownloadedEventArgs methods and provides links to articles about each individual method.
 TOCTitle: ChunkDownloadedEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs_methods(v=VS.95)

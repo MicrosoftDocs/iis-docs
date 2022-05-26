@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.AddConfigurationMessage Method (String, ConfigurationMessageSeverity) (Microsoft.Web.Media.TransformManager)
+description: Learn how the AddConfigurationMessage method adds the specified message to the IIS Transform Manager configuration using the specified severity value.
 TOCTitle: AddConfigurationMessage Method (String, ConfigurationMessageSeverity)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage(System.String,Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.addconfigurationmessage(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::GetAppPoolName Method"
 ms.date: "10/07/2016"
+description: Learn how to retrieve the name of the application pool for the current request, such as through the GetAppPoolName method.
 ms.assetid: f11a11fa-f364-d8ce-d7cb-1bc1ae4e0ad9
 ---
 # IHttpServer::GetAppPoolName Method

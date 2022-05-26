@@ -1,5 +1,6 @@
 ---
 title: "WsdlHelpGeneratorInfo Class"
+description: Specifies the XML Web service Help page that is displayed to a browser when the browser navigates directly to an .asmx page.
 ms.date: "10/07/2016"
 ms.assetid: ecad8fbf-4dbe-487a-f9e6-55a06cce55d9
 ---

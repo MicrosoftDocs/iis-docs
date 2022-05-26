@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy Interface"
+description: Learn how the IHttpCachePolicy interface provides CHttpModule derived classes access to the setting and getting policy for request caching.
 ms.date: "10/07/2016"
 ms.assetid: 25090637-88d3-52df-17bc-9560fa3d92dc
 ---

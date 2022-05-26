@@ -1,5 +1,6 @@
 ---
 title: "IFtpRoleProvider Interface (Native)"
+description: This article contains information about syntax, methods, and requirements for the IFtpRoleProvider interface.
 ms.date: "09/06/2017"
 ms.assetid: 58e05545-9a67-4504-a897-f97b054765ab
 ms.author: "robmcm"

@@ -1,5 +1,6 @@
 ---
 title: "ServicePointManagerSettings Class"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ServicePointManagerSettings class.
 ms.date: "10/07/2016"
 ms.assetid: cf44f648-20cd-eb13-fbb3-c5514cf5749d
 ---

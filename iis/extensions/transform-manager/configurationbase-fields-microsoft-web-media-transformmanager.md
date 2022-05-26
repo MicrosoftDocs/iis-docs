@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase Fields (Microsoft.Web.Media.TransformManager)
+description: The ConfigurationBase type exposes the following members.
 TOCTitle: ConfigurationBase Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.ConfigurationBase
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase_fields(v=VS.90)

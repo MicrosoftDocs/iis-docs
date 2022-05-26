@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::CloneContext Method"
+description: IHttpContext::CloneContext Method creates a clone of the current request context.
 ms.date: "10/07/2016"
 ms.assetid: fca3d2f4-9ebc-9615-53bc-2447fb65e301
 ---

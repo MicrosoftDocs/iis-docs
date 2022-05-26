@@ -1,5 +1,6 @@
 ---
 title: "Listener Adapter Exported Functions"
+description: This section describes the listener adapter exported functions that control the listener channel.
 ms.date: "10/07/2016"
 ms.assetid: c2c81031-af41-499f-a3cb-55dc15fce614
 ---

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistFileInfo::FilePath Property
+description: Learn how the IPlaylistFileInfo::FilePath property gets the canonical physical file path.
 TOCTitle: IPlaylistFileInfo::FilePath Property
 ms:assetid: 8a63407d-1b30-4365-9089-5cbe30720a80
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146280(v=VS.90)

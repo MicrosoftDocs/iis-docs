@@ -1,5 +1,6 @@
 ---
 title: Utilities.CloneElement Method  (Microsoft.Web.Media.TransformManager)
+description: CloneElement Method creates a duplicate of the provided element.
 TOCTitle: CloneElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.CloneElement(System.Xml.Linq.XElement,System.Xml.Linq.XNamespace)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.cloneelement(v=VS.90)

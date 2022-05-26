@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsTaskCount Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsTaskCount Field
+description: "The JobDetails.JobDetailsTaskCount field represents a constant that is used when transform jobs are sorted by the taskCount field."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsTaskCount
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailstaskcount(v=VS.90)
 ms:contentKeyID: 35520990

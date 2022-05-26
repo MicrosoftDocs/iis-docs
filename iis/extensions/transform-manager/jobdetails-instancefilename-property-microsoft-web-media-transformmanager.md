@@ -1,5 +1,6 @@
 ---
 title: JobDetails.InstanceFileName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the InstanceFileName property gets or sets the name of the file that matched the file watcher filter and that instantiated the job.
 TOCTitle: InstanceFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.InstanceFileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.instancefilename(v=VS.90)

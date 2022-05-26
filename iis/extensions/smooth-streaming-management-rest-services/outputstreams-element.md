@@ -1,6 +1,7 @@
 ---
 title: OutputStreams Element
 TOCTitle: OutputStreams Element
+description: "The OutputStreams element provides summary information about Smooth Streaming output streams. This article provides its child and parent elements."
 ms:assetid: 655a0fec-83bf-4a2f-8328-4c04a1d985f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547043(v=VS.90)
 ms:contentKeyID: 37836884

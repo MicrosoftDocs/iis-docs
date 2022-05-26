@@ -1,6 +1,7 @@
 ---
-title: "IHttpContext Interface"
-ms.date: "10/07/2016"
+title: IHttpContext Interface
+description: Describes IHttpContext interface and provides the interface's syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 133e92d0-4bba-5224-6deb-f369379be302
 ms.author: "robmcm"
 ---

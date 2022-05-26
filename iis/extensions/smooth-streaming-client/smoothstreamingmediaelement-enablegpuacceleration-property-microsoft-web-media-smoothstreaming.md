@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.EnableGPUAcceleration Property (Microsoft.Web.Media.SmoothStreaming)
+description: EnableGPUAcceleration Property gets or sets a value that indicates whether Global Processing Unit (GPU) acceleration is enabled.
 TOCTitle: EnableGPUAcceleration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EnableGPUAcceleration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.enablegpuacceleration(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IListenerChannelCallback::GetId Method"
+description: IListenerChannelCallback::GetId Method retrieves the ID of a listener channel that needs to be started.
 ms.date: "10/07/2016"
 ms.assetid: 2f24792d-ae4d-3788-8919-38c5ee95076d
 ---

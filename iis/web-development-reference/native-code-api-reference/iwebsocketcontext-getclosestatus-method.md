@@ -1,6 +1,7 @@
 ---
 title: "IWebSocketContext::GetCloseStatus Method"
-ms.date: "10/07/2016"
+description: "Describes the IWebSocketContext::GetCloseStatus method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: f5db45c5-a53b-4299-9802-c87e3a58b068
 ---
 # IWebSocketContext::GetCloseStatus Method

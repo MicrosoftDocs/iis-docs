@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.ExpressionEncoder Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ExpressionEncoder property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: ExpressionEncoder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.expressionencoder(v=VS.90)

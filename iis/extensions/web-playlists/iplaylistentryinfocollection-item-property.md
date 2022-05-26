@@ -1,5 +1,6 @@
 ---
 title: IPlaylistEntryInfoCollection::Item Property
+description: This article has information about arguments, return value, and requirements for the IPlaylistEntryInfoCollection::Item property.
 TOCTitle: IPlaylistEntryInfoCollection::Item Property
 ms:assetid: 148e132c-8086-4154-8fdd-c3e507a81dde
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146256(v=VS.90)

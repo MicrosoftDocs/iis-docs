@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsLivePosition Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.IsLivePosition property.
 TOCTitle: IsLivePosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsLivePosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.isliveposition(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: "AppDomain.Unload Method"
+description: Describes the AppDomain.Unload method and provides its syntax, parameters, return value, remarks, requirements, and a code example.
 ms.date: "10/07/2016"
 ms.assetid: 79c8dac8-62d9-2d41-6948-19907d73dad5
 ---

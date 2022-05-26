@@ -1,5 +1,6 @@
 ---
 title: JobManifest Fields (Microsoft.Web.Media.TransformManager)
+description: Describes the JobManifest fields and provides a table that outlines the name and description for the JobManifest field type.
 TOCTitle: JobManifest Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.JobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest_fields(v=VS.90)

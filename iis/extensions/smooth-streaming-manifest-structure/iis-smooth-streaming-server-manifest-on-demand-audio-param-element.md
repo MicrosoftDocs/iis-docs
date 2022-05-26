@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (On-Demand) - audio param Element
+description: Describes the IIS Smooth Streaming Server Manifest (On-Demand) audio param element and provides the element's attributes, child elements, and parent elements.
 TOCTitle: <param>
 ms:assetid: 66613b60-2fcf-4850-9fd0-aea1666a309d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230815(v=VS.90)

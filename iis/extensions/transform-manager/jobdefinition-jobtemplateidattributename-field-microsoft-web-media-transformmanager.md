@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.JobTemplateIdAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: "This article shows the syntax of the JobTemplateIdAttributeName Field, which represents a constant that is used when the job template id attribute is assigned to a job definition."
 TOCTitle: JobTemplateIdAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.JobTemplateIdAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobtemplateidattributename(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistRequestInfo::Path Property
+description: Learn how the IPlaylistRequestInfo::Path property gets the physical path of the requested playlist file.
 TOCTitle: IPlaylistRequestInfo::Path Property
 ms:assetid: 45b48164-8ac8-4a1d-bd18-e09941f2a1be
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146266(v=VS.90)

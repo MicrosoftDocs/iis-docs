@@ -1,5 +1,6 @@
 ---
 title: Scheduler.Connect Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Connect method and provides the method's namespace, assembly, syntax, parameters, and additional references.
 TOCTitle: Connect Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.Connect(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.connect(v=VS.90)

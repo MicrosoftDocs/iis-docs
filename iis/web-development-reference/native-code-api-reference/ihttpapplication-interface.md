@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplication Interface"
+description: Learn how the IHttpApplication interface retrieves application-specific configuration information.
 ms.date: "10/07/2016"
 ms.assetid: faa76e4c-9d1e-ad2c-185f-52ec4aab7c5f
 ---

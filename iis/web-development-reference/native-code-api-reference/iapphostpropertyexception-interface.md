@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPropertyException Interface"
-ms.date: "10/07/2016"
+title: IAppHostPropertyException Interface
+description: Describes the IAppHostPropertyException interface and provides the interface's syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b9cf27c2-261a-2dcf-30bb-3c3fd0cf32a2
 ---
 # IAppHostPropertyException Interface

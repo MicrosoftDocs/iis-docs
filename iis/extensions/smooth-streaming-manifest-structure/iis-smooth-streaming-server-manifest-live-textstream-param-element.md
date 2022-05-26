@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - textstream param Element
+description: Describes the IIS SMooth Streaming Server Manifest (Live) param element and provides the element's attributes, child and parent elements, and remarks.
 TOCTitle: <param>
 ms:assetid: 1c9865d9-c815-4756-9d49-4390d713e9c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673428(v=VS.90)

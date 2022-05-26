@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementSchema Interface"
+description: Learn how the IAppHostElementSchema interface represents the schema of a configuration element. 
 ms.date: "10/07/2016"
 ms.assetid: 07dfe345-8a9f-5347-b895-839d7d1234ca
 ---

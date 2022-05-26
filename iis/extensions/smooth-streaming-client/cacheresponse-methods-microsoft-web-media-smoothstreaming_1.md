@@ -1,5 +1,6 @@
 ---
 title: CacheResponse Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the CacheResponse type exposes the members described in this article.
 TOCTitle: CacheResponse Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheResponse
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse_methods(v=VS.95)

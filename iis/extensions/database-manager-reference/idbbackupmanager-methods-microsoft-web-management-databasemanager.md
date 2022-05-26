@@ -1,6 +1,7 @@
 ---
 title: IDbBackupManager Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbBackupManager Methods
+description: "The IDbBackupManager methods expose the CreateBackup method. Method type, name, description, and additional references are provided."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbBackupManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbbackupmanager_methods(v=VS.90)
 ms:contentKeyID: 22049470

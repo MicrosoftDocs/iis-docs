@@ -1,5 +1,6 @@
 ---
 title: "IHttpTokenKey::GetCacheName Method"
+description: This article contains information about syntax, return value, and requirements for the IHttpTokenKey::GetCacheName method.
 ms.date: "10/07/2016"
 ms.assetid: b3c94361-aaff-ccae-fb26-99db535f08fa
 ---

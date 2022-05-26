@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.AudioStreamCount Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.AudioStreamCount property.
 TOCTitle: AudioStreamCount Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamCount
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamcount(v=VS.95)

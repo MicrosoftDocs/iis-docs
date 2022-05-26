@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::SetNeedDisconnect Method"
+description: Describes the IHttpResponse::SetNeedDisconnect method and provides its syntax, parameters, return value, remarks, requirements, and a code example. 
 ms.date: "10/07/2016"
 ms.assetid: 118ce2da-ce8f-5dac-6662-d49f43ce9c9d
 ---

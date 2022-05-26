@@ -1,5 +1,6 @@
 ---
 title: IncomingFragmentTimeStamp Element
+description: Learn how the IncomingFragmentTimeStamp element specifies the timestamp of the last fragment that was received for the track.
 TOCTitle: IncomingFragmentTimeStamp Element
 ms:assetid: d582e33f-a7e8-4f80-80a3-d0113e27164f
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547064(v=VS.90)

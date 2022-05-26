@@ -1,5 +1,6 @@
 ---
 title: Table.Name Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Table.Name property and provides the property's namespace, assembly, syntax, remarks, examples, and permissions.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Table.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table.name(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: TraceEntry.TraceArea Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Property
+description: "The TraceEntry.TraceArea property gets or sets the TraceArea property. This article describes its syntax and version information."
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.tracearea(v=VS.95)
 ms:contentKeyID: 46307732

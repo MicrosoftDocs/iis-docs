@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.DownloadTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadTrackChanged Event
+description: "The SmoothStreamingMediaElement.DownloadTrackChanged event occurs when the track selected for download differs from the previously selected track."
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadTrackChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadtrackchanged(v=VS.90)
 ms:contentKeyID: 23961129

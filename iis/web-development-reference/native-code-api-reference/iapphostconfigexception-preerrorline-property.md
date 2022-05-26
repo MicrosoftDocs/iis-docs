@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConfigException::PreErrorLine Property"
-ms.date: "10/07/2016"
+title: IAppHostConfigException::PreErrorLine Property
+description: Describes the IAppHostConfigException::PreErrorLine property and provides the property's syntax, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d2523932-f14e-d7ff-b692-a2987f29a247
 ---
 # IAppHostConfigException::PreErrorLine Property

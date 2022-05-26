@@ -1,5 +1,6 @@
 ---
 title: "IWebSocketContext Interface"
+description: IWebSocketContext Interface represents context support for bi-directional WebSocket communications over a single TCP socket. 
 ms.date: "10/07/2016"
 ms.assetid: 4456d878-e673-41a5-8f36-f2f48809105e
 ---

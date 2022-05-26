@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalVideoWidth Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the NaturalVideoWidth property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: NaturalVideoWidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidth
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideowidth(v=VS.90)

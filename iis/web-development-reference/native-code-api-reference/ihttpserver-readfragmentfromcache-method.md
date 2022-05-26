@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::ReadFragmentFromCache Method"
 ms.date: "10/07/2016"
+description: Learn how to retrieve a specific fragment from the cache using possible values, such as S_OK, ERROR_PATH_NOT_FOUND, for an HRESULT.
 ms.assetid: b658cbf0-4370-930b-b692-b2b34591206f
 ---
 # IHttpServer::ReadFragmentFromCache Method

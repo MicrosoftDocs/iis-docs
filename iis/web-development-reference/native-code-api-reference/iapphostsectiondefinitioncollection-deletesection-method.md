@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection::DeleteSection Method"
+description: Learn how the IAppHostSectionDefinitionCollection::DeleteSection method removes a configuration section definition from the collection.
 ms.date: "10/07/2016"
 ms.assetid: 2c9f1513-91bf-a8e6-1c30-3970a127c0a5
 ---

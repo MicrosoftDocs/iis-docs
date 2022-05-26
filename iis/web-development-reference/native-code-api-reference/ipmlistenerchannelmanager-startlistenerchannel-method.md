@@ -1,5 +1,6 @@
 ---
 title: "IPmListenerChannelManager::StartListenerChannel Method"
+description: Learn how the StartListenerChannel method enables the worker process framework to request that a protocol manager start a listener channel for a protocol.
 ms.date: "10/07/2016"
 ms.assetid: 87b8c556-3894-a8f9-2968-7750b1ba6cb2
 ---

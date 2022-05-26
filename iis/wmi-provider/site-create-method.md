@@ -1,5 +1,6 @@
 ---
 title: "Site.Create Method1"
+description: This article contains information on syntax, return value, and requirements for the Site.Create method.
 ms.date: "10/07/2016"
 ms.assetid: 134a8645-84b9-7c17-4cdc-be817cc88bfe
 ---

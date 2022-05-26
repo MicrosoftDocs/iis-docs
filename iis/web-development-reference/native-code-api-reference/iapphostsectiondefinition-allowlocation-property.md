@@ -1,6 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::AllowLocation Property"
-ms.date: "10/07/2016"
+title: IAppHostSectionDefinition::AllowLocation Property
+description: Describes the IAppHostSectionDefinition::AllowLocation property and provides the property's syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8b902a59-f4d5-e223-d8e0-6e5e29f9999d
 ---
 # IAppHostSectionDefinition::AllowLocation Property

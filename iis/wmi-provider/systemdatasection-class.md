@@ -1,6 +1,7 @@
 ---
-title: "SystemDataSection Class"
-ms.date: "10/07/2016"
+title: SystemDataSection Class
+description: Describes the SystemDataSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2828774f-97f2-d979-2453-28bade500936
 ---
 # SystemDataSection Class

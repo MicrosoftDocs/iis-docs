@@ -1,5 +1,6 @@
 ---
 title: EventViewer.EventIdInformation Field (Microsoft.Web.Media.TransformManager)
+description: EventIdInformation Field represents a constant that is used when information is written to the event viewer.
 TOCTitle: EventIdInformation Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdInformation
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventidinformation(v=VS.90)

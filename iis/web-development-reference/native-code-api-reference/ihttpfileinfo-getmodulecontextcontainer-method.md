@@ -1,5 +1,6 @@
 ---
 title: "IHttpFileInfo::GetModuleContextContainer Method"
+description: IHttpFileInfo::GetModuleContextContainer Method returns an IHttpModuleContextContainer pointer for the corresponding file.
 ms.date: "10/07/2016"
 ms.assetid: 4a2a126b-279e-3424-ec98-2c8022343a9c
 ---

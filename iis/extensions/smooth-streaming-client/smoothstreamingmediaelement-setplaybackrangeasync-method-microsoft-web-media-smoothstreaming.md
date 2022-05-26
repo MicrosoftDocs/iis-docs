@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SetPlaybackRangeAsync Method  (Microsoft.Web.Media.SmoothStreaming)
+description: SmoothStreamingMediaElement.SetPlaybackRangeAsync Method specifies a start position for playing media content.
 TOCTitle: SetPlaybackRangeAsync Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeAsync(System.TimeSpan,System.TimeSpan,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrangeasync(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: "IWpfSettings::GetBoolProperty Method"
+description: Learn how the IWpfSettings::GetBoolProperty method retrieves a BOOL value from the worker process or application pool settings. 
 ms.date: "10/07/2016"
 ms.assetid: 0a0bdc07-acc3-f280-0cc4-efa54a76dfea
 ---

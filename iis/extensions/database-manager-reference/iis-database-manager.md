@@ -1,6 +1,7 @@
 ---
 title: IIS Database Manager
 TOCTitle: IIS Database Manager
+description: "IIS Database Manager easily manages your local and remote databases from within IIS Manager. Information about Microsoft.Web.Management.DatabaseManager is provided."
 ms:assetid: 74dfd355-392c-414b-8bd7-f7738ef05c86
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh943086(v=VS.90)
 ms:contentKeyID: 46305581

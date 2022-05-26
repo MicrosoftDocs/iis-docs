@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, property value, and version information for the SmoothStreamingMediaElement.NaturalDuration property.
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDuration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalduration(v=VS.90)

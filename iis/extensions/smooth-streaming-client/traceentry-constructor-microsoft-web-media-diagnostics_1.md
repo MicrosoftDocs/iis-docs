@@ -1,5 +1,6 @@
 ---
 title: TraceEntry Constructor  (Microsoft.Web.Media.Diagnostics)
+description: Learn how the TraceEntry constructor initializes and new instance of the TraceEntry class.
 TOCTitle: TraceEntry Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.traceentry(v=VS.95)

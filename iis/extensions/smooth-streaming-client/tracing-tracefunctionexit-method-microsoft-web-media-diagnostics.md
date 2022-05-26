@@ -1,5 +1,6 @@
 ---
 title: Tracing.TraceFunctionExit Method  (Microsoft.Web.Media.Diagnostics)
+description: Learn how the TraceFunctionExit method records the exit from a function.
 TOCTitle: TraceFunctionExit Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.tracefunctionexit(v=VS.90)
