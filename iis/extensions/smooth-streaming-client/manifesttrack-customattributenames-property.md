@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.CustomAttributeNames Property
+description: This article has information about syntax, property value, and requirements for the ManifestTrack.CustomAttributeNames property.
 TOCTitle: CustomAttributeNames Property
 ms:assetid: 8bbb3af0-0f18-47db-9687-7cd50f3e6012
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822775(v=VS.90)

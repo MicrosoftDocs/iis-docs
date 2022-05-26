@@ -1,5 +1,6 @@
 ---
 title: RequestUri Property
+description: Describes the RequestUri property and provides the property's syntax, property value, and requirements.
 TOCTitle: RequestUri Property
 ms:assetid: f0c9b71d-227c-4f80-b438-36581e5bd79f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822870(v=VS.90)

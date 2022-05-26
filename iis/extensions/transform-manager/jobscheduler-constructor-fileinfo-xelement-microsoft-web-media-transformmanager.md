@@ -1,5 +1,6 @@
 ---
 title: JobScheduler Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
+description: Describes the JobScheduler FileInfo and XElement constructor and provides the constructor's syntax, parameters, and exceptions.
 TOCTitle: JobScheduler Constructor (FileInfo, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobScheduler.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.jobscheduler(v=VS.90)

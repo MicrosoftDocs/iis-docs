@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigLocation::Path Property"
+description: Describes the IAppHostConfigLocation::Path property and provides its syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 1abfd93e-a6df-8d5e-565e-ab384be55724
 ---

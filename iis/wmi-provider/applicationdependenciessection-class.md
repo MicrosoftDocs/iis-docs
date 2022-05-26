@@ -1,5 +1,6 @@
 ---
 title: "ApplicationDependenciesSection Class1"
+description: "ApplicationDependenciesSection Class1 exposes application dependency information. This describes its syntax, methods, properties, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: cccbd894-2b4f-607b-ed38-c9134158cc90
 ---

@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobDetailsByInstanceFileName Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.GetJobDetailsByInstanceFileName method and details its syntax, parameters, return value, and remarks.
 TOCTitle: GetJobDetailsByInstanceFileName Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDetailsByInstanceFileName(System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdetailsbyinstancefilename(v=VS.90)

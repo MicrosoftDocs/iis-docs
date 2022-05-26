@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.Name Property (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the Name property and gets or sets the Name element of the manifest property.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.name(v=VS.90)

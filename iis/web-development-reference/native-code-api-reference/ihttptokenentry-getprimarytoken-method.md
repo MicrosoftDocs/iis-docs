@@ -1,6 +1,7 @@
 ---
 title: "IHttpTokenEntry::GetPrimaryToken Method"
 ms.date: "10/07/2016"
+description: IHttpTokenEntry GetPrimaryToken method returns the primary token for the process that is servicing a request.
 ms.assetid: 3c259dad-6886-1f73-1dad-14f576f6b030
 ---
 # IHttpTokenEntry::GetPrimaryToken Method

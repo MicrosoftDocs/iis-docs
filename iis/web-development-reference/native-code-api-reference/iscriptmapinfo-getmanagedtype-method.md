@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetManagedType Method"
+description: Describes the IScriptMapInfo::GetManagedType method and provides its syntax, parameters, return value, remarks, requirements, and a code example.
 ms.date: "10/07/2016"
 ms.assetid: 19e9c7a4-e52f-8161-3473-b7146823a658
 ---

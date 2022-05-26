@@ -1,5 +1,6 @@
 ---
 title: "HttpRuntimeSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the HttpRuntimeSection class.
 ms.date: "10/07/2016"
 ms.assetid: de71149d-7086-8952-f32a-9a233d9991ec
 ---

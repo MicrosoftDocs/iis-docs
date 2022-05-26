@@ -1,5 +1,6 @@
 ---
-title: ITask.Initialize Method  (Microsoft.Web.Media.TransformManager)
+title: ITask.Initialize Method (Microsoft.Web.Media.TransformManager)
+description: "The Initialize Method initializes the task with objects for reporting status, logging data, and getting metadata from the job manifest. This article shares its syntax and parameters."
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITask.Initialize(Microsoft.Web.Media.TransformManager.ITaskStatus,Microsoft.Web.Media.TransformManager.IJobMetadata,Microsoft.Web.Media.TransformManager.ILogger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itask.initialize(v=VS.90)

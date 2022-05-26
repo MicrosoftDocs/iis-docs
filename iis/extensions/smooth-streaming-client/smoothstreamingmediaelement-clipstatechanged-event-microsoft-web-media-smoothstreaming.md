@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: The ClipStateChanged Event occurs when a media clip state changes. This article details syntax, remarks, version information, and permissions.
 TOCTitle: ClipStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipstatechanged(v=VS.90)

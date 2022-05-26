@@ -1,6 +1,7 @@
 ---
-title: "SchemaImporterExtensionsSection Class"
-ms.date: "10/07/2016"
+title: SchemaImporterExtensionsSection Class
+description: Describes the SchemaImporterExtensionsSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2f5e9b4e-d62b-d0ea-f532-5ddd83a7c3ff
 ---
 # SchemaImporterExtensionsSection Class

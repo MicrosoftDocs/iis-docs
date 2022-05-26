@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::ReadEntityBody Method"
+description: Learn how the IHttpRequest::ReadEntityBody method returns the HTTP request entity body. 
 ms.date: "10/07/2016"
 ms.assetid: e29ce6f7-d839-ee92-184f-747f98f6a456
 ---

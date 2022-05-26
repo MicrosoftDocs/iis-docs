@@ -1,5 +1,6 @@
 ---
 title: "ISendResponseProvider::GetLogData Method"
+description: "The ISendResponseProviderGetLogData method retrieves the logging information for the current response."
 ms.date: "10/07/2016"
 ms.assetid: 2c5f2ce8-2f94-7147-2b00-5b81f5091489
 ---

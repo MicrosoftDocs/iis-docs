@@ -1,5 +1,6 @@
 ---
 title: ClipContext Properties (Microsoft.Web.Media.SmoothStreaming)
+description: The ClipContext type uses the following properties. Each item is linked to a more detailed code sample.
 TOCTitle: ClipContext Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipContext
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext_properties(v=VS.95)

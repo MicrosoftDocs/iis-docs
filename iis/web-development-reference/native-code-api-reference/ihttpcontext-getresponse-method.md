@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetResponse Method"
+description: Learn how the IHttpContext::GetResponse method returns the HTTP response container for the current context.
 ms.date: "10/07/2016"
 ms.assetid: c89e2994-acc9-5d9f-54c4-76d16d87f0fa
 ---

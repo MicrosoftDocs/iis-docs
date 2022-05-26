@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.MaxWidth Property
+description: Learn how the ManifestTrack.MaxWidth property gets the track MaxWidth field, as well as details about its syntax and requirements.
 TOCTitle: MaxWidth Property
 ms:assetid: 75e0385a-bda3-4bc3-acce-33687b867e7e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822759(v=VS.90)

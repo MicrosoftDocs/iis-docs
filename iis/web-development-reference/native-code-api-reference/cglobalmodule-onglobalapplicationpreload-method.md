@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalApplicationPreload Method"
+description: This article contains information about syntax, return value, and requirements for the CGlobalModule::OnGlobalApplicationPreload method.
 ms.date: "10/07/2016"
 ms.assetid: 526c5b5d-9acf-4b5d-ac3b-ec97e57c8a7e
 ---

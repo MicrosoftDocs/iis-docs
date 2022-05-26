@@ -1,5 +1,6 @@
 ---
 title: "IIISExpressProcessUtility"
+description: "The IIISExpressProcessUtility obtains information that describes how to locate, start, and stop IIS Express worker processes."
 ms.date: "10/07/2016"
 ms.assetid: 514fec28-799c-464a-891b-d55bf892877c
 ---

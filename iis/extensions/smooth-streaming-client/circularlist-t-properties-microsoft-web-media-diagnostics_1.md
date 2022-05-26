@@ -1,6 +1,7 @@
 ---
 title: CircularList(T) Properties (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Properties
+description: Properties exposed by the CircularList(T).
 ms:assetid: Properties.T:Microsoft.Web.Media.Diagnostics.CircularList`1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728140(v=VS.95)
 ms:contentKeyID: 46500560

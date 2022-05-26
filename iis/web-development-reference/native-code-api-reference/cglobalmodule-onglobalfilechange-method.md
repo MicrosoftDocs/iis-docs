@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalFileChange Method"
+description: Learn how the OnGlobalFileChange method represents the method that will handle a GlobalFileChange event, which occurs when a file within a Web site is changed.
 ms.date: "10/07/2016"
 ms.assetid: e7a07497-0000-13b4-34bd-82f9a3cbf266
 ---

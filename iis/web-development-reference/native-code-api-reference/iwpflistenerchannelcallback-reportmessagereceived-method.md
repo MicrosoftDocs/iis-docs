@@ -1,5 +1,6 @@
 ---
 title: "IWpfListenerChannelCallback::ReportMessageReceived Method"
+description: Learn how the IWpfListenerChannelCallback::ReportMessageReceived method notifies the worker process framework that a listener channel has received a message.
 ms.date: "10/07/2016"
 ms.assetid: 10f84261-eb6f-4738-f188-523e5308913f
 ---

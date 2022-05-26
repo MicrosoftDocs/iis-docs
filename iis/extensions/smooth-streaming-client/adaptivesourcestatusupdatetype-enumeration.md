@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdateType Enumeration
+description: Describes the AdaptiveSourceStatusUpdateType enumeration and provides the enumeration's syntax, enumeration values, and requirements.
 TOCTitle: AdaptiveSourceStatusUpdateType Enumeration
 ms:assetid: 7a1b0efb-ec4a-4b6a-a060-182bf76ca004
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822762(v=VS.90)

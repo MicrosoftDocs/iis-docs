@@ -1,6 +1,7 @@
 ---
-title: "ModuleAction Class"
-ms.date: "10/07/2016"
+title: ModuleAction Class
+description: Describes the ModuleAction class and provides the class' syntax, properties, remarks, examples, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e00dbe6b-a97e-60a7-dd05-f4710e692b87
 ---
 # ModuleAction Class

@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.CreateInstance Method  (Microsoft.Web.Media.TransformManager)
+description: This article outlines the overload list for the SchedulerInfo.CreateInstance method, with links to reference materials.
 TOCTitle: CreateInstance Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.createinstance(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplicationProvider Interface"
+description: Learn how the IHttpApplicationProvider interface provides an interface for application startup notifications.  
 ms.date: "10/07/2016"
 ms.assetid: 3aae3259-655e-382f-8fb4-6bfa24b1e3f9
 ---

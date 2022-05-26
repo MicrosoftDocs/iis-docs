@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.CookieContainer Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CookieContainer Property
+description: Gets or set the cookie container that will be used with all HTTP requests.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CookieContainer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.cookiecontainer(v=VS.90)
 ms:contentKeyID: 23961158

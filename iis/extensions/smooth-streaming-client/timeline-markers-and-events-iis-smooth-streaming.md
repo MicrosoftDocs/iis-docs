@@ -1,5 +1,6 @@
 ---
 title: Timeline Markers and Events (IIS Smooth Streaming)
+description: Describes timeline markers and events for the IIS Smooth Streaming application and outlines how to create and specify navigation markers.
 TOCTitle: Timeline Markers and Events (IIS Smooth Streaming)
 ms:assetid: afe85bdd-ff5f-4e07-b8ca-6471ff1f04b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958034(v=VS.90)

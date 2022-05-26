@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSection.SetAllowDefinition Method"
+description: This article contains information about syntax, return value, and requirements for the ConfigurationSection.SetAllowDefinition method.
 ms.date: "10/07/2016"
 ms.assetid: 20e44a9a-b022-4e7b-88e6-a32bca75946e
 ---

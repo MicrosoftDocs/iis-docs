@@ -1,5 +1,6 @@
 ---
 title: LastError Element
+description: Learn how the LastError element, for an Error publishing point state, specifies the HResult value for the last publishing point error.
 TOCTitle: LastError Element
 ms:assetid: 50c1c6b4-0944-4be1-9526-a19c8fd70240
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547039(v=VS.90)

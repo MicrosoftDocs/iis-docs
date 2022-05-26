@@ -1,5 +1,6 @@
 ---
 title: LogLevelHelper Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the LogLevelHelper methods and provides a table that outlines a name and description for various method types.
 TOCTitle: LogLevelHelper Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.LogLevelHelper
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper_methods(v=VS.90)

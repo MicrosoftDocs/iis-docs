@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementCollection::AddElement Method"
+description: Learn how the IAppHostElementCollection::AddElement method adds an element to the current collection.
 ms.date: "10/07/2016"
 ms.assetid: 911cb1cf-c6bf-d49d-dcca-c12f135c067f
 ---

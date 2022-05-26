@@ -1,5 +1,6 @@
 ---
 title: Manifest.MinorVersion Property
+description: Describes the Manifest.MinorVersion property and provides the property's syntax, property value, and requirements.
 TOCTitle: MinorVersion Property
 ms:assetid: e11e9da6-93cc-4ad3-ac35-15628cf853b1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822851(v=VS.90)

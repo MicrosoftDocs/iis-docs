@@ -1,6 +1,7 @@
 ---
 title: JobDefinition Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Class
+description: Defines how IIS Transform Manager monitors, creates, schedules, and maintains jobs.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition(v=VS.90)
 ms:contentKeyID: 35521054

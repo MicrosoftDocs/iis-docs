@@ -1,6 +1,7 @@
 ---
-title: "WorkerProcess.GetExecutingRequests Method2"
-ms.date: "10/07/2016"
+title: WorkerProcess.GetExecutingRequests Method2
+description: Describes the WorkerProcess.GetExecutingRequests method and provides the method's syntax, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 9eeefc8d-cb05-4481-b113-e0b623f91941
 ---
 # WorkerProcess.GetExecutingRequests Method2

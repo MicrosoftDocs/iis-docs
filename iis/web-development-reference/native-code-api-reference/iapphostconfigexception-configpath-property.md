@@ -1,6 +1,7 @@
 ---
 title: "IAppHostConfigException::ConfigPath Property"
 ms.date: "10/07/2016"
+description: Learn how to get the configuration path of the file that contains the configuration that caused the exception.
 ms.assetid: fc8d0b9f-8d75-9f5f-d3c9-d65aa26c2fc1
 ---
 # IAppHostConfigException::ConfigPath Property

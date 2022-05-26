@@ -1,6 +1,7 @@
 ---
 title: AdaptiveSource.AdaptiveSourceStatusUpdatedEvent Event
 TOCTitle: AdaptiveSourceStatusUpdatedEvent Event
+description: "The AdaptiveSourceStatusUpdatedEvent event occurs when the status of the adaptive source is updated." 
 ms:assetid: 89b0d5a7-926f-4136-b771-5d5a544b23ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822768(v=VS.90)
 ms:contentKeyID: 50079523

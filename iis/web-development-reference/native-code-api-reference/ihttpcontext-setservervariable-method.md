@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::SetServerVariable Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::SetServerVariable method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1099f28d-b795-fd21-3832-53f2531169a4
 ---
 # IHttpContext::SetServerVariable Method

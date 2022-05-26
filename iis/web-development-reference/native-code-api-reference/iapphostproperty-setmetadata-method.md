@@ -1,5 +1,6 @@
 ---
 title: "IAppHostProperty::SetMetadata Method"
+description: "The IAppHostPropertySetMetadata method sets metadata for the current property. This article describes its syntax, return value, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 62af8bec-6065-28a8-9186-692602d536f3
 ---

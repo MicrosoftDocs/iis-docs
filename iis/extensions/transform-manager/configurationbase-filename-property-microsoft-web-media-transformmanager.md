@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.FileName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the FileName property gets or sets the configuration file name for the IIS Transform Manager configuration.
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.FileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.filename(v=VS.90)

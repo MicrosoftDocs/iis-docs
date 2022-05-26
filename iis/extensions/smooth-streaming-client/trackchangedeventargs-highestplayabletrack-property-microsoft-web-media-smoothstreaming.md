@@ -1,5 +1,6 @@
 ---
 title: TrackChangedEventArgs.HighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the TrackChangedEventArgs.HighestPlayableTrack property.
 TOCTitle: HighestPlayableTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.HighestPlayableTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.highestplayabletrack(v=VS.90)

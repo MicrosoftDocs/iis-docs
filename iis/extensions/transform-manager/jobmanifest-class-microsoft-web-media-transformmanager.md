@@ -1,5 +1,6 @@
 ---
 title: JobManifest Class (Microsoft.Web.Media.TransformManager)
+description: This article has information about inheritance hierarchy, syntax, properties, methods, version information, and thready safety for the JobManifest class.
 TOCTitle: JobManifest Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest(v=VS.90)

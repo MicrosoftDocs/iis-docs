@@ -1,5 +1,6 @@
 ---
 title: JobManager.SubmittedJobs Property (Microsoft.Web.Media.TransformManager)
+description: Describes the SubmittedJobs property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: SubmittedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SubmittedJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.submittedjobs(v=VS.90)

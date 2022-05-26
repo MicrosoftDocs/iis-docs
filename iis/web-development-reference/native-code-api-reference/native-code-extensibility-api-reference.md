@@ -1,6 +1,7 @@
 ---
-title: "Native-Code Extensibility API Reference"
-ms.date: "10/07/2016"
+title: Native-Code Extensibility API Reference
+description: Describes the Native-Code Extensibility API and provides links to reference documentation about the Web Server Core API. 
+ms.date: 10/07/2016
 ms.assetid: ffeff01f-2bb9-4b1a-847c-30a14c09c425
 ---
 # Native-Code Extensibility API Reference

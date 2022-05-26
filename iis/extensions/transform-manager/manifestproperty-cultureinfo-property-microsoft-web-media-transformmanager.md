@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ManifestProperty.CultureInfo property, with links to reference materials.
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.cultureinfo(v=VS.90)

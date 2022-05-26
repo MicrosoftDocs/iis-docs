@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigFile::RootSectionGroup Property"
+description: Learn how the RootSectionGroup property returns the root configuration section group for the current configuration file.
 ms.date: "10/07/2016"
 ms.assetid: 573e8780-9720-d1ae-4876-8d3d1d106aae
 ---

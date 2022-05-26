@@ -1,5 +1,6 @@
 ---
 title: JobManager.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfiguringJobs property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.ConfiguringJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.configuringjobs(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMappingExtension::GetSiteElementFromSiteId Method"
+description: This article contains information about syntax, return value, and requirements for the IAppHostMappingExtension::GetSiteElementFromSiteId method.
 ms.date: "10/07/2016"
 ms.assetid: fa1c2d4d-87a7-7527-6450-3ecda7ba560d
 ---

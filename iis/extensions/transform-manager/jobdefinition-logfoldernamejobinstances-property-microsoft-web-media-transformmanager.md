@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.LogFolderNameJobInstances Property (Microsoft.Web.Media.TransformManager)
+description: Describes the LogFolderNameJobInstances property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: LogFolderNameJobInstances Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderNameJobInstances
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.logfoldernamejobinstances(v=VS.90)

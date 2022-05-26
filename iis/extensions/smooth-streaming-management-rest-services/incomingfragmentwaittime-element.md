@@ -1,6 +1,7 @@
 ---
 title: IncomingFragmentWaitTime Element
 TOCTitle: IncomingFragmentWaitTime Element
+description: Learn how to specify the amount of time that has passed since the last fragment was received.
 ms:assetid: 66d4e5a3-caa2-4927-a079-cbc9da663fa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547045(v=VS.90)
 ms:contentKeyID: 37836886

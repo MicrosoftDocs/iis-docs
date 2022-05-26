@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::Terminate Method"
 ms.date: "10/07/2016"
+description: CGlobal Module Terminate Method represents the method that IIS calls when a global module has completed processing.
 ms.assetid: d9da74a3-e716-1785-e600-08337d75bfc5
 ---
 # CGlobalModule::Terminate Method

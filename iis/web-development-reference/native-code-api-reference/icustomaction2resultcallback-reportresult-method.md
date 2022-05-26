@@ -1,5 +1,6 @@
 ---
 title: "ICustomAction2ResultCallback::ReportResult Method"
+description: This article contains information about syntax, return value, and requirements for the ICustomAction2ResultCallback::ReportResult method.
 ms.date: "10/07/2016"
 ms.assetid: 7d619d90-fa22-4203-b4b5-cd91e8a4c879
 ---

@@ -1,5 +1,6 @@
 ---
 title: JobScheduler.LocalSchedulerId Property (Microsoft.Web.Media.TransformManager)
+description: LocalSchedulerId Property gets the local scheduler ID.
 TOCTitle: LocalSchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.localschedulerid(v=VS.90)

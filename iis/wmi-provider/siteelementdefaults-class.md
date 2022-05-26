@@ -1,5 +1,6 @@
 ---
 title: "SiteElementDefaults Class1"
+description: Contains the default values for IIS Web site properties.
 ms.date: "10/07/2016"
 ms.assetid: 62e333b7-58e0-15b1-af94-de7f6bb92567
 ---

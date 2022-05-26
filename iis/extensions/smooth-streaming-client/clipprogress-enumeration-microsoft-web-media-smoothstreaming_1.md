@@ -1,5 +1,6 @@
 ---
 title: ClipProgress Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: ClipProgress Enumeration specifies the stages of progress through a media clip.
 TOCTitle: ClipProgress Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipProgress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipprogress(v=VS.95)

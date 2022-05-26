@@ -1,6 +1,7 @@
 ---
 title: ManifestInfo Events (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Events
+description: "List of members exposed by the ManifestInfo type, including the event type, name, and description of each."
 ms:assetid: Events.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_events(v=VS.95)
 ms:contentKeyID: 46307524

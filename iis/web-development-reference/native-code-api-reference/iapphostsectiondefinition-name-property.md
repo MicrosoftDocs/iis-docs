@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinition::Name Property"
+description: IAppHostSectionDefinition::Name Property gets the name of the current configuration section definition.
 ms.date: "10/07/2016"
 ms.assetid: 5f593a06-4ab5-eae0-6776-c90759fa72c9
 ---

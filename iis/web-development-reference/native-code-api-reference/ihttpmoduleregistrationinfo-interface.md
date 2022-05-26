@@ -1,6 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo Interface"
-ms.date: "10/07/2016"
+title: IHttpModuleRegistrationInfo Interface
+description: Describes the IHttpModuleRegistrationInfo interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 9104bb5a-ed5c-4584-605f-fd1d2a96ee07
 ---
 # IHttpModuleRegistrationInfo Interface

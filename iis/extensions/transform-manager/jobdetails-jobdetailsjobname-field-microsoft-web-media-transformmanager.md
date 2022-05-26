@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobDetailsJobName Field (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax for the JobDetails.JobDetailsJobName field, as well as links to additional reference materials.
 TOCTitle: JobDetailsJobName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsJobName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsjobname(v=VS.90)

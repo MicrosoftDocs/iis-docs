@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.JobSchedulerNamespace Property (Microsoft.Web.Media.TransformManager)
+description: Describes the IisNamespaces.JobSchedulerNamespace property and provides the property's syntax and property value.
 TOCTitle: JobSchedulerNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobSchedulerNamespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.jobschedulernamespace(v=VS.90)

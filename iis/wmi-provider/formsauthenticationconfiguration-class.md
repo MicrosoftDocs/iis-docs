@@ -1,6 +1,7 @@
 ---
-title: "FormsAuthenticationConfiguration Class"
-ms.date: "10/07/2016"
+title: FormsAuthenticationConfiguration Class
+description: Describes the FormsAuthenticationConfiguration class and provides the class' syntax, methods, properties, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e1965678-d4ef-61b8-159b-78ac61d663a2
 ---
 # FormsAuthenticationConfiguration Class

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult.IsCompleted Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingAsyncResult.IsCompleted property.
 TOCTitle: IsCompleted Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.IsCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.iscompleted(v=VS.95)

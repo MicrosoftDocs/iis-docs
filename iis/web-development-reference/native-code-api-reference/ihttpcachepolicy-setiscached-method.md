@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::SetIsCached Method"
+description: This article contains information about syntax and requirements for the IHttpCachePolicy::SetIsCached method.
 ms.date: "10/07/2016"
 ms.assetid: eb65432f-c325-3cda-3c56-a8f9c1cbb4d9
 ---

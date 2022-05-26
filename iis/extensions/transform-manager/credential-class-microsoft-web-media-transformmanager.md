@@ -1,5 +1,6 @@
 ---
 title: Credential Class (Microsoft.Web.Media.TransformManager)
+description: Learn how the Credential class provides credentials to run jobs and access resources.
 TOCTitle: Credential Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Credential
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential(v=VS.90)

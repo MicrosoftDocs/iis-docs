@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata Methods (Microsoft.Web.Media.TransformManager)
+description: This article outlines members exposed by the IJobMetadata methods. There are also links to additional reference materials.
 TOCTitle: IJobMetadata Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IJobMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata_methods(v=VS.90)

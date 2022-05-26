@@ -1,5 +1,6 @@
 ---
 title: "WindowsAuthenticationSection Class"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the WindowsAuthenticationSection class.
 ms.date: "10/07/2016"
 ms.assetid: ed2cdad3-5361-01cc-8350-9e215a97514e
 ---

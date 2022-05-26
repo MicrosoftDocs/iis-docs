@@ -1,5 +1,6 @@
 ---
 title: Tracing.DisableTraceLevel Method  (Microsoft.Web.Media.Diagnostics)
+description: This article contains information on syntax, permissions, and version information for the Tracing.DisableTraceLevel method.
 TOCTitle: DisableTraceLevel Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceLevel(Microsoft.Web.Media.Diagnostics.TraceLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.disabletracelevel(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext3::PostCompletion Method"
+description: Describes the IHttpContext3::PostCompletion method and provides the method's syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: aac130c8-3f20-47a1-9b45-b3cf964e9909
 ---

@@ -1,6 +1,7 @@
 ---
 title: IndexColumn.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
+description: This article contains syntax, property value, and version information for the IndexColumn.Name property.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.IndexColumn.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn.name(v=VS.90)
 ms:contentKeyID: 20476598

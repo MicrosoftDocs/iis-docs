@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::SetVaryByValue Method"
 ms.date: "10/07/2016"
+description: Learn how to set the variable value, such as such as S_OK, E_INVALIDARG, and ERROR_ARITHMETIC_OVERFLOW, for the cache policy.
 ms.assetid: 6822e2e0-50cb-1e07-5a9b-2b263d709c3b
 ---
 # IHttpCachePolicy::SetVaryByValue Method

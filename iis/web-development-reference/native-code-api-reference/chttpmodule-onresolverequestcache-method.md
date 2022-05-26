@@ -1,6 +1,7 @@
 ---
-title: "CHttpModule::OnResolveRequestCache Method"
-ms.date: "10/07/2016"
+title: CHttpModule::OnResolveRequestCache Method
+description: Describes the CHttpModule::OnResolveRequest cache method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 8a65c257-a5d5-1f35-a9f0-91c882da2c06
 ---
 # CHttpModule::OnResolveRequestCache Method

@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManagerFailedType Enumeration
+description: Learn how the AdaptiveSourceManagerFailedType enumeration represents the adaptive source manager failed type enumeration.
 TOCTitle: AdaptiveSourceManagerFailedType Enumeration
 ms:assetid: 8b35b3ed-32a7-4451-a2c7-57cf70d68b11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822773(v=VS.90)

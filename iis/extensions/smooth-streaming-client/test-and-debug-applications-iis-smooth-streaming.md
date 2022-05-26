@@ -1,6 +1,7 @@
 ---
 title: Test and Debug Applications (IIS Smooth Streaming)
 TOCTitle: Test and Debug Applications (IIS Smooth Streaming)
+description: "Test and debug Smooth Streaming by hosting both app and media content in the same domain or add client access specification to enable cross-domain data access."
 ms:assetid: 1810c277-c032-4eac-8f41-74a4623294bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958030(v=VS.90)
 ms:contentKeyID: 28407132

@@ -1,6 +1,7 @@
 ---
 title: JobTemplate Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobTemplate Class
+description: "The JobTemplate class represents a set of sequential tasks that define a job and that are used during the transform process."
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobTemplate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate(v=VS.90)
 ms:contentKeyID: 35521057

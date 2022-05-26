@@ -1,5 +1,6 @@
 ---
 title: ManifestStream Class
+description: Describes the ManifestStream class and provides the class' syntax, members, methods, properties, and requirements.
 TOCTitle: ManifestStream Class
 ms:assetid: c07d1103-508b-4763-ab69-0007842dc6a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822825(v=VS.90)

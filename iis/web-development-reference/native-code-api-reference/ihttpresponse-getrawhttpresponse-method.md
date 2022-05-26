@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::GetRawHttpResponse Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::GetRawHttpResponse method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: c035a882-5efc-4597-44ec-50501cef4ca9
 ---
 # IHttpResponse::GetRawHttpResponse Method

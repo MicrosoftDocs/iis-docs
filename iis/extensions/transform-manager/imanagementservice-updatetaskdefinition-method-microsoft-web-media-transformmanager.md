@@ -1,5 +1,6 @@
 ---
 title: IManagementService.UpdateTaskDefinition Method  (Microsoft.Web.Media.TransformManager)
+description: UpdateTaskDefinition Method adds or replaces a single task as defined in the job template.
 TOCTitle: UpdateTaskDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateTaskDefinition(Microsoft.Web.Media.TransformManager.TaskDefinition)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.updatetaskdefinition(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Server Manifest (Live) - video Element
+description: IIS Smooth Streaming Server Manifest (Live) - video Element specifies a single track of video data.
 TOCTitle: <video>
 ms:assetid: 7ab74423-2660-445f-9a05-bbb4f2d52444
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673435(v=VS.90)

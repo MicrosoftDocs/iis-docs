@@ -1,6 +1,7 @@
 ---
 title: JobManifest.Save Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Save Method
+description: "The JobManifest.Save method saves a job manifest file. This article describes its syntax and parameters."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.Save(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.save(v=VS.90)
 ms:contentKeyID: 35520894

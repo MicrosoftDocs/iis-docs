@@ -1,5 +1,6 @@
 ---
 title: Utilities Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the Utilities methods and provides a table that outlines the name and descriptions for various method types.
 TOCTitle: Utilities Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.Utilities
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities_methods(v=VS.90)

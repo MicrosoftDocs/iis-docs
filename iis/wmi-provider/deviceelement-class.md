@@ -1,6 +1,7 @@
 ---
-title: "DeviceElement Class"
-ms.date: "10/07/2016"
+title: DeviceElement Class
+description: Describes the DeviceElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 4459d7ff-8387-7249-83b1-238540a6c636
 ---
 # DeviceElement Class

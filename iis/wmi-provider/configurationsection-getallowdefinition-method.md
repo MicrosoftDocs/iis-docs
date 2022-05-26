@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSection.GetAllowDefinition Method"
+description: This article describes the ConfigurationSection.GetAllowDefinition method and provides syntax, parameters, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: d8a84cd4-8cdb-48bf-a50e-2fbcabba56db
 ---

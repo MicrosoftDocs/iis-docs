@@ -1,6 +1,7 @@
 ---
 title: ClipInformation Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Class
+description: "The ClipInformation class represents the metadata class for scheduling and viewing a segment of audio or video media data."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation(v=VS.90)
 ms:contentKeyID: 23961135

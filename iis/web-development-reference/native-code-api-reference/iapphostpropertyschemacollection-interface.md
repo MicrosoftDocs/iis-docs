@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPropertySchemaCollection Interface"
-ms.date: "10/07/2016"
+title: IAppHostPropertySchemaCollection Interface
+description: Describes the IAppHostPropertySchemaCollection interface and provides the interface's syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 30c635ec-6d94-4340-9762-d50b6e6d32c1
 ---
 # IAppHostPropertySchemaCollection Interface

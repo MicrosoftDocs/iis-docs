@@ -1,5 +1,6 @@
 ---
 title: IManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the CultureInfo property gets information about a specific culture.
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.CultureInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanifestproperty.cultureinfo(v=VS.90)

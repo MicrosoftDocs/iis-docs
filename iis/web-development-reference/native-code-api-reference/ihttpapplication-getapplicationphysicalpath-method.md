@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplication::GetApplicationPhysicalPath Method"
+description: Learn how the IHttpApplication::GetApplicationPhysicalPath method retrieves the physical path of the application for the current request.
 ms.date: "10/07/2016"
 ms.assetid: 37b28860-40de-f634-8988-5a41dced203d
 ---

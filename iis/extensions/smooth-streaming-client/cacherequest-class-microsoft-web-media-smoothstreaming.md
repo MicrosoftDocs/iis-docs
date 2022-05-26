@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Class (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains information on the inheritance hierarchy, syntax, constructors, properties, and methods for the CacheRequest class.
 TOCTitle: CacheRequest Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest(v=VS.90)

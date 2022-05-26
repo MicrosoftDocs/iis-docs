@@ -1,6 +1,7 @@
 ---
 title: TypeInfo.DefaultScale Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultScale Property
+description: "The TypeInfo.DefaultScale property gets or sets a value that specifies the default scale for the data type."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultScale
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.defaultscale(v=VS.90)
 ms:contentKeyID: 22049621

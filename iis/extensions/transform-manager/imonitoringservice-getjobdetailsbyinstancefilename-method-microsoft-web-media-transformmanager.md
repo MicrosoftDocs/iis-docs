@@ -1,6 +1,7 @@
 ---
 title: IMonitoringService.GetJobDetailsByInstanceFileName Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDetailsByInstanceFileName Method
+description: Returns a collection of JobDetails objects based on the instance file name.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsByInstanceFileName(System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobdetailsbyinstancefilename(v=VS.90)
 ms:contentKeyID: 36868666

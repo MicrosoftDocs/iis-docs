@@ -1,6 +1,7 @@
 ---
 title: StreamUpdatedListEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedListEventArgs Methods
+description: "List of the methods that the StreamUpdatedListEventArgs type exposes including the method type, name, and description of each item. "
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs_methods(v=VS.90)
 ms:contentKeyID: 31469311

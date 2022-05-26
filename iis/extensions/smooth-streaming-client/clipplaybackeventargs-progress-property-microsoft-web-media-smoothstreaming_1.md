@@ -1,5 +1,6 @@
 ---
 title: ClipPlaybackEventArgs.Progress Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipPlaybackEventArgs.Progress property and provides the property's namespace, assembly, syntax, version information, and references.
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs.progress(v=VS.95)

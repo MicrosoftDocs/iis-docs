@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo.TimeStamp Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ChunkInfo.TimeStamp property gets or sets the start time for the data chunk.
 TOCTitle: TimeStamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.timestamp(v=VS.95)

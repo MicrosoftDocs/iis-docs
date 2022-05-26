@@ -1,5 +1,6 @@
 ---
 title: Test and Debug Applications
+description: Learn how you can test and debug a Smooth Streaming application based on Silverlight by hosting both the application and the media content in the same domain. 
 TOCTitle: Test and Debug Applications
 ms:assetid: 1810c277-c032-4eac-8f41-74a4623294bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958030(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: ServerConnections Element
+description: Describes the ServerConnection element and provides the element's attributes, child elements, parent elements, and an example.
 TOCTitle: ServerConnections Element
 ms:assetid: be105438-17e3-4e1d-8af1-fb692c481f76
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547059(v=VS.90)

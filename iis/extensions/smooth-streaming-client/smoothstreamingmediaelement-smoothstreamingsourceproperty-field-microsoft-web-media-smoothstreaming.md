@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingSourceProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingSourceProperty Field
+description: Represents a dependency property that specifies the SmoothStreamingSource property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingSourceProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingsourceproperty(v=VS.90)
 ms:contentKeyID: 23961057

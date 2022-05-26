@@ -1,5 +1,6 @@
 ---
 title: Table Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines members exposed by the Table type, as well as links to additional reference materials. 
 TOCTitle: Table Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Table
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.table_methods(v=VS.90)

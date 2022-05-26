@@ -1,5 +1,6 @@
 ---
 title: JobManifest.WorkFolder Property (Microsoft.Web.Media.TransformManager)
+description: This article contains syntax and property value information for the JobManifest.WorkFolder property.
 TOCTitle: WorkFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.WorkFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.workfolder(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ListenerSettings Class"
+description: Contains shared listeners that any source or trace element can reference.
 ms.date: "10/07/2016"
 ms.assetid: 3b66b900-0d98-4e5d-8aca-8723609bb1d5
 ---

@@ -1,6 +1,7 @@
 ---
 title: ITaskStatus Interface (Microsoft.Web.Media.TransformManager)
 TOCTitle: ITaskStatus Interface
+description: "The ITaskStatus interface defines an interface that is used to implement a status callback mechanism for the task."
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ITaskStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus(v=VS.90)
 ms:contentKeyID: 35520844

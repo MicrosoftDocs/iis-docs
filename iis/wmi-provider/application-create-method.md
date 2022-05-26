@@ -1,6 +1,7 @@
 ---
-title: "Application.Create Method1"
-ms.date: "10/07/2016"
+title: Application.Create Method1
+description: Describes the Application.Create method and provides the method's syntax, parameters, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 872a0adb-04f5-4d48-a53d-4abd951ac8c3
 ---
 # Application.Create Method1

@@ -1,6 +1,7 @@
 ---
 title: IJobManifest.GetSchedulerInfo Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetSchedulerInfo Method
+description: "The IJobManifest.GetSchedulerInfo method returns scheduler information by searching the job manifest."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobManifest.GetSchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest.getschedulerinfo(v=VS.90)
 ms:contentKeyID: 35520768

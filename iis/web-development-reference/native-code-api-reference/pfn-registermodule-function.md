@@ -1,6 +1,7 @@
 ---
-title: "PFN_REGISTERMODULE Function"
-ms.date: "10/07/2016"
+title: PFN_REGISTERMODULE Function
+description: Describes the PFN_REGISTERMODULE function and details its syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 1c0cc3d8-ecf8-f11c-97a0-2b9743799c29
 ---
 # PFN_REGISTERMODULE Function

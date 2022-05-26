@@ -1,5 +1,6 @@
 ---
 title: "SoapExtensionImporterTypesSettings Class"
+description: Contains SOAP extension information that is used to create a Web service proxy class.
 ms.date: "10/07/2016"
 ms.assetid: 396a11ff-0fa8-4f8c-bcbc-615bb7c647bb
 ---

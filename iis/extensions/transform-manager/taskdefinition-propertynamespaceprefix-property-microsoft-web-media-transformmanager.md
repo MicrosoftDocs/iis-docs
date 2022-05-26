@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.PropertyNamespacePrefix Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the PropertyNamespacePrefix property gets or sets a prefix for the property namespace of the current task.
 TOCTitle: PropertyNamespacePrefix Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.PropertyNamespacePrefix
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.propertynamespaceprefix(v=VS.90)

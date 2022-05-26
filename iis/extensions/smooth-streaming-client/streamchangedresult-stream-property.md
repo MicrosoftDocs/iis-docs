@@ -1,6 +1,7 @@
 ---
 title: StreamChangedResult.Stream Property
 TOCTitle: Steam Property
+description: "The StreamChangedResult.Stream property gets a stream that is selected or de-selected. This article describes its syntax, property value, and requirements."
 ms:assetid: 5d5166cb-6096-4e81-9105-57594353134d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822743(v=VS.90)
 ms:contentKeyID: 50079498

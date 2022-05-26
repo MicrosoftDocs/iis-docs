@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase Class (Microsoft.Web.Media.TransformManager)
+description: Learn how the ConfigurationBase class provides a base class that represents IIS Transform Manager configuration information.
 TOCTitle: ConfigurationBase Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationBase
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase(v=VS.90)

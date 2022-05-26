@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.CurrentSegmentIndex property and provides the property's syntax and version information.
 TOCTitle: CurrentSegmentIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindex(v=VS.95)

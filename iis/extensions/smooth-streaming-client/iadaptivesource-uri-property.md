@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSource.Uri Property
+description: Describes the IAdaptiveSource.Uri property and provides the property's syntax, property value, and requirements.
 TOCTitle: Uri Property
 ms:assetid: 5b99723f-66f9-46a6-95b1-e6eb4c9b3b2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822741(v=VS.90)

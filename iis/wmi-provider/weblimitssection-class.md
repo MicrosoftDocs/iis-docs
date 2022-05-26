@@ -1,5 +1,6 @@
 ---
 title: "WebLimitsSection Class"
+description: Specifies limits on client traffic to a Web server. 
 ms.date: "10/07/2016"
 ms.assetid: 416bad62-0487-657f-8f78-9050d470c867
 ---

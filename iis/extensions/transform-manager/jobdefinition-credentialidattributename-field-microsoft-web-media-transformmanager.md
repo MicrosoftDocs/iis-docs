@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.CredentialIdAttributeName Field (Microsoft.Web.Media.TransformManager)
+description: Describes the CredentialIdAttributeName field and provides the field's namespace, assembly, and syntax.
 TOCTitle: CredentialIdAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.CredentialIdAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.credentialidattributename(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPropertyExtension Interface"
-ms.date: "10/07/2016"
+title: IAppHostPropertyExtension Interface
+description: Describes the IAppHostPropertyExtension Interface and details its syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 75096e8d-a4d9-4c5d-ab8c-b844e1b52033
 ---
 # IAppHostPropertyExtension Interface

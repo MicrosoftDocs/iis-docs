@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider.ExecuteQuery Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the DatabaseProvider.ExecuteQuery method and provides the method's syntax, remarks, examples, and permissions.
 TOCTitle: ExecuteQuery Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ExecuteQuery(System.String,Microsoft.Web.Management.DatabaseManager.Query)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.executequery(v=VS.90)

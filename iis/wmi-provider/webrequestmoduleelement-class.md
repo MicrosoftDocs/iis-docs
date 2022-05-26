@@ -1,5 +1,6 @@
 ---
 title: "WebRequestModuleElement Class"
+description: The WebRequestModuleElement Class represents a Uniform Resource Identifier (URI) prefix and the associated class that creates Web requests for the prefix.
 ms.date: "10/07/2016"
 ms.assetid: 5336b292-a515-5615-d97c-ef14e2c9c10c
 ---

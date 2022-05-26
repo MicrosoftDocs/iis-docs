@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.DisplayWidth Property
 TOCTitle: DisplayWidth Property
+description: "The IManifestStream.DisplayWidth property gets the stream DisplayWidth field. This article describes its syntax, property value, and requirements."
 ms:assetid: a480999c-aadd-4b12-bf41-cadd89d7fb43
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822802(v=VS.90)
 ms:contentKeyID: 50079556

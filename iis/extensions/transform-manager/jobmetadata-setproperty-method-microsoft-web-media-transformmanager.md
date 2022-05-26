@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.SetProperty Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the JobMetadata.SetProperty method, with links to reference materials.
 TOCTitle: SetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobMetadata.SetProperty(Microsoft.Web.Media.TransformManager.IManifestProperty)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.setproperty(v=VS.90)

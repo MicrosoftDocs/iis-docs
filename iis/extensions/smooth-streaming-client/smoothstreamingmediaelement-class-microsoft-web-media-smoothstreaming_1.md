@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement Class
+description: Represents a media player that provides MediaElement capabilities and advertising integration.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.95)
 ms:contentKeyID: 46307968

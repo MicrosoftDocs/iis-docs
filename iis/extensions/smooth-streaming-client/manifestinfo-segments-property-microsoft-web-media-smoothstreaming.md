@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.Segments Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Segments property and provides the property's syntax, property value, remarks, examples, version information, and permissions. 
 TOCTitle: Segments Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.segments(v=VS.90)

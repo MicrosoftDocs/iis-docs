@@ -1,5 +1,6 @@
 ---
 title: EventViewer.EventIdSuccess Field (Microsoft.Web.Media.TransformManager)
+description: Describes the EventViewer.EventIdSuccess field and details the field's namespace, assembly, and syntax.
 TOCTitle: EventIdSuccess Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdSuccess
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventidsuccess(v=VS.90)

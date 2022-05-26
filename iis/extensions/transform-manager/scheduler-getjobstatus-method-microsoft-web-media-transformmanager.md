@@ -1,5 +1,6 @@
 ---
 title: Scheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
+description: GetJobStatus Method returns the status of the specified job.
 TOCTitle: GetJobStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.GetJobStatus(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.getjobstatus(v=VS.90)

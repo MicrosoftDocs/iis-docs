@@ -1,6 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider Interface"
-ms.date: "10/07/2016"
+title: IGlobalRSCAQueryProvider Interface
+description: Describes the IGlobalRSCAQueryProvider interface and details its syntax, methods, derived classes, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b4d97a23-123d-5c77-b0f1-ccfc388d5517
 ---
 # IGlobalRSCAQueryProvider Interface

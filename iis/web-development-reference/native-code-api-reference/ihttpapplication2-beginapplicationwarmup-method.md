@@ -1,5 +1,6 @@
 ---
 title: "IHttpApplication2::BeginApplicationWarmup Method"
+description: Learn how the BeginApplicationWarmup method starts loading the application into server memory and initializing it before the first HTTP request arrives.
 ms.date: "10/07/2016"
 ms.assetid: 4ba4f4c1-e02d-427b-b7e3-39703ff88237
 ---

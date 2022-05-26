@@ -1,5 +1,6 @@
 ---
 title: "IGlobalFileChangeProvider::GetFileName Method"
+description: "The IGlobalFileChangeProviderGetFileName method retrieves the full path to a file that has been changed."
 ms.date: "10/07/2016"
 ms.assetid: b4aed437-7a05-404c-8069-84a816df1479
 ---

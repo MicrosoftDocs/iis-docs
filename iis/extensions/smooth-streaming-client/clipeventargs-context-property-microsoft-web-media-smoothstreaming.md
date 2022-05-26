@@ -1,6 +1,7 @@
 ---
 title: ClipEventArgs.Context Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Context Property
+description: Gets or sets the Context property.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.Context
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs.context(v=VS.90)
 ms:contentKeyID: 23961095

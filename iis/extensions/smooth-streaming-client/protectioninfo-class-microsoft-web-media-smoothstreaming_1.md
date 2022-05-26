@@ -1,5 +1,6 @@
 ---
 title: ProtectionInfo Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ProtectionInfo class and provides the class' inheritance hierarchy, namespace, assembly, syntax, constructors, methods, and version information.
 TOCTitle: ProtectionInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo(v=VS.95)

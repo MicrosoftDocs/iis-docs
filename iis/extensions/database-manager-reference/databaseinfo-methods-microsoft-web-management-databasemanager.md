@@ -1,6 +1,7 @@
 ---
 title: DatabaseInfo Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Methods
+description: "List of members that are exposed by the DatabaseInfo type including the method type, name and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.DatabaseInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo_methods(v=VS.90)
 ms:contentKeyID: 22049489

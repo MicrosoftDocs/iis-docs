@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.ConcurrentJobs Property (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerInfo.ConcurrentJobs property associated with Microsoft.Web.Media.TransformManager and details its syntax and property value.
 TOCTitle: ConcurrentJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConcurrentJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.concurrentjobs(v=VS.90)

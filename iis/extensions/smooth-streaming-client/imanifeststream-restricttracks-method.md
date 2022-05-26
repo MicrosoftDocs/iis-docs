@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.RestrictTracks Method
+description: Details the syntax for the IManifestStream.RestrictTracks method and restricts the tracks to a subset of all the available tracks.
 TOCTitle: RestrictTracks Method
 ms:assetid: 65974158-70aa-4ab0-bacc-4431d059bbef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822751(v=VS.90)

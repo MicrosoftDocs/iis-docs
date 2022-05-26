@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext3::EnableFullDuplex Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext3::EnableFullDuplex method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4113c932-4bb4-4046-bc3e-28fc8cfbfb0a
 ---
 # IHttpContext3::EnableFullDuplex Method

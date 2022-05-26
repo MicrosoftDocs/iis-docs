@@ -1,6 +1,7 @@
 ---
 title: TaskDefinition Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Methods
+description: The TaskDefinition type exposes the following members.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.TaskDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition_methods(v=VS.90)
 ms:contentKeyID: 35520724

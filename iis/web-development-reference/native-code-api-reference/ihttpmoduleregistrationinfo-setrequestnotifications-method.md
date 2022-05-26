@@ -1,6 +1,7 @@
 ---
 title: "IHttpModuleRegistrationInfo::SetRequestNotifications Method"
 ms.date: "10/07/2016"
+description: Registers the request-level notification for a module, such as an S_OK value that indicates the operation was successful. 
 ms.assetid: 9cd93045-71ee-c3ce-fdce-33f3fb105a05
 ---
 # IHttpModuleRegistrationInfo::SetRequestNotifications Method

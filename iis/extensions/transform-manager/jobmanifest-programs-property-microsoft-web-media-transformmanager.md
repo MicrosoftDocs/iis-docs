@@ -1,5 +1,6 @@
 ---
 title: JobManifest.Programs Property (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the Programs property which gets a collection of tasks that are executable program files.
 TOCTitle: Programs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Programs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.programs(v=VS.90)

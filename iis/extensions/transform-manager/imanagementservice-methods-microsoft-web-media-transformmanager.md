@@ -1,5 +1,6 @@
 ---
 title: IManagementService Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the IManagementService methods and provides a table that outlines the name and description for various method types.
 TOCTitle: IManagementService Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IManagementService
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice_methods(v=VS.90)

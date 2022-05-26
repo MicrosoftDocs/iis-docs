@@ -1,5 +1,6 @@
 ---
 title: Smooth Streaming Client
+description: Describes the Smooth Streaming Client and provides a description for the IIS Smooth Streaming Client 1.5 and Microsoft Smooth Streaming Client 2.0.
 TOCTitle: Smooth Streaming Client
 ms:assetid: 7d431a89-c44b-4ffa-82ec-00049ba9fd4c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh943091(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IProcessPingCallback Interface"
+description: IProcessPingCallback Interface provides functionality to respond to a ping request.
 ms.date: "10/07/2016"
 ms.assetid: 1dc21793-7db9-156b-9685-167462097678
 ---

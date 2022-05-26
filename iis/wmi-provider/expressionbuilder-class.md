@@ -1,5 +1,6 @@
 ---
 title: "ExpressionBuilder Class"
+description: Maps an expression prefix to an expression builder type.
 ms.date: "10/07/2016"
 ms.assetid: d5626c9b-c688-06c7-df5d-abe450a477a5
 ---

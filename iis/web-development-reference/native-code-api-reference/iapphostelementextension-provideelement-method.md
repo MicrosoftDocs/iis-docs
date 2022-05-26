@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementExtension::ProvideElement Method"
+description: Learn how the IAppHostElementExtension::ProvideElement method populates the provided configuration element.
 ms.date: "10/07/2016"
 ms.assetid: 9aed3421-f9ac-4314-ae65-dcde1088bbd8
 ---

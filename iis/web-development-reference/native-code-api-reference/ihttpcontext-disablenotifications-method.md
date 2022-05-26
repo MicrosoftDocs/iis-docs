@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::DisableNotifications Method"
+description: This article contains information about syntax, return value, and requirements for the IHttpContext::DisableNotifications method.
 ms.date: "10/07/2016"
 ms.assetid: 9014508e-a74b-8efe-bde1-426df6728b34
 ---

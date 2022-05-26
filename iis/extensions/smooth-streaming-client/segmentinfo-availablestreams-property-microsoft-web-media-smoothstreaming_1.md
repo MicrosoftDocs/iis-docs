@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.AvailableStreams Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SegmentInfo.AvailableStreams property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: AvailableStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.AvailableStreams
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.availablestreams(v=VS.95)

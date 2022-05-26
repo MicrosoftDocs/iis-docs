@@ -1,5 +1,6 @@
 ---
 title: Index.Name Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index.Name property and provides the property's namespace, assembly, syntax, property value, examples, and permissions.
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.name(v=VS.90)

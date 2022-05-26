@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::AppendVaryByHeader Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCachePolicy::AppendVaryByHeader method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: dd9ade2d-8fe5-138d-f750-fba64f10d30d
 ---
 # IHttpCachePolicy::AppendVaryByHeader Method

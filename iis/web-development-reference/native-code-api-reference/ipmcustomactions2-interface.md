@@ -1,6 +1,7 @@
 ---
-title: "IPmCustomActions2 Interface"
-ms.date: "10/07/2016"
+title: IPmCustomActions2 Interface
+description: Describes the IPmCustomActions2 interface and details its syntax, methods, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 20ec2a31-666e-43de-b0a1-be2bd98f9ba6
 ---
 # IPmCustomActions2 Interface

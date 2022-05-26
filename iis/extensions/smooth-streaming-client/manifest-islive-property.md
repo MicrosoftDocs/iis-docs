@@ -1,6 +1,7 @@
 ---
 title: Manifest.IsLive Property
 TOCTitle: IsLive Property
+description: "The Manifest.IsLive property gets the manifest isLive field. This article describes its syntax, property value, and requirements."
 ms:assetid: 47572e6e-d68e-440f-a614-9f09967adbfa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822726(v=VS.90)
 ms:contentKeyID: 50079481

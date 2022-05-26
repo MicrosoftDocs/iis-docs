@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article provides a description and list of public and private column methods available for the ColumnDataInfo methods.
 TOCTitle: ColumnDataInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo_methods(v=VS.90)

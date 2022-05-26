@@ -1,6 +1,7 @@
 ---
 title: "IAppHostPathMapper::MapPath Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostPathMapper::MapPath method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: b258e39a-5c1c-761a-73d0-33e5fd237349
 ---
 # IAppHostPathMapper::MapPath Method

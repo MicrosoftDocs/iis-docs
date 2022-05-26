@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.BufferingProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the BufferingProgressChanged event and provides the event's namespace, assembly, syntax, remarks, and version information.
 TOCTitle: BufferingProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogresschanged(v=VS.90)

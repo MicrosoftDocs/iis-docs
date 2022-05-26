@@ -1,5 +1,6 @@
 ---
 title: Credential.Description Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the Description property gets or sets the credential description.
 TOCTitle: Description Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Description
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.description(v=VS.90)

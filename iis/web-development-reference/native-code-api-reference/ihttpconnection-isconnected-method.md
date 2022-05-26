@@ -1,5 +1,6 @@
 ---
 title: "IHttpConnection::IsConnected Method"
+description: Learn how the IHttpConnection::IsConnected method determines whether a Web client is still connected to the current request.
 ms.date: "10/07/2016"
 ms.assetid: a2b6d5e7-48d7-2eba-6fe3-1fec9586b846
 ---

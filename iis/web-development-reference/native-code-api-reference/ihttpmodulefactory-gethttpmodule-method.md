@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleFactory::GetHttpModule Method"
+description: This article contains syntax, parameters, and return value for the IHttpModuleFactory::GetHttpModule method.
 ms.date: "10/07/2016"
 ms.assetid: cc84322a-c40b-5296-1d42-20af0f7e4e95
 ---

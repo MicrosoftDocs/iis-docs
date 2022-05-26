@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Properties
+description: "List of members that are exposed by the ManifestProperty type including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty_properties(v=VS.90)
 ms:contentKeyID: 31477645

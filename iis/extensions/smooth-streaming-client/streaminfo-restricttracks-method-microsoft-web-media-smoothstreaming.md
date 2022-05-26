@@ -1,6 +1,7 @@
 ---
 title: StreamInfo.RestrictTracks Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RestrictTracks Method
+description: "The StreamInfo.RestrictTracks Method Replaces AvailableTracks with the list of available tracks supplied by the parameter and restricts decoder initialization."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.restricttracks(v=VS.90)
 ms:contentKeyID: 32316459

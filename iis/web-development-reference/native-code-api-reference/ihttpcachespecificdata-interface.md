@@ -1,6 +1,7 @@
 ---
-title: "IHttpCacheSpecificData Interface"
-ms.date: "10/07/2016"
+title: IHttpCacheSpecificData Interface
+description: Describes the IHttpCacheSpecificData interface and details its syntax, methods, derived classes, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2cdc07d4-1786-31ca-28fa-7b57db3c5f8f
 ---
 # IHttpCacheSpecificData Interface

@@ -1,5 +1,6 @@
 ---
 title: "IWebSocketContext::ReadFragment Method"
+description: IWebSocketContext::ReadFragment Method reads a data fragment from an asynchronous connection.
 ms.date: "10/07/2016"
 ms.assetid: d994bce0-d3e4-4cc5-b2b6-fbd68d974b0b
 ---

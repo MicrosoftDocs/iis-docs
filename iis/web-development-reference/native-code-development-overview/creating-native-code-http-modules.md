@@ -1,5 +1,6 @@
 ---
 title: "Creating Native-Code HTTP Modules"
+description: Learn how this section describes how to create native-code HTTP modules for use with IIS 7 and IIS 8. 
 ms.date: "10/07/2016"
 ms.assetid: b99e275d-5da6-452a-ab3f-88ac0c57d618
 ---

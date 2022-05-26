@@ -1,5 +1,6 @@
 ---
 title: "IGlobalApplicationPreloadProvider Interface"
+description: Learn how the IGlobalApplicationPreloadProvider interface provides a global-level interface for preloading an application into server memory.
 ms.date: "10/07/2016"
 ms.assetid: deddc775-1ab0-492c-bda0-b32be5d4f4cc
 ---

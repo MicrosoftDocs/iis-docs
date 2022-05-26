@@ -1,5 +1,6 @@
 ---
 title: Track Element
+description: Track Element provides information about a track within the live streams that are received by the publishing point.
 TOCTitle: Track Element
 ms:assetid: dfb6118c-e5ab-44ec-8f49-b95cd848e3a8
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547067(v=VS.90)

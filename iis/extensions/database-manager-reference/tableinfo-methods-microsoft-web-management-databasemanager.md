@@ -1,5 +1,6 @@
 ---
 title: TableInfo Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article lists methods exposed by the TableInfo type.
 TOCTitle: TableInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.TableInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo_methods(v=VS.90)

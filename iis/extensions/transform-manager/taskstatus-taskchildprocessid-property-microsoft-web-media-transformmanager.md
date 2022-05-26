@@ -1,5 +1,6 @@
 ---
 title: TaskStatus.TaskChildProcessId Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskChildProcessId property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: TaskChildProcessId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskChildProcessId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskchildprocessid(v=VS.90)

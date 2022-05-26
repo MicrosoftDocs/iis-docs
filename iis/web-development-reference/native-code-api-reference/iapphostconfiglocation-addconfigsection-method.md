@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConfigLocation::AddConfigSection Method"
-ms.date: "10/07/2016"
+title: IAppHostConfigLocation::AddConfigSection Method
+ms.date: 10/07/2016
+description: The IAppHostConfigLocation::AddConfigSection Method adds a configuration section to the current configuration location.
 ms.assetid: c26ddb6b-2166-3486-870f-fb5b0574feb1
 ---
 # IAppHostConfigLocation::AddConfigSection Method

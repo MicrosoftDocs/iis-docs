@@ -1,6 +1,7 @@
 ---
 title: ProtectionInfo.ProtectionHeader Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Property
+description: "Syntax to get or set the headers for the ProtectionInfo class using the Microsoft.Web.Media.SmoothStreaming assembly."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectioninfo.protectionheader(v=VS.90)
 ms:contentKeyID: 31469196

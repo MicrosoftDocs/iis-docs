@@ -1,5 +1,6 @@
 ---
 title: JobMetadata Constructor  (Microsoft.Web.Media.TransformManager)
+description: JobMetadata Constructor initializes a new instance of the JobMetadata class by using the specified manifest and task index.
 TOCTitle: JobMetadata Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobMetadata.#ctor(Microsoft.Web.Media.TransformManager.JobManifest,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.jobmetadata(v=VS.90)

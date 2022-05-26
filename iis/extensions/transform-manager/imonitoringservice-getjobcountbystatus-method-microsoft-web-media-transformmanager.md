@@ -1,5 +1,6 @@
 ---
 title: IMonitoringService.GetJobCountByStatus Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobCountByStatus method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: GetJobCountByStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobCountByStatus(Microsoft.Web.Media.TransformManager.JobStatus)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imonitoringservice.getjobcountbystatus(v=VS.90)
