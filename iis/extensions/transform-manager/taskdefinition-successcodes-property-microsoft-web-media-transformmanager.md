@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.SuccessCodes Property (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax and property value for the TaskDefinition.SuccessCodes property, with links to reference materials. 
 TOCTitle: SuccessCodes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.SuccessCodes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.successcodes(v=VS.90)

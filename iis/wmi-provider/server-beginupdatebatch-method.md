@@ -1,5 +1,6 @@
 ---
 title: "Server.BeginUpdateBatch Method"
+description: This article contains information about syntax, return value, and requirements for the Server.BeginUpdateBatch method.
 ms.date: "10/07/2016"
 ms.assetid: 6a748c8c-c7a4-4adc-846b-5388f8064b2f
 ---

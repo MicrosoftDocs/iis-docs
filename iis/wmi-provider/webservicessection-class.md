@@ -1,5 +1,6 @@
 ---
 title: "WebServicesSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the WebServicesSection class.
 ms.date: "10/07/2016"
 ms.assetid: 5ab3a470-f3e2-9b55-dbc6-01b4e64b0d70
 ---

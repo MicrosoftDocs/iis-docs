@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.SetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and parameters for the HpcScheduler.SetTaskChildProcessId method.
 TOCTitle: SetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SetTaskChildProcessId(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.settaskchildprocessid(v=VS.90)
