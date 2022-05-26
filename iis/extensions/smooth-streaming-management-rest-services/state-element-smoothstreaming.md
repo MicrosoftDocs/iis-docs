@@ -1,5 +1,6 @@
 ---
 title: State Element (SmoothStreaming)
+description: "This article shows State Element syntax for SmoothStreaming, which represents the state of a Live Smooth Streaming publishing point instance."
 TOCTitle: State Element (SmoothStreaming)
 ms:assetid: a4d0ddbe-dcd0-4d8b-be34-f306e774875e
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547055(v=VS.90)

@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.SourceProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SourceProperty Field | Microsoft.Web.Media.SmoothStreaming
+description: "This article shares the SmoothStreamingMediaElement.SourceProperty Field syntax, which represents a dependency property that specifies the Source property."
 TOCTitle: SourceProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SourceProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.sourceproperty(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.MaintenanceTime Property (Microsoft.Web.Media.TransformManager)
+description: "This article shows the JobDefinition.MaintenanceTime Property syntax, which gets or sets a fixed time during the day to run maintenance."
 TOCTitle: MaintenanceTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.maintenancetime(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ValidationSection Class"
+description: "This article shares the syntax, methods, and properties of the ValidationSection Class, which enables or disables validation checks on configuration files."
 ms.date: "10/07/2016"
 ms.assetid: da81aca7-b37a-42a3-8b32-b1ae2a4966e2
 ---
