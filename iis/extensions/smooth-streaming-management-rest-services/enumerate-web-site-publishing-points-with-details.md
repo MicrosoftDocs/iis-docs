@@ -1,5 +1,6 @@
 ---
 title: Enumerate Web Site Publishing Points with Details
+description: "This article shares guidelines for the the Enumerate Web Site Publishing Points with Details operation, which enumerates all publishing points on the current web site."
 TOCTitle: Enumerate Web Site Publishing Points with Details
 ms:assetid: 369a196a-7a42-49f6-828d-83e6ad8f348f
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh239764(v=VS.90)

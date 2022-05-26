@@ -1,5 +1,6 @@
 ---
 title: View.Definition Property (Microsoft.Web.Management.DatabaseManager)
+description: "This article shows the View.Definition Property syntax, which gets or sets the definition for a view with Microsoft.WebManagement.DatabaseManager."
 TOCTitle: Definition Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.View.Definition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view.definition(v=VS.90)

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.DownloadProgressOffsetProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.DownloadProgressOffsetProperty Field | Microsoft.Web.Media.SmoothStreaming
 description: SmoothStreamingMediaElement.DownloadProgressOffsetProperty Field represents a dependency property that specifies the DownloadProgressOffset property.
 TOCTitle: DownloadProgressOffsetProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressOffsetProperty
