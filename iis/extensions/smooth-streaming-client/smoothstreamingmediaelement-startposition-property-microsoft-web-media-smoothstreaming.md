@@ -1,4 +1,4 @@
-
+---
 title: SmoothStreamingMediaElement.StartPosition Property | Microsoft.Web.Media.SmoothStreaming
 description: Describes the StartPosition property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: StartPosition Property
