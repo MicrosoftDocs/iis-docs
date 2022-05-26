@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerCpuSockets Field (Microsoft.Web.Media.TransformManager)
+description: Describes the SchedulerCpuSockets field and provides the field's namespace, assembly, syntax, and additional references.
 TOCTitle: SchedulerCpuSockets Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuSockets
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpusockets(v=VS.90)

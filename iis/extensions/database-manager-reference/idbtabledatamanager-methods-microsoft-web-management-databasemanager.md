@@ -1,5 +1,6 @@
 ---
 title: IDbTableDataManager Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines methods exposed by the IDbTableDataManager type. There are also links to reference materials.
 TOCTitle: IDbTableDataManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager_methods(v=VS.90)

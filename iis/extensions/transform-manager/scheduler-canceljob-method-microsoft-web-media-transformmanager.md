@@ -1,6 +1,7 @@
 ---
 title: Scheduler.CancelJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CancelJob Method
+description: "The Scheduler.CancelJob method cancels the specified job. This article describes its syntax, parameters, return value, and remarks."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.CancelJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.canceljob(v=VS.90)
 ms:contentKeyID: 35521085

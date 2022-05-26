@@ -1,5 +1,6 @@
 ---
 title: IJobMetadata Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the IJobMetadata properties and provides a table that outlines the name and description for various property types.
 TOCTitle: IJobMetadata Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.IJobMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmetadata_properties(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ProfileElement Class"
+description: "This article details syntax, methods, properties, inheritance hierarchy, remarks, and requirements of the ProfileElement Class."
 ms.date: "10/07/2016"
 ms.assetid: c96ddeff-d6ed-49ef-8389-deb7b8e0ebd8
 ---

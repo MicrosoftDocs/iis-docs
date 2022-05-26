@@ -1,5 +1,6 @@
 ---
 title: "WebControlsSection Class"
+description: Specifies the shared location of client script files.  
 ms.date: "10/07/2016"
 ms.assetid: 1fa14f54-980a-37fe-ee88-5cba1abfaab6
 ---

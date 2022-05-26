@@ -1,5 +1,6 @@
 ---
 title: JobDetails.JobTemplateName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the JobTemplateName property gets or sets the name of the job template that defines the tasks for this job.
 TOCTitle: JobTemplateName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobTemplateName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobtemplatename(v=VS.90)

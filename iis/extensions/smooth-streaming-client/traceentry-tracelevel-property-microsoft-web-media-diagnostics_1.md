@@ -1,5 +1,6 @@
 ---
 title: TraceEntry.TraceLevel Property (Microsoft.Web.Media.Diagnostics)
+description: TraceEntry.TraceLevel Property gets or sets the TraceLevel property.
 TOCTitle: TraceLevel Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.traceentry.tracelevel(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistEntryInfo::EntryType Property
+description: This article contains information about arguments, return value, and requirements for the IPlaylistEntryInfo::EntryType property.
 TOCTitle: IPlaylistEntryInfo::EntryType Property
 ms:assetid: 2dedca8f-8189-45ed-b92b-1caa92122eda
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146260(v=VS.90)

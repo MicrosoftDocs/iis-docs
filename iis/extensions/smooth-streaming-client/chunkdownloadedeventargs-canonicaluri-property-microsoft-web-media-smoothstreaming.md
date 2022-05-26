@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ChunkDownloadedEventArgs.CanonicalUri property gets the canonical URI for downloading the current chunk.
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.CanonicalUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.canonicaluri(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: StreamChangedResult Class
+description: Describes the StreamChangedResult class and provides the class' syntax, properties, and requirements.
 TOCTitle: StreamChangedResult Class
 ms:assetid: 0515e63d-b0e8-4902-a477-e9dea0cdc485
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822668(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "HttpClientCache Class"
-ms.date: "10/07/2016"
+title: HttpClientCache Class
+description: Describes the HttpClientCache class and provides the class' syntax, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: aba023d7-f6f2-0cdb-44b9-0e1e8b75db16
 ---
 # HttpClientCache Class

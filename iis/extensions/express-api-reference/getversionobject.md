@@ -1,6 +1,7 @@
 ---
-title: "GetVersionObject"
-ms.date: "10/07/2016"
+title: GetVersionObject
+description: Describes the GetVersionObject value and provides the value's syntax, parameters, return value, and additional references.
+ms.date: 10/07/2016
 ms.assetid: 98e42cf9-bcd4-4e1e-a01d-f8e44052e93d
 ---
 # GetVersionObject

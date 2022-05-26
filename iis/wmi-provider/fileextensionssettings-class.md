@@ -1,6 +1,7 @@
 ---
-title: "FileExtensionsSettings Class"
-ms.date: "10/07/2016"
+title: FileExtensionsSettings Class
+description: Describes the FileExtensionsSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b437c7ab-64b4-f7b7-6f22-a699a37cead7
 ---
 # FileExtensionsSettings Class

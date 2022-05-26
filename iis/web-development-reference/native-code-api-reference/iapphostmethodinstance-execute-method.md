@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance::Execute Method"
+description: Learn how the IAppHostMethodInstance::Execute method executes the specified custom method. 
 ms.date: "10/07/2016"
 ms.assetid: 3b0eab75-d907-4ec5-982e-0c91d96a9358
 ---

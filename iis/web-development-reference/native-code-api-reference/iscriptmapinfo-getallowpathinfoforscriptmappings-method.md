@@ -1,6 +1,7 @@
 ---
 title: "IScriptMapInfo::GetAllowPathInfoForScriptMappings Method"
-ms.date: "10/07/2016"
+description: "Describes the IScriptMapInfo::GetAllowPathInfoForScriptMappings method and details its syntax, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: decdb30f-9bb2-36e0-1b66-2baf79b4b1cd
 ---
 # IScriptMapInfo::GetAllowPathInfoForScriptMappings Method

@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.Shutdown Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Shutdown Method
+description: "The TransformManagerService.Shutdown method shuts down the IIS Transform Manager service. This article describes its syntax."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.Shutdown
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.shutdown(v=VS.90)
 ms:contentKeyID: 35520613

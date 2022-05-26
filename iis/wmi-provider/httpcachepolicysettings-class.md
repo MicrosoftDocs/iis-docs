@@ -1,6 +1,7 @@
 ---
-title: "HttpCachePolicySettings Class"
-ms.date: "10/07/2016"
+title: HttpCachePolicySettings Class
+description: Describes the HttpCachePolicySettings class and provides the class' syntax, properties, remarks, examples, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 5eeb1357-ddb1-a9b2-fc3b-c34428e9b6ed
 ---
 # HttpCachePolicySettings Class

@@ -1,6 +1,7 @@
 ---
 title: IAdaptiveSourceManagerStatics Interface
 TOCTitle: IAdaptiveSourceManagerStatics Interface
+description: "The IAdaptiveSourceManagerStatics interface gets the source manager singleton. This article describes its syntax, members, and requirements."
 ms:assetid: 3035f502-ea1f-45f2-8784-46c20f57dc9c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822711(v=VS.90)
 ms:contentKeyID: 50079466

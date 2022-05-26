@@ -1,5 +1,6 @@
 ---
-title: Tracing.DisableTraceDestination Method  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.DisableTraceDestination Method (Microsoft.Web.Media.Diagnostics)
+description: "This article shares the syntax and parameters of the DisableTraceDestination Method, which disables the trace destination that is specified by the destination parameter."
 TOCTitle: DisableTraceDestination Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceDestination(Microsoft.Web.Media.Diagnostics.TraceDestination)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.disabletracedestination(v=VS.90)

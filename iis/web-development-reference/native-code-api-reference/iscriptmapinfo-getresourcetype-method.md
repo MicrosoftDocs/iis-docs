@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetResourceType Method"
+description: "The IScriptMapInfoGetResourceType method retrieves the resource type for a request handler. This article describes its syntax, return value, remarks, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 7889d2ef-4ca3-087e-d371-6ce2730b4bb4
 ---

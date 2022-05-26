@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection Interface"
-ms.date: "10/07/2016"
+title: IAppHostConfigLocationCollection Interface
+description: Describes the IAppHostConfigLocationCollection interface and provides the interface's syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 47442932-c536-9753-0146-fab1c2973ff6
 ---
 # IAppHostConfigLocationCollection Interface

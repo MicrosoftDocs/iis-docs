@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.GetJobCompletionDetails Method  (Microsoft.Web.Media.TransformManager)
+description: GetJobCompletionDetails Method returns a report about the job instance.
 TOCTitle: GetJobCompletionDetails Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetJobCompletionDetails(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.getjobcompletiondetails(v=VS.90)

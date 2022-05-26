@@ -1,5 +1,6 @@
 ---
 title: SeekCompletedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SeekCompletedEventArgs methods and provides a table that outlines the name and description for various method types.
 TOCTitle: SeekCompletedEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.seekcompletedeventargs_methods(v=VS.95)

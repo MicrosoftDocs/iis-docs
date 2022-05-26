@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ChunkDownloadedEventArgs.StatusCode property gets the HTTP status code.
 TOCTitle: StatusCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.statuscode(v=VS.95)

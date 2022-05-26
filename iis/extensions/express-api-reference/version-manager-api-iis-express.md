@@ -1,6 +1,7 @@
 ---
-title: "Version Manager API (IIS Express)"
-ms.date: "10/07/2016"
+title: Version Manager API (IIS Express)
+description: Describes the IIS Version Manager and provides multiple topics that describe the IIS Version Manager API in various aspects.
+ms.date: 10/07/2016
 ms.assetid: dc011a0c-854b-4f10-badb-a8f33fd57ab7
 ms.author: "erikre"
 ---

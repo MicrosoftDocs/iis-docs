@@ -1,6 +1,7 @@
 ---
 title: ForeignKeyChanges Enumeration (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeyChanges Enumeration
+description: Specifies the changes for foreign keys in a database.
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ForeignKeyChanges
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeychanges(v=VS.90)
 ms:contentKeyID: 20476411

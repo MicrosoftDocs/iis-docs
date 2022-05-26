@@ -1,6 +1,7 @@
 ---
 title: "IDispensedHttpModuleContextContainer Interface"
-ms.date: "10/07/2016"
+description: "Describes the IDispensedHttpModuleContextContainer interface and details its syntax, methods, derived classes, remarks, inheritance hierarchy, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 8a58dbe1-8832-9da9-5733-2a9ff2f22962
 ---
 # IDispensedHttpModuleContextContainer Interface

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.ManifestReady Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestReady Event
+description: Describes the SmoothStreamingMediaElement.ManifestReady event and provides the namespace, assembly, syntax, and version information.
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestReady
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestready(v=VS.95)
 ms:contentKeyID: 46307500

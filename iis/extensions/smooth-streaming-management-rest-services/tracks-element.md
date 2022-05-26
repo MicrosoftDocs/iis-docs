@@ -1,5 +1,6 @@
 ---
 title: Tracks Element
+description: Describes the Tracks elements, which provides information about tracks within live streams, and details its child elements and parent elements.
 TOCTitle: Tracks Element
 ms:assetid: 2ebe6f9d-d0b5-47f5-878f-cbf98cee4deb
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547031(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IPmApplicationPreload Interface"
+description: This article has information about syntax, methods, and requirements for the IPmApplicationPreload interface.
 ms.date: "10/07/2016"
 ms.assetid: 7f5b8269-ce7f-4be7-8cb7-c59392e0816c
 ---

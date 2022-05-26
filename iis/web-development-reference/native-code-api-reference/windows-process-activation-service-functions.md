@@ -1,5 +1,6 @@
 ---
 title: "Windows Process Activation Service Functions"
+description: Windows Process Activation Service Functions provides functions to retrieve a reference to the process model host.
 ms.date: "10/07/2016"
 ms.assetid: 4ec064b9-674c-4d8f-99c5-fe2b95bbce30
 ---

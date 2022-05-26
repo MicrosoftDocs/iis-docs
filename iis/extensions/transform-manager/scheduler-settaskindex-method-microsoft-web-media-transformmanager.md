@@ -1,5 +1,6 @@
 ---
 title: Scheduler.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Scheduler.SetTaskIndex Method and details the syntax, parameters, and exceptions associated with the method.
 TOCTitle: SetTaskIndex Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SetTaskIndex(System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.settaskindex(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: IAdaptiveSource Interface
 TOCTitle: IAdaptiveSource Interface
+description: "IAdaptiveSource interface represents an adaptive source, single playback session. This article describes its syntax, requirements, and the members that it exposes."
 ms:assetid: d0656cbb-c4f9-407d-9566-cf840783d895
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822837(v=VS.90)
 ms:contentKeyID: 50079591

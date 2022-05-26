@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::GetElementByName Method"
+description: Learn how the IAppHostElement::GetElementByName method gets a requested child element from the current element.  
 ms.date: "10/07/2016"
 ms.assetid: 1fbd772c-733f-b950-cb44-db5f3ae5ec8a
 ---

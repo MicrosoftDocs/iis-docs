@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingErrorOccurred Event (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SmoothStreamingErrorOccurred event which occurs when an error is raised during playback of Smooth Streaming content.
 TOCTitle: SmoothStreamingErrorOccurred Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingErrorOccurred
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingerroroccurred(v=VS.90)

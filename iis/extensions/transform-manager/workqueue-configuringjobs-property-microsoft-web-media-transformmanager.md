@@ -1,5 +1,6 @@
 ---
 title: WorkQueue.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the WorkQueue.ConfiguringJobs property, with links to reference materials.
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.ConfiguringJobs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue.configuringjobs(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "Compress Function"
+description: Learn how the Compress function compresses data given the compression context, input buffer, output buffer, and compression level. 
 ms.date: "10/07/2016"
 ms.assetid: 254d5fc4-8abd-4410-84e3-d7f13ee6cd68
 ---

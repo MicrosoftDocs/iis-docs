@@ -1,5 +1,6 @@
 ---
 title: "AssemblyElement Class"
+description: "AssemblyElement class specifies an assembly reference that is used during compilation of a vstecasp Web application."
 ms.date: "10/07/2016"
 ms.assetid: 186c51f7-3822-cf30-8793-1f7afd934f45
 ---

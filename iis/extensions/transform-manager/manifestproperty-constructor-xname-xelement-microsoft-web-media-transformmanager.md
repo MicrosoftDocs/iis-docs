@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty Constructor (XName, XElement) (Microsoft.Web.Media.TransformManager)
+description: ManifestProperty Constructor (XName, XElement) initializes a new instance of the ManifestProperty class using the specified name and value.
 TOCTitle: ManifestProperty Constructor (XName, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.Xml.Linq.XName,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.manifestproperty(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "IAppHostPathMapper Interface"
-ms.date: "10/07/2016"
+title: IAppHostPathMapper Interface
+description: "Describes the IAppHostPathMapper interface and details its syntax, methods, properties, remarks, inheritance hierarchy, and requirements."
+ms.date: 10/07/2016
 ms.assetid: d2a37cfd-c4d7-ceb7-ca99-3598caf3ee4a
 ---
 # IAppHostPathMapper Interface

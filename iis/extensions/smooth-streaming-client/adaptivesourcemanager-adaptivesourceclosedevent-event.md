@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSourceClosedEvent Event
+description: The AdaptiveSourceClosedEvent Event adds or removes a subscription to AdaptiveSourceClosedEvent events. This article details syntax, event information, remarks, and requirements.
 TOCTitle: AdaptiveSourceClosedEvent Event
 ms:assetid: 5b610241-bcdf-45ae-8506-5bd604fe425a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822740(v=VS.90)

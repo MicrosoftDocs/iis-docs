@@ -1,5 +1,6 @@
 ---
 title: Column.Tag Property (Microsoft.Web.Management.DatabaseManager)
+description: The Tag property provides a simple storage mechanism that lets your database provider store application-specific information for your provider.
 TOCTitle: Tag Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Tag
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.tag(v=VS.90)

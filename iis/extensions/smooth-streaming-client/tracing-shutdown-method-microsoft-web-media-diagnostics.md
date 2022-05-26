@@ -1,5 +1,6 @@
 ---
 title: Tracing.Shutdown Method  (Microsoft.Web.Media.Diagnostics)
+description: Describes the Tracing.Shutdown method and details its namespace, assembly, syntax, Silverlight information, and permissions.
 TOCTitle: Shutdown Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Shutdown
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.shutdown(v=VS.90)

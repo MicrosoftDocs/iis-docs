@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.Name Property (Microsoft.Web.Management.DatabaseManager)
+description: "The Name Property gets or sets a value that specifies the name of the connection argument. This article shares syntax, property value, code examples, and permissions."
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.name(v=VS.90)

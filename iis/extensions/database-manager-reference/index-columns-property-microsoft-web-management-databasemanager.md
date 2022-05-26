@@ -1,5 +1,6 @@
 ---
 title: Index.Columns Property (Microsoft.Web.Management.DatabaseManager)
+description: This article has information about syntax and permissions for the Index.Columns property, with links to reference materials.
 TOCTitle: Columns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Columns
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.columns(v=VS.90)

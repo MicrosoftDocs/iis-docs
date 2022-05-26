@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::SetKernelCacheInvalidatorSet Method"
+description: Learn how the IHttpCachePolicy::SetKernelCacheInvalidatorSet method sets a value that indicates that the kernel cache is invalidated.
 ms.date: "10/07/2016"
 ms.assetid: 32faf704-9760-5436-9c4a-80bd106fc41c
 ---

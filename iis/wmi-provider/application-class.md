@@ -1,5 +1,6 @@
 ---
 title: "Application Class1"
+description: "The Application Class1 represents an IIS Web application. This article describes its syntax, methods, properties, remarks, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 8f5f708c-9ca7-48eb-8474-25eebe5c97c9
 ---

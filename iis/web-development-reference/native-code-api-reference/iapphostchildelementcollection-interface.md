@@ -1,5 +1,6 @@
 ---
 title: "IAppHostChildElementCollection Interface"
+description: IAppHostChildElementCollection Interface represents the child configuration elements that are nested within the current element.
 ms.date: "10/07/2016"
 ms.assetid: 4e64c317-e442-5738-b14c-1f252b7b6ea9
 ---

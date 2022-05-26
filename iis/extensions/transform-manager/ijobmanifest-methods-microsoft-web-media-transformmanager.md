@@ -1,6 +1,7 @@
 ---
 title: IJobManifest Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: IJobManifest Methods
+description: The IJobManifest type exposes the following members.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.IJobManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest_methods(v=VS.90)
 ms:contentKeyID: 35520919

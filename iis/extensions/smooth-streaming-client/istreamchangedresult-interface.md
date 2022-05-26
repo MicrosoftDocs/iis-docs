@@ -1,5 +1,6 @@
 ---
 title: IStreamChangedResult Interface
+description: This article contains information on syntax, members, and requirements for the IStreamChangedResult interface. 
 TOCTitle: IStreamChangedResult Interface
 ms:assetid: 9e3acbba-11bd-437a-a96d-4a4382e83fce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822796(v=VS.90)

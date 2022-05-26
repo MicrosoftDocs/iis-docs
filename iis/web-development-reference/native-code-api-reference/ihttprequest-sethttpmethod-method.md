@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::SetHttpMethod Method"
 ms.date: "10/07/2016"
+description: Set the HTTP method for the request, such as demonstrating using the SetHttpMethod method to create an HTTP module that modifies the HTTP method for the current request to an OPTIONS request method.  
 ms.assetid: abf2c37d-5703-8701-ad32-0f8480118d52
 ---
 # IHttpRequest::SetHttpMethod Method

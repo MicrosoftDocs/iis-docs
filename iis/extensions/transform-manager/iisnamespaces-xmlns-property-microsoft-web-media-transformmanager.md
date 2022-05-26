@@ -1,6 +1,7 @@
 ---
 title: IisNamespaces.Xmlns Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Xmlns Property
+description: Gets a URL to an XML namespace that is related to XML namespaces.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Xmlns
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.xmlns(v=VS.90)
 ms:contentKeyID: 35520695

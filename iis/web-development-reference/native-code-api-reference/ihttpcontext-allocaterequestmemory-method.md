@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::AllocateRequestMemory Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::AllocateRequestMemory method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: dac3935e-c1a7-5b19-5796-7df497143217
 ---
 # IHttpContext::AllocateRequestMemory Method

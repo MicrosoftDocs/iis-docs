@@ -1,5 +1,6 @@
 ---
 title: "ManyToOneCertificateRuleSettings Class"
+description: This article has information on syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ManyToOneCertificateRuleSettings class.
 ms.date: "10/07/2016"
 ms.assetid: 00aeabf8-7eae-4729-848b-814a8033eb27
 ---

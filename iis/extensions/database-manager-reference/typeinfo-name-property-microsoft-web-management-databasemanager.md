@@ -1,6 +1,7 @@
 ---
 title: TypeInfo.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
+description: "The TypeInfo.Name property gets or sets the name for the data type. This article describes its syntax and provides remarks and examples."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.name(v=VS.90)
 ms:contentKeyID: 20476443

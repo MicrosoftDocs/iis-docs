@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.CancelJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CancelJob Method
+description: "The TransformManagerService.CancelJob method cancels a job that is represented by the specified job ID and work queue name."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJob(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.canceljob(v=VS.90)
 ms:contentKeyID: 35520797

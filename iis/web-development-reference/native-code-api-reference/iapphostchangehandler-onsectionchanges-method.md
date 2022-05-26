@@ -1,5 +1,6 @@
 ---
 title: "IAppHostChangeHandler::OnSectionChanges Method"
+description: Describes the IAppHostChangeHandler::OnSectionChanges method and provides its syntax, parameters, return value, requirements, and remarks.
 ms.date: "10/07/2016"
 ms.assetid: d6185b17-fabc-49bc-8cb0-c79195aae3c6
 ---

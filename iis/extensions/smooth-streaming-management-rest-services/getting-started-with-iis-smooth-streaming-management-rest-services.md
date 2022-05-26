@@ -1,6 +1,7 @@
 ---
 title: Getting Started with IIS Smooth Streaming Management REST Services
 TOCTitle: Getting Started with IIS Smooth Streaming Management REST Services
+description: This article describes getting started and using IIS Smooth Streaming Management REST Services.
 ms:assetid: e1d82b65-f608-40b3-bf3a-ee651029ee38
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh239769(v=VS.90)
 ms:contentKeyID: 35957236

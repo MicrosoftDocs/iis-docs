@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Request-Level HTTP Module By Using Native Code"
+description: Learn how to use C++ to create a sample request-level HTTP module that implements the new request-processing architecture in IIS 7. 
 ms.date: "10/07/2016"
 ms.assetid: 175190d6-4f32-4813-8ffd-458c79d708e4
 ---

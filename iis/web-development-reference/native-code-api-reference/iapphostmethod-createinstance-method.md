@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethod::CreateInstance Method"
+description: Learn how the IAppHostMethod::CreateInstance method provides access to a custom method that is optionally supported on an IAppHostElement Interface object.
 ms.date: "10/07/2016"
 ms.assetid: 37c391ea-9ce6-48e4-8ecb-cbe7e45b03a0
 ---

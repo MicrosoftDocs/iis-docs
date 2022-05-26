@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.TaskMetadata Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskMetadata property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: TaskMetadata Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.taskmetadata(v=VS.90)

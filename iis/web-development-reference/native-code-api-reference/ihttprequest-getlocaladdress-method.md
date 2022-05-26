@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetLocalAddress Method"
+description: IHttpRequest::GetLocalAddress Method returns the address of the local interface for the current request.
 ms.date: "10/07/2016"
 ms.assetid: d46b161f-c91a-77e8-51b0-7975f80284c1
 ---

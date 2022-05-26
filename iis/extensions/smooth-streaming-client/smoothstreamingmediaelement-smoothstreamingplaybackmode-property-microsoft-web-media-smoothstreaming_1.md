@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingPlaybackMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingPlaybackMode Property
+description: Gets or sets the Smooth Streaming playback mode to use during main content playback.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingPlaybackMode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingplaybackmode(v=VS.95)
 ms:contentKeyID: 46307851

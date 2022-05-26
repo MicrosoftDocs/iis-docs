@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.MaintenanceIntervalDisplayUnit Property (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition.MaintenanceIntervalDisplayUnit property and details its syntax, property value, and remarks.
 TOCTitle: MaintenanceIntervalDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceintervaldisplayunit(v=VS.90)

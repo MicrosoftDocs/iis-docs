@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.Subtype Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamInfo.Subtype property and provides the property's syntax, property value, remarks, and Silverlight information.
 TOCTitle: Subtype Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Subtype
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.subtype(v=VS.95)

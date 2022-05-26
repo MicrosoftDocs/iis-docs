@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ScheduleLinearClip Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SmoothStreamingMediaElement.ScheduleLinearClip method Schedules play of a linear media clip.
 TOCTitle: ScheduleLinearClip Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleLinearClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,System.TimeSpan,System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.schedulelinearclip(v=VS.95)

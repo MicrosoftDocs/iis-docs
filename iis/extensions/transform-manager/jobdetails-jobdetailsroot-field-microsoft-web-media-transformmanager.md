@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsRoot Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsRoot Field
+description: "The JobDetailsRoot field represents a constant that is used when transform jobs are sorted by the workItem field."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsRoot
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsroot(v=VS.90)
 ms:contentKeyID: 35520626

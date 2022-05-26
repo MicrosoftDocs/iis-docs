@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
+description: "The TransformManagerService.Initialize method initializes the transform manager service. This article describes its syntax and parameters."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.Initialize(Microsoft.Web.Media.TransformManager.Logger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.initialize(v=VS.90)
 ms:contentKeyID: 35520770

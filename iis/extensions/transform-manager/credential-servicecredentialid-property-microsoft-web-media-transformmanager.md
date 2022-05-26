@@ -1,5 +1,6 @@
 ---
 title: Credential.ServiceCredentialId Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Credential.ServiceCredentialId property and provides the property's syntax and property value.
 TOCTitle: ServiceCredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.servicecredentialid(v=VS.90)

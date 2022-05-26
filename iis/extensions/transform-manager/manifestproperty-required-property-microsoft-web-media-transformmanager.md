@@ -1,6 +1,7 @@
 ---
 title: ManifestProperty.Required Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Required Property
+description: "The ManifestProperty.Required property gets or sets a value that specifies whether the manifest property is required."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Required
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.required(v=VS.90)
 ms:contentKeyID: 35520627

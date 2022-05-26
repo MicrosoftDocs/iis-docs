@@ -1,6 +1,7 @@
 ---
 title: ClipInformation.ClipUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipUri Property
+description: Describes the ClipInformation.ClipUri property and provides the field's namespace, assembly, syntax, and version information.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipuri(v=VS.90)
 ms:contentKeyID: 31469298

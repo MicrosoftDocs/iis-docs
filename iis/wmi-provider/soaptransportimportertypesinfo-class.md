@@ -1,5 +1,6 @@
 ---
 title: "SoapTransportImporterTypesInfo Class"
+description: This article has information on syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SoapTransportImporterTypesInfo class.
 ms.date: "10/07/2016"
 ms.assetid: 0c029e04-0f20-be82-d7e1-90f2143386a6
 ---

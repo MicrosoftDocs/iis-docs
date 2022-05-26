@@ -1,5 +1,6 @@
 ---
 title: "IFtpRoleProvider::IsUserInRole Method"
+description: Describes the IFtpRoleProvider::IsUserInRole method and provides the method's syntax, parameters, return value, a code example, and requirements.
 ms.date: "09/06/2017"
 ms.assetid: edb0aed7-253f-40ae-85f5-09f37fce2504
 ms.author: "robmcm"

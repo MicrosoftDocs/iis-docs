@@ -1,5 +1,6 @@
 ---
 title: JobTemplate Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
+description: Describes the JobTemplate constructor and provides the constructor's namespace, assembly, syntax, and parameters.
 TOCTitle: JobTemplate Constructor (FileInfo, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.jobtemplate(v=VS.90)

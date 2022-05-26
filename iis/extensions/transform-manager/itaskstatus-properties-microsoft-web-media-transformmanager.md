@@ -1,5 +1,6 @@
 ---
 title: ITaskStatus Properties (Microsoft.Web.Media.TransformManager)
+description: This article lists properties exposed by the ITaskStatus type.
 TOCTitle: ITaskStatus Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ITaskStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus_properties(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "Web Server Core Classes"
-ms.date: "10/07/2016"
+title: Web Server Core Classes
+description: Describes the Web Server Core and its integrated request-processing pipeline classes, and provides links to base class articles.
+ms.date: 10/07/2016
 ms.assetid: bd47a47b-8d71-4094-9f49-e58971ded774
 ---
 # Web Server Core Classes

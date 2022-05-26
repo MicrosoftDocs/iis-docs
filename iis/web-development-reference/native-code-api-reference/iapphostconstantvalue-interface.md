@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConstantValue Interface"
+description: "The IAppHostConstantValue interface provides methods that access the string names of a specific constant and its corresponding integer value."
 ms.date: "10/07/2016"
 ms.assetid: 10e3f9c1-2fad-4a18-8e27-1c0ec23edeb8
 ---

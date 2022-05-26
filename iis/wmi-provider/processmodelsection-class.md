@@ -1,5 +1,6 @@
 ---
 title: "ProcessModelSection Class"
+description: "The ProcessModelSection class configures the vstecasp process model settings on a Web server that is running IIS."
 ms.date: "10/07/2016"
 ms.assetid: 84b9d2ef-bd3c-0271-4786-4eba0c08ef62
 ---

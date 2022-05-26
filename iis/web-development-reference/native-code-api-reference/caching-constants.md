@@ -1,5 +1,6 @@
 ---
 title: "Caching Constants"
+description: This topic describes the constants that are defined in the Httpcach.h header file, with links to reference materials.
 ms.date: "10/07/2016"
 ms.assetid: 8dd0b80e-62df-49fe-9ed7-dde4322ea324
 ---

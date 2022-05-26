@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionGroup::Item Property"
+description: IAppHostSectionGroup::Item Property gets the nested configuration section group at the requested index.
 ms.date: "10/07/2016"
 ms.assetid: 65aea56f-d6bb-8f65-12b8-4c4e8aa07e4f
 ---

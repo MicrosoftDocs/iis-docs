@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.LogUris Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes process of getting list of logging URI objects and provides syntax, version information, and additional references.
 TOCTitle: LogUris Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.loguris(v=VS.95)

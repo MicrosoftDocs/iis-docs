@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the ConfigurationBase constructor and provides a list of its methods and corresponding article links.
 TOCTitle: ConfigurationBase Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ConfigurationBase.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationbase(v=VS.90)

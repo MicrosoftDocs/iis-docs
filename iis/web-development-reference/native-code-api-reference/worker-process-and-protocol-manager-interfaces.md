@@ -1,6 +1,7 @@
 ---
-title: "Worker Process and Protocol Manager Interfaces"
-ms.date: "10/07/2016"
+title: Worker Process and Protocol Manager Interfaces
+description: Describes the worker process and protocol manager interfaces, and provides a list of the interfaces exposed by the framework.
+ms.date: 10/07/2016
 ms.assetid: 84cdeec4-70f9-44f3-84f9-3b690af1d340
 ---
 # Worker Process and Protocol Manager Interfaces

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadProgressOffset Property (Microsoft.Web.Media.SmoothStreaming)
+description: The DownloadProgressOffset Property gets or sets the progress offset as a percentage. This article details syntax, property value, and version information.
 TOCTitle: DownloadProgressOffset Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressOffset
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadprogressoffset(v=VS.95)

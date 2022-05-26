@@ -1,6 +1,7 @@
 ---
 title: IIS Smooth Streaming Client Manifest - ProtectionHeader Element
 TOCTitle: <ProtectionHeader>
+description: Learn about the ProtectionHeader element that provides a content Protection System-specific header used by the client to enable playback.
 ms:assetid: cd963d56-b289-48ab-90b7-8e07ad6f2328
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673439(v=VS.90)
 ms:contentKeyID: 26179482

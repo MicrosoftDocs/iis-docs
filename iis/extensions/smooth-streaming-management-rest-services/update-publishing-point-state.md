@@ -1,5 +1,6 @@
 ---
 title: Update Publishing Point State
+description: Learn how the Update Publishing Point State operation updates the state of an existing publishing point.
 TOCTitle: Update Publishing Point State
 ms:assetid: eacf7023-807d-461a-82e0-f4b3bde8def6
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh206014(v=VS.90)

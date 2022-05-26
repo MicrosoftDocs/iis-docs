@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertyException::ValidationFailureParameters Property"
+description: IAppHostPropertyException::ValidationFailureParameters Property gets the validation parameters that are defined in the property schema.
 ms.date: "10/07/2016"
 ms.assetid: 86a3ed6b-6bf6-c5c5-c090-2d7952e43029
 ---

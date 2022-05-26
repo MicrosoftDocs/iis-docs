@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement Constructor  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement constructor and provides the constructor's namespace, assembly, syntax, and version information.
 TOCTitle: SmoothStreamingMediaElement Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingmediaelement(v=VS.95)

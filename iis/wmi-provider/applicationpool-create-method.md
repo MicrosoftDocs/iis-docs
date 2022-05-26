@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPool.Create Method2"
+description: "This article shares syntax, parameters, remarks, an example, and system requirements for ApplicationPool.Create Method2, a Method that creates an IIS application pool."
 ms.date: "10/07/2016"
 ms.assetid: cc7d3c44-23df-cec7-c2b6-614a151011bb
 ---

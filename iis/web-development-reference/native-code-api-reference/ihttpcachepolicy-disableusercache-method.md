@@ -1,5 +1,6 @@
 ---
 title: "IHttpCachePolicy::DisableUserCache Method"
+description: Learn how the IHttpCachePolicy::DisableUserCache method disables user caching for the cache policy.
 ms.date: "10/07/2016"
 ms.assetid: 32ef1358-e61c-69cf-6e99-af7516850391
 ---

@@ -1,5 +1,6 @@
 ---
 title: TableInfo.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TableInfo.IsMarkedForDelete property and provides the property's namespace, assembly, syntax, and permissions.
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.ismarkedfordelete(v=VS.90)

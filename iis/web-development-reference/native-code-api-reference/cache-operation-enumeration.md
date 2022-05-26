@@ -1,5 +1,6 @@
 ---
 title: "CACHE_OPERATION Enumeration"
+description: Describes the CACHE_OPERATION enumeration and provides its members, remarks, a code example, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: eac89782-7b9b-1fb3-c267-712522b7c96b
 ---

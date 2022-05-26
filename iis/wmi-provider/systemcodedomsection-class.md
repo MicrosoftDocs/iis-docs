@@ -1,5 +1,6 @@
 ---
 title: "SystemCodeDomSection Class"
+description: "The SystemCodeDomSection class specifies a collection of compilers that provide Code Document Object Model (CodeDOM) support."
 ms.date: "10/07/2016"
 ms.assetid: b76631cc-1f8a-0b0d-8a3a-8d15661926bb
 ---

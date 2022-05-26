@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::IsCaseSensitive Property"
+description: IAppHostPropertySchema::IsCaseSensitive Property gets a value that indicates whether the property value is case-sensitive.
 ms.date: "10/07/2016"
 ms.assetid: 8265b9e8-9d05-f2e7-0211-0fbe1725e7ca
 ---

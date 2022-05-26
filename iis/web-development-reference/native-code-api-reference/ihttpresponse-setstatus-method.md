@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::SetStatus Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::SetStatus method and details its parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 390a0ab8-6695-4287-4fcc-a1ef24545dcc
 ---
 # IHttpResponse::SetStatus Method

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::RegisterFileChangeMonitor Method"
+description: IHttpServer::RegisterFileChangeMonitor Method registers file-change notification for a particular directory.
 ms.date: "10/07/2016"
 ms.assetid: 609b619c-3713-c9c5-85c4-07d615ac6970
 ---

@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSourceFailedEvent Event
+description: This article contains syntax, requirements, and event information for the AdaptiveSourceManager.AdaptiveSourceFailedEvent event.
 TOCTitle: AdaptiveSourceFailedEvent Event
 ms:assetid: ff921d34-f2d5-4688-977c-252f294ce636
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822880(v=VS.90)

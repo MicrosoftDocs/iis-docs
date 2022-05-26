@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SetDownloadBufferSec Method
+description: This article contains information about syntax, parameters, return value, and requirements for the AdaptiveSourceManager.SetDownloadBufferSec method.
 TOCTitle: SetDownloadBufferSec Method
 ms:assetid: dfd4f31a-248b-4db9-b556-441f33865582
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822850(v=VS.90)

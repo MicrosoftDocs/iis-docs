@@ -1,5 +1,6 @@
 ---
 title: Credential Constructor  (Microsoft.Web.Media.TransformManager)
+description: Learn how the Credential constructor initializes a new instance of the Credential class.
 TOCTitle: Credential Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Credential.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.credential(v=VS.90)

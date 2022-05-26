@@ -1,5 +1,6 @@
 ---
 title: "DeviceFiltersSection Class"
+description: "The DeviceFiltersSection class represents a collection of device filters that determine mobile device types or mobile browser capabilities."
 ms.date: "10/07/2016"
 ms.assetid: a41f7d6b-39f7-5662-0cdb-1498ceaf95e9
 ---

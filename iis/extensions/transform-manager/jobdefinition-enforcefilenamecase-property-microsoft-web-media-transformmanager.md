@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.EnforceFileNameCase Property (Microsoft.Web.Media.TransformManager)
+description: Describes the EnforceFileNameCase property and provides the property's namespace, assembly, syntax, property values, and remarks.
 TOCTitle: EnforceFileNameCase Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.EnforceFileNameCase
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.enforcefilenamecase(v=VS.90)

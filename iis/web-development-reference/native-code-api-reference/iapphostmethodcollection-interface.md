@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodCollection Interface"
+description: Learn how the IAppHostMethodCollection interface represents a collection of methods.
 ms.date: "10/07/2016"
 ms.assetid: dd460889-c151-4b4e-9e37-dfcdc7d74c72
 ---

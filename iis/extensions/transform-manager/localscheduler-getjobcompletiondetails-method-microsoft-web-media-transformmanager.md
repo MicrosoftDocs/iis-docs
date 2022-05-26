@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.GetJobCompletionDetails Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobCompletionDetails Method
+description: This article contains syntax, parameters, and return values for the LocalScheduler.GetJobCompletionDetails method.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.GetJobCompletionDetails(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.getjobcompletiondetails(v=VS.90)
 ms:contentKeyID: 35520656

@@ -1,5 +1,6 @@
 ---
 title: Index.Unique Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Index.Unique property and provides the property's syntax, property values, examples, and permissions.
 TOCTitle: Unique Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Unique
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.unique(v=VS.90)

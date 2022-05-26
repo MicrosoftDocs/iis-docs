@@ -1,6 +1,7 @@
 ---
 title: "IAppHostAdminManager::GetAdminSection Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostAdminManager::GetAdminSection method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 9b611373-5022-0372-942f-4825a8bc3bd3
 ---
 # IAppHostAdminManager::GetAdminSection Method

@@ -1,5 +1,6 @@
 ---
 title: JobScheduler Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the JobScheduler constructor and provides the constructor's namespace, assembly, syntax, and additional references.
 TOCTitle: JobScheduler Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobScheduler.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.jobscheduler(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ClientTargetSection Class"
+description: "The ClientTargetSection class specifies a collection of mappings between aliases and user agents."
 ms.date: "10/07/2016"
 ms.assetid: c0f9b403-0b16-839f-c891-b2268b1d3b10
 ---

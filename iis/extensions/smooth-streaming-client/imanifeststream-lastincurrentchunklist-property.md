@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.LastInCurrentChunkList Property
+description: Describes the IManifestStream.LastInCurrentChunkList property and provides the property's syntax, property value, and requirements.
 TOCTitle: LastInCurrentChunkList Property
 ms:assetid: 2c0de4a6-54e2-4d74-96c4-618f924be1e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822707(v=VS.90)

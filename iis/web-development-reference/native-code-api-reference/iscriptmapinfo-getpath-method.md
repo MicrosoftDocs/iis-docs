@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetPath Method"
+description: IScriptMapInfo::GetPath Method retrieves the path attribute for a request handler.
 ms.date: "10/07/2016"
 ms.assetid: 94934509-f6be-8dd3-3d06-a5505a126c56
 ---

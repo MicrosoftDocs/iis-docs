@@ -1,6 +1,7 @@
 ---
 title: JobManifest.GetScheduler Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetScheduler Method
+description: Creates and returns a new Scheduler object.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getscheduler(v=VS.90)
 ms:contentKeyID: 35520830

@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Client Manifest Format
+description: Describes the IIS Smooth Streaming client manifest format and details the nesting structure of the client manifest file.
 TOCTitle: Client Manifest Format
 ms:assetid: 81ac2d63-2104-49f3-8d66-9f062fb4ba6a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673436(v=VS.90)

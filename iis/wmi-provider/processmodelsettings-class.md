@@ -1,5 +1,6 @@
 ---
 title: "ProcessModelSettings Class1"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ProcessModelSettings class.
 ms.date: "10/07/2016"
 ms.assetid: acf029ed-e4b4-bde7-3b94-fc42b4ddaca0
 ---

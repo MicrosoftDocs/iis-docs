@@ -1,5 +1,6 @@
 ---
 title: ClipContext Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipContext methods and provides a table that outlines the name and description of various method types.
 TOCTitle: ClipContext Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ClipContext
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext_methods(v=VS.90)

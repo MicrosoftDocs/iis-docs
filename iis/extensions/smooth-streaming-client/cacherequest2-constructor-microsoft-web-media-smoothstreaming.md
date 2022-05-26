@@ -1,6 +1,7 @@
 ---
 title: CacheRequest2 Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest2 Constructor
+description: Initializes a new instance of the CacheRequest2 class.
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.cacherequest2(v=VS.95)
 ms:contentKeyID: 46307705

@@ -1,7 +1,7 @@
 ---
-title: "Default FTP Authentication Settings &lt;authentication&gt;"
+title: Default FTP Authentication Settings &lt;authentication&gt;
 author: rick-anderson
-description: "Overview The &lt;authentication&gt; element specifies the authentication settings for FTP sites. The authentication settings are configured at the site-level..."
+description: Describes the default &lt;authentication&gt; element, which specifies the authentication settings for FTP sites, and its properties.
 ms.date: 09/26/2016
 ms.assetid: b7e99077-7556-4269-b90a-32e53732f6c8
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication
@@ -23,8 +23,8 @@ There are four different forms of authentication that can be configured for an F
 - **Client Certificate authentication**: This form of authentication uses client certificates to authenticate FTP clients.
 - **Custom authentication**: This form of authentication uses custom authentication providers to validate user names and passwords. FTP 7.0 and FTP 7.5 ship with two custom authentication providers: 
 
-    - ASP.NET Membership authentication: This uses an ASP.NET membership database to validate user names and passwords. For more information, see the [Configuring FTP with .NET Membership Authentication](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7) topic on Microsoft's IIS.NET Web site.
-    - IIS Manager authentication: This uses the IIS Manager configuration to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.NET Web site.
+    - ASP.NET Membership authentication: This uses an ASP.NET membership database to validate user names and passwords. For more information, see the [Configuring FTP with .NET Membership Authentication](/iis/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7) topic on Microsoft's IIS.NET Web site.
+    - IIS Manager authentication: This uses the IIS Manager configuration to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.NET Web site.
 
   The main advantage of using custom authentication providers is that user accounts do not have to be created on your server or domain. This improves your network's security.
 

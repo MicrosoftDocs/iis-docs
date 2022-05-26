@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.IsExecutable Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the IsExecutable property gets or sets a value that specifies whether the type of task is an executable or an ITask interface.
 TOCTitle: IsExecutable Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.IsExecutable
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.isexecutable(v=VS.90)

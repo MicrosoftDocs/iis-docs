@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin.TimerInterval Property (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the AdvancedLoggingPlugin.TimerInterval property. 
 TOCTitle: TimerInterval Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.TimerInterval
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.timerinterval(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IAppHostAdminManager::ConfigManager Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostAdminManager::ConfigManager property and details its syntax, parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5cca2a0c-a91a-581b-a527-f19d588353d6
 ---
 # IAppHostAdminManager::ConfigManager Property

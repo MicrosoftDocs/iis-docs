@@ -1,5 +1,6 @@
 ---
 title: ConnectionArgument.IsRequired Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ConnectionARgument.IsRequired property and provides the property's syntax, property value, examples, and permissions. 
 TOCTitle: IsRequired Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument.isrequired(v=VS.90)

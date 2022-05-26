@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.CancelJob Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the CancelJob method and provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: CancelJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.CancelJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.canceljob(v=VS.90)

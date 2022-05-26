@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.WriteTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: WriteTo Method
+description: "The CacheResponse.WriteTo method writes the response to a Stream object. This article describes its syntax, version information, and permissions."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.WriteTo(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.writeto(v=VS.90)
 ms:contentKeyID: 31469285

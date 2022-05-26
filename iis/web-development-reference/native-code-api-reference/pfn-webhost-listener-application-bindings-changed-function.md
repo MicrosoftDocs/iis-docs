@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED Function"
+description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED function notifies the listener adapter that the bindings for a particular application have changed. 
 ms.date: "10/07/2016"
 ms.assetid: 118d5eb3-05f8-340b-a6b2-3c0dcdb0594a
 ---

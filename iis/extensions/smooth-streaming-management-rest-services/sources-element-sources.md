@@ -1,5 +1,6 @@
 ---
 title: Sources Element (Sources)
+description: Lean how the Sources Element (Sources) provides information about sources that are sending live streams to the publishing point and about how the live stream data is sent.
 TOCTitle: Sources Element
 ms:assetid: f34c8a71-871f-4515-80d3-1e12b690b503
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547074(v=VS.90)

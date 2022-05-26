@@ -1,5 +1,6 @@
 ---
 title: "IFtpLogProvider::Log Method"
+description: This article contains information about syntax, return value, and requirements for the IFtpLogProvider::Log method.
 ms.date: "09/06/2017"
 ms.assetid: 0978c707-4bba-46be-8457-abdcfb930f5b
 ms.author: "robmcm"

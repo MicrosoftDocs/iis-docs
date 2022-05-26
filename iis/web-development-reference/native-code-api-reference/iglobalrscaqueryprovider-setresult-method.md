@@ -1,5 +1,6 @@
 ---
 title: "IGlobalRSCAQueryProvider::SetResult Method"
+description: Learn how the IGlobalRSCAQueryProvider::SetResult method finalizes the internal buffer, as well as details about its parameters and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 03b046ec-abf6-1e86-0a8e-7a08bfecf54e
 ---

@@ -1,6 +1,7 @@
 ---
 title: PlaybackStartPosition Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackStartPosition Enumeration
+description: Enumeration that specifies the position from which playback of a media stream begins.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.playbackstartposition(v=VS.95)
 ms:contentKeyID: 46307944

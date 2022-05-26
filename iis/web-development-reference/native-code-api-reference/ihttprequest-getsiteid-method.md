@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetSiteId Method"
+description: IHttpRequest::GetSiteId Method retrieves the site ID for the current HTTP request.
 ms.date: "10/07/2016"
 ms.assetid: 672d53ab-7144-3a6b-8997-f7ab213a5f7f
 ---

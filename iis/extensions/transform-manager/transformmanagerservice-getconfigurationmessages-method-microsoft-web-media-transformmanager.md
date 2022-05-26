@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetConfigurationMessages Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetConfigurationMessages method and provides the method's namespace, assembly, syntax, and return value.
 TOCTitle: GetConfigurationMessages Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetConfigurationMessages
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getconfigurationmessages(v=VS.90)

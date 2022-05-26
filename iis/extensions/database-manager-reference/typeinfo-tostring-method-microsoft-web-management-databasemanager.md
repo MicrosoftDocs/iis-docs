@@ -1,5 +1,6 @@
 ---
-title: TypeInfo.ToString Method  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.ToString Method (Microsoft.Web.Management.DatabaseManager)
+description: "The ToString Method returns the name of the data type. This article outlines syntax, return value, and permissions."
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.TypeInfo.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.tostring(v=VS.90)

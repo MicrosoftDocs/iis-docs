@@ -1,5 +1,6 @@
 ---
 title: "PM_INTERFACE_ID_ENUM Enumeration"
+description: This article contains syntax, members, and requirements for the PM_INTERFACE_ID_ENUM enumeration.
 ms.date: "10/07/2016"
 ms.assetid: d2fb6f55-6f44-12ad-09d0-be4efde7ba1c
 ---

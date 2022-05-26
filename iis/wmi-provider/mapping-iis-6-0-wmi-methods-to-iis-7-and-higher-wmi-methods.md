@@ -1,5 +1,6 @@
 ---
 title: "Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods1"
+description: "A table that shows the IIS 6.0 WMI provider class methods mapped to the iisver WMI provider class methods to help you convert your IIS 6.0 programmatic administration."
 ms.date: "10/07/2016"
 ms.assetid: de857e8a-fb15-42b0-8806-da635e7c806f
 ---

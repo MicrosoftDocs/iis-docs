@@ -1,6 +1,7 @@
 ---
 title: "IPmHealthAndIdleMonitor Interface"
 ms.date: "10/07/2016"
+description: The IPmHealthAndIdleMonitor interface enables the worker process framework to check whether a protocol manager is healthy, or whether the listener channels for the protocol manager are idle.
 ms.assetid: de5c9d5a-38ea-68d8-e235-878d17c42d13
 ---
 # IPmHealthAndIdleMonitor Interface

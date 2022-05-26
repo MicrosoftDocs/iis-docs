@@ -1,5 +1,6 @@
 ---
 title: "MembershipSection Class"
+description: "The MembershipSection class validates user credentials and manages user settings. This article provides methods and properties that the class exposes."
 ms.date: "10/07/2016"
 ms.assetid: f8b2a0e9-0187-8227-fa8c-7bd6f3de477c
 ---

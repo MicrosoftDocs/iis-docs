@@ -1,5 +1,6 @@
 ---
 title: "IProcessHostSupportFunctions::GetConfigToken Method"
+description: This article contains syntax, parameters, return value, and requirements for the IProcessHostSupportFunctions::GetConfigToken Method.
 ms.date: "10/07/2016"
 ms.assetid: 43754858-3e25-31c4-136b-686d91d75575
 ---

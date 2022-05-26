@@ -1,5 +1,6 @@
 ---
 title: Query.Statement Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Query.Statement property and provides the property's syntax, property value, remarks, examples, and permissions.
 TOCTitle: Statement Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.Statement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.statement(v=VS.90)

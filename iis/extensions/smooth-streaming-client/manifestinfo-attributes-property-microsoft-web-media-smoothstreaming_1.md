@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the ManifestInfo.Attributes property gets or sets attributes, as well as details about its syntax and property value.
 TOCTitle: Attributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.attributes(v=VS.95)

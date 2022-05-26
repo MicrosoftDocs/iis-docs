@@ -1,5 +1,6 @@
 ---
 title: ForeignKeyColumn.NameIndex Field (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ForeignKeyColumn.NameIndex field and provides the field's namespace, assembly, syntax, remarks, and permissions.
 TOCTitle: NameIndex Field
 ms:assetid: F:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn.NameIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn.nameindex(v=VS.90)

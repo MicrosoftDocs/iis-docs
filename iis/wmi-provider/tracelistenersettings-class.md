@@ -1,5 +1,6 @@
 ---
 title: "TraceListenerSettings Class"
+description: Instances of this class are contained in the Listeners array property of the TraceSettings class. This article lists the properties.
 ms.date: "10/07/2016"
 ms.assetid: a3113e2b-b854-4f68-b67f-a6bfb7d18f02
 ---

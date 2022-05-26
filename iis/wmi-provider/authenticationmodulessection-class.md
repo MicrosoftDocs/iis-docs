@@ -1,6 +1,7 @@
 ---
-title: "AuthenticationModulesSection Class1"
-ms.date: "10/07/2016"
+title: AuthenticationModulesSection Class1
+description: Describes the AuthenticationModulesSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: d8f0e94b-5ff5-d65d-4c29-796df61cc073
 ---
 # AuthenticationModulesSection Class1

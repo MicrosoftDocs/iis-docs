@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.InitializeService Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: InitializeService Method
+description: "The TransformManagerService.InitializeService method initializes the IIS Transform Manager service using the specified service credential."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.InitializeService(Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.initializeservice(v=VS.90)
 ms:contentKeyID: 35520992

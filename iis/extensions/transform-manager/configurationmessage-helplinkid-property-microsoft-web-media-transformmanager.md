@@ -1,6 +1,7 @@
 ---
 title: ConfigurationMessage.HelpLinkId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: HelpLinkId Property
+description: "HelpLinkID syntax, a property of the ConfigurationMessage Class, that gets or sets a context-sensitive help link ID value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.HelpLinkId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.helplinkid(v=VS.90)
 ms:contentKeyID: 35520580

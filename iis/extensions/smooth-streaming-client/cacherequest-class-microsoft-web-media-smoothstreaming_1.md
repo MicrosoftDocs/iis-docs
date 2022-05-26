@@ -1,6 +1,7 @@
 ---
 title: CacheRequest Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Class
+description: The object describing the request being made.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest(v=VS.95)
 ms:contentKeyID: 46307927

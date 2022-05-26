@@ -1,6 +1,7 @@
 ---
 title: "IHttpUrlInfo::IsFrequentlyHit Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpUrlInfo::IsFrequentlyHit method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 67fb593e-1cde-105d-652e-dc8617d99cbd
 ---
 # IHttpUrlInfo::IsFrequentlyHit Method

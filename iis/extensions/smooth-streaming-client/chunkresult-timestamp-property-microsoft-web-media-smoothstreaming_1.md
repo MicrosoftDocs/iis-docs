@@ -1,5 +1,6 @@
 ---
 title: ChunkResult.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkResult.Timestamp property and details its syntax, property value, and Silverlight information.
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult.timestamp(v=VS.95)

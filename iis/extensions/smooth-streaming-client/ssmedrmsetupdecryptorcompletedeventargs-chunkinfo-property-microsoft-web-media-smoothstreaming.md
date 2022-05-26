@@ -1,5 +1,6 @@
 ---
 title: SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the syntax for the Microsoft.Web.Media.SmoothStreaming.ChunkInfo property is an object representing the chunk information.
 TOCTitle: ChunkInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmedrmsetupdecryptorcompletedeventargs.chunkinfo(v=VS.95)

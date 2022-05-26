@@ -1,5 +1,6 @@
 ---
 title: "FileExtensionElement Class"
+description: Specifies a file extension that is allowed or denied in requests.
 ms.date: "10/07/2016"
 ms.assetid: 4c300d66-0bce-4cb4-bd1a-11ac82457fed
 ---

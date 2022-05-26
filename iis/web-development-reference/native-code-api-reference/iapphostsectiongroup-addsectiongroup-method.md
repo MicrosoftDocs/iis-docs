@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionGroup::AddSectionGroup Method"
+description: This article contains information about syntax, return value, and requirements for the IAppHostSectionGroup::AddSectionGroup method.
 ms.date: "10/07/2016"
 ms.assetid: 20245f26-f649-fb6e-56ac-c319d0c1512c
 ---

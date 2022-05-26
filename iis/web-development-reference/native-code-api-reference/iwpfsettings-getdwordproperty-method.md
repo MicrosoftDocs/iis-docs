@@ -1,5 +1,6 @@
 ---
 title: "IWpfSettings::GetDwordProperty Method"
+description: IWpfSettings::GetDwordProperty Method retrieves a D WORD value from the worker process or application pool settings. 
 ms.date: "10/07/2016"
 ms.assetid: e2364a5c-543c-8434-7ad3-c4e56508f7b5
 ---

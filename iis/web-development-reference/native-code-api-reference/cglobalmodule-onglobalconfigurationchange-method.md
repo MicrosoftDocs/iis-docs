@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalConfigurationChange Method"
+description: Learn how the OnGlobalConfigurationChange method represents the method that handles a GlobalConfigurationChange event.
 ms.date: "10/07/2016"
 ms.assetid: efed83da-974b-a67b-9e66-86061b8629a7
 ---

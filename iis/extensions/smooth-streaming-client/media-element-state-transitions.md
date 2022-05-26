@@ -1,5 +1,6 @@
 ---
 title: Media Element State Transitions
+description: This article outlines the eight possible states for a SmoothStreamingMediaElement object, as well as state transitions. 
 TOCTitle: Media Element State Transitions
 ms:assetid: 832d004b-fc61-4e1e-918c-0eff386b8173
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728115(v=VS.95)

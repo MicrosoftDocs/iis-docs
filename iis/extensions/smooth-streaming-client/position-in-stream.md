@@ -1,5 +1,6 @@
 ---
 title: Position in Stream
+description: Describes how the Position property of the SmoothStreamingMediaElement class can be assigned to a new position and how to implement it.
 TOCTitle: Position in Stream
 ms:assetid: 17d0f9d6-f8c2-4e8e-8db2-1db8b36c3834
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff355190(v=VS.95)

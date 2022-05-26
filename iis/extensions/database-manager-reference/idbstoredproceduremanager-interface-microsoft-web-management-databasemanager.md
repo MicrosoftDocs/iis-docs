@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager Interface (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and methods for the IDbStoredProcedureManager interface.
 TOCTitle: IDbStoredProcedureManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager(v=VS.90)

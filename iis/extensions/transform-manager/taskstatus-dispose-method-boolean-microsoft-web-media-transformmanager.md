@@ -1,5 +1,6 @@
 ---
 title: TaskStatus.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
+description: Describes the Dispose Boolean method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: Dispose Method (Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.dispose(v=VS.90)

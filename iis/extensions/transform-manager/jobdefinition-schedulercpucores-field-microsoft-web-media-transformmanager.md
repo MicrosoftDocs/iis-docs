@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.SchedulerCpuCores Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerCpuCores Field
+description: This article contains syntax and reference information for the JobDefinition.SchedulerCpuCores field.
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuCores
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpucores(v=VS.90)
 ms:contentKeyID: 35520602

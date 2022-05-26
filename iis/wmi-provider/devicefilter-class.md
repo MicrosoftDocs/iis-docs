@@ -1,5 +1,6 @@
 ---
 title: "DeviceFilter Class"
+description: Details the syntax for the DeviceFilter class and specifies criteria for determining mobile browser capabilities or the type of mobile device.
 ms.date: "10/07/2016"
 ms.assetid: 41743e11-7d57-c232-723f-e5ef3af7166f
 ---

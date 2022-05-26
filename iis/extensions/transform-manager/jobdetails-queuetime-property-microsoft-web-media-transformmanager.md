@@ -1,5 +1,6 @@
 ---
 title: JobDetails.QueueTime Property (Microsoft.Web.Media.TransformManager)
+description: Describes the QueueTime property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: QueueTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.QueueTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.queuetime(v=VS.90)

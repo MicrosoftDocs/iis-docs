@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2 Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheResponse2 methods and provides a table that outlines the name and description for various method types.
 TOCTitle: CacheResponse2 Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheResponse2
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2_methods(v=VS.95)

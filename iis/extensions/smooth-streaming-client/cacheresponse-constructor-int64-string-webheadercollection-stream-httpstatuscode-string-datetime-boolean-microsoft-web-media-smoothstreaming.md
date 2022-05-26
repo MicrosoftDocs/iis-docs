@@ -1,5 +1,6 @@
 ---
 title: CacheResponse Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean) (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the CacheResponse constructor. There are also links to reference materials.
 TOCTitle: CacheResponse Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.Int64,System.String,System.Net.WebHeaderCollection,System.IO.Stream,System.Net.HttpStatusCode,System.String,System.DateTime,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.95)

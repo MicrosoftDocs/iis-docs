@@ -1,5 +1,6 @@
 ---
 title: ClipInformation.ClickThroughUri Property (Microsoft.Web.Media.SmoothStreaming)
+description: "The ClickThroughUri Property gets or sets a Uri object that contains the Uri to additional information. This article details syntax, property value, and permissions."
 TOCTitle: ClickThroughUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clickthroughuri(v=VS.90)

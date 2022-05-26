@@ -1,6 +1,7 @@
 ---
 title: ManifestType Enumeration
 TOCTitle: ManifestType Enumeration
+description: The manifest type enumeration.
 ms:assetid: 06a3c034-8680-44e3-8206-8ec137bead51
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573655(v=VS.90)
 ms:contentKeyID: 49080897

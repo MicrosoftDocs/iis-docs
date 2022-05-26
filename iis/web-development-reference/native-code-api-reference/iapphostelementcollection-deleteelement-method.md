@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementCollection::DeleteElement Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostElementCollection::DeleteElement method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: b69499ae-af1b-8198-2475-53c06dc66e7b
 ---
 # IAppHostElementCollection::DeleteElement Method

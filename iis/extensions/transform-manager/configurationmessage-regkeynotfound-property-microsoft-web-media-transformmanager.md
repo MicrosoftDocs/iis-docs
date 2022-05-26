@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage.RegKeyNotFound Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ConfigurationMessage.RegKeyNotFound property.
 TOCTitle: RegKeyNotFound Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyNotFound
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.regkeynotfound(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Balance Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.Balance property and provides the property's namespace, assembly, syntax, and version information.
 TOCTitle: Balance Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Balance
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balance(v=VS.95)

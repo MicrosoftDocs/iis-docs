@@ -1,5 +1,6 @@
 ---
 title: "IHttpStoredContext::CleanupStoredContext Method"
+description: Learn how the IHttpStoredContext::CleanupStoredContext method cleans up the stored context.
 ms.date: "10/07/2016"
 ms.assetid: 49cb417f-3a67-488c-9218-a51b2d73d929
 ---

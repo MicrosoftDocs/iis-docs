@@ -1,6 +1,7 @@
 ---
 title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
+description: Gets or sets the System.GUID that identifies the protection system.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.95)
 ms:contentKeyID: 46307780

@@ -1,5 +1,6 @@
 ---
 title: INativeConfigurationElementCollection Interface [IIS 7]
+description: Describes the INativeConfigurationElementCollection interface and details its methods, remarks, inheritance hierarchy, and requirements.
 TOCTitle: INativeConfigurationElementCollection Interface
 ms:assetid: 7cc5eef4-fbe8-407c-934f-8e77ec02cd83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee441232(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: Tracing.Trace Method (TraceArea, TraceLevel) (Microsoft.Web.Media.Diagnostics)
+description: Learn how the Trace method (TraceArea, TraceLevel) traces a diagnostic message that is specified by the parameters.
 TOCTitle: Trace Method (TraceArea, TraceLevel)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Trace(Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.90)

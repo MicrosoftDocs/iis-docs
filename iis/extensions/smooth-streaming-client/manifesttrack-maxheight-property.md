@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.MaxHeight Property
 TOCTitle: MaxHeight Property
+description: "The ManifestTrack.MaxHeight property gets the MaxHeight field. This article describes its syntax, property value, and requirements."
 ms:assetid: 1679c825-111a-42d1-b855-2fde4b58f18f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822682(v=VS.90)
 ms:contentKeyID: 50079437

@@ -1,6 +1,7 @@
 ---
-title: "KeyValueElement Class"
-ms.date: "10/07/2016"
+title: KeyValueElement Class
+description: Describes the KeyValueElement class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: a030ba4e-b37a-d066-ecdb-6a8d9bd4a708
 ---
 # KeyValueElement Class

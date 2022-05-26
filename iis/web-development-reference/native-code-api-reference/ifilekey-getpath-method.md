@@ -1,5 +1,6 @@
 ---
 title: "IFileKey::GetPath Method"
+description: This article contains information about syntax, return value, and requirements for the IFileKey::GetPath method.
 ms.date: "10/07/2016"
 ms.assetid: c2b0cdbc-c41a-300b-3deb-8514b5069c3f
 ---

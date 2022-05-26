@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElementState Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElementState enumeration and provides the enumeration's syntax, members, examples, and version information.
 TOCTitle: SmoothStreamingMediaElementState Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelementstate(v=VS.95)

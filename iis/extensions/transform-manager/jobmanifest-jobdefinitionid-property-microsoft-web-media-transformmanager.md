@@ -1,6 +1,7 @@
 ---
 title: JobManifest.JobDefinitionId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionId Property
+description: Gets the ID of the job definition.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.JobDefinitionId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.jobdefinitionid(v=VS.90)
 ms:contentKeyID: 35520662

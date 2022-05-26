@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema Interface"
+description: Learn how the IAppHostPropertySchema interface provides access to the attributes that define the schema for a property.
 ms.date: "10/07/2016"
 ms.assetid: f38eaa29-b0c9-8df1-7dea-46fa9cba9771
 ---

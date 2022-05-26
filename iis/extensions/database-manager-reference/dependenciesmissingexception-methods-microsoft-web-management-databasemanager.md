@@ -1,5 +1,6 @@
 ---
 title: DependenciesMissingException Methods (Microsoft.Web.Management.DatabaseManager)
+description: "This article lists the methods exposed by the DependenciesMissingException type."
 TOCTitle: DependenciesMissingException Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception_methods(v=VS.90)

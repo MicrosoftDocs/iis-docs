@@ -1,5 +1,6 @@
 ---
 title: "IsapiCgiRestrictionElement Class"
+description: Represents an ISAPI or Common Gateway Interface (CGI) restriction element.
 ms.date: "10/07/2016"
 ms.assetid: 73cb1f6b-b712-c837-845a-f1d7076b4143
 ---

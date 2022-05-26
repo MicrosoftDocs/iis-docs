@@ -1,5 +1,6 @@
 ---
 title: "HttpModulesSection Class"
+description: "This article lists syntax, methods, properties remarks, a code example, inheritance hierarchy, and system requirements for the HttpModulesSection Class."
 ms.date: "10/07/2016"
 ms.assetid: 081d3300-b7fa-35ae-4d1a-c1b3950d28c3
 ---

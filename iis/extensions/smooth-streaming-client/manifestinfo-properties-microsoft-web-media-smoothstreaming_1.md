@@ -1,5 +1,6 @@
 ---
 title: ManifestInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines members exposed by the ManifestInfo properties, with links to reference materials.
 TOCTitle: ManifestInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo_properties(v=VS.95)

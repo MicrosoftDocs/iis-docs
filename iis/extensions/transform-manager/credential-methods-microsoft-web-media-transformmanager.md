@@ -1,6 +1,7 @@
 ---
 title: Credential Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: Credential Methods
+description: This article provides the Credential method types, names, and descriptions.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.Credential
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential_methods(v=VS.90)
 ms:contentKeyID: 35520817

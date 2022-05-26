@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.Name Property
 TOCTitle: Name Property
+description: "The ManifestStream.Name property gets the stream Name field. This article describes its syntax, property value, and requirements."
 ms:assetid: fc98a5f8-fb3b-44f5-a9a0-a7ddabfed863
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822878(v=VS.90)
 ms:contentKeyID: 50079632

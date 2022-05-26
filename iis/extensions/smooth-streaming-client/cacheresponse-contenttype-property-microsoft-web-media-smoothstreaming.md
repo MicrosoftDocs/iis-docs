@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.ContentType Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ContentType property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: ContentType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.contenttype(v=VS.90)

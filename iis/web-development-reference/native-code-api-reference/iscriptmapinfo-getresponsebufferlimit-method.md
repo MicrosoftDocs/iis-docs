@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetResponseBufferLimit Method"
+description: This article contains information about syntax, return value, and requirements for the IScriptMapInfo::GetResponseBufferLimit method.
 ms.date: "10/07/2016"
 ms.assetid: df408156-d43c-bc1d-db9c-d1dc0dadc4ac
 ---

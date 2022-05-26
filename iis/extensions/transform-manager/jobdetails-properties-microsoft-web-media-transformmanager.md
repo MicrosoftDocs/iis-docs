@@ -1,5 +1,6 @@
 ---
 title: JobDetails Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDetails properties and provides a list of articles related to each JobDetails property.
 TOCTitle: JobDetails Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails_properties(v=VS.90)

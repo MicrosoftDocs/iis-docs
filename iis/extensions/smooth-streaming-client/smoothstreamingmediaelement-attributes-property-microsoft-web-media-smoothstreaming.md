@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
+description: "The SmoothStreamingMediaElement.Attributes property gets or sets the attributes dictionary. This article describes its syntax, examples, version information, and permissions."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.attributes(v=VS.90)
 ms:contentKeyID: 23961271

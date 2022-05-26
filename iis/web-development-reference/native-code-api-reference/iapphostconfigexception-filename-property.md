@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigException::FileName Property"
+description: The IAppHostConfigException::FileName Property gets the physical path of the configuration file that caused the current exception to be thrown.  
 ms.date: "10/07/2016"
 ms.assetid: 5af2e96b-cfa0-a9b9-bb28-b0665c85427e
 ---

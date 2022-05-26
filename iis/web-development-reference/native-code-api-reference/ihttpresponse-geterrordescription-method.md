@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::GetErrorDescription Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::GetErrorDescription method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 11e42b08-ce5d-436b-aa14-05069dc4b5a8
 ---
 # IHttpResponse::GetErrorDescription Method

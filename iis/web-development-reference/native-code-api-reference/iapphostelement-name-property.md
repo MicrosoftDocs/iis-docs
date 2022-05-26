@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElement::Name Property"
+description: "The IAppHostElementName property gets the name of the current element. This article describes its syntax, return value, example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 160b5e71-ac79-9d7d-1c7e-880e191967e2
 ---

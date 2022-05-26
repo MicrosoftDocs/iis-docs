@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::WriteEntityChunkByReference Method"
+description: Learn how the IHttpResponse::WriteEntityChunkByReference method inserts or appends an HTTP_DATA_CHUNK structure into the response body. 
 ms.date: "10/07/2016"
 ms.assetid: 8cc3aefe-5f9e-9ae3-2e8a-b033aff39687
 ---

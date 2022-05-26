@@ -1,5 +1,6 @@
 ---
 title: "IGlobalTraceEventProvider::GetTraceEvent Method"
+description: Learn how the GetTraceEvent method retrieves the trace event for the provider.
 ms.date: "10/07/2016"
 ms.assetid: cefd0b4e-0eef-fe25-0242-87d496944a0c
 ---

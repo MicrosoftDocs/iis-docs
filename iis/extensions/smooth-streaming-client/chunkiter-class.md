@@ -1,5 +1,6 @@
 ---
 title: ChunkIter Class
+description: This article contains information about syntax, members, methods, and requirements for the ChunkIter class.
 TOCTitle: ChunkIter Class
 ms:assetid: 015c26af-c923-407e-9fae-ca3f848770b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ851081(v=VS.90)

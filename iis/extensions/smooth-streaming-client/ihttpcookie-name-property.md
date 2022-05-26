@@ -1,6 +1,7 @@
 ---
 title: IHttpCookie.Name Property
 TOCTitle: Name Property
+description: "The IHttpCookie.Name property gets the name. This article describes its syntax, property value, and requirements."
 ms:assetid: 6f2e3d49-ea0e-45f1-8cf7-3684dd2dcd8b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822756(v=VS.90)
 ms:contentKeyID: 50079511

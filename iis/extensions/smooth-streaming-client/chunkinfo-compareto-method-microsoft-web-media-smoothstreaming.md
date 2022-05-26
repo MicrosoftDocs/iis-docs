@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo.CompareTo Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the CompareTo method compares a chunk to another object.
 TOCTitle: CompareTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo(System.Object)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.compareto(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method"
+description: Learn how the SetPriorityForRequestNotification method sets the request-level priority for a module.
 ms.date: "10/07/2016"
 ms.assetid: 0281ffdc-fe06-8680-a6df-c260fd455acb
 ---
