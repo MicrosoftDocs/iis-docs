@@ -1,6 +1,7 @@
 ---
 title: ClipInformation Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Properties
+description: The ClipInformation Properties exposes several members.
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ClipInformation
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation_properties(v=VS.90)
 ms:contentKeyID: 23961131

@@ -1,6 +1,7 @@
 ---
 title: "IHttpApplication2::QueryIsWarmingUp Method"
 ms.date: "10/07/2016"
+description: IHttpApplication2 QueryIsWarmingUp Method indicates whether the application is in the process of warming up.
 ms.assetid: cb47f0f0-5e7d-4aae-8051-6feccedd661d
 ---
 # IHttpApplication2::QueryIsWarmingUp Method

@@ -1,6 +1,7 @@
 ---
 title: "IProcessPingCallback::Respond Method"
 ms.date: "10/07/2016"
+description: IProcessPingCallback Respond Method provides a callback routine that responds to a ping.
 ms.assetid: a93fe82a-687e-5d97-ed25-5f3facaa6ef4
 ---
 # IProcessPingCallback::Respond Method

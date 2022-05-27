@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.CleanupJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CleanupJob Method
+description: The CleanupJob Method removes scheduler artifacts for the specified job.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.CleanupJob(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.cleanupjob(v=VS.90)
 ms:contentKeyID: 35520620

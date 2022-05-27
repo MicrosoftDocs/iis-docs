@@ -1,6 +1,7 @@
 ---
 title: "IGlobalTraceEventProvider::CheckSubscription Method"
 ms.date: "10/07/2016"
+description: IGlobalTraceEventProvider CheckSubscription Method returns a value that indicates whether the trace event is intended for the module.
 ms.assetid: 84096bba-9d37-fafd-4b74-1f3c97651eea
 ---
 # IGlobalTraceEventProvider::CheckSubscription Method

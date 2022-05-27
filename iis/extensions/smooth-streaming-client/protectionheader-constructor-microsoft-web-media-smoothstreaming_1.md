@@ -1,6 +1,7 @@
 ---
 title: ProtectionHeader Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Constructor
+description: ProtectionHeader Constructor initializes a new instance of the ProtectionHeader class.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader.protectionheader(v=VS.95)
 ms:contentKeyID: 46307675
