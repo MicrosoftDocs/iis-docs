@@ -1,6 +1,7 @@
 ---
 title: INativeConfigurationElementCollection::GetRawElementByIndex Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::GetRawElementByIndex Method
+description: INativeConfigurationElementCollection GetRawElementByIndex Method IIS 7 returns the number of elements within a collection of native configuration elements.
 ms:assetid: a7f37c40-39bf-4b02-8eff-f085a0575f56
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424821(v=VS.90)
 ms:contentKeyID: 23044168

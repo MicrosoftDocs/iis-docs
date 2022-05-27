@@ -1,6 +1,7 @@
 ---
 title: TaskDetails Structure (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDetails Structure
+description: TaskDetails Structure encapsulates task-related details.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TaskDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails(v=VS.90)
 ms:contentKeyID: 35520590

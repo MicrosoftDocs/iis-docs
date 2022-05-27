@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::GetKernelCacheEnabled Method"
 ms.date: "10/07/2016"
+description: IHttpResponse GetKernelCacheEnabled Method determines whether the kernel cache is enabled for the current response. 
 ms.assetid: 26fd4e99-9c54-abfa-9782-86bdbee4ad05
 ---
 # IHttpResponse::GetKernelCacheEnabled Method
