@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement Events (Microsoft.Web.Media.SmoothStreaming)
-description: 
+description: Lists the SmoothStreamingMediaElement events and provides detailed links with additional information to each event type.
 TOCTitle: SmoothStreamingMediaElement Events
 ms:assetid: Events.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_events(v=VS.90)

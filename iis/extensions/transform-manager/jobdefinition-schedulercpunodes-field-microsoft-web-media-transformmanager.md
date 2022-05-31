@@ -1,6 +1,6 @@
 ---
 title: JobDefinition.SchedulerCpuNodes Field (Microsoft.Web.Media.TransformManager)
-description: 
+description: Discusses the code for the SchedulerCpuNodes field, a constant that is used when an HPC scheduling nodes element is assigned to a job definition. 
 TOCTitle: SchedulerCpuNodes Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuNodes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpunodes(v=VS.90)

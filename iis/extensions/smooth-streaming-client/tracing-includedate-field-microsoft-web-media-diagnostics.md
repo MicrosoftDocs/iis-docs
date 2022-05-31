@@ -1,6 +1,6 @@
 ---
 title: Tracing.IncludeDate Field (Microsoft.Web.Media.Diagnostics)
-description: 
+description: Discusses the IncludeDate field, a Boolean value that indicates whether to include the date in traces.
 TOCTitle: IncludeDate Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeDate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includedate(v=VS.90)

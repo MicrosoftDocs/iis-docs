@@ -1,6 +1,6 @@
 ---
 title: JobMetadata.TaskCode Property (Microsoft.Web.Media.TransformManager)
-description: 
+description: Provides the code and syntax for the TaskCode property provides the task code from the task element that is contained in the manifest.
 TOCTitle: TaskCode Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskCode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.taskcode(v=VS.90)

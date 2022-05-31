@@ -1,6 +1,6 @@
 ---
 title: Tracing.IncludeClassName Field (Microsoft.Web.Media.Diagnostics)
-description: 
+description: Discusses the IncludeClassName field, a Boolean value that indicates whether to include the class name in traces.
 TOCTitle: IncludeClassName Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeClassName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includeclassname(v=VS.90)
