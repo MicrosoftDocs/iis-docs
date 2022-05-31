@@ -1,5 +1,6 @@
 ---
 title: "RedirectHeaderSettings Class"
+description: "The RedirectHeaderSettings class contains redirect name/value pairs that are added to the HTTP headers in responses from the Web server."
 ms.date: "10/07/2016"
 ms.assetid: 917ddf22-5bf9-480d-afd1-f0ccf716328c
 ---

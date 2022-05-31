@@ -1,5 +1,6 @@
 ---
 title: ClipContext.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shares syntax, property value, permissions, and references for the ClipContext.NaturalDuration Property, which gets the natural duration the clip."
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.naturalduration(v=VS.90)

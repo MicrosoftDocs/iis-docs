@@ -1,5 +1,6 @@
 ---
 title: TaskStatus Class (Microsoft.Web.Media.TransformManager)
+description: This article has information about inheritance hierarchy, syntax, properties, methods, constructors, and thready safety for the TaskStatus class.
 TOCTitle: TaskStatus Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TaskStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus(v=VS.90)

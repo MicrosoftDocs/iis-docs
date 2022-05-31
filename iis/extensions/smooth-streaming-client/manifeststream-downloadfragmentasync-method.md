@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.DownloadFragmentAsync Method
+description: The DownloadFragmentAsync Method downloads the fragment data for the given chunk iterator through async call. This article details syntax, parameters, return value, and requirements.
 TOCTitle: DownloadFragmentAsync Method
 ms:assetid: 91f7430b-8fd6-40b4-98ef-8d6caabe5b10
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822783(v=VS.90)

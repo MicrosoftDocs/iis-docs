@@ -1,5 +1,6 @@
 ---
 title: "LOGGING_PARAMETERS Structure"
+description: "The LOGGING_PARAMETERS structure defines the information for FTP activity, such as user name, session ID, IP addresses for the client and server."
 ms.date: "09/06/2017"
 ms.assetid: e8a0342f-2636-492f-9fbf-f72dd1133f03
 ms.author: "robmcm"

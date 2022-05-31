@@ -1,5 +1,6 @@
 ---
 title: JobManifest.Arguments Property (Microsoft.Web.Media.TransformManager)
+description: Arguments Property gets executable program task arguments that are associated with the data in the manifest.
 TOCTitle: Arguments Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Arguments
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.arguments(v=VS.90)

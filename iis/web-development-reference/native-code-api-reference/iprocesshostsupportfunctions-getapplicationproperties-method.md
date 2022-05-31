@@ -1,5 +1,6 @@
 ---
 title: "IProcessHostSupportFunctions::GetApplicationProperties Method"
+description: Learn how the IProcessHostSupportFunctions::GetApplicationProperties method retrieves the properties from the application's metabase. 
 ms.date: "10/07/2016"
 ms.assetid: 84b98c00-58c7-296c-7255-b47ac1d032dc
 ---

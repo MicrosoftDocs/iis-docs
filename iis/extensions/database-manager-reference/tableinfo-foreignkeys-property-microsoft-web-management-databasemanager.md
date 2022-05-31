@@ -1,5 +1,6 @@
 ---
 title: TableInfo.ForeignKeys Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax, property value, and permissions for the TableInfo.ForeignKeys property.
 TOCTitle: ForeignKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.foreignkeys(v=VS.90)

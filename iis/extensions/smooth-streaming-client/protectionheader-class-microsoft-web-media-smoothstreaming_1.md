@@ -1,6 +1,7 @@
 ---
 title: ProtectionHeader Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Class
+description: Headers for ProtectionInfo digital rights management objects.
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader(v=VS.95)
 ms:contentKeyID: 46307945

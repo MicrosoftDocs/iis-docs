@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalStopListening Method"
+description: Learn how the OnGlobalStopListening method represents the method that will handle a GlobalStopListening event, which occurs when IIS stops accepting new requests.
 ms.date: "10/07/2016"
 ms.assetid: 27eb8d5b-9e3b-6228-9025-0e1eb9b285ee
 ---

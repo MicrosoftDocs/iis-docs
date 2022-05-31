@@ -1,5 +1,6 @@
 ---
 title: AlternativeUris Property
+description: This article contains information about syntax, property value, and requirements for the AlternativeUris property.
 TOCTitle: AlternativeUris Property
 ms:assetid: 4b96af6c-fd67-4005-a87f-89919fc51eba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822730(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: JobScheduler.SchedulerType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerType Property
+description: SchedulerType Property gets or sets the string token that represents the scheduler type.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.SchedulerType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.schedulertype(v=VS.90)
 ms:contentKeyID: 35520824

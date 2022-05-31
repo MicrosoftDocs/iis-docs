@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.ClipProgressUpdate Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipProgressUpdate Event
+description: The ClipProgressUpdate Event occurs when media reaches a marker.
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipProgressUpdate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipprogressupdate(v=VS.95)
 ms:contentKeyID: 46307490

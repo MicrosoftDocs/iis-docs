@@ -1,5 +1,6 @@
 ---
 title: Index.GetChanges Method  (Microsoft.Web.Management.DatabaseManager)
+description: This ariticle contains information about syntax and permissions for the Index.GetChanges method. There are also links to reference materials.
 TOCTitle: GetChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Index.GetChanges(Microsoft.Web.Management.DatabaseManager.IndexChanges)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.getchanges(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: QueryColumnMetadata.IsComputed Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the QueryColumnMetadata.IsComputed property and provides the property's namespace, assembly, syntax, remarks, and permissions.
 TOCTitle: IsComputed Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsComputed
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.iscomputed(v=VS.90)

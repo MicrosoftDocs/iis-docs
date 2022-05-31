@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.MediaOpened Event (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.MediaOpened Event | Microsoft.Web.Media.SmoothStreaming
+description: "This article shares the syntax for the SmoothStreamingMediaElement.MediaOpened Event, which occurs when the media stream has been validated and opened and the file headers have been read."
 TOCTitle: MediaOpened Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaOpened
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.mediaopened(v=VS.90)

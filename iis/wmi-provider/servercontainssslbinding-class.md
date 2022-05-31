@@ -1,5 +1,6 @@
 ---
 title: "ServerContainsSSLBinding Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ServerContainsSSLBinding class.
 ms.date: "10/07/2016"
 ms.assetid: ef6ae9a0-9134-c320-1380-93cd00297da0
 ---

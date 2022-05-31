@@ -1,5 +1,6 @@
 ---
 title: ITaskStatus.Message Property (Microsoft.Web.Media.TransformManager)
+description: Describes the Message property and provides the property's namespace, assembly, syntax, property value, and additional references.
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.Message
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.message(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnAcquireRequestState Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::OnAcquireRequestState method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: bb3ea1ad-091b-f2ce-d5f2-4d73a086d5b2
 ---
 # CHttpModule::OnAcquireRequestState Method

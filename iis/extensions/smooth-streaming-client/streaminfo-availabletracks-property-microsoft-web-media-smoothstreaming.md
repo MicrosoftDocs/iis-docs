@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.AvailableTracks Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamInfo.AvailableTracks property and details its syntax, property value, remarks, Silverlight information, and permissions.
 TOCTitle: AvailableTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.AvailableTracks
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.availabletracks(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ICacheProvider::SetCacheRecord Method"
+description: This article contains information about syntax and requirements for the ICacheProvider::SetCacheRecord method.
 ms.date: "10/07/2016"
 ms.assetid: ad7bd066-65fc-bd1f-4236-48762170f066
 ---

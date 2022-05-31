@@ -1,5 +1,6 @@
 ---
 title: Tracing.EnableTraceDestination Method  (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the Tracing.EnableTraceDestination method. There are also links to reference materials.
 TOCTitle: EnableTraceDestination Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.EnableTraceDestination(Microsoft.Web.Media.Diagnostics.TraceDestination)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.enabletracedestination(v=VS.95)

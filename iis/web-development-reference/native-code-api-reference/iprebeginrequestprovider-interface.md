@@ -1,6 +1,7 @@
 ---
 title: "IPreBeginRequestProvider Interface"
 ms.date: "10/07/2016"
+description: Learn how to provide a global-level interface for GL_PRE_BEGIN_REQUEST notifications using exposed methods.
 ms.assetid: d4ae5a10-95ec-0e4d-263b-291bc92c548b
 ---
 # IPreBeginRequestProvider Interface

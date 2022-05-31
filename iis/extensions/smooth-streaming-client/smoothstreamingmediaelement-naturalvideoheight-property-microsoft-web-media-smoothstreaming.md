@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.NaturalVideoHeight Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalVideoHeight Property
+description: Gets the height of the video display at which the resource appears best.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoHeight
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideoheight(v=VS.90)
 ms:contentKeyID: 23961002

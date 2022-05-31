@@ -1,6 +1,7 @@
 ---
 title: ChunkInfo.Stream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stream Property
+description: This article contains syntax, property value, and version information for the ChunkInfo.Stream property.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.Stream
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo.stream(v=VS.95)
 ms:contentKeyID: 46307754

@@ -1,6 +1,7 @@
 ---
-title: "ApplicationPoolContainsProcess Class1"
-ms.date: "10/07/2016"
+title: ApplicationPoolContainsProcess Class1
+description: Describes the ApplicationPoolContainsProcess class and details its syntax, properties, remarks, code example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b5947055-8ec9-28bb-9b49-978ea2ae5e7d
 ---
 # ApplicationPoolContainsProcess Class1

@@ -1,5 +1,6 @@
 ---
 title: Logger.WriteLine Method (LogLevel, String) (Microsoft.Web.Media.TransformManager)
+description: Describes the WriteLine method for LogLevel and Strings and provides the method's namespace, assembly, syntax, parameters, and remarks.
 TOCTitle: WriteLine Method (LogLevel, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.writeline(v=VS.90)

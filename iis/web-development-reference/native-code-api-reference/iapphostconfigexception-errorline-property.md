@@ -1,6 +1,7 @@
 ---
 title: "IAppHostConfigException::ErrorLine Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostConfigException::ErrorLine property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 88c1e99e-3362-e266-ce35-9c0cf7916cb6
 ---
 # IAppHostConfigException::ErrorLine Property

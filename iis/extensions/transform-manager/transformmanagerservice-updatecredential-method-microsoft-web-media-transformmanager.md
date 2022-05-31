@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.UpdateCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateCredential Method
+description: "The TransformManagerService.UpdateCredential method adds or replaces a Credential object that is in the credential store of the service account."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateCredential(Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.updatecredential(v=VS.90)
 ms:contentKeyID: 35520608

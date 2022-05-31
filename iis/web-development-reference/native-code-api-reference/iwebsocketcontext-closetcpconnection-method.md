@@ -1,5 +1,6 @@
 ---
 title: "IWebSocketContext::CloseTcpConnection Method"
+description: IWebSocketContext::CloseTcpConnection Method signals the close of the TCP connection. The connection will not shut down until both sides acknowledge the close.
 ms.date: "10/07/2016"
 ms.assetid: 6361b595-0d6d-436c-a67d-d5a8f98d5b46
 ---

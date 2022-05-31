@@ -1,6 +1,7 @@
 ---
 title: "Web Server Core Functions"
-ms.date: "10/07/2016"
+description: "Describes the Web Server Core functions and provides a list of articles for more detailed information on each individual function."
+ms.date: 10/07/2016
 ms.assetid: 2fb1a740-c0e8-4a93-b002-3b1fb735cf92
 ---
 # Web Server Core Functions

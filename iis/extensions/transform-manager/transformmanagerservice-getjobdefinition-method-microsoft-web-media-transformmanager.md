@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.GetJobDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDefinition Method
+description: "The TransformManagerService.GetJobDefinition method returns a JobDefinition object that defines how IIS Transform Manager monitors, creates, schedules, and maintains jobs."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDefinition(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdefinition(v=VS.90)
 ms:contentKeyID: 35520641

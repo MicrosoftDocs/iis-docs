@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetExecuteFlags Method"
+description: Learn how the IHttpContext::GetExecuteFlags method retrieves the execution flags for the current context.
 ms.date: "10/07/2016"
 ms.assetid: d4470530-25e6-17cb-d5fb-d817bb02e98c
 ---

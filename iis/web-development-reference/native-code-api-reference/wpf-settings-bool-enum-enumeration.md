@@ -1,5 +1,6 @@
 ---
 title: "WPF_SETTINGS_BOOL_ENUM Enumeration"
+description: Describes the WPF_SETTINGS_BOOL_ENUM enumeration and provides syntax, members, and requirements. 
 ms.date: "10/07/2016"
 ms.assetid: 530cbe9f-cf27-47d0-927a-563b795db69c
 ---

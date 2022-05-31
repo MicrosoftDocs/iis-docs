@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Live Server Manifest Format
+description: Learn how the encoder must embed a Live Server Manifest in a Live Server Manifest Box at the beginning of each stream, except as specified in Live Presentations.
 TOCTitle: Live Server Manifest Format
 ms:assetid: f2c78562-d907-4048-be99-9cd2724cfc51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee673443(v=VS.90)

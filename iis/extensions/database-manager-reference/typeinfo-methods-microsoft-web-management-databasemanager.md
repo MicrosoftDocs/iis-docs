@@ -1,6 +1,7 @@
 ---
 title: TypeInfo Methods (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Methods
+description: "List of members that the TypeInfo type exposes. Their method type, name, and descriptions are provided."
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo_methods(v=VS.90)
 ms:contentKeyID: 20476656

@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPoolElementDefaults Class1"
+description: "The ApplicationPoolElementDefaults Class1 contains the default properties for the ApplicationPool class."
 ms.date: "10/07/2016"
 ms.assetid: 53b7dc67-a6ac-ff21-3112-2a3163703fed
 ---

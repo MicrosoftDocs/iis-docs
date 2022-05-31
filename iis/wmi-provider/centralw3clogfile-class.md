@@ -1,5 +1,6 @@
 ---
 title: "CentralW3CLogFile Class1"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the CentralW3CLogFile class.
 ms.date: "10/07/2016"
 ms.assetid: d74c5089-999e-e827-7ebe-f6946f52013c
 ---

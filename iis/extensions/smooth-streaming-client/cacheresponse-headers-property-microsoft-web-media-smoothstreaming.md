@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
+description: Metadata collection of response.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.90)
 ms:contentKeyID: 31469175

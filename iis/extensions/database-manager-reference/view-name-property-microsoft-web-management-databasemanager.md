@@ -1,6 +1,7 @@
 ---
 title: View.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
+description: This article contains syntax, property value, and version information for the View.Name property.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.View.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view.name(v=VS.90)
 ms:contentKeyID: 20476456

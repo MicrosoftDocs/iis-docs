@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CanSeekProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CanSeekProperty field and provides the field's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: CanSeekProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanSeekProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canseekproperty(v=VS.90)

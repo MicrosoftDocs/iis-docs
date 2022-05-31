@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SupportedPlaybackRates Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SupportedPlaybackRates Property
+description: "The SmoothStreamingMediaElement.SupportedPlaybackRates property gets or sets the playback rates list."
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SupportedPlaybackRates
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.supportedplaybackrates(v=VS.95)
 ms:contentKeyID: 46307855

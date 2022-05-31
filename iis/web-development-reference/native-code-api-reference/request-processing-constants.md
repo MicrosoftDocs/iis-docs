@@ -1,5 +1,6 @@
 ---
 title: "Request-Processing Constants"
+description: Request-Processing Constants describes the constants that are defined in the Httpserv.h header file.
 ms.date: "10/07/2016"
 ms.assetid: 42be02f0-5c30-4a82-8373-47c8b744a75a
 ---

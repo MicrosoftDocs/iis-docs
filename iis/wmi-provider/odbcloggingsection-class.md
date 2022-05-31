@@ -1,6 +1,7 @@
 ---
-title: "OdbcLoggingSection Class1"
-ms.date: "10/07/2016"
+title: OdbcLoggingSection Class1
+description: Describes the OdbcLoggingSection class and provides the class' syntax, methods, properties, remarks, examples, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0969e9a7-d1f5-58a6-f045-14e4ed271880
 ---
 # OdbcLoggingSection Class1

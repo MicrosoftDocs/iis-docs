@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Properties (Microsoft.Web.Media.TransformManager)
+description: This article contains information about properties and explicit interface implementations for the ManifestPropertiesDictionary properties.
 TOCTitle: ManifestPropertiesDictionary Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary_properties(v=VS.90)

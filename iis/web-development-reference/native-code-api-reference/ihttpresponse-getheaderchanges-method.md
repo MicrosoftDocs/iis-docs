@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::GetHeaderChanges Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::GetHeaderChanges method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 32334282-824c-22af-2d43-5269dba717bb
 ---
 # IHttpResponse::GetHeaderChanges Method

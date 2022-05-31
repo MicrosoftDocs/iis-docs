@@ -1,5 +1,6 @@
 ---
 title: ChunkDownloadedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkDownloadedEventArgs class and details its inheritance hierarchy, syntax, properties, methods, remarks, and Silverlight information.
 TOCTitle: ChunkDownloadedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs(v=VS.95)

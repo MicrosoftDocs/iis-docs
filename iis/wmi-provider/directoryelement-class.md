@@ -1,5 +1,6 @@
 ---
 title: "DirectoryElement Class"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the DirectoryElement class.
 ms.date: "10/07/2016"
 ms.assetid: 6fb3f224-6527-6967-c850-5f7448bc813d
 ---

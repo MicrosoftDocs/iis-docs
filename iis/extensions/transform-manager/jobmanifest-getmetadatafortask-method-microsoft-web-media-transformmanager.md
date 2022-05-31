@@ -1,5 +1,6 @@
 ---
 title: JobManifest.GetMetadataForTask Method  (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the GetMetadataForTask method and returns the metadata for the specified task.
 TOCTitle: GetMetadataForTask Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getmetadatafortask(v=VS.90)

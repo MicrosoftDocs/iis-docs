@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the ManifestProperty methods and provides a list of the methods with links to corresponding documentation.
 TOCTitle: ManifestProperty Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ManifestProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty_methods(v=VS.90)

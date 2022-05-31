@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEB_CORE_SHUTDOWN Function"
+description: "The PFN_WEB_CORE_SHUTDOWN function shuts down an instance of the Hosted Web Core. This article describes its syntax, return value, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: da54f34a-f01e-4242-9902-824e276e23d8
 ---

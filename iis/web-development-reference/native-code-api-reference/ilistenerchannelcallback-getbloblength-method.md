@@ -1,5 +1,6 @@
 ---
 title: "IListenerChannelCallback::GetBlobLength Method"
+description: This article contains information about syntax, return value, and requirements for the IListenerChannelCallback::GetBlobLength method.
 ms.date: "10/07/2016"
 ms.assetid: 5fce568e-9d27-c200-719b-ef77deabe98a
 ---

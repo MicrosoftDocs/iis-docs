@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConfigManager::GetConfigFile Method"
+description: Learn how the GetConfigFile method gets a configuration file that is represented by the requested configuration path.
 ms.date: "10/07/2016"
 ms.assetid: addd9da3-1dc3-a705-9f0f-95ffa02025de
 ---

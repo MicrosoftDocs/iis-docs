@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.SetTaskCount Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskCount Method
+description: "The TaskStatus.SetTaskCount method sets the number of tasks to be performed by the scheduler. This article describes its syntax and parameters."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskCount(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.settaskcount(v=VS.90)
 ms:contentKeyID: 35520577

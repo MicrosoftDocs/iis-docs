@@ -1,5 +1,6 @@
 ---
 title: "IProcessHost::Shutdown Method"
+description: Learn how the IProcessHost::Shutdown method sends a request to terminate all applications in an application domain.
 ms.date: "10/07/2016"
 ms.assetid: ed5720ca-5927-4117-c287-ba5cdac43340
 ---

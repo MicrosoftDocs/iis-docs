@@ -1,5 +1,6 @@
 ---
 title: "ISendResponseProvider Interface"
+description: This article describes the ISendResponseProvider interface and provides the syntax, methods, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: bbb207ee-d0ce-5b67-a12e-e0c1085a5f01
 ---

@@ -1,6 +1,7 @@
 ---
 title: JobScheduler.JobSchedulerElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerElement Property
+description: Describes the JobScheduler.JobSchedulerElement property and provides the namespace, assembly, syntax, and property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.JobSchedulerElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.jobschedulerelement(v=VS.90)
 ms:contentKeyID: 35520864

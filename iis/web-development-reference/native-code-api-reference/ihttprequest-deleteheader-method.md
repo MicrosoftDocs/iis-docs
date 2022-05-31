@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::DeleteHeader Method"
 ms.date: "10/07/2016"
+description: Learn how to Delete an HTTP header from the request using two overloaded versions of the DeleteHeader method.
 ms.assetid: 922cd9ec-3c4d-81f8-581e-e7d81683c716
 ---
 # IHttpRequest::DeleteHeader Method

@@ -1,6 +1,7 @@
 ---
 title: ManifestInfo.SelectStreamsCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectStreamsCompleted Event
+description: "The ManifestInfo.SelectStreamsCompleted event is activated when a SelectStreamsAsync call has completed in any of the segments contained in Segments."
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.selectstreamscompleted(v=VS.95)
 ms:contentKeyID: 46307509

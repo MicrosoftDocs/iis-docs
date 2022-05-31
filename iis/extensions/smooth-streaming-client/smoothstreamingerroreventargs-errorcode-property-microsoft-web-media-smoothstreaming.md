@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingErrorEventArgs.ErrorCode Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ErrorCode property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: ErrorCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorCode
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorcode(v=VS.90)

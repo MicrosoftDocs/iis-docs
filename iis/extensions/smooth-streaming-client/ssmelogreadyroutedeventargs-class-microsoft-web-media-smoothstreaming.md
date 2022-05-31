@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines inheritance hierarchy, syntax, properties, methods, version information, and thready safety for the SSMELogReadyRoutedEventArgs class.
 TOCTitle: SSMELogReadyRoutedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs(v=VS.90)

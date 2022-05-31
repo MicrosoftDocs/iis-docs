@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.StartJobManager Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartJobManager Method
+description: Describes the TransformManagerService.StartJobManager method and provides the syntax, parameters, and exceptions.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.StartJobManager(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.startjobmanager(v=VS.90)
 ms:contentKeyID: 35521003

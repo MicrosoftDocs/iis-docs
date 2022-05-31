@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodInstance::Input Property"
+description: This article contains information about syntax, return value, and requirements for the IAppHostMethodInstance::Input property.
 ms.date: "10/07/2016"
 ms.assetid: 20414c79-703f-42a8-a482-1b91cbac92c1
 ---

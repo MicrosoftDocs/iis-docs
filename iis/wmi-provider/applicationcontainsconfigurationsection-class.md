@@ -1,6 +1,7 @@
 ---
-title: "ApplicationContainsConfigurationSection Class1"
-ms.date: "10/07/2016"
+title: ApplicationContainsConfigurationSection Class1
+description: Describes the ApplicationContainsConfiguration Section class and provides the class' syntax, methods, properties, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 437265a3-6c4a-f094-7afd-75a84fd6e982
 ---
 # ApplicationContainsConfigurationSection Class1

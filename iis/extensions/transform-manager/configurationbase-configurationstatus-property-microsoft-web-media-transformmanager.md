@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.ConfigurationStatus Property (Microsoft.Web.Media.TransformManager)
+description: ConfigurationStatus Property gets or sets the IIS Transform Manager configuration status.
 TOCTitle: ConfigurationStatus Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationstatus(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::GetHeadersSuppressed Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpResponse::GetHeadersSuppressed method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 6af99349-7a65-f42c-e9b7-3ee6b795632d
 ---
 # IHttpResponse::GetHeadersSuppressed Method

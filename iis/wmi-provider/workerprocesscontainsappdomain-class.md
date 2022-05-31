@@ -1,5 +1,6 @@
 ---
 title: "WorkerProcessContainsAppDomain Class2"
+description: "The WorkerProcessContainsAppDomain Class2 provides a relationship between a worker process and its application domains."
 ms.date: "10/07/2016"
 ms.assetid: c7172642-0b13-5b01-450d-874b79e798d5
 ---

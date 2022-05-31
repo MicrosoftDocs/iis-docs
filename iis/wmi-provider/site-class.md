@@ -1,5 +1,6 @@
 ---
 title: "Site Class1"
+description: "The Site Class1 represents an IIS Web site. This article lists the methods and properties exposed by this class."
 ms.date: "10/07/2016"
 ms.assetid: 1d576513-006e-e5ac-1356-7afad97a7787
 ---

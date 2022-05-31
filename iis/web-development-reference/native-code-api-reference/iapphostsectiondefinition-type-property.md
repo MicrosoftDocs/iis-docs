@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinition::Type Property"
+description: Describes the IAppHostSectionDefinition::Type property and provides its syntax, parameters, return value, remarks, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 4aeb69c1-4e84-884f-d98f-2a7d07eacfc2
 ---

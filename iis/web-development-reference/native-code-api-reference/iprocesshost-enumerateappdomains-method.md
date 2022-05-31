@@ -1,6 +1,7 @@
 ---
 title: "IProcessHost::EnumerateAppDomains Method"
 ms.date: "10/07/2016"
+description: Retrieve a pointer to an i App Domain Info Enum interface and include values that indicate the operation was successful.
 ms.assetid: e59e42da-ba07-2d9f-84e3-38c4bb8dc165
 ---
 # IProcessHost::EnumerateAppDomains Method

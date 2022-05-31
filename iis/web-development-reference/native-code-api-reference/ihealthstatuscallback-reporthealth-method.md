@@ -1,6 +1,7 @@
 ---
 title: "IHealthStatusCallback::ReportHealth Method"
-ms.date: "10/07/2016"
+description: "Describes the IHealthStatusCallback::ReportHealth method and details the syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 97b88f52-6240-6a7c-252d-1e5fc6ba9b29
 ---
 # IHealthStatusCallback::ReportHealth Method

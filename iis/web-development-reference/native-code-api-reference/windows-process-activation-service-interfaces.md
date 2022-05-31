@@ -1,5 +1,6 @@
 ---
 title: "Windows Process Activation Service Interfaces"
+description: "This article describes the interfaces that enable process activation and monitoring of applications, listener channels, and listener adaptors."
 ms.date: "10/07/2016"
 ms.assetid: 2b3c04a0-2315-4896-b6ab-cb5e031e941d
 ---

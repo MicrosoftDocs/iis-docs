@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::GetHttpMethod Method"
 ms.date: "10/07/2016"
+description: IHttpRequest GetHttpMethod Method returns the HTTP method for the current request.
 ms.assetid: f9d9766f-8022-74ce-f819-daba64b93498
 ---
 # IHttpRequest::GetHttpMethod Method

@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::NotifyFileChange Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpServer::NotifyFileChange method and details its syntax, parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: b807132a-9aa7-73fc-06d7-ec7412ec0588
 ---
 # IHttpServer::NotifyFileChange Method

@@ -1,5 +1,6 @@
 ---
 title: "IHttpCompletionInfo::GetCompletionStatus Method"
+description: This article has information about syntax, return value, and requirements for the IHttpCompletionInfo::GetCompletionStatus method.
 ms.date: "10/07/2016"
 ms.assetid: d6f1d9fb-5344-13b2-5ffe-eeba3a6a1fd8
 ---

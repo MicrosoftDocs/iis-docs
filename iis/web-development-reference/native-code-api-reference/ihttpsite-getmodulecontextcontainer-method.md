@@ -1,6 +1,7 @@
 ---
 title: "IHttpSite::GetModuleContextContainer Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpSite::GetModuleContextContainer method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 1fadc558-b8c0-d63a-631c-bf5b6ecb2859
 ---
 # IHttpSite::GetModuleContextContainer Method

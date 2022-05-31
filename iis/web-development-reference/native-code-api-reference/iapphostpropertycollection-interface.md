@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertyCollection Interface"
+description: Learn how the IAppHostPropertyCollection interface represents a collection of properties.
 ms.date: "10/07/2016"
 ms.assetid: 573fc810-3903-77ba-7494-5e432686d459
 ---

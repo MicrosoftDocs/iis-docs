@@ -1,6 +1,7 @@
 ---
 title: Microsoft Smooth Streaming Client 2.0
 TOCTitle: Microsoft Smooth Streaming Client 2.0
+description: This section provides an introduction to application development based on the Microsoft Smooth Streaming Client 2.0 API.
 ms:assetid: cee83024-5235-417c-b28f-952bb15e4342
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee958035(v=VS.95)
 ms:contentKeyID: 46359332

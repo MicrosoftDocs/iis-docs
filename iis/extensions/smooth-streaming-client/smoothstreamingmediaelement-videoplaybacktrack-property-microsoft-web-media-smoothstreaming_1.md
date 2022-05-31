@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoPlaybackTrack Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax and version information for the SmoothStreamingMediaElement.VideoPlaybackTrack property.
 TOCTitle: VideoPlaybackTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videoplaybacktrack(v=VS.95)

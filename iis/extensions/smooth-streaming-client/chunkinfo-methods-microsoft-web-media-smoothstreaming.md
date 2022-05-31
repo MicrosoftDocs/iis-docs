@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ChunkInfo methods and provides a list of articles that provide more information on each method.
 TOCTitle: ChunkInfo Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo_methods(v=VS.90)

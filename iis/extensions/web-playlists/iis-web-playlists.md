@@ -1,5 +1,6 @@
 ---
 title: IIS Web Playlists
+description: "This article lists a programming reference and programming guide for IIS Web Playlists, which is an IIS Media Services extension that provides developers and hosters unprecedented control of how media content is delivered to users."
 TOCTitle: IIS Web Playlists
 ms:assetid: 6fc700d1-4cca-4055-ae39-6372b86fa087
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146275(v=VS.90)

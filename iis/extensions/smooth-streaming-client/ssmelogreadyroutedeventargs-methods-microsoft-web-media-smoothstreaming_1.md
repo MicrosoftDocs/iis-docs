@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SSMELogReadyRoutedEventArgs methods and provides a table that outlines the name and description for various method types.
 TOCTitle: SSMELogReadyRoutedEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs_methods(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: ForeignKey Methods (Microsoft.Web.Management.DatabaseManager)
+description: Describes the ForeignKey methods and provides a table that outlines the name and description for various method types.
 TOCTitle: ForeignKey Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.ForeignKey
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey_methods(v=VS.90)

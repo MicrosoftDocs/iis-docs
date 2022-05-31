@@ -1,6 +1,7 @@
 ---
 title: IndexColumn Fields (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexColumn Fields
+description: "A list of members exposed by the IndexColumn type including the field type, name, and description of each."
 ms:assetid: Fields.T:Microsoft.Web.Management.DatabaseManager.IndexColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn_fields(v=VS.90)
 ms:contentKeyID: 20476457

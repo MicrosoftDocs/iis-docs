@@ -1,5 +1,6 @@
 ---
 title: JobScheduler.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobScheduler.ConfigurationDirectory property.
 TOCTitle: ConfigurationDirectory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler.configurationdirectory(v=VS.90)

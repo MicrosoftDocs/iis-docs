@@ -1,6 +1,7 @@
 ---
 title: ClipInformation Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Constructor
+description: "The ClipInformation Constructor initializes a new instance of the ClipInformation class. This article provides an overload list with the method type, name, and description of each item."
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.clipinformation(v=VS.95)
 ms:contentKeyID: 46307707

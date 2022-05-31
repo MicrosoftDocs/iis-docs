@@ -1,6 +1,7 @@
 ---
 title: "IAppHostChildElementCollection::Item Method"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostChildElementCollection::Item method and details its syntax, parameters, return value, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 882e0b49-d2ca-c629-8018-0b73afab53cd
 ---
 # IAppHostChildElementCollection::Item Method

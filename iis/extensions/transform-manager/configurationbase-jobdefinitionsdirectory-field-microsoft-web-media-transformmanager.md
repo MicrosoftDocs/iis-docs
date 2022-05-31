@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.JobDefinitionsDirectory Field (Microsoft.Web.Media.TransformManager)
+description: The ConfigurationBase.JobDefinitionsDirectory field represents a string constant that specifies a configuration directory for job definitions.
 TOCTitle: JobDefinitionsDirectory Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ConfigurationBase.JobDefinitionsDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.jobdefinitionsdirectory(v=VS.90)

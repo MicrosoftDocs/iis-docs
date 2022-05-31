@@ -1,6 +1,7 @@
 ---
 title: TrackInfo.GetChunkUri Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: GetChunkUri Method
+description: Gets the Uri for the chunk identified by the timestamp parameter.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.GetChunkUri(System.TimeSpan)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.getchunkuri(v=VS.90)
 ms:contentKeyID: 31469203

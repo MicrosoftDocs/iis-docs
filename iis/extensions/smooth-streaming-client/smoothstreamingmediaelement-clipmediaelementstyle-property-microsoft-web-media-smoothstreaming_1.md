@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.ClipMediaElementStyle Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipMediaElementStyle Property
+description: Gets or sets the style object for the window.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyle
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyle(v=VS.95)
 ms:contentKeyID: 46307805

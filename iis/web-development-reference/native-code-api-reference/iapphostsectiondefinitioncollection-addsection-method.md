@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection::AddSection Method"
+description: IAppHostSectionDefinitionCollection::AddSection Method adds a new configuration section definition to the collection.
 ms.date: "10/07/2016"
 ms.assetid: d6515912-4d1b-f956-ae6b-80576da89e4a
 ---

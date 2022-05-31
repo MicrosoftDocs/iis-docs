@@ -1,5 +1,6 @@
 ---
 title: "IReadEntityProvider Interface"
+description: Learn how the IReadEntityProvider interface provides an interface for retrieving or modifying the request entity.
 ms.date: "10/07/2016"
 ms.assetid: 88a39d22-b9ac-9ee7-1127-57158a8a9c4c
 ---

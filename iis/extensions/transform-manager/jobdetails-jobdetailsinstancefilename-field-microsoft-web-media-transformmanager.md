@@ -1,6 +1,7 @@
 ---
 title: JobDetails.JobDetailsInstanceFileName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsInstanceFileName Field
+description: "The JobDetailsInstanceFileName field represents a constant that is used when transform jobs are sorted by the instanceFileName field."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsInstanceFileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.jobdetailsinstancefilename(v=VS.90)
 ms:contentKeyID: 35521040

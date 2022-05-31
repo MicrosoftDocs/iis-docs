@@ -1,5 +1,6 @@
 ---
 title: "ListenerAdapterElement Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ListenerAdapterElement class.
 ms.date: "10/07/2016"
 ms.assetid: 36ff3ff9-7c5a-c35b-9ceb-0202ac71596b
 ---

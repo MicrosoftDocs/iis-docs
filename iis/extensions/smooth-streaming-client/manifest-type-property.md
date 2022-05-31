@@ -1,5 +1,6 @@
 ---
 title: Manifest.Type Property
+description: Describes the Manifest.Type property and provides the property's syntax, property value, and requirements.
 TOCTitle: Type Property
 ms:assetid: bfc7c8b2-bb68-46c4-8ee6-0203b8485eb9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822823(v=VS.90)

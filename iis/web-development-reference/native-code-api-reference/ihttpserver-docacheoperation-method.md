@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::DoCacheOperation Method"
+description: Learn how the IHttpServer::DoCacheOperation method performs a specific cache operation.
 ms.date: "10/07/2016"
 ms.assetid: 0a0367e5-0463-3261-e359-41d2205827a4
 ---

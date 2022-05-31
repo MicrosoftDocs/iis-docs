@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED Function"
+description: PFN_WEBHOST_LISTENER_APPLICATION_REQUESTS_BLOCKED_CHANGED Function notifies the listener adapter that the requests-blocked state has changed.
 ms.date: "10/07/2016"
 ms.assetid: 2fa65bea-8b54-9243-2efa-88c9b17169d7
 ---

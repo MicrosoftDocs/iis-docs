@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Source Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.Source property and details the property's syntax, property value, remarks, and Silverlight information.
 TOCTitle: Source Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Source
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.source(v=VS.95)

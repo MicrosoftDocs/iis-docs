@@ -1,6 +1,7 @@
 ---
-title: "IAppHostElement::GetPropertyByName Method"
-ms.date: "10/07/2016"
+title: IAppHostElement::GetPropertyByName Method
+description: Describes the IAppHostElement::GetPropertyByName method and provides the method's syntax, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 111eeea6-65ea-8973-50e8-bfcd84ba0394
 ---
 # IAppHostElement::GetPropertyByName Method

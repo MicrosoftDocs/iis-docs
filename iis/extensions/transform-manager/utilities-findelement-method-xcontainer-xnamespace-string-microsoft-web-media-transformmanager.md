@@ -1,5 +1,6 @@
 ---
 title: Utilities.FindElement Method (XContainer, XNamespace, String) (Microsoft.Web.Media.TransformManager)
+description: FindElement Method (XContainer, XNamespace, String) finds a specific element in the container by using the XML container, the XML container namespace, and the XML element name.
 TOCTitle: FindElement Method (XContainer, XNamespace, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.FindElement(System.Xml.Linq.XContainer,System.Xml.Linq.XNamespace,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.findelement(v=VS.90)

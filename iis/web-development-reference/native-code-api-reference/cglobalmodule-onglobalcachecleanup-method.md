@@ -1,6 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalCacheCleanup Method"
 ms.date: "10/07/2016"
+description: Learn how to create a global-level HTTP module that registers for the GL_CACHE_CLEANUP notification.
 ms.assetid: 18e85b91-c3e0-c4b3-7a69-90494e21a358
 ---
 # CGlobalModule::OnGlobalCacheCleanup Method

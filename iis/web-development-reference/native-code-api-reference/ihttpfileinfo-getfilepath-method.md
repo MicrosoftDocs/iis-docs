@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::GetFilePath Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpFileInfo::GetFilePath method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 3e353fe5-9c43-e137-b0e7-91c78d022f71
 ---
 # IHttpFileInfo::GetFilePath Method

@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.MaintenanceCommand Property (Microsoft.Web.Media.TransformManager)
+description: Learn details about the MaintenanceCommand property, specifically details about its syntax and property value. 
 TOCTitle: MaintenanceCommand Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceCommand
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.maintenancecommand(v=VS.90)

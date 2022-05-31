@@ -1,5 +1,6 @@
 ---
 title: TaskStatus Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskStatus methods and provides a table that outlines the name and description for various method types.
 TOCTitle: TaskStatus Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.TaskStatus
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus_methods(v=VS.90)

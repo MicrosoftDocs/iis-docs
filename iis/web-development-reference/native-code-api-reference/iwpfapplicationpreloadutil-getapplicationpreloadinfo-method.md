@@ -1,6 +1,7 @@
 ---
 title: "IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfApplicationPreloadUtil::GetApplicationPreloadInfo method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 7747ae93-976d-4330-8d3a-06bb82180017
 ---
 # IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method

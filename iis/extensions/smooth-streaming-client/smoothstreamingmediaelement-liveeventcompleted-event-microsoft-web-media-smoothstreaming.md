@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LiveEventCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LiveEventCompleted Event
+description: This article describes the SmoothStreamingMediaElement.LiveEventCompleted event and provides the namespace, assembly, syntax, and version information.
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveEventCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveeventcompleted(v=VS.90)
 ms:contentKeyID: 23961015

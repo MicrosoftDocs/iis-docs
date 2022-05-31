@@ -1,5 +1,6 @@
 ---
 title: IDbRestoreManager.RestoreBackup Method  (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbRestoreManager.RestoreBackup method and provides the method's namespace, assembly, syntax, remarks, examples, and permissions.
 TOCTitle: RestoreBackup Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbRestoreManager.RestoreBackup(System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbrestoremanager.restorebackup(v=VS.90)

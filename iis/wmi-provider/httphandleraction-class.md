@@ -1,6 +1,7 @@
 ---
-title: "HttpHandlerAction Class"
-ms.date: "10/07/2016"
+title: HttpHandlerAction Class
+description: Describes the HttpHandlerAction class and provides the class' syntax, properties, remarks, an example, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: db796fc2-75a0-88d1-9944-4e260581de09
 ---
 # HttpHandlerAction Class

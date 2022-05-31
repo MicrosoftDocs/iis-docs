@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.FKColumns Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains syntax, permissions, and reference links for the ForeignKey.FKColumns property. 
 TOCTitle: FKColumns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKColumns
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.fkcolumns(v=VS.90)

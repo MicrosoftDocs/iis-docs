@@ -1,5 +1,6 @@
 ---
 title: "HeaderLimitsElement Class"
+description: "The HeaderLimitsElement class specifies the permitted sizes of HTTP request headers. This article describes its syntax, methods, properties, and examples."
 ms.date: "10/07/2016"
 ms.assetid: 83dc2e2d-1233-bd6d-9474-ff674fe00fed
 ---

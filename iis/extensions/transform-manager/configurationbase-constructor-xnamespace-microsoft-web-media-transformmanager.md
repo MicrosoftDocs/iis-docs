@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase Constructor (XNamespace) (Microsoft.Web.Media.TransformManager)
+description: ConfigurationBase Constructor (XNamespace) initializes a new instance of the ConfigurationBase class using the specified namespace.
 TOCTitle: ConfigurationBase Constructor (XNamespace)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.#ctor(System.Xml.Linq.XNamespace)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationbase(v=VS.90)

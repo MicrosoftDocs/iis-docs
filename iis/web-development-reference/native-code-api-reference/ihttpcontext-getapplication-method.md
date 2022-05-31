@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetApplication Method"
+description: This article has information about syntax, return value, and requirements for the IHttpContext::GetApplication method.
 ms.date: "10/07/2016"
 ms.assetid: b6785cd1-7502-24ea-1b46-e6b29e6fc72c
 ---

@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBSOCKET_COMPLETION Funtion"
+description: Learn how the PFN_WEBSOCKET_COMPLETION function defines the WebSocket completion function prototype.
 ms.date: "10/07/2016"
 ms.assetid: 2824d960-9a3e-4d11-8a55-4814ac5ca87a
 ---

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.MaximumLatency Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the MaximumLatency property and provides the property's namespace, assembly, syntax, property value, exceptions, remarks, and version information.
 TOCTitle: MaximumLatency Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MaximumLatency
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.maximumlatency(v=VS.90)

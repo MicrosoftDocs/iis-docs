@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.GetTaskProgress Method  (Microsoft.Web.Media.TransformManager)
+description: This article has information about syntax for the HpcScheduler.GetTaskProgress method, with links to reference materials.
 TOCTitle: GetTaskProgress Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetTaskProgress(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.gettaskprogress(v=VS.90)

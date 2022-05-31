@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).LastIndexOf Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: LastIndexOf Method
+description: "Overload list that contains the syntax, usage, and examples of LastIndexOf methods inherited from the List T Class."
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.LastIndexOf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728170(v=VS.90)
 ms:contentKeyID: 31469190

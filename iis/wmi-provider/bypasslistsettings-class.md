@@ -1,5 +1,6 @@
 ---
 title: "BypassListSettings Class"
+description: This article has information on syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the BypassListSettings class.
 ms.date: "10/07/2016"
 ms.assetid: 25023472-de95-4b27-a96f-1aae47b47088
 ---

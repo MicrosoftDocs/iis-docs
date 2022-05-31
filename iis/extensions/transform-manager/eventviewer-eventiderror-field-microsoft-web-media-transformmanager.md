@@ -1,5 +1,6 @@
 ---
 title: EventViewer.EventIdError Field (Microsoft.Web.Media.TransformManager)
+description: Learn how the EventIdError field represents a constant that is used when error information is written to the event viewer.
 TOCTitle: EventIdError Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdError
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventiderror(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: IAdaptiveSourceManager.AdaptiveSourceManagerFailedEvent Event
 TOCTitle: AdaptiveSourceManagerFailedEvent Event
+description: "The AdaptiveSourceManagerFailedEvent event adds the adaptive source manager failed event handler. This article describes its syntax, event information, and requirements."
 ms:assetid: 5f97ba70-027c-412c-84be-98bb841d25ed
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822747(v=VS.90)
 ms:contentKeyID: 50079502

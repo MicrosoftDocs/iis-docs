@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.NALUnitLength Property
 TOCTitle: NALUnitLength Property
+description: "This article describes the syntax, property value, and requirements of the ManifestTrack.NALUnitLength property."
 ms:assetid: 41933407-9c06-4009-95d5-0c7c6c418687
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822723(v=VS.90)
 ms:contentKeyID: 50079478

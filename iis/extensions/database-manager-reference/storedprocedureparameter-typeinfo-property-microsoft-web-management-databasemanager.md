@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
+description: "This article shows the syntax for the StoredProcedureParameter.TypeInfo Property, which gets or sets the type information for a parameter of a stored procedure."
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.typeinfo(v=VS.90)

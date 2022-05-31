@@ -1,5 +1,6 @@
 ---
 title: "FormsAuthenticationUser Class"
+description: Configures user credentials for Web applications that use Forms authentication.  
 ms.date: "10/07/2016"
 ms.assetid: 2f57cdd1-9ec2-dc0b-7332-47cbca2b8f46
 ---

@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostLogRequest Method"
+description: CHttpModule::OnPostLogRequest Method represents the method that will handle a LogRequest post-event, which occurs after I I S has logged the current request. 
 ms.date: "10/07/2016"
 ms.assetid: 23177b63-7375-2cdd-4e6b-4d676c9eed7c
 ---

@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::GetFileHandle Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpFileInfo::GetFileHandle method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: ff010463-a9a9-4e7f-5fcd-367e09aeb1cf
 ---
 # IHttpFileInfo::GetFileHandle Method

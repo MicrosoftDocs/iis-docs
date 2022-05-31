@@ -1,5 +1,6 @@
 ---
 title: ClipContext.Data Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the ClipContext.Data property. 
 TOCTitle: Data Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.Data
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipcontext.data(v=VS.90)

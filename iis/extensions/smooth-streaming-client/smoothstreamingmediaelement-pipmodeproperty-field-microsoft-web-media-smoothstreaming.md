@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.PipModeProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: The PipModeProperty field represents a dependency property that specifies the PiPMode property. It is a dependency based on Microsoft.Web.Media.SmoothStreaming.
 TOCTitle: PipModeProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipModeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmodeproperty(v=VS.90)

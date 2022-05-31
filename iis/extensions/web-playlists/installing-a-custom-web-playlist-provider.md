@@ -1,5 +1,6 @@
 ---
 title: Installing a Custom Web Playlist Provider
+description: Learn how to install a custom web playlist provider and then add the provider to the Playlist module. 
 TOCTitle: Installing a Custom Web Playlist Provider
 ms:assetid: 4c7c8c01-7e55-41af-ac27-fe1bedc8d344
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146269(v=VS.90)

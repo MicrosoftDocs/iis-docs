@@ -1,5 +1,6 @@
 ---
 title: TaskStatus.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskStatus.Dispose method, which disposes task resources, and provides a list of its methods and corresponding documentation links.
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.TaskStatus.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.dispose(v=VS.90)

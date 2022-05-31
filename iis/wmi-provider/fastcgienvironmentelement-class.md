@@ -1,5 +1,6 @@
 ---
-title: "FastCgiEnvironmentElement Class"
+title: FastCgiEnvironmentElement Class
+description: Describes the FastCgiEnvironmentElement class and provides syntax, methods, properties, subclasses, remarks, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 29bb4657-10a8-4665-9390-f07818bab9da
 ---

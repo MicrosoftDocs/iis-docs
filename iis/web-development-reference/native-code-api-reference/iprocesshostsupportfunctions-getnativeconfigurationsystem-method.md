@@ -1,6 +1,7 @@
 ---
 title: "IProcessHostSupportFunctions::GetNativeConfigurationSystem Method"
-ms.date: "10/07/2016"
+description: "Describes the IProcessHostSupportFunctions::GetNativeConfigurationSystem method and details its syntax, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 62c808d8-fe81-749e-8574-f9800fdf2811
 ---
 # IProcessHostSupportFunctions::GetNativeConfigurationSystem Method

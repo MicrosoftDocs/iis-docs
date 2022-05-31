@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetModules Method"
+description: Learn how the IScriptMapInfo::GetModules method retrieves the list of modules for a request handler. 
 ms.date: "10/07/2016"
 ms.assetid: b998fa9b-2ca5-9c15-c857-1fc0b0e2417d
 ---

@@ -1,6 +1,7 @@
 ---
-title: "IMapHandlerProvider Interface"
-ms.date: "10/07/2016"
+title: IMapHandlerProvider Interface
+description: Describes the IMapHandlerProvider interface and details its syntax, methods, derived classes, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 751560c1-2a88-7175-c78d-615c42f86feb
 ---
 # IMapHandlerProvider Interface

@@ -1,5 +1,6 @@
 ---
 title: JobTemplate.SetTaskDefinitions Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the SetTaskDefinitions method sets a list of TaskDefinition objects when a job template element is created.
 TOCTitle: SetTaskDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.SetTaskDefinitions(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.TaskDefinition})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.settaskdefinitions(v=VS.90)

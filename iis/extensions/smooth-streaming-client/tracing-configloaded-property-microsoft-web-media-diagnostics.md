@@ -1,5 +1,6 @@
 ---
 title: Tracing.ConfigLoaded Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the ConfigLoaded property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: ConfigLoaded Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.configloaded(v=VS.90)

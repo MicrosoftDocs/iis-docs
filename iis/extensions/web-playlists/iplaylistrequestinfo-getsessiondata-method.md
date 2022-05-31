@@ -1,5 +1,6 @@
 ---
 title: IPlaylistRequestInfo::GetSessionData Method
+description: Describes the IPlaylistRequestInfo::GetSessionData method and provides the method's syntax, arguments, return value, and requirements.
 TOCTitle: IPlaylistRequestInfo::GetSessionData Method
 ms:assetid: 806a9f3e-9390-4d67-8b9a-25a24974969e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146278(v=VS.90)

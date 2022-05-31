@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Pause Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Pause method and provides the method's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: Pause Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Pause
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pause(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.P3PPolicy Property
+description: Describes the HttpCookie.P3PPolicy property and describes the property's syntax, property value, and requirements.
 TOCTitle: P3PPolicy Property
 ms:assetid: e60a43b1-37c8-480d-97dd-08a47278ef0e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822856(v=VS.90)

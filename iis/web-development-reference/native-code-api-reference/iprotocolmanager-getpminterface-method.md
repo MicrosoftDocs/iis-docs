@@ -1,5 +1,6 @@
 ---
 title: "IProtocolManager::GetPmInterface Method"
+description: "The IProtocolManagerGetPmInterface method retrieves a defined interface from a protocol manager. This article describes its syntax, return value, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 67a82c02-b569-64ba-e808-8f6a55b336fa
 ---

@@ -1,6 +1,7 @@
 ---
 title: IDbBackupManager Interface (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbBackupManager Interface
+description: "The IDbBackupManager interface represents a database backup manager interface. This article describes its syntax, methods, and remarks."
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbBackupManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbbackupmanager(v=VS.90)
 ms:contentKeyID: 22049483

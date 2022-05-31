@@ -1,5 +1,6 @@
 ---
 title: "SiteLimits Class1"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SiteLimits class.
 ms.date: "10/07/2016"
 ms.assetid: 3116f8b2-608a-930d-92d0-35a952e1f4aa
 ---

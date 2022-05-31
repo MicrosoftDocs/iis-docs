@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.VolumeProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: VolumeProperty Field
+description: "The SmoothStreamingMediaElement.VolumeProperty field represents a dependency property that specifies the Volume property."
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VolumeProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.volumeproperty(v=VS.95)
 ms:contentKeyID: 46307583

@@ -1,6 +1,7 @@
 ---
 title: SchedulerInfo Constructor (JobScheduler) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (JobScheduler)
+description: "The SchedulerInfo constructor initializes a new instance of the SchedulerInfo class using the specified job scheduling information."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(Microsoft.Web.Media.TransformManager.JobScheduler)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35520957

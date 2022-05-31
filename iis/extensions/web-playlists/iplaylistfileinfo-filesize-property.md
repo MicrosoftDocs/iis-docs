@@ -1,5 +1,6 @@
 ---
 title: IPlaylistFileInfo::FileSize Property
+description: This article contains information about arguments, return value, and requirements for the IPlaylistFileInfo::FileSize property.
 TOCTitle: IPlaylistFileInfo::FileSize Property
 ms:assetid: 68be47e6-6405-4f61-9747-60dfc046a0b4
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146273(v=VS.90)

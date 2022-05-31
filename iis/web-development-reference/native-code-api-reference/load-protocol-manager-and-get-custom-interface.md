@@ -1,6 +1,7 @@
 ---
 title: "IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface method and details its syntax and requirements."
+ms.date: 10/07/2016
 ms.assetid: load-protocol-manager-and-get-custom-interface
 ---
 # IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method

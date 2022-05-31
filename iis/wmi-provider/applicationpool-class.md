@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPool Class1"
+description: This article describes the syntax, methods, properties, inheritance, and requirements for the ApplicationPool Class1.
 ms.date: "10/07/2016"
 ms.assetid: 73b72766-1004-e849-25e6-6984a483a6bb
 ---

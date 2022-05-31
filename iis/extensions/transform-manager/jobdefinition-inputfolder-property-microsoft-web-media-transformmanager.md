@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
+description: "The JobDefinition.InputFolder property gets or sets the input folder name. This type supports the IIS Transform Manager infrastructure."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.inputfolder(v=VS.90)
 ms:contentKeyID: 35520603

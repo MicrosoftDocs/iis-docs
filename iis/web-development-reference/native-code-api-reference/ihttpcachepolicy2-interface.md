@@ -1,6 +1,7 @@
 ---
-title: "IHttpCachePolicy2 Interface"
-ms.date: "10/07/2016"
+title: IHttpCachePolicy2 Interface
+description: Describes the IHttpCachePolicy2 interface and details the syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 873a0b2a-1dc8-482d-9adc-f407645ba6db
 ---
 # IHttpCachePolicy2 Interface

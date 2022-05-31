@@ -1,5 +1,6 @@
 ---
 title: "Windows Process Activation Service API Reference"
+description: this section describes the functions and interfaces that support the IIS Windows Process Activation Service (WAS).  
 ms.date: "10/07/2016"
 ms.assetid: e5f291e0-85be-ef5d-4b1f-983483b94f63
 ---

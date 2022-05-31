@@ -1,6 +1,7 @@
 ---
 title: ChunkRequestType Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkRequestType Enumeration
+description: "The ChunkRequestType enumeration represents the chunk type for a download request. This article describes its syntax, members, and version information."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkRequestType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkrequesttype(v=VS.95)
 ms:contentKeyID: 46307936

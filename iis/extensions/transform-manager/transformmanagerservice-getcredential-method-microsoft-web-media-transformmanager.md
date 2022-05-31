@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.GetCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetCredential Method
+description: "The TransformManagerService.GetCredential method returns a Credential object from the credential store of the service account."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetCredential(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getcredential(v=VS.90)
 ms:contentKeyID: 35520826

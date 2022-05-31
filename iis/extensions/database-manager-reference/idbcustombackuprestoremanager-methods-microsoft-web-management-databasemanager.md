@@ -1,5 +1,6 @@
 ---
 title: IDbCustomBackupRestoreManager Methods (Microsoft.Web.Management.DatabaseManager)
+description: This article lists the methods exposed by the IDbCustomBackupRestoreManager type.
 TOCTitle: IDbCustomBackupRestoreManager Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbcustombackuprestoremanager_methods(v=VS.90)

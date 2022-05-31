@@ -1,5 +1,6 @@
 ---
 title: Value Element
+description: Learn how the Value element specifies a publishing point state (Idle, Starting, Started, Stopping, Stopped, ShuttingDown, or Error).
 TOCTitle: Value Element
 ms:assetid: ae8e56ef-7713-45a9-9840-6976569ae5b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547056(v=VS.90)

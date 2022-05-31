@@ -1,5 +1,6 @@
 ---
 title: "Application Host Administration API Reference"
+description: "This section of the IIS SDK discusses the API that developers use to access the application host configuration data and configuration schema of IIS 7 and IIS 8."
 ms.date: "10/07/2016"
 ms.assetid: 6481cdd7-cd68-458e-b884-d3123cbc63b5
 ---

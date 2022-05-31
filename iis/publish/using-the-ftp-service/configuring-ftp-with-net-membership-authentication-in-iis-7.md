@@ -1,7 +1,7 @@
 ---
-title: "Configuring FTP with .NET Membership Authentication in IIS 7"
+title: Configuring FTP with .NET Membership Authentication in IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to configure a default web site for FTP membership-based authentication in IIS 7 on Windows Server 2008.
 ms.date: 03/09/2008
 ms.assetid: aae75692-8895-45f2-b3d4-027e22295a5a
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7
@@ -103,7 +103,7 @@ If you do not already have an ASP.NET database created, you need to build the AS
     [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample3.cmd)]
 
 > [!NOTE]
-> To use a remote SQL server instead of "localhost" as shown in the above example, see the "Deployment Considerations" section in the [How To: Use Forms Authentication with SQL Server in ASP.NET 2.0](https://docs.microsoft.com/previous-versions/msp-n-p/ff649314(v=pandp.10)) article.
+> To use a remote SQL server instead of "localhost" as shown in the above example, see the "Deployment Considerations" section in the [How To: Use Forms Authentication with SQL Server in ASP.NET 2.0](/previous-versions/msp-n-p/ff649314(v=pandp.10)) article.
 
 Because the COM process for FTP extensibility runs as "NT AUTHORITY\Network Service", you need to add the "NT AUTHORITY\Network Service" account to the ASP.NET database on your SQL Server. To do so, use the following steps:
 

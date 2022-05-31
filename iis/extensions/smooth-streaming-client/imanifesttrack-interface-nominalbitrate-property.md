@@ -1,5 +1,6 @@
 ---
 title: IManifestTrack Interface.NominalBitrate Property
+description: Describes the IManifestTrackInterface.NominalBitrate property and provides the propety's syntax, property value, and requirements.
 TOCTitle: NominalBitrate Property
 ms:assetid: fc5ffd8f-5383-40c6-94ec-af4dd9b2bfc0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822877(v=VS.90)

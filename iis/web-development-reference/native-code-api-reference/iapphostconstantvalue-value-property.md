@@ -1,5 +1,6 @@
 ---
 title: "IAppHostConstantValue::Value Property"
+description: "The IAppHostConstantValueValue property gets the integer value of the constant. This article describes its syntax, return value, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: a540d2e6-00a4-4578-9d83-3e643fea3a43
 ---

@@ -1,6 +1,7 @@
 ---
-title: "HiddenSegmentSettings Class"
-ms.date: "10/07/2016"
+title: HiddenSegmentSettings Class
+description: Describes the HiddenSegmentSettings class and provides the class' syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7f823d68-e495-4a02-88ef-668c815bd569
 ---
 # HiddenSegmentSettings Class

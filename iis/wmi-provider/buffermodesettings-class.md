@@ -1,5 +1,6 @@
 ---
 title: "BufferModeSettings Class"
+description: "This article details syntax, methods, properties, remarks, inheritance hierarchy, and requirements for the BufferModeSettings Class."
 ms.date: "10/07/2016"
 ms.assetid: 97d41b09-44b6-aad9-fd73-bac199c58a7a
 ---

@@ -1,6 +1,7 @@
 ---
 title: "IPmListenerChannelManager::StopListenerChannel Method"
-ms.date: "10/07/2016"
+description: "Describes the IPmListenerChannelManager::StopListenerChannel method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: f3e7d5df-2305-dc17-d52d-22e068ecf9b0
 ---
 # IPmListenerChannelManager::StopListenerChannel Method

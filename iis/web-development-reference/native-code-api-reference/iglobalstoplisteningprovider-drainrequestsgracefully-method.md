@@ -1,5 +1,6 @@
 ---
 title: "IGlobalStopListeningProvider::DrainRequestsGracefully Method"
+description: Learn how the IGlobalStopListeningProvider::DrainRequestsGracefully method indicates whether IIS will gracefully close any currently pending requests. 
 ms.date: "10/07/2016"
 ms.assetid: 047b08d2-bc6e-f885-038c-0bf55226a2a9
 ---

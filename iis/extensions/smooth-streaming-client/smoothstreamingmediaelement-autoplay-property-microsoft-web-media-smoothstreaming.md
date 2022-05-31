@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.AutoPlay Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the AutoPlay property and provides the property's namespace, assembly, syntax, remarks, version information, and permissions.
 TOCTitle: AutoPlay Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlay
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.autoplay(v=VS.90)

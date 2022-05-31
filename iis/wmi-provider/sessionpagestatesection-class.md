@@ -1,6 +1,7 @@
 ---
-title: "SessionPageStateSection Class"
-ms.date: "10/07/2016"
+title: SessionPageStateSection Class
+description: Describes the SessionPageStateSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: bc5f5d1b-1025-099b-4772-d8e6429f3927
 ---
 # SessionPageStateSection Class

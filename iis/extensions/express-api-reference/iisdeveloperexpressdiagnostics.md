@@ -1,5 +1,6 @@
 ---
 title: "IISDeveloperExpressDiagnostics"
+description: "The IISDeveloperExpressDiagnostics returns diagnostics information for web server startup failures."
 ms.date: "10/07/2016"
 ms.assetid: 504dde57-cd9d-4bcf-bbb9-6ca3357a4c6b
 ---

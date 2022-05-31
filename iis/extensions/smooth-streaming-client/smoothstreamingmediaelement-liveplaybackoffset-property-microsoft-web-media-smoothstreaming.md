@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.LivePlaybackOffset Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackOffset Property
+description: Gets or sets how far back from the live position.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackOffset
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackoffset(v=VS.90)
 ms:contentKeyID: 33674271

@@ -1,6 +1,7 @@
 ---
 title: "IProcessHost::StartApplication Method"
-ms.date: "10/07/2016"
+description: "Describes the IProcessHost::StartApplication method and details the syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 37eb4762-b0a0-286e-ed01-c57f159504a2
 ---
 # IProcessHost::StartApplication Method

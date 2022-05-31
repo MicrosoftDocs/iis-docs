@@ -1,5 +1,6 @@
 ---
-title: INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]
+title: "INativeConfigurationElementCollection::NotUsed4 Method [IIS 7]"
+description: "Describes the INativeConfigurationElementCollection::NotUsed4 method and details its parameters, return value, remarks, and requirements."
 TOCTitle: INativeConfigurationElementCollection::NotUsed4 Method
 ms:assetid: f37ffd70-3a02-4b28-a65f-d5e798ec2e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424824(v=VS.90)

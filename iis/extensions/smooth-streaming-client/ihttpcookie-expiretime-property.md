@@ -1,5 +1,6 @@
 ---
 title: IHttpCookie.ExpireTime Property
+description: Describes the IHttpCookie.ExpireTime property and provides the property's syntax, property value, and requirements.
 TOCTitle: ExpireTime Property
 ms:assetid: c2b8ba4d-7fde-4104-994d-6e708b6766ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822827(v=VS.90)

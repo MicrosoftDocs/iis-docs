@@ -1,6 +1,7 @@
 ---
 title: ManifestStream.SelectedTracks Property
 TOCTitle: SelectedTracks Property
+description: "The ManifestStream.SelectedTracks property gets the selected tracks in the current stream. This article describes its syntax, property value, and requirements."
 ms:assetid: 0c5ad117-bcae-4f9f-97ee-335f3aee7a7d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822676(v=VS.90)
 ms:contentKeyID: 50079431

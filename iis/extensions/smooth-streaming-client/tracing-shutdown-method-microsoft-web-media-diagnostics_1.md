@@ -1,6 +1,7 @@
 ---
 title: Tracing.Shutdown Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Shutdown Method
+description: "The Tracing.Shutdown method shuts down tracing facilities and flushes any pending data to its destination."
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Shutdown
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.shutdown(v=VS.95)
 ms:contentKeyID: 46307623

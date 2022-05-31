@@ -1,6 +1,7 @@
 ---
 title: OuputStream Element
 TOCTitle: OuputStream Element
+description: "The OuputStream element provides summary information about a Smooth Streaming output stream."
 ms:assetid: 15d02f09-79ab-46b1-b299-900e7d7118ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547026(v=VS.90)
 ms:contentKeyID: 37836867

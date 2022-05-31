@@ -1,6 +1,7 @@
 ---
 title: "IWebSocketContext::SendConnectionClose Method"
-ms.date: "10/07/2016"
+description: "Describes the IWebSocketContext::SendConnectionClose method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: e2870934-24f9-4e42-a9eb-affe437eccc6
 ---
 # IWebSocketContext::SendConnectionClose Method

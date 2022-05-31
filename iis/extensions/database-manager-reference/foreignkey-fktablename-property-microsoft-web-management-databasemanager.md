@@ -1,6 +1,7 @@
 ---
 title: ForeignKey.FKTableName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: FKTableName Property
+description: "The FKTableName property gets or sets the table name for a foreign key. This article describes its syntax, permissions, and gives examples."
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKTableName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.fktablename(v=VS.90)
 ms:contentKeyID: 20476403

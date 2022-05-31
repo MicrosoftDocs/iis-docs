@@ -1,5 +1,6 @@
 ---
 title: Scheduler.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the SubmitJob method submits the job to the scheduler, as well as details about its syntax and property value.
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SubmitJob(Microsoft.Web.Media.TransformManager.JobManifest)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.submitjob(v=VS.90)

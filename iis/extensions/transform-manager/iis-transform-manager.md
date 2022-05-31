@@ -1,5 +1,6 @@
 ---
 title: IIS Transform Manager
+description: Learn how the IIS Transform Manager provides an extensible platform for scheduling and running tasks in sequence on an IIS server using a local task scheduler.
 TOCTitle: IIS Transform Manager
 ms:assetid: 7b5a31ee-d436-46c3-ad77-86070e434478
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728121(v=VS.90)

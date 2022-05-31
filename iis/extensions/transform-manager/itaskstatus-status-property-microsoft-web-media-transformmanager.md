@@ -1,6 +1,7 @@
 ---
 title: ITaskStatus.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
+description: "The Status property gets the status of the task. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.Status
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.itaskstatus.status(v=VS.90)
 ms:contentKeyID: 35521129

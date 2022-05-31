@@ -1,6 +1,7 @@
 ---
 title: QueryColumnMetadata Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryColumnMetadata Constructor
+description: "The QueryColumnMetadata constructor creates a new instance of the QueryColumnMetadata class. This article describes its syntax and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata.querycolumnmetadata(v=VS.90)
 ms:contentKeyID: 20476739

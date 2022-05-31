@@ -1,5 +1,6 @@
 ---
 title: CircularList(T).Add Method  (Microsoft.Web.Media.Diagnostics)
+description: Learn how the Add method has been deprecated and is not to be used.
 TOCTitle: Add Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.Add(`0)
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728132(v=VS.90)

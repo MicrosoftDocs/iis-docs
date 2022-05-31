@@ -1,5 +1,6 @@
 ---
-title: ProtectionHeader Class (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader Class | Microsoft.Web.Media.SmoothStreaming
+description: "This article shares the inheritance hierarchy, syntax, constructors, properties, methods, version information, and thread safety for the ProtectionHeader Class, which are headers for ProtectionInfo digital rights management objects."
 TOCTitle: ProtectionHeader Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.protectionheader(v=VS.90)
@@ -24,7 +25,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ProtectionHeader Class
+# ProtectionHeader Class | Microsoft.Web.Media.SmoothStreaming
 
 Headers for [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md) digital rights management objects.
 

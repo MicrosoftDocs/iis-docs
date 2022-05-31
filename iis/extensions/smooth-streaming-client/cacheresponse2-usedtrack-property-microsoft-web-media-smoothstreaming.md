@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2.UsedTrack Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheResponse2.UsedTrack property and details its syntax, property value, remarks, and Silverlight information.
 TOCTitle: UsedTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.UsedTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2.usedtrack(v=VS.95)

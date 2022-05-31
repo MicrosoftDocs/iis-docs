@@ -1,6 +1,7 @@
 ---
 title: Modules Element
 TOCTitle: Modules Element
+description: "The Modules Element lists the currently processing modules. This article describes its child elements, parent element, and example."
 ms:assetid: 8716d579-56d4-4cfc-9e2d-544cdfa314e8
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547049(v=VS.90)
 ms:contentKeyID: 37836890

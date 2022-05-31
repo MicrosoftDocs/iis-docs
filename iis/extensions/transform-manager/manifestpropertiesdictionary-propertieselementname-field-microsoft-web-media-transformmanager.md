@@ -1,6 +1,7 @@
 ---
 title: ManifestPropertiesDictionary.PropertiesElementName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: PropertiesElementName Field
+description: "The ManifestPropertiesDictionary.PropertiesElementName field represents a constant that is used with task definitions and job templates."
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.PropertiesElementName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.propertieselementname(v=VS.90)
 ms:contentKeyID: 35521179

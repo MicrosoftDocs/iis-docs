@@ -1,5 +1,6 @@
 ---
 title: QueryColumnMetadata Class (Microsoft.Web.Management.DatabaseManager)
+description: The QueryColumnMetadata Class represents the metadata for a column within a query result. This article outlines its syntax, inheritance hierarchy, constructors, properties, remarks, and a code example.
 TOCTitle: QueryColumnMetadata Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.querycolumnmetadata(v=VS.90)

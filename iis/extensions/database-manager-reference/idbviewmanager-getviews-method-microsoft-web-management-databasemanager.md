@@ -1,5 +1,6 @@
 ---
 title: IDbViewManager.GetViews Method  (Microsoft.Web.Management.DatabaseManager)
+description: This article has information about syntax, return value, parameters, and permissions for the IDbViewManager.GetViews method.
 TOCTitle: GetViews Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.GetViews(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbviewmanager.getviews(v=VS.90)

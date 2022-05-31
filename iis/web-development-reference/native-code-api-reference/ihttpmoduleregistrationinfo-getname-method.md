@@ -1,5 +1,6 @@
 ---
 title: "IHttpModuleRegistrationInfo::GetName Method"
+description: "Describes the IHttpModuleRegistrationInfo::GetName method and details its syntax, parameters, return value, remarks, code example, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 7b712ccb-f82e-894f-18cf-4c123c78b38e
 ---

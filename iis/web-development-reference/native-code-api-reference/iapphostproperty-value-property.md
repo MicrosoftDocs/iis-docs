@@ -1,5 +1,6 @@
 ---
 title: "IAppHostProperty::Value Property"
+description: IAppHostProperty::Value Property gets or sets the value of the current property. 
 ms.date: "10/07/2016"
 ms.assetid: faa2afd0-3e3a-cf4e-7d1b-9832d325edcc
 ---

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate
+description: "The SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler delegate represents the event handler signature for a SetPlaybackRangeAsync operation."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrangecompletedeventhandler(v=VS.95)
 ms:contentKeyID: 46307961

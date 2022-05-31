@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext3::GetNamedContextContainer Method"
+description: IHttpContext3::GetNamedContextContainer Method retrieves a container of named context objects.
 ms.date: "10/07/2016"
 ms.assetid: e2d27fe0-83f6-4716-a137-85aa39f2a064
 ---

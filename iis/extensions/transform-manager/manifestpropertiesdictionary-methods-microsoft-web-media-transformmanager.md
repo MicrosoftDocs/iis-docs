@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Methods (Microsoft.Web.Media.TransformManager)
+description: Describes the ManifestPropertiesDictionary methods and provides lists of methods and explicit interface implementations.
 TOCTitle: ManifestPropertiesDictionary Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary_methods(v=VS.90)

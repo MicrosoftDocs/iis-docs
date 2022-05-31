@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.Subtype Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the StreamInfo.Subtype property (Microsoft.Web.Media.SmoothStreaming) gets or sets the Subtype property.
 TOCTitle: Subtype Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Subtype
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.subtype(v=VS.90)

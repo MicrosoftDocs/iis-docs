@@ -1,5 +1,6 @@
 ---
 title: View.Schema Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax, property value, and permissions for the View.Schema property. 
 TOCTitle: Schema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.View.Schema
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.view.schema(v=VS.90)

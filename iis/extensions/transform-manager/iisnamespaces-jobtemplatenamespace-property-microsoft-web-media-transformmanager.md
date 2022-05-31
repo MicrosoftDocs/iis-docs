@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.JobTemplateNamespace Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the IisNamespaces.JobTemplateNamespace property, with links to reference materials.
 TOCTitle: JobTemplateNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobTemplateNamespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.jobtemplatenamespace(v=VS.90)

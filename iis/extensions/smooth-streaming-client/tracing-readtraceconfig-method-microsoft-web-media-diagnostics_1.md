@@ -1,6 +1,7 @@
 ---
 title: Tracing.ReadTraceConfig Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ReadTraceConfig Method
+description: "The Tracing.ReadTraceConfig Method reads trace configuration settings. An overload list is provided."
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.95)
 ms:contentKeyID: 46307703

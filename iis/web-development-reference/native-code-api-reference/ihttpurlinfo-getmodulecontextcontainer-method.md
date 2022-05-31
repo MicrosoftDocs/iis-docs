@@ -1,6 +1,7 @@
 ---
 title: "IHttpUrlInfo::GetModuleContextContainer Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpURLInfo::GetModuleContextContainer Method and details the syntax, parameters, and exceptions associated with the method."
+ms.date: 10/07/2016
 ms.assetid: a6ecf78b-415f-32f2-58f2-ee42901c8c59
 ---
 # IHttpUrlInfo::GetModuleContextContainer Method

@@ -1,6 +1,7 @@
 ---
-title: "DbProviderFactorySettings Class"
-ms.date: "10/07/2016"
+title: DbProviderFactorySettings Class
+description: Describes the DbProviderFactorySettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b9c5fbd7-3305-4d2b-a637-5f3e524f6be9
 ---
 # DbProviderFactorySettings Class

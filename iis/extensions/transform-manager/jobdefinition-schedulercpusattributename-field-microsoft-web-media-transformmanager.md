@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.SchedulerCpusAttributeName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerCpusAttributeName Field
+description: Represents a constant that is used when the scheduler cpus attribute is assigned to a job definition.
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpusAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpusattributename(v=VS.90)
 ms:contentKeyID: 35521021
