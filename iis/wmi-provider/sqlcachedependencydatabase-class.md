@@ -1,5 +1,6 @@
 ---
 title: "SqlCacheDependencyDatabase Class"
+description: 
 ms.date: "10/07/2016"
 ms.assetid: 51602b5f-115f-373d-a75a-339b91c9ff94
 ---

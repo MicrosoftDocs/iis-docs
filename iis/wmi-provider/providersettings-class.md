@@ -1,5 +1,6 @@
 ---
 title: "ProviderSettings Class"
+description: 
 ms.date: "10/07/2016"
 ms.assetid: a55acfd1-a520-a50d-c75e-488c090f1c6c
 ---

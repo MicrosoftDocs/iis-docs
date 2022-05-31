@@ -1,5 +1,6 @@
 ---
-title: Manifest.Duration Property
+title: Manifest.Duration Property 
+description: Describes the code and syntax for the Manifest.Duration property which provides the manifest 'Duration' field.
 TOCTitle: Duration Property
 ms:assetid: c42cdbf6-b062-4b3e-a518-f87647ff35ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822832(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: 
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.HpcScheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.dispose(v=VS.90)

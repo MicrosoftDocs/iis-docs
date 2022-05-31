@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeDate Field (Microsoft.Web.Media.Diagnostics)
+description: 
 TOCTitle: IncludeDate Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeDate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includedate(v=VS.90)

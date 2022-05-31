@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.SchedulerCpuNodes Field (Microsoft.Web.Media.TransformManager)
+description: 
 TOCTitle: SchedulerCpuNodes Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuNodes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpunodes(v=VS.90)

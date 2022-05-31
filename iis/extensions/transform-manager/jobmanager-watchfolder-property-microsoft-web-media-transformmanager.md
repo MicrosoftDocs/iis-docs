@@ -1,5 +1,6 @@
 ---
 title: JobManager.WatchFolder Property (Microsoft.Web.Media.TransformManager)
+description: 
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.WatchFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.watchfolder(v=VS.90)

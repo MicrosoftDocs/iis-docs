@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.DownloadTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: 
 TOCTitle: DownloadTrackChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadTrackChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.downloadtrackchanged(v=VS.95)

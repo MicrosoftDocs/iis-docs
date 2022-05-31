@@ -1,5 +1,6 @@
 ---
 title: PullFrom Element
+description: 
 TOCTitle: PullFrom Element
 ms:assetid: e0cca581-de00-453c-b89f-7db1127bdb8e
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547068(v=VS.90)

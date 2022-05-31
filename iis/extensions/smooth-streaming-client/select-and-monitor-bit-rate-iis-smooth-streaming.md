@@ -1,5 +1,6 @@
 ---
 title: Select and Monitor Bit Rate (IIS Smooth Streaming)
+description: Discusses the Select and Monitor Bit Rate of Smooth Streaming media, automatically adjusting to the bandwidth.
 TOCTitle: Select and Monitor Bit Rate (IIS Smooth Streaming)
 ms:assetid: e2d27108-4d9b-4fca-9f10-a638f7232032
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff182017(v=VS.90)

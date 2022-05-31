@@ -1,5 +1,6 @@
 ---
 title: Tracing.Trace Method (String, String, TraceArea, TraceLevel, String) (Microsoft.Web.Media.Diagnostics)
+description: 
 TOCTitle: Trace Method (String, String, TraceArea, TraceLevel, String)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Trace(System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.95)

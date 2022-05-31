@@ -1,5 +1,6 @@
 ---
 title: "CentralBinaryLogFile Class1"
+description: 
 ms.date: "10/07/2016"
 ms.assetid: d4a0f006-fd94-007a-5d82-3cd577bbd014
 ---
