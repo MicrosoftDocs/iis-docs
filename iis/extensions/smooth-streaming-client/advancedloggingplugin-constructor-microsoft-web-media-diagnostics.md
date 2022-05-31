@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin Constructor  (Microsoft.Web.Media.Diagnostics)
+description: Discusses the syntax for the AdvancedLoggingPlugin constructor which initializes a new instance of the AdvancedLoggingPlugin class.
 TOCTitle: AdvancedLoggingPlugin Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.advancedloggingplugin(v=VS.90)

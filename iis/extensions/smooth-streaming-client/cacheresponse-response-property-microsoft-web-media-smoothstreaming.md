@@ -1,5 +1,6 @@
 ---
 title: CacheResponse.Response Property (Microsoft.Web.Media.SmoothStreaming)
+description: Discusses the syntax and code for the Response property which is a Stream object that contains a response.
 TOCTitle: Response Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.response(v=VS.90)

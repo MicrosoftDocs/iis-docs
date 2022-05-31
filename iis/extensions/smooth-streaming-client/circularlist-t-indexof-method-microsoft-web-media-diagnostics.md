@@ -1,5 +1,6 @@
 ---
 title: CircularList(T).IndexOf Method  (Microsoft.Web.Media.Diagnostics)
+description: List the IndexOf methods and links to additional resources for an explanation of code and syntax for each one.
 TOCTitle: IndexOf Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.IndexOf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728271(v=VS.90)
