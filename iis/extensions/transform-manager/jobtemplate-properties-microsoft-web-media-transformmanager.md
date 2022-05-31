@@ -1,5 +1,6 @@
 ---
 title: JobTemplate Properties (Microsoft.Web.Media.TransformManager)
+description: This article outlines members exposed by the JobTemplate properties. There are also links to reference materials.
 TOCTitle: JobTemplate Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobTemplate
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate_properties(v=VS.90)

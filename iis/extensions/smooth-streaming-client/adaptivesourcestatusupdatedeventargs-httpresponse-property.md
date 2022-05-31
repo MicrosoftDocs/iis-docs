@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs.HttpResponse Property
+description: Describes the AdaptiveSourceStatusUpdatedEventArgs.HttpResponse property and provides the property's syntax and requirements.
 TOCTitle: HttpResponse Property
 ms:assetid: 85bf1410-b7a9-463d-8caa-dad5025b2deb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822767(v=VS.90)

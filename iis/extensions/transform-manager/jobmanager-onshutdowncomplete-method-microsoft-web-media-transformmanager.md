@@ -1,5 +1,6 @@
 ---
 title: JobManager.OnShutdownComplete Method  (Microsoft.Web.Media.TransformManager)
+description: the OnShutdownComplete Method raises the Shutdown Complete event.
 TOCTitle: OnShutdownComplete Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManager.OnShutdownComplete(System.EventArgs)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.onshutdowncomplete(v=VS.90)

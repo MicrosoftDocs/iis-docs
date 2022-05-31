@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementSchema::PropertySchemas Property"
-ms.date: "10/07/2016"
+description: "Describes the IAppHostElementSchema::PropertySchemas property and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 93560530-ef5b-4412-aad3-34ea563e7f73
 ---
 # IAppHostElementSchema::PropertySchemas Property

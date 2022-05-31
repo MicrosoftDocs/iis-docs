@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Methods (Microsoft.Web.Media.SmoothStreaming)
+description: This article outlines the members exposed by the CacheRequest type, as well as links to additional reference materials. 
 TOCTitle: CacheRequest Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest_methods(v=VS.95)

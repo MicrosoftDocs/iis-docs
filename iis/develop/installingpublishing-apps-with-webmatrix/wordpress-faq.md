@@ -1,7 +1,7 @@
 ---
-title: "WordPress FAQ"
+title: WordPress FAQ
 author: rick-anderson
-description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+description: Provides a list of frequently asked questions and answers regarding WordPress installation, configuration, and known issues.
 ms.date: 07/06/2010
 ms.assetid: 05415d6c-c1f1-4a0c-9e92-2d14a5b8fbb6
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/wordpress-faq

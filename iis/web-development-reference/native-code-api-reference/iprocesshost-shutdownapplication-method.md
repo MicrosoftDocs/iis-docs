@@ -1,6 +1,7 @@
 ---
 title: "IProcessHost::ShutdownApplication Method"
-ms.date: "10/07/2016"
+description: "Describes the IProcessHost::ShutdownApplication method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a6dd9fa1-f163-34e4-d6c7-48aea0e10d16
 ---
 # IProcessHost::ShutdownApplication Method

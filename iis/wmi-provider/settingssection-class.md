@@ -1,5 +1,6 @@
 ---
 title: "SettingsSection Class"
+description: "This article lists syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SettingSection Class, which contains information specified in the protection element inside the manifest."
 ms.date: "10/07/2016"
 ms.assetid: 437b7c23-a582-c80c-c23d-15610b504be2
 ---

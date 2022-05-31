@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.AdaptiveSourceManagerFailedEvent Event
+description: Learn how the AdaptiveSourceManager.AdaptiveSourceManagerFailedEvent event adds or removes a subscription to AdaptiveSourceManagerFailedEvent events.
 TOCTitle: AdaptiveSourceManagerFailedEvent Event
 ms:assetid: 1c56fae3-c783-4385-bafb-833ccfb11455
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822692(v=VS.90)

@@ -1,6 +1,7 @@
 ---
-title: "IHttpTraceContext Interface"
-ms.date: "10/07/2016"
+title: IHttpTraceContext Interface
+description: Describes the IHttpTraceContext interface and details its syntax, methods, derived classes, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 2bd121f6-32df-4f18-9cad-b83b82dd61e2
 ---
 # IHttpTraceContext Interface

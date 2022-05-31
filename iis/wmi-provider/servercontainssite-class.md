@@ -1,6 +1,7 @@
 ---
-title: "ServerContainsSite Class1"
-ms.date: "10/07/2016"
+title: ServerContainsSite Class1
+description: Describes the ServerContainsSite class and provides the class' syntax, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: bde6c297-ab07-6523-36ca-985f9d415995
 ---
 # ServerContainsSite Class1

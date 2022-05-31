@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetModuleContextContainer Method"
+description: Learn how the GetModuleContextContainer method retrieves the module context container for the current context.
 ms.date: "10/07/2016"
 ms.assetid: aeb2d019-fc00-af06-c238-a6567fda4a1b
 ---

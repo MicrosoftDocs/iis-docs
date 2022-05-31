@@ -1,6 +1,7 @@
 ---
 title: TrackInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackInfo Class
+description: "The TrackInfo class represents track information that corresponds to the QualityLevel element of the client manifest."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo(v=VS.95)
 ms:contentKeyID: 46307958

@@ -1,5 +1,6 @@
 ---
 title: IJobManifest.Initialize Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Initialize method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobManifest.Initialize(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ijobmanifest.initialize(v=VS.90)

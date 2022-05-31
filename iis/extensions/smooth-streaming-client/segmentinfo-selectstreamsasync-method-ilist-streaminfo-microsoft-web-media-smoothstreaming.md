@@ -1,5 +1,6 @@
 ---
 title: SegmentInfo.SelectStreamsAsync Method (IList(StreamInfo)) (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SelectStreamsAsync method (IList(StreamInfo)) initializes a new instance of the SegmentInfo class.
 TOCTitle: SelectStreamsAsync Method (IList(StreamInfo))
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.StreamInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo.selectstreamsasync(v=VS.90)

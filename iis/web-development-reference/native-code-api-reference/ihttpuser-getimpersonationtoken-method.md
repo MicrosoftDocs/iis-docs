@@ -1,5 +1,6 @@
 ---
 title: "IHttpUser::GetImpersonationToken Method"
+description: IHttpUser::GetImpersonationToken Method returns the user impersonation token.
 ms.date: "10/07/2016"
 ms.assetid: 25f33eb6-64ac-aae2-92fe-8d4e03a1142e
 ---

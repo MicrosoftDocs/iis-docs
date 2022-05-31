@@ -1,6 +1,7 @@
 ---
 title: JobMetadata Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobMetadata Methods
+description: Describes the methods and reference information for the JobMetadata methods.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.JobMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata_methods(v=VS.90)
 ms:contentKeyID: 35520754

@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.UpdateJobTemplate Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the UpdateJobTemplate method adds or replaces a JobTemplate object.
 TOCTitle: UpdateJobTemplate Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobTemplate(Microsoft.Web.Media.TransformManager.JobTemplate)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.updatejobtemplate(v=VS.90)

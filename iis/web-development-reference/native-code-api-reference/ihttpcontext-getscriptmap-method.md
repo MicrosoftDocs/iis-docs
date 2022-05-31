@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetScriptMap Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetScriptMap method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 40fada80-5a67-0c1c-d9cd-0bfedf8ffcd1
 ---
 # IHttpContext::GetScriptMap Method

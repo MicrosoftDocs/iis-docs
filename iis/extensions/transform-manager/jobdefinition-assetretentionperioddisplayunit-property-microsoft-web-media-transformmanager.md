@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.AssetRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: AssetRetentionPeriodDisplayUnit Property
+description: "The AssetRetentionPeriodDisplayUnit property gets or sets a value that indicates how long the assets that are associated with a job are retained."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.assetretentionperioddisplayunit(v=VS.90)
 ms:contentKeyID: 35521131

@@ -1,6 +1,7 @@
 ---
 title: "IWpfReferencedObject::AddRef Method"
-ms.date: "10/07/2016"
+description: "Describes the IWpfReferencedObject::AddRef method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: b3763115-f15c-2435-ed9e-6152229a696a
 ---
 # IWpfReferencedObject::AddRef Method

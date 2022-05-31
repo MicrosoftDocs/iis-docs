@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.DeleteJobScheduler Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the DeleteJobScheduler method and provides the method's namespace, assembly, syntax, parameters, what the method implements, and exceptions.
 TOCTitle: DeleteJobScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteJobScheduler(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.deletejobscheduler(v=VS.90)

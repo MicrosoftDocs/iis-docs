@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.RequestLog Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the RequestLog method and provides the method's namespace, assembly, syntax, remarks, version information and permissions.
 TOCTitle: RequestLog Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RequestLog
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.requestlog(v=VS.90)

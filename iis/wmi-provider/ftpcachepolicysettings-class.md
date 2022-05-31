@@ -1,5 +1,6 @@
 ---
 title: "FtpCachePolicySettings Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the FtpCachePolicySettings class.
 ms.date: "10/07/2016"
 ms.assetid: bcc87d56-7455-34dd-d844-bb0a439ea2d2
 ---

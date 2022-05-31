@@ -1,5 +1,6 @@
 ---
 title: 'Walkthrough: Building Your First HTML5 Smooth Streaming Player'
+description: Learn how to use the Microsoft Smooth Streaming Client SDK for Windows 8 to build a basic HTML5 Smooth Streaming player application. 
 TOCTitle: 'Walkthrough: Building Your First HTML5 Smooth Streaming Player'
 ms:assetid: 0aadb8fd-c8d1-419d-9462-c13ae7f927d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ573656(v=VS.90)

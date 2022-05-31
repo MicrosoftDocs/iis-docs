@@ -1,6 +1,7 @@
 ---
 title: JobManager.TemplateId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TemplateId Property
+description: "The JobManager.TemplateId property gets the ID of the job template that the JobDefinition object uses."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.TemplateId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.templateid(v=VS.90)
 ms:contentKeyID: 35521041

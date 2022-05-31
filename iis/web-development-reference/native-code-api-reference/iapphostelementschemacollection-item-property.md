@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementSchemaCollection::Item Property"
+description: Learn how the IAppHostElementSchemaCollection::Item property gets the IAppHostElementSchema Interface with the requested index or property name in the collection.
 ms.date: "10/07/2016"
 ms.assetid: 49cd2a06-8bb9-4bab-9d0d-b49b5045bb35
 ---

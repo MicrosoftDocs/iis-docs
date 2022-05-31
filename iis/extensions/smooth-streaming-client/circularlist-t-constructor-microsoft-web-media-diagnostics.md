@@ -1,5 +1,6 @@
 ---
-title: CircularList(T) Constructor  (Microsoft.Web.Media.Diagnostics)
+title: CircularList(T) Constructor (Microsoft.Web.Media.Diagnostics)
+description: Describes the CircularList(T) constructor and provides the constructor's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: CircularList(T) Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.#ctor(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728288(v=VS.90)

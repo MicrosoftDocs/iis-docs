@@ -1,6 +1,7 @@
 ---
 title: "IWorkerProcessFramework::GetInterfaceVersion Method"
-ms.date: "10/07/2016"
+description: "Describes the IWorkerProcessFramework::GetInterfaceVersion method and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 9484099f-c3f4-fdbb-dc24-bfd9617a3cf5
 ---
 # IWorkerProcessFramework::GetInterfaceVersion Method

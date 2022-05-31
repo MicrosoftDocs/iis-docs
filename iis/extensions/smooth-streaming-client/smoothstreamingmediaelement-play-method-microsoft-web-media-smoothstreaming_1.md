@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Play Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Play Method
+description: Starts playing audio or video media.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Play
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.play(v=VS.95)
 ms:contentKeyID: 46307690

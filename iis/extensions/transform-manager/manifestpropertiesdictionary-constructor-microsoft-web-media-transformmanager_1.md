@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Constructor  (Microsoft.Web.Media.TransformManager)
+description: Describes the ManifestPropertiesDictionary constructor and details the constructor's namespace, assembly, and syntax. 
 TOCTitle: ManifestPropertiesDictionary Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.manifestpropertiesdictionary(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: TaskStatus.Message Property (Microsoft.Web.Media.TransformManager)
+description: Learn about the TaskStatus.Message property, specifically learn details about its syntax and property value.
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Message
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.message(v=VS.90)

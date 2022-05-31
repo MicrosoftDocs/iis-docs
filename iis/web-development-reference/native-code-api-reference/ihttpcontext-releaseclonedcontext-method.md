@@ -1,6 +1,7 @@
 ---
-title: "IHttpContext::ReleaseClonedContext Method"
-ms.date: "10/07/2016"
+title: IHttpContext::ReleaseClonedContext Method
+description: Describes the IHttpContext::ReleaseClonedContext method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: f43a4f35-dc84-d61d-09e1-cd512ee0b14a
 ---
 # IHttpContext::ReleaseClonedContext Method

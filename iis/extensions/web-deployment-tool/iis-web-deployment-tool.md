@@ -1,5 +1,6 @@
 ---
 title: IIS Web Deployment Tool
+description: Learn how the Web Deployment Tool simplifies the migration, management and deployment of IIS web servers, web applications and websites.
 TOCTitle: IIS Web Deployment Tool
 ms:assetid: 171b1dfc-4830-4207-b312-27dbc9dfa495
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh943099(v=VS.90)

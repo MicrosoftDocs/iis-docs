@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.MaintenanceIntervalMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceIntervalMinutes Property
+description: "The MaintenanceIntervalMinutes property gets or sets the number of minutes between maintenance-processing activities."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalMinutes
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceintervalminutes(v=VS.90)
 ms:contentKeyID: 35520597

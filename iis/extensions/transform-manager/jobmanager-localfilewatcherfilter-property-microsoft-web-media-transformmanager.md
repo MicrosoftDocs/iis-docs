@@ -1,5 +1,6 @@
 ---
 title: JobManager.LocalFileWatcherFilter Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and property value for the JobManager.LocalFileWatcherFilter property.
 TOCTitle: LocalFileWatcherFilter Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LocalFileWatcherFilter
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.localfilewatcherfilter(v=VS.90)

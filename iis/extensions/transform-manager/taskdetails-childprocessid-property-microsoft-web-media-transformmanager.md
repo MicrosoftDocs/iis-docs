@@ -1,5 +1,6 @@
 ---
 title: TaskDetails.ChildProcessId Property (Microsoft.Web.Media.TransformManager)
+description: "This article shows the syntax of the ChildProcessId Property, which gets or sets the ID of a child process."
 TOCTitle: ChildProcessId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.ChildProcessId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails.childprocessid(v=VS.90)

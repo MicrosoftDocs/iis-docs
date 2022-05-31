@@ -1,6 +1,7 @@
 ---
-title: "SqlCacheDependencyDatabaseSettings Class"
-ms.date: "10/07/2016"
+title: SqlCacheDependencyDatabaseSettings Class
+description: Describes the SqlCacheDependencyDatabaseSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 56136d82-beb3-4e0a-b744-e778b9af5b51
 ---
 # SqlCacheDependencyDatabaseSettings Class

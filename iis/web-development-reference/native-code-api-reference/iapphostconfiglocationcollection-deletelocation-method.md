@@ -1,6 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::DeleteLocation Method"
-ms.date: "10/07/2016"
+title: IAppHostConfigLocationCollection::DeleteLocation Method
+description: Describes the IAppHostConfigLocationCollection::DeleteLocation method and details its syntax, parameters, return value, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 45a0a7e3-d276-3522-a2cf-3fe99417996c
 ---
 # IAppHostConfigLocationCollection::DeleteLocation Method

@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.SendExtendedCommand Method
+description: Describes the syntax for the AdaptiveSourceManager.SendExtendedCommand method. It applies to Windows Store apps only. 
 TOCTitle: SendExtendedCommand Method
 ms:assetid: eb8c0537-f09d-4e22-b557-bd4d3dccb1aa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822864(v=VS.90)

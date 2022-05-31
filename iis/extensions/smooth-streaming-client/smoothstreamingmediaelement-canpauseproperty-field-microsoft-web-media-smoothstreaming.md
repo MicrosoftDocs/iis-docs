@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CanPauseProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This page represents a dependency property that specifies the CanCause()()()() property.
 TOCTitle: CanPauseProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanPauseProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canpauseproperty(v=VS.90)

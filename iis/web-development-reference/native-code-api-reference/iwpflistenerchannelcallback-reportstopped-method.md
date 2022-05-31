@@ -1,6 +1,7 @@
 ---
 title: "IWpfListenerChannelCallback::ReportStopped Method"
 ms.date: "10/07/2016"
+description: IWpfListenerChannelCallback ReportStopped Method notifies the worker process framework that a listener channel has shut down.
 ms.assetid: 2f6912a9-9207-1a0f-1f00-6e3b44b810ed
 ---
 # IWpfListenerChannelCallback::ReportStopped Method

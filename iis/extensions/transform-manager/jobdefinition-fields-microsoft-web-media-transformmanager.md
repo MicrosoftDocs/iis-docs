@@ -1,5 +1,6 @@
 ---
 title: JobDefinition Fields (Microsoft.Web.Media.TransformManager)
+description: Describes the JobDefinition fields and provides a table that outlines the name and description for various field types.
 TOCTitle: JobDefinition Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.JobDefinition
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition_fields(v=VS.90)

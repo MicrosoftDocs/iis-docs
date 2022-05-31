@@ -1,5 +1,6 @@
 ---
 title: Tracing.ReadTraceConfig Method (Uri) (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax, permissions, and version information for the Tracing.ReadTraceConfig method.
 TOCTitle: ReadTraceConfig Method (Uri)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig(System.Uri)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.readtraceconfig(v=VS.90)

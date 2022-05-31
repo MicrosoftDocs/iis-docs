@@ -1,5 +1,6 @@
 ---
 title: TaskDetails Methods (Microsoft.Web.Media.TransformManager)
+description: This article lists methods exposed by the TaskDetails type.
 TOCTitle: TaskDetails Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.TaskDetails
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails_methods(v=VS.90)

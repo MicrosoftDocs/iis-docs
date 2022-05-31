@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2.PerceivedBandwidth Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the CacheResponse2.PerceivedBandwidth property gets or sets the perceived bandwidth while downloading individual media chunks.
 TOCTitle: PerceivedBandwidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.PerceivedBandwidth
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2.perceivedbandwidth(v=VS.95)

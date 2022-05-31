@@ -1,5 +1,6 @@
 ---
 title: "IListenerChannelCallback::ReportStarted Method"
+description: "ReportStarted syntax used to notify the worker process framework that a listener channel has started."
 ms.date: "10/07/2016"
 ms.assetid: 6f90fa87-e69c-556e-5a58-f85ea72ad339
 ---

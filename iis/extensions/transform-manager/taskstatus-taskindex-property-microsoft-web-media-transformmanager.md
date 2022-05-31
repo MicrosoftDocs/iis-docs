@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
+description: "The TaskStatus.TaskIndex property gets the task index. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.taskindex(v=VS.90)
 ms:contentKeyID: 35520954

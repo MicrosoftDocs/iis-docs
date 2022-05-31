@@ -1,5 +1,6 @@
 ---
 title: "SectionInformation Class"
+description: Specifies override-mode and control-locking settings for a configuration section.
 ms.date: "10/07/2016"
 ms.assetid: 60972c6f-9cc6-142f-8889-8ceb6548b21c
 ---

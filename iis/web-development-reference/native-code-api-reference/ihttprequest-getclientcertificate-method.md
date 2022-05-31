@@ -1,6 +1,7 @@
 ---
-title: "IHttpRequest::GetClientCertificate Method"
-ms.date: "10/07/2016"
+title: IHttpRequest::GetClientCertificate Method
+description: Describes the IHttpRequest::GetClientCertificate method and provides the method's syntax, parameters, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: e75ebc13-a6b4-968c-8f0b-729ba591a57b
 ---
 # IHttpRequest::GetClientCertificate Method

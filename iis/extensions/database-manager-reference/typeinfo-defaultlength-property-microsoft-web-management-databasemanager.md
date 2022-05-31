@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.DefaultLength Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.DefaultLength property and provides the property's namespace, assembly, syntax, and permissions.
 TOCTitle: DefaultLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.defaultlength(v=VS.90)

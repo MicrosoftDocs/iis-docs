@@ -1,5 +1,6 @@
 ---
 title: Manifest.StartTime Property
+description: This article contains information on syntax, property value, and requirements for the Manifest.StartTime property.
 TOCTitle: StartTime Property
 ms:assetid: 2480315c-a759-48fd-a697-2e1348b728f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822703(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: ManifestTrack.Stream Property
 TOCTitle: Stream Property
+description: "The ManifestTrack.Stream property gets the stream object that owns this track. This article describes its syntax, property value, and requirements."
 ms:assetid: 8dea3d24-b909-40e9-a06c-659a950321b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822778(v=VS.90)
 ms:contentKeyID: 50079532

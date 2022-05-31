@@ -1,5 +1,6 @@
 ---
 title: "Native-Code API Reference"
+description: Learn how the APIs are available to native-code developers in IIS 7 and IIS 8.
 ms.date: "10/07/2016"
 ms.assetid: f35ce15b-af8a-4961-bd8d-5ee46ae41c87
 ms.author: "robmcm"

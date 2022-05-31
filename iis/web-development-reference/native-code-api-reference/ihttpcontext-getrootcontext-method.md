@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetRootContext Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetRootContext method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5f2ac4f9-4812-3c16-0cd2-8aca647cb342
 ---
 # IHttpContext::GetRootContext Method

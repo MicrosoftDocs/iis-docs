@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.Balance Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Balance Property
+description: Gets or sets the audio balance.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Balance
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balance(v=VS.90)
 ms:contentKeyID: 23960952

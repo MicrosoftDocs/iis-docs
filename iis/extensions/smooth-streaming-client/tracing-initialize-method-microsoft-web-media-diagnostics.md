@@ -1,5 +1,6 @@
 ---
 title: Tracing.Initialize Method  (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the Tracing.Initialize method, with links to reference materials.
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Initialize
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.initialize(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpContext::GetServerVarChanges Method"
+description: IHttpContext::GetServerVarChanges Method retrieves the changes to the server variables for the current context.
 ms.date: "10/07/2016"
 ms.assetid: f5f8d53a-43dd-2c55-8d7a-eb46d27ef001
 ---

@@ -1,5 +1,6 @@
 ---
 title: EventViewer.EventIdWarning Field (Microsoft.Web.Media.TransformManager)
+description: Learn how the EventIdWarning field represents a constant that is used when warning information is written to the event viewer.
 TOCTitle: EventIdWarning Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.EventViewer.EventIdWarning
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer.eventidwarning(v=VS.90)

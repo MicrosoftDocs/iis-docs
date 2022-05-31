@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter.IsOutputParameter Property (Microsoft.Web.Management.DatabaseManager)
+description: This code sample gives the syntax for the StoredProcedureParameter.IsOutputParameter property in a boolean format.
 TOCTitle: IsOutputParameter Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.isoutputparameter(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventHandler Delegate
+description: Describes the AdaptiveSourceStatusUpdatedEventHandle delegate and provides the delegate's syntax, parameters, return value, and requirements.
 TOCTitle: AdaptiveSourceStatusUpdatedEventHandler Delegate
 ms:assetid: db96706d-4659-464f-8c04-43cc8f1a7277
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822844(v=VS.90)

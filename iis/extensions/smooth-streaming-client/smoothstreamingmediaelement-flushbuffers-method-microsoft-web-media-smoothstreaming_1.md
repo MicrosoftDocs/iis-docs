@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.FlushBuffers Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: FlushBuffers Method
+description: SmoothStreamingMediaElement.FlushBuffers Method flushes audio and video buffers, retaining a specified amount of content if possible.
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.FlushBuffers(System.TimeSpan,System.Boolean,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.flushbuffers(v=VS.95)
 ms:contentKeyID: 46307679

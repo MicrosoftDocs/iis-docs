@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult.AsyncWaitHandle Property (Microsoft.Web.Media.SmoothStreaming)
+description: The SmoothStreamingAsyncResult.AsyncWaitHandle Property gets the wait handle used by the application to wait.
 TOCTitle: AsyncWaitHandle Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncWaitHandle
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.asyncwaithandle(v=VS.95)

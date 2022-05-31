@@ -1,5 +1,6 @@
 ---
 title: IManagementService.GetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
+description: Details the syntax for the GetJobTemplates method which returns all JobTemplate objects from IIS Transform Manager.
 TOCTitle: GetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobTemplates
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.getjobtemplates(v=VS.90)

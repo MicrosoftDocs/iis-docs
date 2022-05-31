@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.ManifestReadyEvent Event
+description: "This article shares the syntax of the ManifestReadyEvent Event, which adds the manifest ready event handler."
 TOCTitle: ManifestReadyEvent Event
 ms:assetid: 8b74b85d-6a03-4c6d-bd43-7287487ddb35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822774(v=VS.90)

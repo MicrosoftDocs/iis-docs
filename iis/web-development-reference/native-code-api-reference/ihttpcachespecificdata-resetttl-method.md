@@ -1,6 +1,7 @@
 ---
 title: "IHttpCacheSpecificData::ResetTTL Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCacheSpecificData::ResetTTL method and details its syntax, parameters, thread safety, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 6b8b7fce-32a3-c503-2c99-dc66de77d9ce
 ---
 # IHttpCacheSpecificData::ResetTTL Method

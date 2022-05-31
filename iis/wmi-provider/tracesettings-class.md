@@ -1,6 +1,7 @@
 ---
-title: "TraceSettings Class"
-ms.date: "10/07/2016"
+title: TraceSettings Class
+description: Describes the TraceSettings class and provides the class' syntax, properties, remarks, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 306c9960-18bb-2003-fda6-2b9a04206f6a
 ---
 # TraceSettings Class

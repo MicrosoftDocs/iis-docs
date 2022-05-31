@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingAsyncResult Properties (Microsoft.Web.Media.SmoothStreaming)
+description: "The article shows the properties exposed by the SmoothStreamingAsyncResult type, listing properties by type, name, and description."
 TOCTitle: SmoothStreamingAsyncResult Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult_properties(v=VS.95)

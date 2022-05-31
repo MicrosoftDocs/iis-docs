@@ -1,5 +1,6 @@
 ---
 title: "WPF_SETTINGS_STRING_ENUM Enumeration"
+description: Learn how the WPF_SETTINGS_STRING_ENUM enumeration defines the string values that the IWpfSettings::GetStringProperty method returns.
 ms.date: "10/07/2016"
 ms.assetid: a062423c-b707-a3ed-2db0-930c4a752cef
 ---

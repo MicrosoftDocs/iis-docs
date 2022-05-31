@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider.CalculateConnectionString Method  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information on syntax and permissions for the DatabaseProvider.CalculateConnectionString method.
 TOCTitle: CalculateConnectionString Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.CalculateConnectionString(System.Collections.Generic.ICollection{Microsoft.Web.Management.DatabaseManager.ConnectionArgument})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.calculateconnectionstring(v=VS.90)

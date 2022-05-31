@@ -1,5 +1,6 @@
 ---
 title: ISmoothStreamingCache Interface (Microsoft.Web.Media.SmoothStreaming)
+description: This article has syntax, methods, and version information for the ISmoothStreamingCache interface. There are also links to reference materials.
 TOCTitle: ISmoothStreamingCache Interface
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ismoothstreamingcache(v=VS.90)

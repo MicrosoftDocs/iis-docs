@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertyException::InvalidValue Method"
+description: Learn how the IAppHostPropertyException::InvalidValue method gets the property value that did not meet the validation criteria.
 ms.date: "10/07/2016"
 ms.assetid: 283ab332-f7b8-9833-72bb-d64209d3569d
 ---

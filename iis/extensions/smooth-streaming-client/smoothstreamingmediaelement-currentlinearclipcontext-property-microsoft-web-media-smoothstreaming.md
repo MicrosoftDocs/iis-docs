@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.CurrentLinearClipContext Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SmoothStreamingMediaElement.CurrentLinearClipContext property gets the current linear clip context.
 TOCTitle: CurrentLinearClipContext Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentLinearClipContext
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentlinearclipcontext(v=VS.95)

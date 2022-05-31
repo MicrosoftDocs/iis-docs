@@ -1,7 +1,7 @@
 ---
-title: "Configuring FTP Firewall Settings in IIS 7"
+title: Configuring FTP Firewall Settings in IIS 7
 author: rmcmurray
-description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
+description: Describes how to configure FTP firewall settings in IIS 7 and how to configure firewall settings for specific types of FTP traffic.
 ms.date: 01/15/2008
 ms.assetid: 99efc714-23a3-44f8-8752-acbc76472bf9
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7

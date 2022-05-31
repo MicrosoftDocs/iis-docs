@@ -1,6 +1,7 @@
 ---
 title: JobScheduler Properties (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobScheduler Properties
+description: Properties exposed by the JobScheduler type.
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.JobScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobscheduler_properties(v=VS.90)
 ms:contentKeyID: 35520665

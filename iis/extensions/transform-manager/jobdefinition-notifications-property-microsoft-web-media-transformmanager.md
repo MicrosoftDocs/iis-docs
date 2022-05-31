@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.Notifications Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobDefinition.Notifications property. There are also links to reference materials.
 TOCTitle: Notifications Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.Notifications
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.notifications(v=VS.90)

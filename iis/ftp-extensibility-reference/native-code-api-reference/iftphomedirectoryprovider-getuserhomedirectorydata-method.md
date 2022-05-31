@@ -1,5 +1,6 @@
 ---
 title: "IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method"
+description: Describes the IFtpHomeDirectoryProvider::GetUserHomeDirectoryData method and provides its syntax, parameters, return value, and requirements.
 ms.date: "09/06/2017"
 ms.assetid: 36671ffa-4c66-40dc-a1c5-6ecd5309e191
 ms.author: "robmcm"

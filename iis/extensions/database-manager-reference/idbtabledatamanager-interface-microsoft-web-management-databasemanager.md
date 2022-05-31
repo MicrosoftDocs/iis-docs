@@ -1,5 +1,6 @@
 ---
 title: IDbTableDataManager Interface (Microsoft.Web.Management.DatabaseManager)
+description: Describes the IDbTableDataManager interface and provides the interface's namespace, assembly, syntax, methods, and remarks.
 TOCTitle: IDbTableDataManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager(v=VS.90)

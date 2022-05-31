@@ -1,5 +1,6 @@
 ---
 title: JobMetadata.OutputFolder Property (Microsoft.Web.Media.TransformManager)
+description: Describes the OutputFolder property and provides the property's namespace, assembly, syntax, property value, and what the property implements.
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.OutputFolder
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata.outputfolder(v=VS.90)

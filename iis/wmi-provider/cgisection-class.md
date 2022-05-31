@@ -1,6 +1,7 @@
 ---
-title: "CgiSection Class"
-ms.date: "10/07/2016"
+title: CgiSection Class
+description: Describes the CgiSection class and provides the class' syntax, methods, properties, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: b0922e9c-5e4e-7ade-410c-fc702e187d95
 ---
 # CgiSection Class

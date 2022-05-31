@@ -1,5 +1,6 @@
 ---
 title: LiveCacheLength Element
+description: Describes the LiveCacheLength element and provides the element's child elements, parent elements, and remarks.
 TOCTitle: LiveCacheLength Element
 ms:assetid: d6887d5f-a0e9-430d-99dd-8f9626b953a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547065(v=VS.90)

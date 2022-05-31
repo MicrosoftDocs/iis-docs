@@ -1,6 +1,7 @@
 ---
-title: "IHttpUser::GetPrimaryToken Method"
-ms.date: "10/07/2016"
+title: IHttpUser::GetPrimaryToken Method
+description: Describes the IHttpUser::GetPrimaryToken method and provides the method's syntax, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 7fa15aa2-ade4-b5e3-afe7-262602bad788
 ---
 # IHttpUser::GetPrimaryToken Method

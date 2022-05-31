@@ -1,5 +1,6 @@
 ---
 title: INativeConfigurationElementCollection::AddRawCollectionElement Method [IIS 7]
+description: Describes the INativeConfigurationElementCollection::AddRawCollectionElement method and details its parameters, return value, and requirements. 
 TOCTitle: INativeConfigurationElementCollection::AddRawCollectionElement Method
 ms:assetid: 141e2988-fb89-4f1d-81cd-81cff6cd572a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424815(v=VS.90)

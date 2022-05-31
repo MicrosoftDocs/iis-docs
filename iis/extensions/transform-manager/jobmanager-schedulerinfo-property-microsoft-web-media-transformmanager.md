@@ -1,6 +1,7 @@
 ---
 title: JobManager.SchedulerInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Property
+description: "The SchedulerInfo property gets scheduling information about the IIS Transform Manager job. This article describes its syntax and property value."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35521100

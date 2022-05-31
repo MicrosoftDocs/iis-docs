@@ -1,5 +1,6 @@
 ---
 title: Logger.Dispose Method  (Microsoft.Web.Media.TransformManager)
+description: This article outlines the overload list for the Logger.Dispose method, with links to reference materials.
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.Logger.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.dispose(v=VS.90)

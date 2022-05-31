@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Master Property (Microsoft.Web.Media.SmoothStreaming)
+description: This aritcle contains information about syntax, property value, and version information for the SmoothStreamingMediaElement.Master property. 
 TOCTitle: Master Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.master(v=VS.90)

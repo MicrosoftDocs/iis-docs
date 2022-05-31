@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.AllowLength Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the TypeInfo.AllowLength property and provides the property's namespace, assembly, syntax, property value, examples, and permissions.
 TOCTitle: AllowLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.AllowLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.allowlength(v=VS.90)

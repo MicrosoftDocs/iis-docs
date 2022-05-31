@@ -1,5 +1,6 @@
 ---
 title: ManifestTrack.GetCustomAttribute Method
+description: This article has information on syntax, parameters, return value, and requirements for the ManifestTrack.GetCustomAttribute method.
 TOCTitle: GetCustomAttribute Method
 ms:assetid: a7aa7fdf-b76a-447b-8dd6-b49b4ea50e6c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822805(v=VS.90)

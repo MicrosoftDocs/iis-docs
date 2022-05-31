@@ -1,5 +1,6 @@
 ---
 title: Media Element State Transitions (IIS Smooth Streaming)
+description: This article outlines eight possible states for a SmoothStreamingMediaElement object. There are links to reference materials.
 TOCTitle: Media Element State Transitions (IIS Smooth Streaming)
 ms:assetid: 832d004b-fc61-4e1e-918c-0eff386b8173
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728115(v=VS.90)

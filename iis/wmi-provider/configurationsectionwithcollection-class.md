@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSectionWithCollection Class"
+description: "The ConfigurationSectionWithCollection Class serves as a base class for configuration-section classes that contain collections. This article details syntax, methods, properties, remarks, inheritance hierarchy, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: b0963c4c-d99f-2f45-3532-ab003df8db2c
 ---

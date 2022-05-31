@@ -1,7 +1,7 @@
 ---
-title: "AtomSite FAQ"
+title: AtomSite FAQ
 author: rick-anderson
-description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+description: Provides a list of frequently asked questions and answers regarding AtomSite installation, configuration, and known issues.
 ms.date: 07/06/2010
 ms.assetid: efcc228a-b43c-4730-bdaa-9824bbd6f956
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/atomsite-faq

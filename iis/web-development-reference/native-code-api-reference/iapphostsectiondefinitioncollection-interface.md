@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinitionCollection Interface"
+description: IAppHostSectionDefinitionCollection Interface represents a collection of configuration section definitions.
 ms.date: "10/07/2016"
 ms.assetid: 8194bba0-4607-b515-3b54-0a50523dd26d
 ---

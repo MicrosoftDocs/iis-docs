@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::GetRemainingEntityBytes Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpRequest::GetRemainingEntityBytes method and details its syntax, parameters, return value, code examples, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 290bdb6a-d69c-775f-b436-6c703a826d2b
 ---
 # IHttpRequest::GetRemainingEntityBytes Method

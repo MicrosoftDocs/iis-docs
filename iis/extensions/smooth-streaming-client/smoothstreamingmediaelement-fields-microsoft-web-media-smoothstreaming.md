@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement Fields (Microsoft.Web.Media.SmoothStreaming)
+description: SmoothStreamingMediaElement Fields type exposes the following members.
 TOCTitle: SmoothStreamingMediaElement Fields
 ms:assetid: Fields.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_fields(v=VS.90)

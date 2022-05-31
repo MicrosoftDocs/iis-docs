@@ -1,5 +1,6 @@
 ---
 title: PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration
+description: This article contains information about arguments and requirements for the PLAYLIST_ENTRY_PROPERTY_TYPE enumeration.
 TOCTitle: PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration
 ms:assetid: 4a6b9b6c-42f9-4eb5-8dbf-0a7cc7bc1bf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146267(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: ConfigurationMessage Constructor  (Microsoft.Web.Media.TransformManager)
+description: The ConfigurationMessage Constructor initializes a new instance of the Configuration Message class.
 TOCTitle: ConfigurationMessage Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)

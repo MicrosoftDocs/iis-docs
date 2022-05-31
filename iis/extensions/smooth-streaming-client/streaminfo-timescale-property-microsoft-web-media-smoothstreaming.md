@@ -1,5 +1,6 @@
 ---
 title: StreamInfo.Timescale Property (Microsoft.Web.Media.SmoothStreaming)
+description: Learn about the StreamInfo.Timescale property and how it gets or sets the time scale of the stream.
 TOCTitle: Timescale Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.TimeScale
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.timescale(v=VS.95)

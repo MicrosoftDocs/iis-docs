@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::CHttpModule Method"
-ms.date: "10/07/2016"
+description: "Describes the CHttpModule::CHttpModule method and details its syntax, parameters, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
 ---
 # CHttpModule::CHttpModule Method

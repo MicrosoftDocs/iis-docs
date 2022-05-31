@@ -1,7 +1,7 @@
 ---
-title: "phpBB FAQ"
+title: phpBB FAQ
 author: rick-anderson
-description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
+description: Provides a list of frequently asked questions and answers regarding phpBB installation, configuration, and known issues.
 ms.date: 07/06/2010
 ms.assetid: ed03be9b-b0b1-4845-bb4e-b1355989af0d
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/phpbb-faq

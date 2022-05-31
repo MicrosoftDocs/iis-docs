@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionGroup::Type Property"
+description: This article contains information about syntax, return value, and requirements for the IAppHostSectionGroup::Type property.
 ms.date: "10/07/2016"
 ms.assetid: b3e52338-322f-a954-c6a8-e5641d214dba
 ---

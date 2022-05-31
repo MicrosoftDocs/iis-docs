@@ -1,5 +1,6 @@
 ---
 title: ManifestReadyEventArgs.AdaptiveSource Property
+description: Learn how the ManifestReadyEventArgs.AdaptiveSource property gets the actual handler for the manifest ready event.
 TOCTitle: AdaptiveSource Property
 ms:assetid: 89d49cea-c72f-478f-b9da-a12a23282080
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822769(v=VS.90)

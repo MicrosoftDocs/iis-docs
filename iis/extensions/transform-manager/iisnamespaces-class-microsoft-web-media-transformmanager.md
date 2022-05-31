@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces Class (Microsoft.Web.Media.TransformManager)
+description: Describes the IisNamespaces class and provides the class' inheritance hierarchy, namespace, assembly, syntax, properties, and thread safety.
 TOCTitle: IisNamespaces Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IisNamespaces
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces(v=VS.90)

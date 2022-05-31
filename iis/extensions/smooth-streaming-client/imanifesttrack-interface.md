@@ -1,6 +1,7 @@
 ---
 title: IManifestTrack Interface
 TOCTitle: IManifestTrack Interface
+description: This article contains syntax, property values, and requirements for the IManifestTrack Interface.
 ms:assetid: 5f90d2dd-9e42-4bc7-affb-1f44364268d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822746(v=VS.90)
 ms:contentKeyID: 50079501

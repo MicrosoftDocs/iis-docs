@@ -1,5 +1,6 @@
 ---
 title: JobManifest.GetInputFileNames Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobManifest.GetInputFileNames method, with links to reference materials.
 TOCTitle: GetInputFileNames Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetInputFileNames(System.Xml.Linq.XContainer)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.getinputfilenames(v=VS.90)

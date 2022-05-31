@@ -1,5 +1,6 @@
 ---
 title: "IPSecuritySection Class"
+description: "This article shares the syntax, methods, properties, remarks, examples, inheritance hierarchy, and requirements for the IPSecuritySection Class, which configures access to Web server content based on IP address-related information."
 ms.date: "10/07/2016"
 ms.assetid: aec39e60-f2d7-6a9c-3ef4-83d4b4dce196
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertyExtension::ProvideGetProperty Method"
+description: Describes the IAppHostPropertyExtension::ProvideGetProperty method and provides the syntax, parameters, return value, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: c3b5306e-b7d7-43cd-9219-8d733046b6de
 ---

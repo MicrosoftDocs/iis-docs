@@ -1,5 +1,6 @@
 ---
 title: "IAppHostCollectionSchema::GetAddElementSchema Method"
+description: "The IAppHostCollectionSchemaGetAddElementSchema method gets the schema for the add element that has the requested name."
 ms.date: "10/07/2016"
 ms.assetid: 40da661f-b646-932b-b54a-2f38b4229bfd
 ---

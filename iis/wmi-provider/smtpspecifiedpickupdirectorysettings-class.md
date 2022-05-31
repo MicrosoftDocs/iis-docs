@@ -1,5 +1,6 @@
 ---
 title: "SmtpSpecifiedPickupDirectorySettings Class"
+description: This article outlines syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SmtpSpecifiedPickupDirectorySettings class.
 ms.date: "10/07/2016"
 ms.assetid: 4be464d2-6877-d695-3cd0-3734170ff0c6
 ---

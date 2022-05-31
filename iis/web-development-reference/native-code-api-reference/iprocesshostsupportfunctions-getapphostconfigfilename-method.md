@@ -1,6 +1,7 @@
 ---
 title: "IProcessHostSupportFunctions::GetAppHostConfigFilename Method"
 ms.date: "10/07/2016"
+description: IProcessHostSupportFunctions GetAppHostConfigFilename Method retrieves the application host configuration (.config) file path.
 ms.assetid: 781a6b10-ce53-5a78-8d63-7be92a3ba4a1
 ---
 # IProcessHostSupportFunctions::GetAppHostConfigFilename Method

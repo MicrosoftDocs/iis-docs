@@ -1,5 +1,6 @@
 ---
 title: "IPmCustomActions2::UnregisterCustomActionCallback Method"
+description: Learn how the IPmCustomActions2::UnregisterCustomActionCallback method unregisters the specified custom action callback method.
 ms.date: "10/07/2016"
 ms.assetid: 01def2ab-12c7-44ac-bbf5-040757fda6d3
 ---

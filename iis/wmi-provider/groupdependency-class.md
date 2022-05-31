@@ -1,5 +1,6 @@
 ---
 title: "GroupDependency Class"
+description: The GroupDependency class represents a Web service extension upon which one or more Web applications depend.
 ms.date: "10/07/2016"
 ms.assetid: c02f56d9-441f-b303-142c-dd8c4508586d
 ---
@@ -12,10 +13,10 @@ Represents a Web service extension upon which one or more Web applications depen
 class GroupDependency : CollectionElement  
 ```  
   
-## Methods  
+## Methods
  This class contains no methods.  
   
-## Properties  
+## Properties
  The following table lists the properties exposed by the `GroupDependency` class.  
   
 |Name|Description|  

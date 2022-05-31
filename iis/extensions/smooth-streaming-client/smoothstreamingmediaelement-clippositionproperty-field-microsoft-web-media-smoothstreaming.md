@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipPositionProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipPositionProperty field and provides the field's namespace, assembly, syntax, permissions, and version information.
 TOCTitle: ClipPositionProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipPositionProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clippositionproperty(v=VS.90)

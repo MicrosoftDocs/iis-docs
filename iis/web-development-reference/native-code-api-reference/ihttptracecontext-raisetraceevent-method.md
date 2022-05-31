@@ -1,6 +1,7 @@
 ---
 title: "IHttpTraceContext::RaiseTraceEvent Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpTraceContext::RaiseTraceEvent method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 51a59c9b-7685-42ee-bab9-21d1938931f3
 ---
 # IHttpTraceContext::RaiseTraceEvent Method

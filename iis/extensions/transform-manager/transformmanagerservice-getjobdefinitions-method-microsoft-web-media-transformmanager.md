@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobDefinitions Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetJobDefinitions method and provides the method's namespace, assembly, syntax, return value, and what the method implements.
 TOCTitle: GetJobDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDefinitions
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobdefinitions(v=VS.90)

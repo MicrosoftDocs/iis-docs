@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetSite Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetSite method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 6f8d5532-f308-dca2-7d5a-ca62b959f801
 ---
 # IHttpContext::GetSite Method

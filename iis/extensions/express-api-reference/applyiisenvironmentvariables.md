@@ -1,5 +1,6 @@
 ---
 title: "ApplyIISEnvironmentVariables"
+description: "ApplyIISEnvironmentVariables injects dynamic environment variables into the current process that would otherwise have been injected into a running worker process."
 ms.date: "10/07/2016"
 ms.assetid: a1ae5831-9b2f-48a3-ae9c-9040f188e1d0
 ---

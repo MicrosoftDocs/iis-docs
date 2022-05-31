@@ -1,5 +1,6 @@
 ---
 title: "IHttpCompletionInfo2::GetCompletedOperation Method"
+description: Learn how the IHttpCompletionInfo2::GetCompletedOperation method gets the number of bytes completed by an asynchronous operation.
 ms.date: "10/07/2016"
 ms.assetid: 617e9eb2-9214-4ce1-9787-041454bca50d
 ---

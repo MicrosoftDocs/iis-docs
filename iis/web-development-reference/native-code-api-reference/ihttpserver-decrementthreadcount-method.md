@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::DecrementThreadCount Method"
+description: Learn how the IHttpServer::DecrementThreadCount method decrements the thread count for the thread pool.
 ms.date: "10/07/2016"
 ms.assetid: 64ce7c5e-5eb4-74db-deba-5ad8f99b0bad
 ---

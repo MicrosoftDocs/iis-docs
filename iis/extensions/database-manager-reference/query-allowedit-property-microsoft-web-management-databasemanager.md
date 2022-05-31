@@ -1,5 +1,6 @@
 ---
 title: Query.AllowEdit Property (Microsoft.Web.Management.DatabaseManager)
+description: Describes the Query.AllowEdit property and provides the property's namespace, assembly, syntax, remarks, and permissions.
 TOCTitle: AllowEdit Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.AllowEdit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.allowedit(v=VS.90)

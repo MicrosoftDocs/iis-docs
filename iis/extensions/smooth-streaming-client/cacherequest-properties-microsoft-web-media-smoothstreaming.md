@@ -1,5 +1,6 @@
 ---
 title: CacheRequest Properties (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the CacheRequest properties and provides a table that outlines the name and description for the property type.
 TOCTitle: CacheRequest Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest_properties(v=VS.90)

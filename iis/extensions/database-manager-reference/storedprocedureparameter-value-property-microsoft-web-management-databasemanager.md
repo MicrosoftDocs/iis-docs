@@ -1,5 +1,6 @@
 ---
 title: StoredProcedureParameter.Value Property (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information about syntax and permissions for the StoredProcedureParameter.Value property.
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Value
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedureparameter.value(v=VS.90)

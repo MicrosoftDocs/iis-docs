@@ -1,6 +1,7 @@
 ---
 title: DatabaseInfo.SupportsSchemas Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: SupportsSchemas Property
+description: Specifies whether the database supports schemas.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.DatabaseInfo.SupportsSchemas
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo.supportsschemas(v=VS.90)
 ms:contentKeyID: 22049504

@@ -1,5 +1,6 @@
 ---
-title: ManifestInfo.ProtectionInfo Property (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.ProtectionInfo Property | Microsoft.Web.Media.SmoothStreaming
+description: "This article shares the ManifestInfo.ProtectionInfo Property syntax, which contains information specified in the protection element inside the manifest."
 TOCTitle: ProtectionInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.manifestinfo.protectioninfo(v=VS.95)

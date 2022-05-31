@@ -1,5 +1,6 @@
 ---
 title: SSMEDrmSetupDecryptorCompletedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: Details the syntax for the SSMEDrmSetupDecryptorCompletedEventArgs class. This represents event arguments for a DrmSetupDecryptorCompleted event.
 TOCTitle: SSMEDrmSetupDecryptorCompletedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmedrmsetupdecryptorcompletedeventargs(v=VS.95)

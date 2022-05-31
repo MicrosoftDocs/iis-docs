@@ -1,5 +1,6 @@
 ---
 title: LogLevel Enumeration (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the LogLevel enumeration, with links to reference materials.
 TOCTitle: LogLevel Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevel(v=VS.90)

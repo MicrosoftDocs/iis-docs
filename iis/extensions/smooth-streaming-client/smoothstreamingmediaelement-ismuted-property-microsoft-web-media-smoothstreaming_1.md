@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsMuted Property (Microsoft.Web.Media.SmoothStreaming)
+description: "The IsMuted Property gets or sets a value that indicates whether the audio track is muted. This article details syntax, property value, and version information."
 TOCTitle: IsMuted Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsMuted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.ismuted(v=VS.95)

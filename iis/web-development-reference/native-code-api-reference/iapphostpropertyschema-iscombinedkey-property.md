@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertySchema::IsCombinedKey Property"
+description: Describes the IAppHostPropertySchema::IsCombinedKey property and provides the syntax, parameters, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 1a7b0abb-b457-4782-4c1c-eb0990cbe93a
 ---

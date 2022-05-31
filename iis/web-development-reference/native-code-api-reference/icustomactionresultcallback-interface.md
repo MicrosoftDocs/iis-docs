@@ -1,6 +1,7 @@
 ---
 title: "ICustomActionResultCallback Interface"
 ms.date: "10/07/2016"
+description: ICustomActionResultCallback Interface reports the results of a Run-Time Status and Control operation that was requested by the IPmCustomActions interface.
 ms.assetid: 66ef5a0c-0172-ae7f-5685-4cc987a8b917
 ---
 # ICustomActionResultCallback Interface

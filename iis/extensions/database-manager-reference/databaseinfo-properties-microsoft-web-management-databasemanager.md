@@ -1,6 +1,7 @@
 ---
 title: DatabaseInfo Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Properties
+description: "The SupportsSchemas property is exposed by the DatabaseInfo type. This article provides its property type and description."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.DatabaseInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseinfo_properties(v=VS.90)
 ms:contentKeyID: 22049497

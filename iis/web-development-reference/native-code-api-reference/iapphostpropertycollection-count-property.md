@@ -1,5 +1,6 @@
 ---
 title: "IAppHostPropertyCollection::Count Property"
+description: Learn how the IAppHostPropertyCollection::Count property gets the number of properties in the collection.
 ms.date: "10/07/2016"
 ms.assetid: e52abb61-326d-52f0-4c7c-4365e0b13785
 ---

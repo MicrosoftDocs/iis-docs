@@ -1,6 +1,7 @@
 ---
 title: Scheduler.GetJobCompletionDetails Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobCompletionDetails Method
+description: This article contains syntax, property value, and reference information for the Scheduler.GetJobCompletionDetails Method.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.GetJobCompletionDetails(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.getjobcompletiondetails(v=VS.90)
 ms:contentKeyID: 35520649

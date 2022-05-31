@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.ReadFrom Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ReadFrom Method
+description: "The ReadFrom method reads the response from a Stream object. This article describes its syntax, version information, and permissions."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ReadFrom(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.readfrom(v=VS.90)
 ms:contentKeyID: 31469210

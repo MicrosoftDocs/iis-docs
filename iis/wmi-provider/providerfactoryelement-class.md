@@ -1,5 +1,6 @@
 ---
 title: "ProviderFactoryElement Class"
+description: "This article shares syntax, properties, remarks, inheritance hierarchy, system requirements for the ProviderFactoryElement Class."
 ms.date: "10/07/2016"
 ms.assetid: 6cee1598-11a6-3211-c3e1-24b5e68e46e8
 ---

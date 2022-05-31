@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.NodeTaskCodePathX86 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NodeTaskCodePathX86 Property
+description: The NodeTaskCodePathX86 Property gets or sets a location for x86 binary files.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX86
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.nodetaskcodepathx86(v=VS.90)
 ms:contentKeyID: 35520566

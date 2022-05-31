@@ -1,5 +1,6 @@
 ---
 title: TaskDefinition.Copyright Property (Microsoft.Web.Media.TransformManager)
+description: Describes the TaskDefinition.Copyright property and details its namespace, assembly, syntax, and property value.
 TOCTitle: Copyright Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.Copyright
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.copyright(v=VS.90)

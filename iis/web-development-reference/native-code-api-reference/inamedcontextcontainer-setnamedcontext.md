@@ -1,6 +1,7 @@
 ---
 title: "INamedContextContainer::SetNamedContext"
-ms.date: "10/07/2016"
+description: "Describes the INamedContextContainer::SetNamedContext container and details its syntax, parameters, return value, and requirements."
+ms.date: 10/07/2016
 ms.assetid: f9227def-2aa6-4f5b-a83c-0c6713fc52cf
 ---
 # INamedContextContainer::SetNamedContext

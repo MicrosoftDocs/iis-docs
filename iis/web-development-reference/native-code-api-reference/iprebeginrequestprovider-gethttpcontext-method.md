@@ -1,6 +1,7 @@
 ---
 title: "IPreBeginRequestProvider::GetHttpContext Method"
 ms.date: "10/07/2016"
+description: Learn how to retrieve an IHttpContext interface through a pointer, which allows global-level notifications access to the context for a request.
 ms.assetid: a7903ec5-eff6-383f-8728-e70eee4ea783
 ---
 # IPreBeginRequestProvider::GetHttpContext Method

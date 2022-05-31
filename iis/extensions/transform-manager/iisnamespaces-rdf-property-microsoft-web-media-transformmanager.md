@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.Rdf Property (Microsoft.Web.Media.TransformManager)
+description:  Rdf Property gets the URI of a specific XML namespace related to Resource Description Framework (RDF) schema that is used to represent information about Web resources.
 TOCTitle: Rdf Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Rdf
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.rdf(v=VS.90)

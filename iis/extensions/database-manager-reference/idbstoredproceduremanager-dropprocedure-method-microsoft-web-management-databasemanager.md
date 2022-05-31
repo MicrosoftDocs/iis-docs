@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager.DropProcedure Method  (Microsoft.Web.Management.DatabaseManager)
+description: This article contains information on syntax and permissions for the IDbStoredProcedureManager.DropProcedure method. 
 TOCTitle: DropProcedure Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.DropProcedure(System.String,System.String,System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.dropprocedure(v=VS.90)

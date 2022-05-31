@@ -1,5 +1,6 @@
 ---
 title: "WMI Provider"
+description: "This section describes the classes, methods, and properties of the Windows Management Instrumentation (WMI) provider."
 ms.date: "10/07/2016"
 ms.assetid: cd4f6f61-0b56-41cf-ac81-c6c28d2724c7
 ---

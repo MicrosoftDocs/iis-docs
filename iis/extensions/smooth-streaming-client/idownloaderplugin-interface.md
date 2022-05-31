@@ -1,5 +1,6 @@
 ---
 title: IDownloaderPlugin Interface
+description: Describes the IDownloaderPlugin interface and provides the interface's syntax, members, methods, and requirements.
 TOCTitle: IDownloaderPlugin Interface
 ms:assetid: 8ea37240-a2f6-44b4-9670-d39e28db3bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822781(v=VS.90)

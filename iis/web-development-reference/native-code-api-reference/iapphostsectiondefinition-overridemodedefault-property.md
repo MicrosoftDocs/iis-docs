@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionDefinition::OverrideModeDefault Property"
+description: This article has information about syntax, return value, code, and requirements for the IAppHostSectionDefinition::OverrideModeDefault property.
 ms.date: "10/07/2016"
 ms.assetid: bd9ee475-e075-2771-d242-60683aca8b0f
 ---

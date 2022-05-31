@@ -1,5 +1,6 @@
 ---
 title: Tracing.RemoteServerUri Property (Microsoft.Web.Media.Diagnostics)
+description: Describes the RemoteServerUri property and provides the property's namespace, assembly, syntax, property value, version information, and permissions.
 TOCTitle: RemoteServerUri Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.RemoteServerUri
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.remoteserveruri(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::GetWorkerProcessSettings Method"
+description: Learn how the GetWorkerProcessSettings method retrieves an IWpfSettings interface.
 ms.date: "10/07/2016"
 ms.assetid: 37efa150-d336-b2d7-77f8-872fb5887f7f
 ---

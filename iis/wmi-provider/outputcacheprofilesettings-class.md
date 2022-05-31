@@ -1,5 +1,6 @@
 ---
 title: "OutputCacheProfileSettings Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the OutputCacheProfileSettings class.
 ms.date: "10/07/2016"
 ms.assetid: 9b2f9607-0707-4ee5-b106-a69c9259778c
 ---

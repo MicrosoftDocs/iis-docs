@@ -1,6 +1,7 @@
 ---
 title: TrackInfo.EndGetChunk Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndGetChunk Method
+description: "The EndGetChunk method completes the action of BeginGetChunk. This article describes its syntax, examples, version information, and permissions."
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.EndGetChunk(System.IAsyncResult)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackinfo.endgetchunk(v=VS.90)
 ms:contentKeyID: 31469216

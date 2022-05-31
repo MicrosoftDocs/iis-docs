@@ -1,5 +1,6 @@
 ---
 title: Multiple Camera Angles
+description: Describes the use of multiple camera angles in the Smooth Streaming client applications and outlines how to change cameras.
 TOCTitle: Multiple Camera Angles
 ms:assetid: 2c2a8b91-a760-426f-853a-5806163170d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg134026(v=VS.95)

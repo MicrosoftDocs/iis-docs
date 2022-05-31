@@ -1,5 +1,6 @@
 ---
 title: "IAppHostElementCollection::CreateNewElement Method"
+description: Learn how the IAppHostElementCollection::CreateNewElement method creates a new element, as well as details about its parameters and requirements.
 ms.date: "10/07/2016"
 ms.assetid: e1fdf112-7a39-9ed8-1a05-e143edb500a2
 ---

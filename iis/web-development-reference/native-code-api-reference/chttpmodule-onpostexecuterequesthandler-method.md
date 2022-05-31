@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPostExecuteRequestHandler Method"
+description: Learn how the OnPostExecuteRequestHandler method represents the method handles an ExecuteRequestHandler post-event.
 ms.date: "10/07/2016"
 ms.assetid: 98fae259-b939-7e27-a268-b56dbc639b2f
 ---

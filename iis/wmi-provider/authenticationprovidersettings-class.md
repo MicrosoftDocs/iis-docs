@@ -1,5 +1,6 @@
 ---
 title: "AuthenticationProviderSettings Class"
+description: "The AuthenticationProviderSettings class contains security support providers that are used for Integrated Windows authentication."
 ms.date: "10/07/2016"
 ms.assetid: b07e1d3e-6894-4ca3-b5e3-7f80e6944c12
 ---

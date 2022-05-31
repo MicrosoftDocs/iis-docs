@@ -1,5 +1,6 @@
 ---
-title: JobTemplate Constructor  (Microsoft.Web.Media.TransformManager)
+title: JobTemplate Constructor (Microsoft.Web.Media.TransformManager)
+description: "This article contains an overload list of the JobTemplate Constructor, which initializes a new instance of the JobTemplate class."
 TOCTitle: JobTemplate Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.JobTemplate.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.jobtemplate(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IScriptMapInfo::GetScriptProcessor Method"
+description: Learn how the IScriptMapInfo::GetScriptProcessor method retrieves the script processor for a request handler. 
 ms.date: "10/07/2016"
 ms.assetid: 4e84d8be-b26d-5514-4e4d-09718d9a827d
 ---

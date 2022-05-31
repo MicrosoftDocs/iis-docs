@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::WriteEntityChunks Method"
+description: "Use the WriteEntityChunks method to insert a single HTTP DATA CHUNK structure or an array of HTTP DATA CHUNK structures into the response body."
 ms.date: "10/07/2016"
 ms.assetid: e511b4dc-b775-3d48-f850-a3178ae6bd17
 ---

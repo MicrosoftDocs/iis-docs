@@ -1,5 +1,6 @@
 ---
 title: TypeInfo.Tag Property (Microsoft.Web.Management.DatabaseManager)
+description: This article has information about syntax, property value, and permissions for the TypeInfo.Tag property.
 TOCTitle: Tag Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Tag
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.typeinfo.tag(v=VS.90)

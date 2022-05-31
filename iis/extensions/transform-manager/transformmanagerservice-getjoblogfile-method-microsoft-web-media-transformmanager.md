@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobLogFile Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the TransformManagerService.GetJobLogFile method.
 TOCTitle: GetJobLogFile Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobLogFile(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjoblogfile(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ConnectionManagementElement Class"
+description: "This article lists syntax, properties, remarks, a code example, inheritance hierarchy, and system requirements for the ConnectionManagementElement Class."
 ms.date: "10/07/2016"
 ms.assetid: f06a0303-0aec-1e35-7711-f48e4399a249
 ---

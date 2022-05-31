@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.IsJobManagerRunning Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the IsJobManagerRunning property gets or sets a value that indicates whether the job manager that is associated with this job definition is running.
 TOCTitle: IsJobManagerRunning Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.IsJobManagerRunning
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.isjobmanagerrunning(v=VS.90)

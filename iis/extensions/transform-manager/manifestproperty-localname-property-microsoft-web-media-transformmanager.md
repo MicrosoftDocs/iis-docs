@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.LocalName Property (Microsoft.Web.Media.TransformManager)
+description: Learn about the ManifestProperty.LocalName property and how it gets or sets the LocalName element of the manifest property.
 TOCTitle: LocalName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.LocalName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.localname(v=VS.90)

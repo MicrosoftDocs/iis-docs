@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SetLiveBeginOffsetSec Method
+description: Describes the IAdaptiveSourceManager.SetLiveBeginOffsetSec method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: SetLiveBeginOffsetSec Method
 ms:assetid: 6a33c1cc-8cf9-41b2-befa-bb80b3b80949
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822755(v=VS.90)
@@ -42,8 +43,6 @@ liveBeginOffsetSec : uint
 
   - liveBeginOffsetSec  
     Begin offset value.
-
-  -  
 
 ## Return Value
 

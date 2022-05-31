@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED Function"
+description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED function notifies the listener adapter that the application pool for a particular application has changed.
 ms.date: "10/07/2016"
 ms.assetid: 0fcb41c3-218d-4620-c701-7095d5b17173
 ---

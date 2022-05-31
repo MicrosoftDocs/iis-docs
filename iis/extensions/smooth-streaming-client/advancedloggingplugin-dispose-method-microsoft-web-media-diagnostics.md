@@ -1,5 +1,6 @@
 ---
 title: AdvancedLoggingPlugin.Dispose Method  (Microsoft.Web.Media.Diagnostics)
+description: This article contains syntax and version information for the AdvancedLoggingPlugin.Dispose method, as well as links to additional resources.
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.advancedloggingplugin.dispose(v=VS.95)

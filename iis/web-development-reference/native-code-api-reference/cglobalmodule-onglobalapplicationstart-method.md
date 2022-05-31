@@ -1,5 +1,6 @@
 ---
 title: "CGlobalModule::OnGlobalApplicationStart Method"
+description: CGlobalModule::OnGlobalApplicationStart Method represents the method that will handle a GlobalApplicationStart event, which occurs when IIS starts an application.
 ms.date: "10/07/2016"
 ms.assetid: 174fe925-4d25-a984-1573-0d13eeab7d8c
 ---

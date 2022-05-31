@@ -1,5 +1,6 @@
 ---
 title: "ConfigProtectedDataSection Class"
+description: Contains protected configuration provider information.
 ms.date: "10/07/2016"
 ms.assetid: e76289ee-960d-4e24-a171-d507bf839d94
 ---

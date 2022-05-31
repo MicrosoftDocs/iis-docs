@@ -1,6 +1,7 @@
 ---
 title: JobMetadata Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobMetadata Class
+description: This article describes the JobMetadata class and provides the namespace, assembly, syntax, constructors, properties, and methods.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobMetadata
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmetadata(v=VS.90)
 ms:contentKeyID: 35520790

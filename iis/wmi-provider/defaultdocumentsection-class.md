@@ -1,6 +1,7 @@
 ---
-title: "DefaultDocumentSection Class1"
-ms.date: "10/07/2016"
+title: DefaultDocumentSection Class1
+description: Describes the DefaultDocumentSection class and provides the class' syntax, methods, properties, remarks, examples, inheritance hierarchy, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 3c5d5408-af8b-8a5b-fd23-2dc89f5756de
 ---
 # DefaultDocumentSection Class1

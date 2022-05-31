@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.AddConfigurationMessage Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the AddConfigurationMessage method adds a message to the IIS Transform Manager configuration.
 TOCTitle: AddConfigurationMessage Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.addconfigurationmessage(v=VS.90)

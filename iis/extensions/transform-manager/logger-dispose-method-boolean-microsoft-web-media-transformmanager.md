@@ -1,6 +1,7 @@
 ---
 title: Logger.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method (Boolean)
+description: "The Dispose method (Boolean) disposes logging resources and optionally releases the managed resources."
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.Dispose(System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.logger.dispose(v=VS.90)
 ms:contentKeyID: 35520991

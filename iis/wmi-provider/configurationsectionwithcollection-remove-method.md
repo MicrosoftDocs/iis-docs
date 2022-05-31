@@ -1,5 +1,6 @@
 ---
-title: "ConfigurationSectionWithCollection.Remove Method"
+title: ConfigurationSectionWithCollection.Remove Method
+description: Describes the configurationSectionWithCollection.Remove method and provides the method's syntax, parameters, an example, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 96394dd0-a3f3-196c-f70c-7b67b8e5a3ad
 ---

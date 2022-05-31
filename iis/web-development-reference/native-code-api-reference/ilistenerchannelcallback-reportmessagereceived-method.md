@@ -1,6 +1,7 @@
 ---
 title: "IListenerChannelCallback::ReportMessageReceived Method"
-ms.date: "10/07/2016"
+description: "Describes the IListenerChannelCallback::ReportMessageReceived method and details its syntax, parameters, return value, remarks, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 5d552c6c-69a2-3ca5-0826-046d8df6fbe5
 ---
 # IListenerChannelCallback::ReportMessageReceived Method

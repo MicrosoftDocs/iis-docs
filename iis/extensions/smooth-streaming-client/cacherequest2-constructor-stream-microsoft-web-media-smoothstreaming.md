@@ -1,5 +1,6 @@
 ---
 title: CacheRequest2 Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
+description: "This article shows the CacheRequest 2 Constructor syntax, which initializes a new instance of the CacheRequest2 class based on the specified stream for Microsoft.Web.Media.SmoothStreaming."
 TOCTitle: CacheRequest2 Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.cacherequest2(v=VS.95)

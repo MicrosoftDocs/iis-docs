@@ -1,6 +1,7 @@
 ---
 title: JobDefinition.SchedulerNodeGroupsAttributeName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerNodeGroupsAttributeName Field
+description: This article contains syntax and reference information for the JobDefinition.SchedulerNodeGroupsAttributeName field.
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroupsAttributeName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.schedulernodegroupsattributename(v=VS.90)
 ms:contentKeyID: 35520659

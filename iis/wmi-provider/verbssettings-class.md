@@ -1,5 +1,6 @@
 ---
 title: "VerbsSettings Class"
+description: "The VerbsSettings class exposes configuration settings for HTTP verbs. This article describes its syntax, methods, properties, remarks, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 1786330c-9084-4f84-9761-c042bdef9178
 ---

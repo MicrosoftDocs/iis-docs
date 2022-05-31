@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.Play Method  (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the Play Method and provides the method's syntax, remarks, version information, and permissions.
 TOCTitle: Play Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Play
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.play(v=VS.90)

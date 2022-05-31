@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobSchedulers Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.GetJobSchedulers method and details its syntax, return value, and implements.
 TOCTitle: GetJobSchedulers Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobSchedulers
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobschedulers(v=VS.90)

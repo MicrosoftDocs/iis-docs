@@ -1,6 +1,7 @@
 ---
 title: "IHttpConnectionStoredContext Interface"
 ms.date: "10/07/2016"
+description: IHttpConnectionStoredContext interface defines context information for connection-stored data.
 ms.assetid: f6a67d77-c255-4c59-9f05-a65552534dee
 ---
 # IHttpConnectionStoredContext Interface

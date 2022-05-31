@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnMapPath Method"
+description: CHttpModule::OnMapPath Method represents the method that will handle a MapPath event, which occurs when an operation requests the physical path to be mapped for the current request.
 ms.date: "10/07/2016"
 ms.assetid: 4c9cdb28-6efc-67d0-31d1-7fe043851a45
 ---

@@ -1,5 +1,6 @@
 ---
 title: "WorkerProcess.GetState Method2"
+description: This article contains information about syntax, return value, and requirements for the WorkerProcess.GetState method.
 ms.date: "10/07/2016"
 ms.assetid: b12970b0-a05e-25a1-b3bd-f6dd7df2448c
 ---

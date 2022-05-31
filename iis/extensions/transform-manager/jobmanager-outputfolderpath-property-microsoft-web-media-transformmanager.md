@@ -1,6 +1,7 @@
 ---
 title: JobManager.OutputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolderPath Property
+description: "String syntax that gets the output folder for a job using the Microsoft.Web.Media.TransformManager.ServiceLibrary assembly."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.OutputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.outputfolderpath(v=VS.90)
 ms:contentKeyID: 35520811

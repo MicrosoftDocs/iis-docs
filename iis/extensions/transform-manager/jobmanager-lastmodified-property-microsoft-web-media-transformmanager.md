@@ -1,5 +1,6 @@
 ---
 title: JobManager.LastModified Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax and property value for the JobManager.LastModified property. 
 TOCTitle: LastModified Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LastModified
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanager.lastmodified(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: IPlaylistEntryInfo::Uri Property
+description: Describes the syntax for the IPlaylistEntryInfo::Uri property which gets the URI for the location of the current IPlaylistEntryInfo Interface instance.
 TOCTitle: IPlaylistEntryInfo::Uri Property
 ms:assetid: b7796e5a-4204-4876-8c4c-11859a0bce55
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146286(v=VS.90)

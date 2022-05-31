@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.MediaServices Property (Microsoft.Web.Media.TransformManager)
+description: Describes the IisNamespaces.MediaServices Property and details its namespace, assembly, syntax, and property value. 
 TOCTitle: MediaServices Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.mediaservices(v=VS.90)

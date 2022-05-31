@@ -1,5 +1,6 @@
 ---
 title: IPlaylistInfo::GetProperty Method
+description: Describes the IPlaylistInfo::GetProperty method and provides the method's arguments, return value, notes for implementers, and requirements.
 TOCTitle: IPlaylistInfo::GetProperty Method
 ms:assetid: 9e7ad995-bc59-4cff-9047-c10c81d8e7ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146283(v=VS.90)

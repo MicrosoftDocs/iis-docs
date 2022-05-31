@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the IisNamespaces property type associated with Microsoft.Web.Media.TransformManager and details its properties.
 TOCTitle: IisNamespaces Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.IisNamespaces
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces_properties(v=VS.90)

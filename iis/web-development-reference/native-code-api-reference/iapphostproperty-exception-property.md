@@ -1,5 +1,6 @@
 ---
 title: "IAppHostProperty::Exception Property"
+description: Learn how the IAppHostProperty::Exception property gets administration system exception information that is related to the processing of the specified property.
 ms.date: "10/07/2016"
 ms.assetid: 51644830-664f-a962-a52a-eac1e372b537
 ---

@@ -1,6 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function"
-ms.date: "10/07/2016"
+title: PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function
+description: Describes the PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED function and provides the function's syntax, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 02dd9317-b412-da4e-9744-723c85b06cc7
 ---
 # PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function

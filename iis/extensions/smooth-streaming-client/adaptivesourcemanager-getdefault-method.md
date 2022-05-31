@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceManager.GetDefault Method
+description: "This article shows the AdaptiveSourceManager.GetDefault Method syntax, which gets the source manager singleton for adaptive streaming."
 TOCTitle: GetDefault Method
 ms:assetid: f71a679b-01e0-447b-b987-8d64acea64db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822873(v=VS.90)

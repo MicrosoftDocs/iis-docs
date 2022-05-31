@@ -1,5 +1,6 @@
 ---
 title: "AdapterElement Class"
+description: Properties exposed by the AdapterElement Class.
 ms.date: "10/07/2016"
 ms.assetid: aa15b851-545b-4310-8012-1caf9dc44090
 ---

@@ -1,6 +1,7 @@
 ---
 title: "IHttpUser::SupportsIsInRole Method"
 ms.date: "10/07/2016"
+description: Learn how to return a value that indicates whether role support is enabled for the user, which depends on implementation.
 ms.assetid: 2b1a1fd5-0624-e9b1-2ca5-c61a37ef44a4
 ---
 # IHttpUser::SupportsIsInRole Method

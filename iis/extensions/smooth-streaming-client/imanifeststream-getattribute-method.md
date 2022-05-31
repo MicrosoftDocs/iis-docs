@@ -1,6 +1,7 @@
 ---
 title: IManifestStream.GetAttribute Method
 TOCTitle: GetAttribute Method
+description: This article contains syntax, parameters, return value, and requirements for the IManifestStream.GetAttribute method.
 ms:assetid: 06636435-83a0-44e8-ad4c-992afdfa58bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822669(v=VS.90)
 ms:contentKeyID: 50079424

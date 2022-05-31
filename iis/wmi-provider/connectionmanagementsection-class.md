@@ -1,5 +1,6 @@
 ---
 title: "ConnectionManagementSection Class"
+description: Contains a collection that specifies the maximum number of connections to specified network hosts.
 ms.date: "10/07/2016"
 ms.assetid: c65d6556-228b-8d0f-fc11-280bfa69412c
 ---

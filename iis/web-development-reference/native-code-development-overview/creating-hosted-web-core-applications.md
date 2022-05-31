@@ -1,5 +1,6 @@
 ---
 title: "Creating Hosted Web Core Applications"
+description: Learn how to create an application that uses the Hosted Web Core features, and how to create a custom configuration file for your application. 
 ms.date: "10/07/2016"
 ms.assetid: 1959167d-1711-45d7-babd-8e3a8217a736
 ---

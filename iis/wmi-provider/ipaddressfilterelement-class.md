@@ -1,5 +1,6 @@
 ---
 title: "IPAddressFilterElement Class"
+description: Allows or denies access to content based on a unique combination of the IP address, subnet mask, and domain name.  
 ms.date: "10/07/2016"
 ms.assetid: ecb74b4d-36ab-5b4d-c096-c0490bb2cc4d
 ---

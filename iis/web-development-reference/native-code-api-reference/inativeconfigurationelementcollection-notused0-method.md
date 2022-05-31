@@ -1,5 +1,6 @@
 ---
 title: INativeConfigurationElementCollection::NotUsed0 Method [IIS 7]
+description: Learn how the INativeConfigurationElementCollection::NotUsed0 method is an infrastructure method and not intended to be called directly from your application code.
 TOCTitle: INativeConfigurationElementCollection::NotUsed0 Method
 ms:assetid: 49370a61-2252-45cb-98f0-8c9074028c0f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424817(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSection Class1"
+description: "ConfigurationSection Class1 serves as a base class for classes that represent configuration sections."
 ms.date: "10/07/2016"
 ms.assetid: 7b785db0-a6d8-5278-b524-bdcfc0463613
 ---

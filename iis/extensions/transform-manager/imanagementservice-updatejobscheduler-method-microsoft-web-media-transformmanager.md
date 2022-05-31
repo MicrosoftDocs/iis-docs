@@ -1,5 +1,6 @@
 ---
 title: IManagementService.UpdateJobScheduler Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the IManagementService.UpdateJobScheduler method. There are also links to reference materials.
 TOCTitle: UpdateJobScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobScheduler(Microsoft.Web.Media.TransformManager.JobScheduler)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.updatejobscheduler(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: "IHttpRequest::GetRemoteAddress Method"
 ms.date: "10/07/2016"
+description: IHttpRequest GetRemoteAddress Method returns the remote address of the client's interface for the current request.
 ms.assetid: 72b4d03f-3199-a3fd-008e-e5c819d26e15
 ---
 # IHttpRequest::GetRemoteAddress Method

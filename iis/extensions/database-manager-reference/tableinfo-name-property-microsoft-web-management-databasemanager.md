@@ -1,6 +1,7 @@
 ---
 title: TableInfo.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
+description: Gets or sets the name of the table.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Name
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.tableinfo.name(v=VS.90)
 ms:contentKeyID: 20476448

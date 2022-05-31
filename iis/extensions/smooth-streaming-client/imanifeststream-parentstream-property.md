@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.ParentStream Property
+description: "This article shares the IManifestStream.ParentStream Property, which gets the parent stream of this stream for Microsoft.Media.AdaptiveStreaming."
 TOCTitle: ParentStream Property
 ms:assetid: c37eda53-90cc-4b67-a1bd-185b3e186581
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822830(v=VS.90)

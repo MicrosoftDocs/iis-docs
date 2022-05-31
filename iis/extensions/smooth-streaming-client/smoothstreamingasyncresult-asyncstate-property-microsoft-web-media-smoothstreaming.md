@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingAsyncResult.AsyncState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AsyncState Property
+description: Gets the state information passed by the application.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncState
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.asyncstate(v=VS.95)
 ms:contentKeyID: 46307792
