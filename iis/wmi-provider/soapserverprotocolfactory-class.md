@@ -1,5 +1,6 @@
 ---
 title: "SoapServerProtocolFactory Class"
+description: Describes the SoapServerProtocolFactory class and provides the class' syntax, methods, properties, subclasses, requirements, and reference.
 ms.date: "10/07/2016"
 ms.assetid: 992dd30f-5a19-bd92-1271-79114ab059d9
 ---

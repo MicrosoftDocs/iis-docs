@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.ChildStreams Property
+description: Describes the IManifestStream.ChildStreams property and provides the property's syntax, property value, requirements, and reference.
 TOCTitle: ChildStreams Property
 ms:assetid: 8dff8f9d-ca08-4896-8c9d-6b19584ec059
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822779(v=VS.90)

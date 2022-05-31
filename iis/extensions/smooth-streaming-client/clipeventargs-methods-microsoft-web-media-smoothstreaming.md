@@ -1,5 +1,6 @@
 ---
 title: ClipEventArgs Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the ClipEventArgs method type and provides the method type member's method type, name, description, inheritance, and references.
 TOCTitle: ClipEventArgs Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipeventargs_methods(v=VS.90)

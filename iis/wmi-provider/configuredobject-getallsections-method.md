@@ -1,5 +1,6 @@
 ---
 title: "ConfiguredObject.GetAllSections Method1"
+description: Describes the ConfiguredObject.GetAllSectionsMethod1 property and provides the property's syntax, parameters, return value, example, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 4c7fc67c-c762-1cc8-b9b4-6cb0a099dc57
 ---

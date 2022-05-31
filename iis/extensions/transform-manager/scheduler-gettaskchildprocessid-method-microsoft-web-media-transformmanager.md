@@ -1,5 +1,6 @@
 ---
 title: Scheduler.GetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the GetTaskChildProcessId method and provides the method's namespace, assembly, syntax, parameters, return value, and references.
 TOCTitle: GetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.GetTaskChildProcessId(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.scheduler.gettaskchildprocessid(v=VS.90)

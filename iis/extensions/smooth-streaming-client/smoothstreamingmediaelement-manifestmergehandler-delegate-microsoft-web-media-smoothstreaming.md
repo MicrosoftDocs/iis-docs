@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ManifestMergeHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.ManifestMergeHandler delegate method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: SmoothStreamingMediaElement.ManifestMergeHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMergeHandler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestmergehandler(v=VS.90)

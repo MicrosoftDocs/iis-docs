@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.Uri Property
+description: Describes the HttpCookie.Uri property and provides the property's syntax, property value, requirements, and minimum supported client and server.
 TOCTitle: Uri Property
 ms:assetid: de54d836-935a-4a25-a465-0810ab9d3119
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822847(v=VS.90)

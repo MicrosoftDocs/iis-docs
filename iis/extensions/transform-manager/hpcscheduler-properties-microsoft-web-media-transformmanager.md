@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler Properties (Microsoft.Web.Media.TransformManager)
+description: Describes the HpcScheduler type member properties and provides the TestConnectionMessage member's property type, name, description, and references.
 TOCTitle: HpcScheduler Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.HpcScheduler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler_properties(v=VS.90)

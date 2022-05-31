@@ -1,5 +1,6 @@
 ---
 title: "ApplicationPool.GetState Method2"
+description: Describes the ApplicationPool.GetState Method2 property and provides the property's syntax, return value, remarks, example, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: b6fb2e50-98c5-d549-a770-867aa248317a
 ---

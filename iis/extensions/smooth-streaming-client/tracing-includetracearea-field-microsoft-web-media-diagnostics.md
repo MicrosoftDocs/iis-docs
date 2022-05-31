@@ -1,5 +1,6 @@
 ---
 title: Tracing.IncludeTraceArea Field (Microsoft.Web.Media.Diagnostics)
+description: Describes the IncludeTraceArea field property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: IncludeTraceArea Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceArea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracearea(v=VS.90)
