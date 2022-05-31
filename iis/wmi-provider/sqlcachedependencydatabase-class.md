@@ -1,6 +1,6 @@
 ---
 title: "SqlCacheDependencyDatabase Class"
-description: 
+description: SqlCacheDependencyDatabase class specifies Exposes configuration settings for SQL data in an vstecasp cache.
 ms.date: "10/07/2016"
 ms.assetid: 51602b5f-115f-373d-a75a-339b91c9ff94
 ---

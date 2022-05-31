@@ -1,6 +1,6 @@
 ---
 title: "FileSettings Class1"
-description: 
+description: Describes the code and syntax for the FileSettings Class1 which contains Web page file names to serve to clients by default.
 ms.date: "10/07/2016"
 ms.assetid: 28117499-370b-4789-86ab-a7b0fceb8cc9
 ---

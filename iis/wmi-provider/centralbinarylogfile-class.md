@@ -1,6 +1,6 @@
 ---
 title: "CentralBinaryLogFile Class1"
-description: 
+description: Discusses the code and syntax for the CentralBinaryLogFile class1 which configures settings for centralized binary logging on a server.
 ms.date: "10/07/2016"
 ms.assetid: d4a0f006-fd94-007a-5d82-3cd577bbd014
 ---
