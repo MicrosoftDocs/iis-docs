@@ -1,10 +1,6 @@
 ---
 title: "EventMappingElement Class"
-<<<<<<< HEAD
 description: Describes the methods and properties for the EventMappingElement class which maps friendly event names to related event types.
-=======
-description: This page provides syntax mapping for friendly event names to related event types.
->>>>>>> 36db4e0ad6f8ee71d54990ee3108bfeb8bbbc769
 ms.date: "10/07/2016"
 ms.assetid: 715f98e4-5d04-4813-ae6e-ec148f201a2e
 ---
