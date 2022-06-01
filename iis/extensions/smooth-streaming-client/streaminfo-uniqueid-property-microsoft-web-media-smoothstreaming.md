@@ -1,6 +1,7 @@
 ---
 title: StreamInfo.UniqueId Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UniqueId Property
+description: UniqueId Property gets or sets the Id that identifies this stream.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.UniqueId
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streaminfo.uniqueid(v=VS.90)
 ms:contentKeyID: 31469276

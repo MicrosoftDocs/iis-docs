@@ -1,6 +1,7 @@
 ---
 title: ChunkResult Properties (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkResult Properties
+description: ChunkResult Properties, like the ChunkResult type, exposes the following members.
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.ChunkResult
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkresult_properties(v=VS.95)
 ms:contentKeyID: 46307889

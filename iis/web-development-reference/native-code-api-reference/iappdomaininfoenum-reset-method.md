@@ -1,6 +1,7 @@
 ---
 title: "IAppDomainInfoEnum::Reset Method"
 ms.date: "10/07/2016"
+description: IAppDomainInfoEnum Reset Method is shown in this article.
 ms.assetid: 9cfb056c-d51e-a932-9892-8d32a26d072c
 ---
 # IAppDomainInfoEnum::Reset Method

@@ -1,6 +1,7 @@
 ---
 title: LocalScheduler.SetLogWriter Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetLogWriter Method
+description: SetLogWriter Method sets the Logger object for the local scheduler.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetLogWriter(Microsoft.Web.Media.TransformManager.Logger)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.setlogwriter(v=VS.90)
 ms:contentKeyID: 35520978

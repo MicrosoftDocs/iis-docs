@@ -1,6 +1,7 @@
 ---
 title: "IAppHostElementCollection::Count Property"
 ms.date: "10/07/2016"
+description: IAppHostElementCollection Count Property returns the number of elements in the current collection.
 ms.assetid: e91d28c5-2287-b8e8-e2b0-55b81420a53f
 ---
 # IAppHostElementCollection::Count Property

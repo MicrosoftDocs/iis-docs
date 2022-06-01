@@ -1,6 +1,7 @@
 ---
 title: CircularList(T).Add Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Add Method
+description: CircularList<T>.Add Method adds an object to the end of the CircularList<T>. The Namespace is Microsoft.Web.Media.Diagnostics. 
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.Add(`0)
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728132(v=VS.95)
 ms:contentKeyID: 46500550

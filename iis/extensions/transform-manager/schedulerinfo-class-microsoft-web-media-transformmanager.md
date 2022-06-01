@@ -1,6 +1,7 @@
 ---
 title: SchedulerInfo Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Class
+description: SchedulerInfo Class provides scheduling information about an IIS Transform Manager job.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.SchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo(v=VS.90)
 ms:contentKeyID: 35520987

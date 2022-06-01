@@ -1,8 +1,8 @@
 ---
 title: "HTTP/2 on IIS"
 author: davidso
-description: ""
-ms.date: 09/16/2016
+description: HTTP/2 on IIS by David So is a rework of how HTTP semantics flow over TCP connections, and HTTP/2 support is present in Windows 10 and Windows Server 2016.
+ms.date: 09/16/2016 
 ms.assetid: a9ae1ca9-bc38-483f-8beb-84e5774ae09a
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/http2-on-iis
 msc.type: authoredcontent
