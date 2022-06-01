@@ -1,6 +1,7 @@
 ---
 title: TrackChangedEventArgs.HighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: HighestPlayableTrack Property
+description: TrackChangedEventArgs.HighestPlayableTrack Property gets or sets the highest available track for this stream.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.HighestPlayableTrack
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.highestplayabletrack(v=VS.95)
 ms:contentKeyID: 46307878

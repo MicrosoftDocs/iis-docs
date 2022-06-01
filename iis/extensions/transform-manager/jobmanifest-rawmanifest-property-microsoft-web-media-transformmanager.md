@@ -1,6 +1,7 @@
 ---
 title: JobManifest.RawManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RawManifest Property
+description: RawManifest Property gets the manifest XML content.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.rawmanifest(v=VS.90)
 ms:contentKeyID: 35520727
