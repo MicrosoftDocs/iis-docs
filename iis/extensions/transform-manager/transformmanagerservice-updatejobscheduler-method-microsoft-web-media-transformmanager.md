@@ -1,6 +1,7 @@
 ---
 title: TransformManagerService.UpdateJobScheduler Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobScheduler Method
+description: UpdateJobScheduler Method adds or updates the specified JobScheduler object.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobScheduler(Microsoft.Web.Media.TransformManager.JobScheduler)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.updatejobscheduler(v=VS.90)
 ms:contentKeyID: 35520769

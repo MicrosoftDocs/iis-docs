@@ -1,6 +1,7 @@
 ---
 title: JobManifest.FullFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FullFileName Property
+description: FullFileName Property gets the folder name and file name of the manifest.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.FullFileName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.fullfilename(v=VS.90)
 ms:contentKeyID: 35520866

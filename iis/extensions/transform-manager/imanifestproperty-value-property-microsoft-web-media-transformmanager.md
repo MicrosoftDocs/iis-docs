@@ -1,6 +1,7 @@
 ---
 title: IManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Value Property
+description: Value Property gets the manifest property value.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.Value
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanifestproperty.value(v=VS.90)
 ms:contentKeyID: 31477619
