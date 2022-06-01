@@ -1,5 +1,6 @@
 ---
 title: Position in Stream (IIS Smooth Streaming)
+description: Discusses the Position in Stream where you can assign the Position property of the SmoothStreamingMediaElement.
 TOCTitle: Position in Stream (IIS Smooth Streaming)
 ms:assetid: 17d0f9d6-f8c2-4e8e-8db2-1db8b36c3834
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff355190(v=VS.90)

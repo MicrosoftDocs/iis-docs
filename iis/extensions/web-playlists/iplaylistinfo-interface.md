@@ -1,5 +1,6 @@
 ---
 title: IPlaylistInfo Interface
+description: Details a list of methods and properties for the IPlaylistInfo interface which represents a playlist.
 TOCTitle: IPlaylistInfo Interface
 ms:assetid: 0457a636-d51d-4012-b278-2c95b5a725f1
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146255(v=VS.90)

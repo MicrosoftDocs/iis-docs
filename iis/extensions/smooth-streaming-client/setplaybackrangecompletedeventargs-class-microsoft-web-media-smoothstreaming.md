@@ -1,5 +1,6 @@
 ---
 title: SetPlaybackRangeCompletedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: Discusses the code of the SetPlaybackRangeCompletedEventArgs class which provide arguments for the completion of a SetPlaybackRangeAysnc operation.
 TOCTitle: SetPlaybackRangeCompletedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs(v=VS.95)

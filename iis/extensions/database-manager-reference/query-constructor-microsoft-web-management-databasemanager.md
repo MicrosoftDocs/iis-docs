@@ -1,5 +1,6 @@
 ---
 title: Query Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: Discusses the code and syntax for the Query constructor which creates a new instance of the Query class.
 TOCTitle: Query Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Query.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query.query(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.StretchProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Discusses the SmoothStreamingMediaElement.StretchProperty field which represents a dependency property that specifies the Stretch property.
 TOCTitle: StretchProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.StretchProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretchproperty(v=VS.95)

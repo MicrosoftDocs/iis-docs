@@ -1,5 +1,6 @@
 ---
 title: "SystemWindowsFormsSection Class"
+description: Discusses the SystemWindowsFormsSection class which stores application settings for Windows Forms applications.
 ms.date: "10/07/2016"
 ms.assetid: 080a1ecc-5789-57b7-b29e-fc693e1f0f11
 ---

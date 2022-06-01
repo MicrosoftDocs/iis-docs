@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.GetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
+description: Discusses the code and syntax of the GetTaskChildProcessId method which returns the child process ID of a task.
 TOCTitle: GetTaskChildProcessId Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetTaskChildProcessId(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.gettaskchildprocessid(v=VS.90)

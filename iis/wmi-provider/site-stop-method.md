@@ -1,5 +1,6 @@
 ---
 title: "Site.Stop Method1"
+description: Discusses the parameters, syntax and code for Site.Stop Method1 which stops a currently running Web site.
 ms.date: "10/07/2016"
 ms.assetid: 3364b705-8777-3927-4016-d35a36d3c433
 ---

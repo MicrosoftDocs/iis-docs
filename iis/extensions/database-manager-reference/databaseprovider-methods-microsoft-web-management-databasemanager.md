@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider Methods (Microsoft.Web.Management.DatabaseManager)
+description: Lists the methods for the DatabaseProvider type and provides links to additional information for each one.
 TOCTitle: DatabaseProvider Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.DatabaseProvider
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider_methods(v=VS.90)

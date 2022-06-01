@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.Name Property
+description: Describes the code and syntax for the IManifestStream.Name property which provides the stream 'Name' field.
 TOCTitle: Name Property
 ms:assetid: a05e653a-7473-4296-8ae6-045f64797669
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822797(v=VS.90)
