@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnBeginRequest Method"
 ms.date: "10/07/2016"
+description: The CHttpModule OnBeginRequest Method represents the method that will handle a BeginRequest event.
 ms.assetid: eda1ad8f-124b-7d75-0acd-b4a4d9fbdd48
 ---
 # CHttpModule::OnBeginRequest Method

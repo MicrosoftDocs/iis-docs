@@ -1,6 +1,7 @@
 ---
 title: "IReadEntityProvider::GetEntity Method"
 ms.date: "10/07/2016"
+description: The IReadEntityProvider GetEntity Method retrieves the request entity and the pcbData parameter will specify the size, in bytes, of the data in the request entity.
 ms.assetid: 84b5367c-ad22-9637-1ced-7500c0a952a8
 ---
 # IReadEntityProvider::GetEntity Method

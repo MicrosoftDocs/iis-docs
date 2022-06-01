@@ -1,6 +1,7 @@
 ---
 title: "WebhostUnregisterProtocol Function"
 ms.date: "10/07/2016"
+description: The WebhostUnregisterProtocol Function requests that a protocol be unregistered when a listener adapter is shutting down.
 ms.assetid: cbc9a189-8d5a-7611-71e3-083e7e5b08b2
 ---
 # WebhostUnregisterProtocol Function

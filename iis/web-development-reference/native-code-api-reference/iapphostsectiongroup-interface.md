@@ -1,6 +1,7 @@
 ---
 title: "IAppHostSectionGroup Interface"
 ms.date: "10/07/2016"
+description: The IAppHostSectionGroup Interface provides access to a group of configuration section groups or configuration section definitions.
 ms.assetid: f39c8583-6e8f-e9ef-354d-2c0f8f8b795d
 ---
 # IAppHostSectionGroup Interface

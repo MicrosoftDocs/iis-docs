@@ -1,6 +1,7 @@
 ---
 title: IPlaylistRequestInfo::GetFileInfo Method
 TOCTitle: IPlaylistRequestInfo::GetFileInfo Method
+description: IPlaylistRequestInfo GetFileInfo Method shows how the GetFileInfo method returns information about the playlist file in file-based implementations of the interface.
 ms:assetid: 4ea9459e-0727-454b-9287-06e087b47622
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146270(v=VS.90)
 ms:contentKeyID: 19132341

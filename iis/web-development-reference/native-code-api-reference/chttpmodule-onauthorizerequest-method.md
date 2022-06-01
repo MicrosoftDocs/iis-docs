@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnAuthorizeRequest Method"
 ms.date: "10/07/2016"
+description: CHttpModule OnAuthorizeRequest Method represents the method that will handle an AuthorizeRequest event, which occurs when IIS verifies user authorization.
 ms.assetid: b6d8bc63-87ae-1a7a-03e3-75ff30a0a039
 ---
 # CHttpModule::OnAuthorizeRequest Method

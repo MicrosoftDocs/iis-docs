@@ -1,6 +1,7 @@
 ---
 title: JobTemplate.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationDirectory Property
+description: ConfigurationDirectory Property gets the path of this configuration file. The Namespace is Microsoft.Web.Media.TransformManager.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobtemplate.configurationdirectory(v=VS.90)
 ms:contentKeyID: 35520685

@@ -1,6 +1,7 @@
 ---
 title: "IAppDomainInfoEnum::MoveNext Method"
 ms.date: "10/07/2016"
+description: The IAppDomainInfoEnum MoveNext Method moves to the next IAppDomainInfo interface with parameters.
 ms.assetid: 9746ee49-951d-a658-169a-9527bc1d57c8
 ---
 # IAppDomainInfoEnum::MoveNext Method

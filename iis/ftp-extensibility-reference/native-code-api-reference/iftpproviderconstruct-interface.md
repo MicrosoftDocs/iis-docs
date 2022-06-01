@@ -1,6 +1,7 @@
 ---
 title: "IFtpProviderConstruct Interface"
 ms.date: "09/06/2017"
+description: IFtpProviderConstruct Interface provides an interface for passing configuration settings to a provider.
 ms.assetid: f4c8f1c8-f28e-4907-832d-05cccef42c0a
 ms.author: "robmcm"
 ---

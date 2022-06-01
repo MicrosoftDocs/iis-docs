@@ -1,6 +1,7 @@
 ---
 title: "IHttpModuleRegistrationInfo::SetGlobalNotifications Method"
 ms.date: "10/07/2016"
+description: The IHttpModuleRegistrationInfo SetGlobalNotifications Method registers the global-level notifications for a module.
 ms.assetid: a3d195c5-6bf1-27c5-d9a4-6be71d081161
 ---
 # IHttpModuleRegistrationInfo::SetGlobalNotifications Method

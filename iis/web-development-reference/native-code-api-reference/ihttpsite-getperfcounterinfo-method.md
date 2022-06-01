@@ -1,6 +1,7 @@
 ---
 title: "IHttpSite::GetPerfCounterInfo Method"
 ms.date: "10/07/2016"
+description: The IHttpSite GetPerfCounterInfo Method retrieves an IHttpPerfCounterInfo interface that is used to modify the IIS 7 performance counters at the site level.
 ms.assetid: abb697d2-fa6d-8441-ece4-dfb07abd4dee
 ---
 # IHttpSite::GetPerfCounterInfo Method
