@@ -50,7 +50,7 @@ IIS currently supports HTTP/2 only over TLS. When making an HTTPS connection to 
 
 ### What about push?
 
-Since Server Push is a new feature in HTTP/2, there are new APIs that you need to call to take advantage of it. When you call the [PushPromise API](https://docs.microsoft.com/dotnet/api/system.web.httpresponse.pushpromise) in ASP.NET or the [HttpDeclarePush](https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeclarepush) API from an IIS native module, you provide the URL and optional request headers for the request you anticipate the client making. If push is supported by the underlying connection, two things happen:
+Since Server Push is a new feature in HTTP/2, there are new APIs that you need to call to take advantage of it. When you call the [PushPromise API](/dotnet/api/system.web.httpresponse.pushpromise) in ASP.NET or the [HttpDeclarePush](/windows/desktop/api/http/nf-http-httpdeclarepush) API from an IIS native module, you provide the URL and optional request headers for the request you anticipate the client making. If push is supported by the underlying connection, two things happen:
 
 - A PUSH\_PROMISE is sent to the client, so the client can check whether the resource already exists in the cache
 - A new request is added to the request queue for the pushed resource
