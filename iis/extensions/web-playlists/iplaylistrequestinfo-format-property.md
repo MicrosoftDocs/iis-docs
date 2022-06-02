@@ -1,7 +1,6 @@
 ---
 title: IPlaylistRequestInfo::Format Property
 TOCTitle: IPlaylistRequestInfo::Format Property
-description: IPlaylistRequestInfo Format Property shows how the Format property gets the format in which playlist is requested.
 ms:assetid: b965b958-102b-4f00-930e-d87fd4f0d5e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146288(v=VS.90)
 ms:contentKeyID: 19132359
