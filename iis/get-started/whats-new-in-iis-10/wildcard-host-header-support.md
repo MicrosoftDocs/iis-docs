@@ -1,7 +1,7 @@
 ---
 title: "Wildcard Host Header Support"
 author: apwestgarth
-description: ""
+description: Wildcard Host Header Support by Andrew Westgarth was introduced in IIS 10.0.
 ms.date: 07/01/2015
 ms.assetid: a4abd2b0-45b6-4dba-91c1-8c4c168ff24f
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/wildcard-host-header-support

@@ -1,6 +1,7 @@
 ---
 title: "IHttpResponse::SetErrorDescription Method"
 ms.date: "10/07/2016"
+description: The IHttpResponse SetErrorDescription Method specifies the custom error description with Parameters and a Return Value.
 ms.assetid: 65e5e9a2-0efc-4d11-af6b-c152d58d8b2b
 ---
 # IHttpResponse::SetErrorDescription Method

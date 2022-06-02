@@ -1,6 +1,7 @@
 ---
 title: EventViewer Fields (Microsoft.Web.Media.TransformManager)
 TOCTitle: EventViewer Fields
+description: EventViewer Fields shows that the EventViewer type exposes members.
 ms:assetid: Fields.T:Microsoft.Web.Media.TransformManager.EventViewer
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.eventviewer_fields(v=VS.90)
 ms:contentKeyID: 35520647

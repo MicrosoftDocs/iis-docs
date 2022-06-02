@@ -1,6 +1,7 @@
 ---
 title: "Worker Process Framework API Reference"
 ms.date: "10/07/2016"
+description: The Worker Process Framework API Reference allows protocol managers to retrieve configuration information about a worker process.
 ms.assetid: bdc04c8e-4d52-40f2-b9ab-0935ce372bf7
 ---
 # Worker Process Framework API Reference

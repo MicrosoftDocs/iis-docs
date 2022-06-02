@@ -1,6 +1,7 @@
 ---
 title: "IWpfSettings Interface"
 ms.date: "10/07/2016"
+description: The IWpfSettings Interface retrieves configuration settings that apply to application pools and worker processes.
 ms.assetid: 424ab0ee-d35c-11d4-4300-85e7e2f3d259
 ---
 # IWpfSettings Interface

@@ -1,6 +1,7 @@
 ---
 title: "AuthorizationRule Class"
 ms.date: "10/07/2016"
+description: The AuthorizationRule Class represents a rule in the authorization section of a configuration file.
 ms.assetid: f334ec89-73af-4b83-5c45-0fc379b053fe
 ---
 # AuthorizationRule Class

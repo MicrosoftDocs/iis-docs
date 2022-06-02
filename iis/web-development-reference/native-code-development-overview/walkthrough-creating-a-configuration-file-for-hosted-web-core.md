@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Creating a Configuration File for Hosted Web Core"
 ms.date: "10/07/2016"
+description: The Walkthrough, Creating a Configuration File for Hosted Web Core, demonstrates how to create a configuration file for the Hosted Web Core features in IIS 7.
 ms.assetid: d7d79047-cb09-4e1d-b7c8-5b48951be121
 ---
 # Walkthrough: Creating a Configuration File for Hosted Web Core
