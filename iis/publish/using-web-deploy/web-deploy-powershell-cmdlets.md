@@ -85,7 +85,7 @@ You can also change this to skip all files under site2 by changing the list to $
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample5.ps1)]
 
-Description: This will back up an IIS site along with its settings and content using apphostconfig provider. You can read more about this provider [here](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569080(v=ws.10)?redirectedfrom=MSDN).
+Description: This will back up an IIS site along with its settings and content using apphostconfig provider. You can read more about this provider [here](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569080(v=ws.10)?redirectedfrom=MSDN).
 
 Cmdlet Parameters: The name of the site specified by the site parameter or by the publish settings file is backed up. Site parameter value overrides publish settings specification for site name.
 

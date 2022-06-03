@@ -150,7 +150,7 @@ Note that the error message may be different depending on how Web Deploy is invo
 | **Symptoms** | The Remote Agent Service could not start listening on the URL '{0}'. Make sure that the URL is not in use. |
 | --- | --- |
 | **Root Cause** | Usually indicates a URL conflict. |
-| **Fix/Workaround** | Try reinstalling if you want the default URL or setting a custom URL as specified in the documentation. For more information about URL customization, see [Customizing and Securing the Remote Service](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569093(v=ws.10)) |
+| **Fix/Workaround** | Try reinstalling if you want the default URL or setting a custom URL as specified in the documentation. For more information about URL customization, see [Customizing and Securing the Remote Service](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569093(v=ws.10)) |
 
 <a id="\_Toc295395145"></a>
 

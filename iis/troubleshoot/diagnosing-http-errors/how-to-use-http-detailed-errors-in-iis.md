@@ -181,4 +181,4 @@ Custom and Detailed Errors are powerful IIS features. They help you to troublesh
 
 ## See also
 
-- [Troubleshooting Common IIS Errors](https://docs.microsoft.com/previous-versions/iis/6.0-sdk/ms524996(v=vs.90))
+- [Troubleshooting Common IIS Errors](/previous-versions/iis/6.0-sdk/ms524996(v=vs.90))

@@ -46,9 +46,9 @@ The following topics in the guide describe various aspects of deployment design-
 
 **To prepare the WSUS 3.0 deployment refer to:** 
 
-- [Choose a Type of WSUS Deployment](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc720448(v%3dws.10))
-- [Choose a WSUS Management Style](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708500(v%3dws.10))
-- [Choose the Database Used for WSUS 3.0](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708452(v%3dws.10))
-- [Determine Where to Store WSUS Updates](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708543(v%3dws.10))
-- [Determine Bandwidth Options to Use](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708603(v%3dws.10))
-- [Determine WSUS Capacity Requirements](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-update-services/cc708483(v%3dws.10))
+- [Choose a Type of WSUS Deployment](/previous-versions/windows/it-pro/windows-server-update-services/cc720448(v%3dws.10))
+- [Choose a WSUS Management Style](/previous-versions/windows/it-pro/windows-server-update-services/cc708500(v%3dws.10))
+- [Choose the Database Used for WSUS 3.0](/previous-versions/windows/it-pro/windows-server-update-services/cc708452(v%3dws.10))
+- [Determine Where to Store WSUS Updates](/previous-versions/windows/it-pro/windows-server-update-services/cc708543(v%3dws.10))
+- [Determine Bandwidth Options to Use](/previous-versions/windows/it-pro/windows-server-update-services/cc708603(v%3dws.10))
+- [Determine WSUS Capacity Requirements](/previous-versions/windows/it-pro/windows-server-update-services/cc708483(v%3dws.10))

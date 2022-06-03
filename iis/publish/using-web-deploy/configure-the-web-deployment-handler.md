@@ -108,7 +108,7 @@ NOTE: If you want to perform admin-only synchronization, go to the **Management 
 
 **Optionally, Enable Tracing for WMSvc**
 
-If you want to enable tracing for WMSvc, see [Configuring Web Management Service Tracing](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee461173(v=ws.10)). Tracing logs are stored in `%systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1`.
+If you want to enable tracing for WMSvc, see [Configuring Web Management Service Tracing](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee461173(v=ws.10)). Tracing logs are stored in `%systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1`.
 
 ## Part 3 - Test the User's Connection to the Web site
 
