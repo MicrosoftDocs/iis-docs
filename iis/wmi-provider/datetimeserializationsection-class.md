@@ -1,5 +1,6 @@
 ---
 title: "DateTimeSerializationSection Class"
+description: Describes the DateTimeSerializationSection class and provides the class' syntax, methods, properties, subclasses, requirements, and reference.
 ms.date: "10/07/2016"
 ms.assetid: ad1ba074-e2d7-8528-1a35-a25053eb5106
 ---

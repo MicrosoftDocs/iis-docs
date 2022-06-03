@@ -1,5 +1,6 @@
 ---
 title: SendEndOfStreamOnStop Element
+description: Describes the SendEndOfStreamOnStop element to specify an EOS signal and provides the element's child elements, parent element, and remarks.
 TOCTitle: SendEndOfStreamOnStop Element
 ms:assetid: 57f0a58f-ffa6-43a9-896c-1c7ca48c9640
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547040(v=VS.90)
