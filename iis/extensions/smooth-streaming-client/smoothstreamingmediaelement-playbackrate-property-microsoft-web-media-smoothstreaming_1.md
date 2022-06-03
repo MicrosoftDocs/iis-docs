@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.PlaybackRate Property (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.PlaybackRate Property
 description: Describes the SmoothStreamingMediaElement.PlaybackRate property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: PlaybackRate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackRate

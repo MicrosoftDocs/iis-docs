@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Connect Method
+# Connect Method (Microsoft.Web.Media.TransformManager)
 
 Connects to the HPC scheduler.
 

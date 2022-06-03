@@ -1,6 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ManifestMergeHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
-description: Describes the SmoothStreamingMediaElement.ManifestMergeHandler delegate method and provides the method's namespace, assembly, syntax, and parameters.
+description: This article describes the SmoothStreamingMediaElement.ManifestMergeHandler delegate method and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: SmoothStreamingMediaElement.ManifestMergeHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMergeHandler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestmergehandler(v=VS.90)
@@ -29,7 +29,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SmoothStreamingMediaElement.ManifestMergeHandler Delegate
+# SmoothStreamingMediaElement.ManifestMergeHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 
 Delegate method to merge data from more than one manifest.
 

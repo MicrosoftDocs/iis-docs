@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# GetTaskChildProcessId Method
+# GetTaskChildProcessId Method (Microsoft.Web.Media.TransformManager)
 
 Returns the ID of the child process of an executable program by using the specified job instance ID.
 
