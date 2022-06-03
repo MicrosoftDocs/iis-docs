@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by [Thomas Deml](https://github.com/thomasdeml)
 
-Whether you are running your site on your own server or [in the cloud](https://docs.microsoft.com/azure/app-service/), security must be at the top of your priority list. If so, you will be happy to hear that IIS has a security feature called the application pool identity. This feature was introduced in Service Pack 2 (SP2) of Windows Server 2008 and Windows Vista. An application pool identity allows you to run an application pool under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The image below shows an IIS worker process (W3wp.exe) running as the DefaultAppPool identity.
+Whether you are running your site on your own server or [in the cloud](/azure/app-service/), security must be at the top of your priority list. If so, you will be happy to hear that IIS has a security feature called the application pool identity. This feature was introduced in Service Pack 2 (SP2) of Windows Server 2008 and Windows Vista. An application pool identity allows you to run an application pool under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The image below shows an IIS worker process (W3wp.exe) running as the DefaultAppPool identity.
 
 ![Screenshot of the Task Manager screen with a focus on the W 3 W P dot E X E I I S worker process.](application-pool-identities/_static/image1.jpg)
 
@@ -19,7 +19,7 @@ Whether you are running your site on your own server or [in the cloud](https://d
 
 Worker processes in IIS 6.0 and in IIS 7 run as Network Service by default. Network Service is a built-in Windows identity. It doesn't require a password and has only user privileges; that is, it is relatively low-privileged. Running as a low-privileged account is a good security practice because then a software bug can't be used by a malicious user to take over the whole system.
 
-However, a problem arose over time as more and more Windows system services started to run as Network Service. This is because services running as Network Service can tamper with other services that run under the same identity. Because IIS worker processes run third-party code by default (Classic ASP, ASP.NET, PHP code), it was time to isolate IIS worker processes from other Windows system services and run IIS worker processes under unique identities. The Windows operating system provides a feature called "virtual accounts" that allows IIS to create a unique identity for each of its application pools. For more information about virtual accounts, see [Service Accounts Step-by-Step Guide](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10)).
+However, a problem arose over time as more and more Windows system services started to run as Network Service. This is because services running as Network Service can tamper with other services that run under the same identity. Because IIS worker processes run third-party code by default (Classic ASP, ASP.NET, PHP code), it was time to isolate IIS worker processes from other Windows system services and run IIS worker processes under unique identities. The Windows operating system provides a feature called "virtual accounts" that allows IIS to create a unique identity for each of its application pools. For more information about virtual accounts, see [Service Accounts Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10)).
 
 ## Configuring IIS Application Pool Identities
 
@@ -65,7 +65,7 @@ You can do this via the command-line by using the ICACLS tool. The following exa
 
 [!code-console[Main](application-pool-identities/samples/sample2.cmd)]
 
-For more information, see [ICACLS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753525(v=ws.11)).
+For more information, see [ICACLS](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc753525(v=ws.11)).
 
 On Windows 7 and Windows Server 2008 R2, and later versions of Windows, the default is to run application pools as the application pool identity. To make this happen, a new identity type with the name "AppPoolIdentity" was introduced. If the "AppPoolIdentity" identity type is selected (the default on Windows 7 and Windows Server 2008 R2, and later), IIS will run worker processes as the application pool identity. With every other identity type, the security identifier will only be injected into the access token of the process. If the identifier is injected, content can still be ACLed for the ApplicationPoolIdentity, but the owner of the token is probably not unique. For more information about this concept, see the [New in IIS 7 - App Pool Isolation](http://adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx "AppPool isolation") blog post.
 

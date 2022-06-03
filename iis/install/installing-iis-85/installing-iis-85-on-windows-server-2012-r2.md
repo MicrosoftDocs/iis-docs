@@ -461,9 +461,9 @@ When you remove a role service or feature, make sure that you do not remove a se
 
 ## See also
 
-- [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11))
+- [Install or Uninstall Roles, Role Services, or Features](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11))
 - [IIS.NET Install](../index.md)
 - [What's New in IIS 8.5](../../get-started/index.md)
-- [DISM Overview](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism)
+- [DISM Overview](/windows-hardware/manufacture/desktop/what-is-dism)
 - [Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md)
 - [Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md)

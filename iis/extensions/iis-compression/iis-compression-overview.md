@@ -75,8 +75,8 @@ Making `IIS Compression` open-source provides transparency to the community and 
 
 The *iiszlib.dll* and *iisbrotli.dll* compression scheme providers are not IIS modules, they are extensions of IIS `StaticCompressionModule` and `DynamicCompressionModule`. At runtime, `StaticCompressionModule` and `DynamicCompressionModule` load the compression scheme providers and pass the response content data to them for compression.
 
-Therefore, one or both of the two compression modules need to be installed on the IIS server as a prerequisite. See [HTTP Compression](https://docs.microsoft.com/iis/configuration/system.webserver/httpcompression) on how to install the features.
-Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace. See [URL Compression](https://docs.microsoft.com/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
+Therefore, one or both of the two compression modules need to be installed on the IIS server as a prerequisite. See [HTTP Compression](../../configuration/system.webserver/httpcompression/index.md) on how to install the features.
+Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace. See [URL Compression](/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
 
 #### Installation
 

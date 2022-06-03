@@ -6,7 +6,7 @@ msc.type: authoredcontent
 ---
 # Contributing to the Internet Information Services (IIS) documentation
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](https://docs.microsoft.com/iis/). Contributions can be typographical fixes or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](./get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709.md). Contributions can be typographical fixes or as complex as new articles.
 
 ## How to make a simple correction or suggestion
 
@@ -22,7 +22,7 @@ You'll need a basic understanding of [Git and GitHub.com](https://guides.github.
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla2.dotnetfoundation.org/)
 * Respond to PR feedback.
 
-For an example where this process led to publication of a new article, see [issue 67](https://github.com/dotnet/docs/issues/67) and [pull request 798](https://github.com/dotnet/docs/pull/798) in the .NET repository. The new article is [Documenting your code](https://docs.microsoft.com/dotnet/articles/csharp/codedoc).
+For an example where this process led to publication of a new article, see [issue 67](https://github.com/dotnet/docs/issues/67) and [pull request 798](https://github.com/dotnet/docs/pull/798) in the .NET repository. The new article is [Documenting your code](/dotnet/csharp/language-reference/xmldoc/recommended-tags).
 
 ## Markdown syntax
 
