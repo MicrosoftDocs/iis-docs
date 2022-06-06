@@ -1,5 +1,6 @@
 ---
 title: "OneToOneSettings Class"
+description: "The OneToOneSettings Class contains one-to-one client certificate mappings. This article details its syntax, properties, remarks, and inheritance hierarchy."
 ms.date: "10/07/2016"
 ms.assetid: 87c2bd23-5ce9-4a1a-9413-f159f54436a1
 ---

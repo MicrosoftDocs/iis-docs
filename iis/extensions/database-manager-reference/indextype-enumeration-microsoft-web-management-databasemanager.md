@@ -1,5 +1,6 @@
 ---
 title: IndexType Enumeration (Microsoft.Web.Management.DatabaseManager)
+description: This article details syntax, members, and a code example of the IndexType Enumeration, which specifies the index types for databases.
 TOCTitle: IndexType Enumeration
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IndexType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indextype(v=VS.90)

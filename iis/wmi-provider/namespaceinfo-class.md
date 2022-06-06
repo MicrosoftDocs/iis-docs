@@ -1,5 +1,6 @@
 ---
 title: "NamespaceInfo Class"
+description: "The NamespaceInfo Class contains namespace references similar to the Import directive. This article details its syntax, properties, remarks, and inheritance hierarchy." 
 ms.date: "10/07/2016"
 ms.assetid: a8819e4f-ec68-13bd-3236-aecd0d743d23
 ---

@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.TestConnectionMessage Property (Microsoft.Web.Media.TransformManager)
+description: This article provides syntax and property value of the TestConnectionMessage Property, which gets the connection message.
 TOCTitle: TestConnectionMessage Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.testconnectionmessage(v=VS.90)

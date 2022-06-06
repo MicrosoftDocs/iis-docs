@@ -1,5 +1,6 @@
 ---
 title: Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)
+description: The StreamIndex element of the client manifest specifies metadata for audio, video, or text used in Smooth Streaming applications. This article details its attributes.
 TOCTitle: Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)
 ms:assetid: eada3fe3-b0a0-4605-8b98-9c772c52e304
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728117(v=VS.90)

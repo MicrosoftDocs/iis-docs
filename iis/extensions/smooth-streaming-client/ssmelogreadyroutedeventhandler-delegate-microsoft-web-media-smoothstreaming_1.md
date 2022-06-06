@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
+description: This article provides syntax and parameters of the SSMELogReadyRoutedEventHandler Delegate; the event handler for the LogReady event.
 TOCTitle: SSMELogReadyRoutedEventHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventhandler(v=VS.95)

@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceFailedEventArgs Class
+description: The AdaptiveSourceFailedEventArgs Class represents the adaptive source failed event arguments. This article lists its syntax and the properties exposed by it.
 TOCTitle: AdaptiveSourceFailedEventArgs Class
 ms:assetid: 930206be-3d1e-4654-8f9f-30a830aeda9c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822784(v=VS.90)

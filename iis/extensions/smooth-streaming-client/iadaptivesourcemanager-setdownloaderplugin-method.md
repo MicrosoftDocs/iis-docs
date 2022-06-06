@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManager.SetDownloaderPlugin Method
+description: This article provides syntax, parameters, and return value for the SetDownloaderPlugin Method, which sets the downloader plugin.
 TOCTitle: SetDownloaderPlugin Method
 ms:assetid: 438b7531-f6b0-4ad3-b3f0-09b212f0433e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822724(v=VS.90)
