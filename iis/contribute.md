@@ -6,7 +6,7 @@ msc.type: authoredcontent
 ---
 # Contributing to the Internet Information Services (IIS) documentation
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](./get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709.md). Contributions can be typographical fixes or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](/iis). Contributions can be typographical fixes or as complex as new articles.
 
 ## How to make a simple correction or suggestion
 
