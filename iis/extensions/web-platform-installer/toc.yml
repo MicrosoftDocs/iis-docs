@@ -9,7 +9,7 @@
     - name: DatabaseProvider Enumeration
       href: /dotnet/api/microsoft.web.platforminstaller.databaseprovider
     - name: DeclaredParameter Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.declaredparameter
+      href: /dotnet/api/microsoft.web.platforminstaller.declaredparameter
       items:
       - name: DeclaredParameter Members
         href: /dotnet/api/microsoft.web.platforminstaller.declaredparameter
@@ -33,7 +33,7 @@
         - name: 'Validation Property '
           href: /dotnet/api/microsoft.web.platforminstaller.declaredparameter.validation#microsoft_web_platforminstaller_declaredparameter_validation
     - name: Feed Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.feed
+      href: /dotnet/api/microsoft.web.platforminstaller.feed
       items:
       - name: Feed Members
         href: /dotnet/api/microsoft.web.platforminstaller.feed
@@ -49,7 +49,7 @@
         - name: 'Url Property '
           href: /dotnet/api/microsoft.web.platforminstaller.feed.url#microsoft_web_platforminstaller_feed_url
     - name: Group Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.group
+      href: /dotnet/api/microsoft.web.platforminstaller.group
       items:
       - name: Group Members
         href: /dotnet/api/microsoft.web.platforminstaller.group
@@ -63,7 +63,7 @@
         - name: 'Products Property '
           href: /dotnet/api/microsoft.web.platforminstaller.group.products#microsoft_web_platforminstaller_group_products
     - name: GroupTab Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.grouptab
+      href: /dotnet/api/microsoft.web.platforminstaller.grouptab
       items:
       - name: GroupTab Members
         href: /dotnet/api/microsoft.web.platforminstaller.grouptab
@@ -83,7 +83,7 @@
     - name: InstallationState Enumeration
       href: /dotnet/api/microsoft.web.platforminstaller.installationstate
     - name: InstallCommand Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installcommand
+      href: /dotnet/api/microsoft.web.platforminstaller.installcommand
       items:
       - name: InstallCommand Members
         href: /dotnet/api/microsoft.web.platforminstaller.installcommand
@@ -106,7 +106,7 @@
         - name: 'InstallReturnCode Property '
           href: /dotnet/api/microsoft.web.platforminstaller.installcommand.installreturncode#microsoft_web_platforminstaller_installcommand_installreturncode
     - name: Installer Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installer
+      href: /dotnet/api/microsoft.web.platforminstaller.installer
       items:
       - name: Installer Members
         href: /dotnet/api/microsoft.web.platforminstaller.installer
@@ -135,7 +135,7 @@
         - name: 'Product Property '
           href: /dotnet/api/microsoft.web.platforminstaller.installer.product#microsoft_web_platforminstaller_installer_product
     - name: InstallerContext Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installercontext
+      href: /dotnet/api/microsoft.web.platforminstaller.installercontext
       items:
       - name: InstallerContext Members
         href: /dotnet/api/microsoft.web.platforminstaller.installercontext
@@ -159,7 +159,7 @@
         - name: 'ReturnCode Property '
           href: /dotnet/api/microsoft.web.platforminstaller.installercontext.returncode#microsoft_web_platforminstaller_installercontext_returncode
     - name: InstallerFile Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installerfile
+      href: /dotnet/api/microsoft.web.platforminstaller.installerfile
       items:
       - name: InstallerFile Members
         href: /dotnet/api/microsoft.web.platforminstaller.installerfile
@@ -183,7 +183,7 @@
         - name: 'TrustVerified Property '
           href: /dotnet/api/microsoft.web.platforminstaller.installerfile.trustverified#microsoft_web_platforminstaller_installerfile_trustverified
     - name: InstallManager Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installmanager
+      href: /dotnet/api/microsoft.web.platforminstaller.installmanager
       items:
       - name: InstallManager Members
         href: /dotnet/api/microsoft.web.platforminstaller.installmanager
@@ -242,7 +242,7 @@
         - name: InstallerStatusUpdated Event
           href: /dotnet/api/microsoft.web.platforminstaller.installmanager.installerstatusupdated
     - name: InstallReturnCode Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installreturncode
+      href: /dotnet/api/microsoft.web.platforminstaller.installreturncode
       items:
       - name: InstallReturnCode Members
         href: /dotnet/api/microsoft.web.platforminstaller.installreturncode
@@ -260,7 +260,7 @@
     - name: InstallReturnCodeStatus Enumeration
       href: /dotnet/api/microsoft.web.platforminstaller.installreturncodestatus
     - name: InstallStatusEventArgs Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.installstatuseventargs
+      href: /dotnet/api/microsoft.web.platforminstaller.installstatuseventargs
       items:
       - name: InstallStatusEventArgs Members
         href: /dotnet/api/microsoft.web.platforminstaller.installstatuseventargs
@@ -276,7 +276,7 @@
         - name: 'ProgressValue Property '
           href: /dotnet/api/microsoft.web.platforminstaller.installstatuseventargs.progressvalue#microsoft_web_platforminstaller_installstatuseventargs_progressvalue
     - name: Keyword Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keyword
+      href: /dotnet/api/microsoft.web.platforminstaller.keyword
       items:
       - name: Keyword Members
         href: /dotnet/api/microsoft.web.platforminstaller.keyword
@@ -290,7 +290,7 @@
         - name: 'Text Property '
           href: /dotnet/api/microsoft.web.platforminstaller.keyword.text#microsoft_web_platforminstaller_keyword_text
     - name: KeywordTab Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.keywordtab
+      href: /dotnet/api/microsoft.web.platforminstaller.keywordtab
       items:
       - name: KeywordTab Members
         href: /dotnet/api/microsoft.web.platforminstaller.keywordtab
@@ -308,7 +308,7 @@
         - name: 'Products Property '
           href: /dotnet/api/microsoft.web.platforminstaller.keywordtab.products#microsoft_web_platforminstaller_keywordtab_products
     - name: Language Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.language
+      href: /dotnet/api/microsoft.web.platforminstaller.language
       items:
       - name: Language Members
         href: /dotnet/api/microsoft.web.platforminstaller.language
@@ -326,7 +326,7 @@
         - name: 'Name Property '
           href: /dotnet/api/microsoft.web.platforminstaller.language.name#microsoft_web_platforminstaller_language_name
     - name: Logging Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.logging
+      href: /dotnet/api/microsoft.web.platforminstaller.logging
       items:
       - name: Logging Members
         href: /dotnet/api/microsoft.web.platforminstaller.logging
@@ -346,7 +346,7 @@
         - name: 'TraceSource Property '
           href: /dotnet/api/microsoft.web.platforminstaller.logging.tracesource#microsoft_web_platforminstaller_logging_tracesource
     - name: MSDeployPackage Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.msdeploypackage
+      href: /dotnet/api/microsoft.web.platforminstaller.msdeploypackage
       items:
       - name: MSDeployPackage Members
         href: /dotnet/api/microsoft.web.platforminstaller.msdeploypackage
@@ -385,7 +385,7 @@
         - name: 'StartPage Property '
           href: /dotnet/api/microsoft.web.platforminstaller.msdeploypackage.startpage#microsoft_web_platforminstaller_msdeploypackage_startpage
     - name: Pillar Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillar
+      href: /dotnet/api/microsoft.web.platforminstaller.pillar
       items:
       - name: Pillar Members
         href: /dotnet/api/microsoft.web.platforminstaller.pillar
@@ -405,7 +405,7 @@
         - name: 'Recommended Property '
           href: /dotnet/api/microsoft.web.platforminstaller.pillar.recommended#microsoft_web_platforminstaller_pillar_recommended
     - name: PillarTab Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.pillartab
+      href: /dotnet/api/microsoft.web.platforminstaller.pillartab
       items:
       - name: PillarTab Members
         href: /dotnet/api/microsoft.web.platforminstaller.pillartab
@@ -421,7 +421,7 @@
         - name: 'Pillars Property '
           href: /dotnet/api/microsoft.web.platforminstaller.pillartab.pillars#microsoft_web_platforminstaller_pillartab_pillars
     - name: PreferenceSettings Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.preferencesettings
+      href: /dotnet/api/microsoft.web.platforminstaller.preferencesettings
       items:
       - name: PreferenceSettings Members
         href: /dotnet/api/microsoft.web.platforminstaller.preferencesettings
@@ -435,7 +435,7 @@
         - name: 'Text Property '
           href: /dotnet/api/microsoft.web.platforminstaller.preferencesettings.text#microsoft_web_platforminstaller_preferencesettings_text
     - name: Product Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.product
+      href: /dotnet/api/microsoft.web.platforminstaller.product
       items:
       - name: Product Members
         href: /dotnet/api/microsoft.web.platforminstaller.product
@@ -505,7 +505,7 @@
         - name: 'Version Property '
           href: /dotnet/api/microsoft.web.platforminstaller.product.version#microsoft_web_platforminstaller_product_version
     - name: ProductManager Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.productmanager
+      href: /dotnet/api/microsoft.web.platforminstaller.productmanager
       items:
       - name: ProductManager Members
         href: /dotnet/api/microsoft.web.platforminstaller.productmanager
@@ -564,7 +564,7 @@
         - name: WebPlatformInstallerUpdateAvailable Event
           href: /dotnet/api/microsoft.web.platforminstaller.productmanager.webplatforminstallerupdateavailable
     - name: QuickStartGroup Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.quickstartgroup
+      href: /dotnet/api/microsoft.web.platforminstaller.quickstartgroup
       items:
       - name: QuickStartGroup Members
         href: /dotnet/api/microsoft.web.platforminstaller.quickstartgroup
@@ -586,7 +586,7 @@
         - name: 'Products Property '
           href: /dotnet/api/microsoft.web.platforminstaller.quickstartgroup.products#microsoft_web_platforminstaller_quickstartgroup_products
     - name: RelatedProduct Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.relatedproduct
+      href: /dotnet/api/microsoft.web.platforminstaller.relatedproduct
       items:
       - name: RelatedProduct Members
         href: /dotnet/api/microsoft.web.platforminstaller.relatedproduct
@@ -606,7 +606,7 @@
         - name: 'Product Property '
           href: /dotnet/api/microsoft.web.platforminstaller.relatedproduct.product#microsoft_web_platforminstaller_relatedproduct_product
     - name: Tab Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.tab
+      href: /dotnet/api/microsoft.web.platforminstaller.tab
       items:
       - name: Tab Members
         href: /dotnet/api/microsoft.web.platforminstaller.tab
@@ -628,7 +628,7 @@
         - name: 'Name Property '
           href: /dotnet/api/microsoft.web.platforminstaller.tab.name#microsoft_web_platforminstaller_tab_name
     - name: Terms Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.terms
+      href: /dotnet/api/microsoft.web.platforminstaller.terms
       items:
       - name: Terms Members
         href: /dotnet/api/microsoft.web.platforminstaller.terms
@@ -644,7 +644,7 @@
         - name: 'TermsText Property '
           href: /dotnet/api/microsoft.web.platforminstaller.terms.termstext#microsoft_web_platforminstaller_terms_termstext
     - name: UpdateAvailableEventArgs Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs
+      href: /dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs
       items:
       - name: UpdateAvailableEventArgs Members
         href: /dotnet/api/microsoft.web.platforminstaller.updateavailableeventargs

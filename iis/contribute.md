@@ -59,7 +59,7 @@ To render a portion of a file as a snippet by using line numbers:
 [!code-html[Main](configuration/sample/Views/Home/Index.cshtml?range=1-10,20,30,40-50]
 ```
 
-For C# snippets, you can reference a [C# region](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
+For C# snippets, you can reference a [C# region](/dotnet/csharp/language-reference/preprocessor-directives). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
 
 To render a C# region named "snippet_Example":
 
@@ -120,4 +120,3 @@ Our goal is to write documentation that is easily understandable by the widest p
 ## Redirects
 
 If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [main redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/main/.openpublishing.publish.config.json).
- 

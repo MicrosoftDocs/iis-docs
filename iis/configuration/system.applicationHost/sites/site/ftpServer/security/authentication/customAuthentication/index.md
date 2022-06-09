@@ -22,7 +22,7 @@ The main advantage of using custom authentication providers is that user account
 > FTP 7.0 and FTP 7.5 ship with two custom authentication providers:
 
 - ASP.NET Membership authentication: This uses an ASP.NET membership database to validate user names and passwords. For more information, see the [Configuring FTP with .NET Membership Authentication](/iis/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7) topic on Microsoft's IIS.net Web site.
-- IIS Manager authentication: This uses the IIS management user store to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.net Web site.
+- IIS Manager authentication: This uses the IIS management user store to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.net Web site.
 
 > [!NOTE]
 > The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../../system.ftpserver/providerdefinitions/index.md) collection.

@@ -79,7 +79,7 @@ For example, you could specify that a database user name needs to be placed with
 
 Many applications use XML files for data or configuration. All Microsoft® .NET applications, and many PHP applications, use a Web.config file for storing Web site and application configuration information. When identifying a target within a XML file, the most reliable mechanism to use is an XPath query.
 
-The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as an [XPath query](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
+The scope for an XmlFile entry type is defined the same way as for TextFile, using a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as an [XPath query](/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)). An XmlFile entry will replace every existence of a matching XPath in a file. This will frequently mean that you need a detailed XPath query to make sure you replace only the targeted match.
 
 For example, an application might have a SQL connectionString in a Web.config file. There may be more than one connectionString in the file to allow for different database types:
 
@@ -89,7 +89,7 @@ You could use the generated connection string parameter in the following example
 
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample3.xml)]
 
-For more information, see the [XPath Syntax](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)) article.
+For more information, see the [XPath Syntax](/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100)) article.
 
 ### ProviderPath
 
@@ -107,7 +107,7 @@ The scope of a ProviderPath entry refers to the type of provider being parameter
 
 There may be times when using a regular expression to replace a text string in a file may not be precise enough. For example, there may be a string that you want to replace in one portion of the file but not in another. Or you may not be able to use a regular expression to uniquely identify the string to be changed. For those situations, you can use the TextFilePosition ParameterEntry type.
 
-The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
+The scope for a TextFilePositionEntry type is defined the same way as for TextFile, using a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference) to identify the target file(s). The match is specified as a series of three integers separated by semicolons (;). The first integer specifies the line number in the file. The second integer specifies the number of characters from the beginning of the line. The third integer specifies the number of characters to replace. You do need to be careful when specifying your target, as the parameter replacement will extend beyond the end of a line if the match numbers specify a target that would include end-of-line characters within the target length.
 
 For example, you could specify that the database user name from the TextFile example also needs to be included in a configuration file. The target in this file cannot be uniquely identified with a regular expression. Using TextFilePosition, we can target the specific string in the file based on its location instead of its content.
 
@@ -153,7 +153,7 @@ There are several types of parameter validation that are available. If none of t
 
     Currently, there is no way to escape a comma (,) so that it may be included as part of one of the values of an enumeration.
 
-- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, see [Regular Expression Language - Quick Reference](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
+- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, see [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample8.xml)]
 
@@ -212,7 +212,7 @@ In the example, note:
 - iisApp is one of the 10 automatically translated parameters; do not specify translations for this parameter unless the default translations were insufficient for your needs.
 - Specify translations for both the "friendlyName" and the "description". If you do not specify a friendlyName, the UI will use the parameter name in all cases.
 
-For a table of common International Organization for Standardization (ISO) culture codes, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://docs.microsoft.com/previous-versions/commerce-server/ee825488(v=cs.20)).
+For a table of common International Organization for Standardization (ISO) culture codes, see the [Table of Language Culture Names, Codes, and ISO Values Method [C++]](/previous-versions/commerce-server/ee825488(v=cs.20)).
 
 ## xxxx.sql
 
