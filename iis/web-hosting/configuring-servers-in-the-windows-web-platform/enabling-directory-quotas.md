@@ -56,4 +56,4 @@ Quotas can also be created using the command-line tool dirquota.exe (see [C# and
 
 [!code-console[Main](enabling-directory-quotas/samples/sample1.cmd)]
 
-For more information about the File Server Resource Manager, see [File Server Resource Manager overview](https://docs.microsoft.com/windows-server/storage/fsrm/fsrm-overview).
+For more information about the File Server Resource Manager, see [File Server Resource Manager overview](/windows-server/storage/fsrm/fsrm-overview).

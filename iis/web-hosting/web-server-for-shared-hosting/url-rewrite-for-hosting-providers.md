@@ -13,7 +13,7 @@ by [Walter Oliver](https://github.com/walterov)
 
 The purpose of this article is to provide a guiding map to the various resources available for hosters who are learning about and deploying the IIS URL Rewrite module. This module is an important component of the Windows Web Platform, as illustrated in this [Shared Hosting article](../planning-the-web-hosting-architecture/shared-hosting-configuration.md). The URL Rewrite module provides functionality to Web users and site administrators that was only partially available in a handful of limited, complex, custom systems.
 
-For more information on the features of URL Rewrite Module, see [IIS URL Rewrite Module](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee215194(v=ws.10)).
+For more information on the features of URL Rewrite Module, see [IIS URL Rewrite Module](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee215194(v=ws.10)).
 
 ## Learn About the URL Rewrite Module
 
