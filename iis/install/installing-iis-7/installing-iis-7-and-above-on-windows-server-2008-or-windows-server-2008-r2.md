@@ -90,7 +90,7 @@ Server Manager provides a single dashboard to install or uninstall server roles 
 
 ## Use a Script to Install IIS 7.5 on Windows Server 2008 R2
 
-You can also use a script to install IIS 7.5. Note that if you use this script, you get the full IIS installation, which installs all available feature packages. If there are feature packages you do not need, you should edit the script to install only the packages you require. For more information, see [Installing IIS 7.5 on Windows Server 2008 R2](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771209(v=ws.11)).
+You can also use a script to install IIS 7.5. Note that if you use this script, you get the full IIS installation, which installs all available feature packages. If there are feature packages you do not need, you should edit the script to install only the packages you require. For more information, see [Installing IIS 7.5 on Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771209(v=ws.11)).
 
 To install IIS 7.5 with a script, type the following at a command prompt:
 
@@ -164,7 +164,7 @@ In the Windows Server 2008 and Windows Vista operating systems, Pkgmgr.exe is us
 ## See also
 
 - [Installing and Configuring WebDAV on IIS 7.0 and Above](../installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md)
-- [Available Web Server (IIS) Role Services in IIS 7.5](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753473(v=ws.11))
-- [Installing IIS 7.0 on Windows Server 2008](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771209(v=ws.10))
+- [Available Web Server (IIS) Role Services in IIS 7.5](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753473(v=ws.11))
+- [Installing IIS 7.0 on Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771209(v=ws.10))
 - [Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md)
 - [Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md)

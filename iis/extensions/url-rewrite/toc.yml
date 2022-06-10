@@ -2,101 +2,101 @@
   href: iis-url-rewrite.md
   items:
   - name: Microsoft.Web.Management.Iis.Rewrite Namespace
-    href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite
+    href: /dotnet/api/microsoft.web.management.iis.rewrite
     items:
     - name: RewriteTemplateCategory Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory
+      href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory
       items:
       - name: RewriteTemplateCategory Fields
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#fields
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#fields
         items:
         - name: InboundAndOutboundRules Field
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.inboundandoutboundrules
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.inboundandoutboundrules
         - name: InboundRules Field
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.inboundrules
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.inboundrules
         - name: OutboundRules Field
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.outboundrules
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.outboundrules
         - name: SEO Field
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.seo
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.seo
       - name: RewriteTemplateCategory Methods
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#methods
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#methods
         items:
         - name: 'Equals Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.equals#microsoft_web_management_iis_rewrite_rewritetemplatecategory_equals_system_object_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.equals#microsoft_web_management_iis_rewrite_rewritetemplatecategory_equals_system_object_
         - name: 'GetHashCode Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.gethashcode#microsoft_web_management_iis_rewrite_rewritetemplatecategory_gethashcode
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.gethashcode#microsoft_web_management_iis_rewrite_rewritetemplatecategory_gethashcode
       - name: RewriteTemplateCategory Properties
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#properties
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory#properties
         items:
         - name: 'Key Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.key#microsoft_web_management_iis_rewrite_rewritetemplatecategory_key
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.key#microsoft_web_management_iis_rewrite_rewritetemplatecategory_key
         - name: 'Text Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.text#microsoft_web_management_iis_rewrite_rewritetemplatecategory_text
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatecategory.text#microsoft_web_management_iis_rewrite_rewritetemplatecategory_text
     - name: RewriteTemplateFeature Class
-      href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature
+      href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature
       items:
       - name: 'RewriteTemplateFeature Constructor '
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#constructors
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#constructors
         items:
         - name: RewriteTemplateFeature Constructor (Module, String, String)
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_
         - name: RewriteTemplateFeature Constructor (Module, String, String, RewriteTemplateCategory)
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_microsoft_web_management_iis_rewrite_rewritetemplatecategory_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_microsoft_web_management_iis_rewrite_rewritetemplatecategory_
         - name: RewriteTemplateFeature Constructor (Module, String, String, Object, Object)
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_system_object_system_object_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_system_object_system_object_
         - name: RewriteTemplateFeature Constructor (Module, String, String, Object, Object, RewriteTemplateCategory)
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_system_object_system_object_microsoft_web_management_iis_rewrite_rewritetemplatecategory_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.-ctor#microsoft_web_management_iis_rewrite_rewritetemplatefeature__ctor_microsoft_web_management_client_module_system_string_system_string_system_object_system_object_microsoft_web_management_iis_rewrite_rewritetemplatecategory_
       - name: RewriteTemplateFeature Methods
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#methods
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#methods
         items:
         - name: 'IServiceProvider.GetService Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.system-iserviceprovider-getservice#microsoft_web_management_iis_rewrite_rewritetemplatefeature_system_iserviceprovider_getservice_system_type_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.system-iserviceprovider-getservice#microsoft_web_management_iis_rewrite_rewritetemplatefeature_system_iserviceprovider_getservice_system_type_
         - name: 'DisplayErrorMessage Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.displayerrormessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_displayerrormessage_system_exception_system_resources_resourcemanager_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.displayerrormessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_displayerrormessage_system_exception_system_resources_resourcemanager_
         - name: 'Equals Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.equals#microsoft_web_management_iis_rewrite_rewritetemplatefeature_equals_system_object_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.equals#microsoft_web_management_iis_rewrite_rewritetemplatefeature_equals_system_object_
         - name: 'GetHashCode Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.gethashcode#microsoft_web_management_iis_rewrite_rewritetemplatefeature_gethashcode
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.gethashcode#microsoft_web_management_iis_rewrite_rewritetemplatefeature_gethashcode
         - name: 'GetService Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.getservice#microsoft_web_management_iis_rewrite_rewritetemplatefeature_getservice_system_type_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.getservice#microsoft_web_management_iis_rewrite_rewritetemplatefeature_getservice_system_type_
         - name: 'Navigate Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#overloads
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#overloads
           items:
           - name: Navigate Method (Type)
-            href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#microsoft_web_management_iis_rewrite_rewritetemplatefeature_navigate_system_type_
+            href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#microsoft_web_management_iis_rewrite_rewritetemplatefeature_navigate_system_type_
           - name: Navigate Method (Type, Object)
-            href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#microsoft_web_management_iis_rewrite_rewritetemplatefeature_navigate_system_type_system_object_
+            href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.navigate#microsoft_web_management_iis_rewrite_rewritetemplatefeature_navigate_system_type_system_object_
         - name: 'Run Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.run#microsoft_web_management_iis_rewrite_rewritetemplatefeature_run
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.run#microsoft_web_management_iis_rewrite_rewritetemplatefeature_run
         - name: 'ShowDialog Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showdialog#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showdialog_microsoft_web_management_client_win32_dialogform_
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showdialog#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showdialog_microsoft_web_management_client_win32_dialogform_
         - name: 'ShowMessage Method '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#overloads
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#overloads
           items:
           - name: ShowMessage Method (String, String)
-            href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_
+            href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_
           - name: ShowMessage Method (String, String, MessageBoxButtons, MessageBoxIcon)
-            href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_system_windows_forms_messageboxbuttons_system_windows_forms_messageboxicon_
+            href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_system_windows_forms_messageboxbuttons_system_windows_forms_messageboxicon_
           - name: ShowMessage Method (String, String, MessageBoxButtons, MessageBoxIcon, MessageBoxDefaultButton)
-            href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_system_windows_forms_messageboxbuttons_system_windows_forms_messageboxicon_system_windows_forms_messageboxdefaultbutton_
+            href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.showmessage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_showmessage_system_string_system_string_system_windows_forms_messageboxbuttons_system_windows_forms_messageboxicon_system_windows_forms_messageboxdefaultbutton_
       - name: RewriteTemplateFeature Properties
-        href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#properties
+        href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature#properties
         items:
         - name: 'Category Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.category#microsoft_web_management_iis_rewrite_rewritetemplatefeature_category
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.category#microsoft_web_management_iis_rewrite_rewritetemplatefeature_category
         - name: 'Connection Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.connection#microsoft_web_management_iis_rewrite_rewritetemplatefeature_connection
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.connection#microsoft_web_management_iis_rewrite_rewritetemplatefeature_connection
         - name: 'Description Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.description#microsoft_web_management_iis_rewrite_rewritetemplatefeature_description
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.description#microsoft_web_management_iis_rewrite_rewritetemplatefeature_description
         - name: 'IsEnabled Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.isenabled#microsoft_web_management_iis_rewrite_rewritetemplatefeature_isenabled
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.isenabled#microsoft_web_management_iis_rewrite_rewritetemplatefeature_isenabled
         - name: 'LargeImage Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.largeimage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_largeimage
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.largeimage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_largeimage
         - name: 'Module Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.module#microsoft_web_management_iis_rewrite_rewritetemplatefeature_module
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.module#microsoft_web_management_iis_rewrite_rewritetemplatefeature_module
         - name: 'ServiceProvider Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.serviceprovider#microsoft_web_management_iis_rewrite_rewritetemplatefeature_serviceprovider
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.serviceprovider#microsoft_web_management_iis_rewrite_rewritetemplatefeature_serviceprovider
         - name: 'SmallImage Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.smallimage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_smallimage
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.smallimage#microsoft_web_management_iis_rewrite_rewritetemplatefeature_smallimage
         - name: 'Title Property '
-          href: https://docs.microsoft.com/dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.title#microsoft_web_management_iis_rewrite_rewritetemplatefeature_title
+          href: /dotnet/api/microsoft.web.management.iis.rewrite.rewritetemplatefeature.title#microsoft_web_management_iis_rewrite_rewritetemplatefeature_title

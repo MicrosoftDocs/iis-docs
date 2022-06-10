@@ -75,13 +75,13 @@ Although IIS prior to version 10.0 version 1803 allows enabling multiple compres
 
 In consequence, IIS always prioritizes **gzip** over **br** for the typical scenario that the browser sets `Accept-Encoding: gzip, deflate, br` header in the request.
 
-A possible workaround is installing the [URL Rewrite Module](https://docs.microsoft.com/iis/extensions/url-rewrite-module/using-the-url-rewrite-module) and configuring a rewrite rule to modify the **Accept-Encoding** header value.
+A possible workaround is installing the [URL Rewrite Module](../url-rewrite-module/using-the-url-rewrite-module.md) and configuring a rewrite rule to modify the **Accept-Encoding** header value.
 The following configuration shows a sample rewrite rule that rewrites the **Accept-Encoding** header value to only include **br** scheme if it finds the string **br** in the header value with a non-zero quality value.
 
 [!code-xml[Main](using-iis-compression/samples/compression-scheme-prioritization-workaround.xml)]
 
 More details on how to configure rewrite rules can be found in
-[Creating Rewrite Rules for the URL Rewrite Module](https://docs.microsoft.com/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module).
+[Creating Rewrite Rules for the URL Rewrite Module](/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module).
 
 ## Testing IIS Compression
 

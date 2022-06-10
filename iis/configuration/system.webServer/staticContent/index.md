@@ -24,7 +24,7 @@ The `<staticContent>` element contains the following three attributes that speci
 - As noted above, the **isDocFooterFileName** attribute specifies whether the **defaultDocFooter** attribute contains a text string that IIS 7 will use for the document footer or the fully qualified path to a file that contains the text that IIS 7 will use for the document footer.
 
 > [!NOTE]
-> By default, the **isDocFooterFileName** attribute is set to **false** and locked globally. To use files for document footers, you would need to either set the **isDocFooterFileName** attribute to **true** at the global-level, or unlock the attribute. To learn more about locking and unlocking attributes, see the [How to Use Locking in IIS 7.0 Configuration](https://docs.microsoft.com/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration) walkthrough.
+> By default, the **isDocFooterFileName** attribute is set to **false** and locked globally. To use files for document footers, you would need to either set the **isDocFooterFileName** attribute to **true** at the global-level, or unlock the attribute. To learn more about locking and unlocking attributes, see the [How to Use Locking in IIS 7.0 Configuration](/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration) walkthrough.
 
 <a id="002"></a>
 ## Compatibility
