@@ -32,7 +32,7 @@ The following steps include the prerequisites necessary for completing the tasks
 
 ### Step 1 : Installing IIS 7.0 or Above
 
-IIS 7.0 or above must first be installed. To check if IIS is installed, browse to [http://localhost](http://localhost/ "blocked::http://localhost/"). If you see the "under construction" page, then IIS is installed. If IIS is not installed, refer to the "Installing IIS 7.0 and Above" guide for installation instructions.
+IIS 7.0 or above must first be installed. To check if IIS is installed, browse to `http://localhost`. If you see the "under construction" page, then IIS is installed. If IIS is not installed, refer to the "Installing IIS 7.0 and Above" guide for installation instructions.
 
 Make sure to install the following IIS Components:
 
@@ -67,7 +67,7 @@ In this task, you add Trace.Write() &amp; Warn() calls to a sample aspx page and
 
     [!code-aspx[Main](how-to-capture-aspnet-page-trace-events-in-iis-tracing/samples/sample2.aspx)]
 
-3. Browse to [http://localhost/trace.aspx](http://localhost/trace.aspx). You see the following:
+3. Browse to `http://localhost/trace.aspx`. You see the following:
 
     ![Screenshot of a browser window showing a warning.](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image3.jpg)
 
@@ -109,12 +109,12 @@ Failure Request Tracing first must be enabled for the site. Steps to enable are 
 
 ## Step 3 : Test and View
 
-In this step, we generate a request for [http://localhost/trace.aspx](http://localhost/trace.aspx) and then check the Failed Request Tracing log file to see the trace events.
+In this step, we generate a request for `http://localhost/trace.aspx` and then check the Failed Request Tracing log file to see the trace events.
 
 To verify that it worked:
 
 1. Open an Administrator-elevated new Internet Explorer window.
-2. Type in the address [http://localhost/trace.aspx](http://localhost/trace.aspx).
+2. Type in the address http://localhost/trace.aspx`.
 3. We generated the traced request, so open an Administrator-elevated Internet Explorer window, enter **CTRL-O** to open a file, and navigate to inetpub\logs\FailedReqLogFiles\W3SVC1 folder. In the **HTML Files** dropdown list, select **All Files**.
 4. Select the most recent FR######.xml file. You see the following:
 

@@ -40,7 +40,7 @@ Before starting the installation procedure for Coppermine create a database on y
 
 ## Set Up and Configure Coppermine
 
-Open your web browser and browse to [http://localhost/Coppermine/install.php](http://localhost/Coppermine/install.php), the Coppermine setup page.
+Open your web browser and browse to `http://localhost/Coppermine/install.php`, the Coppermine setup page.
 
 1. Enter the required installation information as in the screen shot below (replace the Database Server Hostname and Passwords with the information of your database server). Click "Let's Go!".  
     [![Screenshot shows the Coppermine Photo Gallery: Welcome to Coppermine installation page.](coppermine-on-iis/_static/image2.png)](coppermine-on-iis/_static/image1.png)
@@ -48,7 +48,7 @@ Open your web browser and browse to [http://localhost/Coppermine/install.php](ht
     [![Screenshot shows the Coppermine Photo Gallery: Installation completed page.](coppermine-on-iis/_static/image4.png)](coppermine-on-iis/_static/image3.png)
 3. After the installation is complete, delete the file install.php from `c:\inetpub\wwwroot\Coppermine` to ensure that no one can reconfigure the gallery.
 
-You must change the access permissions on the include folder now that the installation is finished. Ensure that the folder is NOT writable by the service account that is used for the application pool associated with the "Default Web Site". Once the permissions have been specified, you can browse to [http://localhost/Coppermine/index.php](http://localhost/Coppermine/index.php) and log on using the administrative username and password that you have specified earlier.
+You must change the access permissions on the include folder now that the installation is finished. Ensure that the folder is NOT writable by the service account that is used for the application pool associated with the "Default Web Site". Once the permissions have been specified, you can browse to `http://localhost/Coppermine/index.php` and log on using the administrative username and password that you have specified earlier.
 
 ## Getting More Information
 

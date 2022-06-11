@@ -37,7 +37,7 @@ Before starting the installation procedure for ExpressionEngine, create a databa
 
 ## Set Up and Configure ExpressionEngine
 
-Installation information and setup information documents are available at [http://expressionengine.com/docs/installation/installation.html](http://expressionengine.com/docs/installation/installation.html).
+Installation information and setup information documents are available at [https://expressionengine.com/](https://expressionengine.com/).
 
 Follow these steps:
 
