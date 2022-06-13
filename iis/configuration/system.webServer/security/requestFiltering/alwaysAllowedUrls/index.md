@@ -23,7 +23,7 @@ The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](add.md) ele
 | IIS 8.5 | The `<alwaysAllowedUrls>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<alwaysAllowedUrls>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<alwaysAllowedUrls>` element of the `<requestFiltering>` element ships as a feature of IIS 7.5. |
-| IIS 7.0 | The `<alwaysAllowedUrls>` element of the `<requestFiltering>` element was introduced as an update for IIS 7.0 that is available through [Microsoft Knowledge Base Article 957508](https://support.microsoft.com/kb/957508). |
+| IIS 7.0 | The `<alwaysAllowedUrls>` element of the `<requestFiltering>` element was introduced as an update for IIS 7.0 that is available through Microsoft Knowledge Base Article 957508 (`https://support.microsoft.com/kb/957508`). |
 | IIS 6.0 | The `<alwaysAllowedUrls>` element is roughly analogous to the **[AlwaysAllowedUrls]** section that was added to URLScan 3.0. |
 
 <a id="003"></a>
