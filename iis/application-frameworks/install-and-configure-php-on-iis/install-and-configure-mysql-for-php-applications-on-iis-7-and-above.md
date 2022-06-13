@@ -29,7 +29,7 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 ## Configure a MySQL Instance
 
 1. Run the **MySQL Server Instance Configuration Wizard**, and then choose the configurations options that most closely match your environment.   
- For more information, see the [Server Instance Configuration Wizard](https://dev.mysql.com/doc/refman/5.0/en/mysql-config-wizard.html).   
+ For more information, see the [Server Instance Configuration Wizard](https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-server-management-wizard.html).   
  Best practice recommendations are as follows:  
 
     - Click **Next** in the **Instance Configuration Wizard**.
@@ -104,6 +104,6 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 ## See also
 
 - [MySQL Server Web site](https://dev.mysql.com/doc/)
-- [Using the MySQL Installation Wizard](https://dev.mysql.com/doc/refman/5.0/en/windows-install-wizard.html)
+- [Using the MySQL Installation Wizard](https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/)
 - [Installing MySQL from a Noinstall Zip Archive](https://dev.mysql.com/doc/refman/5.0/en/windows-install-archive.html)
 - [MySQL Windows Installation](https://dev.mysql.com/doc/refman/5.0/en/windows-installation.html)
