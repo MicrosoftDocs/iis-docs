@@ -66,7 +66,7 @@ Modify the WordPress configuration file to connect to the database.
     ![Screenshot of a browser window showing the WordPress success page.](install-wordpress-on-iis/_static/image3.jpg)
 
     *Figure 2: Note the administrator password*
-4. Begin managing your blog from [`http://localhost/wordpress/wp-login.php`](http://localhost/wordpress/wp-login.php).  
+4. Begin managing your blog from `http://localhost/wordpress/wp-login.php`.  
 
     ![Screenshot of a browser window showing the WordPress log in page.](install-wordpress-on-iis/_static/image5.jpg)
 

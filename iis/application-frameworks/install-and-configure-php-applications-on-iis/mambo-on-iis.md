@@ -22,7 +22,7 @@ Mambo does not require many modifications beyond the default configuration provi
 
 ## Download and Unpack the Application
 
-Download the latest stable release of Mambo. For this article we, use Mambo 4.6.2 downloaded from [here](http://www.source.mambo-foundation.org/content/view/90/63/). After downloading the zip package, extract its contents to `C:\Inetpub\wwwroot\mambo` or another directory of your choosing.
+Download the latest stable release of Mambo. For this article we, use Mambo 4.6.2 downloaded from `http://www.source.mambo-foundation.org/content/view/90/63/`. After downloading the zip package, extract its contents to `C:\Inetpub\wwwroot\mambo` or another directory of your choosing.
 
 ## Set Up the Database
 
