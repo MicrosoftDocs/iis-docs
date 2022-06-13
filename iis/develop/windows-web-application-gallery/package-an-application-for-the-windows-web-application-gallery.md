@@ -37,7 +37,7 @@ The following procedure is a summary of the most common process for preparing a 
 3. Refer to the article "[Best Practices for PHP on Windows](../../application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md)" for guidance in running your PHP application.
 4. Submit the package to the Gallery for testing using the [submission form](https://www.microsoft.com/web/gallery/myapps.aspx "submission form").
 5. Resolve any issues with the Application Gallery team.
-6. See your application on the [Windows Web Application Gallery](http://www.microsoft.con/web/gallery).
+6. See your application on the [Windows Web Application Gallery](http://www.microsoft.com/web/gallery).
 
 ## Create a Basic Package
 
@@ -80,7 +80,7 @@ Here are some tips for creating parameters.xml:
     [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample5.xml)]
 
    The $ at the end of the scope regular expression is important - it indicates that we only want to match files names web.config and not, for example, files named web.config.bak. Constraining parameter scopes in this manner can help avoid unintentional changes to files which are difficult to diagnose.
-4. If you store the local application URL in a file or database, parameterize it appropriately. Some applications store a base URL aka Local Application URL in a file or database. For example, a blog application may store "<http://localhost:80>" in the database and used this as a base URL to generate application-wide URLs. If your application does this, you need to create a parameter and tag it as "AppURL".  
+4. If you store the local application URL in a file or database, parameterize it appropriately. Some applications store a base URL aka Local Application URL in a file or database. For example, a blog application may store `http://localhost:80` in the database and used this as a base URL to generate application-wide URLs. If your application does this, you need to create a parameter and tag it as "AppURL".  
 
     [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample6.xml)]
 

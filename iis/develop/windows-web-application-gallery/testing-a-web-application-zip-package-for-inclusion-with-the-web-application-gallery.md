@@ -132,7 +132,7 @@ In the custom feed file, locate the &lt;installerURL&gt; element and provide the
 
 #### Step 3. Enter the new SHA-1 hash
 
-In the custom feed file, locate &lt;sha1&gt; and substitute the value for the corresponding has for your zip package. You can get a hash of your zip package, by using a free utility called [File Checksum Integrity Verifier (FCIV)](https://support.microsoft.com/kb/841290) and running fciv.exe -sha &lt;path to your zip package&gt; from the command prompt.
+In the custom feed file, locate &lt;sha1&gt; and substitute the value for the corresponding hash for your zip package. You can get a hash of your zip package, by using a free utility called [File Checksum Integrity Verifier (FCIV)](https://www.lifewire.com/how-to-download-and-install-file-checksum-integrity-verifier-fciv-2625185) and running fciv.exe -sha &lt;path to your zip package&gt; from the command prompt.
 
 #### Step 4. Test your custom feed file
 
