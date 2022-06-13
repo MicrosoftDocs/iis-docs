@@ -79,4 +79,4 @@ For additional information about the options that are available for classic ASP,
 For additional detail on parent paths in IIS, see the following page in the Microsoft Knowledge Base:
 
 > **Enable Parent Paths Is Disabled by Default in IIS 6.0**  
-> [https://support.microsoft.com/kb/332117](https://support.microsoft.com/kb/332117)
+> `https://support.microsoft.com/kb/332117`
