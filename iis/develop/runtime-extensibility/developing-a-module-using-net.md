@@ -156,7 +156,7 @@ Congratulations, you have finished configuring the custom basic authentication m
 
 Let's try it! Open Internet Explorer, and make a request to the application at the following URL:
 
-[**`http://localhost/`**](http://localhost/)
+**`http://localhost/`**
 
 You should see the basic authentication login dialog. Enter "test" in the "User name:" field and "test" in the "Password:" field to get access. Note that if you copy HTML, JPG, or any other content to your application, they too will be protected by your new BasicAuthenticationModule.
 

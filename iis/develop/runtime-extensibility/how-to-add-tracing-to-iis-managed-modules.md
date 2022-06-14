@@ -35,7 +35,7 @@ Follow the steps below before performing the tasks in this article.
 
 ### Step 1: Installing IIS
 
-First, IIS must be installed. Check to see if IIS is installed by browsing to [http://localhost/](http://localhost/ "blocked::http://localhost/"). If IIS is installed, you see the "under construction" page. If IIS is not installed, refer to [Installing IIS](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md) for instructions. Make sure to install the following IIS components:
+First, IIS must be installed. Check to see if IIS is installed by browsing to `http://localhost/`. If IIS is installed, you see the "under construction" page. If IIS is not installed, refer to [Installing IIS](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md) for instructions. Make sure to install the following IIS components:
 
 - ASP (under World Wide Web Services =&gt; Application Development Features =&gt; ASP)
 - ASP.Net (under World Wide Web Services =&gt; Application Development Features =&gt; ASP.Net)
@@ -145,7 +145,7 @@ This section includes adding and testing the module.
 
 ### Step 2 : Testing Our Module
 
-Test the module by opening Internet Explorer and browsing to [http://localhost/test.htm](http://localhost/test.htm). You see the following window:
+Test the module by opening Internet Explorer and browsing to `http://localhost/test.htm`. You see the following window:
 
 [![Screenshot of a webpage reading here is a sample page that is served by static file handler.](how-to-add-tracing-to-iis-managed-modules/_static/image8.png)](how-to-add-tracing-to-iis-managed-modules/_static/image7.png)
 
@@ -201,7 +201,7 @@ When these diagnostics events are emitted into IIS's tracing infrastructure, the
 
 In this task, we generate the failed request and view the resulting trace log. Remember, we configured IIS to capture trace logs for http://localhost/\* requests that fail with a 200. To verify that it worked:
 
-1. Open a new Internet Explorer window. Type in the address [http://localhost/test.htm](http://localhost/test.htm). Again, you see the following:  
+1. Open a new Internet Explorer window. Type in the address `http://localhost/test.htm`. Again, you see the following:  
     [![Screenshot of the sample webpage in an Internet Explorer window.](how-to-add-tracing-to-iis-managed-modules/_static/image22.png)](how-to-add-tracing-to-iis-managed-modules/_static/image21.png)
 2. To verify our module has generated traces that have been captured, use an Administrator-elevated Internet Explorer window and hit **CTRL-O**, then navigate to `c:\inetpub\logs\FailedReqLogFiles\W3SVC1`. In the dropdown list box that reads **HTML Files**, select **All Files**.
 3. Select the most recent fr######.xml file (today's date) and click **Open**. You see the events:  

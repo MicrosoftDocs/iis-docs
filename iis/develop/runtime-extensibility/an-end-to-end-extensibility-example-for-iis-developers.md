@@ -180,7 +180,7 @@ Because we want to see the JPG files copied into this directory, enable director
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample12.cmd)]
 
-If you request [http://localhost/mypictures](http://localhost/mypictures), you see a directory listing with your pictures.
+If you request `http://localhost/mypictures`, you see a directory listing with your pictures.
 
 ## Time to Write Code
 
