@@ -37,7 +37,7 @@ The following procedure is a summary of the most common process for preparing a 
 3. Refer to the article "[Best Practices for PHP on Windows](../../application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md)" for guidance in running your PHP application.
 4. Submit the package to the Gallery for testing using the [submission form](https://www.microsoft.com/web/gallery/myapps.aspx "submission form").
 5. Resolve any issues with the Application Gallery team.
-6. See your application on the [Windows Web Application Gallery](http://www.microsoft.com/web/gallery).
+6. See your application on the [Windows Web Application Gallery](https://www.microsoft.com/web/gallery).
 
 ## Create a Basic Package
 
