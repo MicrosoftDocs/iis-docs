@@ -63,7 +63,7 @@ Before starting the install, create a database on your server. Also create a dat
 2. Edit lib-common.php and change the require\_once() at the top to point to the location of your config.php file.  
 
     For more information on how to install Geeklog, refer to [http://www.geeklog.net/docs/install.html](http://www.geeklog.net/docs/install.html).
-3. Afterwards, open your web browser and browse to [http://localhost/geeklog/admin/install/install.php](http://localhost/geeklog/admin/install/install.php).  
+3. Afterwards, open your web browser and browse to `http://localhost/geeklog/admin/install/install.php`.  
 
     ![Screenshot of the Geeklog installation window showing step 1 instructions.](geeklog-on-iis/_static/image1.png)
 4. Select the installation type from the drop down. For this walkthrough, we set up a new Microsoft SQL Server database. Set the path to config.php and click Next.  

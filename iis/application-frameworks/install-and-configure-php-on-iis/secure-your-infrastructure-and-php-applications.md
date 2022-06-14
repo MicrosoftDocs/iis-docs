@@ -40,7 +40,7 @@ Consider using the NTFS Deny permission to restrict access for your IIS users; c
 
 ## Use URL Rewriting
 
-You can improve security with URL rewriting. To avoid the possibility of session hijacking or fixation, keep the session ID in a cookie instead of rewriting the session ID into the URL, and add a second unique token into the URL. Associate this new token value with the session ID, and store it in server session state. Whenever the user makes a request back to the server, the request must include the matching second token or the server considers the request a forgery. For more information, see [Improving Security with URL Rewriting](https://blogs.msdn.com/sdl/archive/2009/04/09/improving-security-with-url-rewriting.aspx).
+You can improve security with URL rewriting. To avoid the possibility of session hijacking or fixation, keep the session ID in a cookie instead of rewriting the session ID into the URL, and add a second unique token into the URL. Associate this new token value with the session ID, and store it in server session state. Whenever the user makes a request back to the server, the request must include the matching second token or the server considers the request a forgery. For more information, see [Improving Security with URL Rewriting](https://www.microsoft.com/security/blog/2009/04/09/improving-security-with-url-rewriting/).
 
 ## Modify Configuration Settings
 

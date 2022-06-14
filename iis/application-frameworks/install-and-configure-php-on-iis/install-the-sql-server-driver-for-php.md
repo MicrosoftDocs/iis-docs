@@ -56,7 +56,7 @@ The Microsoft Drivers for PHP for SQL Server can be installed using the [Web Pla
 
         [!code-xml[Main](install-the-sql-server-driver-for-php/samples/sample2.xml)]
     2. Save the file as `info.php` in the IIS root directory.
-    3. Open a browser, and go to [http://localhost/info.php](http://localhost/info.php).
+    3. Open a browser, and go to `http://localhost/info.php`.
     4. Scroll down the resulting page to find the `sqlsrv` and `pdo_sqlsrv` sections. Confirm that the drivers are loaded and the configuration settings are set to the default values (see Figure 1).  
 
         ![Table showing local and master value configuration settings.](install-the-sql-server-driver-for-php/_static/image2.jpg)

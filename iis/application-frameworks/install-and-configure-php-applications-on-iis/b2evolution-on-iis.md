@@ -44,12 +44,12 @@ We also updated the php.ini file to add the php\_mysql.dll module into it under 
 
 Here are the steps to follow:
 
-1. Browse to the [http://localhost/b2evolution/doc/install\_new.html](http://localhost/b2evolution/doc/install_new.html) page for detailed setup instructions.
+1. Browse to the `http://localhost/b2evolution/doc/install\_new.html` page for detailed setup instructions.
 2. Click the Install link on the top of the page to redirect to the Install Wizard.  
     ![Screenshot of a browser window showing the B 2 evolution install wizard welcome page.](b2evolution-on-iis/_static/image1.png)
-3. If you get an error stating that the config file (\_basic\_config.php) cannot be automatically updated, follow the alternate solution listed. Manually copy and paste the content listed on that page into the config file and then start the installation from scratch at: [http://localhost/b2evolution/blogs/install/index.php?locale=en-US](http://localhost/b2evolution/blogs/install/index.php?locale=en-US).  
+3. If you get an error stating that the config file (\_basic\_config.php) cannot be automatically updated, follow the alternate solution listed. Manually copy and paste the content listed on that page into the config file and then start the installation from scratch at: `http://localhost/b2evolution/blogs/install/index.php?locale=en-US`.  
     ![Screenshot of a browser window showing a successful installation page.](b2evolution-on-iis/_static/image3.png)
-4. All the tables are created and the admin password is created. Copy this password and use it to log into the site as an Administrator. Change the password immediately: [http://localhost/b2evolution/blogs/admin.php](http://localhost/b2evolution/blogs/admin.php).
+4. All the tables are created and the admin password is created. Copy this password and use it to log into the site as an Administrator. Change the password immediately: `http://localhost/b2evolution/blogs/admin.php`.
 5. Go to the next page to learn how to verify that b2Evolution has been setup correctly.
 
 ## Test the b2Evolution Application

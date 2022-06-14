@@ -134,7 +134,7 @@ The following table contains information about how to use certificates with SQL 
 
 ## Application Security
 
-SQL Server security best practices include writing secure client applications. For more information about server access and SQL Server client applications, see [Developer's Guide (Database Engine)](https://msdn.microsoft.com/library/bb522480.aspx).
+SQL Server security best practices include writing secure client applications. For more information about server access and SQL Server client applications, see [Developer's Guide (Database Engine)](/sql/relational-databases/database-engine-tutorials?view=sql-server-ver16).
 
 For more information about how to help secure client applications at the networking layer, see [Client Network Configuration](https://msdn.microsoft.com/library/ms190611.aspx).
 
@@ -171,10 +171,8 @@ The following table contains information about security views and functions.
 ## Links for Further Information
 
 - [Securing SQL Server](https://msdn.microsoft.com/library/bb283235.aspx)
-- [SQL Server 2008 Deployment Guide for Web Hosting Environments](https://download.microsoft.com/download/d/1/f/d1f05c2e-0741-442d-859e-9417b377fdfa/The%20architectural%20view%20of%20SQL%20Server.zip)
 - [Security Considerations for a SQL Server Installation](https://msdn.microsoft.com/library/ms144228.aspx)
 - [Secure Deployment (Database Engine)](https://msdn.microsoft.com/library/bb522545.aspx)
 - [Security and Protection (Database Engine)](https://msdn.microsoft.com/library/bb510589.aspx)
 - [Security Enhancements in Microsoft SQL Server 2008 video](https://mediadl.microsoft.com/mediadl/IISNET/Media/Security%20Enhancements%20in%20Microsoft%20SQL%20Server%202008.wmv)
-- [Security Enhancements in Microsoft SQL Server 2008 presentation](https://download.microsoft.com/download/d/1/f/d1f05c2e-0741-442d-859e-9417b377fdfa/Security%20Enhancements%20in%20SQL%20Server%202008.zip)
 - [SQL Server 2008 for Hosters](../../web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md)

@@ -72,7 +72,7 @@ Follow these steps:
     [![Screenshot of the Permissions for Uploads dialog box with a highlight on a user name.](cubecart-on-iis/_static/image16.jpg)](cubecart-on-iis/_static/image15.jpg)
 5. Delete the install folder from the directory before accessing the installed application.
 
-Installation is complete. Access the application by browsing the index.php file using the path [http://localhost/cubecart/index.php](http://localhost/cubecart/index.php).
+Installation is complete. Access the application by browsing the index.php file using the path `http://localhost/cubecart/index.php`.
 
 [![Screenshot of Welcome to CubeCart webpage.](cubecart-on-iis/_static/image18.jpg)](cubecart-on-iis/_static/image17.jpg)
 

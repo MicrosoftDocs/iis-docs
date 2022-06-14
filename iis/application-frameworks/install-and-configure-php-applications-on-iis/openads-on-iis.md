@@ -15,7 +15,7 @@ by Eric Woersching
 
 OpenAds 2.0 is an ad server written in PHP that allows you to place banners on your website and manage your banners in a professional way. OpenAds is open source, which means you have access to the source code, licensed under the General Public License. OpenAds is the latest version of PHPAds.
 
-For more information about OpenAds, see [http://www.openads.org/](http://www.openads.org/).
+For more information about Revive Adserver (formerly OpenAds), see [https://www.revive-adserver.com/](https://www.revive-adserver.com/).
 
 In this section, we go through the steps required to install OpenAds to work with FastCGI extension on IIS 6.0 and IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis).
 
@@ -23,7 +23,7 @@ The following steps assume that you have completed the setup and configuration o
 
 ## Download and Unpack OpenAds
 
-First, download the latest stable release of the OpenAds application. For this article, we use openads-2.4.1 downloaded from the mirror [http://www.openads.org/products/openads/download?ext=zip&amp;utm\_source=openads&amp;utm\_medium=f&amp;utm\_campaign=upgrade241](http://www.openads.org/products/openads/download?ext=zip&amp;utm_source=openads&amp;utm_medium=f&amp;utm_campaign=upgrade241).
+First, download the latest stable release of the OpenAds application. For this article, we use Revive Adserver (formerly OpenAds). See [https://www.revive-adserver.com/](https://www.revive-adserver.com/).
 
 Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\openads`.
 
@@ -50,7 +50,7 @@ After placing the files on the Web server, make sure the Web server can change t
 
 OpenAds 2.0 contains an automatic installer which does most of the work for you. Do not manually edit the configuration files, because that could cause problems in the future. Follow the guidance given below.
 
-1. To start the installer, open a Web browser and point it to the directory in which [http://localhost/openads](http://localhost/openads). This starts the installer automatically. If it does not start automatically, use [http://192.168.2.10/openads/www/admin/install.php](http://192.168.2.10/openads/www/admin/install.php).  
+1. To start the installer, open a Web browser and point it to the directory in which `http://localhost/openads`. This starts the installer automatically. For more information about Revive Adserver (formerly OpenAds), see [https://www.revive-adserver.com/](https://www.revive-adserver.com/). 
 
     ![Screenshot of a browser window showing the OpenAds installer.](openads-on-iis/_static/image1.jpg)
 2. Click Continue to start the configuration and read the license agreement. Click I agree. The installer verifies the configuration required for OpenAds.  

@@ -40,7 +40,7 @@ Before starting the installation procedure for Crafty Syntax Live Help, create a
 
 ## Set Up and Configure Crafty Syntax Live Help
 
-Browse to the [http://localhost/cslh/setup.php](http://localhost/cslh/setup.php) page for detailed setup instructions.
+Browse to the `http://localhost/cslh/setup.php` page for detailed setup instructions.
 
 1. Click the Install link on the top of the page to redirect to the Install Wizard.
 2. Enter the required database information using the database name and user name created earlier.  
@@ -53,7 +53,7 @@ Browse to the [http://localhost/cslh/setup.php](http://localhost/cslh/setup.php)
 
 To test that Crafty Syntax has been installed successfully, chat with an operator to obtain support. Follow these steps:
 
-1. Navigate to [http://localhost/cslh/livehelp.php](http://localhost/cslh/livehelp.php).
+1. Navigate to `http://localhost/cslh/livehelp.php`.
 2. Select the default department.  
     ![Screenshot of a browser window showing the Choose Department page.](crafty-syntax-live-help-on-iis/_static/image5.png)
 3. Enter the question:  

@@ -74,10 +74,10 @@ allow\_url\_fopen=on
      ![Screenshot of configuring Permissions for I I S underscore I U S R S Group in the Permissions for files dialog.](siteframe-on-iis/_static/image1.jpg)
 3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
 4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
-    [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.   
+    [https://www.smarty.net/](https://www.smarty.net/) and copy to the local folder.   
 
     > [!NOTE]
-    > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).
+    > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [https://www.izarc.org/](https://www.izarc.org/).
 5. After installing the extract tool, right click the filename and extract .tar to the folder `c:\smarty`. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
 6. Edit PHP configuration file php.ini to add the installed Smarty include path.  
    Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
@@ -93,7 +93,7 @@ allow\_url\_fopen=on
 
 ## Run the Setup
 
-1. After installing the Smarty templates, creating the siteframe database and providing the configuration, run the installation script by calling [http://localhost/setup.php](http://localhost/setup.php).  
+1. After installing the Smarty templates, creating the siteframe database and providing the configuration, run the installation script by calling `http://localhost/setup.php`.  
 
     ![Screenshot of entering Admin user credentials by accessing the installation script through the web browser.](siteframe-on-iis/_static/image3.jpg)
 2. Provide the details to create the admin user. Click "Continue with setup" to: go to register admin user, confirm the database setup and create the required tables. Creating the tables is the end of the Siteframe installation.  
@@ -104,7 +104,7 @@ allow\_url\_fopen=on
 
 To test that SiteFrame has been installed successfully, create a blog postings and view it as a site visitor would. Follow these steps:
 
-1. Navigate to [http://localhost/siteframe/index.php](http://localhost/siteframe/index.php).
+1. Navigate to `http://localhost/siteframe/index.php`.
 2. Enter the administrator username and password created in the last installation step.  
 
     ![Screenshot of the Site Frame Test page after logging in as an administrator.](siteframe-on-iis/_static/image7.jpg)

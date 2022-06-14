@@ -37,7 +37,7 @@ Gallery does not need many modifications beyond the default configuration provid
 
 ## Download and Unpack the Application
 
-The latest releases of Gallery are found at [http://codex.gallery2.org/Gallery2:Download](http://codex.gallery2.org/Gallery2:Download). The instructions in this document are based on version 2.2.3, but future versions will likely be very similar as far as installation is concerned.
+The latest releases of Gallery are found at [http://gallery.menalto.com/](http://gallery.menalto.com/). The instructions in this document are based on version 2.2.3, but future versions will likely be very similar as far as installation is concerned.
 
 After downloading the zip package, extract its contents to `C:\Inetpub\wwwroot\Gallery2` or another directory of your choosing. You do not need to modify the permissions on the Gallery web directory, as the default permissions suffice.
 
@@ -65,7 +65,7 @@ Before starting the install, create a database on your server. Also create a dat
 
 ## Set Up and Configure the Application
 
-Open your web browser and browse to [http://localhost/gallery2/install/index.php](http://localhost/gallery2/install/index.php).
+Open your web browser and browse to `http://localhost/gallery2/install/index.php`.
 
 1. Click "Begin installation" to go to the authenticate page.  
     ![Screenshot of a browser window. Authenticate is highlighted in the Install Steps pane.](gallery2-on-iis/_static/image5.png)

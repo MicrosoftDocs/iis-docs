@@ -41,7 +41,7 @@ Before starting the installation procedure for PostNuke, create a database on yo
 
 PostNuke is simple to install.
 
-1. To begin the install script, type the URL of the install.php file into your Web browser. If you installed PostNuke to your `c:\inetpub\wwwroot\postnuke` folder, the install file is located at [http://localhost/postnuke/install.php](http://localhost/postnuke/install.php).  
+1. To begin the install script, type the URL of the install.php file into your Web browser. If you installed PostNuke to your `c:\inetpub\wwwroot\postnuke` folder, the install file is located at `http://localhost/postnuke/install.php`.  
     [![Screenshot shows Post Nuke setup page with U R L field to enter the U R L of the install dot p h p file, and a Language drop down to set your preferred language.](phpnuke-on-iis/_static/image2.jpg)](phpnuke-on-iis/_static/image1.jpg)
 2. From here, select the default language for your PostNuke site. The English language files are included with the distribution, so we select English.
 3. Read through the license agreement.

@@ -45,7 +45,7 @@ The instructions have been tested and found to work in the following configurati
 
 ## Download and Unpack MediaWiki
 
-The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Download/](http://www.mediawiki.org/wiki/Download/). The instructions in this document are based on version 1.11.0, but future versions are likely to be very similar as far as installation is concerned.
+The latest release of MediaWiki is found at [https://www.mediawiki.org/wiki/Download](https://www.mediawiki.org/wiki/Download). The instructions in this document are based on version 1.11.0, but future versions are likely to be very similar as far as installation is concerned.
 
 1. After downloading the GNU zip package, extract its contents to `%SystemDrive%\Inetpub\wwwroot\MediaWiki` or another directory of your choosing.
 2. Modify the permissions for the MediaWiki config folder and grant Write permissions for the built-in IIS\_IUSRS group.
@@ -55,7 +55,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 
 ## Configure MediaWiki
 
-1. Begin the graphical MediaWiki installation procedure by pointing your browser at [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php). You see the following screen.  
+1. Begin the graphical MediaWiki installation procedure by pointing your browser at `http://localhost/mediawiki/config/index.php`. You see the following screen.  
 
     [![Screenshot of the Media Wiki installer Environment checks.](mediawiki-on-iis/_static/image2.jpg)](mediawiki-on-iis/_static/image1.jpg)
 2. Scroll down the window and configure your Wiki name and all the required fields. In the Database config section, enable the 'Use superuser account' checkbox and enter the database superuser password.  
@@ -74,7 +74,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
     - SYSTEM
     - BUILTIN\Administrators group
     - Network Service
-6. The installation is complete. Point your browser to [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php).  
+6. The installation is complete. Point your browser to `http://localhost/mediawiki/config/index.php`.  
 
     [![Screenshot of the Media Wiki main page after installation. The text on the page says Media Wiki has been successfully installed.](mediawiki-on-iis/_static/image8.jpg)](mediawiki-on-iis/_static/image7.jpg)
 
@@ -82,7 +82,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 
 For testing MediaWiki, create a user and modify the Main Page content.
 
-1. Navigate to [http://localhost/MediaWiki/index.php](http://localhost/MediaWiki/index.php).
+1. Navigate to `http://localhost/MediaWiki/index.php`.
 2. Click the Log in / create account link in the top right corner.
 3. Click the "Create an account" link.
 4. Enter the username and password and click "Create account".  
