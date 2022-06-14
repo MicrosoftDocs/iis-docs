@@ -1,5 +1,6 @@
 ---
 title: "SocketSettings Class"
+description: "This article details syntax, methods, properties, remarks, inheritance hierarchy, and requirements of the SocketSettings CLass."
 ms.date: "10/07/2016"
 ms.assetid: 91fce06e-446c-2235-636a-340a1326b892
 ---

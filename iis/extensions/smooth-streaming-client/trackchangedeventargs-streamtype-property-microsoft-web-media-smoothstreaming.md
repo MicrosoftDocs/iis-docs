@@ -1,5 +1,6 @@
 ---
 title: TrackChangedEventArgs.StreamType Property (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the StreamType property and provides the property's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: StreamType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.StreamType
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.streamtype(v=VS.90)

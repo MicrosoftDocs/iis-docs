@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::Redirect Method"
+description: Learn how the IHttpResponse::Redirect method redirects the client to a specified URL.
 ms.date: "10/07/2016"
 ms.assetid: 1260ee72-2865-b370-00db-11dfde60e0a9
 ---

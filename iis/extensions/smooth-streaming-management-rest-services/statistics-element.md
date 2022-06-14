@@ -1,5 +1,6 @@
 ---
 title: Statistics Element
+description: Describes statistic elements, provide the element's syntax, and outlines various child elements and parent elements.
 TOCTitle: Statistics Element
 ms:assetid: f864df2f-3a35-4571-a312-0a716c092aaf
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh547075(v=VS.90)

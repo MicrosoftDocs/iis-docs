@@ -1,6 +1,7 @@
 ---
 title: "IHttpConnectionStoredContext::NotifyDisconnect"
 ms.date: "10/07/2016"
+description: Notify the caller that an established connection was disconnected using required Windows Servers.
 ms.assetid: 2b05dd06-6fd9-4754-b5a8-ba63427ff4dc
 ---
 # IHttpConnectionStoredContext::NotifyDisconnect

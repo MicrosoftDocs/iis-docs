@@ -49,7 +49,7 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
 ### Running the Installation Script
 
 1. After editing the configuration file, run the installation file by browsing to the index page located in the admin folder.
-2. Open [http://localhost/lists/admin/index.php](http://localhost/lists/admin/index.php) in the browser. The system informs about database availability based on the configuration file and prompts for the table creation for the new installation.  
+2. Open `http://localhost/lists/admin/index.php` in the browser. The system informs about database availability based on the configuration file and prompts for the table creation for the new installation.  
 
     ![Screenshot of browser window displaying index page from admin folder. A list of default tables are displayed.](phplist-on-iis/_static/image1.jpg)
 
@@ -74,7 +74,7 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
 8. Click "add a list" as shown below to add a new list.  
 
     ![Screenshot of P H P Lists edit a list configuration screen.](phplist-on-iis/_static/image15.jpg)
-9. Access the user admin index page by browsing to the application default folder [http://localhost/lists/index.php](http://localhost/lists/index.php) . The installation is finished and you can access the application based on the settings provided by the admin user.  
+9. Access the user admin index page by browsing to the application default folder `http://localhost/lists/index.php`. The installation is finished and you can access the application based on the settings provided by the admin user.  
 
     ![Screenshot of P H P Lists user admin index page in browser screen after configuration.](phplist-on-iis/_static/image17.jpg)
 

@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Client Manifest
+description: Learn how the Client Manifest provides several key types of metadata necessary for the client to decode and render the media.
 TOCTitle: Client Manifest
 ms:assetid: 11480e08-b719-47a5-8990-0eed738b5f3a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee230809(v=VS.90)

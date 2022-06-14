@@ -1,5 +1,6 @@
 ---
 title: Test and Debug an Implementation of ISmoothStreamingCache
+description: Describes the process of testing and debugging an implementation of ISmoothStreamingCache and outlines data transfer, storage, and monitoring.
 TOCTitle: Test and Debug an Implementation of ISmoothStreamingCache
 ms:assetid: 84c92472-1f5c-4763-ab21-93f264951129
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg296363(v=VS.95)

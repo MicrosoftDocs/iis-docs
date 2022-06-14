@@ -1,7 +1,7 @@
 ---
 title: "Management Scope for Administrators &lt;managementScope&gt; (Deprecated)"
 author: rick-anderson
-description: "Note Note : Do not use. This element has been deprecated. Use system.webServer/management instead."
+description: "Note: Do not use. This element has been deprecated. Use system.webServer/management instead."
 ms.date: 09/26/2016
 ms.assetid: 0702efa2-c36d-481c-bb4b-a805914bde48
 msc.legacyurl: /configreference/administrators/managementscope

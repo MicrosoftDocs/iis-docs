@@ -1,5 +1,6 @@
 ---
-title: Tracing.IsTraceDestinationEnabled Method  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.IsTraceDestinationEnabled Method (Microsoft.Web.Media.Diagnostics)
+description: The Tracing.IsTraceDestinationEnabled Method returns a Boolean value that indicates whether the specified TraceDestination is enabled. This article details its syntax, parameters, and return value.
 TOCTitle: IsTraceDestinationEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceDestinationEnabled(Microsoft.Web.Media.Diagnostics.TraceDestination)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.istracedestinationenabled(v=VS.95)

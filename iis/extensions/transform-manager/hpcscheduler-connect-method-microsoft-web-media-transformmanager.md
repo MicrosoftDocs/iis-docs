@@ -1,5 +1,6 @@
 ---
 title: HpcScheduler.Connect Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the Connect Method to the HPC scheduler and provides the method's namespace, assembly, syntax, parameters, and references.
 TOCTitle: Connect Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.Connect(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.connect(v=VS.90)
@@ -25,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Connect Method
+# Connect Method (Microsoft.Web.Media.TransformManager)
 
 Connects to the HPC scheduler.
 

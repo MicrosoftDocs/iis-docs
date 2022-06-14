@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SetPlaybackRangeCompleted Event (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingMediaElement.SetPlaybackRangeCompleted event and provides the event's namespace, assembly, and syntax.
 TOCTitle: SetPlaybackRangeCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompleted
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.setplaybackrangecompleted(v=VS.95)

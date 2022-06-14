@@ -1,5 +1,6 @@
 ---
-title: Tracing.EnableTraceLevel Method  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.EnableTraceLevel Method (Microsoft.Web.Media.Diagnostics)
+description: The Tracing.EnableTraceLevel Method enables the trace severity level that is specified by the tracelevel parameter. This article details its syntax and parameters.
 TOCTitle: EnableTraceLevel Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.EnableTraceLevel(Microsoft.Web.Media.Diagnostics.TraceLevel)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.enabletracelevel(v=VS.95)

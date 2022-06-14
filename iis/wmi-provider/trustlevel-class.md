@@ -1,5 +1,6 @@
 ---
 title: "TrustLevel Class"
+description: "The TrustLevel Class configures a trust level for Web applications on a Web server. This article details its syntax, properties, remarks, a code example, and inheritance hierarchy."
 ms.date: "10/07/2016"
 ms.assetid: b83352ab-7aed-6422-b311-8e9a2b615ab0
 ---

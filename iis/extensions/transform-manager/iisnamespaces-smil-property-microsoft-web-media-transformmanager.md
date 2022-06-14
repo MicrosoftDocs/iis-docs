@@ -1,5 +1,6 @@
 ---
 title: IisNamespaces.Smil Property (Microsoft.Web.Media.TransformManager)
+description: "This article shares the syntax of the Smil Property, which gets the URI of an XML based Synchronized Multimedia Integration Language (SMIL) namespace that is used to represent information about audiovisual presentations."
 TOCTitle: Smil Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.iisnamespaces.smil(v=VS.90)

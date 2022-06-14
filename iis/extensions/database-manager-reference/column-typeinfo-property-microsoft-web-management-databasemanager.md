@@ -1,5 +1,6 @@
 ---
 title: Column.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
+description: Discusses the code and syntax for the Column.TypeInfo Property which retrieves the type information for a column.
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.typeinfo(v=VS.90)

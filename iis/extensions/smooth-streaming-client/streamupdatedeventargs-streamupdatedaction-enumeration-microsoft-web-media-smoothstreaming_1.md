@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration (Microsoft.Web.Media.SmoothStreaming)
+description: This article details syntax, members, and version information of the StreamUpdatedAction Enumeration.
 TOCTitle: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.streamupdatedaction(v=VS.95)

@@ -22,10 +22,10 @@ Each `<add>` element defines a unique URL to enable tracing.
 > [!NOTE]
 > To enable IIS request-based ETW, install the [TracingModule](/iis/get-started/introduction-to-iis/iis-modules-overview#module-reference).
 
-By default, IIS emits request-based ETW events for all URLs through the provider **IIS: WWW Server** with GUID **{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}** (the detailed information can be found in the [`<traceProviderDefinitions>`](/iis/configuration/system.webserver/tracing/traceproviderdefinitions) element).
-To enable the URL filter for ETW specified by the `<traceUrls>` collection under the `<httpTracing>` element, the first (least significant) bit of the [trace flags](https://docs.microsoft.com/windows-hardware/drivers/devtest/trace-flags) must be set as 1 when running an ETW session.
+By default, IIS emits request-based ETW events for all URLs through the provider **IIS: WWW Server** with GUID **{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}** (the detailed information can be found in the [`<traceProviderDefinitions>`](../tracing/traceproviderdefinitions/index.md) element).
+To enable the URL filter for ETW specified by the `<traceUrls>` collection under the `<httpTracing>` element, the first (least significant) bit of the [trace flags](/windows-hardware/drivers/devtest/trace-flags) must be set as 1 when running an ETW session.
 For example, to enable IIS request-based ETW events ONLY for the URLs configured in the `<traceUrls>` collection, set the trace flags to **0xFFFFFFFF** for an ETW session with the provider **IIS: WWW Server**.
-Such trace flags enable the URL filter as well as all [trace areas](/iis/configuration/system.webserver/tracing/traceproviderdefinitions/add/areas).
+Such trace flags enable the URL filter as well as all [trace areas](../tracing/traceproviderdefinitions/add/areas/index.md).
 To enable the same events for all URLs, set the trace flags to **0xFFFFFFE** instead.
 
 > [!NOTE]

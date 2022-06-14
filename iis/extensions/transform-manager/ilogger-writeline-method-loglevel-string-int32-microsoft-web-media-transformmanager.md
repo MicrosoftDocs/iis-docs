@@ -1,5 +1,6 @@
 ---
 title: ILogger.WriteLine Method (LogLevel, String, Int32) (Microsoft.Web.Media.TransformManager)
+description: Describes the WriteLine method for LogLevel, String, and Int32 and provides the method's namespace, assembly, syntax, and parameters.
 TOCTitle: WriteLine Method (LogLevel, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ILogger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String,System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger.writeline(v=VS.90)

@@ -1,5 +1,6 @@
 ---
-title: JobDetails.CreateWorkItemFromXElement Method  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.CreateWorkItemFromXElement Method (Microsoft.Web.Media.TransformManager)
+description: This article provides syntax, parameters, and return value of the CreateWorkItemFromXElement Method, which creates a JobDetails object that defines a work item using the specified XML element.
 TOCTitle: CreateWorkItemFromXElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItemFromXElement(System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.createworkitemfromxelement(v=VS.90)

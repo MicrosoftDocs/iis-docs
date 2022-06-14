@@ -1,5 +1,6 @@
 ---
-title: CircularList(T).IsFull Method  (Microsoft.Web.Media.Diagnostics)
+title: CircularList(T).IsFull Method (Microsoft.Web.Media.Diagnostics)
+description: This article provides syntax, return value, and remarks for the IsFull Method.
 TOCTitle: IsFull Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728270(v=VS.90)

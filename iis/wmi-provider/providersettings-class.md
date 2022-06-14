@@ -1,5 +1,6 @@
 ---
 title: "ProviderSettings Class"
+description: ProvidersSettings class specifies managed providers that manage membership or roles for a vstecasp application, or encrypt and decrypt configuration data.
 ms.date: "10/07/2016"
 ms.assetid: a55acfd1-a520-a50d-c75e-488c090f1c6c
 ---

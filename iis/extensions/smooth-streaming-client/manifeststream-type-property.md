@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.Type Property
+description: This article shares the syntax and property value of the ManifestStream.Type Property, which gets the manifest type.
 TOCTitle: Type Property
 ms:assetid: a98852ce-6598-4aa2-9e5d-f2c4bc07b01f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822808(v=VS.90)

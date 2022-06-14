@@ -1,5 +1,6 @@
 ---
 title: "IWpfSettings::GetHandleProperty Method"
+description: Learn how the IWpfSettings::GetHandleProperty method retrieves a HANDLE property from the worker process or application pool settings.
 ms.date: "10/07/2016"
 ms.assetid: c85c58b1-7996-c5b0-9f1c-c2fbae6e7f0a
 ---

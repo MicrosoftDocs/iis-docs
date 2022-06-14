@@ -1,5 +1,6 @@
 ---
 title: IIS Smooth Streaming Management REST Services
+description: IIS Smooth Streaming Management REST Services contains reference documentation for the IIS Smooth Streaming Management REST Services and SmoothStreaming schema.
 TOCTitle: IIS Smooth Streaming Management REST Services
 ms:assetid: ae4bff7d-fa46-4052-a8ab-f932bb6ddb02
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh239768(v=VS.90)

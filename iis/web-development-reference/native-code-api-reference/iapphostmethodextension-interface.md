@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethodExtension Interface"
+description: This article has information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the IAppHostMethodExtension class.
 ms.date: "10/07/2016"
 ms.assetid: 2018753d-8528-44f4-a4c3-dbde51b5f2ef
 ---

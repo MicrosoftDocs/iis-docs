@@ -1,5 +1,6 @@
 ---
 title: "TraceAreaSettings Class"
+description: Describes the TraceAreaSettings class and provides the class' syntax, methods, properties, subclasses, remarks, requirements, and reference.
 ms.date: "10/07/2016"
 ms.assetid: d049dd7a-57e3-4231-ad0f-6a0397bf4875
 ---

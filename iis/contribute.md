@@ -6,7 +6,7 @@ msc.type: authoredcontent
 ---
 # Contributing to the Internet Information Services (IIS) documentation
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](https://docs.microsoft.com/iis/). Contributions can be typographical fixes or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](/iis). Contributions can be typographical fixes or as complex as new articles.
 
 ## How to make a simple correction or suggestion
 
@@ -22,7 +22,7 @@ You'll need a basic understanding of [Git and GitHub.com](https://guides.github.
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla2.dotnetfoundation.org/)
 * Respond to PR feedback.
 
-For an example where this process led to publication of a new article, see [issue 67](https://github.com/dotnet/docs/issues/67) and [pull request 798](https://github.com/dotnet/docs/pull/798) in the .NET repository. The new article is [Documenting your code](https://docs.microsoft.com/dotnet/articles/csharp/codedoc).
+For an example where this process led to publication of a new article, see [issue 67](https://github.com/dotnet/docs/issues/67) and [pull request 798](https://github.com/dotnet/docs/pull/798) in the .NET repository. The new article is [Documenting your code](/dotnet/csharp/language-reference/xmldoc/recommended-tags).
 
 ## Markdown syntax
 
@@ -59,7 +59,7 @@ To render a portion of a file as a snippet by using line numbers:
 [!code-html[Main](configuration/sample/Views/Home/Index.cshtml?range=1-10,20,30,40-50]
 ```
 
-For C# snippets, you can reference a [C# region](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
+For C# snippets, you can reference a [C# region](/dotnet/csharp/language-reference/preprocessor-directives). Whenever possible, use regions rather than line numbers, because line numbers in a code file tend to change and get out of sync with line number references in Markdown. C# regions can be nested, and if you reference the outer region, the inner `#region` and `#endregion` directives are not rendered in a snippet. 
 
 To render a C# region named "snippet_Example":
 
@@ -120,4 +120,3 @@ Our goal is to write documentation that is easily understandable by the widest p
 ## Redirects
 
 If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [main redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/main/.openpublishing.publish.config.json).
- 

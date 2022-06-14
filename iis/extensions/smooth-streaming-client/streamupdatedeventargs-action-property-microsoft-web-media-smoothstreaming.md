@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the StreamUpdatedEventArgs.Action property.
 TOCTitle: Action Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Action
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.action(v=VS.90)

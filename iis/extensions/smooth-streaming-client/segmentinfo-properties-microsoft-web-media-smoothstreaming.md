@@ -1,5 +1,6 @@
 ---
-title: SegmentInfo Properties (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo Properties | Microsoft.Web.Media.SmoothStreaming
+description: "This article shares the properties exposed by the SegmentInfo type."
 TOCTitle: SegmentInfo Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SegmentInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.segmentinfo_properties(v=VS.90)
@@ -8,7 +9,7 @@ ms.date: 05/02/2012
 mtps_version: v=VS.90
 ---
 
-# SegmentInfo Properties
+# SegmentInfo Properties | Microsoft.Web.Media.SmoothStreaming
 
 The [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

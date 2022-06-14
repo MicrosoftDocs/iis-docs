@@ -1,5 +1,6 @@
 ---
 title: JobManifest.WorkQueueRoot Property (Microsoft.Web.Media.TransformManager)
+description: Describes the WorkQueueRoot property and provides the property's namespace, assembly, syntax, and property value.
 TOCTitle: WorkQueueRoot Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.WorkQueueRoot
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobmanifest.workqueueroot(v=VS.90)

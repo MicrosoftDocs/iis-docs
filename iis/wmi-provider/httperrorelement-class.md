@@ -1,5 +1,6 @@
 ---
 title: "HttpErrorElement Class"
+description: Describes the HttpErrorElement class and provides the class' syntax, methods, properties, subclasses, remarks, requirements, and reference.
 ms.date: "10/07/2016"
 ms.assetid: 1a551d62-b9c9-0f51-921b-60bd965ffa19
 ---

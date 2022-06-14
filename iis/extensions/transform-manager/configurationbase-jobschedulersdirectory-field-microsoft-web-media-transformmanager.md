@@ -1,6 +1,7 @@
 ---
 title: ConfigurationBase.JobSchedulersDirectory Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulersDirectory Field
+description: JobSchedulersDirectory Field represents a string constant that specifies a configuration directory (Job Schedulers) for job schedulers.
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ConfigurationBase.JobSchedulersDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.jobschedulersdirectory(v=VS.90)
 ms:contentKeyID: 35520735

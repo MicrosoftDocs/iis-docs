@@ -1,6 +1,7 @@
 ---
 title: "IHttpCacheKey::GetHash Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpCacheKey::GetHash method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 4dbfc063-f7f7-d86d-f19e-2451bf72f70f
 ---
 # IHttpCacheKey::GetHash Method

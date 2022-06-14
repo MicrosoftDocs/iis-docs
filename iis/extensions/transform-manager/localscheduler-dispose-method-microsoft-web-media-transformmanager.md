@@ -1,5 +1,6 @@
 ---
-title: LocalScheduler.Dispose Method  (Microsoft.Web.Media.TransformManager)
+title: LocalScheduler.Dispose Method | Microsoft.Web.Media.TransformManager
+description: "This article contains a Dispose Method Overload List within TransformManager."
 TOCTitle: Dispose Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.LocalScheduler.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.dispose(v=VS.90)
@@ -15,7 +16,7 @@ dev_langs:
 - FSharp
 ---
 
-# Dispose Method
+# Dispose Method | Microsoft.Web.Media.TransformManager
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 

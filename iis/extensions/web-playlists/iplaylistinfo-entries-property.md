@@ -1,6 +1,7 @@
 ---
 title: IPlaylistInfo::Entries Property
 TOCTitle: IPlaylistInfo::Entries Property
+description: IPlaylistInfo Entries Property shows how the Entries property  gets an IPlaylistEntryInfoCollection Interface instance to enumerate the entries in a playlist.
 ms:assetid: 9989c76c-82c1-4217-a544-5bb7787518be
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146281(v=VS.90)
 ms:contentKeyID: 19132352

@@ -1,5 +1,6 @@
 ---
 title: "MobileControlsSection Class"
+description: Describes the MobileControlsSection class  and provides the class' syntax, methods, properties, subclasses, inheritance hierarchy, and requirements.  
 ms.date: "10/07/2016"
 ms.assetid: 9e069560-70e2-3895-a775-fec47d7f8ada
 ---

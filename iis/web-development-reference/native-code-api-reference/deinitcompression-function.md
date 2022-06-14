@@ -1,6 +1,7 @@
 ---
 title: "DeInitCompression Function"
 ms.date: "10/07/2016"
+description: DeInitCompression Function de-initializes the compression scheme, takes no parameters, and does not return a value. 
 ms.assetid: 5d51951a-cdd7-4a2b-aebf-65239963bf1d
 ---
 # DeInitCompression Function

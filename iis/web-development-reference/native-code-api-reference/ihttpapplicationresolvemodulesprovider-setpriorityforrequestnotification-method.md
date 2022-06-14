@@ -1,6 +1,7 @@
 ---
 title: "IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification method and details its syntax, parameters, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 374023e4-2b63-b86b-5fc0-0aebd236b178
 ---
 # IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method

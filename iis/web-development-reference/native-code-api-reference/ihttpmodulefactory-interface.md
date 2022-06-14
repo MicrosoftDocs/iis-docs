@@ -1,6 +1,7 @@
 ---
-title: "IHttpModuleFactory Interface"
-ms.date: "10/07/2016"
+title: IHttpModuleFactory Interface
+description: Describes the IHttpModuleFactory interface and provides the interface's syntax, methods, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 4b5ff315-35f8-c4e7-9581-562e71517a78
 ---
 # IHttpModuleFactory Interface

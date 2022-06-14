@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetCredentials Method  (Microsoft.Web.Media.TransformManager)
+description: Describes the TransformManagerService.GetCredentials method and details its syntax, return value, and implements.
 TOCTitle: GetCredentials Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetCredentials
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getcredentials(v=VS.90)

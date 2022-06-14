@@ -1,5 +1,6 @@
 ---
 title: CircularList(T) Class (Microsoft.Web.Media.Diagnostics)
+description: This article has information about inheritance hierarchy, syntax, constructors, properties, methods, and thead safety for the CircularList(T) class.
 TOCTitle: CircularList(T) Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.CircularList`1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728278(v=VS.90)

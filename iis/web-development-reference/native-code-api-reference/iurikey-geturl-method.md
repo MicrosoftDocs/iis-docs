@@ -1,5 +1,6 @@
 ---
 title: "IUriKey::GetUrl Method"
+description: IUriKey::GetUrl Method returns the URL associated with the Uniform Resource Identifier (URI) data.
 ms.date: "10/07/2016"
 ms.assetid: e3bc1574-276e-faeb-b018-4bac8eadd66f
 ---

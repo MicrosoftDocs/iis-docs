@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnPreExecuteRequestHandler Method"
+description: Describes the CHttpModule::OnPreExecuteRequestHandler method and provides its syntax, parameters, return value, remarks, and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 772fb3dc-e37d-f6fe-a2e8-c756bd35129f
 ---

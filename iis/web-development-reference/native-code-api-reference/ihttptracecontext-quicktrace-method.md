@@ -1,6 +1,7 @@
 ---
 title: "IHttpTraceContext::QuickTrace Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpTraceContext::QuickTrace method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: a0d43e55-a773-4f55-ae09-33b451adfe4b
 ---
 # IHttpTraceContext::QuickTrace Method

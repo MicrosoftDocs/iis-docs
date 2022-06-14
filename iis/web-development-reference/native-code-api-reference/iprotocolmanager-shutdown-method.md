@@ -1,6 +1,7 @@
 ---
-title: "IProtocolManager::Shutdown Method"
-ms.date: "10/07/2016"
+title: IProtocolManager::Shutdown Method
+description: Describes the IProtocolManager::Shutdown method and provides the method's syntax, parameters, return value, remarks, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 845ce040-066f-7d89-84c7-363d144f681c
 ---
 # IProtocolManager::Shutdown Method

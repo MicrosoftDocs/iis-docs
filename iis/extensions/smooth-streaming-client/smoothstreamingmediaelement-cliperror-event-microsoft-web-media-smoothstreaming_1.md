@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.ClipError Event (Microsoft.Web.Media.SmoothStreaming)
+description: This article has syntax and version information for the SmoothStreamingMediaElement.ClipError event.
 TOCTitle: ClipError Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipError
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.cliperror(v=VS.95)

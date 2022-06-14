@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.TotalBytesDownloaded Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TotalBytesDownloaded Property
+description: SmoothStreamingMediaElement.TotalBytesDownloaded Property gets the total bytes downloaded.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TotalBytesDownloaded
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.totalbytesdownloaded(v=VS.95)
 ms:contentKeyID: 46307848

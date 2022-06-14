@@ -61,7 +61,7 @@ With this setting, the headers that accompany outgoing pages do not reveal that 
 
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample6.cmd)]
 
-For example, for the URL http://site.com/index.php?variable=***value***, the variable passes into your script with its value set to ***value*** when register\_globals is "On." When register\_globals is "Off," however, variables do not automatically pass into your script's variable list. This makes it much more difficult for an attacker to inject code into your script.
+For example, for the URL `http://site.com/index.php?variable=***value***`, the variable passes into your script with its value set to ***value*** when register\_globals is "On." When register\_globals is "Off," however, variables do not automatically pass into your script's variable list. This makes it much more difficult for an attacker to inject code into your script.
 
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample7.cmd)]
 

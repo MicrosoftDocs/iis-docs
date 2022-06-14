@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.IsDecodingOnGPU Property (Microsoft.Web.Media.SmoothStreaming)
+description: The article shares the syntax and property value of the IsDecodingOnGPU Property, which gets a value that indicates whether Global Processing Unit (GPU) decoding is enabled.
 TOCTitle: IsDecodingOnGPU Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPU
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.isdecodingongpu(v=VS.95)

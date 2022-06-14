@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Creating a Global-Level HTTP Module By Using Native Code"
+description: Learn how to use C++ to create a sample global-level HTTP module that implements the new request-processing architecture. 
 ms.date: "10/07/2016"
 ms.assetid: 2723c69f-eac6-400a-97b9-9517a7d26393
 ---

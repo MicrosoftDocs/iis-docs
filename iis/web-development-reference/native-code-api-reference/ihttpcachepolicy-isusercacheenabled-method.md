@@ -1,6 +1,7 @@
 ---
 title: "IHttpCachePolicy::IsUserCacheEnabled Method"
 ms.date: "10/07/2016"
+description: Learn how to return a value that indicates whether user caching is enabled for the cache policy.
 ms.assetid: ff83d13d-ba1d-2075-8231-df9d7877e96a
 ---
 # IHttpCachePolicy::IsUserCacheEnabled Method

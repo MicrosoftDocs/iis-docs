@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager.GetStoredProcedureExecStatement Method  (Microsoft.Web.Management.DatabaseManager)
+description: This aritcle has information about syntax, return value, parameters, and permissions for the IDbStoredProcedureManager.GetStoredProcedureExecStatement method.
 TOCTitle: GetStoredProcedureExecStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureExecStatement(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedureexecstatement(v=VS.90)

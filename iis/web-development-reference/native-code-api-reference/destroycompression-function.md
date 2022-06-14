@@ -1,5 +1,6 @@
 ---
 title: "DestroyCompression Function"
+description: "The DestroyCompression function destroys the specified compression context. This article describes its syntax, return value, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: a3be752e-2d92-4185-a28b-b2a0c15f28dc
 ---

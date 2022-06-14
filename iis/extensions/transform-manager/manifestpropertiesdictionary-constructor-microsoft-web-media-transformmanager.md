@@ -1,6 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Constructor  (Microsoft.Web.Media.TransformManager)
-description: Describes the ManifestPropertiesDictionary constructor and provides a table that outlines the name and description for various method types.
+description: This article outlines the overload list for the ManifestPropertiesDictionary constructor. There are also links to reference materials.
 TOCTitle: ManifestPropertiesDictionary Constructor
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.manifestpropertiesdictionary(v=VS.90)

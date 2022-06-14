@@ -1,5 +1,6 @@
 ---
 title: "HandlersSection Class"
+description: "HandlersSection Class stores the handlers for a URL. This article describes its syntax, methods, properties, remarks, examples, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 861ed70d-87e7-7f0e-791e-ed4bd13e7234
 ---

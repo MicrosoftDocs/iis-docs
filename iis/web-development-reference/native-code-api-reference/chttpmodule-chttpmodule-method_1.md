@@ -1,6 +1,7 @@
 ---
 title: CHttpModule::CHttpModule Method
 TOCTitle: CHttpModule::CHttpModule Method
+description: CHttpModule CHttpModule Method initializes a new instance of the CHttpModule class.
 ms:assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
 ms:mtpsurl: https://msdn.microsoft.com/library/ms692938(v=VS.90)
 ms:contentKeyID: 6826325

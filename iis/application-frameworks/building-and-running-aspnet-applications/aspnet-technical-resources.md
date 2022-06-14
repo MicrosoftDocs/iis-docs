@@ -26,7 +26,7 @@ There is also an active blogging community that focuses on ASP.NET, including:
 - Scott Guthrie blog: [https://weblogs.asp.net/scottgu/](https://weblogs.asp.net/scottgu/)
 - Scott Hanselman blog: [http://www.hanselman.com/blog/](http://www.hanselman.com/blog/)
 - Joe Stagner blog: [https://blogs.msdn.com/joestagner/](https://blogs.msdn.com/joestagner/)
-- Stephen Walther blog: [http://stephenwalther.com/blog/default.aspx](http://stephenwalther.com/blog/default.aspx)
+- Stephen Walther blog: [http://stephenwalther.com/](http://stephenwalther.com/)
 
 ### ASP.NET Web Forms
 

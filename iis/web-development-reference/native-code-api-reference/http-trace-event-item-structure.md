@@ -1,5 +1,6 @@
 ---
 title: "HTTP_TRACE_EVENT_ITEM Structure"
+description: This article contains information about syntax, members, and requirements for the HTTP_TRACE_EVENT_ITEM structure.
 ms.date: "10/07/2016"
 ms.assetid: bed30d06-6c7c-34e9-2a31-8f9044a3445c
 ---

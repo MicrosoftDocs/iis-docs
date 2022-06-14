@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.AutoPlayProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the AutoPlayProperty field and provides the field's namespace, assembly, syntax, version information, and permissions.
 TOCTitle: AutoPlayProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlayProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.autoplayproperty(v=VS.90)

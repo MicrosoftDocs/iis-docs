@@ -1,5 +1,6 @@
 ---
 title: "CachingProfileSettings Class"
+description: "The CachingProfileSettings class contains profiles for output and kernel caching. This article describes its syntax, properties, remarks, inheritance hierarchy, and requirements."
 ms.date: "10/07/2016"
 ms.assetid: 1d6bc1a4-e594-464f-9521-0093f06d901f
 ---

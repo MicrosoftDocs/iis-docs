@@ -1,5 +1,6 @@
 ---
 title: Utilities.IsLocalMachineX64 Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the Utilities.IsLocalMachineX64 method, with links to reference materials.
 TOCTitle: IsLocalMachineX64 Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.IsLocalMachineX64
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities.islocalmachinex64(v=VS.90)

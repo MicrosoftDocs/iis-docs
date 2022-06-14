@@ -1,6 +1,7 @@
 ---
 title: Utilities Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: Utilities Class
+description: Utilities Class provides a set of utility functions for IIS Transform Manager. The Namespace is Microsoft.Web.Media.TransformManager.
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Utilities
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.utilities(v=VS.90)
 ms:contentKeyID: 35520718

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::GetProtocolManagerCustomInterface Method"
+description: This article contains information about syntax, return value, and requirements for the IHttpServer::GetProtocolManagerCustomInterface method.
 ms.date: "10/07/2016"
 ms.assetid: 4e7c0771-aa07-a501-d49e-94c98295bfac
 ---

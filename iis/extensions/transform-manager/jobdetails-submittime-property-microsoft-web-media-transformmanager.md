@@ -1,5 +1,6 @@
 ---
 title: JobDetails.SubmitTime Property (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the JobDetails.SubmitTime property. There are also links to reference materials.
 TOCTitle: SubmitTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.SubmitTime
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.submittime(v=VS.90)

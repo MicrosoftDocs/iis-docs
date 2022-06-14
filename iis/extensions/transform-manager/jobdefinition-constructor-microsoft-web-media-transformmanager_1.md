@@ -1,6 +1,7 @@
 ---
 title: JobDefinition Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Constructor
+description: JobDefinition Constructor initializes a new instance of the JobDefinition class. The Namespace is Microsoft.Web.Media.TransformManager.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.jobdefinition(v=VS.90)
 ms:contentKeyID: 35520960

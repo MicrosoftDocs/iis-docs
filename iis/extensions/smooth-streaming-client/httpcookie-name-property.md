@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.Name Property
+description: This article contains information about syntax, property value, and requirements for the HttpCookie.Name property.
 TOCTitle: Name Property
 ms:assetid: 4e8fe082-e385-46c8-8870-0f2953c638b6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822732(v=VS.90)

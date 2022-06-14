@@ -48,7 +48,7 @@ IIS supports two ways to invalidate dynamic content:
 
 ## Configure Cache Worthiness
 
-Even if you enable output caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy." Cache worthiness can be configured via the ServerRuntime section described in the [ServerRuntimeSection Class](https://docs.microsoft.com/IIS/wmi-provider/serverruntimesection-class) article.
+Even if you enable output caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy." Cache worthiness can be configured via the ServerRuntime section described in the [ServerRuntimeSection Class](../../wmi-provider/serverruntimesection-class.md) article.
 
 Two properties determine cache worthiness:
 

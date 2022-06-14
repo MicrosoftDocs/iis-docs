@@ -1,5 +1,6 @@
 ---
 title: Manifest Merge
+description: Outlines the ManifestMerge event, which provides an option to add information to the client manifest that is used by a Smooth Streaming application.
 TOCTitle: Manifest Merge
 ms:assetid: 895dbdd8-5069-4214-a18d-1e54b9986288
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff432455(v=VS.95)

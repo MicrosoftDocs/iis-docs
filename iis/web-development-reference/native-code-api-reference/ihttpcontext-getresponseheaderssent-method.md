@@ -1,6 +1,7 @@
 ---
 title: "IHttpContext::GetResponseHeadersSent Method"
-ms.date: "10/07/2016"
+description: "Describes the IHttpContext::GetResponseHeadersSent method and details its syntax, parameters, return value, remarks, code example, and requirements."
+ms.date: 10/07/2016
 ms.assetid: 06006ede-2e42-a1c4-6627-3336ac22f636
 ---
 # IHttpContext::GetResponseHeadersSent Method

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::SatisfiesPrecondition Method"
+description: Learn how the IHttpServer::SatisfiesPrecondition method determines whether a specific precondition has been met for the current request.
 ms.date: "10/07/2016"
 ms.assetid: cc0beadd-fa0d-b706-02db-f4931ae6c78a
 ---

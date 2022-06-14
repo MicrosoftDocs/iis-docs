@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Learn how the SmoothStreamingMediaElement type exposes the members listed in this article.
 TOCTitle: SmoothStreamingMediaElement Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement_methods(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: "IHttpServer::FlushKernelCache Method"
+description: Learn how the IHttpServer::FlushKernelCache method flushes the kernel cache for a specific Uniform Resource Identifier (URI).
 ms.date: "10/07/2016"
 ms.assetid: 935f7c14-8427-1283-859c-fbb0f45dabeb
 ---

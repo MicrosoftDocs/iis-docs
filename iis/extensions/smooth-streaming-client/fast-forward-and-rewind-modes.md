@@ -1,5 +1,6 @@
 ---
 title: Fast Forward and Rewind Modes
+description: This article provides guidelines on the fast forward and rewind rates of the SetPlaybackRate Method.
 TOCTitle: Fast Forward and Rewind Modes
 ms:assetid: c46bc9ab-d3ef-4b4d-8dc6-46ba1bb14233
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff402323(v=VS.95)

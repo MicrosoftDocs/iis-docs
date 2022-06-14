@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.ExpireTime Property
+description: "This article details syntax, property value, and system requirements of the ExpireTime Property, which gets the expire time."
 TOCTitle: ExpireTime Property
 ms:assetid: e20dd9e5-262d-4e6b-9671-f6a2434f7cfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822854(v=VS.90)

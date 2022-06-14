@@ -1,6 +1,6 @@
 ---
 title: ConnectionArgument Class (Microsoft.Web.Management.DatabaseManager)
-description: The ConnectionArgumentClass example provides methods, constructors, and properties for a database connection.
+description: This article has information about inheritance hierarchy, syntax, properties, methods, version information, and thready safety for the ConnectionArgument class.
 TOCTitle: ConnectionArgument Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ConnectionArgument
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.connectionargument(v=VS.90)

@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.BalanceProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BalanceProperty Field
+description: SmoothStreamingMediaElement.BalanceProperty Field represents a dependency property that specifies the Balance property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BalanceProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balanceproperty(v=VS.95)
 ms:contentKeyID: 46307542

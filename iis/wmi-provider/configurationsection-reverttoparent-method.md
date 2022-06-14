@@ -1,5 +1,6 @@
 ---
 title: "ConfigurationSection.RevertToParent Method"
+description: Describes the ConfigurationSection.RevertToParent method which reverts configuration values in a section to their defaults.
 ms.date: "10/07/2016"
 ms.assetid: 7266c221-dc31-4bc5-a895-63f78f48d52f
 ---

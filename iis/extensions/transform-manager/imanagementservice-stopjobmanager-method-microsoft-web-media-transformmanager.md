@@ -1,5 +1,6 @@
 ---
 title: IManagementService.StopJobManager Method  (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the IManagementService.StopJobManager method. There are also links to reference materials.
 TOCTitle: StopJobManager Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.StopJobManager(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.imanagementservice.stopjobmanager(v=VS.90)

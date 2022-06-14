@@ -1,7 +1,7 @@
 ---
 title: New Features Introduced  in IIS 10.0, version 1809
 author: shirhatti
-description: The article introduces the new features introduced in IIS 10.0 Version 1809.
+description: Describes the new features introduced in IIS 10.0 version 1809 and outlines the new binding flags and new compression API.
 ms.author: soshir
 ms.date: 10/03/2018
 ms.topic: article
@@ -22,7 +22,7 @@ We introduced support for OCSP stapling in IIS 7.0 and support for HTTP/2 in IIS
 
 ## New compression API
 
-The static and dynamic compression modules in IIS provide support for pluggable compression scheme providers. As part of IIS 10.0 version 1809, we've introduced a [new compression API](https://msdn.microsoft.com/library/mt846747(v=vs.90).aspx) that compression schemes can optionally implement to better support compressing of streaming data. The new [IIS Compression module](https://docs.microsoft.com/en-us/iis/extensions/iis-compression/iis-compression-overview) that adds a new gzip compression scheme (with better for streaming data) and a Brotli compression scheme both make use of this API.
+The static and dynamic compression modules in IIS provide support for pluggable compression scheme providers. As part of IIS 10.0 version 1809, we've introduced a [new compression API](https://msdn.microsoft.com/library/mt846747(v=vs.90).aspx) that compression schemes can optionally implement to better support compressing of streaming data. The new [IIS Compression module](/iis/extensions/iis-compression/iis-compression-overview) that adds a new gzip compression scheme (with better for streaming data) and a Brotli compression scheme both make use of this API.
 
 ## UI for HTTPS Strict Transport Security
 

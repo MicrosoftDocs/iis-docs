@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::CheckIfFileHasChanged Method"
 ms.date: "10/07/2016"
+description: IHttpFileInfo CheckIfFileHasChanged Method returns a value that indicates whether the corresponding file has been changed since it was loaded into a file cache.
 ms.assetid: ea91d352-6fa5-7e85-8616-f0294cbd7bd3
 ---
 # IHttpFileInfo::CheckIfFileHasChanged Method

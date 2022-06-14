@@ -41,7 +41,7 @@ In IIS 8.5, the administrator has the option of sending logging information to E
     ![Select W3c logging file format](logging-to-etw-in-iis-85/_static/image1.jpg)
 4. Under **Log Event Destination**, select **ETW event only**, or, if you want the log information sent to both ETW and the log file, select **Both log file and ETW event**.  
     ![Select log destination](logging-to-etw-in-iis-85/_static/image2.jpg)
-5. Use any of the publicly available tools to query ETW for events. For example, Message Analyzer can be used by configuring it to query the "Microsoft-Windows-IIS-Logging" provider. For more information about Message Analyzer, see the [MessageAnalyzer blog](https://docs.microsoft.com/openspecs/blog/ms-winintbloglp/dd98b93c-0a75-4eb0-b92e-e760c502394f).
+5. Use any of the publicly available tools to query ETW for events. For example, Message Analyzer can be used by configuring it to query the "Microsoft-Windows-IIS-Logging" provider. For more information about Message Analyzer, see the [MessageAnalyzer blog](/openspecs/blog/ms-winintbloglp/dd98b93c-0a75-4eb0-b92e-e760c502394f).
 
 <a id="TOC301258518"></a>
 ## Summary

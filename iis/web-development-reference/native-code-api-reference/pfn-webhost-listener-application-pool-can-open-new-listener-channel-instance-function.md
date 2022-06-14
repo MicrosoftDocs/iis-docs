@@ -1,5 +1,6 @@
 ---
 title: PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
+description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE function notifies the listener adapter that it is possible to launch other instances of this listener channel.
 TOCTitle: PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
 ms:assetid: 33178979-1e15-46c9-f704-c8b44ffc4e51
 ms:mtpsurl: https://msdn.microsoft.com/library/ms690834(v=VS.90)

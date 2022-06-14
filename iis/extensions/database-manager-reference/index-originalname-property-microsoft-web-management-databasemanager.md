@@ -1,6 +1,7 @@
 ---
 title: Index.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: OriginalName Property
+description: The OriginalName Property gets or sets the original name for the index.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.OriginalName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index.originalname(v=VS.90)
 ms:contentKeyID: 20476492

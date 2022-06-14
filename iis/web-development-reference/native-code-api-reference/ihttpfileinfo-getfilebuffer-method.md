@@ -1,6 +1,7 @@
 ---
 title: "IHttpFileInfo::GetFileBuffer Method"
 ms.date: "10/07/2016"
+description: The IHttpFileInfo GetFileBuffer Method returns a buffer in memory loaded from the corresponding file. 
 ms.assetid: 0518341a-f739-14e4-8440-cc31ef53d04d
 ---
 # IHttpFileInfo::GetFileBuffer Method

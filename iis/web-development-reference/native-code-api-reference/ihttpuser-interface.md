@@ -1,6 +1,7 @@
 ---
-title: "IHttpUser Interface"
-ms.date: "10/07/2016"
+title: IHttpUser Interface
+description: Describes the IHttpUser interface and provides the interface's syntax, methods, derived classes, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: bf06e01f-21ea-14da-9bf5-aef117d9800c
 ---
 # IHttpUser Interface

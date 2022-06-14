@@ -28,7 +28,7 @@ We have to do an IISreset to start the web servers again after this.
 
 ## More Information
 
-For Web site content, you may wish to consider using DFS for your file servers. For more information about DFS, see [Distributed File System](https://docs.microsoft.com/windows/desktop/dfs/distributed-file-system).
+For Web site content, you may wish to consider using DFS for your file servers. For more information about DFS, see [Distributed File System](/windows/win32/dfs/distributed-file-system).
 
 For more information about client side caching, go  to[https://www.microsoft.com/](https://www.microsoft.com/).
 

@@ -1,6 +1,7 @@
 ---
-title: "SetupIISDirectory"
-ms.date: "10/07/2016"
+title: SetupIISDirectory
+description: Describes the SetupIISDirectory field and provides the field's syntax, parameters, return value, and additional references.
+ms.date: 10/07/2016
 ms.assetid: e9a056dc-feaa-431a-a1e6-38b917e45b3c
 ---
 # SetupIISDirectory

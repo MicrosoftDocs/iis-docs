@@ -1,6 +1,7 @@
 ---
 title: StoredProcedure Properties (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: StoredProcedure Properties
+description: "A list of the members exposed by the StoreProcedure type including the property type, name, and description of each."
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.StoredProcedure
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure_properties(v=VS.90)
 ms:contentKeyID: 20476624

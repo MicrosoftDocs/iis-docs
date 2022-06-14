@@ -1,6 +1,7 @@
 ---
-title: "IHttpContext::MapHandler Method"
-ms.date: "10/07/2016"
+title: IHttpContext::MapHandler Method
+description: Describes the IHttpContext::MapHandler method and provides the method's syntax, parameters, return value, remarks, an example, and requirements.
+ms.date: 10/07/2016
 ms.assetid: 0903f587-51b1-4eb2-a38e-3c4b11c6c31a
 ---
 # IHttpContext::MapHandler Method

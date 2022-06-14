@@ -1,7 +1,7 @@
 ---
 title: "Adding Administrator Providers &lt;add&gt; (Deprecated)"
 author: rick-anderson
-description: "Note Note : Do not use. This element has been deprecated. Use system.webServer/management instead."
+description: "NOTE: Do not use. This element has been deprecated. Use system.webServer/management instead."
 ms.date: 09/26/2016
 ms.assetid: 3191c33a-4767-4ccf-b74f-4634d0eb7588
 msc.legacyurl: /configreference/administratorsproviders/add

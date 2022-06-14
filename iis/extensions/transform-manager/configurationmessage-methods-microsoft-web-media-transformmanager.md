@@ -1,6 +1,7 @@
 ---
 title: ConfigurationMessage Methods (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Methods
+description: "List of members that is exposed by the ConfigurationMessage type, including the method type, name, and description of each."
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.ConfigurationMessage
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage_methods(v=VS.90)
 ms:contentKeyID: 35520914

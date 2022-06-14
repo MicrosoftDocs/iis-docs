@@ -1,5 +1,6 @@
 ---
 title: Credential.UserName Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the UserName property gets or sets a credential user name, as well as detils about its syntax and property value.
 TOCTitle: UserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.UserName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.credential.username(v=VS.90)

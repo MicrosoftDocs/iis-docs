@@ -1,5 +1,6 @@
 ---
 title: "ICacheProvider::GetCacheOperation Method"
+description: Describes the ICacheProvider::GetCacheOperation method and provides its syntax, parameters, return value, remarks, requirements, and a code example.
 ms.date: "10/07/2016"
 ms.assetid: 1ebbf591-6426-8b58-37f8-b3e428c3e45e
 ---

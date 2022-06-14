@@ -1,5 +1,6 @@
 ---
 title: HttpCookie.Flags Property
+description: Describes the HttpCookie.Flags property and provides the property's syntax, property value, requirements, and minimum supported client and server.
 TOCTitle: Flags Property
 ms:assetid: 379945b4-79f8-46a0-8931-020a6be57e2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822716(v=VS.90)

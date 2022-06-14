@@ -1,6 +1,7 @@
 ---
-title: "Web Server Core API Reference"
-ms.date: "10/07/2016"
+title: Web Server Core API Reference
+description: Describes the Web Server Core API reference and provides an outline of various Web Server Core articles and additional references.
+ms.date: 10/07/2016
 ms.assetid: 63d6d159-14f9-0f72-8ead-5e68f5efe412
 ms.author: "robmcm"
 ---

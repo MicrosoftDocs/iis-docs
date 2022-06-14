@@ -1,6 +1,7 @@
 ---
 title: IDbTableDataManager.InsertRow Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: InsertRow Method
+description: "The IDbTableDataManager.InsertRow method inserts a row of data into a table. This article describes its syntax, remarks, examples, and permissions."
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.InsertRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtabledatamanager.insertrow(v=VS.90)
 ms:contentKeyID: 20476803

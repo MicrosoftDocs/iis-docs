@@ -1,5 +1,6 @@
 ---
 title: IManifestStream.Language Property
+description: Describes the IManifestStream.Language property and provides the property's syntax, requirements, and minimum supported client and server.
 TOCTitle: Language Property
 ms:assetid: 0efac85c-2dc9-4a6f-b0a5-36e65c9009f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822679(v=VS.90)

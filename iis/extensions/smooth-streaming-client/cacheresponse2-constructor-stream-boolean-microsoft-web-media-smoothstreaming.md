@@ -1,5 +1,6 @@
 ---
 title: CacheResponse2 Constructor (Stream, Boolean) (Microsoft.Web.Media.SmoothStreaming)
+description: This article details syntax, parameters, remarks, and version information of the CacheResponse2 Constructor.
 TOCTitle: CacheResponse2 Constructor (Stream, Boolean)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor(System.IO.Stream,System.Boolean)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse2.cacheresponse2(v=VS.95)

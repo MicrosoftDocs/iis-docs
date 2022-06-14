@@ -1,5 +1,6 @@
 ---
 title: IAdaptiveSourceManagerStatics.GetDefault Method
+description: Describes the IAdaptiveSourceManagerStatics.GetDefault method and provides the method's syntax, parameters, return value, and requirements.
 TOCTitle: GetDefault Method
 ms:assetid: 9c5cdd6b-72c1-490f-870f-db85a9d1bc9f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822792(v=VS.90)

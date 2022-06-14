@@ -1,6 +1,7 @@
 ---
 title: "IAppDomainInfoEnum::GetData Method"
 ms.date: "10/07/2016"
+description: The IAppDomainInfoEnum GetData Method retrieves an IAppDomainInfo interface. 
 ms.assetid: 5628ffe4-1978-4c37-5973-0caa93526126
 ---
 # IAppDomainInfoEnum::GetData Method

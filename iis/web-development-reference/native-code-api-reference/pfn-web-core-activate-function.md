@@ -1,5 +1,6 @@
 ---
 title: "PFN_WEB_CORE_ACTIVATE Function"
+description: Learn how the PFN_WEB_CORE_ACTIVATE function starts an instance of the Hosted Web Core.
 ms.date: "10/07/2016"
 ms.assetid: 33897340-911a-4c64-ab92-db1fc283b332
 ---

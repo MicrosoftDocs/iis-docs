@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse2::WriteEntityChunks Method"
+description: Learn how the IHttpResponse2::WriteEntityChunks method appends one or more HTTP_DATA_CHUNK structures to the response body for an asynchronous operation.
 ms.date: "10/07/2016"
 ms.assetid: 8a7882f2-aa37-4890-b747-57f3a91b46d9
 ---

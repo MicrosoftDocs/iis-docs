@@ -1,6 +1,7 @@
 ---
 title: IPlaylistRequestInfo::SetServerVariable Method
 TOCTitle: IPlaylistRequestInfo::SetServerVariable Method
+description: "The IPlaylistRequestInfoSetServerVariable method sets a single server variable in a collection of server variables associated with the request."
 ms:assetid: 80ff059b-a0fa-4339-a4fd-5100f60381d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146279(v=VS.90)
 ms:contentKeyID: 19132350

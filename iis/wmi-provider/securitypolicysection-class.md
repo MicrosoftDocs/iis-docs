@@ -1,5 +1,6 @@
 ---
 title: "SecurityPolicySection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the SecurityPolicySection class.
 ms.date: "10/07/2016"
 ms.assetid: 0d5068c9-aeb1-15ac-af43-5a4e669d0f0e
 ---

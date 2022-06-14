@@ -1,6 +1,7 @@
 ---
 title: "CHttpModule::OnPostPreExecuteRequestHandler Method"
 ms.date: "10/07/2016"
+description: Learn how the method that will handle a PreExecuteRequestHandler post-event, which occurs before IIS executes a request handler, is represented.
 ms.assetid: cfbf045a-61f6-add3-8bdd-a24e3c0277f2
 ---
 # CHttpModule::OnPostPreExecuteRequestHandler Method

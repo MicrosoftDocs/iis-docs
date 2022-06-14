@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.AttributesProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: This article contains syntax, permissions, and version information for the SmoothStreamingMediaElement.AttributesProperty field.
 TOCTitle: AttributesProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AttributesProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.attributesproperty(v=VS.90)

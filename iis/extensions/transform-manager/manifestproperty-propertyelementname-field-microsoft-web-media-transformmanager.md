@@ -1,5 +1,6 @@
 ---
 title: ManifestProperty.PropertyElementName Field (Microsoft.Web.Media.TransformManager)
+description: This article contains information about syntax for the ManifestProperty.PropertyElementName field. There are also links to reference materials.
 TOCTitle: PropertyElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ManifestProperty.PropertyElementName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestproperty.propertyelementname(v=VS.90)

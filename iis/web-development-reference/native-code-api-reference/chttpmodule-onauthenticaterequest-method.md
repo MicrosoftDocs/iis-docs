@@ -1,5 +1,6 @@
 ---
 title: "CHttpModule::OnAuthenticateRequest Method"
+description: Learn how the CHttpModule::OnAuthenticateRequest method represents the method that will handle an AuthenticateRequest event. 
 ms.date: "10/07/2016"
 ms.assetid: 9a3979bd-c471-0bad-d726-7dfb1e0e3f72
 ---

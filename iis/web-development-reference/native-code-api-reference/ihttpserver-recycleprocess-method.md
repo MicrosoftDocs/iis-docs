@@ -1,6 +1,7 @@
 ---
 title: "IHttpServer::RecycleProcess Method"
 ms.date: "10/07/2016"
+description: IHttpServer RecycleProcess Method recycles the worker process that is handling the current request.
 ms.assetid: ca5369c7-43b2-0edf-f173-edbb1271802a
 ---
 # IHttpServer::RecycleProcess Method

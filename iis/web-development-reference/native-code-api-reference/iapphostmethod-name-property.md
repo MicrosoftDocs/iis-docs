@@ -1,5 +1,6 @@
 ---
 title: "IAppHostMethod::Name Property"
+description: Learn how the IAppHostMethod::Name property gets the name of the method, as well as details about its parameters and requirements. 
 ms.date: "10/07/2016"
 ms.assetid: 51ecf743-23a0-4f9d-8025-faa7543444d7
 ---

@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedEventArgs.Stream Property (Microsoft.Web.Media.SmoothStreaming)
+description: Discusses the StreamUpdatedEventArgs.Stream property which shows that the stream that has been updated.
 TOCTitle: Stream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Stream
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.stream(v=VS.95)

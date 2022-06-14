@@ -1,5 +1,6 @@
 ---
 title: "Server.EndUpdateBatch Method"
+description: This article contains information about syntax, return value, and requirements for the Server.EndUpdateBatch method.
 ms.date: "10/07/2016"
 ms.assetid: 49d4a5bc-0c8e-4e51-9ab6-60285a97257b
 ---

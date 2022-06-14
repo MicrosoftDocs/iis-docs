@@ -96,7 +96,7 @@ Table 3 provides a contrasting view of the use of LTI and ZTI in the deployment.
 
 ## Ensure That the Required Infrastructure Exists
 
-For most production environments, the majority of services required for deployment already exists. However, you must verify that all of the required components are in place before continuing the deployment process. Before installing WDS you need to review the [prerequisites for installing Windows Deployment Services](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831764(v%3Dws.11)#prerequisites-for-installing-windows-deployment-services).
+For most production environments, the majority of services required for deployment already exists. However, you must verify that all of the required components are in place before continuing the deployment process. Before installing WDS you need to review the [prerequisites for installing Windows Deployment Services](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831764(v%3Dws.11)#prerequisites-for-installing-windows-deployment-services).
 
 ### Prerequisites for Installing Windows Deployment Services
 

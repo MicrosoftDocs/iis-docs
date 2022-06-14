@@ -1,5 +1,6 @@
 ---
 title: WorkQueue Properties (Microsoft.Web.Media.TransformManager)
+description: This article outlines members exposed by the WorkQueue properties, with links to reference materials.
 TOCTitle: WorkQueue Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.TransformManager.WorkQueue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.workqueue_properties(v=VS.90)

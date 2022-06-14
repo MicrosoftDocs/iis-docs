@@ -1,6 +1,7 @@
 ---
 title: CacheResponse.ContentLength Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentLength Property
+description: The ContentLength Property in bytes. 
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentLength
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.contentlength(v=VS.90)
 ms:contentKeyID: 31469259

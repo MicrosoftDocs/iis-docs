@@ -1,5 +1,6 @@
 ---
 title: ChunkInfo Class (Microsoft.Web.Media.SmoothStreaming)
+description: This article details syntax, properties, methods, inheritance hierarchy, and a code example of the ChunkInfo Class, which defines per-chunk information for text/binary chunks of Smooth Streaming data.
 TOCTitle: ChunkInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.chunkinfo(v=VS.95)

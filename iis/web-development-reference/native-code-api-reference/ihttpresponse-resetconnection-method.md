@@ -1,5 +1,6 @@
 ---
 title: "IHttpResponse::ResetConnection Method"
+description: Learn how the IHttpResponse::ResetConnection method resets the socket connection immediately, as well as details about its parameters and requirements.
 ms.date: "10/07/2016"
 ms.assetid: 7c4a08fd-596f-7ec3-01d3-d780e8373229
 ---

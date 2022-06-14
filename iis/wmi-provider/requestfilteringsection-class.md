@@ -1,5 +1,6 @@
 ---
 title: "RequestFilteringSection Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the RequestFilteringSection class.
 ms.date: "10/07/2016"
 ms.assetid: 73911071-57c6-2fc8-5e52-9f5cfd4595a8
 ---

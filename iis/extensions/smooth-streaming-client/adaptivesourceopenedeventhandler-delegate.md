@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceOpenedEventHandler Delegate
+description: This article has information on syntax, parameters, return value, and requirements for the AdaptiveSourceOpenedEventHandler delegate.
 TOCTitle: AdaptiveSourceOpenedEventHandler Delegate
 ms:assetid: cc23564e-b381-44ba-bcd3-26f3cbcb5301
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822835(v=VS.90)

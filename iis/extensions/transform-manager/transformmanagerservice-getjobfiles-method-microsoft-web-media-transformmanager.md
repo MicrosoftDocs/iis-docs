@@ -1,5 +1,6 @@
 ---
 title: TransformManagerService.GetJobFiles Method  (Microsoft.Web.Media.TransformManager)
+description: Learn how the GetJobFiles method returns a list of the files in the folder that is created for the specified job.
 TOCTitle: GetJobFiles Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobFiles(Microsoft.Web.Media.TransformManager.JobDetails)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.getjobfiles(v=VS.90)

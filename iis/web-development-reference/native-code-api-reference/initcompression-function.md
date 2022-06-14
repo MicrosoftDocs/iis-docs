@@ -1,6 +1,7 @@
 ---
 title: "InitCompression Function"
 ms.date: "10/07/2016"
+description: InitCompression Function initializes the compression scheme.
 ms.assetid: 46adcc95-ab70-46a7-83d2-313a82dcef41
 ---
 # InitCompression Function

@@ -1,6 +1,7 @@
 ---
 title: TaskDefinition.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationDirectory Property
+description: ConfigurationDirectory Property gets the path to the task definition configuration file.
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdefinition.configurationdirectory(v=VS.90)
 ms:contentKeyID: 35520697

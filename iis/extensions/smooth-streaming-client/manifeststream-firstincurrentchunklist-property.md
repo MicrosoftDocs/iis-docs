@@ -1,5 +1,6 @@
 ---
 title: ManifestStream.FirstInCurrentChunkList Property
+description: This article has information about syntax, property value, and requirements for the ManifestStream.FirstInCurrentChunkList property.
 TOCTitle: FirstInCurrentChunkList Property
 ms:assetid: 2021ddf8-b4b9-44c1-8fe4-5cc652b8bef6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822699(v=VS.90)

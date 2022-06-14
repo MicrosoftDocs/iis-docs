@@ -1,5 +1,6 @@
 ---
 title: QualityLevel, Attributes (IIS Smooth Streaming)
+description: Describes the QualityLevel and Attributes for the IIS Smooth Streaming application and outlines the QualityLevel attribute and additional attributes.
 TOCTitle: QualityLevel, Attributes (IIS Smooth Streaming)
 ms:assetid: c33074d3-f806-450d-98e9-ef307c532d26
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728116(v=VS.90)

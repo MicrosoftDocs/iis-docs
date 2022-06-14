@@ -1,5 +1,6 @@
 ---
 title: "ProfileSettings Class"
+description: This article contains information about syntax, methods, properties, subclasses, inheritance hierarchy, and requirements for the ProfileSettings class.
 ms.date: "10/07/2016"
 ms.assetid: d8c0627e-0259-7d81-fc26-709f82ef2d18
 ---

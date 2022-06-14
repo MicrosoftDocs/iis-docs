@@ -1,6 +1,7 @@
 ---
 title: "IMetadataInfo::GetVrToken Method"
 ms.date: "10/07/2016"
+description: The IMetadataInfo GetVrToken method retrieves an IHttpTokenEntry interface for the impersonation account that is configured for a virtual directory.
 ms.assetid: 194a4a46-93f9-f826-8bf2-d4642b2765e9
 ---
 # IMetadataInfo::GetVrToken Method

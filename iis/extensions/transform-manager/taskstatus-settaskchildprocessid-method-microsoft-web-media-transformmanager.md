@@ -1,6 +1,7 @@
 ---
 title: TaskStatus.SetTaskChildProcessId Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskChildProcessId Method
+description: The SetTaskChildProcessId Method sets the ID of the child process of the task.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskChildProcessId(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskstatus.settaskchildprocessid(v=VS.90)
 ms:contentKeyID: 35520692

@@ -1,5 +1,6 @@
 ---
 title: ILogger Interface (Microsoft.Web.Media.TransformManager)
+description: This article lists syntax, methods, and properties of the ILogger Interface, which defines a logger that can be used by the task to write data to the job-instance log.
 TOCTitle: ILogger Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ILogger
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.ilogger(v=VS.90)

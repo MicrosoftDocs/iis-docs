@@ -1,5 +1,6 @@
 ---
 title: SSMELogReadyRoutedEventArgs Properties (Microsoft.Web.Media.SmoothStreaming)
+description: This article lists the properties exposed by the SSMELogReadyRoutedEventArgs type.
 TOCTitle: SSMELogReadyRoutedEventArgs Properties
 ms:assetid: Properties.T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs_properties(v=VS.95)

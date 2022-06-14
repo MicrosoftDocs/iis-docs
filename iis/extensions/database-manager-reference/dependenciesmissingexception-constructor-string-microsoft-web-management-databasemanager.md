@@ -1,5 +1,6 @@
 ---
 title: DependenciesMissingException Constructor (String) (Microsoft.Web.Management.DatabaseManager)
+description: This article outlines syntax, parameters, remarks, a code example, and permissions for the DependenciesMissingException Constructor.
 TOCTitle: DependenciesMissingException Constructor (String)
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)

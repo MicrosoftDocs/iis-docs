@@ -170,7 +170,7 @@ Feel free to check out the blog, <https://www.mvolo.com/>, for more tips on taki
 
 ## Appendix
 
-This Membership provider is based on the sample XML membership provider found in this [Membership Providers](https://docs.microsoft.com/previous-versions/aa479031(v=msdn.10)).
+This Membership provider is based on the sample XML membership provider found in this [Membership Providers](/previous-versions/aa479031(v=msdn.10)).
 
 To use this Membership provider, save the code as **XmlMembershipProvider.cs** in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory. If this directory doesn't exist you will have to create it. Note - be sure to set Save As: All Files if using Notepad to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 

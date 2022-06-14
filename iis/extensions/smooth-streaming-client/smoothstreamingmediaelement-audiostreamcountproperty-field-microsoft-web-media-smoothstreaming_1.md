@@ -1,6 +1,7 @@
 ---
 title: SmoothStreamingMediaElement.AudioStreamCountProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamCountProperty Field
+description: SmoothStreamingMediaElement.AudioStreamCountProperty Field represents a dependency property that specifies the AudioStreamCount property.
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamCountProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamcountproperty(v=VS.95)
 ms:contentKeyID: 46307539
