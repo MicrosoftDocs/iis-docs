@@ -171,7 +171,6 @@ The following table contains information about security views and functions.
 ## Links for Further Information
 
 - [Securing SQL Server](https://msdn.microsoft.com/library/bb283235.aspx)
-- SQL Server 2008 Deployment Guide for Web Hosting Environments `https://download.microsoft.com/download/d/1/f/d1f05c2e-0741-442d-859e-9417b377fdfa/The%20architectural%20view%20of%20SQL%20Server.zip`
 - [Security Considerations for a SQL Server Installation](https://msdn.microsoft.com/library/ms144228.aspx)
 - [Secure Deployment (Database Engine)](https://msdn.microsoft.com/library/bb522545.aspx)
 - [Security and Protection (Database Engine)](https://msdn.microsoft.com/library/bb510589.aspx)
