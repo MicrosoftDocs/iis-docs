@@ -49,7 +49,7 @@ Download the Microsoft Application Request Routing release from the following lo
 ### To install Application Request Routing
 
 1. As an **administrator**, open a command prompt window.
-2. Stop **WAS** and **WMSVC** processes by typing. This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).  
+2. Stop **WAS** and **WMSVC** processes by typing. This step is necessary because ARR installs a Hotfix (KB 954438 (`https://support.microsoft.com/kb/954438`)).  
 
    [!code-console[Main](install-application-request-routing/samples/sample1.cmd)]
 

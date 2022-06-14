@@ -42,8 +42,8 @@ This walkthrough requires the following prerequisites:
 
 Download the Microsoft Application Request Routing release from the following locations:
 
-- Microsoft Application Request Routing Version 2 for IIS 7 (x86) [here](https://download.microsoft.com/download/4/D/F/4DFDA851-515F-474E-BA7A-5802B3C95101/ARRv2_setup_x86.EXE).
-- Microsoft Application Request Routing Version 2 for IIS 7 (x64) [here](https://download.microsoft.com/download/3/4/1/3415F3F9-5698-44FE-A072-D4AF09728390/ARRv2_setup_x64.EXE).
+- Microsoft Application Request Routing Version 2 for IIS 7 (x86) here (`https://download.microsoft.com/download/4/D/F/4DFDA851-515F-474E-BA7A-5802B3C95101/ARRv2_setup_x86.EXE`).
+- Microsoft Application Request Routing Version 2 for IIS 7 (x64) here (`https://download.microsoft.com/download/3/4/1/3415F3F9-5698-44FE-A072-D4AF09728390/ARRv2_setup_x64.EXE`).
 
 ## Step 2 - Install Microsoft Application Request Routing Version 2.
 
@@ -56,7 +56,7 @@ Download the Microsoft Application Request Routing release from the following lo
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample2.cmd)]
 
-   This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
+   This step is necessary because ARR installs a Hotfix (KB 954438 (`https://support.microsoft.com/kb/954438`)).
 3. Run ARRv2\_setup\_&lt;architecture&gt;.exe; for example: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample3.cmd)]
