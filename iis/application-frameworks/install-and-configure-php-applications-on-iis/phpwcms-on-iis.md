@@ -60,7 +60,7 @@ Before starting the installation procedure for PHPWCMS, create a database on you
    - template/inc\_default/startup.php
 
      ![Screenshot of the Permissions for upload dialog with all Permisions allowed for the I I S underscore I U S R S Group.](phpwcms-on-iis/_static/image1.jpg)
-3. Call the install script in your browser via the following path: `http://localhost/phpwcms/setup/index.php`  
+3. Call the install script in your browser via the following path: `http://localhost/phpwcms/setup/index.php`.  
 
     ![Screenshot of the welcome message with the General Public License terms.](phpwcms-on-iis/_static/image3.jpg)
 

@@ -114,7 +114,7 @@ In this step, we generate a request for `http://localhost/trace.aspx` and then c
 To verify that it worked:
 
 1. Open an Administrator-elevated new Internet Explorer window.
-2. Type in the address http://localhost/trace.aspx`.
+2. Type in the address `http://localhost/trace.aspx`.
 3. We generated the traced request, so open an Administrator-elevated Internet Explorer window, enter **CTRL-O** to open a file, and navigate to inetpub\logs\FailedReqLogFiles\W3SVC1 folder. In the **HTML Files** dropdown list, select **All Files**.
 4. Select the most recent FR######.xml file. You see the following:
 
