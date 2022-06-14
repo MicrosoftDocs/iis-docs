@@ -159,7 +159,7 @@ Alternatively, you can complete the steps above by using the command line tool A
 
 ## Best Practices for Configuring FastCGI and PHP
 
-This download `(https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/hostingPHPonIIS7.zip "Hosting PHP")` contains a summary presentation on Best Practices for hosting PHP in a shared hosting environment.
+The download `https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/hostingPHPonIIS7.zip "Hosting PHP"` contains a summary presentation on best practices for hosting PHP in a shared hosting environment.
 
 <a id="Security_Isolation"></a>
 
