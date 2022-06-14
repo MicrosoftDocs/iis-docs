@@ -15,7 +15,7 @@ The Microsoft Smooth Streaming Client SDK for Windows 8 enables development of H
 
 This walkthrough shows how to use the Microsoft Smooth Streaming Client SDK for Windows 8 to build a basic HTML5 Smooth Streaming player application. The application uses an HTML5 \<Video\> tag to handle media streaming.
 
-For more information about the Microsoft Media Platform Player Framework, see [Player Framework: an open source component of the Microsoft Media Platform](http://playerframework.codeplex.com/).
+For more information about the Microsoft Media Platform Player Framework, see [Player Framework: an open source component of the Microsoft Media Platform](https://farhanghumra.blogspot.com/2012/08/player-framework-open-source-component.html).
 
 The walkthrough illustrates the following tasks:
 
