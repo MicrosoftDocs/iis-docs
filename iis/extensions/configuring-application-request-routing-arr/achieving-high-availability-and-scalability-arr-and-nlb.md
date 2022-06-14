@@ -321,7 +321,7 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
 
 - NLB Server Core instructions: 
 
-    - Install NLB feature: [https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt)
+    - Install NLB feature: `https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt`
 - NLB and SSL: 
 
     - 
@@ -330,6 +330,6 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
 
     - [https://technet.microsoft.com/library/cc782694.aspx](https://technet.microsoft.com/library/cc782694.aspx)
     - [https://technet.microsoft.com/library/cc778263.aspx](https://technet.microsoft.com/library/cc778263.aspx)
-    - [https://support.microsoft.com/kb/323437](https://support.microsoft.com/kb/323437)
-    - [https://support.microsoft.com/kb/890159/en-us](https://support.microsoft.com/kb/890159/en-us)
+    - `https://support.microsoft.com/kb/323437`
+    - `https://support.microsoft.com/kb/890159/en-us`
     - [https://blogs.msdn.com/clustering](https://blogs.msdn.com/clustering)
