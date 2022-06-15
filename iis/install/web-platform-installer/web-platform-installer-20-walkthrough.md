@@ -24,7 +24,7 @@ To get started, you need to download and install the Web Platform Installer. To 
 
     By clicking **Install Now** and by using the Web PI, you agree to the [terms of use](https://go.microsoft.com/?linkid=9546162 "terms of use") for the Microsoft Web Platform Installer. The Web PI will contact Microsoft over the Internet to retrieve product information.
 
-    [Install Now](https://www.microsoft.com/web/downloads/platform.aspx "Install Now")
+    [Install Now](https://www.microsoft.com/web/downloads/platform.aspx)
 
     When the installation is completed, to start the Web PI, in the Windows **Start** menu, click **All Programs**, and then click **Microsoft Web Platform Installer**.
 
