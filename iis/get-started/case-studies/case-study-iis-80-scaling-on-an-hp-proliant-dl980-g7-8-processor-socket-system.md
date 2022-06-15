@@ -78,7 +78,7 @@ The following figure illustrates the DL980 G7 block diagram, and it is provided 
 
 **Configuration options:** 
 
-The DL980 G7 ships in a variety of configurations: 4 and 8 processor socket models are available. Additionally, there are several different configurations for PCI expansion slots. These are documented in the [HP Technical Reference Guide for the DL980](http://h18004.www1.hp.com/products/quickspecs/13708_na/13708_na.pdf)
+The DL980 G7 ships in a variety of configurations: 4 and 8 processor socket models are available. Additionally, there are several different configurations for PCI expansion slots. These are documented in the [HP Technical Reference Guide for the DL980](https://community.hpe.com/hpeb/attachments/hpeb/itrc-264/106801/1/363896.pdf)
 
 Throughout this document, we with refer to Processors in terms of how Windows recognizes and describes them, Processors 0 - 7 and NUMA nodes 0 - 7.
 
@@ -177,11 +177,11 @@ It is critical that the firmware for the below components is updated to the late
 - Network Cards
 - FusionIO Cards (if used)
 
-It is strongly recommended to verify the firmware of these components on the [HP DL980 Support web site](http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?lang=en&cc=us&objectID=c02497469&prodTypeId=15351&prodSeriesId=4231377).
+It is strongly recommended to verify the firmware of these components on the [HP DL980 Support web site](https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-c04011716#:~:text=Supports%20VMware%20vSphere%205.1%2C%20VMware%20vCenter%205.1.%20SUSE,Currently%20available%20for%20the%20DL980%201TB%20server%20configuration.).
 
 #### Windows versions &amp; Configuration
 
-As part of the Mission Critical offering for Windows customers, HP has a Smart Update QFE CD to automatically setup and tune Windows with the latest critical Microsoft QFEs: [http://www.hp.com/swpublishing/MTX-2d5e88cac8e8445181279f252e](http://www.hp.com/swpublishing/MTX-2d5e88cac8e8445181279f252e). These updates and tuning have been implemented with Microsoft and validated in the HP DL980 laboratory. HP recommends its customers to execute these updates.
+As part of the Mission Critical offering for Windows customers, HP has a Smart Update QFE CD to automatically setup and tune Windows with the latest critical Microsoft QFEs: [https://www.hpe.com/us/en/servers/smart-update.html](https://www.hpe.com/us/en/servers/smart-update.html). These updates and tuning have been implemented with Microsoft and validated in the HP DL980 laboratory. HP recommends its customers to execute these updates.
 
 - Windows Server 2012 - The IIS settings for kernel mode, cache management, request and connection management and user mode have not changed from Windows Server 2008 R2, please refer to the IIS specific tunings described in the [&quot;Performance Tuning Guidelines for Windows Server 2008 R2&quot;](https://msdn.microsoft.com/windows/hardware/gg463392.aspx) document. .
 - For Windows 2008 R2, SP1 or higher is recommended. Service Pack 1 contains many critical performance fixes for &gt; 64 logical processor support.

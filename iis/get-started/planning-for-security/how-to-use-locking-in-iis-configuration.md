@@ -67,7 +67,7 @@ In this example, you must leave the contents of the section in their original pl
 
 Returning to the third example above, the section is unlocked for all applications in all sites (location path="."). Check that the primary &lt;authentication&gt; section group (the one outside of the `<location>` element, above in the file) does not contain a &lt;windowsAuthenitcation&gt; section. A section cannot appear in the same file both outside a location tag and inside a &lt;location path="."&gt; tag; this is considered invalid configuration.
 
-To test whether or not a section is locked, go to [http://localhost/app](http://localhost/app) in the browser.
+To test whether or not a section is locked, go to `http://localhost/app` in the browser.
 
 If the section is locked, the browser displays an error because the web.config file at the application level has the `<windowsAuthentication>` section in it. This means the web.config tries to override `<windowsAuthentication>` for its level. However, because that section is now locked at the global level, the configuration in the web.config file is not valid.
 
@@ -158,7 +158,7 @@ When finished, the web.config file looks like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample13.xml)]
 
-In the browser, request [http://localhost/app](http://localhost/app).
+In the browser, request `http://localhost/app`.
 
 <a id="Task5"></a>
 
@@ -180,7 +180,7 @@ When finished, the Web.config file looks like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample15.xml)]
 
-In the browser, request [http://localhost/app](http://localhost/app) -- the request fails.
+In the browser, request `http://localhost/app` -- the request fails.
 
 <a id="Summary"></a>
 
