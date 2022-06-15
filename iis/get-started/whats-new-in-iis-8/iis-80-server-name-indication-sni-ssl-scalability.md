@@ -112,7 +112,7 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 
 ### Test a Secure Site:
 
-Open a browser and navigate to [https://TAPTesting/](https://taptesting/). Note that as a part of prerequisite, your hosts file should have been modified to route this request to localhost:
+Open a browser and navigate to `https://TAPTesting/`. Note that as a part of prerequisite, your hosts file should have been modified to route this request to localhost:
 
 [![Screenshot that shows Internet Explorer. I I S 8 is written in large text on the web page.](iis-80-server-name-indication-sni-ssl-scalability/_static/image25.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image23.png)
 

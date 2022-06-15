@@ -134,7 +134,7 @@ There are no known bugs for this feature at this time.
 
 ### Test a Secure Site
 
-Open a browser and navigate to [https://centralcert0/](https://centralcert0/). Note that as a part of prerequisite, hosts file should are modified to route this request to localhost:
+Open a browser and navigate to `https://centralcert0/`. Note that as a part of prerequisite, hosts file should are modified to route this request to localhost:
 
 [![Screenshot of the central cert zero web page. I I S eight is displayed on the web page.](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image23.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image21.png)
 
