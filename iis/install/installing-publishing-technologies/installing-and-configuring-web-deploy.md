@@ -15,7 +15,7 @@ by [Kristina Olson](https://github.com/krolson)
 
 In this walkthrough, we will show steps for installing and configuring Web Deploy for administrator or non-administrator deployments. This means the steps necessary to enable a client to use Web Deploy to publish Web site content to the server, even if the client does not have administrator credentials for the server.
 
-Note: Currently Web Deploy V3 RTW is only available through direct download. We are still working on WebPI feed. Easiest way to install V3 RTW is to first install Web Deploy V3 RC using WebPI 4 RC ([x86](https://download.microsoft.com/download/C/4/9/C4963E95-B3E7-4520-BD87-86BFEED90A1E/WebPlatformInstaller_x86.msi)/[x64](https://download.microsoft.com/download/C/4/9/C4963E95-B3E7-4520-BD87-86BFEED90A1E/WebPlatformInstaller_amd64.msi)) as instructed in  Installing &amp; Configuring Web Deploy tutorial, and later update it running Web Deploy V3 RTW msi.
+Note: Currently Web Deploy V3 RTW is only available through direct download. We are still working on WebPI feed. Easiest way to install V3 RTW is to first install Web Deploy V3 RC using WebPI 4 RC (x86 (`https://download.microsoft.com/download/C/4/9/C4963E95-B3E7-4520-BD87-86BFEED90A1E/WebPlatformInstaller_x86.msi`)/x64 (`https://download.microsoft.com/download/C/4/9/C4963E95-B3E7-4520-BD87-86BFEED90A1E/WebPlatformInstaller_amd64.msi`)) as instructed in  Installing &amp; Configuring Web Deploy tutorial, and later update it running Web Deploy V3 RTW msi.
 
 ### Install and Configure Web Deploy for Non-Administrator Deployments
 

@@ -227,7 +227,7 @@ One of the great opportunities for the offline cache is to point the WebPI UX ve
 
 This is the first preview release of the new /Offline cache support and therefore it's not feature complete - below are a list of some features we are considering. We'd like to hear from you though - are these features important? What other features should be add?
 
-What do you think? Our friends on the WebMatrix team are sharing their UserVoice site to help us collect feedback - you can access that site here: [http://webmatrix.uservoice.com/forums/128313-webmatrix-suggestions](http://webmatrix.uservoice.com/forums/128313-webmatrix-suggestions)
+What do you think? Our friends on the WebMatrix team are sharing their UserVoice site to help us collect feedback - you can access that site here: `http://webmatrix.uservoice.com/forums/128313-webmatrix-suggestions`
 
 #### Wrap up
 

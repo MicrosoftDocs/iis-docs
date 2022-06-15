@@ -315,7 +315,7 @@ These modules do not provide request services, but instead assist the server eng
 | Description: | Implements default document functionality. Requests that come in with a trailing / will be rerouted to a document in the default document list. |
 | Configuration sections: | system.webServer/defaultDocument |
 | Dependencies: | None. |
-| Potential issues when removing this module | Requests to /, for example [http://localhost/](http://localhost/), return a 404 error. If a directoryBrowsing is enabled, a directory listing is generated. |
+| Potential issues when removing this module | Requests to /, for example `http://localhost/`, return a 404 error. If a directoryBrowsing is enabled, a directory listing is generated. |
 | **Module Name:** | **DirectoryListingModule** |
 | Description: | Implements directory browsing functionality. |
 | Configuration sections: | system.webServer/directoryBrowse |

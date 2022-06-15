@@ -62,7 +62,7 @@ Use the links below to start learning the aspects of IIS configuration, see a la
 
 **Get Started**
 
-- [Windows Server 2008 R2 Evaluation Editions and Virtual Labs](https://www.microsoft.com/server-cloud/windows-server/2008-r2-trial.aspx)
+- Windows Server 2008 R2 Evaluation Editions and Virtual Labs (`https://www.microsoft.com/server-cloud/windows-server/2008-r2-trial.aspx`)
 
 **Downloads**
 

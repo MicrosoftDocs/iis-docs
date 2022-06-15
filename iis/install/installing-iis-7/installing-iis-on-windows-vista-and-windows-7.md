@@ -81,7 +81,7 @@ If you are logged on to an account other than the built-in local administrator a
     [![Screenshot of the Control Panel Homepage. The programs menu is displayed.](installing-iis-on-windows-vista-and-windows-7/_static/image20.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image19.jpg)
 
     *Figure 10: Control Panel Home page*
-10. IIS is now installed with a default configuration on Windows Vista or Windows 7. To confirm that the installation succeeded, type the following URL into your browser, [http://localhost](http://localhost/).
+10. IIS is now installed with a default configuration on Windows Vista or Windows 7. To confirm that the installation succeeded, type the following URL into your browser, `http://localhost`.
 
     [![Screenshot of the Internet Explorer Web Browser. U R L h t t p colon slash slash local host is written into the browser.](installing-iis-on-windows-vista-and-windows-7/_static/image22.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image21.jpg)
 

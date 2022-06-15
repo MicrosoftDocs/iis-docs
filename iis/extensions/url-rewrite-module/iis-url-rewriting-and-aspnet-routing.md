@@ -68,7 +68,7 @@ If your Web application is built by using anything except ASP.NET, use the IIS U
 In practice, however, the choice does not have to be either/or. The technologies can be used together and can complement each other. In the following sections, we outline some scenarios where you can use ASP.NET routing and IIS URL rewriting together.
 
 Enforcing canonical URLs for your application.   
-You should force the use of http://www.mysite.com/home/about instead of http://mysite.com/Home/About. When a Web client requests a URL that does not conform to the format that you want, the client is redirected to a canonical URL. In this scenario, you can use the URL Rewrite module to enforce canonical URLs and perform redirection, and use ASP.NET routing to select a handler that would process the requested URL path.
+You should force the use of `http://www.mysite.com/home/about` instead of `http://mysite.com/Home/About`. When a Web client requests a URL that does not conform to the format that you want, the client is redirected to a canonical URL. In this scenario, you can use the URL Rewrite module to enforce canonical URLs and perform redirection, and use ASP.NET routing to select a handler that would process the requested URL path.
 
 The following example shows a URL rewrite rule that you can use for this scenario:
 
