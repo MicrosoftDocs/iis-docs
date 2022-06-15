@@ -103,7 +103,7 @@ The request below would fail this rule since it has a &quot;..&quot; in its Quer
 
 ### Example
 
- So if someone were to send a request like [http://www.foo.com/id=%3C%53%43%52%49%50%54%3E](http://www.foo.com/id=%3CSCRIPT%253E) where the &lt;script&gt; sequence has been escaped, we would like to check the un-escaped version of this query string as well:
+ So if someone were to send a request like `http://www.foo.com/id=%3C%53%43%52%49%50%54%3E` where the &lt;script&gt; sequence has been escaped, we would like to check the un-escaped version of this query string as well:
 
 `appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /unescapeQueryString:"True"`
 

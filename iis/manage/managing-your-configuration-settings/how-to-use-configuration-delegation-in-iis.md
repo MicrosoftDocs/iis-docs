@@ -33,7 +33,7 @@ This document then explains how to xcopy-deploy web.config with the application 
 
 ## Prerequisites
 
-- Make sure IIS 7.0 or above is installed on the machine. Go to [http://localhost/](http://localhost/) from IE and see that the default "Under Construction" page opens. If IIS is not installed, refer to the Setup How-To for installation instructions.
+- Make sure IIS 7.0 or above is installed on the machine. Go to `http://localhost/` from IE and see that the default "Under Construction" page opens. If IIS is not installed, refer to the Setup How-To for installation instructions.
 - Make sure you have administrative privileges on the machine. By default, you do not have them if you are logged on as a user other than the built-in Administrator account, even if this user was added to the local Administrators group on the machine. This is a new security feature in Windows Server® 2008, called LUA, which is beyond the scope of IIS. Either log-on as the built-in Administrator account, or explicitly invoke applications as the built-in Administrator, as needed, using the "runas" cmd-line tool:
 
 For example, to launch notepad.exe, run this command: "runas /user:administrator notepad.exe". You will be prompted for the password of the Administrator account. It is useful to have a cmd-box shell that is already elevated, by running "runas /user:administrator cmd.exe". Every application run from that cmd-box is elevated as well, and you do not need to use the "runas" syntax from that cmd-box.
@@ -56,9 +56,9 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 2. Navigate to the `<sites>` section, which looks similar to the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample2.xml)]
-3. Verify that the Web server is running and that you can access the default Web site. To do so, launch the browser and request [http://localhost/](http://localhost/)
+3. Verify that the Web server is running and that you can access the default Web site. To do so, launch the browser and request `http://localhost/`
 4. The request should return a Web page. If it does not, start the IIS server by typing "**net start w3svc**" from the command-box, or troubleshoot using the Windows Event Log viewer.
-5. In the browser, request [http://localhost/app](http://localhost/app)
+5. In the browser, request `http://localhost/`
 
     This request does not return a page (you see an error page), because the virtual path is not yet defined in the configuration—this is the next procedure.
 6. In the ApplicationHost.config file, add an `<application>` element with path "**/app**" that includes a top-level `<virtualDirectory>` element. Top-level virtual directory is one with path "**/**". For the physical path of the virtual directory, specify `C:\tmp`(or something similar that you will later work with).
@@ -68,7 +68,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample3.xml)]
 
     You have just defined a new application in the configuration file.
-7. In the browser, request [http://localhost/app](http://localhost/app)
+7. In the browser, request `http://localhost/`
 
     The Web server returns an error page, saying that directory browsing is not enabled. This happens because you do not have content yet in `c:\tmp`, so the server is handling the request as a request to browse the directory. Copy iisstart.htm from the `\inetpub\wwwroot` directory into `c:\tmp` and refresh the browser. Now you see the Under Construction page.
 
@@ -94,22 +94,22 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
     When you are finished, the web.config file looks like the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample5.xml)]
-4. In a browser, request [http://localhost/app](http://localhost/app).
+4. In a browser, request `http://localhost/app`.
 
     > [!NOTE]
     > You are not authorized to see the page, because you disabled all authentication methods to this page in your web.config file.
-5. In the browser, request [http://localhost/](http://localhost/) and confirm that you can access the page. The configuration in the web.config file applies only at the application level.
+5. In the browser, request `http://localhost/` and confirm that you can access the page. The configuration in the web.config file applies only at the application level.
 6. In the web.config file, enable basic authentication by adding a `<basicAuthentication>` element with its **enabled** attribute set to true.
 
     When you are finished, the web.config file looks like the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample6.xml)]
-7. Request [http://localhost/app](http://localhost/app) again. You see an error page saying that some configuration is locked at the global level and the web.config files is trying to override it--therefore it is a configuration error. To resolve this, allow the &lt;basicAuthentication&gt; section at the global level (applicationHost.config) to be overridden, as you did for the two other sections. Then refresh the browser .
+7. Request `http://localhost/app` again. You see an error page saying that some configuration is locked at the global level and the web.config files is trying to override it--therefore it is a configuration error. To resolve this, allow the &lt;basicAuthentication&gt; section at the global level (applicationHost.config) to be overridden, as you did for the two other sections. Then refresh the browser .
 
     You will now be prompted for a user name and password, which indicates the basic authentication is taking place.
 8. Enter the user name and password of the logged-on user, and note that the page displays. 
 
-    If you request [http://localhost/](http://localhost/), you will not be asked to enter user name and password, because the changes to configuration you made apply at the application level only.
+    If you request `http://localhost/`, you will not be asked to enter user name and password, because the changes to configuration you made apply at the application level only.
 
     > [!NOTE]
     > The server and the browser both cache the user token. If you wish to start from scratch and you no longer see the user-name prompt, close the browser, and stop the IIS worker process (or run "net stop /y http' from the Windows command line, then "net start w3svc", to restart IIS).
