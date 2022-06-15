@@ -114,4 +114,4 @@ This will use ASP.NET session state persistence to store the session data.
 
 ## More Information
 
-- [ASP.NET State Management Overview](https://docs.microsoft.com/en-us/previous-versions/aspnet/75x4ha6s(v=vs.100))
+- [ASP.NET State Management Overview](https://docs.microsoft.com/previous-versions/aspnet/75x4ha6s(v=vs.100))
