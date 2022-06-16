@@ -48,7 +48,7 @@ This article describes the use of an integrated Expression Encoder 4.0 SP2 trans
 
 You can get Expression Encoder 4 by downloading a 60-day free Trial edition of Expression Studio 4. If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download the Trial edition of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled. For more information, see [How to Upgrade](https://www.microsoft.com/expression/try-it/).
 
-After installing your preferred edition of Expression Encoder 4, be sure to install [Expression Encoder 4 (SP2)](https://www.microsoft.com/download/en/details.aspx?id=27870) to enable the **Expression Encoder 4.0 SP2** transcoding task in Transform Manager.
+After installing your preferred edition of Expression Encoder 4, be sure to install Expression Encoder 4 (SP2) (`https://www.microsoft.com/download/en/details.aspx?id=27870`) to enable the **Expression Encoder 4.0 SP2** transcoding task in Transform Manager.
 
 For specific installation instructions, see **Installation Notes** in the [Transform Manager Readme](iis-transform-manager-readme.md).
 

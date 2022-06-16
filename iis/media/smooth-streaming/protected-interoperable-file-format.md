@@ -10,7 +10,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/Microsoft)
 
-The [Protected Interoperable File Format (PIFF) specification](https://go.microsoft.com/?linkid=9682897 "Protected Interoperable File Format") defines a standard multimedia file format for delivery and playback of multimedia content. It includes the audio-video container, stream encryption, and metadata to support content delivery for multiple bit rate adaptive streaming, optionally using a standard encryption scheme capable of supporting multiple DRM systems.
+The [Protected Interoperable File Format (PIFF) specification](/iis/media/smooth-streaming/protected-interoperable-file-format "Protected Interoperable File Format") defines a standard multimedia file format for delivery and playback of multimedia content. It includes the audio-video container, stream encryption, and metadata to support content delivery for multiple bit rate adaptive streaming, optionally using a standard encryption scheme capable of supporting multiple DRM systems.
 
 [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming "IIS Smooth Streaming") is a specific adaptive streaming technology for which PIFF is particularly well suited. Learn more about the related [Smooth Streaming Transport Protocol specification](smooth-streaming-transport-protocol.md "Smooth Streaming Transport Protocol specificatio").
 
@@ -52,4 +52,4 @@ PIFF provides a simple, efficient solution to the problem of DRM interoperabilit
 >
 > 8 Revision History
 
-Click on the link to download version 1.1 of the specification, updated March 9, 2010: [Protected Interoperable File Format specification](https://go.microsoft.com/?linkid=9682897 "Protected Interoperable File Format").
+Click on the link to download version 1.1 of the specification, updated March 9, 2010: [Protected Interoperable File Format specification](/iis/media/smooth-streaming/protected-interoperable-file-format "Protected Interoperable File Format").
