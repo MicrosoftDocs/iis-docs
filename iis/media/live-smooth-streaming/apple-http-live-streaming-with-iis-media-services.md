@@ -99,7 +99,7 @@ To configure your first Live Smooth Streaming publishing point, do the following
     > [!IMPORTANT]
     > In IIS Media Services 4.0, the default value was set to **3000** Kbps to account for a known issue in Microsoft Expression Encoder 4 where the audio bitrate wasn't reported correctly. Lowering this value to **1600** Kbps removed all video tracks, leaving an audio-only stream.  
     >   
-    > This issue is fixed in [Expression Encoder 4 with Service Pack 1](https://go.microsoft.com/?linkid=9734740). If you're using this version of Expression Encoder to encode live Smooth Streams, lower the **Maximum bit rate** value to **1600** Kbps to filter the bitrates correctly.
+    > This issue is fixed in Expression Encoder 4 with Service Pack 1 (`https://go.microsoft.com/?linkid=9734740`). If you're using this version of Expression Encoder to encode live Smooth Streams, lower the **Maximum bit rate** value to **1600** Kbps to filter the bitrates correctly.
 11. Click **OK** to create the publishing point.
 12. In the **Live Smooth Streaming Publishing Points** page, select the **SmoothApple** publishing point, and then in the **Actions** pane, click **Start Publishing Point**.  
     ![Screenshot of the Actions pane with the Start Publishing Point option being highlighted.](apple-http-live-streaming-with-iis-media-services/_static/image5.png)
@@ -222,6 +222,6 @@ If the video plays smoothly, you've successfully enabled Apple HTTP Live Streami
 
 ### About the Microsoft Media Platform: Player Framework
 
-You can use [Microsoft's open source media player framework (MMPPF)](https://go.microsoft.com/?linkid=9733035) to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. Deploy the media player to the same website and point it to the same Live Smooth Streaming publishing point to enable playback to Silverlight clients on computers running Windows, Macintosh®, and Linux operating systems. IIS Media Services 4 can deliver media to more screens from a single set of live streams than other solutions available on the market today.  
+You can use [Microsoft's open source media player framework (MMPPF)](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/) to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. Deploy the media player to the same website and point it to the same Live Smooth Streaming publishing point to enable playback to Silverlight clients on computers running Windows, Macintosh®, and Linux operating systems. IIS Media Services 4 can deliver media to more screens from a single set of live streams than other solutions available on the market today.  
 ![Screenshot of a video file playing on Microsoft's open source media player framework.](apple-http-live-streaming-with-iis-media-services/_static/image2.jpg)  
 The MMPPF builds on the core functionality of the [IIS Smooth Streaming Client](https://go.microsoft.com/?linkid=9733034).

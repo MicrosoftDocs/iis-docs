@@ -88,10 +88,10 @@ IIS Media Services 4.1 can be installed by using either Microsoft Web Platform I
 
 Separate downloadable installation packages are available for each release of IIS Media Services 4. Click one of the following links to download the Windows Installer (.msi) file for your edition of Windows:
 
-- [IIS Media Services 4.1 (32-bit)](https://go.microsoft.com/?linkid=9787829)
-- [IIS Media Services 4.1 (64-bit)](https://go.microsoft.com/?linkid=9787830)
+- IIS Media Services 4.1 (32-bit) (`https://go.microsoft.com/?linkid=9787829`)
+- IIS Media Services 4.1 (64-bit) (`https://go.microsoft.com/?linkid=9787830`)
 - [IIS Media Services 4.0 (32-bit)](https://go.microsoft.com/?linkid=9735235)
-- [IIS Media Services 4.0 (64-bit)](https://go.microsoft.com/?linkid=9735236)
+- IIS Media Services 4.0 (64-bit) (`https://go.microsoft.com/?linkid=9735236`)
 
 Follow the instructions on the **Download details** page to install the software.
 
@@ -164,9 +164,9 @@ Applies To: IIS Media Services 4
 
 The maximum recommended bitrate for delivery to Apple iPhone and iPad devices is 1,600 kilobits per second (Kbps). If your Smooth Streaming encoder creates bitrates in the stream that are higher than this value, you can configure a **Maximum bit rate** setting for the Live Smooth Streaming feature in IIS Manager and specify the highest bitrate in the stream that will be converted to MPEG-2 TS segments. For more information about how to set the maximum bitrate value, see [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9749725).
 
-In IIS Media Services 4.0, the default **Maximum bit rate** value is set to **3,000** Kbps because Microsoft Expression Encoder 4 reports its encoded audio bitrate incorrectly. Because the audio track is typically encoded with the video tracks in the stream, lowering the maximum bitrate value might cause some or all of the video tracks to not be converted to MPEG-2 TS segments, making them unavailable for playback on the Apple device. This issue was corrected in [Microsoft Expression Encoder 4 Service Pack 1 (SP1)](https://go.microsoft.com/?linkid=9735239). Install the latest Service Pack onto your encoding computer that is running Expression Encoder 4, and then change the **Maximum bit rate** value in the Live Smooth Streaming feature to **1,600** Kbps.
+In IIS Media Services 4.0, the default **Maximum bit rate** value is set to **3,000** Kbps because Microsoft Expression Encoder 4 reports its encoded audio bitrate incorrectly. Because the audio track is typically encoded with the video tracks in the stream, lowering the maximum bitrate value might cause some or all of the video tracks to not be converted to MPEG-2 TS segments, making them unavailable for playback on the Apple device. This issue was corrected in Microsoft Expression Encoder 4 Service Pack 1 (SP1) (`https://go.microsoft.com/?linkid=9735239`). Install the latest Service Pack onto your encoding computer that is running Expression Encoder 4, and then change the **Maximum bit rate** value in the Live Smooth Streaming feature to **1,600** Kbps.
 
-In IIS Media Services 4.1, the default **Maximum bit rate** value is set to **1,600** Kbps. Be sure to install the [Expression Encoder 4 SP1](https://go.microsoft.com/?linkid=9735239) so that the bitrates are filtered correctly.
+In IIS Media Services 4.1, the default **Maximum bit rate** value is set to **1,600** Kbps. Be sure to install the Expression Encoder 4 SP1 (`https://go.microsoft.com/?linkid=9735239`) so that the bitrates are filtered correctly.
 
 #### Delivering Apple HTTP Live Streams through CDNs
 

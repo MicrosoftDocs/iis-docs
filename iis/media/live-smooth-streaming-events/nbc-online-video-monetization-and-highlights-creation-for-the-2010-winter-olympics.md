@@ -144,7 +144,7 @@ Figure 4. The RCE user interface.
 
 ### How the Player Ingests Composite Manifests
 
-One part of the [Silverlight Media Framework](http://smf.codeplex.com/) is the [IIS Smooth Streaming Client](https://www.iis.net/downloads/microsoft/smooth-streaming), which includes the [SmoothStreamingMediaElement](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.90).aspx) (SSME). This control is the core client-side component for making Smooth Streaming work in Silverlight, and it includes support for a manifest format called the Composite Manifest.
+One part of the [Silverlight Media Framework](https://www.microsoft.com/silverlight/media/) is the [IIS Smooth Streaming Client](https://www.iis.net/downloads/microsoft/smooth-streaming), which includes the [SmoothStreamingMediaElement](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.90).aspx) (SSME). This control is the core client-side component for making Smooth Streaming work in Silverlight, and it includes support for a manifest format called the Composite Manifest.
 
 #### Composite Manifest for Clip Creation
 
@@ -281,7 +281,7 @@ The three broadcasters found that the combination of the IIS Smooth Streaming te
 - [CTV Streams 6.2 Petabytes of Winter Olympics To over 3.9 Million Visitors, Making Every Second Count](https://www.microsoft.com/casestudies/Case_Study_Detail.aspx?casestudyid=4000007347 "CTV 2010 Olympics Online Video Case Study")
 - Composite Manifest Support for Rough Cut Editing scenarios in SSME: [blogs.iis.net/vsood/archive/2010/01/22/composite-manifest-support-for-rough-cut-editing-scenarios-in-ssme.aspx](https://blogs.iis.net/vsood/archive/2010/01/22/composite-manifest-support-for-rough-cut-editing-scenarios-in-ssme.aspx "Composite Manifest Support for Rough Cut Editing scenarios in SSME")
 - Streaming the Olympics: How We Got Here: [blogs.iis.net/alexzam/archive/2010/02/16/streaming-the-olympics-how-we-got-here.aspx](https://blogs.iis.net/alexzam/archive/2010/02/16/streaming-the-olympics-how-we-got-here.aspx "Alex Zambelli blog post - Streaming the Olympics - How We Got Here")
-- Introducing the Silverlight Rough Cut Editor (video from MIX 10): [live.visitmix.com/MIX10/Sessions/CL26](http://live.visitmix.com/MIX10/Sessions/CL26 "MIX10 - Introducing the Silverlight Rough Cut Editor")
+- Introducing the Silverlight Rough Cut Editor (video from MIX 10): [live.visitmix.com/MIX10/Sessions/CL26](https://www.youtube.com/watch?v=wj-kkIXeKo0 "MIX10 - Introducing the Silverlight Rough Cut Editor")
 - [Delivering Live and On-Demand Smooth Streaming](../smooth-streaming/delivering-live-and-on-demand-smooth-streaming-istreamplanet.md "Delivering Live and On-Demand Smooth Streaming"), a deployment guide, presented by iStreamPlanet and Microsoft
 
 ### Microsoft Silverlight
@@ -290,11 +290,15 @@ Microsoft Silverlight is a cross-browser, cross-platform plug-in for delivering 
 
 ### Silverlight Media Framework
 
-The open-source Silverlight Media Framework from Microsoft enables developers to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. The framework builds on the core functionality of the IIS Smooth Streaming Client. For more information about the Silverlight Media Framework, visit [smf.codeplex.com](http://smf.codeplex.com/ "Silverlight Media Framework").
+The open-source Silverlight Media Framework from Microsoft enables developers to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. The framework builds on the core functionality of the IIS Smooth Streaming Client. For more information about the Silverlight Media Framework, visit [smf.codeplex.com](https://www.microsoft.com/silverlight/media/ "Silverlight Media Framework").
 
 ### Silverlight Rough Cut Editor
 
-The Silverlight Rough Cut Editor is a standalone component proxy and metadata editing solution that allows end users to collaborate on and edit IIS Smooth Streaming content in a cross-platform web browser experience. For more information about the Silverlight Rough Cut Editor, visit [rce.codeplex.com](http://rce.codeplex.com/ "Silverlight Rough Cut Editor"). ### IIS Media Services IIS Media Services is an integrated HTTP-based media delivery platform that delivers true HD (720p+) live and on-demand streaming, DVR functionality, and real-time analytics support to computers, TVs, and mobile devices. It offers a complete multi-format media delivery platform built on a proven Web server, allowing the management of highly immersive websites from a single Web platform. IIS Smooth Streaming is one of the features of IIS Media Services. For more information about IIS Media Services, visit [www.iis.net/media](https://www.iis.net/media "IIS Media Services").
+The Silverlight Rough Cut Editor is a standalone component proxy and metadata editing solution that allows end users to collaborate on and edit IIS Smooth Streaming content in a cross-platform web browser experience. For more information about the Silverlight Rough Cut Editor, visit [rce.codeplex.com](https://news.microsoft.com/2010/04/13/microsoft-showcases-silverlight-rough-cut-editor/ "Silverlight Rough Cut Editor"). 
+
+### IIS Media Services
+
+IIS Media Services is an integrated HTTP-based media delivery platform that delivers true HD (720p+) live and on-demand streaming, DVR functionality, and real-time analytics support to computers, TVs, and mobile devices. It offers a complete multi-format media delivery platform built on a proven Web server, allowing the management of highly immersive websites from a single Web platform. IIS Smooth Streaming is one of the features of IIS Media Services. For more information about IIS Media Services, visit [www.iis.net/media](https://www.iis.net/media "IIS Media Services").
 
 The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Because Microsoft must respond to changing market conditions, it should not be interpreted to be a commitment on the part of Microsoft, and Microsoft cannot guarantee the accuracy of any information presented after the date of publication. This white paper is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
