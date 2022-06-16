@@ -49,7 +49,7 @@ The initial components of Windows Azure Media Services, including Ingest, Encodi
 The following encoding and conversion technologies are available from Microsoft:
 
 - [Transform Manager 1.1](https://www.microsoft.com/download/details.aspx?id=29890) : Converts media files to on-demand smooth streaming format for Silverlight clients and Apple mobile digital devices. This product is available for free download.
-- [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/download/details.aspx?id=27870) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
+- Expression Encoder 4 with Service Pack 2 (`https://www.microsoft.com/download/details.aspx?id=27870`) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
 
 > [!NOTE]
 > Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](https://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](https://www.harmonicinc.com/), [Elemental](https://www.elemental.com/), and [Envivio](http://www.envivio.com/).
@@ -184,13 +184,13 @@ If your clients are currently using Windows Media Player, you can install [Silve
 In this interim step, you will have two different Silverlight Application (xap) client files: one for Windows Media Services, and one for IIS Media Smooth Streaming. At this point, you are still using Windows Media Services, but your clients are ready to receive Smooth Streaming content when you make the transition to IIS Media Services. In addition, this interim step has the advantage of providing wider support for browsers, including Safari.
 
 > [!NOTE]
-> Different Silverlight applications (.xap files) are required for playing back IIS Media Services and Windows Media Services content. To play Windows Media content, a number of Silverlight templates are available as part of the installation of Expression Encoder. For playing Smooth Streaming content, you can use the [Microsoft Media Platform Player Framework](http://smf.codeplex.com/).
+> Different Silverlight applications (.xap files) are required for playing back IIS Media Services and Windows Media Services content. To play Windows Media content, a number of Silverlight templates are available as part of the installation of Expression Encoder. For playing Smooth Streaming content, you can use the [Microsoft Media Platform Player Framework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/).
 
 <a id="Toc343780158"></a>
 
 #### OSMF (Open Source Media Framework) plugin
 
-If you do not need to use DRM such as PlayReady and are restricted from deploying Silverlight in your Enterprise, you can use the [Microsoft Smooth Streaming plugin for Open Source Media Framework](https://www.microsoft.com/download/details.aspx?id=36057). After your .wmv content has been re-encoded to Smooth Streaming format, the plugin will allow you to deliver that content in Smooth Streaming format to Flash clients.
+If you do not need to use DRM such as PlayReady and are restricted from deploying Silverlight in your Enterprise, you can use the [Microsoft Smooth Streaming plugin for Open Source Media Framework](/azure/media-services/previous/media-services-use-osmf-smooth-streaming-client-plugin). After your .wmv content has been re-encoded to Smooth Streaming format, the plugin will allow you to deliver that content in Smooth Streaming format to Flash clients.
 
 > [!NOTE]
 > The OSMF plugin cannot deliver content that is in .wmv format.
@@ -224,7 +224,7 @@ When re-encoding your wmv files for migration, you'll need to choose an appropri
 
 #### The IIS smooth streaming format
 
-The IIS Media Services Smooth Streaming format consists of .ismv files that can contain H.264, or VC-1 compression formats. For more information, see [IIS Smooth Streaming Technical Overview](https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS_Smooth_Streaming_Technical_Overview.pdf).
+The IIS Media Services Smooth Streaming format consists of .ismv files that can contain H.264, or VC-1 compression formats. For more information, see [IIS Smooth Streaming Technical Overview](/iis/media/on-demand-smooth-streaming/smooth-streaming-technical-overview).
 
 If your goal is to stream to mobile devices, it is recommended that you choose H.264 rather than VC-1 as the target format because the H.264 format is supported by the hardware decoders on most mobile devices as well as the GPU decoders on most PCs.
 
@@ -235,7 +235,7 @@ If your goal is to stream to mobile devices, it is recommended that you choose H
 To do the re-encoding, Microsoft offers three choices:
 
 - The format conversion facilities of [Windows Azure Media Services](https://www.windowsazure.com/home/features/media-services/)
-- [Transform Manager](https://www.microsoft.com/download/details.aspx?id=29890) with [Expression Encoder](https://expression.microsoft.com/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
+- [Transform Manager](/iis/media/transform-manager/transform-manager-tasks-gallery) with Expression Encoder (`https://expression.microsoft.com/cc136533`) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
 - Expression Encoder, if you have only a few files to convert
 
 > [!NOTE]
@@ -273,7 +273,7 @@ If your plan is to migrate at some point to Windows Azure Media Services for on-
 
 #### A note on MPEG-DASH
 
-[MPEG-DASH](http://dashif.org/mpeg-dash/) (MPEG Dynamic Adaptive Streaming over HTTP) is a standard for dynamic adaptive bit-rate HTTP streaming that will be fully supported in Windows Azure Media Services. Support will also be added to the Microsoft Media Platform Smooth Streaming client development kits. For more details, see [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://blogs.msdn.microsoft.com/msmediaplatform/2012/04/16/microsoft-announces-support-for-mpeg-dash-in-microsoft-media-platform/) .
+[MPEG-DASH](https://dashif.org/) (MPEG Dynamic Adaptive Streaming over HTTP) is a standard for dynamic adaptive bit-rate HTTP streaming that will be fully supported in Windows Azure Media Services. Support will also be added to the Microsoft Media Platform Smooth Streaming client development kits. For more details, see [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://www.streamingmedia.com/PressRelease/Microsoft-Announces-Support-for-MPEG-DASH-in-Microsoft-Media-Platform_26775.aspx).
 
 The adoption of MPEG-DASH will greatly reduce (and hopefully eliminate) the need for re-encoding between competing video formats. After it is fully supported in Windows Azure Media Services, MPEG-DASH will become Microsoft's preferred format for HTTP streaming.
 
@@ -394,7 +394,7 @@ Currently, you can live stream using IIS Media Services 4.1, or use the faciliti
 
 #### Advertising (Ad Insertion)
 
-Ad Insertion is currently available in client SDKs, with support for the [VMAP](https://en.wikipedia.org/wiki/Vector_Map) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](http://smf.codeplex.com/), [PlayerFramework](http://playerframework.codeplex.com/), [OSMF AD plugins](http://www.osmf.org/partner.php) and the [Windows Azure Player Framework for iOS](https://github.com/WindowsAzure/azure-media-player-framework).
+Ad Insertion is currently available in client SDKs, with support for the [VMAP](https://en.wikipedia.org/wiki/Vector_Map) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), [PlayerFramework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), OSMF AD plugins (`http://www.osmf.org/partner.php`) and the [Windows Azure Player Framework for iOS](https://azure.microsoft.com/en-us/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/).
 
 On the server side, ad integration features are forthcoming.
 
@@ -468,19 +468,19 @@ To make direct REST API calls rather than using an SDK, or to use programming la
 
 #### Smooth Streaming Client SDKs
 
-Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a).
+Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices).
 
 <a id="Toc343780185"></a>
 
 #### Media Platform Player Framework
 
-The Microsoft Media Platform Player Framework is a fully open source video player for Silverlight, HTML5, Windows Phone, Xbox, and Windows 8 applications. For more information, see [Microsoft Media Platform Player Framework](http://playerframework.codeplex.com/).
+The Microsoft Media Platform Player Framework is a fully open source video player for Silverlight, HTML5, Windows Phone, Xbox, and Windows 8 applications. For more information, see [Microsoft Media Platform Player Framework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/).
 
 <a id="Toc343780186"></a>
 
 #### Xbox LIVE Application Development Kit (ADK)
 
-The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](http://www.xbox.com/live/partners), can be used to create applications that consume media content from Windows Azure Media Services and IIS Media Services. The ADK includes the Smooth Streaming Client for Xbox LIVE ADK, and the Microsoft Media Platform Player Framework for Xbox LIVE ADK.
+The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`http://www.xbox.com/live/partners`), can be used to create applications that consume media content from Windows Azure Media Services and IIS Media Services. The ADK includes the Smooth Streaming Client for Xbox LIVE ADK, and the Microsoft Media Platform Player Framework for Xbox LIVE ADK.
 
 <a id="Toc343780187"></a>
 
@@ -508,7 +508,7 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [IIS Media Services 4.1](https://www.iis.net/media)
 
-- [IIS Smooth Streaming Technical Overview](https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS_Smooth_Streaming_Technical_Overview.pdf)
+- [IIS Smooth Streaming Technical Overview](/iis/media/on-demand-smooth-streaming/smooth-streaming-technical-overview)
 
 - [Ingest Assets with the Media Services REST API](https://msdn.microsoft.com/library/windowsazure/jj129593.aspx)
 
@@ -516,13 +516,13 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Ingesting Assets in Bulk with the REST API](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx)
 
-- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a)
+- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices)
 
 - [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://blogs.msdn.com/b/msmediaplatform/archive/2012/04/16/microsoft-announces-support-for-mpeg-dash-in-microsoft-media-platform.aspx)
 
 - [Microsoft Media Platform](https://www.microsoft.com/mediaplatform/)
 
-- [Microsoft Media Platform Player Framework](http://playerframework.codeplex.com/)
+- [Microsoft Media Platform Player Framework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/)
 
 - [Microsoft PlayReady DRM](https://www.microsoft.com/playready/overview/)
 
@@ -536,11 +536,11 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Open Data Protocol (OData)](http://www.odata.org/documentation/overview)
 
-- [OSMF Advertising Plugins](http://www.osmf.org/partner.php)
+- OSMF Advertising Plugins (`http://www.osmf.org/partner.php`)
 
-- [Overview of MPEG-DASH Standard](http://dashif.org/mpeg-dash/)
+- [Overview of MPEG-DASH Standard](https://dashif.org/)
 
-- [Player Framework for Windows 8](http://playerframework.codeplex.com/)
+- [Player Framework for Windows 8](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/)
 
 - [Process Assets with the Media Services SDK for .NET](https://msdn.microsoft.com/library/windowsazure/jj129580.aspx)
 
@@ -558,7 +558,7 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Windows Azure Identity](https://www.windowsazure.com/home/features/identity/)
 
-- [Windows Azure Media Player Framework for iOS](https://github.com/WindowsAzure/azure-media-player-framework)
+- [Windows Azure Media Player Framework for iOS](https://azure.microsoft.com/en-us/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/)
 
 - [Windows Azure Media Services](https://www.windowsazure.com/home/scenarios/media/)
 
@@ -574,8 +574,8 @@ The Xbox LIVE Application Development Kit (ADK), available to [Xbox Partners](ht
 
 - [Windows Azure Store](https://www.windowsazure.com/store/overview/)
 
-- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx)
+- [Windows Media Services](/iis/media/windows-media-services/windows-media-server-or-web-server)
 
-- [Windows Media Services for Windows Server 2008](https://www.microsoft.com/download/details.aspx?id=12442)
+- [Windows Media Services for Windows Server 2008](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732884(v=ws.10)?redirectedfrom=MSDN)
 
 - [Windows Media Services for Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services)
