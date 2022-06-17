@@ -394,7 +394,7 @@ Currently, you can live stream using IIS Media Services 4.1, or use the faciliti
 
 #### Advertising (Ad Insertion)
 
-Ad Insertion is currently available in client SDKs, with support for the [VMAP](https://en.wikipedia.org/wiki/Vector_Map) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), [PlayerFramework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), OSMF AD plugins (`http://www.osmf.org/partner.php`) and the [Windows Azure Player Framework for iOS](https://azure.microsoft.com/en-us/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/).
+Ad Insertion is currently available in client SDKs, with support for the [VMAP](https://en.wikipedia.org/wiki/Vector_Map) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), [PlayerFramework](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/), OSMF AD plugins (`http://www.osmf.org/partner.php`) and the [Windows Azure Player Framework for iOS](https://azure.microsoft.com/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/).
 
 On the server side, ad integration features are forthcoming.
 
@@ -468,7 +468,7 @@ To make direct REST API calls rather than using an SDK, or to use programming la
 
 #### Smooth Streaming Client SDKs
 
-Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices).
+Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices).
 
 <a id="Toc343780185"></a>
 
@@ -516,7 +516,7 @@ The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`ht
 
 - [Ingesting Assets in Bulk with the REST API](https://msdn.microsoft.com/library/windowsazure/jj853021.aspx)
 
-- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices)
+- [Media Services Client Development](https://social.msdn.microsoft.com/Forums/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices)
 
 - [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://www.streamingmedia.com/PressRelease/Microsoft-Announces-Support-for-MPEG-DASH-in-Microsoft-Media-Platform_26775.aspx)
 
@@ -558,7 +558,7 @@ The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`ht
 
 - [Windows Azure Identity](https://www.windowsazure.com/home/features/identity/)
 
-- [Windows Azure Media Player Framework for iOS](https://azure.microsoft.com/en-us/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/)
+- [Windows Azure Media Player Framework for iOS](https://azure.microsoft.com/blog/cross-post-announcing-windows-azure-media-player-framework-preview-for-ios/)
 
 - [Windows Azure Media Services](https://www.windowsazure.com/home/scenarios/media/)
 
