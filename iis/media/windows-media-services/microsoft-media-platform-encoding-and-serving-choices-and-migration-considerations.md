@@ -33,7 +33,7 @@ Two Microsoft Media Platform Technologies are on-premises (that is, they run on 
 
 On-premises media technologies:
 
-- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/download/details.aspx?id=12442) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
+- [Windows Media Services](/iis/media/windows-media-services/windows-media-server-or-web-server) (with versions for [Windows Server 2008](/troubleshoot/windows-server/windows-server-eos-faq/end-of-support-windows-server-2008-2008r2) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
 - [IIS Media Services 4.1](https://www.iis.net/media) (which runs on Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012)
 
 Cloud-based media technologies:
@@ -48,7 +48,7 @@ The initial components of Windows Azure Media Services, including Ingest, Encodi
 
 The following encoding and conversion technologies are available from Microsoft:
 
-- [Transform Manager 1.1](https://www.microsoft.com/download/details.aspx?id=29890) : Converts media files to on-demand smooth streaming format for Silverlight clients and Apple mobile digital devices. This product is available for free download.
+- [Transform Manager 1.1](https://www.iis.net/downloads/microsoft/transform-manager) : Converts media files to on-demand smooth streaming format for Silverlight clients and Apple mobile digital devices. This product is available for free download.
 - Expression Encoder 4 with Service Pack 2 (`https://www.microsoft.com/download/details.aspx?id=27870`) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
 
 > [!NOTE]
@@ -212,7 +212,7 @@ The plugin has the following features:
 - Multiple audio language switching with OSMF built-in APIs
 - Maximum playback quality selection with OSMF built-in APIs
 
-This version of the plugin requires OSMF 2.0 and Adobe Flash Player 10.2 or higher. For more information, see the [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/download/details.aspx?id=36057) download page.
+This version of the plugin requires OSMF 2.0 and Adobe Flash Player 10.2 or higher. For more information, see the [Microsoft Smooth Streaming Plugin for OSMF (Preview)](/azure/media-services/previous/media-services-use-osmf-smooth-streaming-client-plugin) download page.
 
 <a id="Toc343780160"></a>
 
@@ -518,7 +518,7 @@ The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`ht
 
 - [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/e9092ec6-2dfc-44cb-adce-1dc935309d2a/media-services-client-development?forum=MediaServices)
 
-- [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://blogs.msdn.com/b/msmediaplatform/archive/2012/04/16/microsoft-announces-support-for-mpeg-dash-in-microsoft-media-platform.aspx)
+- [Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform](https://www.streamingmedia.com/PressRelease/Microsoft-Announces-Support-for-MPEG-DASH-in-Microsoft-Media-Platform_26775.aspx)
 
 - [Microsoft Media Platform](https://www.microsoft.com/mediaplatform/)
 
@@ -532,7 +532,7 @@ The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`ht
 
 - [Microsoft Smooth Streaming Client SDK for Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home)
 
-- [Microsoft Smooth Streaming Plugin for OSMF (Preview)](https://www.microsoft.com/download/details.aspx?id=36057)
+- [Microsoft Smooth Streaming Plugin for OSMF (Preview)](/azure/media-services/previous/media-services-use-osmf-smooth-streaming-client-plugin)
 
 - [Open Data Protocol (OData)](http://www.odata.org/documentation/overview)
 
@@ -550,7 +550,7 @@ The Xbox LIVE Application Development Kit (ADK), available to Xbox Partners (`ht
 
 - [Task Preset Strings for Windows Azure Media Encoder](https://msdn.microsoft.com/library/windowsazure/jj129582.aspx)
 
-- [Transform Manager 1.1 download](https://www.microsoft.com/download/details.aspx?id=29890)
+- [Transform Manager 1.1 download](https://www.iis.net/downloads/microsoft/transform-manager)
 
 - [Unifying Global Video Strategies: MP4 File Fragmentation for Broadcast, Mobile and Web Delivery (white paper)](http://184.168.176.117/reports-public/Adobe/20111116-fMP4-Adobe-Microsoft.pdf)
 
