@@ -32,7 +32,7 @@ This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Managi
 
 ## Performance Tuning
 
-This [guide](https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/PerformanceTuningWS2008.zip) describes important tuning parameters and settings that can result in improved performance for the Windows Server® 2008 operating system. Each setting and its potential effect are described to help you make an informed judgment about its relevance to your system, workload, and performance goals. The guide uses a holistic approach toward tuning Windows Server's various roles, including the Web Server role.
+This guide (`https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/PerformanceTuningWS2008.zip`) describes important tuning parameters and settings that can result in improved performance for the Windows Server® 2008 operating system. Each setting and its potential effect are described to help you make an informed judgment about its relevance to your system, workload, and performance goals. The guide uses a holistic approach toward tuning Windows Server's various roles, including the Web Server role.
 
 [![Diagram that shows the path from Request to Response.](iis-management-and-administration/_static/image4.jpg)](iis-management-and-administration/_static/image3.jpg)
 
@@ -46,7 +46,7 @@ HTTP substatus codes, detailed errors, and custom error pages
 
 Failed Request Tracing (FREB) and Event Tracing for Windows (ETW)
 
-The following [download](https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/IIS7DiagnosticsTroubleshooting.zip) contains guidance about IIS 7.0 features used in the Diagnostics and Troubleshooting video.
+The following download (`https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/IIS7DiagnosticsTroubleshooting.zip`) contains guidance about IIS 7.0 features used in the Diagnostics and Troubleshooting video.
 
 The following [section](../../troubleshoot/index.md) provides further video demonstrations and step-by-step guidance for troubleshooting errors in IIS 7.0.
 
@@ -58,7 +58,7 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 
 [![Screenshot that is titled I I S 7 Remote Adminstration.](iis-management-and-administration/_static/image6.jpg)](iis-management-and-administration/_static/image5.jpg)
 
-The following download &lt;link: [https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/RemoteManagement.zip](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/RemoteManagement.zip)&gt; provides the presentation used in this video, as well as a remote management user access matrix that compares the administrator, Windows user, and IIS Manager user accounts (also available here &lt;link: [https://www.iis.net/learn/manage/remote-administration/remote-administration-behavior-matrix](../remote-administration/remote-administration-behavior-matrix.md)&gt;).
+The following download `https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/RemoteManagement.zip` provides the presentation used in this video, as well as a remote management user access matrix that compares the administrator, Windows user, and IIS Manager user accounts (also available here &lt;link: [https://www.iis.net/learn/manage/remote-administration/remote-administration-behavior-matrix](../remote-administration/remote-administration-behavior-matrix.md)&gt;).
 
 Guidance articles:
 
@@ -77,13 +77,13 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/Windows
 
 [![Screenshot that is titled Windows Server 2008 Hardening.](iis-management-and-administration/_static/image10.jpg)](iis-management-and-administration/_static/image9.jpg)
 
-This [download](https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/WS2008Security.zip) includes the presentations and demonstration used in the videos in this section.
+This download (`https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/WS2008Security.zip`) includes the presentations and demonstration used in the videos in this section.
 
 ## A Hosting Management Sample
 
-This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7HostingManagement.zip) contains a video that describes a sample hosting management system based on the sample source code and documentation found in [Hosting Services Code Sample](index.md).
+This download (`https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7HostingManagement.zip`) contains a video that describes a sample hosting management system based on the sample source code and documentation found in [Hosting Services Code Sample](index.md).
 
-This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ManagementServicesforHosters.zip) contains the presentation and documents from the sample demonstrated in this video.
+This download (`https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/ManagementServicesforHosters.zip`) contains the presentation and documents from the sample demonstrated in this video.
 
 ## Conclusion
 

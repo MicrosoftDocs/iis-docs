@@ -47,7 +47,7 @@ To ensure that you have already installed Bit Rate Throttling, open the IIS Mana
 
 ![Screenshot of the I I S MEDIA Home pane with Bit Rate Throttling emphasized in the Media Services section.](bit-rate-throttling-configuration-walkthrough/_static/image1.jpg)
 
-If you still have the Default Web Site on your IIS server, follow these instructions to test Bit Rate Throttling. First, download a sample video file to your server that is at least one minute in length. If you do not have any content readily available, right-click the following link to a sample Windows Media Video file and click **Save As**: [Serving New Content with IIS7](https://download.microsoft.com/download/3/c/a/3ca6a2de-5060-494d-a8a4-ed45088c24c2/final_3.wmv "Serving New Content").
+If you still have the Default Web Site on your IIS server, follow these instructions to test Bit Rate Throttling. First, download a sample video file to your server that is at least one minute in length. If you do not have any content readily available, right-click the following link to a sample Windows Media Video file and click **Save As**: Serving New Content with IIS7 (`https://download.microsoft.com/download/3/c/a/3ca6a2de-5060-494d-a8a4-ed45088c24c2/final_3.wmv "Serving New Content"`).
 
 In the **Save As** dialog box:
 
