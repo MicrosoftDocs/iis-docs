@@ -176,7 +176,7 @@ The following list of error conditions is designed to help troubleshoot situatio
 
    **Mutual Authentication failed. The server's password is out of date at the domain controller.**
 
-   This error occurs when the WebDAV client is running into the problems that are described in [KB941298](https://support.microsoft.com/kb/941298).
+   This error occurs when the WebDAV client is running into the problems that are described in KB941298 (`https://support.microsoft.com/kb/941298`).
 8. When attempting to map a drive to a WebDAV site, you receive the following error:
 
    **System error 58 has occurred.**
