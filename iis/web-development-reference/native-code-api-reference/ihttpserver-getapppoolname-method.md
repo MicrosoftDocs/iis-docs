@@ -24,7 +24,7 @@ virtual PCWSTR GetAppPoolName(
 ## Remarks  
  The `GetAppPoolName` method returns the name of the application pool that is processing the current request. For example, requests for the default Web site on a new installation of [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] may return "ASP.NET 2.0 AppPool".  
   
- Depending on how you configure applications on a Web server, the name of an application may be different within a contiguous namespace. For example, if a Web client requests both http://example.com/ and http://example.com/example/, the name of the application pool may be different for the relative example path if a different application pool has been configured for that location.  
+ Depending on how you configure applications on a Web server, the name of an application may be different within a contiguous namespace. For example, if a Web client requests both `http://example.com/` and `http://example.com/example/`, the name of the application pool may be different for the relative example path if a different application pool has been configured for that location.  
   
 ## Example  
  The following code example demonstrates how to use the `GetAppPoolName` method to create an HTTP module that retrieves the name of the application pool that is processing the current request. The module then returns the name to a Web client.  

@@ -121,7 +121,7 @@ Microsoft Internet Explorer complies with the following RFC 2109 recommended min
 - at least 4096 bytes per cookie (as measured by the size of the characters that comprise the cookie non-terminal in the syntax description of the Set-Cookie header)
 - at least 20 cookies per unique host or domain name
 
-Use below article for further reference: [https://support.microsoft.com/kb/306070](https://support.microsoft.com/kb/306070)
+Use below article for further reference: https://support.microsoft.com/kb/306070 (`https://support.microsoft.com/kb/306070`)
 
 The forms authentication cookie can also be lost when the client's cookie limit is exceeded. In Microsoft Internet Explorer, there is a limit of 20 cookies. After the 20th cookie is created on the client, previous cookies are removed from the client's collection. If the .ASPXAUTH cookie is removed, the user will be redirected to the login page when the next request is processed. You can use fiddler to see the http request/ response headers and to see if you are receiving the cookie from the client or not. Download fiddler from below URL:
 
@@ -163,7 +163,7 @@ When you look at the request that reached the server, you want make sure that th
 
 ### Other Resources
 
-- [FIX: Forms authentication cookies compatibility issue between .NET Framework 1.1 and .NET Framework 2.0 SP2 ASP.NET applications after you apply the security update from security bulletin MS10-070](https://support.microsoft.com/kb/2433751)
+- FIX: Forms authentication cookies compatibility issue between .NET Framework 1.1 and .NET Framework 2.0 SP2 ASP.NET applications after you apply the security update from security bulletin MS10-070 (`https://support.microsoft.com/kb/2433751`)
 - [Troubleshoot Forms Authentication](https://support.microsoft.com/kb/910439)
 - [Forms-based Authentication](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/formsauth.aspx)
 - [Internet Explorer increases the per-domain cookie limit from 20 to 50](https://support.microsoft.com/kb/941495)
