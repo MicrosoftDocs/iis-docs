@@ -65,7 +65,7 @@ Your first step is to determine which log files may contain errors. For example,
 - &quot;06&quot; refers to the sixth month (June)
 - &quot;03&quot; is the 3rd day of the month
 
-Note: The above example assumes that IIS logging is configured to rotate log files on a daily basis, which is the default. If you have changed the settings for IIS to rotate log files on a different time interval, such as weekly or hourly, then the log files names would be different. For more information about the syntax for IIS log file names, see the [IIS Log File Naming Syntax](https://support.microsoft.com/kb/242898) article.
+Note: The above example assumes that IIS logging is configured to rotate log files on a daily basis, which is the default. If you have changed the settings for IIS to rotate log files on a different time interval, such as weekly or hourly, then the log files names would be different. For more information about the syntax for IIS log file names, see the IIS Log File Naming Syntax (`https://support.microsoft.com/kb/242898`) article.
 
 > [!NOTE]
 > By default, the date and time in IIS logs are stored using GMT; you will need to take this into account when you are determining which logs contain errors. That being said, you can adjust the dates/times by using LogParser's `TO_LOCALTIME()` function, as illustrated in the following example:
@@ -252,6 +252,6 @@ Here are the links which are referred to in this article, plus a few links with 
 - [Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.microsoft.com/benjaminperkins/2012/07/31/modifying-iis-7-log-data-in-windows-2008/)
 - [Modifying IIS 6 log data in Windows 2003](https://blogs.msdn.microsoft.com/benjaminperkins/2012/05/02/modifying-iis-6-log-data-in-windows-2003/)
 - [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
-- [Charting with LogParser using OWC](https://blogs.msdn.microsoft.com/carloc/2008/08/07/charting-with-logparser/)
-- [Robert McMurray's Blogs on LogParser](https://blogs.msdn.microsoft.com/robert_mcmurray/tag/logparser/)
+- [Charting with LogParser using OWC](https://www.cloudnotes.io/charting-with-logparser/)
+- [Robert McMurray's Blogs on LogParser](https://blogs.iis.net/robert_mcmurray/Tags/LogParser)
 - [Microsoft Log Parser Toolkit: A Complete Toolkit for Microsoft's Undocumented Log Analysis Tool](https://www.amazon.com/Microsoft-Log-Parser-Toolkit-undocumented/dp/1932266526)

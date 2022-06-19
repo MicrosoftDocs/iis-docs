@@ -83,7 +83,7 @@ What # should I set the MaxCMds and MaxMpxCt to? See the following reference.
 
 IIS Content
 
-[2494628 How to configure IIS 7 to limit File Access for Change notifications on UNC Shares](https://vkbexternal.partners.extranet.microsoft.com/VKBWebService/ViewContent.aspx?scid=B;en-US;2494628)
+2494628 How to configure IIS 7 to limit File Access for Change notifications on UNC Shares (`https://vkbexternal.partners.extranet.microsoft.com/VKBWebService/ViewContent.aspx?scid=B;en-US;2494628`)
 
 ASP.NET Content
 
@@ -91,7 +91,7 @@ ASP.NET Content
 
 ### Other Resources
 
-- [Common Internet File System (CIFS) File Access Protocol](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=9492)
+- [Common Internet File System (CIFS) File Access Protocol](/openspecs/windows_protocols/ms-cifs/d416ff7c-c536-406e-a951-4f04b2fd1d2b)
 - [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/library/aa365233(v=VS.85).aspx)
 - [UNC-based Caching Considerations](https://technet.microsoft.com/library/cc778350(WS.10).aspx)
 - [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/library/dd296655(WS.10).aspx)

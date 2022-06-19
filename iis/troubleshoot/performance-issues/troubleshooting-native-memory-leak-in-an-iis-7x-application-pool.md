@@ -89,7 +89,7 @@ Figure 1 - Creating a data collector set.
 
 The easiest way to collect user-mode process dumps when a high memory condition occurs is to use Debug Diagnostics 1.2 (DebugDiag.) You can download DebugDiag from the following URL.
 
-[https://www.microsoft.com/download/en/details.aspx?id=26798](https://www.microsoft.com/download/en/details.aspx?id=26798)
+https://www.microsoft.com/download/en/details.aspx?id=26798 (`https://www.microsoft.com/download/en/details.aspx?id=26798`)
 
 Install DebugDiag 1.2 on your server and run it. (You'll find it on the Start menu after installation.)
 
@@ -186,5 +186,5 @@ By using Perfmon and DebugDiag, you can easily collect data that can be helpful 
 
 ### Other Resources
 
-- [How to use the IIS Debug Diagnostics tool to troubleshoot a memory leak in an IIS process](https://support.microsoft.com/kb/919790/en-us)
-- [Why the low fragmentation heap (LFH) mechanism may be disabled on some computers that are running Windows Server 2003, Windows XP, or Windows 2000](https://support.microsoft.com/kb/929136/en-us)
+- [How to use the IIS Debug Diagnostics tool to troubleshoot a memory leak in an IIS process](https://support.microsoft.com/en-us/topic/how-to-use-the-debug-diagnostics-tool-to-troubleshoot-a-process-that-has-stopped-responding-in-iis-995db9a3-a3be-6d20-cf2f-c48101a64444)
+- Why the low fragmentation heap (LFH) mechanism may be disabled on some computers that are running Windows Server 2003, Windows XP, or Windows 2000 (`https://support.microsoft.com/kb/929136/en-us`)

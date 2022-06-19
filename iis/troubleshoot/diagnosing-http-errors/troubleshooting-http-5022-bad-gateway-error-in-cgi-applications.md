@@ -76,6 +76,6 @@ The request is processed by IIS, we see it is for a CGI, and we pass it along to
 
 ### Other Resources
 
-- [Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 502.2 – Bad Gateway"](https://support.microsoft.com/kb/942057)
+- Error message when you visit a Web site that is hosted on IIS 7.0: "HTTP Error 502.2 – Bad Gateway" (`https://support.microsoft.com/kb/942057`)
 - [You receive a "The specified CGI application misbehaved" error message](https://support.microsoft.com/?id=145661)
 - [Troubleshooting CGI Error](https://support.microsoft.com/?id=150835)
