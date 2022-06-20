@@ -83,7 +83,7 @@ What # should I set the MaxCMds and MaxMpxCt to? See the following reference.
 
 IIS Content
 
-2494628 How to configure IIS 7 to limit File Access for Change notifications on UNC Shares (`https://vkbexternal.partners.extranet.microsoft.com/VKBWebService/ViewContent.aspx?scid=B;en-US;2494628`)
+2494628 How to configure IIS 7 to limit File Access for Change notifications on UNC Shares (`https://vkbexternal.partners.extranet.microsoft.com/VKBWebService/ViewContent.aspx?scid=B;2494628`)
 
 ASP.NET Content
 

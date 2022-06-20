@@ -148,7 +148,7 @@ IIS Modules:
 - [Optional] [Windows Cache Extension 1.1 for PHP](https://www.iis.net/downloads/microsoft/wincache-extension). Highly recommended when running PHP on Windows.
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/) 6.2.3 or higher. Necessary for .NET applications using MySQL databases
 - [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05) in IIS. Necessary for PHP applications using SQL Server
-- [Extensionless URL Hotfix](https://support.microsoft.com/en-us/topic/a-update-is-available-that-enables-certain-iis-7-0-or-iis-7-5-handlers-to-handle-requests-whose-urls-do-not-end-with-a-period-525f06bd-125b-9fb7-0564-327172f1912f). Needed only if you are not using Windows 2008 R2 **SP1**. Required for ASP.NET Web Pages to function correctly. It is discussed further in this blog post.
+- [Extensionless URL Hotfix](https://support.microsoft.com/topic/a-update-is-available-that-enables-certain-iis-7-0-or-iis-7-5-handlers-to-handle-requests-whose-urls-do-not-end-with-a-period-525f06bd-125b-9fb7-0564-327172f1912f). Needed only if you are not using Windows 2008 R2 **SP1**. Required for ASP.NET Web Pages to function correctly. It is discussed further in this blog post.
 
 Database Server Components (see next section):
 
