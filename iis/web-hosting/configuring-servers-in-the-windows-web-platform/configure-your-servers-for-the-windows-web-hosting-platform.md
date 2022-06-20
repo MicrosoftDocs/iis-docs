@@ -81,7 +81,8 @@ This article will walk you through installing the required server components to 
 
 To simplify the installation of the **web server** components, we highly recommend installing Web Platform Installer, also known as WebPI, on both machines. WebPI is a tool that automates the installation of a vast majority of server components and other products for Microsoft's Web Platform.
 
-**Get WebPI 3.0 here**: [https://www.microsoft.com/web/Downloads/platform.aspx](https://www.microsoft.com/web/Downloads/platform.aspx)
+**Get WebPI 3.0 here**: [https://go.microsoft.com/fwlink/?LinkID=194638
+](https://go.microsoft.com/fwlink/?LinkID=194638)
 
 If you prefer to not use WebPI, all of the required components can also be installed by hand or via your own provisioning scripts.
 
