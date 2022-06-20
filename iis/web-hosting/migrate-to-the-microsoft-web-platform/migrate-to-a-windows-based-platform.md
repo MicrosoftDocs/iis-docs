@@ -96,7 +96,7 @@ The following information may help you troubleshoot issues that you may encounte
 - If your PHP applications are running out of memory, check the value of upload\_max\_filessize. Ensure that the value is adequate for your application.
 
 > [!NOTE]
-> This article is based on the whitepaper: "[Apache to IIS 7.0 Migration Guide](https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/Apache%20to%20IIS%207%200%20Migration%20Guide.doc)" published in March, 2009.*
+> This article is based on the whitepaper: Apache to IIS 7.0 Migration Guide (`https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/Apache%20to%20IIS%207%200%20Migration%20Guide.doc`) published in March, 2009.*
 
 ## Links for Further Information
 

@@ -19,9 +19,9 @@ One of the key features of IIS is its extensible modular architecture. That is, 
 
 The following videos provide detailed walkthroughs of how this feature works and how to take advantage of it:
 
-- [IIS Extensibility Part I](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/IIS%20Extensibility%20Part%201%20of%202.wmv "IIS Extensibility Part I")
-- [IIS Extensibility Part II](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/IIS%20Extensibility%20Part%202%20of%202.wmv "IIS Extensibility Part II")
+- IIS Extensibility Part I (`https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/IIS%20Extensibility%20Part%201%20of%202.wmv "IIS Extensibility Part I"`)
+- IIS Extensibility Part II (`https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/IIS%20Extensibility%20Part%202%20of%202.wmv "IIS Extensibility Part II"`)
 
-This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip "download") contains the presentation for these videos.
+This download (`https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip "download"`) contains the presentation for these videos.
 
-[![Screenshot of Extensibility videos providing detailed guides for I I S Extensibility modular architecture.](iis-extensibility/_static/image1.jpg)](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip)
+[![Screenshot of Extensibility videos providing detailed guides for I I S Extensibility modular architecture.](iis-extensibility/_static/image1.jpg)] (`https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6-BF1D-878E233C3F08/IIS7_Extensibility.zip`)
