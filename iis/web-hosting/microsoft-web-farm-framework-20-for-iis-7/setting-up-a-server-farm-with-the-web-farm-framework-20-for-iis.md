@@ -46,7 +46,7 @@ You can install Web Farm Framework 2.0 using Microsoft Web Platform Installer:
 
 [![Screenshot that shows the install button for Microsoft Web Platform Installer.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image3.png)](https://go.microsoft.com/?linkid=9739157)
 
-Alternatively, you can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/?linkid=9739155) or [x64](https://go.microsoft.com/?linkid=9739156)).
+Alternatively, you can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/fwlink/?LinkId=287165) or [x64](https://go.microsoft.com/fwlink/?LinkId=287166)).
 
 > [!IMPORTANT]
 > WFF requires the Web Deploy module. If you install WFF using an .msi installer, you must also install the [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy) module version 1.1 or later on the controller server.

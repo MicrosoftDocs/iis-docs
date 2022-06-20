@@ -88,7 +88,7 @@ For more information about the GC, see "*Chapter 5 - Improving Managed Code Perf
 
 By default, the Server GC is used by the .NET Framework to optimize speed and CPU load. For shared hosting, where memory is more often the constraint for a number of active sites, the Workstation GC should be used. The Workstation GC optimizes for memory.
 
-To learn more about this setting, see the KB article, ["](https://support.microsoft.com/kb/911716)*[You may receive an error message, or the computer stops responding, when you host Web applications that use ASP.NET on a computer that is running Windows Server 2003"](https://support.microsoft.com/kb/911716)*.
+To learn more about this setting, see the KB article, *"You may receive an error message, or the computer stops responding, when you host Web applications that use ASP.NET on a computer that is running Windows Server 2003" (`https://support.microsoft.com/kb/911716`)*.
 
 ### Disabling the Concurrent Garbage Collector
 

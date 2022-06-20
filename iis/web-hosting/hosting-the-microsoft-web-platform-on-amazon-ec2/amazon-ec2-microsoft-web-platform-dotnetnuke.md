@@ -127,7 +127,7 @@ Once connected you will get logged on to the remote machine. Don't get to impati
 
 ## 4. Finalization of the DotNetNuke Installation
 
-When you log into the DotNetNuke EC2 instance a logon script will open the [http://localhost/](http://localhost/) address in Internet Explorer. This is will open the DotNetNuke Installation Wizard which allows you to enter your hopefully secure passwords and other settings.
+When you log into the DotNetNuke EC2 instance a logon script will open the `http://localhost/` address in Internet Explorer. This is will open the DotNetNuke Installation Wizard which allows you to enter your hopefully secure passwords and other settings.
 
 [![Screenshot that shows the Dot Net Nuke Installation Wizard in a browser. Typical is selected.](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image33.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image32.png)
 
