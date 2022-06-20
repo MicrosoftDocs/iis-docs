@@ -277,5 +277,5 @@ For Internet Explorer and for clients that consume IE components, there is a reg
 - [Support for SSL/TLS protocols on Windows](https://blogs.msdn.com/b/kaushal/archive/2011/10/02/support-for-ssl-tls-protocols-on-windows.aspx)
 - [Troubleshooting SSL related issues with IIS](https://blogs.msdn.com/b/saurabh_singh/archive/2007/09/05/troubleshooting-ssl-related-issues-with-iis.aspx)
 - [PRB: Cannot visit SSL sites after you enable FIPS compliant cryptography](https://support.microsoft.com/?id=811834)
-- HTTP 1.1 host headers are not supported when you use SSL (`https://support.microsoft.com/kb/187504/en-us`)
+- HTTP 1.1 host headers are not supported when you use SSL (`https://support.microsoft.com/kb/187504`)
 - [Configuring SSL Host Headers (IIS 6.0)](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/596b9108-b1a7-494d-885d-f8941b07554c.mspx?mfr=true)
