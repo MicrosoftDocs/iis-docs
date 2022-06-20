@@ -28,7 +28,7 @@ The tasks that are illustrated in this article include:
 
 ### Install IIS
 
-You must install IIS 8.5 before you can perform the tasks in this article. Browse to [http://localhost/](http://localhost/) and verify that the Internet Information Services splash screen is displayed. If IIS is not installed, see [Installing IIS 8.5 on Windows Server 2012 R2](../../install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md) for installation instructions. When installing IIS, make sure that you also install the following:
+You must install IIS 8.5 before you can perform the tasks in this article. Browse to `http://localhost/` and verify that the Internet Information Services splash screen is displayed. If IIS is not installed, see [Installing IIS 8.5 on Windows Server 2012 R2](../../install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md) for installation instructions. When installing IIS, make sure that you also install the following:
 
 - ASP.NET 3.5 (under Web Server (IIS)/Web Server/Application Development Features/ASP.NET 3.5)
 - ASP.NET 4.5 (under Web Server (IIS)/Web Server/Application Development Features/ASP.NET 4.5)
@@ -146,12 +146,12 @@ IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroo
 
 ## Test and View the Failure Request Log File
 
-In this task, you will generate a failed request and view the resulting trace log. You already configured IIS to capture trace logs for [http://localhost/\*.asp](http://localhost/*.asp) requests that fail with an HTTP response code of 404.2. Now verify that it works.
+In this task, you will generate a failed request and view the resulting trace log. You already configured IIS to capture trace logs for http://localhost/\*.asp` requests that fail with an HTTP response code of 404.2. Now verify that it works.
 
 ### Step 1: Generate an Error and the Failure Request Log File
 
 1. Open a new Internet Explorer window.
-2. Type in the following address: [http://localhost/test.asp](http://localhost/test.asp).
+2. Type in the following address: `http://localhost/test.asp`.
 3. You should see the following:
 
 [![Screenshot of Internet Explorer window displaying H T T P Error 404 point 2 dash Not Found message page.](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image23.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image22.jpg)

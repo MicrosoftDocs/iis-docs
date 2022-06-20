@@ -97,7 +97,7 @@ The data collector set is not yet running. To start it, right-click on High CPU 
 
 The easiest way to collect user-mode process dumps when a high CPU condition occurs is to use Debug Diagnostics 1.2, or DebugDiag. You can download DebugDiag from the following URL.
 
-[https://www.microsoft.com/download/en/details.aspx?id=26798](https://www.microsoft.com/download/en/details.aspx?id=26798)
+`https://www.microsoft.com/download/en/details.aspx?id=26798`
 
 Install DebugDiag 1.2 on your server and run it. (You'll find it on the Start menu after installation.) When you run DebugDiag, it will display the Select Rule Type dialog. Follow these steps to create a crash rule for your application pool.
 
@@ -202,7 +202,7 @@ The next step is to review the Page\_Load event in the default.aspx page of the 
 
 [!code-html[Main](troubleshooting-high-cpu-in-an-iis-7x-application-pool/samples/sample1.html)]
 
-This kind of code will definitely cause high CPU. See [https://support.microsoft.com/kb/307340](https://support.microsoft.com/kb/307340) in the Microsoft Knowledge Base for more information.
+This kind of code will definitely cause high CPU. See `https://support.microsoft.com/kb/307340` in the Microsoft Knowledge Base for more information.
 
 ## Conclusion
 

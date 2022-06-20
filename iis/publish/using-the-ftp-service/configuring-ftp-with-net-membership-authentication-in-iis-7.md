@@ -274,9 +274,9 @@ To recap the items that you completed in this section, we configured your server
 
 ### Troubleshooting
 
-If you are using Membership Roles, you may need to install the hotfix that is described in the following Microsoft Knowledgebase Article:
+If you are using Membership Roles, you may need to install the hotfix that is described in the following Microsoft Knowledge Base Article:
 
-<https://support.microsoft.com/kb/955136/>
+`https://support.microsoft.com/kb/955136/`
 
 When attempting to log in, you receive the following reply:
 

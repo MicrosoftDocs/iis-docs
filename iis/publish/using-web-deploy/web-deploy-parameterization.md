@@ -220,7 +220,7 @@ Two values need to be modified in order for the feed to work properly. First, in
 
 Change this value to point to wherever your application zip file lives.
 
-Second, the Web Platform Installer uses a hash to verify that the file the application hasn't been tampered with. To generate a hash for your zip package, download a tool called File Checksum Integrity Verifier, which can be found [here](https://download.microsoft.com/download/c/f/4/cf454ae0-a4bb-4123-8333-a1b6737712f7/windows-kb841290-x86-enu.exe).
+Second, the Web Platform Installer uses a hash to verify that the file the application hasn't been tampered with. To generate a hash for your zip package, download a tool called File Checksum Integrity Verifier, which can be found here (`https://download.microsoft.com/download/c/f/4/cf454ae0-a4bb-4123-8333-a1b6737712f7/windows-kb841290-x86-enu.exe`).
 
 After unpacking the application, run this command from the command line to generate a hash for your application package:
 

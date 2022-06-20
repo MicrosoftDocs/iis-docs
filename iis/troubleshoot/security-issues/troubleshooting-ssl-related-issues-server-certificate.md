@@ -32,11 +32,11 @@ I am under the assumption the reader is well-versed in SSL Handshake and the Ser
 
 Description of the Secure Sockets Layer (SSL) Handshake:
 
-<https://support.microsoft.com/kb/257591>
+<`https://support.microsoft.com/kb/257591`>
 
 Description of the Server Authentication Process during the SSL Handshake:
 
-<https://support.microsoft.com/kb/257587>
+<`https://support.microsoft.com/kb/257587`>
 
 ## Scenarios
 
@@ -78,9 +78,9 @@ The SSLDiag tool comes in handy here.
 
 Windows Server 2003:
 
-[Download X64](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=5329)
+Download X64 (`https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=5329`)
 
-[Download X86](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=674)
+Download X86 (`https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=674`)
 
 For IIS 7 and IIS 7.5, use vijaysk's SSL Diagnostics tool. Below is the link:
 
@@ -155,7 +155,7 @@ By now we are sure that we have a proper working certificate installed on the we
     [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample3.cmd)]
 
     > [!NOTE]
-    > httpcfg is part of Windows Support tools and is present on the installation disk. You could download it from here as well: [https://www.microsoft.com/download/en/details.aspx?id=7911](https://www.microsoft.com/download/en/details.aspx?id=7911)
+    > httpcfg is part of Windows Support tools and is present on the installation disk. You could download it from here as well: `https://www.microsoft.com/download/en/details.aspx?id=7911`
 
     Below is a sample of a working and non-working scenario:
 
@@ -269,13 +269,13 @@ For Internet Explorer and for clients that consume IE components, there is a reg
 
 ### Other Resources
 
-- [Description of the Secure Sockets Layer (SSL) Handshake](https://support.microsoft.com/kb/257591)
-- [Description of the Server Authentication Process During the SSL Handshake](https://support.microsoft.com/kb/257587)
+- Description of the Secure Sockets Layer (SSL) Handshake (`https://support.microsoft.com/kb/257591`)
+- Description of the Server Authentication Process During the SSL Handshake (`https://support.microsoft.com/kb/257587`)
 - [Fixing the Beast](https://blogs.msdn.com/b/kaushal/archive/2012/01/21/fixing-the-beast.aspx?wa=wsignin1.0&amp;CommentPosted=true#commentmessage)
 - [Taming the Beast (Browser Exploit Against SSL/TLS)](https://blogs.msdn.com/b/kaushal/archive/2011/10/03/taming-the-beast-browser-exploit-against-ssl-tls.aspx)
 - [SSL CERTIFICATE FILE EXTENSIONS](https://blogs.msdn.com/b/kaushal/archive/2010/11/05/ssl-certificates.aspx)
 - [Support for SSL/TLS protocols on Windows](https://blogs.msdn.com/b/kaushal/archive/2011/10/02/support-for-ssl-tls-protocols-on-windows.aspx)
 - [Troubleshooting SSL related issues with IIS](https://blogs.msdn.com/b/saurabh_singh/archive/2007/09/05/troubleshooting-ssl-related-issues-with-iis.aspx)
 - [PRB: Cannot visit SSL sites after you enable FIPS compliant cryptography](https://support.microsoft.com/?id=811834)
-- [HTTP 1.1 host headers are not supported when you use SSL](https://support.microsoft.com/kb/187504/en-us)
+- HTTP 1.1 host headers are not supported when you use SSL (`https://support.microsoft.com/kb/187504`)
 - [Configuring SSL Host Headers (IIS 6.0)](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/596b9108-b1a7-494d-885d-f8941b07554c.mspx?mfr=true)
