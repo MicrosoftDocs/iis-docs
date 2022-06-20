@@ -118,7 +118,7 @@ Here is the full list of which components are installed by those links, so you c
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/ "MySQL Connector/NET") 6.2.3 or higher
 
     - Necessary for .NET applications using MySQL databases
-- [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05 "Microsoft Drivers for PHP for SQL") 2.0 in IIS
+- [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05 "Microsoft Drivers for PHP for SQL") 2.0 in IIS
 
     - Necessary for PHP applications using SQL Server
 
