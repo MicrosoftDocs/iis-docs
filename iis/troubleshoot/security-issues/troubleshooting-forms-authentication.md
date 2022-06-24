@@ -121,7 +121,7 @@ Microsoft Internet Explorer complies with the following RFC 2109 recommended min
 - at least 4096 bytes per cookie (as measured by the size of the characters that comprise the cookie non-terminal in the syntax description of the Set-Cookie header)
 - at least 20 cookies per unique host or domain name
 
-Use below article for further reference: https://support.microsoft.com/kb/306070 (`https://support.microsoft.com/kb/306070`)
+Use below article for further reference: `https://support.microsoft.com/kb/306070`
 
 The forms authentication cookie can also be lost when the client's cookie limit is exceeded. In Microsoft Internet Explorer, there is a limit of 20 cookies. After the 20th cookie is created on the client, previous cookies are removed from the client's collection. If the .ASPXAUTH cookie is removed, the user will be redirected to the login page when the next request is processed. You can use fiddler to see the http request/ response headers and to see if you are receiving the cookie from the client or not. Download fiddler from below URL:
 
