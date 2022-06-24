@@ -118,7 +118,7 @@ Here is how to make the example work:
 1. Add the entry above to your httpErrors configuration section.
 2. Create a file named 404\_3.htm in your `c:\inetpub\custerr\en-us` directory.
 3. Create a file named test.yyy in you `c:\inetpub\wwwroot` directory.
-4. Now request http://localhost/test.yyy (`http://localhost/test.yyy`).
+4. Now request `http://localhost/test.yyy`.
 
 The file extension .yyy is not part of the IIS MimeMap and the static file handler will not serve it.
 
