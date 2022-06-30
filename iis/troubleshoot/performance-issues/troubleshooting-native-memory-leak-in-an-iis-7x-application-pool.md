@@ -56,7 +56,7 @@ Both of these will need to be collected from the low memory usage such as starti
 
 **Collecting a Performance Monitor Data Collector Set**
 
-Performance Monitor (Perfmon) data can be viewed in real-time or it can be collected in a data collector set that can be reviewed later. For troubleshooting a high memory issue, we need to collect a data collector set. To create a data collector set for troubleshooting high CPU, follow these steps.
+Performance Monitor (Perfmon) data can be viewed in real-time or it can be collected in a data collector set that can be reviewed later. For troubleshooting a high memory issue, we need to collect a data collector set. To create a data collector set for troubleshooting high memory, follow these steps.
 
 1. Open Administrative Tools from the Windows Control Panel.
 2. Double-click on Performance Monitor.
