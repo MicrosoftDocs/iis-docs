@@ -1,5 +1,6 @@
 ---
 title: ForeignKey Constructor  (Microsoft.Web.Management.DatabaseManager)
+description: The ForeignKey constructor creates a new instance of the ForeignKey class.
 TOCTitle: ForeignKey Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ForeignKey.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.foreignkey(v=VS.90)

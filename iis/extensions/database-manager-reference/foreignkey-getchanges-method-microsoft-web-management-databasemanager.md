@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.GetChanges Method  (Microsoft.Web.Management.DatabaseManager)
+description: The ForeignKey.GetChanges method returns a value that indicates whether the foreign key has changes pending.
 TOCTitle: GetChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.ForeignKey.GetChanges(Microsoft.Web.Management.DatabaseManager.ForeignKeyChanges)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.getchanges(v=VS.90)

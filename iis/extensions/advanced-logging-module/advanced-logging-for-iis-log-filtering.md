@@ -133,7 +133,7 @@ To create a complex filter for a log definition that uses multiple conditions as
 5. A sub-node condition is added below the root node condition (**Condition: AND**) in the list. In the **Condition** area of the dialog box, select **OR Condition**, and then click **Add Expression**.  
     ![Screenshot of the Edit Log Definition Filter window. Condition:OR appears in the main pane. Add Expression and OR Condition are highlighted.](advanced-logging-for-iis-log-filtering/_static/image16.jpg)
 6. In the **Expression** area of the dialog box, specify the following values for the expression:  
-    ![Screenshot of the Edit Log Definition Filter window. The example expression is highlighted in the main pane. Options are highlighted in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image17.jpg)
+    ![Screenshot of Edit Log Definition Filter with the example highlighted in the main pane and options in the Expression pane.](advanced-logging-for-iis-log-filtering/_static/image17.jpg)
 
     - **Field**. Select **URI-Stem**.
     - **Operator**. Select **Equals**.

@@ -2,7 +2,6 @@
 title: ColumnDataInfo Class (Microsoft.Web.Management.DatabaseManager)
 description: This article provides code syntax and lists the inheritance hierarchy for the properties of the ColumDataInfo class.
 TOCTitle: ColumnDataInfo Class
-description: "The ColumnDataInfo class represents the information about the data in a column within the database that is being managed."
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo(v=VS.90)
 ms:contentKeyID: 20476418
