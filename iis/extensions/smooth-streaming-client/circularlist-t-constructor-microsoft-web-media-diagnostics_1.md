@@ -1,6 +1,6 @@
 ---
 title: CircularList(T) Constructor  (Microsoft.Web.Media.Diagnostics)
-description: The CircularList<T> Constructor initializes a new instance of the CircularList<T> class. (Deprecated. Do not use)
+description: The CircularList<T> constructor initializes a new instance of the CircularList<T> class. (Deprecated. Do not use)
 TOCTitle: CircularList(T) Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.#ctor(System.Int32)
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728288(v=VS.95)
