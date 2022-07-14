@@ -1,5 +1,6 @@
 ---
 title: ClipPlaybackEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+description: The ClipPlaybackEventArgs class contains event data for a media clip event.
 TOCTitle: ClipPlaybackEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs(v=VS.95)
