@@ -1,5 +1,6 @@
 ---
 title: AdaptiveSourceStatusUpdatedEventArgs.Result Property
+description: Learn about the AdaptiveSourceStatusUpdatedEventArgs.Result property for Windows Store apps.
 TOCTitle: Result Property
 ms:assetid: ec8a65b6-cae4-48c5-8795-bf60752a173e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ822867(v=VS.90)
