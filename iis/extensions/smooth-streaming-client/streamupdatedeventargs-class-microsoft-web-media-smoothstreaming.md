@@ -1,6 +1,6 @@
 ---
 title: StreamUpdatedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
-description: Arguments for the StreamSelected, ChunkAdded and TracksSelected events.
+description: Learn about the StreamUpdatedEventArgs class for Microsoft Smooth Streaming.
 TOCTitle: StreamUpdatedEventArgs Class
 description: "The StreamUpdatedEventArgs class arguments for the StreamSelected, ChunkAdded and TracksSelected events."
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs

@@ -1,5 +1,6 @@
 ---
 title: Tracing.Trace Method (String, String, TraceArea, TraceLevel, String, Object[]) (Microsoft.Web.Media.Diagnostics)
+description: The Trace method (String, String, TraceArea, TraceLevel, String, Object[]) traces a diagnostic message that is specified by the parameters.
 TOCTitle: Trace Method (String, String, TraceArea, TraceLevel, String, Object[])
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Trace(System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String,System.Object[])
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.trace(v=VS.90)
