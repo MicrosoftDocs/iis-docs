@@ -1,5 +1,6 @@
 ---
 title: IPlaylistRequestInfo::GetServerVariable Method
+Description: Learn how the GetServerVariable method returns a single server variable from a collection of server variables associated with the request.
 TOCTitle: IPlaylistRequestInfo::GetServerVariable Method
 ms:assetid: 9e53ad6b-1eae-451a-8ed9-9236a37049f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Dd146282(v=VS.90)
