@@ -10,7 +10,7 @@ Minimize downtime and rapidly diagnose server and application issues with the bu
 
 ## Detailed Errors
 
-![Screenshot of the IIS Server Error in App window showing a HTTP Error 404.0](rich-diagnostic-tools/_static/richdiagnostictools1-small.png)
+![Screenshot of the IIS Server Error in App window showing a HTTP Error 404.](rich-diagnostic-tools/_static/richdiagnostictools1-small.png)
 
 IIS simplifies troubleshooting by providing detailed and actionable error messages to server administrators. The custom errors module in IIS allows detailed error information to be sent back to the browser running on the local host server. Instead of seeing an error code, administrators can now see detailed information about the request, which potential issues may have caused the error, and suggestions about how to fix the error. The custom error information is only displayed to the server administrator; users of the Web site see the standard Web application error pages without the detailed information for server administrators.
 
