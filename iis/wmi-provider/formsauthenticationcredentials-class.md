@@ -1,5 +1,6 @@
 ---
 title: "FormsAuthenticationCredentials Class"
+description: The FormsAuthenticationCredentials class configures user credentials for [!INCLUDEvstecasp] applications that use Forms authentication.
 ms.date: "10/07/2016"
 ms.assetid: da1e5777-c6cf-3de0-12cd-e02e1f24150a
 ---

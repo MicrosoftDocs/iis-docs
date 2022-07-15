@@ -1,5 +1,6 @@
 ---
 title: "IWpfApplicationPreloadUtil Interface"
+description: The IWpfApplicationPreloadUtil interface exposes helper functions that return preload information for an application and report preload failures.
 ms.date: "10/07/2016"
 ms.assetid: 180fa728-36d1-4753-8e6a-23b71ced97c8
 ---

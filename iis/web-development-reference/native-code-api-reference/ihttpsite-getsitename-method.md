@@ -1,5 +1,6 @@
 ---
 title: "IHttpSite::GetSiteName Method"
+description: The IHttpSite::GetSiteName method retrieves the name for the Web site.
 ms.date: "10/07/2016"
 ms.assetid: 0d33c3ee-09a3-2ec5-5f4e-804074f5ed18
 ---

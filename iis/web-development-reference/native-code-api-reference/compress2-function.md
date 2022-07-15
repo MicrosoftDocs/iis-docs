@@ -3,7 +3,7 @@ title: Compress2 Function
 description: Describes the Compress2 function and details its syntax, parameters, return value, remarks, and requirements.
 ms.date: 07/30/2018
 ms.assetid: 9a3c22c0-2e3c-479f-bd4a-457ea4364c67
-ms.author: "soshir"
+ms.author: SourabhShirhatti
 ---
 # Compress2 Function
 Compresses data given the compression context, input buffer, output buffer, compression level, and compression operation.

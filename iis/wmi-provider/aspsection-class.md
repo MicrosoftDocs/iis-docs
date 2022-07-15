@@ -1,5 +1,6 @@
 ---
 title: "AspSection Class1"
+description: The AspSection Class1 exposes Active Server Pages (ASP) configuration settings for ASP applications.
 ms.date: "10/07/2016"
 ms.assetid: ec1156b1-7d9c-443f-2f75-f9a96f33ea5a
 ---

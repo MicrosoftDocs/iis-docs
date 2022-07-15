@@ -1,5 +1,6 @@
 ---
 title: "EventMappingSettings Class"
+description: The EventMappingSettings class contains mappings of friendly event names to related event types.
 ms.date: "10/07/2016"
 ms.assetid: ab1dcd94-ec87-e260-9828-ed4cc6c1221e
 ---

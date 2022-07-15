@@ -1,6 +1,6 @@
 ---
 title: "PFN_WEBHOST_LISTENER_APPLICATION_CREATED Function"
-description: Learn how the PFN_WEBHOST_LISTENER_APPLICATION_CREATED function notifies the listener adapter that an application configured for the listener.
+description: The PFN_WEBHOST_LISTENER_APPLICATION_CREATED function notifies the listener adapter that an application has been created.
 description: Learn how the 
 ms.date: "10/07/2016"
 ms.assetid: feca9299-f97b-e8e8-e296-9a98b2ab6eed
