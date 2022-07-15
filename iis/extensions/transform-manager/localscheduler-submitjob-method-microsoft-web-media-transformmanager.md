@@ -1,6 +1,6 @@
 ---
 title: LocalScheduler.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
-description: Describes the SubmitJob method and provides the method's namespace, assembly, syntax, parameters, and return value.
+description: Learn how the SubmitJob method submits a job manifest to the local scheduler.
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SubmitJob(Microsoft.Web.Media.TransformManager.JobManifest)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.submitjob(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: LogLevelHelper.GetLogLevel Method  (Microsoft.Web.Media.TransformManager)
+Description: Learn how the GetLogLevel method returns the level of detail for a log.
 TOCTitle: GetLogLevel Method
 ms:assetid: Overload:Microsoft.Web.Media.TransformManager.LogLevelHelper.GetLogLevel
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.loglevelhelper.getloglevel(v=VS.90)
