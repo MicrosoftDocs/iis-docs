@@ -1,6 +1,6 @@
 ---
 title: "IHttpRequest::GetHeader Method"
-description: The IHttpRequest::GetHeader Method returns the value of a specified HTTP header.
+description: The IHttpRequest::GetHeader method returns the value of a specified HTTP header.
 ms.date: "10/07/2016"
 ms.assetid: be6a7069-7be4-6bdc-046e-29db7ab27b1b
 ---

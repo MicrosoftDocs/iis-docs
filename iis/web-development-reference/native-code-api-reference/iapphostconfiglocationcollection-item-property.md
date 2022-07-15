@@ -1,6 +1,6 @@
 ---
 title: "IAppHostConfigLocationCollection::Item Property"
-description: The IAppHostConfigLocationCollection::Item property ets a configuration location at the requested index from the current collection.
+description: The IAppHostConfigLocationCollection::Item property gets a configuration location at the requested index from the current collection.
 ms.date: "10/07/2016"
 ms.assetid: 7752989d-a9b4-2c37-c4a3-886923b0e5f8
 ---
