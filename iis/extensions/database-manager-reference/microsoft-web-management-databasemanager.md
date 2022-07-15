@@ -1,5 +1,6 @@
 ---
 title: Microsoft.Web.Management.DatabaseManager
+description: The Microsoft.Web.Management.DatabaseManager allows you to manage your local and remote databases from within IIS Manager. 
 TOCTitle: Microsoft.Web.Management.DatabaseManager
 ms:assetid: c41067b9-9fb9-4cbb-b5cb-db265ec46420
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh995636(v=VS.90)
