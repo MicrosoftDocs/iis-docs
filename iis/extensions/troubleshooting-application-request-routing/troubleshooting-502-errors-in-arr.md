@@ -115,7 +115,7 @@ In this example, ARR started to receive data from the client but something went 
 
 The HTTP 502.4 error with an associated error code of 0x00000000 generally indicates that all the members of the farm are either offline, or otherwise unreachable.
 
-[![A screenshot that shows a message of, no appropriate server could be found to route the request.](troubleshooting-502-errors-in-arr/_static/image8.png)](troubleshooting-502-errors-in-arr/_static/image7.png)
+[![A screenshot that shows a message of no appropriate server could be found to route the request.](troubleshooting-502-errors-in-arr/_static/image8.png)](troubleshooting-502-errors-in-arr/_static/image7.png)
 
 Figure 4 *(Click image to expand)*
 
