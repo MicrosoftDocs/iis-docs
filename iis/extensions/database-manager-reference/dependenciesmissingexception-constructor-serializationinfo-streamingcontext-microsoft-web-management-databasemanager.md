@@ -1,6 +1,6 @@
 ---
 title: DependenciesMissingException Constructor (SerializationInfo, StreamingContext) (Microsoft.Web.Management.DatabaseManager)
-description: This article contains information about syntax and permissions for the DependenciesMissingException constructor.
+description: In this article, you can learn about syntax and permissions for creating a new instance of the DependenciesMissingException constructor.
 TOCTitle: DependenciesMissingException Constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
