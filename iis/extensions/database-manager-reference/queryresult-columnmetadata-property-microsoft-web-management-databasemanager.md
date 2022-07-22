@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.database
 ms:contentKeyID: 20476453
 ms.date: 05/02/2012
 mtps_version: v=VS.90
+ms.author: mairaw
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_ColumnMetadata
