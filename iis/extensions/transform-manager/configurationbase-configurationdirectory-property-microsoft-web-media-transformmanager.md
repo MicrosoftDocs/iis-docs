@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ConfigurationDirectory Property
+# ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 
 Gets or sets the configuration directory path for the IIS Transform Manager configuration.
 
