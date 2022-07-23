@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreami
 ms:contentKeyID: 46307547
 ms.date: 05/31/2012
 mtps_version: v=VS.95
+ms.author: mairaw
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndexProperty
 dev_langs:
