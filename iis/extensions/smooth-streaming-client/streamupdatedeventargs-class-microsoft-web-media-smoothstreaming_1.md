@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedEventArgs Class - Microsoft.Web.Media.SmoothStreaming
 description: Describes the StreamUpdatedEventArgs class and provides the class' inheritance hierarchy, namespace, assembly, syntax, and version information.
 TOCTitle: StreamUpdatedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs
@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreami
 ms:contentKeyID: 46307967
 ms.date: 05/31/2012
 mtps_version: v=VS.95
+ms.author: mairaw
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs
 dev_langs:

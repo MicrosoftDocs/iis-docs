@@ -1,6 +1,5 @@
 ---
 title: IWpfApplicationInfoUtil Interface
-description: IWpfApplicationInfoUtil Interface exposes a method that retrieves the virtual path and site ID for an application.
 description: Describes the IWpfApplicationInfoUtil interface and details its syntax, methods, inheritance hierarchy, and requirements.
 ms.date: 10/07/2016
 ms.assetid: e3f43d1f-cc73-1fa5-ad30-0c01d7ef98e3
