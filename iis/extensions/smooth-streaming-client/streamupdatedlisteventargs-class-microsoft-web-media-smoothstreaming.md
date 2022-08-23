@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreami
 ms:contentKeyID: 31469191
 ms.date: 05/02/2012
 mtps_version: v=VS.90
-ms.author: mairaw
+ms.author: johnhart
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
 dev_langs:

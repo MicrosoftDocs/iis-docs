@@ -6,7 +6,7 @@ ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Na
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideoheightproperty(v=VS.90)
 ms:contentKeyID: 23960945
 ms.date: 05/02/2012
-ms.author: mairaw
+ms.author: johnhart
 mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoHeightProperty

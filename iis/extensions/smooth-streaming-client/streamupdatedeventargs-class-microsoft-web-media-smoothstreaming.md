@@ -6,7 +6,7 @@ ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs(v=VS.90)
 ms:contentKeyID: 31469273
 ms.date: 05/02/2012
-ms.author: mairaw
+ms.author: johnhart
 mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs
