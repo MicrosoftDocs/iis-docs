@@ -8,7 +8,7 @@ msc.type: authoredcontent
 ---
 # IIS 7.5 Express Readme
 
-by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
+by [Vaidy Gopalakrishnan](https://github.com/vaidyg)
 
 <a id="Overview"></a>
 
@@ -86,7 +86,7 @@ Stopping IIS 7.5 Express from WebMatrix or Visual Studio 2010 SP1 Beta won't cle
 On Windows Server 2003, when you launch a page or start IIS Express, IIS Express does not start. For Web pages, an error is displayed that indicates that the application has been started by a non-administrative user.  
   
 **Workaround**: Run IIS 7.5 Express as an administrative user. For more details, see the following KnowledgeBase article:  
-[An application that is started by a non-administrative user cannot listen to the HTTP traffic of the computer on which the application is running in Windows Vista, Windows Server 2003, or Windows XP.](https://support.microsoft.com/kb/939786)
+An application that is started by a non-administrative user cannot listen to the HTTP traffic of the computer on which the application is running in Windows Vista, Windows Server 2003, or Windows XP. (`https://support.microsoft.com/kb/939786`)
 
 ### Issue: When you install IIS 7.5 Express, a registry key may be left in Wow6432Node
 

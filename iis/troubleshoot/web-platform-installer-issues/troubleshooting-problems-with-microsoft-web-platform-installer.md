@@ -116,7 +116,7 @@ The Web Deployment Tool offers a way for Web applications to join the Web PI eco
 Following are some known issues:
 
 **Web PI cannot install additional IIS components if shared configuration is enabled**.   
-If IIS is configured for "Shared Configuration," Web PI cannot install most additional IIS components. For more information, see the support article "[You cannot install or uninstall a component in IIS 7.0](https://support.microsoft.com/kb/954856)."
+If IIS is configured for "Shared Configuration," Web PI cannot install most additional IIS components. For more information, see the support article "You cannot install or uninstall a component in IIS 7.0 (`https://support.microsoft.com/kb/954856`)."
 
 #### Issues during application installation using Web PI:
 

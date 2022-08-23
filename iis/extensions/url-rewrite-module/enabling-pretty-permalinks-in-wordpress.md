@@ -11,14 +11,14 @@ msc.type: authoredcontent
 
 by [Ruslan Yakushev](https://github.com/ruslany)
 
-This walkthrough describes how to enable "[Pretty Permalinks](http://codex.wordpress.org/Using_Permalinks "Pretty Permalinks")" for blog posts in the [WordPress](http://www.wordpress.org/ "WordPress") blog engine that is installed on IIS 7 and above. Typically, without URL rewriting functionality on a Web server, WordPress users must use "Almost Pretty" URLs, for example, **[http://contoso.com/index.php/yyyy/mm/dd/post-name/](http://contoso.com/index.php/yyyy/mm/dd/post-name/)**. By using the URL Rewrite module, you can use "Pretty Permalinks," for example, [`http://example.com/year/month/day/post-name/`](http://example.com/year/month/day/post-name/), for WordPress blogs that are hosted on IIS.
+This walkthrough describes how to enable "[Pretty Permalinks](http://codex.wordpress.org/Using_Permalinks "Pretty Permalinks")" for blog posts in the [WordPress](http://www.wordpress.org/ "WordPress") blog engine that is installed on IIS 7 and above. Typically, without URL rewriting functionality on a Web server, WordPress users must use "Almost Pretty" URLs, for example, `http://contoso.com/index.php/yyyy/mm/dd/post-name/`. By using the URL Rewrite module, you can use "Pretty Permalinks," for example, `http://example.com/year/month/day/post-name/`, for WordPress blogs that are hosted on IIS.
 
 ## Prerequisites
 
 This walkthrough requires the following prerequisites:
 
 1. IIS 7 or above with FastCGI and PHP installed. If you need to install PHP, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md "Install PHP").
-2. WordPress installed. If you need to install WordPress, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md "Install WordPress") or use the instructions from the official [WordPress site](http://codex.wordpress.org/Installing_WordPress "Install WordPress").
+2. WordPress installed. If you need to install WordPress, follow the instructions in [this article](../../application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md "Install WordPress") or use the instructions from the official [WordPress site](https://wordpress.org/support/article/how-to-install-wordpress).
 3. URL Rewrite installed.
 
 Note that for the purposes of this walkthrough it is assumed that WordPress is installed in a Web site root directory. If WordPress is installed in a subdirectory, then the rewrite rules that are used in this walkthrough should be included in the Web.config file that is located within the same subdirectory where the WordPress files are.

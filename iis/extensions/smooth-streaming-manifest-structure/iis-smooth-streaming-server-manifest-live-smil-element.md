@@ -26,7 +26,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |Attribute|Description|
 |--- |--- |
-|**xmlns**|Specifies the value of the XML namespace used by the presentation. The value must be <a href="http://www.w3.org/2001/smil20/language">http://www.w3.org/2001/SMIL20/Language</a>. Instead of the default namespace, a named namespace may be used, in which case all the tags described below must have the namespace prefix that maps to this XML namespace. This attribute is required.|
+|**xmlns**|Specifies the value of the XML namespace used by the presentation. The value must be <a href="https://www.w3.org/2001/SMIL20/Language.html">https://www.w3.org/2001/SMIL20/Language.html</a>. Instead of the default namespace, a named namespace may be used, in which case all the tags described below must have the namespace prefix that maps to this XML namespace. This attribute is required.|
 
 ### Child Elements
 

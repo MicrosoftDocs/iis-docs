@@ -130,7 +130,7 @@ To create a **handler**, we must define a class that implements the [**System.We
 4. Implement the **IsReusable** property first. Since our handler will not store any member state for the request and will be able to support multiple calls to ProcessRequest() with different requests, we will mark it as reusable by returning true.
 
    [!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample3.cs)]
-5. Finally, let's implement the **ProcessRequest**() method to make our handler actually do something useful. To keep things nice and simple, our handler will return the current time on the server, optionally allowing the timezone to be specified in the query string. Our goal is to be able to request a URL, like [http://myserver/time.tm](http://myserver/time.tm), and get the current time on the server. Also, we will be able to the universal coordinated time by requesting [http://myserver/time.tm?utc=true](http://myserver/time.tm?utc=true). Here is our implementation:
+5. Finally, let's implement the **ProcessRequest**() method to make our handler actually do something useful. To keep things nice and simple, our handler will return the current time on the server, optionally allowing the timezone to be specified in the query string. Our goal is to be able to request a URL, like `http://myserver/time.tm`, and get the current time on the server. Also, we will be able to the universal coordinated time by requesting `http://myserver/time.tm?utc=true`. Here is our implementation:
 
    [!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample4.cs)]
 

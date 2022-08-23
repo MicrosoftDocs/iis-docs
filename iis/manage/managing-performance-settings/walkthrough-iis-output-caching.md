@@ -72,7 +72,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 
    [!code-console[Main](walkthrough-iis-output-caching/samples/sample6.cmd)]
 
-8. Browse to the pictures application by typing in the Internet Explorer address bar: [http://localhost/picures](http://localhost/picures). Click the link to your JPG file in the IIS directory listing. You should see the JPG image with the inserted Copyright message.
+8. Browse to the pictures application by typing in the Internet Explorer address bar: `http://localhost/pictures`. Click the link to your JPG file in the IIS directory listing. You should see the JPG image with the inserted Copyright message.
 9. Look at the code. You see that the Copyright Message depends on the "Accept-Language" header that the browser sends. If you have a German version of Microsoft Server 2008 installed, you see the copyright message "IIS 7.0 Team - Alle Rechte vorbehalten"; if you have a Spanish language version, you see "Marca Registrada IIS 7.0 Team". In all other cases the copyright message will be "Copyright © IIS 7.0 Team". A way to test this code is to change the "Accept-Language" header Internet Explorer sends:
 
    - Open "Internet Explorer".

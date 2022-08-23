@@ -33,7 +33,7 @@ The root cause of the error will determine the actions you should take to resolv
 
 The error code in the screenshot above is significant because it contains the return code from WinHTTP, which is what ARR uses to proxy the request and identifies the reason for the failure.
 
-You can decode the error code with a tool like [err.exe](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=985). In this example, the error code maps to ERROR\_WINHTTP\_TIMEOUT. You can also find this information in the IIS logs for the associated website on the ARR controller. The following is an excerpt from the IIS log entry for the 502.3 error, with most of the fields trimmed for readability:
+You can decode the error code with a tool like [err.exe](https://download.microsoft.com/download/4/3/2/432140e8-fb6c-4145-8192-25242838c542/Err_6.4.5/Err_6.4.5.exe). In this example, the error code maps to ERROR\_WINHTTP\_TIMEOUT. You can also find this information in the IIS logs for the associated website on the ARR controller. The following is an excerpt from the IIS log entry for the 502.3 error, with most of the fields trimmed for readability:
 
 | `sc-status` | `sc-substatus` | `sc-win32-status` | `time-taken` |
 | --- | --- | --- | --- |

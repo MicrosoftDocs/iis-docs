@@ -45,14 +45,14 @@ You can also create your own Smooth Streaming content by using Microsoft Express
 
 ### Installing the Sample Content
 
-The following [IIS Smooth Streaming HD Sample Content](https://go.microsoft.com/?linkid=9652408) downloads are encoded with Microsoft Expression Encoder 4 into multiple bitrates that let you experience on-demand Smooth Streaming without encoding your own video:
+The following IIS Smooth Streaming HD Sample Content (`https://go.microsoft.com/?linkid=9652408`) downloads are encoded with Microsoft Expression Encoder 4 into multiple bitrates that let you experience on-demand Smooth Streaming without encoding your own video:
 
 - **Big Buck Bunny H.264 720p.zip**. A sample Smooth Streaming video presentation, in a compressed (zipped) folder, which is encoded with H.264 video and AAC audio codecs in 8 standard bitrates.
 - **Elephants Dream H.264 720p.zip**. A sample Smooth Streaming video presentation, in a zipped folder, which is encoded with H.264 video and AAC audio codecs in 8 standard bitrates. In addition, this presentation includes alternate language and director's commentary audio tracks, and a textstream track that contains caption text in Timed Text Markup Language (TTML) format.
 
 **To install the sample content**
 
-1. On your Smooth Streaming Web server, go to the [IIS Smooth Streaming HD Sample Content page](https://go.microsoft.com/?linkid=9652408) and click the **Download** button for the desired sample video.
+1. On your Smooth Streaming Web server, go to the IIS Smooth Streaming HD Sample Content (`https://go.microsoft.com/?linkid=9652408`) and click the **Download** button for the desired sample video.
 2. To extract the Smooth Streaming presentation folder immediately, click **Open**.  
    -or-  
    To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click **Save**, and then open the zipped folder from the saved location.

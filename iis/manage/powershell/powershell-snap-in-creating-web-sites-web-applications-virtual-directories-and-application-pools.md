@@ -116,7 +116,7 @@ Voila. All that's left is to request the web content.
 
 ### Step 5: Request the Web Content
 
-You can of course open the browser and enter [http://localhost:8080/](http://localhost:8080/) and all the other URLs. But it's a PowerShell walkthrough and we'll use PowerShell to do it by using the .NET WebClient classes:
+You can of course open the browser and enter `http://localhost:8080/` and all the other URLs. But it's a PowerShell walkthrough and we'll use PowerShell to do it by using the .NET WebClient classes:
 
 [!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample15.ps1)]
 

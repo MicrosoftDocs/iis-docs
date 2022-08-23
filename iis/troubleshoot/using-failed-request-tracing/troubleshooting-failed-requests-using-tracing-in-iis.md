@@ -137,7 +137,7 @@ IIS Manager writes the configuration to the `%windir%\system32\inetsrv\config\ap
 
 ## Test and View the Failure Request Log File
 
-In this task, you will generate a failed request and view the resulting trace log. You already configured IIS to capture trace logs for [http://localhost/\*.asp](http://localhost/*.asp) requests that fail with an HTTP response code of 404.2. Now verify that it works.
+In this task, you will generate a failed request and view the resulting trace log. You already configured IIS to capture trace logs for `http://localhost/\*.asp` requests that fail with an HTTP response code of 404.2. Now verify that it works.
 
 ### Step 1 : Generate an Error and the Failure Request Log File
 

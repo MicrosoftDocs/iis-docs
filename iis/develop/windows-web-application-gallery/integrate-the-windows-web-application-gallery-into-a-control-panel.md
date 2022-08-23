@@ -95,7 +95,7 @@ Install and configure the deployment handler.
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample6.xml)]
 8. In the **Administration.config** file, find the element **"&lt;sectionGroup name="management"&gt;"** inside **"&lt;sectionGroup name="system.webServer"&gt;"**, verify that the following element is listed in it: **"&lt;section name="delegation" overrideModeDefault="Deny" allowDefinition="MachineToWebRoot" /&gt;"**. If not, add it.
 9. Restart **WMSVC**.
-10. If you are using a remote Universal Naming Convention (UNC) share for content, follow the permission specified in [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md), with the following exception: for the path \\server\share$ (share), set "Domain Users" to "Full Control" instead of "Change." If you are using shared configuration, apply the [update](https://support.microsoft.com/kb/969912) to ensure that WMSVC allows connections when Shared Configuration is enabled in Windows Server® 2008.
+10. If you are using a remote Universal Naming Convention (UNC) share for content, follow the permission specified in [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md), with the following exception: for the path \\server\share$ (share), set "Domain Users" to "Full Control" instead of "Change." If you are using shared configuration, apply the update (`https://support.microsoft.com/kb/969912`) to ensure that WMSVC allows connections when Shared Configuration is enabled in Windows Server® 2008.
 
 ## Set Up the Sample Application
 

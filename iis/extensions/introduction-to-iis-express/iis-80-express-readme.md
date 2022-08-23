@@ -27,7 +27,7 @@ Internet Information Services (IIS) 8.0 Express is a free, simple and self-conta
 
 You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/download/) by using the following URL:
 
-- **IIS 8.0 Express**: [https://www.microsoft.com/download/details.aspx?id=34679](https://www.microsoft.com/download/details.aspx?id=34679)
+- **IIS 8.0 Express**: `https://www.microsoft.com/download/details.aspx?id=34679`
 
 #### Upgrading from IIS 7.5 Express
 

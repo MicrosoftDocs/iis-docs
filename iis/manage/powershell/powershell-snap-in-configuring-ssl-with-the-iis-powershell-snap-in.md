@@ -67,7 +67,7 @@ The previous command generated the following SSL Binding:
 
 [!code-console[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample8.cmd)]
 
-SSL is ready to go now and you can browse to your site by entering [https://localhost](https://localhost/)
+SSL is ready to go now and you can browse to your site by entering `https://localhost`.
 
 ## Summary
 

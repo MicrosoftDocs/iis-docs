@@ -106,7 +106,7 @@ An error code of 0 indicates success.
 
 You can now perform a quick check to verify that IIS 7.0 is installed:
 
-- Start Internet Explorer web browser and enter the address [http://localhost](http://localhost/).
+- Start Internet Explorer web browser and enter the address `http://localhost`.
 - You should see the default IIS 7.0 "Welcome" page.
 
 ## Summary

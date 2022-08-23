@@ -73,7 +73,7 @@ Fiddler output when compression is not working:
 
     IIS is unable to initialize the compression if the permissions were removed due to unexpected change or security hardens.
 
-    [Using metaacl.vbs to verify and modify IIS 6 metabase ACL.](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=4899)
+    Using metaacl.vbs to verify and modify IIS 6 metabase ACL. (`https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=4899`)
 
     [Default Metabase ACL](https://msdn.microsoft.com/library/ms524775(v=VS.90).aspx)
 

@@ -118,13 +118,13 @@ Here is the full list of which components are installed by those links, so you c
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/ "MySQL Connector/NET") 6.2.3 or higher
 
     - Necessary for .NET applications using MySQL databases
-- [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05 "Microsoft Drivers for PHP for SQL") 2.0 in IIS
+- [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05 "Microsoft Drivers for PHP for SQL") 2.0 in IIS
 
     - Necessary for PHP applications using SQL Server
 
 ### Install Web Server Patches
 
-- [Extensionless URL Hotfix](https://archive.msdn.microsoft.com/KB2522807)
+- [Extensionless URL Hotfix](https://support.microsoft.com/topic/a-update-is-available-that-enables-certain-iis-7-0-or-iis-7-5-handlers-to-handle-requests-whose-urls-do-not-end-with-a-period-525f06bd-125b-9fb7-0564-327172f1912f)
 
     - Required for ASP.NET Web Pages to function correctly. It is discussed further in [this blog post](https://blogs.msdn.com/b/tmarq/archive/2010/04/01/asp-net-4-0-enables-routing-of-extensionless-urls-without-impacting-static-requests.aspx).
 

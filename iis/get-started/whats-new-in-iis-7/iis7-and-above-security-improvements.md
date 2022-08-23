@@ -41,7 +41,7 @@ IIS also provides several new security features which enhance the security capab
 
 In the past, it was very difficult to setup delegation of administrative tasks for non administrative users in IIS.
 
-In IIS 5.0 the administration tool allowed you to specify [Web operators](https://www.microsoft.com/windows2000/en/server/iis/default.asp?url=/windows2000/en/server/iis/htm/core/iiwbsop.htm) and in IIS 6.0 the IIS team introduced modification of [metabase ACL's](https://support.microsoft.com/?id=326902) to address this scenario.
+In IIS 5.0 the administration tool allowed you to specify Web operators (`https://www.microsoft.com/windows2000/en/server/iis/default.asp?url=/windows2000/en/server/iis/htm/core/iiwbsop.htm`) and in IIS 6.0 the IIS team introduced modification of [metabase ACL's](https://support.microsoft.com/?id=326902) to address this scenario.
 
 Each of these solutions had their benefits and drawbacks that the IIS team learned from. Using customer feedback, the team developed the new IIS rich delegation model. With the new architecture, administrators can:
 

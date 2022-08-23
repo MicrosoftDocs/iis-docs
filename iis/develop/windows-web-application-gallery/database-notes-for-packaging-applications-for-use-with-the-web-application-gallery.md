@@ -130,5 +130,5 @@ The create user script we use can be parameterized as well. We do recommend para
 - [MSDeploy SQL Database Provider (dbFullSql)](https://blogs.iis.net/msdeploy/archive/2008/11/10/the-msdeploy-sql-database-provider-dbfullsql.aspx)
 - [MSDeploy MySql Database Provider(dbMySql)](https://blogs.iis.net/msdeploy/archive/2009/03/30/msdeploy-sample-custom-provider-to-sync-mysql-databases-dbfullmysql.aspx)
 - [SQL Azure Limitations](https://msdn.microsoft.com/library/windowsazure/ff394102.aspx)
-- [Migrating to SQL Azure](https://blogs.msdn.com/b/ssdt/archive/2012/04/19/migrating-a-database-to-sql-azure-using-ssdt.aspx)
+- [Migrating to SQL Azure](https://www.linkedin.com/pulse/sql-azure-glance-part-2migrating-database-using-ssdt-amit-kumar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3Be6IQDj9BRri6Ld21rxcG8A%3D%3D)
 - [MySQL documentation](http://dev.mysql.com/doc/refman/5.1/en/stored-programs-defining.html)

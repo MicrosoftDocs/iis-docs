@@ -62,7 +62,7 @@ These substatuses allow Web administrators to analyze their IIS logs and identif
 | IIS 10.0 | The ability to suppress the server header was added in IIS 10.0. |
 | IIS 8.5 | The `<requestFiltering>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<requestFiltering>` element was not modified in IIS 8.0. |
-| IIS 7.5 | In IIS 7.5, request filtering ships with the `unescapeQueryString` attribute and the `alwaysAllowedUrls`, `alwaysAllowedQueryStrings`, `denyQueryStringSequences`, and `filteringRules` elements. These elements were first introduced as an update for IIS 7.0 that is available through [Microsoft Knowledge Base Article 957508](https://support.microsoft.com/kb/957508). |
+| IIS 7.5 | In IIS 7.5, request filtering ships with the `unescapeQueryString` attribute and the `alwaysAllowedUrls`, `alwaysAllowedQueryStrings`, `denyQueryStringSequences`, and `filteringRules` elements. These elements were first introduced as an update for IIS 7.0 that is available through Microsoft Knowledge Base Article 957508 (`https://support.microsoft.com/kb/957508`). |
 | IIS 7.0 | The `<requestFiltering>` element was introduced in IIS 7.0. |
 | IIS 6.0 | The `<requestFiltering>` element replaces the IIS 6.0 UrlScan features. |
 

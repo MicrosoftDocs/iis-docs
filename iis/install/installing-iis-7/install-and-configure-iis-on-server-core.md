@@ -193,6 +193,6 @@ To uninstall the Web Server (IIS) role, use the following command:
 
 - [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-server-core.md).
 - [Setup IIS on Server Core – Windows Server 2008 R2](https://blogs.iis.net/ruslany/archive/2009/02/26/setup-iis-on-server-core-windows-server-2008-r2.aspx).
-- [Server Core Presentation](https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt).
+- Server Core Presentation (`https://download.microsoft.com/download/6/3/5/6350896f-1e08-440b-9f24-d50f5e9b2390/ServerCoredeepdive.ppt`).
 - [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/library/cc753802(WS.10).aspx).
 - [Administering IIS7 on Server Core Installations of Windows Server 2008](https://blogs.iis.net/metegokt/archive/2007/06/26/administering-iis7-on-server-core-installations-of-windows-server-2008.aspx).

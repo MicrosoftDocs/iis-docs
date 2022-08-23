@@ -23,7 +23,7 @@ The second portion of this document shows how to explore classes in a namespace 
 
 ### Install IIS
 
-IIS 7.0 or above must be installed to complete the steps in this document. If you can browse to [http://localhost](http://localhost/) and receive the standard IIS "Under Construction" page, then IIS is installed. If IIS is not installed, please refer to [Installing IIS on Windows Vista](../../install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md) for installation instructions.
+IIS 7.0 or above must be installed to complete the steps in this document. If you can browse to `http://localhost` and receive the standard IIS "Under Construction" page, then IIS is installed. If IIS is not installed, please refer to [Installing IIS on Windows Vista](../../install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md) for installation instructions.
 
 ### Install WMI Provider
 

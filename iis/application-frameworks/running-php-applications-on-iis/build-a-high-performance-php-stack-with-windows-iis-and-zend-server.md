@@ -65,7 +65,7 @@ Enter the requested information and you'll be transferred to the server administ
 
 ## Understanding The Zend Server Administration Panel
 
-Zend Server is fully configurable via its Web-based administration panel, which is typically found at [http://localhost/ZendServer/](http://localhost/ZendServer/) and is broadly divided into four sections:
+Zend Server is fully configurable via its Web-based administration panel, which is typically found at `http://localhost/ZendServer/` and is broadly divided into four sections:
 
 **Monitor**: Think of the Monitor section as a one-stop shop for anything and everything related to the server's current status and health. The aptly-named Dashboard provides a quick overview of recent PHP events, such as errors and warnings, as well as information on the current status of the various Zend add-on components. This section is also the place to go to view phpinfo() output and server error logs. Under Zend Server CE, the event monitoring tools are absent.  
 [![Screenshot of Zend Server administration panel. The Monitor section is shown. Recent Events, System Overview, and Tasks sections are displayed.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image17.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image16.jpg)
@@ -85,7 +85,7 @@ Now that you know your way around Zend Server, let's put together a simple PHP s
 
 [!code-xml[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample1.xml)]
 
-Save this file as whoami.php in the site root folder (typically, `C:\inetpub\wwwroot\`), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  
+Save this file as whoami.php in the site root folder (typically, `C:\inetpub\wwwroot\`), and then browse to `http://localhost/whoami.php`. You should see something like this:  
 [![Screenshot of local host slash who am i dot p h p page. Text on the page says Hello world, this is P H P speaking.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image29.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image28.jpg)
 
 This is a very basic "Hello World" script in PHP: the echo statement simply prints a string to the output device - in this case, the browser.
@@ -105,7 +105,7 @@ Here's what it looks like:
 
 One of the reasons for PHP's popularity as a Web scripting language has been its strong support for a variety of different RDBMSs...and Microsoft SQL Server is no exception! In this section, you'll see just how easy it is to get started building data-driven Web applications with PHP, by connecting to an MS-SQL database, reading records from it and displaying them as an HTML page.
 
-To activate MS-SQL support under Zend Server, there's really only one step: enable PHP's mssql extension, which is included with Zend Server but disabled by default. To do this, log in to the Zend Server administration console at [http://localhost/ZendServer/](http://localhost/ZendServer/), and visit the Server Setup -&gt; Extensions section. Find the entry for mssql and turn it on.  
+To activate MS-SQL support under Zend Server, there's really only one step: enable PHP's mssql extension, which is included with Zend Server but disabled by default. To do this, log in to the Zend Server administration console at `http://localhost/ZendServer/`, and visit the Server Setup -&gt; Extensions section. Find the entry for mssql and turn it on.  
 [![Screenshot of the Zend Server administration console. The Server Setup tab is selected. The Extensions section is selected. The M S S Q L extension is highlighted and a button to Turn on the extension is selected.](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image35.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image34.jpg)
 
 You will be prompted to restart PHP. Do so via the button at the bottom right of the page. PHP will restart, and the extension will now be enabled.  

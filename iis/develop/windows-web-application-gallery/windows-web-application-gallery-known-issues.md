@@ -50,7 +50,7 @@ For other Web Platform Installer issues, for example if Web Platform Installer c
 
 Web Platform Installer prompts for a SQL Server sa password if SQL Server 2008 Express is installed by the Web Platform Installer as part of a web application. The SQL Server password needs to be a strong password and the SQL Server Express 2008 install can fail in certain cases if a weak password is used. Here is an article how to generate a strong password:
 
-[https://support.microsoft.com/kb/965823](https://support.microsoft.com/kb/965823)
+`https://support.microsoft.com/kb/965823`
 
 #### Authentication Mode
 

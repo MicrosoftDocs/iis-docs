@@ -114,7 +114,7 @@ Smooth Streaming Client can be installed on the following operating systems: Win
 The following software must be installed to develop applications using Smooth Streaming Client:
 
 - [Microsoft Visual Studio 2010](https://go.microsoft.com/?linkid=9745654) or [Microsoft Visual Web Developer 2010 Express](https://go.microsoft.com/?linkid=9745655).
-- [Silverlight 5 Tools for Visual Studio 2010](https://www.microsoft.com/download/details.aspx?id=28358) (for application development using Microsoft Smooth Streaming Client 2.0) or [Silverlight 4 Tools for Visual Studio 2010](https://go.microsoft.com/?linkid=9745656) (for application development using IIS Smooth Streaming Client 1.5 or 1.1).
+- Silverlight 5 Tools for Visual Studio 2010 (`https://www.microsoft.com/download/details.aspx?id=28358`) (for application development using Microsoft Smooth Streaming Client 2.0) or [Silverlight 4 Tools for Visual Studio 2010](https://go.microsoft.com/?linkid=9745656) (for application development using IIS Smooth Streaming Client 1.5 or 1.1).
 - For developing Windows Phone applications, install the [Windows Phone Developer Tools](https://go.microsoft.com/?linkid=9745657) and the [Windows Phone Developer Tools January 2011 Update](https://go.microsoft.com/?linkid=9767590). For more information about Windows Phone development, see the [Windows Phone App Hub](https://go.microsoft.com/?linkid=9745653).
 - For testing your applications on client computers, your Macintosh or Windows client computer must be running an Internet browser supported by Silverlight 4, such as Internet Explorer, Safari, or Firefox.
 
@@ -146,7 +146,7 @@ The following software must be installed to develop applications using Smooth St
 
 **IIS Smooth Streaming Client 1.1**
 
-- Markers don't fire in trickplay modes. Use [Microsoft Media Platform: Player Framework (MMPPF)](http://smf.codeplex.com/) markers if markers are required in fast-forward, rewind or slow-motion modes.
+- Markers don't fire in trickplay modes. Use [Microsoft Media Platform: Player Framework (MMPPF)](https://blogs.windows.com/windowsdeveloper/2013/02/20/microsoft-media-platform-player-framework/) markers if markers are required in fast-forward, rewind or slow-motion modes.
 - The Client treats URIs as case-insensitive, which can cause issues on some servers. Use lowercase manifest/stream URIs to avoid any issues.
 - Protected streams aren't supported in composite manifests.
 - Audio, video, and textstream fragments in a live Smooth Stream must have the same duration.

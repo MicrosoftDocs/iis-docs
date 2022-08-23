@@ -254,7 +254,7 @@ See [https://www.microsoft.com/windowsserver2003/technologies/management/powersh
 
 Search [https://docs.microsoft.com/en-us/teamblog/channel9joinedmicrosoftlearn](/teamblog/channel9joinedmicrosoftlearn) for the Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples, which served as the basis for the article.
 
-See [https://blogs.msdn.com/PowerShell/](https://blogs.msdn.com/PowerShell/) to view useful examples created by the Windows PowerShell team.
+See `https://blogs.msdn.com/PowerShell/` to view useful examples created by the Windows PowerShell team.
 
 See [http://www.powergadgets.com](http://www.powergadgets.com/) to learn more about the visualization tools based on Windows PowerShell.
 

@@ -303,7 +303,7 @@ Request Filtering is integrated into IIS. Details and a complete options set for
 Dynamic IP Restrictions for IIS is a module that provides protection against denial-of-service and brute-force attacks on Web servers and Web sites. Such protection is provided by temporarily blocking IP addresses of the HTTP clients that make unusually high number of concurrent requests or that make large number of requests over a short period of time. Detailed instructions on the installation and use of this module can be found [here](../../manage/configuring-security/using-dynamic-ip-restrictions.md).
 
 > [!NOTE]
-> *This article is based on the white paper*[IIS 7.0 for Apache Administrators](https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/IIS_7_for_Apache.doc)*.*
+> *This article is based on the white paper* IIS 7.0 for Apache Administrators (`https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/IIS_7_for_Apache.doc`)*.*
 
 ## Links for Further Information
 
