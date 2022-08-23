@@ -40,7 +40,7 @@ Log on either to the built-in administrator account, or explicitly invoke applic
 
 If you are logged on to an account other than the built-in local administrator account, you may see the following security alert dialog box.
 
-![Security Alert Dialog Box](installing-iis-85-on-windows-server-2012-r2/_static/image1.jpg)
+![A screenshot that shows the Security Alert dialog box.](installing-iis-85-on-windows-server-2012-r2/_static/image1.jpg)
 
 <a id="InstallIIS85onWindowsServer2012R2"></a>
 
@@ -61,7 +61,7 @@ Server Manager provides a single dashboard to install or uninstall server roles,
 
 When you install IIS 8.5 using the Windows Server 2012 R2 Server Manager, the steps you perform are different when you install IIS for the first time, as opposed to when you add roles, services, or features to an existing IIS installation. The two procedures are provided below. Different procedures are also used to add and remove roles, role services, and features. You cannot add and remove from the same UI
 
-For more information on how to run the installation wizards in Server Manager, see [Install or Uninstall Roles, Role Services, or Features](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)).
+For more information on how to run the installation wizards in Server Manager, see [Install or Uninstall Roles, Role Services, or Features](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)).
 
 <a id="InstallIIS85forthefirsttimeintheServerManager"></a>
 
@@ -78,7 +78,7 @@ When the Web Server (UI) role is chosen for the first time in the **Add Roles an
 3. On the **Before You Begin** page, click **Next**.
 4. On the **Installation Type** page, select **Role-based or feature-based installation** to configure a single server. Click **Next**.
 
-    ![Installation Type page](installing-iis-85-on-windows-server-2012-r2/_static/image2.jpg)
+    ![A screenshot that shows the Installation Type page on Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image2.jpg)
 5. On the **Server Selection** page, select **Select a server from the server pool**, and then select a server; or select **Select a virtual hard disk server**, select a server to mount the VHD on, and then select a VHD file. Click **Next**.
 
     > [!NOTE]
@@ -87,13 +87,13 @@ When the Web Server (UI) role is chosen for the first time in the **Add Roles an
     > [!NOTE]
     > Servers in a server pool will be available only if they have been added by the Add other servers to manage command in Server Manager.
 
-    ![Server Select page](installing-iis-85-on-windows-server-2012-r2/_static/image3.jpg)
+    ![A screenshot that shows the Server select page.](installing-iis-85-on-windows-server-2012-r2/_static/image3.jpg)
 6. On the **Server Roles** page, select **Web Server (IIS)**.
 
-    ![Server Roles page](installing-iis-85-on-windows-server-2012-r2/_static/image4.jpg)
+    ![A screenshot that shows the Server Roles page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image4.jpg)
 7. In the **Add Roles and Features** wizard, click **Add Features** if you want to install the IIS Management Console. If you do not want to install the Management Console, uncheck **Include management tools (if applicable)**, and then click **Continue**.
 
-    ![Add Features page](installing-iis-85-on-windows-server-2012-r2/_static/image5.jpg)
+    ![A screenshot that shows the Add Features page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image5.jpg)
 8. On the **Server Roles** page, click **Next**.
 
     > [!NOTE]
@@ -101,7 +101,7 @@ When the Web Server (UI) role is chosen for the first time in the **Add Roles an
 
 9. On the **Features** page, select any features that you would like to install, and then click **Next**. Note that you do not need to select any features on this page to install IIS. IIS setup will select the features that are required.
 
-    ![Features page](installing-iis-85-on-windows-server-2012-r2/_static/image6.jpg)
+    ![A screenshot that shows the Features page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image6.jpg)
 10. On the **Web Server Role (IIS)** page, click **Next**.
 11. On the **Role Services** page, select any additional role services that you want to install.
 
@@ -111,23 +111,23 @@ When the Web Server (UI) role is chosen for the first time in the **Add Roles an
     > [!NOTE]
     > You can also deselect role services that were selected by default when you selected **Web Server**. However, at least one role service must be selected for Web Server to be selected and installed.
 
-    ![Role Services page](installing-iis-85-on-windows-server-2012-r2/_static/image7.jpg)
+    ![A screenshot that shows the Role services page.](installing-iis-85-on-windows-server-2012-r2/_static/image7.jpg)
 12. If you selected a role service that requires other role services or features to be installed, a page will be opened indicating the role services or features to be installed. Leave **Include management tools (if applicable)** selected to select the install management tools associated with the server role. You may not need the management tools on the destination server if you plan to manage the role remotely. Click **Add Features** to add the required role services or features.
 13. After you have added the role services that you need on the **Role Services** page, click **Next**.
 14. On the **Confirmation** page, verify the role services and features that are selected. Select **Restart the destination server automatically if required** to restart the destination server if the settings need to take immediate effect. To save the configuration information to an XML-based file that you can use for unattended installations with Windows PowerShell, select **Export configuration settings**, move to the appropriate path in the **Save As** dialog box, enter a file name, and then click **Save**.
 
     When you are ready to start the installation process on the **Confirmation** page, click **Install**.
 
-    ![Confirmation page](installing-iis-85-on-windows-server-2012-r2/_static/image8.jpg)
+    ![A screenshot that shows the Confirmation page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image8.jpg)
 15. The **Installation Progress** page is displayed. You can close the wizard without interrupting running tasks. You can view task progress or open the page again by clicking **Notifications** in the notification area, and then clicking **Task Details**.
 
-    ![Progress page](installing-iis-85-on-windows-server-2012-r2/_static/image9.jpg)
+    ![A screenshot that shows the Progress page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image9.jpg)
 16. On the **Results** page, verify that the installation succeeds, and then click **Close**.
 
-    ![Results page](installing-iis-85-on-windows-server-2012-r2/_static/image10.jpg)
+    ![A screenshot that shows the Results page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image10.jpg)
 17. Confirm that the Web server works by opening a Web browser, and verifying that the following default Web page is displayed when you use the `http://localhost`  address.
 
-    ![Default Web page](installing-iis-85-on-windows-server-2012-r2/_static/image1.png)
+    ![A screenshot that shows the default web page in Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image1.png)
 
 #### Install additional IIS 8.5 role services in the Server Manager
 
@@ -142,7 +142,7 @@ After you have installed the Web Server role on a running physical server for th
 3. On the **Before You Begin** page, click **Next**.
 4. On the **Installation Type** page, select **Role-based or feature-based installation** to configure a single server. Click **Next**.
 
-    ![Installation Type page](installing-iis-85-on-windows-server-2012-r2/_static/image11.jpg)
+    ![A screenshot that shows the Installation type page.](installing-iis-85-on-windows-server-2012-r2/_static/image11.jpg)
 5. On the **Server Selection** page, select **Select a server from the server pool**, and then select a server; or select **Select a virtual hard disk server**, select the server to mount the VHD on, and then select the VHD file. Click **Next**.
 
     > [!NOTE]
@@ -154,7 +154,7 @@ After you have installed the Web Server role on a running physical server for th
     > [!NOTE]
     > On the **Server Roles** page, **Web Server (IIS)** will be selected when IIS 8.0 has already been installed. If **Web server (IIS)** is not selected, perform the procedure in [**Install IIS 8.5 for the first time in the Server Manager**](#InstallIIS85forthefirsttimeintheServerManager).
 
-    ![Server Selection page](installing-iis-85-on-windows-server-2012-r2/_static/image12.jpg)
+    ![A screenshot that shows the Server selection page on Windows server 2012.](installing-iis-85-on-windows-server-2012-r2/_static/image12.jpg)
 6. On the **Server Roles** page, open the **Web Server (IIS)** tree until you see a role service that you want to install. Select the role service.
 
     > [!NOTE]
@@ -163,10 +163,10 @@ After you have installed the Web Server role on a running physical server for th
     > [!NOTE]
     > For a list of the server roles that are available, and which roles are installed by default, see [**Modules in IIS 8.5**](#ModulesinIIS85) below.
 
-    ![Server Roles page](installing-iis-85-on-windows-server-2012-r2/_static/image13.jpg)
+    ![A screenshot that shows the Server roles page.](installing-iis-85-on-windows-server-2012-r2/_static/image13.jpg)
 7. If the role service that you selected requires other role services or features to be installed, an **Add Features** page will be opened listing those required role services or features. Leave **Include management tools (if applicable)** selected to select the install management tools associated with the server role. You may not need the management tools on the destination server if you plan to manage the role remotely. Click **Add Features** to add the required role services or features to the installation.
 
-    ![Add Features page](installing-iis-85-on-windows-server-2012-r2/_static/image14.jpg)
+    ![A screenshot that shows the Add Features page.](installing-iis-85-on-windows-server-2012-r2/_static/image14.jpg)
 8. If you need any additional role services, repeat steps 6 and 7.
 
     > [!NOTE]
@@ -175,21 +175,21 @@ After you have installed the Web Server role on a running physical server for th
     When you have selected all required role services, and their dependencies, on the **Server Roles** page, click **Next**.
 9. On the **Features** page, select any features that you need to be installed. Any features required to be installed for role services that you selected in step 6 will already be selected. Click **Next**.
 
-    ![Features page](installing-iis-85-on-windows-server-2012-r2/_static/image15.jpg)
+    ![A screenshot that shows the Features page.](installing-iis-85-on-windows-server-2012-r2/_static/image15.jpg)
 10. On the **Confirmation** page, verify the role services and features that are selected. Select **Restart the destination server automatically if required** to restart the destination server if the settings need to take immediate effect. To save the configuration information to an XML-based file that you can use for unattended installations with Windows PowerShell, select **Export configuration settings**, move to the appropriate path in the **Save As** dialog box, enter a file name, and then click **Save**.
 
     When you are ready to start the installation process on the **Confirmation** page, click **Install**.
 
-    ![Confirmation page](installing-iis-85-on-windows-server-2012-r2/_static/image16.jpg)
+    ![A screenshot that shows the Confirmation page.](installing-iis-85-on-windows-server-2012-r2/_static/image16.jpg)
 11. The **Installation Progress** page is displayed. You can close the wizard without interrupting running tasks. You can view task progress or open the page again by clicking **Notifications** in the notification area, and then clicking **Task Details**.
 
-    ![Progress page](installing-iis-85-on-windows-server-2012-r2/_static/image17.jpg)
+    ![A screenshot that shows the Progress page.](installing-iis-85-on-windows-server-2012-r2/_static/image17.jpg)
 12. On the **Results** page, verify that the installation succeeds, and then click **Close**.
 
-    ![Results page](installing-iis-85-on-windows-server-2012-r2/_static/image18.jpg)
+    ![A screenshot that shows the Results page.](installing-iis-85-on-windows-server-2012-r2/_static/image18.jpg)
 13. Confirm that the Web server works by opening a Web browser, and verifying that the following default Web page when you use the `http://localhost` address.
 
-    ![Default Web page](installing-iis-85-on-windows-server-2012-r2/_static/image2.png)
+    ![A screenshot that shows the default web page.](installing-iis-85-on-windows-server-2012-r2/_static/image2.png)
 
 <a id="UninstallIIS85UsingtheServerManager"></a>
 
@@ -200,33 +200,33 @@ In the Add Roles and Features wizard of Server Manager, you cannot delete existi
 1. Open Server Manager by clicking the **Server Manager** icon on the desktop.
 2. Click **Manage** at the top of the Server Manager, and then click **Remove Roles and Features**.
 
-    ![Remove Roles and Features command](installing-iis-85-on-windows-server-2012-r2/_static/image19.jpg)
+    ![A screenshot that shows the Remove roles and features command.](installing-iis-85-on-windows-server-2012-r2/_static/image19.jpg)
 3. On the **Before you begin** page, click **Next**.
 4. On the **Server Selection** page, select the server from the server pool, and then click **Next**.
 
-    ![Server Selection page](installing-iis-85-on-windows-server-2012-r2/_static/image20.jpg)
+    ![A screenshot that shows the Server selection page.](installing-iis-85-on-windows-server-2012-r2/_static/image20.jpg)
 5. On the **Remove Server Roles** page, clear the check box of any server role or role service that you would like to remove.
 
-    ![Remove Server Roles page](installing-iis-85-on-windows-server-2012-r2/_static/image21.jpg)
+    ![A screenshot that shows the Remove server roles page.](installing-iis-85-on-windows-server-2012-r2/_static/image21.jpg)
 6. If you uncheck a role service that has feature dependencies, the **Remove Features** dialog box will be displayed showing the dependencies. Click **Remove Features** to remove them. You can remove all of IIS by unchecking **Web Server (IIS)**.
 
-    ![Remove Features page](installing-iis-85-on-windows-server-2012-r2/_static/image22.jpg)
+    ![A screenshot that shows the iis 85 Remove features page.](installing-iis-85-on-windows-server-2012-r2/_static/image22.jpg)
 7. On the **Remove Server Roles** page, select any other role or role service that you want to remove, and then click **Next**.
 8. On the **Features** page, uncheck any feature that you would like to remove. If you uncheck a feature that has feature dependencies, a dialog box will be displayed showing the dependencies. Click **Remove Features** to remove them. On the **Features** page, click **Next**.
 
-    ![Remove Features page](installing-iis-85-on-windows-server-2012-r2/_static/image23.jpg)
+    ![A screenshot that shows the Remove features page.](installing-iis-85-on-windows-server-2012-r2/_static/image23.jpg)
 9. On the **Confirmation** page, verify that the roles, role services, and features to be removed are correct, and then click **Remove**.
 
     > [!NOTE]
     > It is recommended that you do a restart if you are prompted to do so, unless you have other activities that you want to do before the restart takes place. A restart is especially important when you remove roles, role services, or features.
 
-    ![Removal Confirmation Page](installing-iis-85-on-windows-server-2012-r2/_static/image24.jpg)
+    ![A screenshot that shows the Removal confirmation Page.](installing-iis-85-on-windows-server-2012-r2/_static/image24.jpg)
 10. The **Removal Progress** page is displayed. You can close the wizard without interrupting running tasks. You can view task progress or open the page again by clicking **Notifications** in the notification area, and then clicking **Task Details**.
 
-    ![Removal Progress page](installing-iis-85-on-windows-server-2012-r2/_static/image25.jpg)
+    ![A screenshot that shows the Removal progress page.](installing-iis-85-on-windows-server-2012-r2/_static/image25.jpg)
 11. On the **Results** page, click **Close**.
 
-    ![Removal Results page](installing-iis-85-on-windows-server-2012-r2/_static/image26.jpg)
+    ![A screenshot that shows the Removal results page.](installing-iis-85-on-windows-server-2012-r2/_static/image26.jpg)
 12. Restart the destination server to finish removing features.
 
 ### Install IIS 8.5 from the Command Line
@@ -238,7 +238,7 @@ You can install IIS 8.5 from the command line using DISM or PowerShell. Note tha
 
 #### Install IIS 8.5 using DISM
 
-Automating the installation of IIS by using unattended scripts is very useful if you need to deploy multiple Web servers and want to ensure that each of the Web servers is set up with identical components and services. In Windows Server 2012 R2, DISM is used for unattended scripts, letting you install or uninstall optional features from a command prompt or scripts. To use DISM, you must make sure you have administrative user rights on the computer. For more information about DISM, see [DISM Overview](https://docs.microsoft.com/windows-hardware/manufacture/desktop/what-is-dism)
+Automating the installation of IIS by using unattended scripts is very useful if you need to deploy multiple Web servers and want to ensure that each of the Web servers is set up with identical components and services. In Windows Server 2012 R2, DISM is used for unattended scripts, letting you install or uninstall optional features from a command prompt or scripts. To use DISM, you must make sure you have administrative user rights on the computer. For more information about DISM, see [DISM Overview](/windows-hardware/manufacture/desktop/what-is-dism)
 
 If you do not explicitly include in the DISM code a feature that the IIS installation has a dependency on, the installation will fail, and will not generate an error message. For a list of dependencies required, see [**Feature Dependencies**](#FeatureDependencies).
 
