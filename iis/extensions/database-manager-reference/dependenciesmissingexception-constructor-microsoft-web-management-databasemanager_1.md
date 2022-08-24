@@ -1,11 +1,12 @@
 ---
-title: DependenciesMissingException Constructor  (Microsoft.Web.Management.DatabaseManager)
-description: This article contains information about the syntax of the DependenciesMissingException constructor.
+title: DependenciesMissingException Constructor - Microsoft.Web.Management.DatabaseManager
+description: This article contains information about syntax and permissions for the DependenciesMissingException constructor. 
 TOCTitle: DependenciesMissingException Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception.dependenciesmissingexception(v=VS.90)
 ms:contentKeyID: 22049477
 ms.date: 05/02/2012
+ms.author: johnhart
 mtps_version: v=VS.90
 dev_langs:
 - vb
@@ -23,7 +24,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# DependenciesMissingException Constructor
+# DependenciesMissingException Constructor (Microsoft.Web.Management.DatabaseManager)
 
 Creates a new instance of the [DependenciesMissingException](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md) class.
 
