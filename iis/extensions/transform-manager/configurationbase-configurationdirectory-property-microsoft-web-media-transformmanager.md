@@ -2,7 +2,6 @@
 title: ConfigurationBase.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 description: Learn how the ConfigurationDirectory property gets or sets the configuration directory path for the IIS Transform Manager configuration.
 TOCTitle: ConfigurationDirectory Property
-description: "The ConfigurationBase.ConfigurationDirectory property gets or sets the configuration directory path for the IIS Transform Manager configuration."
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.configurationdirectory(v=VS.90)
 ms:contentKeyID: 35520680
@@ -31,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ConfigurationDirectory Property
+# ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 
 Gets or sets the configuration directory path for the IIS Transform Manager configuration.
 
