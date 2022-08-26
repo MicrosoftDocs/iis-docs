@@ -1,5 +1,5 @@
 ---
-title: "IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method"
+title: IWpfExposeProtocolManagerCustomInterface
 description: The IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface method loads a specified protocol manager and retrieves an interface for that protocol manager.
 TOCTitle: IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 ms:assetid: 2e151498-c316-680f-71cf-84ab02245717
@@ -11,7 +11,7 @@ dev_langs:
 - "cpp"
 ---
 
-# IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
+# LoadProtocolManagerAndGetCustomInterface Method
 
 Loads a specified protocol manager and retrieves an interface for that protocol manager.
 

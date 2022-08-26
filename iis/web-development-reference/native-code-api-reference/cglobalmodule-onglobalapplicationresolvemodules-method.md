@@ -1,7 +1,7 @@
 ---
 title: "CGlobalModule::OnGlobalApplicationResolveModules Method"
 ms.date: "10/07/2016"
-descripton: The CGlobalModule::OnGlobalApplicationResolveModules method manages a GlobalApplicationResolveModules event, which occurs when IIS resolves the registered modules.
+descripton: The CGlobalModule::OnGlobalApplicationResolveModules method manages a GlobalApplicationResolveModules event.
 ms.assetid: d9983f8d-2021-1023-a44b-14239ade72a5
 ---
 # CGlobalModule::OnGlobalApplicationResolveModules Method

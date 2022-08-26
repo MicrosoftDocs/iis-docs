@@ -1,6 +1,5 @@
 ---
 title: IProcessHostFactoryHelper Interface
-description: The IProcessHostFactoryHelper interface provides a method to retrieve an IProcessHost interface.
 description: Describes the IProcessHostFactoryHelper interface and details its syntax, methods, inheritance hierarchy, and requirements.
 ms.date: 10/07/2016
 ms.assetid: dc1cd4f7-dbff-408b-26a5-0c4d6c6897c8
