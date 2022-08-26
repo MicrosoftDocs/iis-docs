@@ -1,8 +1,10 @@
 ---
 title: New Features Introduced  in IIS 10.0, version 1809
-author: shirhatti
+author: John-Hart
+
 description: Describes the new features introduced in IIS 10.0 version 1809 and outlines the new binding flags and new compression API.
-ms.author: soshir
+ms.author: johnhart
+
 ms.date: 10/03/2018
 ms.topic: article
 ms.technology: iis
