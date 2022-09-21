@@ -17,7 +17,7 @@ The Microsoft Drivers for PHP for SQL Server are designed to enable reliable, sc
 
 The drivers' application programming interface (API) includes support for Active Directory authentication, transactions, parameter binding, streaming, metadata access, Unicode data handling, and error handling. The drivers rely on the Microsoft ODBC Driver for SQL Server to communicate with SQL Server. The drivers also support Microsoft SQL Azure Database, enabling developers to build PHP applications with relational capabilities using SQL Azure Database. 
 
-The Microsoft Drivers for PHP for SQL Server download is freely available to all SQL Server users. Releases and source code for the drivers are available from the [Github project page](https://github.com/microsoft/msphpsql). Full documentation for the drivers is available on [Microsoft Docs](/sql/connect/php/microsoft-php-driver-for-sql-server); what follows is a brief overview of installation and configuration on Windows and IIS.
+The Microsoft Drivers for PHP for SQL Server download is freely available to all SQL Server users. Releases and source code for the drivers are available from the [Github project page](https://github.com/microsoft/msphpsql). Full documentation for the drivers is available on [Microsoft Learn](/sql/connect/php/microsoft-php-driver-for-sql-server); what follows is a brief overview of installation and configuration on Windows and IIS.
 
 ## System Requirements
 
