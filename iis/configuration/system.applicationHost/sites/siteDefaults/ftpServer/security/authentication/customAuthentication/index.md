@@ -148,7 +148,6 @@ To support FTP publishing for your Web server, you must install the FTP service.
 7. If desired, you can disable **Basic Authentication** or **Anonymous Authentication** by highlighting either mode and clicking **Disable** in the **Actions** pane.
 
 For additional information about how to configure IIS Manager authentication for FTP, see the [Configure FTP with IIS 7.0 Manager Authentication](/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic on Microsoft's [www.iis.net/learn](https://www.iis.net/learn) Web site.
-
 * * *
 
 ### How to add a managed-code custom authentication provider for an FTP site
