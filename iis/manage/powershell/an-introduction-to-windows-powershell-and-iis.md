@@ -252,7 +252,7 @@ Though this article has just scratched the surface of how Windows PowerShell and
 
 See [https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx](https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) for Windows PowerShell documentation and examples, and to download Windows PowerShell.
 
-See the [Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples](/teamblog/channel9joinedmicrosoftlearn), which served as the basis for the article.
+Search for the [Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples](/teamblog/channel9joinedmicrosoftlearn), which served as the basis for the article.
 
 See `https://blogs.msdn.com/PowerShell/` to view useful examples created by the Windows PowerShell team.
 
