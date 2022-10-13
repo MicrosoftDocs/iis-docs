@@ -23,7 +23,7 @@ This material is provided for informational purposes only. Microsoft makes no wa
 
 When working with IIS Application Request Routing (ARR) deployments, one of the errors that you may see is &quot;HTTP 502 - Bad Gateway&quot;. The 502.3 error means that - while acting as a proxy - ARR was unable to complete the request to the upstream server and send a response back to the client. This can happen for multiple reasons - for example: failure to connect to the server, no response from the server, or the server took too long to respond (time out). If you are able to reproduce the error by browsing the web farm from the controller, and [detailed errors](https://www.iis.net/learn/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis) are enabled on the server, you may see an error similar to the following:
 
-[![Click to Expand](troubleshooting-502-errors-in-arr/_static/image2.png)](troubleshooting-502-errors-in-arr/_static/image1.png)
+[![A screenshot that shows detailed 502 errors that appear when detailed errors is enabled on the server.](troubleshooting-502-errors-in-arr/_static/image2.png)](troubleshooting-502-errors-in-arr/_static/image1.png)
 
 Figure 1 *(Click image to expand)*
 
@@ -93,7 +93,7 @@ Looking at the first two examples, ResolveTimeout and ConnectTimeout, the troubl
 
 502.3 errors are also returned when the connection between ARR and the member server is disconnected mid-stream. To test this type of problem, create a simple .aspx page that calls Response.Close(). In the following example there is a directory called &quot;time&quot; which is configured with a simple aspx page as the default document of that directory. When browsing to the directory, ARR will display this error:
 
-[![Click to Expand](troubleshooting-502-errors-in-arr/_static/image4.png)](troubleshooting-502-errors-in-arr/_static/image3.png)
+[![A screenshot that shows connection termination errors.](troubleshooting-502-errors-in-arr/_static/image4.png)](troubleshooting-502-errors-in-arr/_static/image3.png)
 
 Figure 2 *(Click image to expand)*
 
@@ -105,7 +105,7 @@ The built-in logs on the destination server do not provide any additional inform
 
 The error below is another example of an invalid response from the member server:
 
-[![Click to Expand](troubleshooting-502-errors-in-arr/_static/image6.png)](troubleshooting-502-errors-in-arr/_static/image5.png)
+[![A screenshot that shows an invalid response from the member server.](troubleshooting-502-errors-in-arr/_static/image6.png)](troubleshooting-502-errors-in-arr/_static/image5.png)
 
 Figure 3 *(Click image to expand)*
 
@@ -115,13 +115,13 @@ In this example, ARR started to receive data from the client but something went 
 
 The HTTP 502.4 error with an associated error code of 0x00000000 generally indicates that all the members of the farm are either offline, or otherwise unreachable.
 
-[![Click to Expand](troubleshooting-502-errors-in-arr/_static/image8.png)](troubleshooting-502-errors-in-arr/_static/image7.png)
+[![A screenshot that shows a message of no appropriate server could be found to route the request.](troubleshooting-502-errors-in-arr/_static/image8.png)](troubleshooting-502-errors-in-arr/_static/image7.png)
 
 Figure 4 *(Click image to expand)*
 
 The first step is to verify that the member servers are actually online. To check this, go to the &quot;servers&quot; node under the farm in the IIS Manager.
 
-[![Click to Expand](troubleshooting-502-errors-in-arr/_static/image10.png)](troubleshooting-502-errors-in-arr/_static/image9.png)
+[![A screenshot that shows you how to navigate to the Servers node under the Server farm in IIS Manager.](troubleshooting-502-errors-in-arr/_static/image10.png)](troubleshooting-502-errors-in-arr/_static/image9.png)
 
 Figure 5 *(Click image to expand)*
 
