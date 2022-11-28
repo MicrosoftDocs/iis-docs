@@ -60,7 +60,7 @@ Follow these steps:
 
 ## Run the Installation Script
 
-Inside the root directory, you find a file called install.php. Browse to the install using [http://localhost/eecore/install.php](http://localhost/eecore/install.php). This runs a script which configures your database and sets up the default site. Be sure that you access the file through your webserver and not by loading the file into your web browser locally.
+Inside the root directory, you find a file called install.php. Browse to the install using [http://localhost/eecore/install.php]. This runs a script which configures your database and sets up the default site. Be sure that you access the file through your webserver and not by loading the file into your web browser locally.
 
 1. Click the "Click Here to begin" button to start installation  
     [![Screenshot of local host web page. Click here to begin button is found near the bottom of the web page.](expressionengine-on-iis/_static/image4.jpg)](expressionengine-on-iis/_static/image3.jpg)
