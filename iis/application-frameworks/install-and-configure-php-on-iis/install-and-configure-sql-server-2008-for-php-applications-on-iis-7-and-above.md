@@ -56,7 +56,7 @@ SQL Server 2008 is available in several editions, including two editions that ar
 - **Microsoft® SQL Server® 2008 Express.**  
  This free edition provides an entry-level database (4 GB in size) that is ideal for learning, developing and powering desktop computers, Web and small server applications, and for redistribution by independent software vendors (ISVs). Built on the SQL Server 2008 Database Engine, it supports stored procedures, triggers, functions, and views, and it stores a variety of business data with native support for relational data, XML, FILESTREAM, and spatial data. This edition can address one CPU and has a limit of 1 GB of memory.
 
-For more information on SQL Server 2008 editions, see: [Microsoft SQL Server 2008 Editions](http://player.play.it/player/yahooplayer.html?v=4.7.124&amp;ur=1&amp;us=1&amp;id=9238https://www.microsoft.com/sqlserver/2008/en/us/editions.aspx).
+For more information on SQL Server 2008 editions, see: [Microsoft SQL Server 2008 Editions].
 
 ## Install SQL Server 2008 with Web PI
 
