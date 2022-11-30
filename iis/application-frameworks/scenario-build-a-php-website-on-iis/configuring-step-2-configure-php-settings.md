@@ -63,7 +63,7 @@ The following procedure shows how to download and install a PHP extension. For i
 
 ### To configure a PHP extension
 
-1. Download the PHP extension you want from the [list of Windows extensions for PHP](http://downloads.php.net/pierre/).
+1. Download the PHP extension you want from the list of Windows extensions for PHP.
 2. Extract the extension zip package to the PHP extensions folder (\ext), for example `C:\PHP\ext`.
 3. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 4. In a text editor, open the php.ini file.
