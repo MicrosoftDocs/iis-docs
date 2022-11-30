@@ -58,5 +58,5 @@ All the core features of URLScan into the Request Filtering module, which also i
 
 ## Links for Further Information
 
-- [IIS Security Checklist](http://windows.stanford.edu/docs/IISsecchecklist.htm).
+- [IIS Security Checklist].
 - [Secure Content Publishing](https://www.iis.net/overview/security/securecontentpublishing).
