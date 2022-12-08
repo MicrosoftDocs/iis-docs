@@ -13,7 +13,7 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your PHP website, plan to set up the WinCache PHP extension, determine what configuration settings you require for PHP, and what PHP extensions your application requires.
 
-When you are done with these tasks, record your design decisions before going on to [Step 3: Plan PHP Application Security](planning-step-3-plan-php-application-security.md).
+When you are done with these tasks, record your design decisions before going on to [Step 3: Plan PHP Application Security](planning-step-3-plan-php-application-security.md). 
 
 <a id="21"></a>
 ## 2.1. Plan WinCache Configuration

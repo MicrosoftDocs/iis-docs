@@ -50,7 +50,7 @@ The following procedure explains how to configure PHP settings in the php.ini fi
 
 1. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 2. In a text editor, open the php.ini file.
-3. Search the file for the setting you want to change. 
+3. Search the file for the setting you want to change.
 
     If the setting is commented out (line begins with a semicolon [;]), delete the semicolon and set the value. If you can't find the setting, add the line to the end of the file.
 4. Save and close the php.ini file.
