@@ -67,7 +67,7 @@ To submit your application, you will need to fill out the [submission form](http
     - Framework - Specify one framework from the list of ASP.NET and PHP versions. This should be the version that your application depends on to function.
     - Database - Select all of the databases that your application supports.
     - IIS Components Select each of the IIS and other components that your application depends on to function. An example component is the IIS URL Rewriter.
-- Terms and Conditions - You must agree to the [Terms and Conditions](https://www.microsoft.com/web/insertproperlink) of the Web Application Gallery before you can submit your application.
+- Terms and Conditions - You must agree to the [Terms and Conditions](https://learn.microsoft.com/en-us/windows/web/) of the Web Application Gallery before you can submit your application.
 
 When you have completed the form, submit the form. This data will be used to populate the Application Gallery with metadata for your application. At the application level of the Gallery, this data will be displayed as in the image below:
 

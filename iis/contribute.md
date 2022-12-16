@@ -19,7 +19,7 @@ You'll need a basic understanding of [Git and GitHub.com](https://guides.github.
 * Open an [issue](https://github.com/MicrosoftDocs/iis-docs/issues/new) describing what you want to do, such as change an existing article or create a new one. Wait for approval from the team before you invest much time. 
 * Fork the [iis-docs](https://github.com/MicrosoftDocs/iis-docs/) repo and create a branch for your changes.
 * Submit a pull request (PR) to master with your changes.
-* If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla2.dotnetfoundation.org/)
+* If your PR has the label 'cla-required' assigned, complete the Contribution License Agreement (CLA).
 * Respond to PR feedback.
 
 For an example where this process led to publication of a new article, see [issue 67](https://github.com/dotnet/docs/issues/67) and [pull request 798](https://github.com/dotnet/docs/pull/798) in the .NET repository. The new article is [Documenting your code](/dotnet/csharp/language-reference/xmldoc/recommended-tags).

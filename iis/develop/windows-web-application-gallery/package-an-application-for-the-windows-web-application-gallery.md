@@ -164,7 +164,7 @@ When you have a complete package, you should generate a SHA-1 hash signature of 
 
 ## Test Your Package
 
-You can test your package by using the Web Deployment Tool. You can get the latest release of the Web Deployment Tool using the [Web Platform Installer](https://www.microsoft.com/web/downloads). The Web Deployment Tool runs on Windows® XP and later versions of the Windows operating system. Note that the Web Deployment Tool uses the MySQL Connector for .Net 5.2 to communicate with MySQL. You can download this from the [MySQL Web site](http://dev.mysql.com/downloads/connector/net/5.2.html).
+You can test your package by using the Web Deployment Tool. You can get the latest release of the Web Deployment Tool using the [Web Platform Installer](https://learn.microsoft.com/en-us/windows/web/). The Web Deployment Tool runs on Windows® XP and later versions of the Windows operating system. Note that the Web Deployment Tool uses the MySQL Connector for .Net 5.2 to communicate with MySQL. You can download this from the [MySQL Web site](http://dev.mysql.com/downloads/connector/net/5.2.html).
 
 ### Use Web Platform Installer
 
@@ -253,5 +253,5 @@ For more information, see the [Reference for the Web Application Guide](referenc
 - [Web App Gallery principles](windows-web-application-gallery-principles.md).
 - [Web App Gallery submission form](https://login.iis.net/login/signin.aspx?ReturnUrl=TODO%20-%20get%20the%20URL%20for%20%20%20%20the%20new%20form).
 - [Using the Microsoft Web Platform Installer Badge](using-the-microsoft-web-platform-installer-badge.md).
-- [Web Platform Installer](https://www.microsoft.com/web/downloads/).
+- [Web Platform Installer](https://learn.microsoft.com/en-us/windows/web/).
 - [CodePlex.](http://www.codeplex.com/)
