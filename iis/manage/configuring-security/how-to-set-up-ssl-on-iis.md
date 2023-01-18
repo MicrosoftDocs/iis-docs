@@ -7,7 +7,7 @@ ms.assetid: dbf635a5-921f-4488-99a2-bd1c2d1c0402
 msc.legacyurl: /learn/manage/configuring-security/how-to-set-up-ssl-on-iis
 msc.type: authoredcontent
 ---
-# How to Set Up SSL on IIS 7 and above
+# How to Set Up SSL on IIS 7 or later
 
 by [Saad Ladki](https://twitter.com/saadladki)
 
