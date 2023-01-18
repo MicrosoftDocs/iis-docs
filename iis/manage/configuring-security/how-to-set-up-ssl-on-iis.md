@@ -1,5 +1,5 @@
 ---
-title: "How to Set Up SSL on IIS 7 and above"
+title: "How to Set Up SSL on IIS 7 or later"
 author: rick-anderson
 description: "The steps for configuring Secure Sockets Layer (SSL) for a site are the same in IIS 7 and above and IIS 6.0, and include the following: Get an appropriate ce..."
 ms.date: 11/22/2007
