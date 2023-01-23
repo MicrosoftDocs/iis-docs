@@ -111,9 +111,9 @@ An additional workaround for this security problem is to disable the loadUserPro
 
 IIS and ASP.NET have used various schemes for authorization using URLs. One of these implementations is discontinued and there are important differences between the remaining two implementations.
 
-IIS 6.0 URL authorization was implemented as an ISAPI extension. IIS 7.0 and above does not support this implementation. Read more about [IIS 6.0 URL Authorization](https://go.microsoft.com/fwlink/?LinkId=78512) on the Microsoft TechNet site.
+IIS 6.0 URL authorization was implemented as an ISAPI extension. IIS 7.0 and above does not support this implementation. Read more about [IIS 6.0 URL Authorization](/iis/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above#ssl) on the Microsoft TechNet site.
 
-By default, ASP.NET uses an implementation of URL Authorization that applies only to managed content. By removing the managedHandler precondition from the urlauthorization module, you can make it apply for all content, but there may be a performance penalty. Read more about [ASP.NET URL Authorization](https://go.microsoft.com/fwlink/?LinkId=78512) on the MSDN site.
+By default, ASP.NET uses an implementation of URL Authorization that applies only to managed content. By removing the managedHandler precondition from the urlauthorization module, you can make it apply for all content, but there may be a performance penalty. Read more about [ASP.NET URL Authorization](/previous-versions/aspnet/wce3kxhd(v=vs.100)) on the MSDN site.
 
 By default, IIS 7.0 and above uses an implementation of URL Authorization that applies to all content. This is the recommended URL Authorization implementation in IIS 7.0 and above. Read more about [configuring IIS URL Authorization rules](https://go.microsoft.com/fwlink/?LinkId=78496) on the Microsoft TechNet site.
 
@@ -195,7 +195,7 @@ The SSINC EXEC CMD commands let you run an arbitrary command-line path from a We
 
 ## Passport Network Credentials No Longer Supported
 
-Passport Network credentials is a cookies-based authentication service. Support for Passport Network credentials is no longer built into IIS. For more information, see the Passport Network documentation located at [http://www.passport.com](https://go.microsoft.com/fwlink/?LinkId=78508). To access the documentation, you must register and get Passport Network credentials.
+Passport Network credentials is a cookies-based authentication service. Support for Passport Network credentials is no longer built into IIS. For more information, see the Passport Network documentation located at `http://www.passport.com`. To access the documentation, you must register and get Passport Network credentials.
 
 ## Internet Data Connector (HTTPODBC.DLL) Not Supported
 

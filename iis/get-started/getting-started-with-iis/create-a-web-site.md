@@ -64,9 +64,9 @@ You can configure the following elements:
 
 [!code-xml[Main](create-a-web-site/samples/sample3.xml)]
 
-For more information about configuration, see [IIS 7: IIS Settings Schema](https://go.microsoft.com/fwlink/?LinkId=88551) on Microsoft® Developer Network (MSDN®).
+For more information about configuration, see [IIS 7: IIS Settings Schema](/previous-versions/iis/settings-schema/aa347559(v=vs.90)) on Microsoft® Developer Network (MSDN®).
 
-For more information about WMI and IIS, see [Windows Management Instrumentation (WMI) in IIS 7](https://technet.microsoft.com/library/cc771707(WS.10).aspx). For more information about the classes, methods, or properties associated with this procedure, see the [IIS WMI Provider Reference](https://go.microsoft.com/fwlink/?LinkId=79310) on the MSDN site.
+For more information about WMI and IIS, see [Windows Management Instrumentation (WMI) in IIS 7](https://technet.microsoft.com/library/cc771707(WS.10).aspx). For more information about the classes, methods, or properties associated with this procedure, see the [IIS WMI Provider Reference](/previous-versions/iis/6.0-sdk/ms525265(v=vs.90)) on the MSDN site.
 
 ## Links for Further Information
 
