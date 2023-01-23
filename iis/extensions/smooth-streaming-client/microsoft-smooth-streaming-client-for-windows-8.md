@@ -13,7 +13,7 @@ mtps_version: v=VS.90
 
 The Smooth Streaming Client SDK for Windows 8 enables development of Smooth Streaming Windows Store applications. You can use the Microsoft Media Platform Player Framework and Smooth Streaming Client SDK to build rich media experiences on Windows 8 using the same back-end infrastructure you use for Smooth Streaming applications for the browser, set-top boxes, Windows Phone, and other mobile devices.
 
-In addition to the following content, the tutorial in [How to Build a Smooth Streaming Windows Store Application](https://go.microsoft.com/fwlink/?linkid=271647) provides a detailed example of how to build a client application using the Smooth Streaming Client SDK for Windows 8 APIs.
+In addition to the following content, the tutorial in How to Build a Smooth Streaming Windows Store Application provides a detailed example of how to build a client application using the Smooth Streaming Client SDK for Windows 8 APIs.
 
 ## In This Section
 

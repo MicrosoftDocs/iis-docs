@@ -39,8 +39,8 @@ Microsoft Application Request Routing for IIS includes the following key feature
 
 ## Getting the Module
 
-Download Microsoft Application Request Routing Version 2 for IIS 7 (x86) [here](https://iis.net/downloads/default.aspx?tabid=34&amp;g=6&amp;i=1709).  
-Download Microsoft Application Request Routing Version 2 for IIS 7 (x64) [here](https://iis.net/downloads/default.aspx?tabid=34&amp;g=6&amp;i=1712).
+Download Microsoft Application Request Routing Version 2 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).  
+Download Microsoft Application Request Routing Version 2 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
 
 ## Using the Module
 
