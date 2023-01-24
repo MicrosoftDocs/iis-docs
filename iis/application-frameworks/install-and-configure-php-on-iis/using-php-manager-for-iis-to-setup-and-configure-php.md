@@ -53,7 +53,7 @@ After multiple PHP versions have been registered with IIS, you can use PHP Manag
 
 phpinfo() function in PHP provides very detailed information about all aspects of PHP runtime configuration. To check the phpinfo() output from within PHP Manager use the "**Check phpinfo()**" task.
 
-[http://www.phpmanager.xyz/latest/_images/phpinfo.png](http://www.phpmanager.xyz/latest/_images/phpinfo.png)
+
 
 ### Configuring Error Reporting
 
