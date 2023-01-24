@@ -21,11 +21,11 @@ For those of you who aren't familiar with WebPI, it's a great little tool for de
 
 You can download WebPI v5 RTW (and the included WebPICMD.exe) from the links below:
 
-**By downloading and using the Web Platform Installer (WebPI), you agree to the *[license terms](https://go.microsoft.com/fwlink/?LinkId=251729)* and *[privacy statement](https://go.microsoft.com/fwlink/?LinkId=251732)* for WebPI. This installer will contact Microsoft over the Internet to retrieve product information. Some of the Microsoft software obtained through WebPI may use Microsoft's Customer Experience Improvement Program (CEIP). To view which software uses CEIP, see [*here*](https://go.microsoft.com/fwlink/?LinkId=262873)**
+**By downloading and using the Web Platform Installer (WebPI), you agree to the *[license terms](https://go.microsoft.com/fwlink/?LinkId=251729)* and *[privacy statement](https://go.microsoft.com/fwlink/?LinkId=251732)* for WebPI. This installer will contact Microsoft over the Internet to retrieve product information. Some of the Microsoft software obtained through WebPI may use Microsoft's Customer Experience Improvement Program (CEIP).**
 
-WebPI v5.1 x86: [https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x86_en-US.msi](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x86_en-US.msi)
+WebPI v5.1 [x86](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x86_en-US.msi)
 
-WebPI v5.1 x64: [https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x64_en-US.msi](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x64_en-US.msi)
+WebPI v5.1 [x64](https://download.microsoft.com/download/8/4/9/849DBCF2-DFD9-49F5-9A19-9AEE5B29341A/WebPlatformInstaller_x64_en-US.msi)
 
 ## Setting up WebPICMD.exe
 

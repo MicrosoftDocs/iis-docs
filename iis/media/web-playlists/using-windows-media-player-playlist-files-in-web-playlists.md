@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by Dave Nelson
 
-By default, [Windows Media Player 11](https://www.microsoft.com/windows/products/winfamily/mediaplayer/default.mspx) in [Windows Server 2008](https://www.microsoft.com/windowsserver2008/default.aspx) creates playlists in WPL format (files with .wpl file name extensions). This article describes how to create copies of the playlist files in ASX format (files with .asx file name extensions) so that you can import them into the [Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists) extension for Internet Information Services (IIS). When you import the ASX files in Web Playlists, the equivalent Web playlist files (files with .isx file name extension) are created, which you must then edit to enable them in the Web Playlists feature. This article describes how to edit ISX files in two different ways, depending upon whether you want to serve the media files referenced in the playlist media entries either from the original user folder or from a Web site directory.
+By default, Windows Media Player 11 in [Windows Server 2008](https://www.microsoft.com/windowsserver2008/default.aspx) creates playlists in WPL format (files with .wpl file name extensions). This article describes how to create copies of the playlist files in ASX format (files with .asx file name extensions) so that you can import them into the [Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists) extension for Internet Information Services (IIS). When you import the ASX files in Web Playlists, the equivalent Web playlist files (files with .isx file name extension) are created, which you must then edit to enable them in the Web Playlists feature. This article describes how to edit ISX files in two different ways, depending upon whether you want to serve the media files referenced in the playlist media entries either from the original user folder or from a Web site directory.
 
 This article contains the following sections:
 
@@ -206,4 +206,4 @@ To access this help, press F1 while using the Web Playlists feature in IIS Manag
 ## Related Articles
 
 - [Desktop Experience Overview](https://technet.microsoft.com/library/cc772567.aspx)
-- [Use Windows Media Player to create the perfect playlist for every occasion](https://windowshelp.microsoft.com/Windows/Help/5276da52-d480-4c59-a0a0-08f9c80a30321033.mspx)
+
