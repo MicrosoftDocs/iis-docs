@@ -26,7 +26,7 @@ This guide requires the following prerequisites:
 Note: The second and third pre-requisites will be installed automatically if you install the Web Deployment Tool using the Web Platform Installer
 
 - SQL Server Express or Standard, either local or remote
-- SQL Server 2008 Management Objects (SMO) - [x86](https://go.microsoft.com/fwlink/?LinkId=123708&amp;clcid=0x409) or [x64](https://go.microsoft.com/fwlink/?LinkId=123709&amp;clcid=0x409)
+- SQL Server 2008 Management Objects (SMO) - (x86) or (x64)
 - SQL CLR Types - x86 or x64
 
 Note: If you have not already installed the Web Deployment Tool, see [Installing the Web Deployment Tool](use-the-web-deployment-tool.md "Installing the Web Deploy").
