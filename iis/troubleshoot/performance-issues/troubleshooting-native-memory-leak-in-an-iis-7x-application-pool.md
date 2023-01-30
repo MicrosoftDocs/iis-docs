@@ -87,9 +87,9 @@ Figure 1 - Creating a data collector set.
 
 **Creating a Debug Diagnostics 1.2 Rule**
 
-The easiest way to collect user-mode process dumps when a high memory condition occurs is to use Debug Diagnostics 1.2 (DebugDiag.) You can download DebugDiag from the following URL.
+The easiest way to collect user-mode process dumps when a high memory condition occurs is to use Debug Diagnostics 1.2 (DebugDiag.) You can download DebugDiag from the following URL, [here](https://www.microsoft.com/download/details.aspx?id=58210).
 
-https://www.microsoft.com/download/en/details.aspx?id=26798 (`https://www.microsoft.com/download/en/details.aspx?id=26798`)
+
 
 Install DebugDiag 1.2 on your server and run it. (You'll find it on the Start menu after installation.)
 
@@ -182,9 +182,9 @@ Kind of the above code will definitely cause memory leak because allocated memor
 
 ## Conclusion
 
-By using Perfmon and DebugDiag, you can easily collect data that can be helpful in determining the cause of memory leak in application pools. If you are unable to find the root cause using these techniques, you can open a support ticket with Microsoft via [https://support.microsoft.com/](https://support.microsoft.com/) and we can assist you with determining the cause of your issue. You will collect dumps with enabling stack tracing (gflags -i w3wp.exe +ust) beforehand since the stack tracing is useful information for us to analyze the memory usage in details. By having the Perfmon data and dumps with the stack tracing ready for us when you open a case, you will dramatically reduce the amount of time necessary for us to assist.
+By using Perfmon and DebugDiag, you can easily collect data that can be helpful in determining the cause of memory leak in application pools. If you are unable to find the root cause using these techniques, you can open a support ticket with Microsoft via [support](https://support.microsoft.com/) and we can assist you with determining the cause of your issue. You will collect dumps with enabling stack tracing (gflags -i w3wp.exe +ust) beforehand since the stack tracing is useful information for us to analyze the memory usage in details. By having the Perfmon data and dumps with the stack tracing ready for us when you open a case, you will dramatically reduce the amount of time necessary for us to assist.
 
 ### Other Resources
 
 - [How to use the IIS Debug Diagnostics tool to troubleshoot a memory leak in an IIS process](https://support.microsoft.com/topic/how-to-use-the-debug-diagnostics-tool-to-troubleshoot-a-process-that-has-stopped-responding-in-iis-995db9a3-a3be-6d20-cf2f-c48101a64444)
-- Why the low fragmentation heap (LFH) mechanism may be disabled on some computers that are running Windows Server 2003, Windows XP, or Windows 2000 (`https://support.microsoft.com/kb/929136`)
+- Why the low fragmentation heap (LFH) mechanism may be disabled on some computers that are running Windows Server 2003, Windows XP, or Windows 2000 

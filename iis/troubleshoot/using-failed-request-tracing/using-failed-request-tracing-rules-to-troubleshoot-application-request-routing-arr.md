@@ -25,8 +25,8 @@ This walkthrough requires the following prerequisites:
 
 If Application Request Routing Version 1 has not been installed, it is available for download at:
 
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis.net/downloads/default.aspx?tabid=34&amp;g=6&amp;i=1709).
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis.net/downloads/default.aspx?tabid=34&amp;g=6&amp;i=1712).
+- Download Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
+- Download Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
 
 Follow the steps outlined in [Install Application Request Routing](../../extensions/installing-application-request-routing-arr/install-application-request-routing.md) document to install Application Request Routing.
 
