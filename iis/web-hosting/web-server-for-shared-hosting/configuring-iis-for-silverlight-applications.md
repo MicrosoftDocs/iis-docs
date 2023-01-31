@@ -73,4 +73,4 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
 
      [![Screenshot of the MIME Types dialog box, showing the Extension and M I M E type fields.](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
 
-For detailed information on Silverlight, visit [http://silverlight.net/](http://silverlight.net/).
+For detailed information on Silverlight, visit [here](https://www.microsoft.com/silverlight/).

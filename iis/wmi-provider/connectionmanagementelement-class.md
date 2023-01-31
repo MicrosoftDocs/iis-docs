@@ -46,5 +46,5 @@ class ConnectionManagementElement : CollectionElement
   
 ## See Also  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [\<connectionManagement> Element (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70910)   
- [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/?LinkId=70911)
+ [\<connectionManagement> Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/connectionmanagement-element-network-settings)   
+ [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions)

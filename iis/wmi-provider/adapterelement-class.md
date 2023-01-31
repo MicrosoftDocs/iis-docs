@@ -45,7 +45,7 @@ class AdapterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ASP.NET Mobile Web Applications Adapter Mappings](https://go.microsoft.com/fwlink/?LinkId=67183)   
+ [ASP.NET Mobile Web Applications Adapter Mappings](/previous-versions/aspnet/w5b9y36y(v=vs.100))   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [control Element for device for mobileControls (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67185)   
+ [control Element for device for mobileControls (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-3.5/ms228318(v=vs.90))   
  [DeviceElement Class](../wmi-provider/deviceelement-class.md)
