@@ -53,7 +53,7 @@ It is important to determine which extensions are required by the applications y
 - **Internationalization and Localization Extensions**: The two most commonly used extensions for i18n and l10n are php\_mbstring (Multi-Byte String) and php\_gettext (Native Language Support). Many of the open-source applications use one or both of these extensions.
 - **Web Services Extensions**: Choose the web services extensions based on the services desired. For PHP, the SOAP extension is widely used. The XML-RPC extension is often used with SOAP and other services.
 
-To view the entire list of PHP extensions available for applications that run on Windows platforms, see the complete [list of Windows extensions for PHP](http://downloads.php.net/pierre/).
+To view the entire list of PHP extensions available for applications that run on Windows platforms, see the complete list of Windows extensions for PHP.
 
 ## See Also
 

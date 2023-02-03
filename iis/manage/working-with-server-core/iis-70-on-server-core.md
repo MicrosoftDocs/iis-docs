@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by [Tobin Titus](https://github.com/tobint)
 
-As you may know from [TechEd 2007 announcements](https://www.microsoft.com/presspass/features/2007/jun07/06-04IIS7.mspx) and [a Bill Staples' blog post](https://blogs.iis.net/bills/archive/2007/06/04/iis7-on-server-core.aspx), IIS 7.0 is supported on the Server Core installation option of Windows Server® 2008. IIS 7.0 on Server Core combines a powerful new Web server with a minimal footprint server operating system, which has a smaller disk space requirement, lower memory utilization, a reduced attack surface, and lower servicing needs.
+As you may know from TechEd 2007 announcements and [a Bill Staples' blog post](https://blogs.iis.net/bills/archive/2007/06/04/iis7-on-server-core.aspx), IIS 7.0 is supported on the Server Core installation option of Windows Server® 2008. IIS 7.0 on Server Core combines a powerful new Web server with a minimal footprint server operating system, which has a smaller disk space requirement, lower memory utilization, a reduced attack surface, and lower servicing needs.
 
 This article provides basic instructions for getting started with IIS 7.0 on Server Core, including installation instructions for running Classic ASP and PHP applications.
 

@@ -168,4 +168,4 @@ This article showed some basic WMI scripting techniques for retrieving informati
 - Get the state of all worker processes: **WorkerProcess.GetState**
 - Unload a specific AppDomain or all AppDomains: **AppDomain.Unload**
 
-For more information, see the [IIS 7.0 WMI Provider Reference](https://go.microsoft.com/fwlink/?LinkId=79310).
+

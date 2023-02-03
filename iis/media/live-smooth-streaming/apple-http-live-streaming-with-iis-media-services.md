@@ -130,7 +130,8 @@ To begin broadcasting from Expression Encoder 4, do the following:
       ![Screenshot of the Play then dropdown list with a focus on the Loop option being selected.](apple-http-live-streaming-with-iis-media-services/_static/image10.png)
 
    > [!NOTE]
-   > If you attached a camera or capture card to the encoding computer, you can add a live source from the **Preview** tab, and then use the **Live Sources** tab to set up a live capture device, rather than using a file source. For more information, see [Set Live Sources](https://go.microsoft.com/?linkid=9749758).
+   > If you attached a camera or capture card to the encoding computer, you can add a live source from the **Preview** tab, and then use the **Live Sources** tab to set up a live capture device, rather than using a file source. 
+
 4. On the **Presets** tab, choose an encoding preset that supports the bitrates and encoding requirements for the Apple HTTP Live Streaming feature and for our target Apple mobile digital devices. In this example, we're going to broadcast to iPhone/iPod-class devices over a WiFi network, so we select the **H.264 IIS Smooth Streaming iPhone WiFi** preset, and then click **Apply**.  
    ![Screenshot of the Presets tab with a focus on the H dot 2 6 4 I I S Smooth Streaming iPhone Wifi option being selected.](apple-http-live-streaming-with-iis-media-services/_static/image11.png)  
 

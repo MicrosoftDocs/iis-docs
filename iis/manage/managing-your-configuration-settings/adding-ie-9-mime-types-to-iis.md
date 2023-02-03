@@ -21,7 +21,6 @@ The following additional MIME types are supported in IE 9:
 | .xht | application/xhtml+xml |
 | .xhtml | application/xhtml+xml |
 
-To learn more about the preview release of IE 9, see [http://ie.microsoft.com/testdrive/](https://ie.microsoft.com/testdrive/). The [Release Notes](https://ie.microsoft.com/testdrive/info/ReleaseNotes/Default.html) contain information about the new features supported in IE 9.
 
 To add these MIME types to your IIS server, you can:
 

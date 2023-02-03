@@ -49,7 +49,7 @@ The following prerequisites must be fulfilled in order to install the tool:
 
 ### Downloading and Installing
 
-There are two separate downloadable packages for the tool; you will need to download the appropriate package. You can download the [x86](https://go.microsoft.com/fwlink/?LinkId=249138) or [x64](https://go.microsoft.com/fwlink/?LinkId=249137) versions. 
+There are two separate downloadable packages for the tool; you will need to download the appropriate package. You can download the (x86) or (x64) versions. 
 
 ## Important Issues Fixed in this release:
 

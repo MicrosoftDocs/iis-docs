@@ -86,7 +86,7 @@ This section describes how to create a publishing point that can accept a live b
 
 ## Pushing a Stream to the Live Smooth Streaming Publishing Point
 
-This section describes how to create a Live Smooth Streaming broadcast in [Microsoft Expression Encoder 4](https://go.microsoft.com/?linkid=9656607) and push it to the Live Smooth Streaming publishing point that you configured in the [previous section](getting-started-with-iis-live-smooth-streaming.md#pubpt). The steps in this section outline a general workflow, with details only on the specific tasks that you need to create Live Smooth Streaming output. For detailed information about how to create a live broadcast from various live and file-based sources in Expression Encoder 4, including how to assemble a complete program, encode it, encrypt it with Digital Rights Management (DRM), and instantly distribute it to your audience using Smooth Streaming technology, see [Creating a Live Broadcasting Project](https://go.microsoft.com/?linkid=9656611).
+This section describes how to create a Live Smooth Streaming broadcast in [Microsoft Expression Encoder 4](https://go.microsoft.com/?linkid=9656607) and push it to the Live Smooth Streaming publishing point that you configured in the [previous section](getting-started-with-iis-live-smooth-streaming.md#pubpt). The steps in this section outline a general workflow, with details only on the specific tasks that you need to create Live Smooth Streaming output. For detailed information about how to create a live broadcast from various live and file-based sources in Expression Encoder 4, including how to assemble a complete program, encode it, encrypt it with Digital Rights Management (DRM), and instantly distribute it to your audience using Smooth Streaming technology.
 
 > [!IMPORTANT]
 > If you enabled the publishing point to stream content to Apple devices, such as iPhone® and iPad™ devices, be sure to review the encoding requirements and settings outlined in [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336).
@@ -97,7 +97,7 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
 1. Start Expression Encoder (click **Start** &gt; **All Programs** &gt; **Microsoft Expression** &gt; **Microsoft Expression Encoder 4**).
 2. In the **Load a new project** dialog box, select **Live Broadcasting Project**.  
     ![Screenshot of the Microsoft Expression Encoder Get Started tab with a focus on the Live Broadcasting Project option.](getting-started-with-iis-live-smooth-streaming/_static/image10.png)
-3. Set up the source to use for your live broadcast. For [File Sources](https://go.microsoft.com/?linkid=9656610), you can use audio or video sources in any file format that Expression Encoder can import. For [Live Sources](https://go.microsoft.com/?linkid=9656616), you can connect multiple camera devices, such as USB webcams or FireWire (IEEE 1394) digital video cameras. Although you can connect multiple live sources, you can stream only one at a time.
+3. Set up the source to use for your live broadcast. For [File Sources](https://go.microsoft.com/?linkid=9656610), you can use audio or video sources in any file format that Expression Encoder can import. For Live Sources, you can connect multiple camera devices, such as USB webcams or FireWire (IEEE 1394) digital video cameras. Although you can connect multiple live sources, you can stream only one at a time.
 4. On the **Presets** tab, choose an encoding preset that supports the bit rates and encoding requirements for your Live Smooth Streaming scenario. Be sure to choose a preset with **IIS Smooth Streaming** in the preset name, and then click **Apply**.  
     ![Screenshot of the Presets tab with a focus on the H dot 2 6 4 I I S Smooth Streaming 720 P option.](getting-started-with-iis-live-smooth-streaming/_static/image11.png)  
   
@@ -122,7 +122,7 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
   
     > [!NOTE]
     > You can click the **Connect** button to test the connection to the publishing point after you specify its URL in the **Location** box. The publishing point must be started for the connection to be validated.
-6. If you want to add Digital Rights Management (DRM) to your content, select **Digital Rights Management** on the **Output** tab, and then specify DRM options. For more information, see [Set DRM options](https://go.microsoft.com/?linkid=9689725).  
+6. If you want to add Digital Rights Management (DRM) to your content, select **Digital Rights Management** on the **Output** tab, and then specify DRM options.  
   
     > [!NOTE]
     > The license provided for a Live Smooth Streaming session is non-persistent, meaning that after the user closes the client application being used to view the web broadcast, the license expires.  
@@ -135,7 +135,7 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
     ...and then click **Start** to begin your live broadcast.  
     ![Screenshot of Microsoft Expression Encoder's Live Broadcast Start option.](getting-started-with-iis-live-smooth-streaming/_static/image16.png)  
   
-    As the broadcast runs, you can monitor [Statistics](https://go.microsoft.com/?linkid=9738257) and [Connections](https://go.microsoft.com/?linkid=9738258) data in the corresponding panels.
+    As the broadcast runs, you can monitor Statistics and Connections data in the corresponding panels.
 
 <a id="client"></a>
 

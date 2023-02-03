@@ -36,8 +36,8 @@ The following items are required to complete the procedures in this article:
 1. IIS 7 must be installed on your Windows Server 2008 RC0 server, and the Internet Information Services Manager must be installed.
 2. The new FTP service must be installed. You can download and install the FTP service from the <https://www.iis.net/> web site using one of the following links:
 
-    - [FTP for IIS 7 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
-    - [FTP for IIS 7 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
+    - FTP for IIS 7 (x64)
+    - FTP for IIS 7 (x86)
 3. You will need to create a root folder for FTP publishing:
 
     - Create a folder at `%SystemDrive%\inetpub\ftproot`
