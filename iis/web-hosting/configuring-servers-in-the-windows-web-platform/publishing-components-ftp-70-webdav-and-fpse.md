@@ -13,7 +13,7 @@ by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 
-The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Secure%20and%20Simplified%20Web%20Publishing%20using%20IIS7.wmv "IIS Publishing") and presentation [IIS Publishing](publishing-components-ftp-70-webdav-and-fpse/_static/publishing-components-ftp-70-webdav-and-fpse-55-securesimplifiedwebpublishingusingiis71.zip) will provide you with an overview of the IIS Publishing Features and step-by-step demonstrations on how to take advantage of them.
+The following video and presentation [IIS Publishing](publishing-components-ftp-70-webdav-and-fpse/_static/publishing-components-ftp-70-webdav-and-fpse-55-securesimplifiedwebpublishingusingiis71.zip) will provide you with an overview of the IIS Publishing Features and step-by-step demonstrations on how to take advantage of them.
 
 [![Diagram that shows three blocks labeled FTP, FPSE, and Web DAV pointing to a circle labeled I I S.](publishing-components-ftp-70-webdav-and-fpse/_static/image2.jpg)](publishing-components-ftp-70-webdav-and-fpse/_static/image1.jpg)
 

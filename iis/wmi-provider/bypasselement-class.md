@@ -21,7 +21,7 @@ class BypassElement : CollectionElement
   
 |Name|Description|  
 |----------|-----------------|  
-|`Address`|A required unique read/write `string` value that contains a regular expression that defines a resource address or addresses that bypass the proxy server. Requests for the resource are sent instead directly to the server where the resource resides. The key property. **Note:**  For more information about regular expressions, see the [System.Text.RegularExpressions](https://go.microsoft.com/fwlink/?LinkId=73545) namespace.|  
+|`Address`|A required unique read/write `string` value that contains a regular expression that defines a resource address or addresses that bypass the proxy server. Requests for the resource are sent instead directly to the server where the resource resides. The key property. **Note:**  For more information about regular expressions, see the [System.Text.RegularExpressions](/dotnet/api/system.text.regularexpressions) namespace.|  
   
 ## Subclasses  
  This class contains no subclasses.  
@@ -47,6 +47,6 @@ class BypassElement : CollectionElement
  [BypassListSettings Class](../wmi-provider/bypasslistsettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
- [System.Net.BypassElement Class](https://go.microsoft.com/fwlink/?LinkID=70908)   
- [System.Net.Configuration.BypassElement.Address Property](https://go.microsoft.com/fwlink/?LinkId=70909)   
- [System.Text.RegularExpressions Namespace](https://go.microsoft.com/fwlink/?LinkId=73545)
+ [System.Net.BypassElement Class](/dotnet/api/system.net.configuration.bypasselement)   
+ [System.Net.Configuration.BypassElement.Address Property](/dotnet/api/system.net.configuration.bypasselement.address)   
+ [System.Text.RegularExpressions Namespace](/dotnet/api/system.text.regularexpressions)

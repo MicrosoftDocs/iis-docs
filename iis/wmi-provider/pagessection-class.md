@@ -116,4 +116,4 @@ class PagesSection : ConfigurationSectionWithCollection
  [TagMapInfo Class](../wmi-provider/tagmapinfo-class.md)   
  [TagPrefixElement Class](../wmi-provider/tagprefixelement-class.md)   
  [TagPrefixInfo Class](../wmi-provider/tagprefixinfo-class.md)   
- [CompilationMode Enumeration](https://go.microsoft.com/fwlink/?LinkId=69310)
+ [CompilationMode Enumeration](/dotnet/api/system.web.ui.compilationmode)

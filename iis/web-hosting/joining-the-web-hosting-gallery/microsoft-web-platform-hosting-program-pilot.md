@@ -11,11 +11,11 @@ msc.type: authoredcontent
 
 by [Walter Oliver](https://github.com/walterov)
 
-As part of the Microsoft Web Platform Hosting Program, Microsoft created the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md); it references a set of guides, step-by-step instructions, best practices, and script samples to guide in the planning, deployment, configuration, migration, and provisioning of Microsoft Web Platform technologies for Hosters. It provides a map to the latest content across the entire set of Microsoft documentation libraries and associated sample scripts relevant to hosting professionals. It is technical guidance documentation intended to lower operational costs while increasing average revenue per user. The entire content is available for download ([download I](https://go.microsoft.com/fwlink/?LinkID=142353&amp;clcid=0x409) and [download II](https://go.microsoft.com/fwlink/?LinkID=143140&amp;clcid=0x409)).
+As part of the Microsoft Web Platform Hosting Program, Microsoft created the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md); it references a set of guides, step-by-step instructions, best practices, and script samples to guide in the planning, deployment, configuration, migration, and provisioning of Microsoft Web Platform technologies for Hosters. It provides a map to the latest content across the entire set of Microsoft documentation libraries and associated sample scripts relevant to hosting professionals. It is technical guidance documentation intended to lower operational costs while increasing average revenue per user. The entire content is available for download (download I) and (download II).
 
 This document provides an offline snapshot of the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md) web page as well as references to the following offline content:
 
-1. [Shared Hosting Guidance](https://go.microsoft.com/fwlink/?LinkID=143142&amp;clcid=0x409): is an overview and the best starting point in the document collection. The live and most up to date version of this material can be found in the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md) web page.
+1. Shared Hosting Guidance: is an overview and the best starting point in the document collection. The live and most up to date version of this material can be found in the [Shared Hosting Guidance Content Map](../getting-started/shared-hosting-content-map.md) web page.
 2. [Developing with Shared Hosting](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md): is a video that demonstrates how developers and web hosting customers can use, create, and edit web sites hosted on the Microsoft Web Platform. Developers will be able to learn about the development and publishing environment, and Hosters will learn about the experience that their customers go through when interacting with their services. You will find:
 
    -Steps a developer should follow to host their applications in a Shared Hosting Environment.
@@ -42,7 +42,7 @@ This document provides an offline snapshot of the [Shared Hosting Guidance Conte
    -Shows the client experience when the feature is locked for a site.
    -The server experience when unlocking a feature for a site.
    -Shows the client experience of configuring the newly unlocked feature, error page setting for the site.
-5. Within the content donwload ([download I](https://go.microsoft.com/fwlink/?LinkId=142353) and [download II](https://go.microsoft.com/fwlink/?LinkID=143140&amp;clcid=0x409)) you will find critical technology areas like **IIS**, **SQL Server 2008**, **Hyper-V**, and **System Center** sections subdivided into 4 major subsections:
+5. Within the content donwload (download I) and (download II) you will find critical technology areas like **IIS**, **SQL Server 2008**, **Hyper-V**, and **System Center** sections subdivided into 4 major subsections:
 
    -*Learn*: An in-depth technical drill down on the particular technology.
    -*Engage*: Explains the value of the technology.
