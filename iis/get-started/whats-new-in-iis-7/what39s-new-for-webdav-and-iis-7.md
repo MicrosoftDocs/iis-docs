@@ -52,7 +52,7 @@ Microsoft has released a brand-new WebDAV implementation for IIS that was writte
 In order to help get you started working with WebDAV on IIS, Microsoft has written the following walkthroughs:
 
 - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
-- [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
+- [How to manage WebDAV using AppCmd](/iis/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd)
 - [How to configure WebDAV and Request Filtering](https://go.microsoft.com/fwlink/?LinkId=108321)
 - [Migrating FPSE Sites to WebDAV](https://go.microsoft.com/fwlink/?LinkId=108347)
 - [How to use custom properties with WebDAV](https://go.microsoft.com/fwlink/?LinkId=108320)

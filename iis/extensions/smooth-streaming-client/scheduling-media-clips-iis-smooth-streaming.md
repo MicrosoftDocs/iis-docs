@@ -88,7 +88,7 @@ void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
 }
 ```
 
-The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md) and [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828).
+The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md) and [IIS Smooth Streaming Client](/iis/extensions/smooth-streaming-client/smooth-streaming-client).
 
 > [!NOTE]  
 > IIS Smooth Streaming Clips scheduled by using [ScheduleClip](smoothstreamingmediaelement-scheduleclip-method-microsoft-web-media-smoothstreaming_1.md) methods require manifests that start at the zero timestamp.
