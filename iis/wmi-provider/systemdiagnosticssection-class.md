@@ -33,7 +33,7 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
   
 |Name|Description|  
 |----------|-----------------|  
-|`Assert`|An [AssertSettings](../wmi-provider/assertsettings-class.md) value that specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](https://go.microsoft.com/fwlink/?LinkId=70960) method and the name of a message log file.|  
+|`Assert`|An [AssertSettings](../wmi-provider/assertsettings-class.md) value that specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](/dotnet/api/system.diagnostics.debug.assert) method and the name of a message log file.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`PerformanceCounters`|A [PerformanceCounterSettings](../wmi-provider/performancecountersettings-class.md) value that specifies the size of the global memory shared by performance counters.|  
@@ -70,4 +70,4 @@ class SystemDiagnosticsSection : ConfigurationSectionWithCollection
  [SourceSettings Class](../wmi-provider/sourcesettings-class.md)   
  [SwitchSettings Class](../wmi-provider/switchsettings-class.md)   
  [TraceSettings Class](../wmi-provider/tracesettings-class.md)   
- [System.Diagnostics.Debug.Assert Method](https://go.microsoft.com/fwlink/?LinkId=70960)
+ [System.Diagnostics.Debug.Assert Method](/dotnet/api/system.diagnostics.debug.assert)

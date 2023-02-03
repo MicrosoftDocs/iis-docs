@@ -57,4 +57,4 @@ class TraceProviderDefinition : CollectionElement
  [TraceFailedRequestsSection Class](../wmi-provider/tracefailedrequestssection-class.md)   
  [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)   
  [TraceUrl Class](../wmi-provider/traceurl-class.md)   
- [Logman](https://go.microsoft.com/fwlink/?LinkId=64802)
+ [Logman](/windows-server/administration/windows-commands/logman)

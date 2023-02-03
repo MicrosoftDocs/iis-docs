@@ -51,4 +51,4 @@ class ServicePointManagerSettings : EmbeddedObject
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SettingsSection Class](../wmi-provider/settingssection-class.md)   
- [WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=69332)
+ [WebRequest Class](/dotnet/api/system.net.webrequest)

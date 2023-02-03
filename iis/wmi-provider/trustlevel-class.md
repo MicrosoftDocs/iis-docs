@@ -43,7 +43,7 @@ class TrustLevel : CollectionElement
 |"`Medium`"|Specifies a medium level of security for policy file mapping. By default, this trust-level value is mapped to the Web_mediumtrust.config policy file.|  
 |"`Low`"|Specifies a low level of security for policy file mapping. By default, this trust-level value is mapped to the Web_lowtrust.config policy file.|  
 |"`Minimal`"|Specifies a minimal level of security for policy file mapping. By default, this trust-level value is mapped to the Web_minimaltrust.config policy file.|  
-|"`User Defined`"|Specifies the name of a user-defined trust level. For more information, see [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326).|  
+|"`User Defined`"|Specifies the name of a user-defined trust level. For more information, see [Administering Security Policy](/windows/security/threat-protection/security-policy-settings/administer-security-policy-settings).|  
   
 ## Example  
  The following example displays the trust-level names and corresponding security policy configuration files that are specified in the computer-level Web.config file.  
@@ -86,8 +86,8 @@ Next
   
 ## See Also  
  [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel)
- [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)   
- [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
+ [Administering Security Policy](/windows/security/threat-protection/security-policy-settings/administer-security-policy-settings)   
+ [ASP.NET Trust Levels and Policy Files](/previous-versions/wyts434y(v=vs.140))   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SecurityPolicySection Class](../wmi-provider/securitypolicysection-class.md)   
- [trustLevel Element for securityPolicy (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69327)
+ [trustLevel Element for securityPolicy (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-4.0/as399f0x(v=vs.100))
