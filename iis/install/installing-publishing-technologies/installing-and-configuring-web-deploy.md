@@ -34,7 +34,7 @@ The server must have an operating system that comes with IIS7— this means eith
             [![Screenshot that shows the Web Platform Installer. Web Deploy is entered in the search box.](installing-and-configuring-web-deploy/_static/image4.png)](installing-and-configuring-web-deploy/_static/image3.png)
         3. Add the "Web Deployment Tool 2.1 for Hosting Servers" product and click **Install**.  
             ![Screenshot that shows the Web Platform Installer. Web Deploy is entered in the search box field.](installing-and-configuring-web-deploy/_static/image5.png)
-    2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) ([x86](https://go.microsoft.com/fwlink/?LinkId=209115) | [x64](https://go.microsoft.com/fwlink/?LinkId=209116))
+    2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) (x86) | (x64)
 
         1. In the Setup wizard choose the "Complete" setup option.  
             [![Screenshot that shows the Microsoft Web Deploy 2 point 0 Setup wizard. Complete is highlighted.](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)

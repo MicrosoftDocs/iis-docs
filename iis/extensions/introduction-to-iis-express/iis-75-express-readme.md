@@ -24,7 +24,7 @@ Internet Information Services (IIS) 7.5 Express is a free, simple and self-conta
 
 ## Installation
 
-You can install IIS 7.5 Express using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx), or through the [Microsoft Download Center](https://www.microsoft.com/download/).
+You can install IIS 7.5 Express using Web Platform Installer, or through the [Microsoft Download Center](https://www.microsoft.com/download/).
 
 <a id="UsingIISExpress"></a>
 
@@ -109,4 +109,4 @@ When you install IIS 7.5 Express from your system, the registry key for IIS 7.5 
 You can learn more about IIS 7.5 Express and related products using the following links:
 
 - IIS.net
-- [Microsoft.com/web](https://www.microsoft.com/web)
+- Microsoft.com/web

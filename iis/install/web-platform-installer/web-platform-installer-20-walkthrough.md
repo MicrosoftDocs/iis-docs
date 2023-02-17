@@ -19,7 +19,7 @@ The software offered through Web PI is free to download, and can be installed on
 
 To get started, you need to download and install the Web Platform Installer. To install the Web PI, select one of the following options:
 
-1. Visit the newly designed Web PI [download site](https://www.microsoft.com/web/channel/products/WebPlatformInstaller.aspx "Web PI download").
+1. Visit the newly designed Web PI download site.
 2. View the following terms and then click **Install Now**.  
 
     By clicking **Install Now** and by using the Web PI, you agree to the [terms of use](https://go.microsoft.com/?linkid=9546162 "terms of use") for the Microsoft Web Platform Installer. The Web PI will contact Microsoft over the Internet to retrieve product information.
@@ -116,7 +116,7 @@ Congratulations, you have now successfully downloaded and installed the Microsof
 
 ## Where to get more information
 
-To learn more about the Microsoft Web Platform, visit the [Microsoft Web Platform](https://www.microsoft.com/web/) page.
+To learn more about the Microsoft Web Platform, visit the [Microsoft Web Platform](/iis/install/web-platform-installer/web-platform-installer-20-walkthrough) page.
 
 To learn more about the Microsoft Web Platform Installer, visit the  Web Platform Installer page on IIS.net.
 

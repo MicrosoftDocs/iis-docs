@@ -52,7 +52,7 @@ There are several places in the template where you can add branding and other me
 
 ## Next Steps
 
-That's it! You're ready to [apply to the Web Hosting Gallery](https://www.microsoft.com/web/hosting/hostingprovider/register "Apply to join the Web Hosting Gallery") and go for the Spotlight status!
+That's it! You're ready to apply to the Web Hosting Gallery and go for the Spotlight status!
 
 Keep in mind that as you apply, you will need to provide a test account to the WebMatrix team using [Profile XML format](generate-a-profile-xml-file.md "Generating a Profile XML file"), as well as some **Control Panel access**. We'll be testing your servers by publishing our web applications to that test account, and will let you know if we encounter any problems.
 

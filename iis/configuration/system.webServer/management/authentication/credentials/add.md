@@ -133,7 +133,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 | Attribute | Description |
 | --- | --- |
 | `name` | Required string attribute.<br><br>Specifies the user name of the IIS Manager user account. |
-| `password` | Required string attribute.<br><br>Specifies the SHA256 hash of the user's password for the IIS Manager user account. This attribute is case sensitive.<br><br>If you configure an IIS Manager user account by using IIS Manager, the password hash is computed automatically. If you want to calculate the hash of a password programmatically, you can use the System.Security.Cryptography.SHA256.ComputeHash method. For more information, see [SHA256 Class](https://go.microsoft.com/fwlink/?LinkId=96088) on MSDN. |
+| `password` | Required string attribute.<br><br>Specifies the SHA256 hash of the user's password for the IIS Manager user account. This attribute is case sensitive.<br><br>If you configure an IIS Manager user account by using IIS Manager, the password hash is computed automatically. If you want to calculate the hash of a password programmatically, you can use the System.Security.Cryptography.SHA256.ComputeHash method. For more information, see SHA256 Class on MSDN. |
 | `enabled` | Optional Boolean attribute.<br><br>Specifies whether the IIS Manager user is enabled (**true**) or disabled (**false**). When true, the IIS Manager user can use IIS Manager to connect to all sites and applications for which they have authorized by a server administrator on the Web server.<br><br>The default value is `true`. |
 
 ### Child Elements

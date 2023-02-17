@@ -64,4 +64,4 @@ class MobileControlsSection : ConfigurationSectionWithCollection
  [AdapterElement Class](../wmi-provider/adapterelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DeviceElement Class](../wmi-provider/deviceelement-class.md)   
- [MobileControlsSection Properties](https://go.microsoft.com/fwlink/?LinkId=67194)
+ [MobileControlsSection Properties](/iis/wmi-provider/mobilecontrolssection-class)

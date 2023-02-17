@@ -36,12 +36,12 @@ The following table lists the properties exposed by the `TraceSection` class.
 |`LocalOnly`|An optional read/write `boolean` value. `true` if the trace viewer (Trace.axd) is available only on the host Web server; `false` if the trace viewer is available from any computer. The default is `true`.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`MostRecent`|An optional read/write `boolean` value. `true` if the trace store continues to collect the most recent trace messages and begins to discard older trace messages when the limit specified in `RequestLimit` is reached; `false` if the trace store stops collecting trace messages when the number specified in `RequestLimit` is reached. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
-|`PageOutput`|An optional read/write `boolean` value. `true` if tracing information is added to the bottom of each Web page; `false` if trace output is accessible through the trace utility only. The default is `false`. **Note:**  For more information about the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace viewer utility, see [How to: View ASP.NET Trace Information with the Trace Viewer](https://go.microsoft.com/fwlink/?LinkId=73542).|  
+|`PageOutput`|An optional read/write `boolean` value. `true` if tracing information is added to the bottom of each Web page; `false` if trace output is accessible through the trace utility only. The default is `false`. **Note:**  For more information about the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace viewer utility, see [How to: View ASP.NET Trace Information with the Trace Viewer](/previous-versions/aspnet/wwh16c6c(v=vs.100)).|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`RequestLimit`|An optional read/write `sint32` value that specifies the number of trace requests, from 0 through 10000, to store on the server. The default is 10. If the limit is reached and the `MostRecent` property is `false`, tracing stops. **Note:**  Although integer values in the range 0 to 2147483647 are accepted for the `RequestLimit` property, if you specify a value greater than 10000, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] silently rounds it down to 10000.| 
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
 |`TraceMode`|An optional read/write `sint32` value that specifies the order in which trace information is displayed. The possible values are listed later in the Remarks section.|  
-|`WriteToDiagnosticsTrace`|An optional read/write `boolean` value. `true` if [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace messages are forwarded to the [System.Diagnostics](https://go.microsoft.com/fwlink/?LinkId=73540) tracing infrastructure for listeners that are registered to display trace messages; otherwise, `false`. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
+|`WriteToDiagnosticsTrace`|An optional read/write `boolean` value. `true` if [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace messages are forwarded to the [System.Diagnostics](/dotnet/api/system.diagnostics) tracing infrastructure for listeners that are registered to display trace messages; otherwise, `false`. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 
 ## Subclasses  
 
@@ -75,6 +75,6 @@ The following table lists the possible values for the `TraceMode` property. The 
 
  [System.Web.TraceContext](/dotnet/api/system.web.tracecontext) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [trace Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67200)   
- [How to: Enable Tracing for an ASP.NET Page](https://go.microsoft.com/fwlink/?LinkId=67201)   
- [System.Web.TraceContext Methods](https://go.microsoft.com/fwlink/?LinkId=67202)
+ [trace Element (ASP.NET Settings Schema)](/dotnet/framework/configure-apps/file-schema/trace-debug/trace-element)   
+ [How to: Enable Tracing for an ASP.NET Page](/previous-versions/aspnet/94c55d08(v=vs.100))   
+ [System.Web.TraceContext Methods](/dotnet/api/system.web.tracecontext)

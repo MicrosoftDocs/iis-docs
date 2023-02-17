@@ -5,7 +5,7 @@ ms.date: 10/07/2016
 ms.assetid: fa5f3d0e-0722-0bfb-3d98-45b5d6803df9
 ---
 # AssertSettings Class
-Specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](https://go.microsoft.com/fwlink/?LinkId=70960) method and the name of a message log file.  
+Specifies the user-interface mode for the System.Diagnostics.Debug.Assert method and the name of a message log file.  
   
 ## Syntax  
   
@@ -47,4 +47,4 @@ class AssertSettings : EmbeddedObject
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
- [System.Diagnostics.Debug.Assert Method](https://go.microsoft.com/fwlink/?LinkId=70960)
+ [System.Diagnostics.Debug.Assert Method](/dotnet/api/system.diagnostics.debug.assert)

@@ -21,7 +21,7 @@ The Smooth Streaming client can use data about its interaction with media conten
 
 ### Prerequisites
 
-To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Manager, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676).) You can download [Smooth Streaming HD sample content](https://go.microsoft.com/fwlink/?linkid=251075) to test the Smooth Streaming client.
+To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Manager, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676).) You can download Smooth Streaming HD sample content to test the Smooth Streaming client.
 
 ### Advanced Logging Initialization
 

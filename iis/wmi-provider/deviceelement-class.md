@@ -51,10 +51,10 @@ class DeviceElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [ASP.NET Mobile Web Applications Adapter Mappings](https://go.microsoft.com/fwlink/?LinkId=67183)   
- [device Element for mobileControls (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67187)   
+ [ASP.NET Mobile Web Applications Adapter Mappings](/previous-versions/aspnet/w5b9y36y(v=vs.100))   
+ [device Element for mobileControls (ASP.NET Settings Schema)](/previous-versions/iis/dev/ms690331(v=vs.90))   
  [AdapterElement Class](../wmi-provider/adapterelement-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [MobileControlsSection Class](../wmi-provider/mobilecontrolssection-class.md)   
- [System.Web.UI.MobileControls.IPageAdapter Interface](https://go.microsoft.com/fwlink/?LinkId=67189)   
- [system.web Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=65823)
+ [System.Web.UI.MobileControls.IPageAdapter Interface](/dotnet/api/system.web.ui.mobilecontrols.ipageadapter)   
+ [system.web Element (ASP.NET Settings Schema)](/dotnet/framework/configure-apps/file-schema/web/system-web-element-web-settings)

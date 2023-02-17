@@ -250,15 +250,12 @@ Though this article has just scratched the surface of how Windows PowerShell and
 
 ## Windows PowerShell and IIS Resources
 
-See [https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx](https://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) for Windows PowerShell documentation and examples, and to download Windows PowerShell.
+Search [Channel 9 has joined Microsoft Learn](/teamblog/channel9joinedmicrosoftlearn) for the Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples, which served as the basis for the article.
 
-Search [https://learn.microsoft.com/teamblog/channel9joinedmicrosoftlearn](/teamblog/channel9joinedmicrosoftlearn) for the Web cast featuring Windows PowerShell Architect Jeffrey Snover and IIS Product Unit Manager Bill Staples, which served as the basis for the article.
 
-See `https://blogs.msdn.com/PowerShell/` to view useful examples created by the Windows PowerShell team.
+See [here](http://www.powergadgets.com/) to learn more about the visualization tools based on Windows PowerShell.
 
-See [http://www.powergadgets.com](http://www.powergadgets.com/) to learn more about the visualization tools based on Windows PowerShell.
-
-See [https://www.iis.net](https://www.iis.net/) for information about Microsoft IIS.
+See [www.iis.net](https://www.iis.net/) for information about Microsoft IIS.
 
 ## About the Author
 

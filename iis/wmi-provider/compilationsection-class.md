@@ -80,4 +80,4 @@ class CompilationSection : ConfigurationSectionWithCollection
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DirectorySettings Class](../wmi-provider/directorysettings-class.md)   
  [ExpressionBuilderSettings Class](../wmi-provider/expressionbuildersettings-class.md)   
- [\<system.codedom> Element](https://go.microsoft.com/fwlink/?LinkId=69315)
+ [\<system.codedom> Element](/dotnet/framework/configure-apps/file-schema/compiler/system-codedom-element)

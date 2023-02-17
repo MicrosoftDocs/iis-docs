@@ -33,7 +33,7 @@ class EmbeddedObject
 |[AspLimits](../wmi-provider/asplimits-class.md)|Configures properties related to ASP limits.|  
 |[AspSession](../wmi-provider/aspsession-class.md)|Configures properties related to ASP sessions.|  
 |[AssemblySettings](../wmi-provider/assemblysettings-class.md)|Contains assembly references that are used during compilation of an ASP.NET Web application.|  
-|[AssertSettings](../wmi-provider/assertsettings-class.md)|Specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](https://go.microsoft.com/fwlink/?LinkId=70960) method and the name of a message log file.|  
+|[AssertSettings](../wmi-provider/assertsettings-class.md)|Specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](/dotnet/api/system.diagnostics.debug.assert) method and the name of a message log file.|  
 |[AuthenticationProviderSettings](../wmi-provider/authenticationprovidersettings-class.md)|Contains security support providers that are used for Integrated Windows authentication.|  
 |[BufferModeSettings](../wmi-provider/buffermodesettings-class.md)|Contains ASP.NET event-buffering settings for event providers.|  
 |[BuildProviderSettings](../wmi-provider/buildprovidersettings-class.md)|Contains build providers that compile custom resource files of a particular file type and generate code during compilation.|  
@@ -65,7 +65,7 @@ class EmbeddedObject
 |[ListenerSettings](../wmi-provider/listenersettings-class.md)|Contains shared listeners that any source or trace element can reference.|  
 |[ManyToOneCertificateRuleSettings](../wmi-provider/manytoonecertificaterulesettings-class.md)|Contains many-to-one certificate mapping rules.|  
 |[ManyToOneSettings](../wmi-provider/manytoonesettings-class.md)|Specifies many-to-one client certificate mappings.|  
-|[ModuleSettings](../wmi-provider/modulesettings-class.md)|Represents the type information for a custom [System.Net.IWebProxy](https://go.microsoft.com/fwlink/?LinkId=70961) module.|  
+|[ModuleSettings](../wmi-provider/modulesettings-class.md)|Represents the type information for a custom [System.Net.IWebProxy](/dotnet/api/system.net.iwebproxy) module.|  
 |[NamespaceInfo](../wmi-provider/namespaceinfo-class.md)|Contains namespace references similar to the `Import` directive.|  
 |[OneToOneSettings](../wmi-provider/onetoonesettings-class.md)|Contains one-to-one client certificate mappings.|  
 |[OutputCacheProfileSettings](../wmi-provider/outputcacheprofilesettings-class.md)|Contains values that configure output cache profiles for the pages of a Web application.|  

@@ -44,7 +44,7 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 ## Remarks  
  This class is valid only in a site-level configuration (Web.config) file.  
   
- For information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328) and [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326).  
+ For information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](/previous-versions/aspnet/wyts434y(v=vs.100)) and [Administering Security Policy](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj966254(v=ws.11)).  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -66,5 +66,5 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [TrustLevel Class](../wmi-provider/trustlevel-class.md)   
  [TrustSection Class](../wmi-provider/trustsection-class.md)   
- [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
- [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)
+ [ASP.NET Trust Levels and Policy Files](/previous-versions/aspnet/wyts434y(v=vs.100))   
+ [Administering Security Policy](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj966254(v=ws.11))

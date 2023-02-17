@@ -13,7 +13,7 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 The Web Analytics is a popular technology space today. Its purpose is to provide web site owners with statistical information about visitors to their sites, so that site publisher can optimize the content, advertisement and service offering to increate the customer satisfaction and ROI.
 
-The web analytics services have been around for a while but they have become very popular after Google has made its [analytics service](https://www.google.com/analytics) a free offering to everybody. Now any site owner – from personal hobbyists to big commercial portals – got access to a free and feature rich web analytics service. Microsoft is also providing a free Web Analytics service that is offered as part of [Microsoft AdCenter](https://adcenter.microsoft.com/).
+The web analytics services have been around for a while but they have become very popular after Google has made its [analytics service](https://www.google.com/analytics) a free offering to everybody. Now any site owner – from personal hobbyists to big commercial portals – got access to a free and feature rich web analytics service. Microsoft is also providing a free Web Analytics service that is offered as part of [Microsoft AdCenter](https://ads.microsoft.com/).
 
 The Web Analytics Module for IIS allows web site publishers to easily enable basic web analytics tracking of their web sites, without touching the actual web application code.
 
