@@ -11,7 +11,8 @@ This section describes the Web Server Core and integrated request-processing pip
   
 |Function|Description|  
 |--------------|-----------------|  
-|[Compress](../../web-development-reference/native-code-api-reference/compress-function.md)|Compresses data given the compression context, input buffer, output buffer, and compression level.|  
+|[Compress](../../web-development-reference/native-code-api-reference/compress-function.md)|Compresses data given the compression context, input buffer, output buffer, and compression level.|
+|[Compress2](../../web-development-reference/native-code-api-reference/compress2-function.md)|Compresses data given the compression context, input buffer, output buffer, compression level and operation.|  
 |[CreateCompression](../../web-development-reference/native-code-api-reference/createcompression-function.md)|Creates a new compression context.|  
 |[DeInitCompression](../../web-development-reference/native-code-api-reference/deinitcompression-function.md)|De-initializes the compression scheme.|  
 |[DestroyCompression](../../web-development-reference/native-code-api-reference/destroycompression-function.md)|Destroys the specified compression context.|  
