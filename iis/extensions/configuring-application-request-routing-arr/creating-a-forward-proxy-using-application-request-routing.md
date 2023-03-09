@@ -89,7 +89,7 @@ To enable ARR as a proxy, and to create a URL Rewrite rule to enable ARR as a fo
     - Using: Wildcards
     - Pattern: \*
 
-    ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image10.jpg)
+    ![Screenshot shows the Edit Inbound Rule dialog box for Forward Proxy.](creating-a-forward-proxy-using-application-request-routing/_static/image10.jpg)
 12. Scroll down to the **Conditions** area of the **Edit Inbound Rule** dialog box, and then click **Add…**.
     ![Add Condition](creating-a-forward-proxy-using-application-request-routing/_static/image11.jpg)
 13. In the **Add Condition** dialog box, select or enter the following: 
@@ -104,7 +104,7 @@ To enable ARR as a proxy, and to create a URL Rewrite rule to enable ARR as a fo
     - Action Type: Rewrite
     - Rewrite URL: http://{C:1}/{R:0}
 
-    ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image13.jpg)
+    ![Screenshot shows the Edit Inbound Rule dialog box with the Action type Rewrite and a specified Rewrite URL.](creating-a-forward-proxy-using-application-request-routing/_static/image13.jpg)
 15. In the **Actions** pane, click **Apply**. 
 
     > [!NOTE]

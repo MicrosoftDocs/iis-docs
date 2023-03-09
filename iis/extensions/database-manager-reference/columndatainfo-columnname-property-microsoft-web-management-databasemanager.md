@@ -1,5 +1,6 @@
 ---
 title: ColumnDataInfo.ColumnName Property (Microsoft.Web.Management.DatabaseManager)
+description: The ColumnDataInfo.ColumnName property gets or sets a value that specifies the name of the database column.
 TOCTitle: ColumnName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.ColumnName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.columndatainfo.columnname(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: DatabaseProvider.ConnectionStringArguments Property (Microsoft.Web.Management.DatabaseManager)
+description: The DatabaseProvider.ConnectionStringArguments property gets a collection that contains the collection of database connection arguments.
 TOCTitle: ConnectionStringArguments Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.databaseprovider.connectionstringarguments(v=VS.90)

@@ -1,5 +1,6 @@
 ---
 title: ForeignKeyColumn Fields (Microsoft.Web.Management.DatabaseManager)
+description: The ForeignKeyColumn type exposes the fields described in this article.
 TOCTitle: ForeignKeyColumn Fields
 ms:assetid: Fields.T:Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkeycolumn_fields(v=VS.90)

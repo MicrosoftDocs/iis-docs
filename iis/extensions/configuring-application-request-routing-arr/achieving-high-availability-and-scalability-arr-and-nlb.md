@@ -120,7 +120,7 @@ The NLB configuration is divided into the following steps:
 
 1. Verify that NLB is installed on all instances of ARR servers.
 2. Go to Start &gt; All Programs &gt; Administrative Tools, and open the **Network Load Balancing Manager**.  
-    ![Screenshot of the Network Load Balancing Manager window.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
+    ![Screenshot of the Network Load Balancing Manager window with Network Load Balancing Clusters highlighted.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image16.jpg)
 3. Right-click on **Network Load Balancing Clusters**, and then select **New Cluster**.  
     ![Screenshot of the New Cluster dialog.](achieving-high-availability-and-scalability-arr-and-nlb/_static/image18.jpg)
 4. In the New Cluster dialog box, in the Host text box, type the server address of one of the ARR servers. If there are multiple interfaces, type the server address that you want to create the NLB cluster on.  

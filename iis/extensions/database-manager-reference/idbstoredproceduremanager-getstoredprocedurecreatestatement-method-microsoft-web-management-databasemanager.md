@@ -1,5 +1,6 @@
 ---
 title: IDbStoredProcedureManager.GetStoredProcedureCreateStatement Method  (Microsoft.Web.Management.DatabaseManager)
+description: The IDbStoredProcedureManager.GetStoredProcedureCreateStatement method returns the CREATE PROCEDURE template for creating a new stored procedure.
 TOCTitle: GetStoredProcedureCreateStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateStatement(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbstoredproceduremanager.getstoredprocedurecreatestatement(v=VS.90)
