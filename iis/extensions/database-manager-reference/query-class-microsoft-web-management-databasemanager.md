@@ -1,5 +1,6 @@
 ---
 title: Query Class (Microsoft.Web.Management.DatabaseManager)
+description: The Microsoft.Web.Management.DatabaseManager.Query class represents a database query.
 TOCTitle: Query Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.Query
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.query(v=VS.90)
