@@ -66,4 +66,4 @@ When a source initiates an action through Web Deploy, the Web Deploy Framework e
 
 ## To Learn More
 
-Please visit our [walkthrough tutorials on iis.net](../deploying-application-packages/index.md) and our [technet documentation](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd568996(v=ws.10)).
+Please visit our [walkthrough tutorials on iis.net](../deploying-application-packages/index.md) and our [technet documentation](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd568996(v=ws.10)).
