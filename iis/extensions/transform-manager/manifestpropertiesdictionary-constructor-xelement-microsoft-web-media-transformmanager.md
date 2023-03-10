@@ -1,5 +1,6 @@
 ---
 title: ManifestPropertiesDictionary Constructor (XElement) (Microsoft.Web.Media.TransformManager)
+Description: Learn how the ManifestPropertiesDictionary constructor initializes a new instance of the ManifestPropertiesDictionary class using the specified properties.
 TOCTitle: ManifestPropertiesDictionary Constructor (XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.#ctor(System.Xml.Linq.XElement)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.manifestpropertiesdictionary(v=VS.90)

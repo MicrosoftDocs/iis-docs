@@ -1,5 +1,6 @@
 ---
 title: LocalScheduler.CleanupWorkFolder Method  (Microsoft.Web.Media.TransformManager)
+Description: Learn how to use the CleanupWorkFolder method.
 TOCTitle: CleanupWorkFolder Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.CleanupWorkFolder(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.localscheduler.cleanupworkfolder(v=VS.90)

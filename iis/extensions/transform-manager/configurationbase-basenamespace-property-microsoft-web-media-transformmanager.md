@@ -1,5 +1,6 @@
 ---
 title: ConfigurationBase.BaseNamespace Property (Microsoft.Web.Media.TransformManager)
+description: Learn how the ConfigurationBase.BaseNamespace property gets and sets the XML namespace for the configuration.
 TOCTitle: BaseNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.BaseNamespace
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationbase.basenamespace(v=VS.90)

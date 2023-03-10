@@ -1,6 +1,6 @@
 ---
 title: TransformManagerService.TestConnection Method  (Microsoft.Web.Media.TransformManager)
-descrption: Learn how the TestConnection method tests connectivity of the IIS Transform Manager service to the Scheduler object.
+description: Learn how the TestConnection method tests the connectivity of the IIS Transform Manager service to the Scheduler object.
 TOCTitle: TestConnection Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.TestConnection(Microsoft.Web.Media.TransformManager.JobScheduler,Microsoft.Web.Media.TransformManager.Credential)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.transformmanagerservice.testconnection(v=VS.90)
