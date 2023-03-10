@@ -7,7 +7,6 @@ ms.author: johnhart
 
 ms.date: 10/03/2018
 ms.topic: article
-ms.technology: iis
 ms.prod: iis
 msc.type: authoredcontent
 ---

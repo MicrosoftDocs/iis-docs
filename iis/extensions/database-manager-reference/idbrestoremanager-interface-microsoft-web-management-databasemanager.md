@@ -1,5 +1,6 @@
 ---
 title: IDbRestoreManager Interface (Microsoft.Web.Management.DatabaseManager)
+description: The IDbRestoreManager interface represents a database restore manager interface.
 TOCTitle: IDbRestoreManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbRestoreManager
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbrestoremanager(v=VS.90)

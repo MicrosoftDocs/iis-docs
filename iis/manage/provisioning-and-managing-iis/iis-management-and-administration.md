@@ -17,11 +17,11 @@ This article provides a map to download locations for presentations, videos, and
 
 For further details about this topic, visit [Managing and Maintaining IIS 7.0](../index.md).
 
-This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/RemoteManager.wmv) provides an overview of how to use the new IIS Manager for IIS management.
+This video provides an overview of how to use the new IIS Manager for IIS management.
 
 ## Deploying and Managing Web Farms
 
-This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Managing%20and%20Deploying%20Web%20Farms.wmv) provides an overview of IIS 7.0 Web farm features, along with best practices and demonstrations of how to deploy and manage Web farms. The video covers:
+This video provides an overview of IIS 7.0 Web farm features, along with best practices and demonstrations of how to deploy and manage Web farms. The video covers:
 
 - Challenges with IIS 6.0
 - What's new in IIS 7.0 for Web Farms
@@ -32,13 +32,13 @@ This [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Managi
 
 ## Performance Tuning
 
-This guide (`https://download.microsoft.com/download/E/7/5/E75F1B3E-C341-4E67-906A-24ABB0E59278/PerformanceTuningWS2008.zip`) describes important tuning parameters and settings that can result in improved performance for the Windows Server® 2008 operating system. Each setting and its potential effect are described to help you make an informed judgment about its relevance to your system, workload, and performance goals. The guide uses a holistic approach toward tuning Windows Server's various roles, including the Web Server role.
+This guide describes important tuning parameters and settings that can result in improved performance for the Windows Server® 2008 operating system. Each setting and its potential effect are described to help you make an informed judgment about its relevance to your system, workload, and performance goals. The guide uses a holistic approach toward tuning Windows Server's various roles, including the Web Server role.
 
 [![Diagram that shows the path from Request to Response.](iis-management-and-administration/_static/image4.jpg)](iis-management-and-administration/_static/image3.jpg)
 
 ## Diagnostics and Troubleshooting
 
-The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Internet%20Information%20Services%207.0%20Diagnostics%20and%20Troubleshooting.wmv) provides diagnostic and troubleshooting guidance and demonstrations using:
+The following video provides diagnostic and troubleshooting guidance and demonstrations using:
 
 Runtime Status and Control (RTSC) features
 
@@ -69,11 +69,11 @@ Guidance articles:
 
 ## Security
 
-The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/SecuringandTuningIIS7.wmv) provides an overview of IIS 7.0 security and performance features.  
+The following video provides an overview of IIS 7.0 security and performance features.  
   
  [![Screenshot that is titled I I S 7 Installable Components.](iis-management-and-administration/_static/image8.jpg)](iis-management-and-administration/_static/image7.jpg)
 
-The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/WindowsServer2008Security.wmv) details the new Windows Server 2008 security enhancements in the areas of kernel/core, host, network, data protection, compliance, and management. It also includes demonstrations.
+The following video details the new Windows Server 2008 security enhancements in the areas of kernel/core, host, network, data protection, compliance, and management. It also includes demonstrations.
 
 [![Screenshot that is titled Windows Server 2008 Hardening.](iis-management-and-administration/_static/image10.jpg)](iis-management-and-administration/_static/image9.jpg)
 

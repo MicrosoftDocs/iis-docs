@@ -19,9 +19,7 @@ When you are done, make sure that IIS and the PHP are installed, and your PHP ap
 
 ## 1.1. Install IIS
 
-You can use the Web Platform Installer (Web PI) to install IIS, and applications that run on IIS. Web PI installs the latest versions of available Web Platform offerings with just a few simple clicks. Using Web PI, you can download and install any new tools or updates, including PHP. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
-
-If you do not use Web PI to install IIS, you can install IIS manually. To install IIS manually, use the following steps:
+To install IIS,  use the following steps:
 
 ### To install IIS on Windows Server 2012
 
@@ -61,25 +59,9 @@ If you do not use Web PI to install IIS, you can install IIS manually. To instal
 
 <a id="12"></a>
 
-## 1.2. Install PHP by using Web PI
+## 1.2. Download and Install PHP Manually
 
-The preferred method to install PHP on a Windows or Windows Server computer is to use Web Platform Installer (Web PI).
-
-### To install PHP by using Web PI
-
-1. Open a browser to the following website: [Microsoft Web Platform Installer 3.0](https://www.microsoft.com/web/downloads/platform.aspx).
-2. Click **Download It Now**, and then click **Run**.
-3. At the top of the **Web Platform Installer** window, click **Products**.
-4. Click **Frameworks**, and then select the current version of PHP.
-5. Click **Install**. The **Web Platform Installation** page displays the version of PHP and its dependencies that will be installed.
-6. Click **I Accept**. Web PI installs the PHP packages.
-7. Click **Finish**.
-
-<a id="13"></a>
-
-## 1.3. Download and Install PHP Manually
-
-If you decide to download PHP and install it manually, the procedures in this section guide you the following tasks:
+The procedures in this section guide you to install PHP Manually:
 
 - Download PHP and the WinCache extension.
 - Install PHP and WinCache.
@@ -122,9 +104,9 @@ To keep this procedure simple, install the WinCache extension but do not configu
 
     A nicely formatted webpage is displayed showing the current PHP settings.
 
-<a id="14"></a>
+<a id="13"></a>
 
-## 1.4. Add Your PHP Application
+## 1.3. Add Your PHP Application
 
 Once you have IIS and PHP installed, you can add a PHP application to your web server. This section describes how to set up your PHP application on an IIS web server with PHP installed. It does not explain how to develop a PHP application.
 

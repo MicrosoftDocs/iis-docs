@@ -40,7 +40,7 @@ Protocol listeners receive protocol-specific requests, send them to IIS for proc
 
 By default, IIS provides HTTP.sys as the protocol listener that listens for HTTP and HTTPS requests. HTTP.sys was introduced in IIS 6.0 as an HTTP-specific protocol listener for HTTP requests. HTTP.sys remains the HTTP listener in IIS 7 and later, but includes support for Secure Sockets Layer (SSL).
 
-To support services and applications that use protocols other than HTTP and HTTPS, you can use technologies such as Windows Communication Foundation (WCF). WCF has listener adapters that provide the functionality of both a protocol listener and a listener adapter. Listener adapters are covered later in this document. For more information about WCF, see [Windows Communication Foundation](https://go.microsoft.com/fwlink/?LinkId=88604) on MSDN.
+To support services and applications that use protocols other than HTTP and HTTPS, you can use technologies such as Windows Communication Foundation (WCF). WCF has listener adapters that provide the functionality of both a protocol listener and a listener adapter. Listener adapters are covered later in this document. For more information about WCF, see [Windows Communication Foundation](/dotnet/framework/wcf/) on MSDN.
 
 <a id="Hypertext"></a>
 
@@ -97,13 +97,13 @@ Additionally, the WWW Service continues to collect the counters for Web sites. B
 
 In IIS 7 and later, Windows Process Activation Service (WAS) manages application pool configuration and worker processes instead of the WWW Service. This enables you to use the same configuration and process model for HTTP and non-HTTP sites.
 
-Additionally, you can run WAS without the WWW Service if you do not need HTTP functionality. For example, you can manage a Web service through a WCF listener adapter, such as NetTcpActivator, without running the WWW Service if you do not need to listen for HTTP requests in HTTP.sys. For information about WCF listener adapters and about how to host WCF applications in IIS 7 and later by using WAS, see [Hosting in WCF](https://go.microsoft.com/fwlink/?LinkId=81261) on MSDN.
+Additionally, you can run WAS without the WWW Service if you do not need HTTP functionality. For example, you can manage a Web service through a WCF listener adapter, such as NetTcpActivator, without running the WWW Service if you do not need to listen for HTTP requests in HTTP.sys. For information about WCF listener adapters and about how to host WCF applications in IIS 7 and later by using WAS, see [Hosting in WCF](/dotnet/framework/wcf/hosting-services) on MSDN.
 
 ### Configuration Management in WAS
 
 On startup, WAS reads certain information from the ApplicationHost.config file, and passes that information to listener adapters on the server. Listener adapters are components that establish communication between WAS and protocol listeners, such as HTTP.sys. Once listener adapters receive configuration information, they configure their related protocol listeners and prepare the listeners to listen for requests.
 
-In the case of WCF, a listener adapter includes the functionality of a protocol listener. So, a WCF listener adapter, such as NetTcpActivator, is configured based on information from WAS. Once NetTcpActivator is configured, it listens for requests that use the net.tcp protocol. For more information about WCF listener adapters, see [WAS Activation Architecture](https://go.microsoft.com/fwlink/?LinkId=88413) on MSDN.
+In the case of WCF, a listener adapter includes the functionality of a protocol listener. So, a WCF listener adapter, such as NetTcpActivator, is configured based on information from WAS. Once NetTcpActivator is configured, it listens for requests that use the net.tcp protocol. For more information about WCF listener adapters, see [WAS Activation Architecture](/dotnet/framework/wcf/feature-details/was-activation-architecture) on MSDN.
 
 The following list describes the type of information that WAS reads from configuration:
 
@@ -237,7 +237,7 @@ In addition to native modules, IIS enables you to use managed code modules to ex
 > [!NOTE]
 > Managed modules depend on the ManagedEngine module.
 
-The following table lists the managed modules that are available with a full installation of IIS 7 and later. For more information about the managed modules, see the [.NET Framework SDK 2.0](https://go.microsoft.com/fwlink/?LinkId=88414) on MSDN.
+The following table lists the managed modules that are available with a full installation of IIS 7 and later. For more information about the managed modules, see the .NET Framework SDK 2.0 on MSDN.
 
 | Module Name | Description | Resource |
 | --- | --- | --- |

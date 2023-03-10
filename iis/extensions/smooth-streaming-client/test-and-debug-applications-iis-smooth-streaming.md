@@ -15,7 +15,7 @@ You can test and debug a Smooth Streaming application based on Silverlight by ho
 
 ## Setup Test Environment
 
-Create a new Silverlight application from the template supported by the **New/Project** option in Visual Studio 2008 or Visual Studio Web Developer Edition. Add a reference to the Microsoft.Web.Media.SmoothStreaming.dll that is found in the installation folder with the [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828) (The [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) topic provides a basic example).
+Create a new Silverlight application from the template supported by the **New/Project** option in Visual Studio 2008 or Visual Studio Web Developer Edition. Add a reference to the Microsoft.Web.Media.SmoothStreaming.dll that is found in the installation folder with the [IIS Smooth Streaming Client](/iis/extensions/smooth-streaming-client/smooth-streaming-client) (The [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) topic provides a basic example).
 
 To test a Smooth Streaming player application on a common domain, add the multiple-bit-rate media files and the manifest files to the default Web site on IIS. After you have built the project, copy the Silverlight .xap file and the TestPage.html file that hosts the application to the default Web site with the media files. This way the Silverlight application will run on the same domain and the same port as the Smooth Streaming media. You can test the application from any Silverlight-enabled browser.
 
@@ -65,4 +65,4 @@ For more information, see [How to: Attach to a Running Process](https://go.micro
 
 ### Other Resources
 
-[IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828)
+[IIS Smooth Streaming Client](/iis/extensions/smooth-streaming-client/smooth-streaming-client)

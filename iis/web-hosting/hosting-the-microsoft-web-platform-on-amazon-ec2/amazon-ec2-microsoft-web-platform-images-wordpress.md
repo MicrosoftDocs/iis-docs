@@ -13,7 +13,7 @@ by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
 
-One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [WordPress](http://wordpress.com/) on Amazon's [EC2](http://aws.amazon.com/ec2/) Cloud and the [Microsoft Web Platform](https://www.microsoft.com/web). After you followed the steps in this walkthrough you will have a live production Wordpress blog on the Internet.
+One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [WordPress](http://wordpress.com/) on Amazon's [EC2](http://aws.amazon.com/ec2/) Cloud and the Microsoft Web Platform. After you followed the steps in this walkthrough you will have a live production Wordpress blog on the Internet.
 
 Here are quick summary of the steps you have to follow:
 
@@ -31,7 +31,7 @@ Signing up for Amazon EC2 is a straightforward process. All you need is
 - a valid phone number you can be reached at (make sure the phone is nearby, you will be called during sign-up!),
 - and a valid credit card number
 
-The sign-up URL is [http://aws.amazon.com/ec2](http://aws.amazon.com/ec2). It's even easier if you are already an Amazon customer because you can use your existing credit card information and e-mail address.
+The sign-up URL is [here](https://aws.amazon.com/ec2/). It's even easier if you are already an Amazon customer because you can use your existing credit card information and e-mail address.
 
 Note: Billing data verification usually happens within minutes. It might take a couple of hours though. Currently (April 2010) the error message you get is not very meaningful:  
 *"It looks like you don't have an EC2 account\*. To use the Amazon EC2 Console you must first sign up for Amazon EC2. It's quick &amp; free to sign up."*  
@@ -39,7 +39,7 @@ Just be patient and wait for a little longer.
 
 ## 2. Starting an "Microsoft Web Platform – Wordpress" Instance
 
-Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [https://console.aws.amazon.com/ec2/home](https://console.aws.amazon.com/ec2/home).
+Once you are signed up successfully you will have access to the Amazon EC2 Management Console. The URL is [here](https://console.aws.amazon.com/ec2/home).
 
 ![Screenshot of the Amazon E C 2 tab with the U S West option being highlighted.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image1.png)
 
@@ -114,7 +114,7 @@ Note: Because decryption is a very CPU intensive operation you might run into th
 
 ![Screenshot of a security dialog asking the user to stop running this script.](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image25.png) 
 
-Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found here: [https://support.microsoft.com/kb/175500](https://support.microsoft.com/kb/175500)  
+Contrary to intuition you have to press "No" to go on. You probably have to hit "No" a couple of times to get your password decrypted. More details on this security feature can be found [here](https://support.microsoft.com/kb/175500).  
 If you are interested in a more permanent fix you can execute the following command on command-line:
 
 [!code-console[Main](amazon-ec2-microsoft-web-platform-images-wordpress/samples/sample1.cmd)]

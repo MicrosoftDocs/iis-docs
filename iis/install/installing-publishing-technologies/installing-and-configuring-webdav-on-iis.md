@@ -45,10 +45,10 @@ There are two separate downloadable packages for the new WebDAV extension module
 
 - **32-bit Installation Package**:
 
-  - [WebDAV 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=141805)
+  - WebDAV 7.5 for IIS 7.0 (x86)
 - **64-bit Installation Package**:
 
-  - [WebDAV 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=141807)
+  - WebDAV 7.5 for IIS 7.0 (x64)
 
 ### Launching the Installation Package
 

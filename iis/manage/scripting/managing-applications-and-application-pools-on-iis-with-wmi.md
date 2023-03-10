@@ -185,4 +185,4 @@ This article presented information about how to accomplish the following basic t
 - View the state of application pools
 - List all the application pools on the server
 
-The Application and ApplicationPool classes have additional features not covered in this article. For more information, see the [IIS 7.0 WMI Provider Reference](https://go.microsoft.com/fwlink/?LinkId=79310).
+The Application and ApplicationPool classes have additional features not covered in this article. 

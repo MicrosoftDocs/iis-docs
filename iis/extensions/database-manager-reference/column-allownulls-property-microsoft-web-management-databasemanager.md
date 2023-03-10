@@ -2,7 +2,6 @@
 title: Column.AllowNulls Property (Microsoft.Web.Management.DatabaseManager)
 description: This article contains information on syntax and permissions for the Column.AllowNulls property. There are also links to more resources.
 TOCTitle: AllowNulls Property
-description: This article explains how to get or set a value in a database column as null. It includes a detailed description and code samples for reference.
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.AllowNulls
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.allownulls(v=VS.90)
 ms:contentKeyID: 20476640

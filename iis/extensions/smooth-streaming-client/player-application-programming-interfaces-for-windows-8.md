@@ -23,4 +23,4 @@ To build Windows Store applications with the Smooth Streaming Client SDK for Win
 
 ### Other Resources
 
-[How to Build a Smooth Streaming Windows Store Application](https://go.microsoft.com/fwlink/?linkid=271647)
+How to Build a Smooth Streaming Windows Store Application

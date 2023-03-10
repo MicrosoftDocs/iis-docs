@@ -77,11 +77,11 @@ From this point on your VM will be ready for you to start and connect to, use th
 
 ## Configure the Web Server Components to support WebMatrix
 
-This article will walk you through installing the required server components to be **WebMatrix compatible** and fulfill the **Spotlight requirements** for the [Web Hosting Gallery](https://www.microsoft.com/web/hosting).
+This article will walk you through installing the required server components to be **WebMatrix compatible** and fulfill the **Spotlight requirements** for the Web Hosting Gallery.
 
 To simplify the installation of the **web server** components, we highly recommend installing Web Platform Installer, also known as WebPI, on both machines. WebPI is a tool that automates the installation of a vast majority of server components and other products for Microsoft's Web Platform.
 
-**Get WebPI 3.0 here**: [https://go.microsoft.com/fwlink/?LinkID=194638](https://go.microsoft.com/fwlink/?LinkID=194638)
+
 
 If you prefer to not use WebPI, all of the required components can also be installed by hand or via your own provisioning scripts.
 
@@ -90,7 +90,7 @@ If you prefer to not use WebPI, all of the required components can also be insta
 If you have WebPI 3.0 installed, the following link will automatically launch it with all of the basic web server components you'll need ready to install:
 
 1. Login in the VM created in the previous section, use your administration account. Notice that these instructions will work regardless of whether you are using a VM or an actual machine.
-2. [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended). This link will install WebPI (if you have not done so already) and will let you review the list of products and dependencies before you start the process of installing the components. Notice that this list of components completely fulfills the Spotlight requirements from the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/home).
+2. [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended). This link will install WebPI (if you have not done so already) and will let you review the list of products and dependencies before you start the process of installing the components. Notice that this list of components completely fulfills the Spotlight requirements from the Web Hosting Gallery.
 
    ![Screenshot of the Install Now button. This is powered by the Microsoft Web Platform Installer.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image21.png)
 
@@ -113,7 +113,7 @@ If you have WebPI 3.0 installed, the following link will automatically launch it
 
    ![Screenshot of the Web Platform Installation Wizard. The Installation progress bar is shown.](configure-your-servers-for-the-windows-web-hosting-platform/_static/image33.png)
 
-6. If you are not using Windows Server 2008 R2 **SP1**, install the following Web Server Patch: [Extensionless URL Hotfix](https://support.microsoft.com/kb/980368). This hotfix is required for ASP.NET Web Pages to function correctly. It is discussed further in [this blog post](https://blogs.msdn.com/b/tmarq/archive/2010/04/01/asp-net-4-0-enables-routing-of-extensionless-urls-without-impacting-static-requests.aspx).
+6. If you are not using Windows Server 2008 R2 **SP1**, install the following Web Server Patch: [Extensionless URL Hotfix](https://support.microsoft.com/kb/980368). This hotfix is required for ASP.NET Web Pages to function correctly. 
 7. (Optional) [Install Spotlight Components plus PHP/MySQL related components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=IIS7;Tracing;NETFramework35;NETFramework4;ASPNET;MVC;WDeploy;FTPServer;ManagementService;CGI;URLRewrite2;SMO;PHP52;WinCache52;MySQLConnector;SQLDriverPHP52IIS). Many of the web applications that can be published by WebMatrix have PHP/MySQL components as requirements. To ensure you are able to support those applications, you can use this link to install everything above plus PHP/MySQL related components
 
 ### Option 2: Manually install Web Server components

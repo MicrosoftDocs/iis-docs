@@ -86,10 +86,10 @@ There are two separate downloadable packages for the new FTP server; you will ne
 
 - **32-bit Installation Package**:
 
-  - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
+  - FTP 7.5 for IIS 7.0 (x86)
 - **64-bit Installation Package**:
 
-  - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
+  - FTP 7.5 for IIS 7.0 (x64)
 
 ### Launching the installation package
 

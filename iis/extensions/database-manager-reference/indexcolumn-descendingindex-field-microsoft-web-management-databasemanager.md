@@ -1,5 +1,6 @@
 ---
 title: IndexColumn.DescendingIndex Field (Microsoft.Web.Management.DatabaseManager)
+description: The IndexColumn.DescendingIndex field returns the index number for the index column's descending index.
 TOCTitle: DescendingIndex Field
 ms:assetid: F:Microsoft.Web.Management.DatabaseManager.IndexColumn.DescendingIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn.descendingindex(v=VS.90)

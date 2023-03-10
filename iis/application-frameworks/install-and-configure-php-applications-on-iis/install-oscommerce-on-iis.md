@@ -21,7 +21,7 @@ This article describes how to install and configure osCommerce for use with the 
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of [osCommerce](http://www.oscommerce.com/solutions/downloads). For this article, oscommerce-2.2ms2-060817 was used. Uncompress the osCommerce files and copy the files in the "catalog" folder to `C:\Inetpub\wwwroot\oscommerce`.
+First, download the latest stable release of [osCommerce](https://www.oscommerce.com/download-oscommerce). For this article, oscommerce-2.2ms2-060817 was used. Uncompress the osCommerce files and copy the files in the "catalog" folder to `C:\Inetpub\wwwroot\oscommerce`.
 
 Set the permissions on the **osCommerce/include/Configure.php** file to read, write, and execute. (If these permissions are not set correctly, you get an error message.)
 

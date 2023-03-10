@@ -5,7 +5,7 @@ ms.date: "10/07/2016"
 ms.assetid: 760f4adf-3e89-4a5d-9648-ca4753f5eb65
 ---
 # ModuleSettings Class
-Represents the type information for a custom [System.Net.IWebProxy](https://go.microsoft.com/fwlink/?LinkId=70961) module.  
+Represents the type information for a custom [System.Net.IWebProxy](/dotnet/api/system.net.iwebproxy) module.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ class ModuleSettings : EmbeddedObject
 ## Remarks  
  Instances of this class are contained in the `Module` property of the [DefaultProxySection](../wmi-provider/defaultproxysection-class.md) class.  
   
- This class specifies a Web proxy that handles requests made with the [System.Net.WebRequest](https://go.microsoft.com/fwlink/?LinkId=70962) and [System.Net.WebClient](https://go.microsoft.com/fwlink/?LinkId=70963) classes.  
+ This class specifies a Web proxy that handles requests made with the [System.Net.WebRequest](/dotnet/api/system.net.webrequest) and [System.Net.WebClient](/dotnet/api/system.net.webclient) classes.  
   
 ## Inheritance Hierarchy  
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
@@ -48,6 +48,6 @@ class ModuleSettings : EmbeddedObject
 ## See Also  
  [DefaultProxySection Class](../wmi-provider/defaultproxysection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [System.Net.IWebProxy Interface](https://go.microsoft.com/fwlink/?LinkId=70961)   
- [System.Net.WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=70962)   
- [System.Net.WebClient Class](https://go.microsoft.com/fwlink/?LinkId=70963)
+ [System.Net.IWebProxy Interface](/dotnet/api/system.net.iwebproxy)   
+ [System.Net.WebRequest Class](/dotnet/api/system.net.webrequest)   
+ [System.Net.WebClient Class](/dotnet/api/system.net.webclient)

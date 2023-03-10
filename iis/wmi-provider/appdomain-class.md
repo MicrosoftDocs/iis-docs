@@ -95,5 +95,5 @@ AppDomain SiteName:           Default Web Site
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [HTTP Request Processing in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64722)   
- [Object Class](../wmi-provider/object-class.md)
+HTTP Request Processing in IIS 7.0  
+[Object Class](../wmi-provider/object-class.md)

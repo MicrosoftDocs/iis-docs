@@ -167,7 +167,7 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 
 | **Windows Server 2008 Feature** | **Windows Media Services 2008** | **Internet Information Services** |
 | --- | --- | --- |
-| Optimized for streaming [Windows Media-based content](https://www.microsoft.com/windows/windowsmedia/forpros/prosolutions.mspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **1**:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" ::: |
+| Optimized for streaming Windows Media-based content | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **1**:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" ::: |
 | Delivers content through most [firewalls](https://www.microsoft.com/technet/security/guidance/networksecurity/firewall.mspx) | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: |
 | Streams without downloading | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | :::image type="icon" source="windows-media-server-or-web-server/_static/image10.gif" ::: |
 | Broadcasts live content | :::image type="icon" source="windows-media-server-or-web-server/_static/image8.gif" ::: | **2**:::image type="icon" source="windows-media-server-or-web-server/_static/image6.gif" ::: |

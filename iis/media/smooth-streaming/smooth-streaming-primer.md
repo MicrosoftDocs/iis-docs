@@ -66,7 +66,7 @@ The Smooth Streaming Format SDK includes the following components:
     - H.264 (AVC1 only - not Annex B) and AAC-LC audio
 - Sample source code for basic VOD and live applications.
 
-Additionally, there are tools on the market that validate the output of the Smooth Streaming SDK, custom encoders, and third-party encoders. One such tool is [SceneScope](https://go.microsoft.com/?linkid=9740304) from M4Scene. This tool analyzes PIFF files and validates them against the PIFF 1.1 specification, as well as the ISO Base Media File Format Part 12 specification (ISO 14496-12).
+Additionally, there are tools on the market that validate the output of the Smooth Streaming SDK, custom encoders, and third-party encoders. One such tool is SceneScope from M4Scene. This tool analyzes PIFF files and validates them against the PIFF 1.1 specification, as well as the ISO Base Media File Format Part 12 specification (ISO 14496-12).
 
 Detailed documentation for the IIS Smooth Streaming Format SDK is available on [MSDN](https://go.microsoft.com/?linkid=9740305).
 

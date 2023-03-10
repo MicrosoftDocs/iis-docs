@@ -13,7 +13,7 @@ by [Simon Tan](https://github.com/simtan)
 
 ## Overview
 
-This set of documentation describes how hosting providers can prepare to join the [Microsoft Web Hosting Gallery](https://www.microsoft.com/web/hosting/ "Microsoft Web Hosting Gallery")—a comprehensive marketplace of hosting providers—while standing out as 100% [**WebMatrix**](https://www.microsoft.com/web/webmatrix/ "Microsoft WebMatrix")**compatible** for maximum visibility. This is also known as having **Spotlight status**.
+This set of documentation describes how hosting providers can prepare to join the Microsoft Web Hosting Gallery — a comprehensive marketplace of hosting providers—while standing out as 100% [**WebMatrix**](https://www.microsoft.com/web/webmatrix/ "Microsoft WebMatrix")**compatible** for maximum visibility. This is also known as having **Spotlight status**.
 
 Being WebMatrix compatible means that you can make a guarantee to your end users: that they can publish applications from [WebMatrix](https://www.microsoft.com/web/webmatrix/ "Microsoft WebMatrix") and the [Web Application Gallery](https://www.microsoft.com/web/gallery/ "Microsoft Web Application Gallery") to your servers with confidence.
 
@@ -31,13 +31,13 @@ This documentation will walk you through the following setup steps:
 4. [Crafting a publishing Profile XML file containing server credentials for your end users](generate-a-profile-xml-file.md "Creating a publishing Profile XML file")
 5. [Composing new account welcome e-mails that make it easy for your customers to get started with WebMatrix](create-welcome-e-mails.md "Creating welcome e-mails for new accounts")
 
-After completing the above steps, you will then need to formally [submit an application](https://www.microsoft.com/web/hosting/hostingprovider/addoffers) to the Web Hosting Gallery. To be considered for Spotlight status, this application will need to include a sample test account (in the form of a Profile XML file) that represents a typical account from your WebMatrix compatible offer.
+After completing the above steps, you will then need to formally submit an application to the Web Hosting Gallery. To be considered for Spotlight status, this application will need to include a sample test account (in the form of a Profile XML file) that represents a typical account from your WebMatrix compatible offer.
 
 ## How your customers will publish to you
 
 [![Diagram that shows Web Platform Installer, Visual Studio, and the Web Matrix being deployed to the Web Management Service, then to the Hosting Server.](overview/_static/image2.jpg)](overview/_static/image1.jpg)
 
-1. Customer finds your offer in the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/ "Microsoft Web Hosting Gallery"), and signs up for an account
+1. Customer finds your offer in the Web Hosting Gallery, and signs up for an account
 2. You provision required resources (including a SQL Server and/or MySQL database) for the customer
 
     - IIS site provisions: 
