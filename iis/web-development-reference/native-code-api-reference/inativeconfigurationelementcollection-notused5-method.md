@@ -1,7 +1,7 @@
 ---
 title: INativeConfigurationElementCollection::NotUsed5 Method [IIS 7]
 TOCTitle: INativeConfigurationElementCollection::NotUsed5 Method
-description: Learn how the NotUsed1 method is an infrastructure method and is not intended to be called directly.
+description: The INativeConfigurationElementCollection::NotUsed5 method [IIS 7] is an infrastructure method that is not intended to be called directly.
 ms:assetid: 98c42fbb-c4c3-4eda-95f7-ee9c59ba5bd7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ee424819(v=VS.90)
 ms:contentKeyID: 23044166
