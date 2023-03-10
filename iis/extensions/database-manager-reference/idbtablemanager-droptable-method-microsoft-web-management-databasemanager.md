@@ -1,5 +1,6 @@
 ---
 title: IDbTableManager.DropTable Method  (Microsoft.Web.Management.DatabaseManager)
+description: The IDbTableManager.DropTable method removes a table from the database.
 TOCTitle: DropTable Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.DropTable(System.String,System.String,Microsoft.Web.Management.DatabaseManager.TableInfo)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.idbtablemanager.droptable(v=VS.90)

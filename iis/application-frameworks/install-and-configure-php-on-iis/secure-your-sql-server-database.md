@@ -134,7 +134,7 @@ The following table contains information about how to use certificates with SQL 
 
 ## Application Security
 
-SQL Server security best practices include writing secure client applications. For more information about server access and SQL Server client applications, see [Developer's Guide (Database Engine)](/sql/relational-databases/database-engine-tutorials?view=sql-server-ver16).
+SQL Server security best practices include writing secure client applications. For more information about server access and SQL Server client applications, see [Developer's Guide (Database Engine)](/sql/relational-databases/database-engine-tutorials?view=sql-server-ver16&preserve-view=true).
 
 For more information about how to help secure client applications at the networking layer, see [Client Network Configuration](https://msdn.microsoft.com/library/ms190611.aspx).
 

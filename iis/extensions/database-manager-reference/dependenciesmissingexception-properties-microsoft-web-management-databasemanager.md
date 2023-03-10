@@ -1,5 +1,6 @@
 ---
 title: DependenciesMissingException Properties (Microsoft.Web.Management.DatabaseManager)
+description: The DependenciesMissingException type exposes the properties described in this article.
 TOCTitle: DependenciesMissingException Properties
 ms:assetid: Properties.T:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.dependenciesmissingexception_properties(v=VS.90)

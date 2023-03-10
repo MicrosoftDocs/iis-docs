@@ -1,5 +1,6 @@
 ---
 title: ForeignKey.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
+description: The ForeignKey.OriginalName property gets or sets a value that specifies the original name of the foreign key.
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.OriginalName
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.foreignkey.originalname(v=VS.90)

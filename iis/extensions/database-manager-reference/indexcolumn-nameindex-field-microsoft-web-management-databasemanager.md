@@ -1,5 +1,6 @@
 ---
 title: IndexColumn.NameIndex Field (Microsoft.Web.Management.DatabaseManager)
+description: The IndexColumn.NameIndex field returns the index number for the column's name index.
 TOCTitle: NameIndex Field
 ms:assetid: F:Microsoft.Web.Management.DatabaseManager.IndexColumn.NameIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.indexcolumn.nameindex(v=VS.90)
