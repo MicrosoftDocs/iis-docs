@@ -1,5 +1,6 @@
 ---
 title: StreamUpdatedListEventArgs Constructor  (Microsoft.Web.Media.SmoothStreaming)
+description: The StreamUpdatedListEventArgs constructor initializes a new instance of the StreamUpdatedListEventArgs class.
 TOCTitle: StreamUpdatedListEventArgs Constructor
 ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs.streamupdatedlisteventargs(v=VS.95)

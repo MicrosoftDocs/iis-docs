@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
+description: The VideoHighestPlayableTrackChanged event occurs when the playback rate changes to the highest available rate.
 TOCTitle: VideoHighestPlayableTrackChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrackchanged(v=VS.90)

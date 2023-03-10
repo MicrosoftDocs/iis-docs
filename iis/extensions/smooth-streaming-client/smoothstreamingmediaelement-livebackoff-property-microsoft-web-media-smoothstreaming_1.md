@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.LiveBackOff Property (Microsoft.Web.Media.SmoothStreaming)
+description: The SmoothStreamingMediaElement.LiveBackOff property gets or sets the duration of content closest to live that cannot yet be downloaded.
 TOCTitle: LiveBackOff Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveBackOff
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.livebackoff(v=VS.95)

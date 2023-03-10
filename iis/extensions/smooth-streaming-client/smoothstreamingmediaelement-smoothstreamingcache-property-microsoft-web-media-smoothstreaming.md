@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.SmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
+description: The SmoothStreamingCache property gets or sets the Smooth Streaming cache to use during main content playback.
 TOCTitle: SmoothStreamingCache Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingcache(v=VS.90)

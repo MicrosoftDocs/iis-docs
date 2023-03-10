@@ -1,5 +1,6 @@
 ---
 title: SmoothStreamingMediaElement.LatencyCorrectionThresholdProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: The LatencyCorrectionThresholdProperty field represents a dependency property that specifies the LatencyCorrectionThreshold property.
 TOCTitle: LatencyCorrectionThresholdProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LatencyCorrectionThresholdProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.latencycorrectionthresholdproperty(v=VS.90)
