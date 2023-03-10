@@ -11,7 +11,7 @@ dev_langs:
 - "cpp"
 ---
 
-# The LoadProtocolManagerAndGetCustomInterface Method
+# LoadProtocolManagerAndGetCustomInterface Method
 
 Loads a specified protocol manager and retrieves an interface for that protocol manager.
 
