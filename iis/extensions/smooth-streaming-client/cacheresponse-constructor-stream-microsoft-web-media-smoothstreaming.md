@@ -1,5 +1,6 @@
 ---
 title: CacheResponse Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
+description: The CacheResponse constructor (Stream) initializes a new instance of the CacheResponse class from a Stream object.
 TOCTitle: CacheResponse Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.IO.Stream)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.90)
