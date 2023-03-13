@@ -1,6 +1,6 @@
 ---
 title: CacheRequest2.WebRequest Property (Microsoft.Web.Media.SmoothStreaming)
-descrption: The CacheRequest2.WebRequest property gets or sets a web request that the media element downloader uses for downloading.
+description: The CacheRequest2.WebRequest property gets or sets a web request that the media element downloader uses for downloading.
 TOCTitle: WebRequest Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.WebRequest
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.cacherequest2.webrequest(v=VS.95)

@@ -29,7 +29,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Result Property
+# ChunkResult.Result Property
 
 Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) or [GetChunkUri](trackinfo-getchunkuri-method-microsoft-web-media-smoothstreaming_1.md).
 

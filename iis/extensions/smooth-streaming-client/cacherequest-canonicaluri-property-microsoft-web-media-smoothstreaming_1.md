@@ -1,5 +1,5 @@
 ---
-title: CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
+title: The CacheRequest.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
 description: Learn about the CacheRequest.CanonicalUri property for Microsoft Smooth Streaming applications.
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# CanonicalUri Property
+# The CacheRequest.CanonicalUri Property
 
 The Uri of the request.
 

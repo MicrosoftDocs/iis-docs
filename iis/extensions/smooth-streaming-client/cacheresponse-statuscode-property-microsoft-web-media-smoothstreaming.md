@@ -29,7 +29,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# StatusCode Property
+# CacheResponse.StatusCode Property
 
 An HTTPStatusCode enumeration object.
 
