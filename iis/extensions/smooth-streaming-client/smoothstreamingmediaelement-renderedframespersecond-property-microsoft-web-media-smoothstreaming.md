@@ -2,7 +2,6 @@
 title: RenderedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
 description: The RenderedFramesPerSecond property gets the rate of rendered frames.
 TOCTitle: RenderedFramesPerSecond Property
-description: Gets the rate of rendered frames.
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RenderedFramesPerSecond
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.renderedframespersecond(v=VS.90)
 ms:contentKeyID: 23961261
