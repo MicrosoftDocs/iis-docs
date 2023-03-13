@@ -1,5 +1,5 @@
 ---
-title: Result Property (Microsoft.Web.Media.SmoothStreaming)
+title: The ChunkResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
 description: Learn how the ChunkResult.Result property gets or sets the result of call to BeginGetChunk or GetChunkUri.
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Result Property
+# The ChunkResult.Result Property
 
 Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) or [GetChunkUri](trackinfo-getchunkuri-method-microsoft-web-media-smoothstreaming_1.md).
 
