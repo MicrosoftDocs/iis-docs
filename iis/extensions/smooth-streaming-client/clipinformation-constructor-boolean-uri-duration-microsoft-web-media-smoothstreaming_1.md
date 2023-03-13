@@ -1,5 +1,5 @@
 ---
-title: ClipInformation Constructor (Boolean, Uri, Duration) (Microsoft.Web.Media.SmoothStreaming)
+title: The ClipInformation Constructor (Boolean, Uri, Duration) (Microsoft.Web.Media.SmoothStreaming)
 description: The ClipInformation constructor (Boolean, Uri, Duration) initializes a new instance of the ClipInformation class. 
 TOCTitle: ClipInformation Constructor (Boolean, Uri, Duration)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor(System.Boolean,System.Uri,System.Windows.Duration)
@@ -24,7 +24,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ClipInformation Constructor (Boolean, Uri, Duration)
+# The ClipInformation Constructor (Boolean, Uri, Duration)
 
 Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.
 
