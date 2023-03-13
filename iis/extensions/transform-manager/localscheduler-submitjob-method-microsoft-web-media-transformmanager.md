@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SubmitJob Method
+# LocalScheduler.SubmitJob Method
 
 Submits a job manifest to the local scheduler.
 

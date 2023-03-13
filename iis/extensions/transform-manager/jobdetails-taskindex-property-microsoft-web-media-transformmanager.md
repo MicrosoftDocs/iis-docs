@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TaskIndex Property
+# JobDetails.TaskIndex Property
 
 Gets or sets the index of the current task.
 

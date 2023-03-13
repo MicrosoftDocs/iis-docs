@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TestConnection Method
+# TransformManagerService.TestConnection Method
 
 Tests connectivity of the IIS Transform Manager service to the [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object.
 

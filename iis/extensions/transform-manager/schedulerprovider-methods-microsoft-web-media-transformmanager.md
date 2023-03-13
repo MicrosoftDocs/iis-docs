@@ -2,6 +2,7 @@
 title: SchedulerProvider Methods (Microsoft.Web.Media.TransformManager)
 Description: Explore the range of SchedulerProvider methods and the members that they expose. 
 TOCTitle: SchedulerProvider Methods
+description: Use the links in this article to learn which members that the SchedulerProvider type exposes.
 ms:assetid: Methods.T:Microsoft.Web.Media.TransformManager.SchedulerProvider
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerprovider_methods(v=VS.90)
 ms:contentKeyID: 35520616

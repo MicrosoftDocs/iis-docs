@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ConnectionString Property
+# SchedulerInfo.ConnectionString Property
 
 Gets or sets the connection string that is used by this scheduler.
 

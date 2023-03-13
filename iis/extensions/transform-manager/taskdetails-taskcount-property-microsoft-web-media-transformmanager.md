@@ -30,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TaskCount Property
+# TaskDetails.TaskCount Property
 
 Gets or sets the task count.
 

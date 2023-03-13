@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SubmitJob Method
+# HpcScheduler.SubmitJob Method
 
 Submits a job manifest to the HPC scheduler.
 

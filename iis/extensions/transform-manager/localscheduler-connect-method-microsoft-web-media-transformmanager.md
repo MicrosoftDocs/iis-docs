@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# Connect Method
+# LocalScheduler.Connect Method
 
 Connects to the local scheduler.
 
