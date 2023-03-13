@@ -29,7 +29,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SmoothStreamingCache Property
+# The ClipInformation.SmoothStreamingCache Property
 
 Gets or sets the Smooth Streaming cache.
 

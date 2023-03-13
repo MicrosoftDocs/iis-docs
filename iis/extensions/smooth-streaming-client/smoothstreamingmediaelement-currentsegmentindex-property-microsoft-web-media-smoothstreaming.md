@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
+title: CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
 description: The CurrentSegmentIndex property gets the index of the current playing segment.
 TOCTitle: CurrentSegmentIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex

@@ -1,5 +1,5 @@
 ---
-title: Tracing.TraceFunctionEntry Method (TraceArea) (Microsoft.Web.Media.Diagnostics)
+title: TraceFunctionEntry Method (TraceArea) (Microsoft.Web.Media.Diagnostics)
 description: "This article provides syntax, parameters, version information, and permissions for the TraceFunctionEntry Method, which records the entry into a function as specified by the parameters."
 TOCTitle: TraceFunctionEntry Method (TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry(Microsoft.Web.Media.Diagnostics.TraceArea)
