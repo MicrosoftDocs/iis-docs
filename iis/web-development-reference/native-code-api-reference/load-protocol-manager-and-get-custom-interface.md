@@ -4,7 +4,7 @@ description: The LoadProtocolManagerAndGetCustomInterface method loads a specifi
 ms.date: 10/07/2016
 ms.assetid: load-protocol-manager-and-get-custom-interface
 ---
-# The LoadProtocolManagerAndGetCustomInterface Method
+# IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 Loads a specified protocol manager and retrieves an interface for that protocol manager.  
   
 ## Syntax  
