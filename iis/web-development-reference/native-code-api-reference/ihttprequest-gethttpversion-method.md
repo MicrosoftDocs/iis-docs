@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::GetHttpVersion Method"
+description: The IHttpRequest::GetHttpVersion method returns the HTTP version for the request.
 ms.date: "10/07/2016"
 ms.assetid: f040ca7b-9b53-af66-c03f-b298d45448ea
 ---

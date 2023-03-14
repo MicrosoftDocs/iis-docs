@@ -1,5 +1,6 @@
 ---
 title: CircularList(T).Sort Method  (Microsoft.Web.Media.Diagnostics)
+description: The CircularList<T>.Sort method sorts the elements in a range of elements in CircularList<T> using the specified comparer.
 TOCTitle: Sort Method
 ms:assetid: Overload:Microsoft.Web.Media.Diagnostics.CircularList`1.Sort
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff728197(v=VS.95)

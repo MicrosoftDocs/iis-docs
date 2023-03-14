@@ -1,5 +1,6 @@
 ---
 title: SchedulerInfo.ConnectionString Property (Microsoft.Web.Media.TransformManager)
+Description: Learn how the ConnectionString property gets and sets the connection string that is used by this scheduler.
 TOCTitle: ConnectionString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConnectionString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.schedulerinfo.connectionstring(v=VS.90)
@@ -29,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# ConnectionString Property
+# SchedulerInfo.ConnectionString Property
 
 Gets or sets the connection string that is used by this scheduler.
 
