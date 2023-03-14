@@ -1,5 +1,6 @@
 ---
-title: Tracing.IncludeTraceArea Field (Microsoft.Web.Media.Diagnostics)
+title: IncludeTraceArea Field (Microsoft.Web.Media.Diagnostics)
+description: The IncludeTraceArea field is a Boolean value that indicates whether to include the trace area in traces.
 TOCTitle: IncludeTraceArea Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceArea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.diagnostics.tracing.includetracearea(v=VS.90)

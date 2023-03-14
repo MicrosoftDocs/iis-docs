@@ -1,5 +1,6 @@
 ---
-title: SmoothStreamingMediaElement.LiveBackOffProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: LiveBackOffProperty Field (Microsoft.Web.Media.SmoothStreaming)
+description: The LiveBackOffProperty field represents a dependency property that specifies the LiveBackOff property.
 TOCTitle: LiveBackOffProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveBackOffProperty
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.livebackoffproperty(v=VS.90)

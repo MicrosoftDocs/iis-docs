@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.ConfigPathProperty Field (Microsoft.Web.Media.SmoothStreaming)
+title: ConfigPathProperty Field (Microsoft.Web.Media.SmoothStreaming)
 description: "The ConfigPathProperty Field represents a dependency property that specifies the ConfigPath Property. This article shares syntax, version information, and permissions."
 TOCTitle: ConfigPathProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ConfigPathProperty
