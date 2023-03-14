@@ -1,6 +1,6 @@
 ---
-title: SmoothStreamingException Methods (Microsoft.Web.Media.SmoothStreaming)
-description: Describes the SmoothStreamingException methods and provides a table that outlines the name and description for various method types.
+title: The SmoothStreamingException Methods (Microsoft.Web.Media.SmoothStreaming)
+description: Describes the SmoothStreamingException methods and provides a table that listing the name and description for various method types.
 TOCTitle: SmoothStreamingException Methods
 ms:assetid: Methods.T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingexception_methods(v=VS.95)
@@ -9,7 +9,7 @@ ms.date: 05/31/2012
 mtps_version: v=VS.95
 ---
 
-# SmoothStreamingException Methods
+# The SmoothStreamingException Methods
 
 The [SmoothStreamingException](smoothstreamingexception-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 

@@ -1,5 +1,6 @@
 ---
-title: ClipInformation.IsSmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
+title: IsSmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
+description: The IsSmoothStreamingSource property gets or sets a Boolean value that indicates whether the media clip is in Smooth Streaming format.
 TOCTitle: IsSmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.clipinformation.issmoothstreamingsource(v=VS.90)
