@@ -1,5 +1,6 @@
 ---
 title: JobDetails.TaskIndex Property (Microsoft.Web.Media.TransformManager)
+description: Learn how TaskIndex gets and sets the index of the current task.
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.TaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdetails.taskindex(v=VS.90)
@@ -29,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TaskIndex Property
+# JobDetails.TaskIndex Property
 
 Gets or sets the index of the current task.
 

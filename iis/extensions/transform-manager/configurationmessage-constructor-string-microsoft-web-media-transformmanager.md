@@ -1,6 +1,8 @@
 ---
 title: ConfigurationMessage Constructor (String) (Microsoft.Web.Media.TransformManager)
+Description: Learn how to initialize a new instance of the class named ConfigurationMessage using the specified message
 TOCTitle: ConfigurationMessage Constructor (String)
+description: Learn how to initialize a new instance of the ConfigurationMessage class using the specified message.
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.String)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.configurationmessage.configurationmessage(v=VS.90)
 ms:contentKeyID: 35521023

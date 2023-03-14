@@ -1,5 +1,6 @@
 ---
 title: TaskDetails.TaskCount Property (Microsoft.Web.Media.TransformManager)
+Description: Learn how the TaskCount property gets or sets the task count.
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskCount
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.taskdetails.taskcount(v=VS.90)
@@ -29,7 +30,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# TaskCount Property
+# TaskDetails.TaskCount Property
 
 Gets or sets the task count.
 
