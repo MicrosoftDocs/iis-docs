@@ -1,5 +1,6 @@
 ---
 title: "ConformanceWarning Class"
+description: The ConformanceWarning class exposes a Web Services Interoperability (WS-I) specification to which a Web service declares that it conforms.
 ms.date: "10/07/2016"
 ms.assetid: 6143dc15-7a1d-c00b-94ed-a446964cb705
 ---

@@ -1,5 +1,6 @@
 ---
 title: "IAppHostSectionGroup::Count Property"
+description: The IAppHostSectionGroup::Count property gets the current number of configuration section groups that are nested in the current section group.
 ms.date: "10/07/2016"
 ms.assetid: eeb5d8fa-6242-c708-866e-895fffc2d725
 ---

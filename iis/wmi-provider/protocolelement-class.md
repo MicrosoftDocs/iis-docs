@@ -1,5 +1,6 @@
 ---
 title: "ProtocolElement Class"
+description: The ProtocolElement class specifies a transmission protocol that [!INCLUDEvstecasp] can use to decrypt data sent in the HTTP request from a client browser.
 ms.date: "10/07/2016"
 ms.assetid: 15acc98e-38a6-578d-a854-3c949c8d242b
 ---

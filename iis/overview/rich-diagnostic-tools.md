@@ -10,7 +10,7 @@ Minimize downtime and rapidly diagnose server and application issues with the bu
 
 ## Detailed Errors
 
-![Rich Diagnostic Tools](rich-diagnostic-tools/_static/richdiagnostictools1-small.png)
+![Screenshot of the IIS Server Error in App window showing a HTTP Error 404.](rich-diagnostic-tools/_static/richdiagnostictools1-small.png)
 
 IIS simplifies troubleshooting by providing detailed and actionable error messages to server administrators. The custom errors module in IIS allows detailed error information to be sent back to the browser running on the local host server. Instead of seeing an error code, administrators can now see detailed information about the request, which potential issues may have caused the error, and suggestions about how to fix the error. The custom error information is only displayed to the server administrator; users of the Web site see the standard Web application error pages without the detailed information for server administrators.
 
@@ -18,7 +18,7 @@ IIS simplifies troubleshooting by providing detailed and actionable error messag
 
 IIS makes it possible to troubleshoot failures without having to manually reproduce them. The Failed Request Tracing feature enables server administrators to define error conditions that they wish to monitor. This allows administrators to capture trace logs for a pre-configured failure condition automatically, all while avoiding the performance penalty of saving logs for all requests. With Failed Request Tracing, administrators can capture the valuable tracing information when errors occur, even if they are intermittent or hard to reproduce. If this feature is configured, and IIS detects an error condition, it can automatically log detailed trace events for everything that led to the error.
 
-![Rich Diagnostic Tools](rich-diagnostic-tools/_static/richdiagnostictools2-small.png)
+![Screenshot of the IIS Failed Request Tracing window with No Grouping selected.](rich-diagnostic-tools/_static/richdiagnostictools2-small.png)
 
 In addition, developers can instrument their application code with ASP.NET trace events. Failed Request Tracing will include the trace event information with the Failed Request Trace reports for a centralized troubleshooting experience. Failed Request Tracing helps any Web administrator, including Web hosters who manage many sites. A Web hoster can use Failed Request tracing for a single site or multiple sites to monitor for errors.
   

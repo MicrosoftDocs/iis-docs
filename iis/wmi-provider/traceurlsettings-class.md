@@ -1,5 +1,6 @@
 ---
 title: "TraceUrlSettings Class"
+description: The TraceUrlSettings class specifies tracing for specific types of requests.
 ms.date: "10/07/2016"
 ms.assetid: c16f8710-8787-48f5-ab0c-ada65e56d237
 ---

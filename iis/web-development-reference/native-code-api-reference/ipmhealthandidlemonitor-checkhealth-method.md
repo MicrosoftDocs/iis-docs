@@ -1,5 +1,6 @@
 ---
 title: "IPmHealthAndIdleMonitor::CheckHealth Method"
+description: The IPmHealthAndIdleMonitor::CheckHealth method enables the worker process framework to request the health status of a protocol manager.
 ms.date: "10/07/2016"
 ms.assetid: e9c579f1-b2ae-c57a-8ee3-edf3949beef5
 ---
