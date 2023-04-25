@@ -180,10 +180,12 @@ This case study shows how to diagnose common errors encountered in Visual Studio
 
 To collect the screenshots and errors below, we used a new ASP.NET MVC3 project. The destination server was a clean install of Windows Server 2008 R2 SP1 with IIS. No additional configuration was done.
 
+#### 1. Cannot Connect to The Server
 The first error you are likely to encounter will look something like this in Visual Studio's output window. To make it easier to read, the full text of the message is reproduced below the screenshot.
 
 ![Screenshot of the Error List page. An error description is shown.](troubleshooting-common-problems-with-web-deploy/_static/image5.png)
 
+```
 Web deployment task failed.(Could not connect to the destination computer ("deployserver"). On the destination computer, make sure that Web Deploy is installed and that the required process ("The Web Management Service") is started.)
 
 This error indicates that you cannot connect to the server. Make sure the service URL is correct, firewall and network settings on this computer and on the server computer are configured properly, and the appropriate services have been started on the server.
@@ -195,6 +197,7 @@ Could not connect to the destination computer ("deployserver"). On the destinati
 Unable to connect to the remote server
 
 A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.0.211:8172
+```
 
 **Is the web management service installed?** On the destination server, open IIS Manager and select the machine name node. In the Features view, scroll down to the Management section and look for these Icons:
 
@@ -208,15 +211,18 @@ If they are not there, you need to install the Web Management Service.
 
 Note that after you install the Management Service, you will need to start it, as it is not started automatically.
 
+#### 2. (403) Forbidden
 Once the Web Management Service is installed, Visual studio may show this error:
 
 ![Screenshot of an error page in Visual Studio. An error description is shown.](troubleshooting-common-problems-with-web-deploy/_static/image9.png)
 
+```
 Web deployment task failed.(Could not connect to the destination computer ("deployserver") using the specified process ("The Web Management Service") because the server did not respond. Make sure that the process ("The Web Management Service") is started on the destination computer.)
 
 Could not connect to the destination computer ("deployserver") using the specified process ("The Web Management Service") because the server did not respond. Make sure that the process ("The Web Management Service") is started on the destination computer.
 
 The remote server returned an error: (403) Forbidden.
+```
 
 **Is the Web Management Service configured to allow remote connections?** Start IIS Manager and double-click the Management Service icon, and verify that "Enable Remote Connections" is checked. You must stop the service to make changes, so be sure to restart it.
 
@@ -226,10 +232,12 @@ The remote server returned an error: (403) Forbidden.
 
 If you are using a 3rd party firewall, make sure inbound TCP connections on port 8172 are allowed.
 
+#### 3. (404) Not Found
 If Visual Studio is able to contact the Management Service, the error message changes:
 
 ![Screenshot of the Visual Studio Error List page. A description of an error is shown.](troubleshooting-common-problems-with-web-deploy/_static/image13.png)
 
+```
 Web deployment task failed.(Could not connect to the destination computer ("deployserver"). On the destination computer, make sure that Web Deploy is installed and that the required process ("The Web Management Service") is started.)
 
 The requested resource does not exist, or the requested URL is incorrect.
@@ -239,6 +247,7 @@ Error details:
 Could not connect to the destination computer ("deployserver"). On the destination computer, make sure that Web Deploy is installed and that the required process ("The Web Management Service") is started.
 
 The remote server returned an error: (404) Not Found.
+```
 
 If you look in the Web Management Service log under `%SystemDrive%\Inetpub\logs\WMSvc` on the destination server, you will see an entry that looks like
 
@@ -252,10 +261,12 @@ If you look in the Web Management Service log under `%SystemDrive%\Inetpub\logs\
 
 Click **Next** to complete the Wizard.
 
+#### 4. (401) Unauthorized
 Once Web Deploy and the Web Management Service are correctly configured, you will need to set up Web Management Service delegation rules to allow users to update content. For permissions issues, there are several different errors you may see in Visual Studio. For example:
 
 ![Screenshot of the Visual Studio Error List page. An error appears along with a description of the error.](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
 
+```
 Web deployment task failed.(Connected to the destination computer ("deployserver") using the Web Management Service, but could not authorize. Make sure that you are using the correct user name and password, that the site you are connecting to exists, and that the credentials represent a user who has permissions to access the site.)
 
 Make sure the site name, user name, and password are correct. If the issue is not resolved, please contact your local or server administrator.
@@ -265,6 +276,7 @@ Error details:
 Connected to the destination computer ("deployserver") using the Web Management Service, but could not authorize. Make sure that you are using the correct user name and password, that the site you are connecting to exists, and that the credentials represent a user who has permissions to access the site.
 
 The remote server returned an error: (401) Unauthorized.
+```
 
 In the Web Management Service log, you will see:
 
@@ -278,11 +290,14 @@ The highlighted HTTP status in the Visual Studio output is an Access Denied erro
 
 You will need to setup delegation for this user per the instructions at [https://www.iis.net/learn/publish/using-web-deploy/configure-the-web-deployment-handler](../using-web-deploy/configure-the-web-deployment-handler.md)
 
+#### 5. Operation Not Authorized
 If the account is able to log in, but has not been granted the rights needed to publish the content, you will see
 
 ![Screenshot of the Visual Studio Error List page with an error description. The web deployment task has failed.](troubleshooting-common-problems-with-web-deploy/_static/image17.png)
 
+```
 Web deployment task failed. (Unable to perform the operation ("Create Directory") for the specified directory ("bin"). This can occur if the server administrator has not authorized this operation for the user credentials you are using.
+```
 
 The WMSvc log will show HTTP 200 responses for these requests. The most likely cause is file system permissions. Web Deploy will also write events to the "Microsoft Web Deploy" service log. To view it, open the event viewer and go to "Applications and Services Logs" -&gt;"Microsoft Web Deploy".
 
@@ -307,6 +322,7 @@ This particular error does not give you much to go on, but the picture becomes m
 
 From this, we can see that User1 does not have rights to set security information. In this case, the user does not have Modify permissions on the content. Granting "Change Permissions" to the content resolves the problem.
 
+#### 6. Others
 If you cannot browse a .NET 4.0 application after it has been successfully published, it could be that .NET 4.0 has not been registered correctly with IIS. Other symptoms are that .NET 4.0 is installed, but there are no .NET 4.0 application pools or handler mappings in IIS. This happens when .NET 4.0 is installed before IIS was installed. To fix this problem, start an elevated command prompt and run this command:
 
 [!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample7.cmd)]
