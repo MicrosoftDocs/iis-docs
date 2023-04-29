@@ -24,7 +24,7 @@ This troubleshooter will help you analyze IIS log files in an effort to determin
 
 The following blog which discusses how to perform this on IIS 7+:
 
-[Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.com/b/benjaminperkins/archive/2012/08/01/modifying-iis-7-log-data-in-windows-2008.aspx)
+[Modifying IIS 7 log data in Windows 2008](https://www.thebestcsharpprogrammerintheworld.com/2012/05/25/modifying-iis-7-log-data-in-windows-2008/)
 
 ## Scenario
 
@@ -150,8 +150,8 @@ Screenshots of a command window containing LogParser queries and their results m
 > [!NOTE]
 > In order to get charting to work via LogParser, you will need to install the Office Web Components. The following articles explain how to do this:
 >
-> - [Advanced Log Parser Charts Part 3 - Missing Office Web Components for Charting](https://blogs.msdn.com/b/robert_mcmurray/archive/2012/05/25/advanced-log-parser-charts-part-3-missing-office-web-components-for-charting.aspx)
-> - [Charting with LogParser](https://blogs.msdn.com/b/carloc/archive/2008/08/07/charting-with-logparser.aspx)
+> - [Advanced Log Parser Charts Part 3 - Missing Office Web Components for Charting](https://blogs.iis.net/robert_mcmurray/advanced-log-parser-charts-part-3-missing-office-web-components-for-charting)
+> - [Charting with LogParser](https://www.cloudnotes.io/charting-with-logparser/)
 
 *Figure 9* shows the LogParser query to create a 3D pie chart containing the number of requests and their associated HTTP Status code. I removed status 200, as those are successful. What I am after here are the requests which are something other than OK.
 
@@ -213,7 +213,7 @@ The end result is a Pie chart, *Figure 18* that is similar to that shown previou
 ![Screenshot of a three-dimensional pie chart showing request status.](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/_static/image17.png)  
 **Figure 18: A Pie chart using a CSV file similar to Figure 10**
 
-There are so many options and possibilities for analyzing and presenting the results of that analysis using LogParser. For some additional tips and examples, check out these [articles](https://blogs.msdn.com/b/robert_mcmurray/archive/tags/logparser/) written by Robert McMurray. There is also a very useful help file and many prewritten scripts provided within the installation package of LogParser. The next section will discuss this and other topics in more detail.
+There are so many options and possibilities for analyzing and presenting the results of that analysis using LogParser. For some additional tips and examples, check out these [articles](https://blogs.iis.net/robert_mcmurray/Tags/LogParser) written by Robert McMurray. There is also a very useful help file and many prewritten scripts provided within the installation package of LogParser. The next section will discuss this and other topics in more detail.
 
 ## Help
 
@@ -249,8 +249,8 @@ Here are the links which are referred to in this article, plus a few links with 
 
 - **Microsoft LogParser**: <http://www.bing.com/search?q=logparser> or <https://www.microsoft.com/download/details.aspx?id=24659>
 - [The HTTP status codes in IIS 7.0, IIS 7.5, and IIS 8.0](https://support.microsoft.com/kb/943891)
-- [Modifying IIS 7 log data in Windows 2008](https://blogs.msdn.microsoft.com/benjaminperkins/2012/07/31/modifying-iis-7-log-data-in-windows-2008/)
-- [Modifying IIS 6 log data in Windows 2003](https://blogs.msdn.microsoft.com/benjaminperkins/2012/05/02/modifying-iis-6-log-data-in-windows-2003/)
+- [Modifying IIS 7 log data in Windows 2008](https://www.thebestcsharpprogrammerintheworld.com/2012/05/25/modifying-iis-7-log-data-in-windows-2008/)
+- [Modifying IIS 6 log data in Windows 2003](https://www.thebestcsharpprogrammerintheworld.com/2011/12/22/modifying-iis-6-log-data-in-windows-2003/)
 - [Configuring HTTP Compression in IIS 7](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771003(v=ws.10))
 - [Charting with LogParser using OWC](https://www.cloudnotes.io/charting-with-logparser/)
 - [Robert McMurray's Blogs on LogParser](https://blogs.iis.net/robert_mcmurray/Tags/LogParser)
