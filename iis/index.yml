@@ -1,0 +1,90 @@
+### YamlMime:Landing
+
+title: IIS documentation
+summary: Learn about IIS.
+
+metadata:
+  title: IIS documentation
+  description: Learn about IIS.
+  ms.topic: landing-page
+  ms.date: 06/15/2023
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+  # Card
+  - title: Learn about IIS
+    linkLists:
+      - linkListType: download
+        links:
+          - text: Download .NET
+            url: https://dotnet.microsoft.com/download
+      - linkListType: overview
+        links:
+          - text: What is .NET?
+            url: https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet
+      - linkListType: concept
+        links:
+          - text: .NET Core support policy
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: whats-new
+        links:
+          - text: What's new in .NET 8
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+
+  # Card
+  - title: Install .NET
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Select which .NET version to use
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: how-to-guide
+        links:
+          - text: Install .NET SDK
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: reference
+        links:
+          - text: .NET SDK and runtime dependencies
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+
+  # Card
+  - title: Get started with .NET
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: .NET tech community forums
+            url: https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
+      - linkListType: video
+        links:
+          - text: "Tutorial: Hello World in 10 minutes"
+            url: https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro
+      - linkListType: tutorial
+        links:
+          - text: Create a Hello World app in Visual Studio Code
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: concept
+        links:
+          - text: Port from .NET Framework to .NET
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: deploy
+        links:
+          - text: App publishing
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+
+  # Card
+  - title: Runtime libraries
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Runtime libraries overview
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: concept
+        links:
+          - text: Dependency injection in .NET
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+      - linkListType: tutorial
+        links:
+          - text: Implement a custom configuration provider
+            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+
