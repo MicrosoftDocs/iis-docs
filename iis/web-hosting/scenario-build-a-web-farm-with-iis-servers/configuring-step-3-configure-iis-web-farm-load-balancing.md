@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
-Now that IIS is installed all web servers. All web servers share both contend and configuration. And IIS and ARR are installed on your load balancing server. It is time to configure ARR and turn your servers into a functioning web farm.
+Now that IIS is installed on all web servers. All web servers share both content and configuration. And IIS and ARR are installed on your load balancing server. It is time to configure ARR and turn your servers into a functioning web farm.
 
 When you are done with these tasks, record your design decisions before going on to [Step 4: Configure SSL Central Certificate Store](configuring-step-4-configure-ssl-central-certificate-store.md).
 
