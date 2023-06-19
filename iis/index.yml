@@ -13,158 +13,93 @@ metadata:
 
 landingContent:
   # Card
-  - title: Administration
+  - title: Troubleshooting
     linkLists:
-      - linkListType: download
-        links:
-          - text: Download .NET
-            url: https://dotnet.microsoft.com/download
-      - linkListType: overview
-        links:
-          - text: What is .NET?
-            url: https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet
       - linkListType: concept
         links:
-          - text: .NET Core support policy
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: whats-new
+          - text: Troubleshooting Failed Requests Using Tracing in IIS 7
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis
+          - text: Web Deploy error codes
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes
+          - text: IIS Express Overview
+            url: https://docs.microsoft.com/en-us/iis/extensions/introduction-to-iis-express/iis-express-overview
+          - text: Troubleshooting Common Problems with Web Deploy
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy
+          - text: IIS 8.0 Application Initialization
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization
+          - text: Troubleshooting Web Deploy problems with Visual Studio
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
+
+  # Card
+  - title: Administration
+    linkLists:
+      - linkListType: concept
         links:
-          - text: What's new in .NET 8
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: Configure Request Filtering in IIS
+            url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/configure-request-filtering-in-iis
+          - text: IIS 8.0 Dynamic IP Address Restrictions
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
+          - text: IISAdministration PowerShell Cmdlets
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
 
   # Card
   - title: ASP.NET Integration
     linkLists:
-      - linkListType: overview
+      - linkListType: concept
         links:
-          - text: Select which .NET version to use
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: how-to-guide
-        links:
-          - text: Install .NET SDK
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: reference
-        links:
-          - text: .NET SDK and runtime dependencies
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: Configuring FTP User Isolation in IIS 7
+            url: https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7
 
   # Card
   - title: Configuration
     linkLists:
-      - linkListType: get-started
-        links:
-          - text: .NET tech community forums
-            url: https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
-      - linkListType: video
-        links:
-          - text: "Tutorial: Hello World in 10 minutes"
-            url: https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro
-      - linkListType: tutorial
-        links:
-          - text: Create a Hello World app in Visual Studio Code
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Port from .NET Framework to .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: deploy
-        links:
-          - text: App publishing
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: Introduction to ApplicationHost.config
+            url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
 
   # Card
   - title: FTP for IIS
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: "IIS 8.0 Server Name Indication (SNI): SSL Scalability"
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 
   # Card
   - title: PHP & IIS
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: Install and Configure PHP
+            url: https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php
+          - text: Creating Outbound Rules for URL Rewrite Module
+            url: https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/creating-outbound-rules-for-url-rewrite-module
 
   # Card
   - title: Security in IIS
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: "Configuring Step 1: Install IIS and ASP.NET Modules"
+            url: https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules
 
   # Card
   - title: ARR & Url Rewrite
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
+          - text: Reverse Proxy with URL Rewrite v2 and Application Request Routing
+            url: https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing
+          - text: Setting HTTP request headers and IIS server variables
+            url: https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables
+          - text: Configure IIS 7 Output Caching
+            url: https://docs.microsoft.com/en-us/iis/manage/managing-performance-settings/configure-iis-7-output-caching
 
   # Card
   - title: Developing for IIS
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
       - linkListType: concept
         links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-
-  # Card
-  - title: Troubleshooting
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Runtime libraries overview
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: concept
-        links:
-          - text: Dependency injection in .NET
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-      - linkListType: tutorial
-        links:
-          - text: Implement a custom configuration provider
-            url: https://dotnet.microsoft.com/platform/support/policy/dotnet-core
-
+          - text: Configuring Remote Administration and Feature Delegation in IIS 7
+            url: https://docs.microsoft.com/en-us/iis/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
