@@ -22,7 +22,7 @@ IIS Express is a lightweight, self-contained version of IIS optimized for develo
 
 The most current version of the product is IIS 7.5 Express. Most of you will want to use IIS Express with a web authoring tool that provides an integrated experience.
 
-IIS Express is automatically included with [WebMatrix](https://www.microsoft.com/web/webmatrix "Microsoft WebMatrix"), a new and complete tool that greatly simplifies web development. Visual Studio 2010 SP1 allows IIS Express used as the web server instead of Cassini. You can also manually configure Visual Studio 2008.
+IIS Express is automatically included with [WebMatrix](https://learn.microsoft.com/en-us/iis/develop/using-webmatrix/webmatrix-overview), a new and complete tool that greatly simplifies web development. Visual Studio 2010 SP1 allows IIS Express used as the web server instead of Cassini. You can also manually configure Visual Studio 2008.
 
 Use one of the following links to install IIS 7.5 Express using Web Platform Installer. Either of them will allow you to use IIS Express with Visual Studio.
 
