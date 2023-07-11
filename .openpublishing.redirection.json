@@ -3,7 +3,7 @@
     {
       "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md",
       "redirect_url": "https://learn.microsoft.com/previous-versions/troubleshoot/iis/troubleshoot-failed-requests-using-tracing-in-iis-7",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "iis/application-frameworks/building-and-running-aspnet-applications/index.md",
