@@ -280,11 +280,11 @@
       "redirect_url": "/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85",
       "redirect_document_id": false
     },
-    // {
-    //   "source_path": "iis/index.md",
-    //   "redirect_url": "/iis/get-started",
-    //   "redirect_document_id": false
-    // },
+    {
+      "source_path": "iis/index.md",
+      "redirect_url": "/iis/get-started",
+      "redirect_document_id": false
+    },
     {
       "source_path": "iis/install/index.md",
       "redirect_url": "/iis/install/installing-iis-7",
