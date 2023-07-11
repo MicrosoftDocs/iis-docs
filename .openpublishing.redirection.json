@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md",
+      "redirect_url": "https://learn.microsoft.com/previous-versions/troubleshoot/iis/troubleshoot-failed-requests-using-tracing-in-iis-7",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "iis/application-frameworks/building-and-running-aspnet-applications/index.md",
       "redirect_url": "/iis/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication",
       "redirect_document_id": false
@@ -275,11 +280,11 @@
       "redirect_url": "/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85",
       "redirect_document_id": false
     },
-    {
-      "source_path": "iis/index.md",
-      "redirect_url": "/iis/get-started",
-      "redirect_document_id": false
-    },
+    // {
+    //   "source_path": "iis/index.md",
+    //   "redirect_url": "/iis/get-started",
+    //   "redirect_document_id": false
+    // },
     {
       "source_path": "iis/install/index.md",
       "redirect_url": "/iis/install/installing-iis-7",
