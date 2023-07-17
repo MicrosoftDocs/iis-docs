@@ -1,6 +1,136 @@
 {
   "redirections": [
     {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md",
+      "redirect_url": "/previous-versions/troubleshoot/iis/troubleshoot-failed-requests-using-tracing-in-iis-7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/troubleshooting-web-deploy/web-deploy-error-codes.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/www-authentication-authorization/troubleshooting-ssl-related-issues-server-certificate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-arr-using-frt-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/application-request-routing/troubleshooting-502-errors-in-arr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/deployment-migration/troubleshoot-common-problems-with-web-deploy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/deployment-migration/troubleshoot-web-deploy-problems-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/troubleshooting-iis-performance-issues-or-application-errors-using-logparser.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-iis-perf-issues-or-app-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-high-cpu-in-iis-app-pool",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-http-400-errors-in-iis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-native-memory-leak-iis-7x-application-pool",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/iis-extensions-tools-addons/troubleshooting-problems-with-microsoft-web-platform-installer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-failed-requests-using-tracing-in-iis-85",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/security-issues/troubleshooting-forms-authentication.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/www-authentication-authorization/troubleshooting-forms-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-php-with-failed-request-tracing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-502-2-bad-gateway-error-in-cgi-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/www-administration-management/troubleshooting-iis-7x-installation-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/application-request-routing/troubleshooting-cache-items-arr-v2-or-later",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/how-to-enable-frt-for-unc-hosting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy.md",
+      "redirect_url": "/previous-versions/troubleshoot/iis/troubleshooting-web-deploy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-classic-asp-errors-with-frt",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues.md",
+      "redirect_url": "/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/troubleshooting-view-state-is-invalid-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/www-modules-features/troubleshooting-iis-compression-issues-in-iis6-iis7x",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration.md",
+      "redirect_url": "/troubleshoot/developer/webapps/iis/www-administration-management/diagnosing-failures-with-remote-administration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content.md",
+      "redirect_url": "/previous-versions/troubleshoot/iis/troubleshoot-smb-netbios-fcn-limit-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md",
+      "redirect_url": "/previous-versions/troubleshoot/iis/webmatrix-publish-and-download-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "iis/application-frameworks/building-and-running-aspnet-applications/index.md",
       "redirect_url": "/iis/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication",
       "redirect_document_id": false
