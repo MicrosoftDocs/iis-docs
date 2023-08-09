@@ -93,10 +93,10 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/develop/windows-web-application-gallery/frequently-asked-questions
 
   # Card
-  - title: FTP for IIS
-    linkLists:
-      - linkListType: concept
-        links:
+  # - title: FTP for IIS
+  #   linkLists:
+  #     - linkListType: concept
+  #       links:
 
   # Card
   - title: PHP & IIS
