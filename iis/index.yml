@@ -29,18 +29,34 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization
           - text: Troubleshooting Web Deploy problems with Visual Studio
             url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
+          - text: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
+
+  # Card
+  - title: Getting started
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Getting started with the Microsoft IIS Administration API.
+            url: https://docs.microsoft.com/en-us/iis-administration/getting-started
+          - text: IIS Modules Overview
+            url: https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview
+          - text: IIS 8.0 Dynamic IP Address Restrictions
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
+          - text: Configure Request Filtering in IIS
+            url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/configure-request-filtering-in-iis
 
   # Card
   - title: Administration
     linkLists:
       - linkListType: concept
         links:
-          - text: Configure Request Filtering in IIS
-            url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/configure-request-filtering-in-iis
-          - text: IIS 8.0 Dynamic IP Address Restrictions
-            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
+          - text: Getting started with the Microsoft IIS Administration API.
+            url: https://docs.microsoft.com/en-us/iis-administration/getting-started
           - text: IISAdministration PowerShell Cmdlets
             url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
+          - text: "IIS 8.0 Server Name Indication (SNI): SSL Scalability"
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 
   # Card
   - title: ASP.NET Integration
@@ -58,13 +74,29 @@ landingContent:
           - text: Introduction to ApplicationHost.config
             url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
 
+    # Card
+  - title: Installation
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Installing IIS 8 on Windows Server 2012
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012
+          - text: Installing and Configuring Web Deploy on IIS 7
+            url: https://docs.microsoft.com/en-us/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy
+
+# Card
+  - title: Deployment
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: "Windows Web App Gallery FAQ"
+            url: https://docs.microsoft.com/en-us/iis/develop/windows-web-application-gallery/frequently-asked-questions
+
   # Card
   - title: FTP for IIS
     linkLists:
       - linkListType: concept
         links:
-          - text: "IIS 8.0 Server Name Indication (SNI): SSL Scalability"
-            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 
   # Card
   - title: PHP & IIS
@@ -93,6 +125,8 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing
           - text: Setting HTTP request headers and IIS server variables
             url: https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables
+          - text: Using the Application Request Routing Module
+            url: https://docs.microsoft.com/en-us/iis/extensions/planning-for-arr/using-the-application-request-routing-module
           - text: Configure IIS 7 Output Caching
             url: https://docs.microsoft.com/en-us/iis/manage/managing-performance-settings/configure-iis-7-output-caching
 
@@ -101,5 +135,8 @@ landingContent:
     linkLists:
       - linkListType: concept
         links:
+          - text: Running IIS Express without Administrative Privileges
+            url: https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/running-iis-express-without-administrative-privileges
           - text: Configuring Remote Administration and Feature Delegation in IIS 7
             url: https://docs.microsoft.com/en-us/iis/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
+
