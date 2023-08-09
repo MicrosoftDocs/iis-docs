@@ -31,6 +31,8 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
           - text: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
             url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
+          - text: Troubleshooting High CPU in an IIS 7.x Application Pool
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool
 
   # Card
   - title: Getting started
@@ -45,6 +47,9 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
           - text: Configure Request Filtering in IIS
             url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/configure-request-filtering-in-iis
+          - text: Use the Web Deployment Tool
+            url: https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/use-the-web-deployment-tool
+
 
   # Card
   - title: Administration
@@ -129,6 +134,8 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/extensions/planning-for-arr/using-the-application-request-routing-module
           - text: Configure IIS 7 Output Caching
             url: https://docs.microsoft.com/en-us/iis/manage/managing-performance-settings/configure-iis-7-output-caching
+          - text: Install Application Request Routing
+            url: https://docs.microsoft.com/en-us/iis/extensions/installing-application-request-routing-arr/install-application-request-routing
 
   # Card
   - title: Developing for IIS
