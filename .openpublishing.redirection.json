@@ -709,6 +709,16 @@
       "source_path": "iis/get-started/whats-new-in-iis-10-version-1809/index.md",
       "redirect_url": "/iis/get-started/whats-new-in-iis-10-version-1809/new-features-introduced-in-iis-10-1809",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/installing-infrastructure-components/dhcp-server.md",
+      "redirect_url": "/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "iis/web-hosting/installing-infrastructure-components/dns-server.md",
+      "redirect_url": "/windows-server/networking/dns/quickstart-install-configure-dns-server",
+      "redirect_document_id": false
     }
   ]
 }

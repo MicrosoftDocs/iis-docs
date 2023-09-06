@@ -1565,9 +1565,9 @@
         - name: Deploying Updates with WSUS 3.0
           href: web-hosting/installing-infrastructure-components/deploying-updates-with-wsus-30.md
         - name: DHCP Server
-          href: web-hosting/installing-infrastructure-components/dhcp-server.md
+          href: /windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server?toc=/windows-server/networking/toc.json&bc=/windows-server/breadcrumbs/toc.json
         - name: DNS Server
-          href: web-hosting/installing-infrastructure-components/dns-server.md
+          href: /windows-server/networking/dns/quickstart-install-configure-dns-server?toc=/windows-server/networking/toc.json&bc=/windows-server/breadcrumbs/toc.json
         - name: Introduction to Deploying Windows Server 2008 R2
           href: web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2.md
         - name: System Center Solutions (VMM &amp; SCOM)
