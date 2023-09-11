@@ -28,11 +28,9 @@ The Dynamic IP Restrictions module includes these key features:
 
 ## Installing the DIPR module
 
-You can use the Web Platform Installer (Web PI) to install the Dynamic IP Restrictions module, or you can download it from the download page.
+You can try the following methods to install the Dynamic IP Restrictions:
 
-### Getting Dynamic IP Restrictions
-
-[Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)   
+From the Select Role Services screen, navigate to Web Server (IIS) > Web Server > Security. Check the IP and Domain Restrictions check box and click Next to continue.
   
 ### Prerequisites
 
