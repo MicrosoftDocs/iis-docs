@@ -67,7 +67,7 @@ void 			traceMessage( const wchar_t *msg);
 
 #else
 #define CLEAR_TRACE_WIN(MSG) ;
-// Don't nuke Logging
+// Don't remove Logging
 #define LOG_ERR(X) TRC_MSG("FATAL Error " << X << " function : " << __FUNCTION__ )
 #define LOG_ERR_HR(X, HRX) LOG_ERR("HR = " << std::hex << HRX << " " << X)
 
