@@ -491,6 +491,8 @@ To add a new collection element, prefix the element path notation with a plus si
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample81.cmd)]
 
+To delete a collection element, prefix the element path notation with a minus sign, **-**:
+
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample82.cmd)]
 
 ### Controlling Location of Configuration
