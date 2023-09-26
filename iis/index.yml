@@ -13,6 +13,29 @@ metadata:
 
 landingContent:
   # Card
+  - title: Configuration
+    linkLists:
+      - linkListType: architecture
+        links:
+          - text: Introduction to ApplicationHost.config
+            url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
+      - linkListType: how-to-guide
+        links:
+          - text: Create a Backup with appcmd
+            url: https://docs.microsoft.com/en-us/iis/web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd
+          - text: Export a Package through IIS Manager
+            url: https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/export-a-package-through-iis-manager
+          - text: Import a Package through IIS Manager
+            url: https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/import-a-package-through-iis-manager
+          - text: Using the WebDAV Redirector
+            url: https://docs.microsoft.com/en-us/iis/publish/using-webdav/using-the-webdav-redirector
+          - text: Configure IIS 7 Output Caching
+            url: https://docs.microsoft.com/en-us/iis/manage/managing-performance-settings/configure-iis-7-output-caching
+      - linkListType: reference
+        links:
+          - text: Feature to Configuration Reference
+            url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/feature-to-configuration-reference
+
   - title: Administration
     linkLists:
       - linkListType: concept
@@ -55,6 +78,86 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7
 
   # Card
+  - title: ASP.NET Integration
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Configuring Step 1 - Install IIS and ASP.NET Modules
+            url: https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules
+          - text: Planning Step 1 - Plan IIS Web Server and ASP.NET Modules Installation
+            url: https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-1-plan-iis-web-server-and-asp-net-modules-installation
+      - linkListType: reference
+        links:
+          - text: IIS 8.0 ASP.NET Configuration Management
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management
+
+  # Card
+  - title: Security in IIS
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: IIS 8.0 Dynamic IP Address Restrictions
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
+          - text: Build a Custom IIS 7.0 Server
+            url: https://docs.microsoft.com/en-us/iis/get-started/planning-for-security/build-a-custom-iis-server
+
+  # Card
+  - title: Developing for IIS
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Develop a Native C\C++ Module for IIS 7.0
+            url: https://docs.microsoft.com/en-us/iis/develop/runtime-extensibility/develop-a-native-cc-module-for-iis
+          - text: Using Encryption to Protect Passwords
+            url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/using-encryption-to-protect-passwords
+          - text: Configuring Remote Administration and Feature Delegation in IIS 7
+            url: https://docs.microsoft.com/en-us/iis/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
+      - linkListType: reference
+        links:
+          - text: IIS Modules Overview
+            url: https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview
+          - text: CRUD (Create, Read, Update, Delete)
+            url: https://docs.microsoft.com/en-us/iis-administration/api/crud
+          - text: Running IIS Express without Administrative Privileges
+            url: https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/running-iis-express-without-administrative-privileges
+      - linkListType: tutorial
+        links:
+          - text: How to Add Tracing to IIS 7.0 Managed Modules
+            url: https://docs.microsoft.com/en-us/iis/develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules
+          - text: How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider
+            url: https://docs.microsoft.com/en-us/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider
+          - text: Managing Worker Processes and AppDomains in IIS 7 with WMI
+            url: https://docs.microsoft.com/en-us/iis/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi
+
+  # Card
+  - title: Troubleshooting
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
+          - text: Troubleshooting Failed Requests Using Tracing in IIS 7
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis
+          - text: IIS 8.0 Application Initialization
+            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization
+          - text: How to Use HTTP Detailed Errors in IIS 7.0
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis
+          - text: Troubleshooting Common Problems with Web Deploy
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy
+          - text: Troubleshooting Web Deploy problems with Visual Studio
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
+          - text: Troubleshooting High CPU in an IIS 7.x Application Pool
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool
+          - text: Troubleshooting IIS Compression issues in IIS6/IIS7.x
+            url: https://docs.microsoft.com/en-us/iis/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x
+      - linkListType: reference
+        links:
+          - text: Web Deploy error codes
+            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes
+          - text: General IIS 7.0 Questions
+            url: https://docs.microsoft.com/en-us/iis/web-hosting/frequently-asked-questions-faq/general-iis7-questions
+
+  # Card
   - title: ARR & Url Rewrite
     linkLists:
       - linkListType: how-to-guide
@@ -85,72 +188,6 @@ landingContent:
             url: https://docs.microsoft.com/en-us/iis/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-1-plan-iis-web-farm-infrastructure
           - text: Troubleshooting Cache Items ARR V2
             url: https://docs.microsoft.com/en-us/iis/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2
-
-  # Card
-  - title: ASP.NET Integration
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Configuring Step 1 - Install IIS and ASP.NET Modules
-            url: https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules
-          - text: Planning Step 1 - Plan IIS Web Server and ASP.NET Modules Installation
-            url: https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-1-plan-iis-web-server-and-asp-net-modules-installation
-      - linkListType: reference
-        links:
-          - text: IIS 8.0 ASP.NET Configuration Management
-            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management
-
-  # Card
-  - title: Configuration
-    linkLists:
-      - linkListType: architecture
-        links:
-          - text: Introduction to ApplicationHost.config
-            url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig
-      - linkListType: how-to-guide
-        links:
-          - text: Create a Backup with appcmd
-            url: https://docs.microsoft.com/en-us/iis/web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd
-          - text: Export a Package through IIS Manager
-            url: https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/export-a-package-through-iis-manager
-          - text: Import a Package through IIS Manager
-            url: https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/import-a-package-through-iis-manager
-          - text: Using the WebDAV Redirector
-            url: https://docs.microsoft.com/en-us/iis/publish/using-webdav/using-the-webdav-redirector
-          - text: Configure IIS 7 Output Caching
-            url: https://docs.microsoft.com/en-us/iis/manage/managing-performance-settings/configure-iis-7-output-caching
-      - linkListType: reference
-        links:
-          - text: Feature to Configuration Reference
-            url: https://docs.microsoft.com/en-us/iis/get-started/planning-your-iis-architecture/feature-to-configuration-reference
-
-  # Card
-  - title: Developing for IIS
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Develop a Native C\C++ Module for IIS 7.0
-            url: https://docs.microsoft.com/en-us/iis/develop/runtime-extensibility/develop-a-native-cc-module-for-iis
-          - text: Using Encryption to Protect Passwords
-            url: https://docs.microsoft.com/en-us/iis/manage/configuring-security/using-encryption-to-protect-passwords
-          - text: Configuring Remote Administration and Feature Delegation in IIS 7
-            url: https://docs.microsoft.com/en-us/iis/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
-      - linkListType: reference
-        links:
-          - text: IIS Modules Overview
-            url: https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview
-          - text: CRUD (Create, Read, Update, Delete)
-            url: https://docs.microsoft.com/en-us/iis-administration/api/crud
-          - text: Running IIS Express without Administrative Privileges
-            url: https://docs.microsoft.com/en-us/iis/extensions/using-iis-express/running-iis-express-without-administrative-privileges
-      - linkListType: tutorial
-        links:
-          - text: How to Add Tracing to IIS 7.0 Managed Modules
-            url: https://docs.microsoft.com/en-us/iis/develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules
-          - text: How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider
-            url: https://docs.microsoft.com/en-us/iis/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider
-          - text: Managing Worker Processes and AppDomains in IIS 7 with WMI
-            url: https://docs.microsoft.com/en-us/iis/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi
 
   # Card
   - title: FTP for IIS
@@ -185,41 +222,3 @@ landingContent:
         links:
           - text: Best Practices for PHP on the Microsoft Web Platform
             url: https://docs.microsoft.com/en-us/iis/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform
-
-  # Card
-  - title: Security in IIS
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: IIS 8.0 Dynamic IP Address Restrictions
-            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
-          - text: Build a Custom IIS 7.0 Server
-            url: https://docs.microsoft.com/en-us/iis/get-started/planning-for-security/build-a-custom-iis-server
-
-  # Card
-  - title: Troubleshooting
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
-          - text: Troubleshooting Failed Requests Using Tracing in IIS 7
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis
-          - text: IIS 8.0 Application Initialization
-            url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization
-          - text: How to Use HTTP Detailed Errors in IIS 7.0
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis
-          - text: Troubleshooting Common Problems with Web Deploy
-            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy
-          - text: Troubleshooting Web Deploy problems with Visual Studio
-            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
-          - text: Troubleshooting High CPU in an IIS 7.x Application Pool
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool
-          - text: Troubleshooting IIS Compression issues in IIS6/IIS7.x
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x
-      - linkListType: reference
-        links:
-          - text: Web Deploy error codes
-            url: https://docs.microsoft.com/en-us/iis/publish/troubleshooting-web-deploy/web-deploy-error-codes
-          - text: General IIS 7.0 Questions
-            url: https://docs.microsoft.com/en-us/iis/web-hosting/frequently-asked-questions-faq/general-iis7-questions
