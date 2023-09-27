@@ -136,8 +136,8 @@ landingContent:
         links:
           - text: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
             url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
-          - text: Troubleshooting Failed Requests Using Tracing in IIS 7
-            url: https://docs.microsoft.com/en-us/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis
+          - text: Troubleshooting Failed Requests Using Tracing in IIS 8.5
+            url: https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-failed-requests-using-tracing-in-iis-85
           - text: IIS 8.0 Application Initialization
             url: https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization
           - text: How to Use HTTP Detailed Errors in IIS 7.0
