@@ -30,7 +30,7 @@ class SettingsSection : ConfigurationSection
 |Name|Description|  
 |----------|-----------------|  
 |`HttpWebRequest`|An [HttpWebRequestSettings](../wmi-provider/httpwebrequestsettings-class.md) value that customizes Web request parameters.|  
-|`Ipv6`|An [Ipv6Settings](../wmi-provider/ipv6settings-class.md) value that specifies whether members of the [System.Net.Dns](https://go.microsoft.com/fwlink/?LinkId=70922) class return Internet Protocol version 6 (IPv6) addresses.|  
+|`Ipv6`|An [Ipv6Settings](../wmi-provider/ipv6settings-class.md) value that specifies whether members of the [System.Net.Dns](/dotnet/api/system.net.dns) class return Internet Protocol version 6 (IPv6) addresses.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`PerformanceCounters`|A [PerformanceCountersSettings](../wmi-provider/performancecounterssettings-class.md) value that enables or disables network performance counters.|  
@@ -64,4 +64,4 @@ class SettingsSection : ConfigurationSection
  [ServicePointManagerSettings Class](../wmi-provider/servicepointmanagersettings-class.md)   
  [SocketSettings Class](../wmi-provider/socketsettings-class.md)   
  [WebProxyScriptSettings Class](../wmi-provider/webproxyscriptsettings-class.md)   
- [System.Net.Dns Class](https://go.microsoft.com/fwlink/?LinkId=70922)
+ [System.Net.Dns Class](/dotnet/api/system.net.dns)

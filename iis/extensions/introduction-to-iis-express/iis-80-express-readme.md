@@ -27,7 +27,7 @@ Internet Information Services (IIS) 8.0 Express is a free, simple and self-conta
 
 You can install IIS 8.0 Express through the [Microsoft Download Center](https://www.microsoft.com/download/) by using the following URL:
 
-- **IIS 8.0 Express**: `https://www.microsoft.com/download/details.aspx?id=34679`
+- **IIS 8.0 Express**
 
 #### Upgrading from IIS 7.5 Express
 
@@ -78,7 +78,7 @@ IIS 8.0 Express supports the following new features:
     - IIS 8.0 Express supports changing the user's home directory, which is mapped to the %IIS\_USER\_HOME% variable in configuration. By default this path is located at %UserProfile%\Documents\IISExpress, but users can change this by setting a CustomUserHome registry property in HKCU\Software\Microsoft\IISExpress, or by specifying the "/userhome" parameter when launching iisexpress.exe.
 - ***WebSocket Support***
 
-    - IIS 8.0 Express supports writing WebSocket applications. For more information, see the [WebSocket](https://go.microsoft.com/fwlink/p/?LinkID=227812) protocol specification or the [System.Net.WebSockets Namespace](https://msdn.microsoft.com/library/hh159285) topic on Microsoft's MSDN website.
+    - IIS 8.0 Express supports writing WebSocket applications. For more information, see the WebSocket protocol specification or the [System.Net.WebSockets Namespace](/dotnet/api/system.net.websockets) topic on Microsoft's MSDN website.
 - ***AppCmd Support for editing multiple configuration files***
 
     - The AppCmd utility now supports a "/AppHostConfig" parameter, which makes it possible to use AppCmd to edit multiple ApplicationHost.config files and not just the primary configuration file.  
@@ -125,4 +125,4 @@ There is a known application compatibility issue when you are using IIS 8.0 Expr
 You can learn more about IIS 8.0 Express and related products using the following links:
 
 - IIS.net
-- [Microsoft.com/web](https://www.microsoft.com/web)
+- Microsoft.com/web

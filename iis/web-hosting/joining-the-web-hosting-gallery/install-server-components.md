@@ -13,7 +13,8 @@ by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 
-This article will walk you through installing the required server components to be **WebMatrix compatible** and fulfill the **Spotlight requirements** for the [Web Hosting Gallery](https://www.microsoft.com/web/hosting "Web Hosting Gallery").
+This article will walk you through installing the required server components to be **WebMatrix compatible** and fulfill the **Spotlight requirements** for the Web Hosting Gallery.
+
 ## Prerequisites
 
 We recommend having two separate machines both running Windows Server 2008 R2:
@@ -27,7 +28,6 @@ You will need both machines connected to the Internet to download required serve
 
 To simplify the installation of the **web server** components, we highly recommend installing **Web Platform Installer**, also known as **WebPI**, on both machines. WebPI is a tool that automates the installation of a vast majority of server components and other products for Microsoft's Web Platform.
 
-**Get WebPI 3.0 here:** [https://go.microsoft.com/fwlink/?LinkID=194638](https://go.microsoft.com/fwlink/?LinkID=194638)
 
 If you prefer to not use WebPI, all of the required components can also be installed by hand or via your own provisioning scripts.
 
@@ -39,7 +39,7 @@ If you have **WebPI 3.0** installed, the following link will **automatically lau
 
 > [Install Spotlight Components using Web PI](https://www.microsoft.com/web/gallery/install.aspx?appid=WHP_Recommended "Install Components using Web PI") (you will be able to review the list of products before installation begins)
 
-(This list of components completely fulfills the **Spotlight requirements** from the [Web Hosting Gallery](https://www.microsoft.com/web/hosting/home).)
+(This list of components completely fulfills the **Spotlight requirements** from the Web Hosting Gallery.)
 
 Note that many of the web applications that can be published by WebMatrix have **PHP/MySQL** components as requirements. To ensure you are able to support those applications, you can use this alternative link to install **everything above plus PHP/MySQL** related components:
 

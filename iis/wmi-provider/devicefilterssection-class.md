@@ -33,7 +33,7 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
   
 |Name|Description|  
 |----------|-----------------|  
-|`DeviceFilters`|An array of [DeviceFilter](../wmi-provider/devicefilter-class.md) values that determine mobile device types or mobile browser capabilities for the [System.Web.Mobile.MobileCapabilities](https://go.microsoft.com/fwlink/?LinkId=69325) class.|  
+|`DeviceFilters`|An array of [DeviceFilter](../wmi-provider/devicefilter-class.md) values that determine mobile device types or mobile browser capabilities for the [System.Web.Mobile.MobileCapabilities](/dotnet/api/system.web.mobile.mobilecapabilities) class.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
@@ -60,4 +60,4 @@ class DeviceFiltersSection : ConfigurationSectionWithCollection
 ## See Also  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [DeviceFilter Class](../wmi-provider/devicefilter-class.md)   
- [System.Web.Mobile.MobileCapabilities Class](https://go.microsoft.com/fwlink/?LinkId=69325)
+ [System.Web.Mobile.MobileCapabilities Class](/dotnet/api/system.web.mobile.mobilecapabilities)

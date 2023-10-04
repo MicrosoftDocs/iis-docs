@@ -35,7 +35,7 @@ The FTP service for IIS is a key component of the Windows Web Platform. It provi
   - Detailed error responses when logging on locally to an FTP server
   - Detailed information when using Event Tracing for Windows (ETW), which provides additional information for troubleshooting
 
-The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-IIS/Secure%20and%20Simplified%20Web%20Publishing%20using%20IIS7.wmv "video") provides an overview and demonstrations of several of the features in FTP 7.0.
+The following video provides an overview and demonstrations of several of the features in FTP 7.0.
 
 <a id="\_Toc216253265"></a><a id="\_Toc216238183"></a>
 

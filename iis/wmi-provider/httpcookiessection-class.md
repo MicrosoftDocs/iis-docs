@@ -30,7 +30,7 @@ class HttpCookiesSection : ConfigurationSection
 |Name|Description|  
 |----------|-----------------|  
 |`Domain`|An optional read/write `string` value that sets the cookie domain name.|  
-|`HttpOnlyCookies`|A read/write `boolean` value. `true` if output of the [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies property](/dotnet/api/system.web.configuration.httpcookiessection.httponlycookies) in Internet Explorer 6 SP1 or later is enabled; otherwise, `false`. The default is `false`.<br /><br /> This property can help mitigate cross-site scripting threats that result in stolen cookies. When a cookie that has `HttpOnlyCookies` set to `true` is received by a compliant browser, it is inaccessible to client-side script. Support for this type of cookie was added in Internet Explorer 6 SP1. For more information about possible attacks and how `HttpOnlyCookies` can help mitigate them, see [Mitigating Cross-Site Scripting with HTTP-Only Cookies](https://go.microsoft.com/fwlink/?LinkId=41580).|  
+|`HttpOnlyCookies`|A read/write `boolean` value. `true` if output of the [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies property](/dotnet/api/system.web.configuration.httpcookiessection.httponlycookies) in Internet Explorer 6 SP1 or later is enabled; otherwise, `false`. The default is `false`.<br /><br /> This property can help mitigate cross-site scripting threats that result in stolen cookies. When a cookie that has `HttpOnlyCookies` set to `true` is received by a compliant browser, it is inaccessible to client-side script. Support for this type of cookie was added in Internet Explorer 6 SP1. For more information about possible attacks and how `HttpOnlyCookies` can help mitigate them, see Mitigating Cross-Site Scripting with HTTP-Only Cookies.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`RequireSSL`|An optional read/write `boolean` value. `true` if Secure Sockets Layer (SSL) communication is required; otherwise, `false`. The default is `false`. **Note:**  This setting is overridden by any other feature that exposes the `RequireSSL` property.|  
@@ -55,5 +55,5 @@ class HttpCookiesSection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [httpCookies Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67197)   
- [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies Property](https://go.microsoft.com/fwlink/?LinkId=67198)
+ [httpCookies Element (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-4.0/ms228159(v=vs.100))   
+ [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies Property](/dotnet/api/system.web.configuration.httpcookiessection.httponlycookies)

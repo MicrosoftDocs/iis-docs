@@ -1,5 +1,6 @@
 ---
 title: "IHttpRequest::SetUrl Method"
+description: The IHttpRequest::SetUrl method modifies the request URL.
 ms.date: "10/07/2016"
 ms.assetid: 75496bd2-a34d-a635-6e39-dbc974e92390
 ---

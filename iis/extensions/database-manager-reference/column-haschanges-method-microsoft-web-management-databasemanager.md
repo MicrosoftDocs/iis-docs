@@ -1,5 +1,6 @@
 ---
 title: Column.HasChanges Method  (Microsoft.Web.Management.DatabaseManager)
+description: The Column.HasChanges method retrieves whether the column has specific changes.
 TOCTitle: HasChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.HasChanges(Microsoft.Web.Management.DatabaseManager.ColumnChanges)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.column.haschanges(v=VS.90)

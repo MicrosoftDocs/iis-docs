@@ -33,7 +33,7 @@ virtual HANDLE GetFileHandle(
 - Implementers that reference a non-Internet file return INVALID_HANDLE_VALUE.  
   
 ## Notes for Implementers  
- [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call the [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=86428) function on the `HANDLE` when it is no longer needed.  
+ [IHttpFileInfo](../../web-development-reference/native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call the [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) function on the `HANDLE` when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpFileInfo` implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` clients must not call `CloseHandle` on the returned `HANDLE` when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `HANDLE`; otherwise, an access violation will be thrown or the data will become invalid.  

@@ -79,7 +79,7 @@ The above condition is required because the User Account Control (UAC) security 
 
 AppCmd.exe is a new command-line tool for administering IIS 7.0, and additional information about using this utility with IIS and WebDAV is located in the following document:
 
-- [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
+- [How to manage WebDAV using AppCmd](/iis/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd)
 
 The following steps will walk you through using the AppCmd utility to configure WebDAV's property settings.
 
@@ -150,5 +150,5 @@ To remove the property provider for a web site, use syntax as in the following:
 For additional information about using WebDAV, please see the following articles:
 
 - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
-- [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
+- [How to manage WebDAV using AppCmd](/iis/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd)
 - [How to configure WebDAV and Request Filtering](https://go.microsoft.com/fwlink/?LinkId=108321)

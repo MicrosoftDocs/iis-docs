@@ -1,5 +1,5 @@
 ---
-title: Tracing.Trace Method (String, String, String, TraceArea, TraceLevel, String, Object[]) (Microsoft.Web.Media.Diagnostics)
+title: Trace Method (String, String, String, TraceArea, TraceLevel, String, Object[]) (Microsoft.Web.Media.Diagnostics)
 description: Describes the Tracing.Trace method and details the method's syntax, parameters, Silverlight Information, and permissions. 
 TOCTitle: Trace Method (String, String, String, TraceArea, TraceLevel, String, Object[])
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.Trace(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String,System.Object[])

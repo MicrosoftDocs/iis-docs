@@ -1,5 +1,6 @@
 ---
 title: "PagesSection Class"
+description: The PagesSection class represents the <pages> section of a Web.config file.
 ms.date: "10/07/2016"
 ms.assetid: a6bf3790-3458-c37b-92b3-ce50c3ee59ba
 ---
@@ -116,4 +117,4 @@ class PagesSection : ConfigurationSectionWithCollection
  [TagMapInfo Class](../wmi-provider/tagmapinfo-class.md)   
  [TagPrefixElement Class](../wmi-provider/tagprefixelement-class.md)   
  [TagPrefixInfo Class](../wmi-provider/tagprefixinfo-class.md)   
- [CompilationMode Enumeration](https://go.microsoft.com/fwlink/?LinkId=69310)
+ [CompilationMode Enumeration](/dotnet/api/system.web.ui.compilationmode)

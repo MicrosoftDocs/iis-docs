@@ -1,5 +1,6 @@
 ---
 title: StoredProcedure Methods (Microsoft.Web.Management.DatabaseManager)
+description: Outlines the StoredProcedure methods and provides a table listing the name and description for various method types.
 TOCTitle: StoredProcedure Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.StoredProcedure
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.storedprocedure_methods(v=VS.90)

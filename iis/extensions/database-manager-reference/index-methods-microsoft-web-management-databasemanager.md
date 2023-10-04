@@ -1,5 +1,6 @@
 ---
 title: Index Methods (Microsoft.Web.Management.DatabaseManager)
+description: Outlines the Index methods and provides a table listing the name and description for various method types.
 TOCTitle: Index Methods
 ms:assetid: Methods.T:Microsoft.Web.Management.DatabaseManager.Index
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.databasemanager.index_methods(v=VS.90)

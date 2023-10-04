@@ -40,7 +40,7 @@ class IdentitySection : ConfigurationSection
  This class contains no subclasses.  
   
 ## Remarks  
- The `Password` and `UserName` properties are stored in clear text in the configuration file. Although IIS does not transmit .config files in response to a user agent request, users who have proper credentials on the domain that contains the server can read .config files. For information about storing the `UserName` and `Password` values in encrypted form in the registry, see [identity Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67195).  
+ The `Password` and `UserName` properties are stored in clear text in the configuration file. Although IIS does not transmit .config files in response to a user agent request, users who have proper credentials on the domain that contains the server can read .config files. For information about storing the `UserName` and `Password` values in encrypted form in the registry, see [identity Element (ASP.NET Settings Schema)](/dotnet/framework/configure-apps/file-schema/wcf/identity).  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -58,4 +58,4 @@ class IdentitySection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [identity Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67195)
+ [identity Element (ASP.NET Settings Schema)](/dotnet/framework/configure-apps/file-schema/wcf/identity)

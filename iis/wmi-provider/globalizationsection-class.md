@@ -29,7 +29,7 @@ class GlobalizationSection : ConfigurationSection
   
 |Name|Description|  
 |----------|-----------------|  
-|`Culture`|An optional read/write `string` value that specifies the default culture for processing incoming Web requests. For valid culture strings, see the [System.Globalization.CultureInfo](https://go.microsoft.com/fwlink/?LinkId=67222) class. You can also set this property to "auto". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
+|`Culture`|An optional read/write `string` value that specifies the default culture for processing incoming Web requests. For valid culture strings, see the [System.Globalization.CultureInfo](/dotnet/api/system.globalization.cultureinfo) class. You can also set this property to "auto". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`EnableBestFitResponseEncoding`|An optional read/write `boolean` value. `true` if the best-fit character encoding for a response is enabled; otherwise, `false`. The default is `false`. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`EnableClientBasedCulture`|An optional read/write `boolean` value. `true` if the `Culture` and `UICulture` properties should be based on the `AcceptLanguage` header field value that is sent by the client browser; otherwise, `false`. The default is `false`.<br /><br /> The `AcceptLanguage` header specifies the language that a given browser prefers. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`FileEncoding`|An optional read/write `string` value that specifies the default encoding for .aspx, .asmx, and .asax file parsing. Unicode and UTF-8 files that are saved with the byte order mark prefix are automatically recognized, regardless of the value of this property. **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
@@ -40,7 +40,7 @@ class GlobalizationSection : ConfigurationSection
 |`ResponseEncoding`|An optional read/write `string` value that specifies the content encoding of responses. The default is "UTF-8". **Note:**  The default encoding is specified in the globalization section of the Machine.config file that was created when the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] was installed. If response encoding is not specified in a Machine.config or Web.config file, encoding is set to the default Regional Options locale for the computer. This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`ResponseHeaderEncoding`|An optional read/write `string` value that specifies the header encoding of HTTP responses. The default is "UTF-8". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
-|`UICulture`|An optional read/write `string` value that specifies the default culture for processing locale-dependent resource searches. For valid culture strings, see the [System.Globalization.CultureInfo](https://go.microsoft.com/fwlink/?LinkId=67222) class. You can also set this property to "auto". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
+|`UICulture`|An optional read/write `string` value that specifies the default culture for processing locale-dependent resource searches. For valid culture strings, see the [System.Globalization.CultureInfo](/dotnet/api/system.globalization.cultureinfo) class. You can also set this property to "auto". **Note:**  This property is new in the [!INCLUDE[dnprdnlong](../wmi-provider/includes/dnprdnlong-md.md)].|  
   
 ## Subclasses  
  This class contains no subclasses.  
@@ -60,7 +60,7 @@ class GlobalizationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Globalization.CultureInfo Class](https://go.microsoft.com/fwlink/?LinkId=67222)   
+ [System.Globalization.CultureInfo Class](/dotnet/api/system.globalization.cultureinfo)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [globalization Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=69316)   
- [System.Web.Configuration.GlobalizationSection Properties](https://go.microsoft.com/fwlink/?LinkId=69317)
+ globalization Element (ASP.NET Settings Schema)   
+ [System.Web.Configuration.GlobalizationSection Properties](/dotnet/api/system.web.configuration.globalizationsection)

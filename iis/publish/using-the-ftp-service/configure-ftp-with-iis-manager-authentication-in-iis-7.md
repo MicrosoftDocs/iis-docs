@@ -44,10 +44,10 @@ You must install the following items to complete the procedures in this article:
 2. The new FTP service. 
 
     - If you are using Windows Server 2008 R2, the new FTP service is installed as feature of the IIS role in Server Manager.
-    - If you are using Windows Server 2008 you can download and install the FTP service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
+    - If you are using Windows Server 2008 you can download and install the FTP service from the [www.iis.net/](https://www.iis.net/) web site using one of the following links: 
 
-        - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
-        - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
+        - FTP 7.5 for IIS 7.0 (x64)
+        - FTP 7.5 for IIS 7.0 (x86)
 
 The "Network Service" account is used by the COM process that handles authentication extensibility; therefore, you must grant the account specific permissions to certain folders to enable this form of authentication. To grant the "Network Service" account "read" permissions to the IIS "config" folder:
 

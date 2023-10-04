@@ -1,5 +1,6 @@
 ---
 title: JobDefinition.DeleteCanceledFiles Property (Microsoft.Web.Media.TransformManager)
+description: Learn how JobDefinition.DeleteCanceledFiles gets and sets a value that indicates whether asset files for canceled jobs should be deleted during the maintenance cycle.
 TOCTitle: DeleteCanceledFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.jobdefinition.deletecanceledfiles(v=VS.90)

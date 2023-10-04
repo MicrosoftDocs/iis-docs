@@ -72,5 +72,5 @@ class OutputCacheProfile : CollectionElement
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)   
  [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)   
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   
- [@ OutputCache](https://go.microsoft.com/fwlink/?LinkId=69307)   
- [Caching Multiple Versions of User Control Output](https://go.microsoft.com/fwlink/?LinkId=69308)
+ [@ OutputCache](/dotnet/api/system.web.caching.outputcache)   
+ [Caching Multiple Versions of User Control Output](/previous-versions/aspnet/k4he1ds5(v=vs.100))

@@ -1,6 +1,6 @@
 ---
 title: HpcScheduler.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
-description: Describes the SubmitJob method and provides the method's namespace, assembly, syntax, parameters, and return value.
+description: Understand the SubmitJob method and how it provides the method's namespace, assembly, syntax, parameters, and return value.
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SubmitJob(Microsoft.Web.Media.TransformManager.JobManifest)
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.media.transformmanager.hpcscheduler.submitjob(v=VS.90)
@@ -26,7 +26,7 @@ topic_type:
 product_family_name: VS
 ---
 
-# SubmitJob Method
+# HpcScheduler.SubmitJob Method
 
 Submits a job manifest to the HPC scheduler.
 
