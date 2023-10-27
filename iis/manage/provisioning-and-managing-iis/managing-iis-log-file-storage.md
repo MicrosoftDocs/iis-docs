@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 by [Jim van de Erve](https://twitter.com/jimvde)
 
-You can manage the amount of server disk space that Internet Information Services (IIS) log files consume by using compression, remote storage, scripted deletion, and an IIS Log Cleaner Tool.
+You can manage the amount of server disk space that Internet Information Services (IIS) log files consume by using compression, remote storage, and scripted deletion.
 
 ## Overview
 
@@ -20,7 +20,6 @@ The log files that IIS generates can, over time, consume a large amount of disk 
 - [Enable folder compression](#00)
 - [Move the log folder to a remote system](#01)
 - [Delete old log files by script.](#02)
-- [Delete old log files by the IIS Log File Cleaner.](#03)
 
 The above mitigations are described in the sections below. You may also want to do the following to control disk usage:
 
@@ -108,45 +107,3 @@ You can automate the task of deleting log files by script by creating a Windows 
     ![Task Scheduler dialog box](managing-iis-log-file-storage/_static/image9.jpg)
 9. Navigate to the folder that the script ran on, and verify that the appropriate log files were deleted.
 10. Navigate back to the Task Scheduler, right-click on the task, and click **End** so the status returns to **Ready** and the task is ready for scheduled runs.
-
-<a id="03"></a>
-## Delete Old Log Files by the IIS Log Cleaner Tool
-
-IIS Log Cleaner is a simple tool for enacting a log retention policy for IIS. The tool runs in the background (once every hour) and cleans up the IIS log folder automatically, deleting log files older than a maximum age that you set. The log files are moved to the Recycle bin to avoid potential data loss. You can also run the cleaning process manually, and you can pause the automated process.
-
-This is a third-party tool that is not supported by Microsoft.
-
-### Cleaner Tool Files
-
-The IIS Log Cleaner consists of the following:
-
-- The **IISLogCleaner.exe** application that executes the log cleaning process. The application is stored in a local folder that you select when you download the tool.
-- The **settings.txt** file that specifies the log file folder to be cleaned and the maximum age at which a log file is deleted. The default settings are the default IIS log folder (ex: `c:\inetpub\logs\LogFiles`), and a maximum age (in days) of 30. These settings are configurable by either opening settings.txt in a text editor or by using a command in the notification area (see below). The settings.txt file is created automatically when IISLogCleaner.exe is first run. The settings.txt file is stored in the same folder as IISLogCleaner.exe.
-- The **IIS Log Cleaner** icon in the notification area (labeled IIS). Right-clicking the IIS notification icon displays a list of action commands and status settings: 
-
-    - **Clean Now** executes the cleaning process immediately instead of on a timed basis.
-    - **Paused** stops the automated cleaning process. If **Paused** is selected, you can click it to re-start the automated cleaning process.
-    - **Settings** enables you to configure the settings in settings.txt.
-    - **Exit** to exit the tool.
-
-### Use the Cleaner Tool
-
-To download, configure, and run the IIS Log Cleaner tool, proceed as follows:
-
-1. Download the executable by executing http://www.erezbenari.com/apps/IISLogCleaner.exe and saving the executable in a folder of your choice on the server (there is no installer).
-2. Click through the security popups.
-3. Execute IISLogCleaner.exe in the folder. This creates the settings.txt file in the same folder.
-4. To make changes to the settings.txt file, open the file with a text editor, or right-click the **IIS** icon in the notification area, and then click **Settings**.
-5. If you change the settings file, exit the tool by right-clicking the IIS notification icon and then clicking **Exit**, and then launch the tool again.
-6. Right-click the **IIS** icon in the notifications area, and then click **Paused** to un-pause the application.
-    ![IIS Cleaner Tool](managing-iis-log-file-storage/_static/image10.jpg)
-7. The application will run once an hour and move log files older than the specified period to the recycle bin. To run the cleaning tool manually, right-click the **IIS** icon in the notifications area, and then click **Clean Now**.
-8. Optionally, adjust the recycle bin size to control how much log data is kept before being purged from the recycle bin by the operating system.
-
-Usage notes:
-
-- The application is set by default for the IIS root log folder, so it will scan the logs for all sites (all subfolders). If you want it to clean up only a specific site, point it at the site's folder.
-- The application will only move files with the .LOG extension.
-- The application is not a service, so the user must remain logged on to use it.
-- The application requires that the logged-on user have write permissions to the log folder to work correctly.
-- If the system is restarted, the application needs to be re-run. You can drag it to your Startup folder to make it run on boot.
