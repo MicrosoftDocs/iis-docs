@@ -1,5 +1,0 @@
-<!-- Displayed if MySQL database selected -->
-<parameter  name="MySQL Database Server"
-            description="Enter Hostname, server name or IP. This is usually localhost"" defaultValue="localhost"
-            tags="MySQL,DbServer" >
-</parameter>

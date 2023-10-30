@@ -1,5 +1,0 @@
-<connectionStrings>
-  <clear />
-  <add name="SQLiteDbConnection" connectionString="Data Source=|DataDirectory|application_data.sqlite;Version=3;" />
-  <add name="SqlServerDbConnection" connectionString="Data Source=(local);Initial Catalog=Application;Integrated Security=true;Application Name=Application" />
-</connectionStrings>

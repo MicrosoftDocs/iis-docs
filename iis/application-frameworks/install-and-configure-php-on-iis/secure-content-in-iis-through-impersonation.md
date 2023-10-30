@@ -39,6 +39,5 @@ To modify the permissions settings on files and folders, use the Windows Explore
 
 ## Links for Further Information
 
-- [Application Packaging Guide for the Windows Web Application Gallery](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md).
 - [Understanding the Built-In User and Group Accounts in IIS 7 and Above](../../get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md).
 - [Access Control Lists](/windows/win32/secauthz/access-control-lists).

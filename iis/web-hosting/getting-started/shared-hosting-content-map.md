@@ -85,7 +85,6 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
     - [MySQL Server](../../application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md)
 - [Guide to Deploy FTP and Publish with VWD](../configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md)
 - [Publishing Components: FTP 7.5, WebDAV, and FPSE](../configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse.md)
-- [Web Platform Installer](../configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)
 
 <a id="Verify"></a>
 
@@ -167,4 +166,3 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
 - [Creating, Updating, and Publishing Web applications with Visual Web Developer](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md)
 - [Setting up Delegated Administration, Server and Client Experiences](../using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md)
 - [Using Delegated Administration](../using-shared-hosting-environments/using-delegated-administration.md)
-- [Web Platform Installer](../configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)

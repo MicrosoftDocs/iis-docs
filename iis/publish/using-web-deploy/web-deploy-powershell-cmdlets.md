@@ -47,7 +47,7 @@ Example: This example gets a credential object and then passes it to the new pub
 
 ## II. Backup
 
-All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx) and [custom packages](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md). If no path is specified the backups are created in a folder named 'Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
+All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx). If no path is specified the backups are created in a folder named 'Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
 
 All these cmdlets will work locally by default unless remote server information is provided by passing in a publish settings file for SourcePublishSettings parameter.
 

@@ -18,9 +18,6 @@ Until now, PHP developers may have written their applications on Windows, reapin
 The following articles provide guidance for software developers using the Microsoft Web Platform:
 
 - [Provision Web Sites for PHP Applications Using Managed Code](provision-web-sites-for-php-applications-using-managed-code.md). This article describes how to implement the provisioning aspect of features such as File Transfer Protocol (FTP) capabilities, creation of virtual directories, and the amount of disk space through C#.
-- [Package an Application for the Windows® Web Application Gallery](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md). This article describes how to prepare your application for the [Windows Web App Gallery](https://www.microsoft.com/web/gallery/).
-- [Reference for the Web Application Package](../../develop/windows-web-application-gallery/reference-for-the-web-application-package.md). This article provides in-depth information to support the guidance in [Package an Application for the Windows Web Application Gallery](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md).
-- [Integrate the Windows Web Application Gallery in to a Control Panel](../../develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel.md). This article describes how you can integrate the Windows Web Application Gallery applications in your application.
 - [Enable PHP Syntax Highlighting](enable-php-syntax-highlighting-on-iis-7-and-above.md). You can configure Internet Information Services 7 (IIS 7) and above to output syntax-highlighted source code for PHP files stored on the Web server or Web site. This feature can be very useful in development environments because you can quickly make the source code accessible to other team members.
 
 Additional resources for developers can be found in:

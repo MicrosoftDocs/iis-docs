@@ -25,15 +25,9 @@ At the base of the Microsoft Web Platform is Windows Server 2008, Windows Server
 
 - [Install Windows Server 2008 and Windows Server 2008 R2](../../install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2.md)
 
-## Use Microsoft Web PI to Install the Microsoft Web Platform
-
-The easiest way to install the rest of the Microsoft Web Platform is by using the Microsoft® Web Platform Installer (Web PI), a free tool that makes it easy to get the latest components of the Microsoft Web Platform, including Internet Information Services (IIS), Microsoft® SQL Server® Express, the Microsoft® .NET Framework, and Microsoft® Visual Web Developer. Web PI also makes it easy to install and run the most popular free Web applications for blogging, content management, and more with the built-in [Windows Web Application Gallery](https://www.microsoft.com/web/gallery/ "Windows Web Application Gallery").
-
-- [Use the Microsoft Web Platform Installer](../../install/web-platform-installer/using-the-microsoft-web-platform-installer.md).
-
 ## Install the Microsoft Web Platform Manually
 
-It is also possible to install IIS, PHP, and a database manually.
+It is possible to install IIS, PHP, and a database manually.
 
 1. **Install and configure IIS.** IIS is the Web server role in the Windows Server operating systems. The following articles provide guidance in installing IIS:  
 

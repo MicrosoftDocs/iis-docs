@@ -157,7 +157,7 @@ Next Steps:
 
 • Proceed to configure the database server machine.
 
-• Ensure that the Web Deploy 2.0 (or higher) component is [configured to allow delegated deployments](../joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md). This is critical, as it is the primary method that allows your customers to publish to your servers with WebMatrix.
+• Ensure that the Web Deploy 2.0 (or higher) component is configured to allow delegated deployments. This is critical, as it is the primary method that allows your customers to publish to your servers with WebMatrix.
 
 <!-- TODO: Add link to the ASP.NET Shared Hosting Guide -->
 
@@ -170,7 +170,7 @@ Create a second guest as the Database Server Virtual Machine
 
     1. Download the SQL Server 2008 R2 Web media from the SPLA site, find the link in the email you received confirming your SPLA agreement.
     2. [Required] Install SQL Server 2008 R2 Web on the Database VM. Follow the installation wizard instructions. WebPI supports installing [Microsoft SQL Server 2008 Express edition](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=SqlExpress), but we do not recommend this product in shared hosting environments, you should use the full version instead on a separate server.
-    3. Install MySQL, use the following related [article](../joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support.md) to ensure the installation supports WebMatrix.
+    3. Install MySQL.
 
 ## Configure your Content Server VM
 
