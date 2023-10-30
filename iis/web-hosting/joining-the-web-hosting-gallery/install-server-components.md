@@ -96,9 +96,7 @@ Here is the full list of which components are installed by those links, so you c
 - [Required] [FTP Publishing Service](https://www.iis.net/downloads/microsoft/ftp "FTP Publishing Service")
 
     - To ensure the option of FTP exists for maximum compatibility
-- [Optional] [Media Services](https://www.iis.net/overview/choice/integratedmediaplatform "Media Services") 4.0
 
-    - For IIS Smooth Streaming support
 - [Required] [IIS Remote Management](https://www.iis.net/downloads/microsoft/iis-manager "IIS Manager for Remote Administration") Service
 
     - To allow your users to manage aspects of their accounts using the IIS console

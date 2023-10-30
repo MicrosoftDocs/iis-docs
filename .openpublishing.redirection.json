@@ -286,26 +286,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/extensions/smooth-streaming-client/index.md",
-      "redirect_url": "/iis/extensions/smooth-streaming-client/smooth-streaming-client",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/extensions/smooth-streaming-management-rest-services/index.md",
-      "redirect_url": "/iis/extensions/smooth-streaming-management-rest-services/iis-smooth-streaming-management-rest-services",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/extensions/smooth-streaming-manifest-structure/index.md",
-      "redirect_url": "/iis/extensions/smooth-streaming-manifest-structure/iis-smooth-streaming-manifest-structure",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/extensions/transform-manager/index.md",
-      "redirect_url": "/iis/extensions/transform-manager/iis-transform-manager",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/extensions/troubleshooting-application-request-routing/index.md",
       "redirect_url": "/iis/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2",
       "redirect_document_id": false
@@ -333,11 +313,6 @@
     {
       "source_path": "iis/extensions/web-platform-installer/index.md",
       "redirect_url": "/iis/extensions/web-platform-installer/microsoft-web-platform-installer",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/extensions/web-playlists/index.md",
-      "redirect_url": "/iis/extensions/web-playlists/iis-web-playlists",
       "redirect_document_id": false
     },
     {
@@ -483,61 +458,6 @@
     {
       "source_path": "iis/manage/working-with-server-core/index.md",
       "redirect_url": "/iis/manage/working-with-server-core/using-iis-with-windows-server-core",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/bit-rate-throttling/index.md",
-      "redirect_url": "/iis/media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/iis-media-services/index.md",
-      "redirect_url": "/iis/media/iis-media-services/edge-caching-for-media-delivery",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/index.md",
-      "redirect_url": "/iis/media/windows-media-services",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/live-smooth-streaming-events/index.md",
-      "redirect_url": "/iis/media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/live-smooth-streaming/index.md",
-      "redirect_url": "/iis/media/live-smooth-streaming/live-smooth-streaming-tutorial-introduction",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/on-demand-smooth-streaming/index.md",
-      "redirect_url": "/iis/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/smooth-streaming/index.md",
-      "redirect_url": "/iis/media/smooth-streaming/smooth-streaming-deployment-guide",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/streaming-media-conference-workshops/index.md",
-      "redirect_url": "/iis/media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/transform-manager/index.md",
-      "redirect_url": "/iis/media/transform-manager/transform-manager-tasks-gallery",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/web-playlists/index.md",
-      "redirect_url": "/iis/media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/media/windows-media-services/index.md",
-      "redirect_url": "/iis/media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server",
       "redirect_document_id": false
     },
     {

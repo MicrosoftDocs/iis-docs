@@ -104,7 +104,7 @@ If you have WebPI 3.0 installed, the following link will automatically launch it
 
    Here is the list of Products to install:
 
-   1. IIS 7 or above Web Server including the following modules: Web Deploy 2.0, FTP, Media Services 3.0, IIS Remote Management Services, CGI, URL Rewrite 2.0, SQL Server 2008 Management Objects (SMO), Windows Cache 1.1 for PHP, MySQL Connector, Microsoft SQL Server Driver for PHP 2.0
+   1. IIS 7 or above Web Server including the following modules: Web Deploy 2.0, FTP, IIS Remote Management Services, CGI, URL Rewrite 2.0, SQL Server 2008 Management Objects (SMO), Windows Cache 1.1 for PHP, MySQL Connector, Microsoft SQL Server Driver for PHP 2.0
    2. Frameworks: .NET 3.5 SP1, .NET 4.0, ASP.NET, ASP.NET MVC, and PHP 5.2.14 or higher
 
 5. Review the license page and accept the terms to continue with the install:
@@ -140,7 +140,6 @@ IIS Modules:
 
 - [Required] [Microsoft Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy). Web Deploy is a client-server tool that simplifies the deployment of sites and applications to IIS servers. While WebMatrix supports web application publishing using both FTP and Web Deploy protocols, the latter providers a faster, more secure, and richer experience. It also lets the user deploy whole apps, including databases, ensuring they work both locally and remotely. It is the highlight of the WebMatrix publishing story.
 - [Required] [FTP Publishing Service](https://www.iis.net/downloads/microsoft/ftp). To ensure the option of FTP exists for maximum compatibility
-- [Optional] [Media Services](https://www.iis.net/overview/choice/integratedmediaplatform). For IIS Smooth Streaming support
 - [Required] [IIS Remote Management Service](https://www.iis.net/downloads/microsoft/iis-manager). To allow your users to manage aspects of their accounts using the IIS console. Also a dependency for Web Deploy to function properly
 - [Required] [FastCGI for IIS](https://www.iis.net/downloads/microsoft/fastcgi-for-iis). Provides a much faster CGI implementation than the default
 - [Required] [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite). A dependency for many applications to function correctly
