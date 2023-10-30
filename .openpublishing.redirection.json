@@ -281,8 +281,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/extensions/working-with-urlscan/index.md",
-      "redirect_url": "/iis/extensions/working-with-urlscan/urlscan-setup",
+      "source_path": "iis/extensions/web-playlists/index.md",
+      "redirect_url": "/iis/extensions/web-playlists/iis-web-playlists",
       "redirect_document_id": false
     },
     {

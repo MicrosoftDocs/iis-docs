@@ -1,2 +1,0 @@
-[AlwaysAllowedQueryStrings]
-session<1

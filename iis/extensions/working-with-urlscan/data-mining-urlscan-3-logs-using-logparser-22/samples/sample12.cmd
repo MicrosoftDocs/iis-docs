@@ -1,1 +1,0 @@
-logparser.exe "SELECT c-ip, COUNT(*) AS c-request-count FROM UrlScan.*.log GROUP BY c-ip ORDER BY c-request-count DESC" -i:w3c

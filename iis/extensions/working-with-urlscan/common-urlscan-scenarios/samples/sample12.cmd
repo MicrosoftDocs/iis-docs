@@ -1,4 +1,0 @@
-[AllowVerbs]
-GET
-HEAD
-POST
