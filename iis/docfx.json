@@ -38,8 +38,10 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "Standard",
+      "feedback_help_link_type": "get-help-at-qna",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/85/windows-iis",
       "breadcrumb_path": "/iis/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "uhfHeaderId": "MSDocsHeader-Windows",
       "_navPath": "/foo",
       "_navRel": "/foo",

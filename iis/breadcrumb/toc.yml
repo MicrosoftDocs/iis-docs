@@ -1,7 +1,3 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
-  items:
-  - name: IIS
-    tocHref: /iis/
-    topicHref: /iis
+- name: IIS
+  tocHref: /iis/
+  topicHref: /iis/index
