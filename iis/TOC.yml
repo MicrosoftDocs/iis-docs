@@ -676,8 +676,6 @@
           href: publish/using-web-deploy/changing-authentication-mode-for-a-given-website.md
         - name: Parameterization improvements in Web Deploy V3
           href: publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3.md
-        - name: dbDacFx Provider for Incremental Database publishing
-          href: publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing.md
     - name: Troubleshooting Web Deploy
       items: 
         - name: Troubleshooting Web Deploy
