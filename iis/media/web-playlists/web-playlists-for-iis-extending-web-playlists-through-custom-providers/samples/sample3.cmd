@@ -1,1 +1,0 @@
-midl /I<Path to Web Playlists Include> playlistprovider.idl /tlb playlistprovider.tlb /x64

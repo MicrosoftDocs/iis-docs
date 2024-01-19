@@ -105,7 +105,7 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
 
    - Configure the redirection destination to be the exact destination as entered.
    - Configure the redirection destination to be limited to the destination URL's root folder, not subfolders.
-   - Configure the HTTP status code, which can be one of these three options:
+   - Configure the HTTP status code, which can be one of these options:
 
      - **301 Permanent**
      - **302 Found**

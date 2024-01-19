@@ -30,9 +30,9 @@ When using either the **IsolateRootDirectoryOnly** or **IsolateAllDirectories** 
 > | User Account Types | Home Directory Syntax |
 > | --- | --- |
 > | Anonymous users | %*FtpRoot*%\LocalUser\Public |
-> | Local Windows user accounts (Requires Basic authentication) | %*FtpRoot*%\LocalUser\%*UserName*% |
-> | Windows domain accounts (Requires Basic authentication) | %*FtpRoot*%\%UserDomain%\%*UserName*% |
-> | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\%*UserName*% |
+> | Local Windows user accounts (Requires Basic authentication) | %*FtpRoot*%\LocalUser\\%*UserName*% |
+> | Windows domain accounts (Requires Basic authentication) | %*FtpRoot*%\\%UserDomain%\\%*UserName*% |
+> | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\\%*UserName*% |
 
 <a id="002"></a>
 ## Compatibility

@@ -90,7 +90,7 @@ The following configuration example, when included in a Web.config file for a si
 <a id="006"></a>
 ## Sample Code
 
-The following examples enable HTTP logging for a Web site named Contoso, and specify that IIS should log all requests.
+The following examples enable HTTP logging for a Web site named Contoso, and specify that IIS shouldn't log any requests.
 
 ### AppCmd.exe
 

@@ -60,7 +60,7 @@ In order to be able to modify the HTTP Location header, it's necessary to preser
 2. In the **Allowed Server Variables** page, select **Add** and then enter the name of the server variable that will be used to temporarily store the value of the HTTP Host header. For example, ORIGINAL\_HOST:  
      ![Screenshot of Server variable name set to ORIGINAL underscore HOST.](modifying-http-response-headers/_static/image5.png)
 3. Select **OK** to save the changes and then return to the main URL Rewrite feature view page. After that, select the "Reverse Proxy to webmail" inbound rule and select **Edit**.
-4. In the **Edit Inbound Rule** page, expand the "Server Variables" group box; then select **Add** and enter "ORIGINAL\_URL" for the server variable name and "{HTTP\_HOST}" for the "Value":  
+4. In the **Edit Inbound Rule** page, expand the "Server Variables" group box; then select **Add** and enter "ORIGINAL\_HOST" for the server variable name and "{HTTP\_HOST}" for the "Value":  
      ![Screenshot of the Edit Inbound Rule page with Set Server Variable Value set to curly brace H T T P underscore HOST curly brace.](modifying-http-response-headers/_static/image7.png)
 
 ## Creating an outbound rule to modify the HTTP response header
@@ -78,7 +78,7 @@ Now you'll create an outbound rewrite rule that rewrites the HTTP Location heade
 8. Enter **RESPONSE\_Location** for the "**Variable name**" and "__^http://[^/]+/(.\*)__" for the "**Pattern**". This configures the rule to operate on the response HTTP header "Location" and match its value against a regex pattern that stores the URL path into a back-reference.
 9. Expand the "**Conditions**" group box, select "**Add**" and enter **{ORIGINAL\_HOST}** as a condition input and "**.+**" as a condition pattern. This condition checks if the temporary server variable ORIGINAL\_HOST exists and has a non-empty value.
 10. Select **Add** one more time and add another condition. Set the condition input to **{URL}** and the pattern to "__^/(webmail|payroll)/.\*__". This regular expression is used to match the URL paths that start with either /webmail or /payroll. Also, the parenthesis within the pattern captures the part of the matched URL string, so that it can be reused when constructing the replacement URL.
-11. Finally, in the "**Action**" group box choose the "**Rewrite**" action and enter "`http://{ORIGINAL_URL}/{C:1}/{R:1}`" as a value. This action replaces the value of the HTTP Location header with a string constructed by using the host name from the server variable, the condition back-reference that contains the URL path folder prefix and the rule back-reference that contains the current URL path in the Location header.
+11. Finally, in the "**Action**" group box choose the "**Rewrite**" action and enter "`http://{ORIGINAL_HOST}/{C:1}/{R:1}`" as a value. This action replaces the value of the HTTP Location header with a string constructed by using the host name from the server variable, the condition back-reference that contains the URL path folder prefix and the rule back-reference that contains the current URL path in the Location header.
 
 The complete page should look like the following:
 

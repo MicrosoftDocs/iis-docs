@@ -85,11 +85,9 @@ by IIS Team
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl01"></a>[Live Smooth Streaming](https://technet.microsoft.com/library/dd775194.aspx)
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl02"></a>[Web プレイリスト](https://technet.microsoft.com/library/ee890812.aspx)
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl03"></a>[ビット レート調整](https://technet.microsoft.com/library/ee890813.aspx)
-- [Smooth Streaming Deployment Guide (英語)](../../media/smooth-streaming/smooth-streaming-deployment-guide.md)
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl04"></a>[Windows Media サーバーと Web サーバーの比較](https://technet.microsoft.com/library/dd775201.aspx)
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl05"></a>[同じコンピューターでの HTTP を使用したストリーミングとダウンロード](https://technet.microsoft.com/library/ee890796.aspx)
 - <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl06"></a>[エッジ キャッシングによるメディア配信](https://technet.microsoft.com/library/ee890811.aspx)
-- <a id="ctl00_mainContentContainer_ctl147_ctl00_ctl07"></a>[IIS 7 サーバーへの Windows Media Services 2008 の追加](https://technet.microsoft.com/library/ee890789.aspx)
 
 #### Microsoft Web Platform
 
