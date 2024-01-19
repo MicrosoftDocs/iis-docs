@@ -85,7 +85,6 @@ After the Server Core installation is complete and the server is configured, you
 - DHCP Server
 - DNS Server
 - File Services
-- Media Services
 - Print Services
 - Hyper-V™
 - Web Services (IIS) (Limited)
