@@ -214,7 +214,7 @@ The `<location\_path>` is the location path to the object being configured (for 
 
 ## Example: Writing to ApplicationHost.config vs. root Web.config
 
-Compression is an IIS feature, and it appears under IIS if you group/filter the home page feature list by Area. If you've navigated to the server-level Compression page and you disable static compression, IIS Manager will write this configuration into `%windir%\Windows\system32\inetsrv\applicationHost.config`:
+Compression is an IIS feature, and it appears under IIS if you group/filter the home page feature list by Area. If you've navigated to the server-level Compression page and you disable static compression, IIS Manager will write this configuration into `%windir%\Windows\System32\inetsrv\config\applicationHost.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample3.xml)]
 
@@ -234,7 +234,7 @@ The IIS "defaultDocument" configuration section is unlocked by default. If you c
 
 The status bar will read: Configuration: 'Default Web Site' web.config
 
-The IIS "httpErrors" configuration section is unlocked by default. If you customize the HTTP 404 response for the Default Web Site, IIS Manager will write this configuration to `%windir%\Windows\system32\inetsrv\applicationHost.config`:
+The IIS "httpErrors" configuration section is unlocked by default. If you customize the HTTP 404 response for the Default Web Site, IIS Manager will write this configuration to `%windir%\Windows\System32\inetsrv\Config\applicationHost.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample6.xml)]
 
