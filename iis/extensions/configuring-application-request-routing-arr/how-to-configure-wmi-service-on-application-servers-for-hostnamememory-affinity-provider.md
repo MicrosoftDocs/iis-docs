@@ -39,11 +39,6 @@ This walkthrough requires the following prerequisites:
 - Microsoft Application Request Routing Version 1 and dependent modules.
 - ARR is configured for [shared hosting scenarios](shared-hosting-using-application-request-routing-arr.md).
 
-If the Application Request Routing Version 1 has not been installed, download it at:
-
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
-
 Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing.md) document to install Application Request Routing.
 
 ## Note

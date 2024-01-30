@@ -158,7 +158,7 @@ Create a compressed file (Zip) package of the application if you don't already h
 
 Note that the layout of the subdirectory tree is up to you. This example illustrates where the WDT XML files go for an application, and it is not prescriptive for how your sub tree should look.
 
-When you have a complete package, you should generate a SHA-1 hash signature of the file. This signature is used by the Web Platform Installer to ensure that the package that gets downloaded onto users' systems is the one you intended it to be. If you don't have a tool for generating a SHA-1 hash, you can get the [Microsoft® File Checksum Integrity Verifier](https://www.microsoft.com/downloads/details.aspx?FamilyID=B3C93558-31B7-47E2-A663-7365C1686C08&amp;displaylang=en).
+When you have a complete package, you should generate a SHA-1 hash signature of the file. This signature is used by the Web Platform Installer to ensure that the package that gets downloaded onto users' systems is the one you intended it to be.
 
 *NEW* Note that all packages in the Gallery will be switched to use SHA-1 instead of MD5 hashes.
 
@@ -254,4 +254,3 @@ For more information, see the [Reference for the Web Application Guide](referenc
 - [Web App Gallery submission form](https://login.iis.net/login/signin.aspx?ReturnUrl=TODO%20-%20get%20the%20URL%20for%20%20%20%20the%20new%20form).
 - [Using the Microsoft Web Platform Installer Badge](using-the-microsoft-web-platform-installer-badge.md).
 - [Web Platform Installer](/windows/web/).
-- [CodePlex.](http://www.codeplex.com/)

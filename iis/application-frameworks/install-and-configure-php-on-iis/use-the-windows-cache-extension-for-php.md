@@ -28,12 +28,6 @@ The Windows Cache Extension includes three different types of caches:
 
 There are two packages for the extension: one package is for PHP versions 5.2.X, and the other package is for PHP 5.3.X. Make sure that you use the appropriate package for your version of PHP.
 
-The extension packages can be found at:
-
-[Windows Cache Extension 1.0 for PHP 5.2](https://www.microsoft.com/downloads/details.aspx?FamilyID=6feb7f6a-7dcb-4083-bb7a-d8b22ba2d3d8&amp;displaylang=en)
-
-[Windows Cache Extension 1.0 for PHP 5.3](https://www.microsoft.com/downloads/details.aspx?FamilyID=ba2e0d7a-02ce-42be-a7a3-2baa5d666bf7&amp;displaylang=en)
-
 1. Unpack the package that is appropriate for the PHP version you are using.
 2. Copy the **Php\_wincache.dll** file into the PHP extensions folder. Typically this folder is called "ext" and it is located in the same folder with all PHP binary files. For example:  
 
@@ -183,6 +177,4 @@ To use **Wincache.php**, copy it into a root folder of your Web site or into any
 - [IIS 7.0 Output Caching](../../manage/managing-performance-settings/walkthrough-iis-output-caching.md)
 - [IIS7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx)
 - [Windows Cache Extension for PHP](https://www.iis.net/downloads/microsoft/wincache-extension)
-- [Windows Cache Extension 1.0 for PHP 5.2 - RC.](https://www.microsoft.com/downloads/details.aspx?FamilyID=6feb7f6a-7dcb-4083-bb7a-d8b22ba2d3d8&amp;displaylang=en)
-- [Windows Cache Extension 1.0 for PHP 5.3 - RC.](https://www.microsoft.com/downloads/details.aspx?FamilyID=ba2e0d7a-02ce-42be-a7a3-2baa5d666bf7&amp;displaylang=en)
 - [Improving Performance with Native Output Caching](../../manage/managing-performance-settings/improving-performance-with-native-output-caching.md)

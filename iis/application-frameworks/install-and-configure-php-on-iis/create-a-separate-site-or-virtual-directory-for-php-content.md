@@ -108,4 +108,4 @@ Note that you can add any number of bindings to a site, to expose it on any comb
 
 You can also use this process to create SSL site bindings (although this also requires a valid server certificate, and may involve additional IIS configuration to properly secure an SSL site).
 
-*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
+*Note: This article uses material from the PHP on Windows Training Kit, published on August 25, 2009.*

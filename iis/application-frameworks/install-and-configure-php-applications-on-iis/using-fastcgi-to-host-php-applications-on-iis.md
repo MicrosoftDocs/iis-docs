@@ -51,13 +51,7 @@ Go to **Control Panel** > **Programs and Features** > **Turn Windows features on
 
 ### :::image type="icon" source="using-fastcgi-to-host-php-applications-on-iis/_static/image2.gif"::: IMPORTANT: Install the Update for the FastCGI Module
 
-The update for the IIS FastCGI module fixes several known compatibility issues with popular PHP applications. Install the update from one of the following locations:
-
-- [Update for Windows Server 2008](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=1&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3dd0343911-1775-4aef-8c99-5f13862ac386%26DisplayLang%3den "Update for Windows Server 2008")
-- [Update for Windows Server 2008 x64 Edition](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=3&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d70278393-3291-4aa1-870b-0e9b0907bddf%26DisplayLang%3den "Update for Windows Server 2008 x64 Edition")
-- [Update for Windows Server 2008 for Itanium-based Systems](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=5&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d98e06637-0f00-45d5-83c5-ed1b41fd6a7b%26DisplayLang%3den "Update for Windows Server 2008 for Itanium-based Systems")
-- [Update for Windows Vista SP1](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=2&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d19600729-8470-4956-a276-200450d814bd%26DisplayLang%3den "Update for Windows Vista")
-- [Update for Windows Vista SP1 for x64 based Systems](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=4&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3dc7066c3b-dcf7-4441-87bc-f7dcb51067d0%26DisplayLang%3den "Update for Windows Vista for x64 based Systems")
+The update for the IIS FastCGI module fixes several known compatibility issues with popular PHP applications. 
 
 <a id="Install_Administration_Pack_for_IIS_7.0"></a>
 

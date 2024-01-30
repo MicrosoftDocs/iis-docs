@@ -28,6 +28,6 @@ This is a set of sample files you could use with Umbraco CMS 5 and the Web Deplo
 
 [!code-console[Main](umbraco-cms-sample-files/samples/sample3.cmd)]
 
-## Sample createlogin.sql Script
+## Sample createuser.sql Script
 
 [!code-sql[Main](umbraco-cms-sample-files/samples/sample4.sql)]

@@ -42,7 +42,7 @@ sections:
           
           [![image6](azure-app-gallery-faq/_static/image6.png)](azure-app-gallery-faq/_static/image5.png)
           
-          If &quot;Setup&quot; is not clicked and you browse the site you may see this error. This occurs since the app is not configured yet. To resolve this append install.php to the URL and run this script; for example [http://mysitename.azurewebsites.net/install.php](http://mysitename.azurewebsites.net/install.php)
+          If &quot;Setup&quot; is not clicked and you browse the site you may see this error. This occurs since the app is not configured yet. To resolve this append install.php to the URL and run this script; for example ```http://mysitename.azurewebsites.net/install.php```
           
           [![image8](azure-app-gallery-faq/_static/image8.png)](azure-app-gallery-faq/_static/image7.png)
           

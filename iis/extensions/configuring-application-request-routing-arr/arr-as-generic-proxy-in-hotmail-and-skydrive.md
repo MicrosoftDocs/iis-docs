@@ -71,4 +71,4 @@ Listed below are a few of the issues Hotmail and SkyDrive encountered while onbo
 
 ## Conclusion
 
-Hotmail and SkyDrive services span across [thousands of servers](http://windowsteamblog.com/windows_live/b/windowslive/archive/2010/04/07/hotmail-tips-the-scales.aspx), so each server uses ARR to proxy a large number of user requests during a rollout. Despite this large scale and the complexity of our applications, ARR integration was simple, effective, and performant. ARR has allowed us to simplify our service architecture and continue providing frequent [application updates](http://windowsteamblog.com/windows_live/b/windowslive/) with minimal to no impact to users of our services.
+Hotmail and SkyDrive services span across thousands of servers, so each server uses ARR to proxy a large number of user requests during a rollout. Despite this large scale and the complexity of our applications, ARR integration was simple, effective, and performant. ARR has allowed us to simplify our service architecture and continue providing frequent application updates with minimal to no impact to users of our services.

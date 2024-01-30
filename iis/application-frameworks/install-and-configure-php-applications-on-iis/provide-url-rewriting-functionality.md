@@ -25,7 +25,7 @@ The Microsoft® URL Rewrite Module for Internet Information Services 7 (IIS 7) a
 The Microsoft URL Rewrite Module includes these key features:
 
 - **Rules-based URL rewriting engine**. Rewrite rules are used to express the logic of what to compare/match the request URL with, and what to do if comparison was successful. Web server and site administrators can use rewrite rule sets to define URL rewriting logic.
-- **Regular expression pattern matching**. Rewrite rules can use [ECMA-262](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf) compatible, regular expression syntax for pattern matching.
+- **Regular expression pattern matching**. Rewrite rules can use ECMA-262 compatible, regular expression syntax for pattern matching.
 - **Wildcard pattern matching.** Rewrite rules can use wildcard syntax for pattern matching.
 - **Global and distributed rewrite rules**. Global rules are used to define server-wide URL rewriting logic and are defined within the ApplicationHost.config file. They cannot be overridden or disabled on any lower configuration levels. Distributed rules are used to define URL rewriting logic specific to a particular configuration scope. Distributed rules can be defined on any configuration level by using Web.config files.
 - **Access to server variables and http headers**. Server variables and HTTP headers provide additional information about current HTTP requests. This information can be used to make rewriting decisions or to compose the output URL.

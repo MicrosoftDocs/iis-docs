@@ -48,13 +48,7 @@ The steps to enable FastCGI in Windows 7 are similar.
 
 ## Install the Update for FastCGI Module
 
-The update for the IIS FastCGI module fixes several known compatibility issues with popular PHP applications. Install the update from one of the following locations:
-
-- [Update for Windows Server 2008](https://www.microsoft.com/downloads/details.aspx?FamilyID=d0343911-1775-4aef-8c99-5f13862ac386&amp;DisplayLang=en)
-- [Update for Windows Server 2008 x64 Edition](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=3&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d70278393-3291-4aa1-870b-0e9b0907bddf%26DisplayLang%3den)
-- [Update for Windows Server 2008 for Itanium-based Systems](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=5&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d98e06637-0f00-45d5-83c5-ed1b41fd6a7b%26DisplayLang%3den)
-- [Update for Windows Vista SP1](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=2&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d19600729-8470-4956-a276-200450d814bd%26DisplayLang%3den)
-- [Update for Windows Vista SP1 for x64 based Systems](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=4&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3dc7066c3b-dcf7-4441-87bc-f7dcb51067d0%26DisplayLang%3den)
+The update for the IIS FastCGI module fixes several known compatibility issues with popular PHP applications.
 
 ## Install the Administration Pack for IIS 7.0 and Above
 
