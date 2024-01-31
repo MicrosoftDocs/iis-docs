@@ -39,10 +39,7 @@ This walkthrough requires the following prerequisites:
 
 ## Step 1 – Download Microsoft Application Request Routing Version 1
 
-Download the Microsoft Application Request Routing release from the following locations:
-
-- Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
-- Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
+Download the Microsoft Application Request Routing release.
 
 ## Step 2 – Install Microsoft Application Request Routing Version 1
 

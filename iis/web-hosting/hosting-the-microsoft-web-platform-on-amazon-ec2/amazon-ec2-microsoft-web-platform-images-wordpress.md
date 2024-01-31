@@ -13,7 +13,7 @@ by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
 
-One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [WordPress](http://wordpress.com/) on Amazon's [EC2](http://aws.amazon.com/ec2/) Cloud and the Microsoft Web Platform. After you followed the steps in this walkthrough you will have a live production Wordpress blog on the Internet.
+One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [WordPress](https://wordpress.com/) on Amazon's [EC2](https://aws.amazon.com/ec2/) Cloud and the Microsoft Web Platform. After you followed the steps in this walkthrough you will have a live production Wordpress blog on the Internet.
 
 Here are quick summary of the steps you have to follow:
 

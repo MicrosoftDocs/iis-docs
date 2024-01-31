@@ -1,5 +1,5 @@
 ---
-title: "Shared Configuration"
+title: "Shared Configuration with IIS 7"
 author: rick-anderson
 description: "The Internet changes the ways in which companies handle their day-to-day business and how they compete in the marketplace. With the advent of new Web technol..."
 ms.date: 12/10/2007
@@ -7,7 +7,7 @@ ms.assetid: cd23d12b-4c44-4e80-bdaf-163c3f03632e
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/shared-configuration_264
 msc.type: authoredcontent
 ---
-# Shared Configuration
+# Shared Configuration with IIS 7
 
 ## Introduction
 

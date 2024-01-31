@@ -115,7 +115,7 @@ A pattern is specified within a &lt;match&gt; element of a rewrite rule.
 
 Rule pattern syntax can be specified by using the **patternSyntax** attribute of a rule. This attribute can be set to one of the following options:
 
-**ECMAScript** – Perl compatible ([ECMAScript](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf "ECMAScript Standard") standard compliant) regular expression syntax. This is a default option for any rule. This is an example of the pattern format: "^([\_0-9a-zA-Z-]+/)?(wp-.\*)"
+**ECMAScript** – Perl compatible (ECMAScript standard compliant) regular expression syntax. This is a default option for any rule. This is an example of the pattern format: "^([\_0-9a-zA-Z-]+/)?(wp-.\*)"
 
 **Wildcard** – [Wildcard](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/41c238b2-1188-488f-bf2d-464383b1bb08.mspx?mfr=true "Wildcard syntax") syntax used in IIS HTTP redirection module. The following is an example of a pattern in this format: "/Scripts/\*\_in.???", where asterisk ("\*") means "match any number of any characters and capture them in a back-reference" and "?" means match exactly one character (no back-reference is created).
 

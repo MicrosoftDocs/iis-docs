@@ -25,7 +25,7 @@ This section describes the known breaking changes in IIS 7.0 and above.
 
 Previous versions of IIS used the metabase to configure Web servers and sites, whereas IIS 7.0 and above use an XML configuration file to configure these settings. Although the metabase is no longer used to configure IIS 7.0 and above, a metabase compatibility feature is available to make IIS 7.0 and above compatible with APIs that relied on the metabase. This feature supports the Admin Base Objects (ABO) interface (also known as IMSAdminBase), Active Directory Service Interfaces (ADSI), and the WMI providers that were built on top of ABO in IIS 6.0.
 
-By default, IIS 7.0 and above does not install the metabase compatibility feature. For more information on how to install the metabase compatibility feature, see [Configuration Compatibility](https://go.microsoft.com/fwlink/?LinkId=78483) on IIS.NET.
+By default, IIS 7.0 and above does not install the metabase compatibility feature.
 
 ### Metabase Compatibility Considerations
 

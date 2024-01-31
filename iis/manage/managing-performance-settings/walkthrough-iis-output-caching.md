@@ -89,7 +89,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 
 Once the JPG Copyright Handler works, we must determine how fast our code is. Install an IIS 6.0 Resource Kit Tool to run performance tests:
 
-1. Download the [IIS 6.0 Resource Kit Tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en) and install them. Do a custom install and install only the Web Capacity Analysis Tool (WCAT). WCAT is the only feature of the IIS 6.0 Resource Kit Tools we need to do our performance tests.
+1. Download the IIS 6.0 Resource Kit Tools and install them. Do a custom install and install only the Web Capacity Analysis Tool (WCAT). WCAT is the only feature of the IIS 6.0 Resource Kit Tools we need to do our performance tests.
 
     > [!NOTE]
     > Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web-site is blocked. To download the IIS 6.0 Resource Kit, add \*.microsoft.com to the list of trusted sites.
