@@ -19,7 +19,7 @@ namespace IIS7Demos
     ///     On AuthenticateRequest: 
     ///         extract the basic authentication credentials 
     ///         verify the credentials 
-    ///         if succesfull, create the user principal with these credentials 
+    ///         if successful, create the user principal with these credentials 
     /// 
     ///     On SendResponseHeaders: 
     ///         if the request is being rejected with an unauthorized status code (401), 
@@ -85,7 +85,7 @@ namespace IIS7Demos
         protected virtual bool ValidateCredentials(String userName, String password, String realm)
         {
             // 
-            //  Validate the credentials using Membership (refault provider) 
+            //  Validate the credentials using Membership (default provider) 
             // 
             // NOTE: Membership is commented out for clarity reasons.   
             // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
