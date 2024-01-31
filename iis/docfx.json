@@ -38,6 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "iis",
       "feedback_system": "Standard",
       "feedback_help_link_type": "get-help-at-qna",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/85/windows-iis",
@@ -48,7 +49,6 @@
       "searchScope": [
         "IIS"
       ],
-      "ms.prod": "iis",
       "ms.topic": "conceptual",
       "author": "John-Hart",
       "ms.author": "johnhart"
