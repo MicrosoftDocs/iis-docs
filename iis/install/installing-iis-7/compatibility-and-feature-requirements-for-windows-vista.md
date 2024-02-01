@@ -64,7 +64,7 @@ IIS 7.0 and above setup does not re-target the \inetpub folder, which is always 
 
 IIS 7.0 and above integrates the ASP.NET runtime extensibility model with the core Web server. This integration enables developers to extend the IIS server by using the power of ASP.NET 2.0 and the .NET Framework, instead of using the less robust IIS C++ APIs. Existing ASP.NET applications also immediately benefit from tighter integration by being able to use existing ASP.NET features such as Forms Authentication, Roles, and Output Caching for all kinds of content.
 
-For more information about the ASP.NET integration in IIS and about migrating existing applications, see ASP.NET Integration with IIS 7.0 and Above on IIS.NET. For more information about breaking changes associated with ASP.NET, see [Upgrading ASP.NET Applications to IIS 7: Configuring Applications After Upgrade and Differences Between IIS 7.0 Integrated Mode and ISAPI Mode](https://go.microsoft.com/fwlink/?LinkId=77939) on the ASP.NET site.
+For more information about the ASP.NET integration in IIS and about migrating existing applications, see ASP.NET Integration with IIS 7.0 and Above on IIS.NET. For more information about breaking changes associated with ASP.NET, see [Upgrading ASP.NET Applications to IIS 7: Configuring Applications After Upgrade and Differences Between IIS 7.0 Integrated Mode and ISAPI Mode](/iis/application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008) on the ASP.NET site.
 
 <a id="Using"></a>
 
