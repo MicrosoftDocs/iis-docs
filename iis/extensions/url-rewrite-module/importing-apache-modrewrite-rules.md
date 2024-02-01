@@ -96,7 +96,7 @@ Also, if you try either of these URLs:
 
 the Web browser gets redirected to `http://www_mysite_com:8088/iisstart.htm`.
 
-Note that the rules that were imported from mod\_rewrite enabled the enforcement of canonical host names for a Web site. A Bing search will reveal other [examples of Apache mod\_rewrite rules](https://search.live.com/results.aspx?q=mod_rewrite+examples).
+Note that the rules that were imported from mod\_rewrite enabled the enforcement of canonical host names for a Web site. A Bing search will reveal other examples of Apache mod\_rewrite rules.
 
 ## Disclaimer
 :::image type="icon" source="importing-apache-modrewrite-rules/_static/image1.gif"::: IMPORTANT - The URL Rewrite Module tries to convert Apache mod\_rewrite rules to functionally equivalent IIS URL rewrite rules. However, not all mod\_rewrite rules can be converted because of architectural differences between Apache and IIS. It is highly recommended that you study a mod\_rewrite rule set until you understand its functionality before you begin the conversion process. Then, after converting to IIS URL rewrite rules, review and test the result of the conversion to make sure that the corresponding IIS rewrite rule set provides the same URL rewriting logic.

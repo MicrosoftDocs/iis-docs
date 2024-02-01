@@ -23,7 +23,7 @@ Microsoft later released UrlScan 2.5 as a separate download, which added request
 - [Installing UrlScan 2.x](urlscan-2-reference.md#InstallingUrlScan)
 
     - [Installing UrlScan 2.0 or UrlScan 2.1](urlscan-2-reference.md#Installing_UrlScan_2.0_or_UrlScan_2.1)
-    - [Installing UrlScan 2.5](urlscan-2-reference.md#Installing_UrlScan_2.5)
+    - [Installing UrlScan 2.5](/iis/extensions/working-with-urlscan/urlscan-2-reference#installing-urlscan-25)
 - [Using UrlScan 2.x](urlscan-2-reference.md#UsingUrlScan)
 - [UrlScan.ini Sections](urlscan-2-reference.md#UrlScanIniSections)
 
