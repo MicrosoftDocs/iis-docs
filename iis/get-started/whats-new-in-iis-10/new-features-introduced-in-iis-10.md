@@ -36,7 +36,7 @@ With the advent of Nano Server and Windows Containers, IIS now provides a better
 
 ### Microsoft IIS Administration ([https://manage.iis.net](https://manage.iis.net))
 
-Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration). With this API users can take advantage of the new IIS Web Manager that is available at [https://manage.iis.net](https://manage.iis.net). This browser based application consumes the IIS Administration API to provide a familiar management experience. Microsoft IIS Administration supports IIS 7.5 and above.
+Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration). With this API users can take advantage of the new IIS Web Manager. This browser based application consumes the IIS Administration API to provide a familiar management experience. Microsoft IIS Administration supports IIS 7.5 and above.
 
 Learn more: [Microsoft IIS Administration Preview](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview).
 
