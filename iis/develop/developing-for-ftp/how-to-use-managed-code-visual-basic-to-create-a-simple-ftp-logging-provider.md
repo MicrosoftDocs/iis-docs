@@ -22,10 +22,7 @@ This walkthrough will lead you through the steps to use managed code in Visual B
 The following items are required to complete the procedures in this article:
 
 1. IIS 7.0 or above must be installed on your Windows Server 2008 server, and the Internet Information Services (IIS) Manager must also be installed.
-2. The new FTP 7.5 service must be installed. You can download and install the FTP 7.5 service from the <https://www.iis.net/> web site using one of the following links:
-
-    - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
-    - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
+2. The new FTP 7.5 service must be installed.
 3. You must create a root folder for FTP publishing.
 4. You must use Visual Studio 2008.
 

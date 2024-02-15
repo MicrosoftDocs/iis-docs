@@ -56,7 +56,7 @@ Here are the steps to follow:
 
 To test that b2Evolution has been installed successfully, create a blog posting and view it as a site visitor would. Follow these steps:
 
-1. Navigate to [http://localhost/b2Evolution/blogs/admin.php](http://localhost/b2Evolution/blogs/admin.php).
+1. Navigate to ```http://localhost/b2Evolution/blogs/admin.php```.
 2. Enter the administrator username and password created in the last installation step.  
     ![Screenshot of a browser window showing the new blog post window.](b2evolution-on-iis/_static/image5.png)
 3. Once logged in, enter a title for your post and some content and click Preview. This launches another IE window and displays the post:  

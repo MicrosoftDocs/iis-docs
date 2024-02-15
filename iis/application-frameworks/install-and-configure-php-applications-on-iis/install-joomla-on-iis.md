@@ -124,9 +124,9 @@ Before starting the installation procedure for Joomla, you must create a databas
 
 By default, Joomla uses query string parameters for all the URLs it generates for your Web site. You change this by enabling search engine friendly URLs, a feature which relies on the URL rewriting functionality.
 
-IIS 6.0 does not include URL rewriting capabilities; you can use a third-party URL rewriting product such as [ISAPI\_Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599) or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
+IIS 6.0 does not include URL rewriting capabilities; you can use a third-party URL rewriting product such as [ISAPI\_Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599) or Ionics ISAPI Rewrite Filter.
 
-IIS 7 and above includes URL rewriting support, which can be enabled by installing [Microsoft URL Rewrite Module for IIS 7](https://www.microsoft.com/downloads/details.aspx?familyid=836778EA-B2F2-4907-B2DC-A152EC0A4BC4&amp;displaylang=en).
+IIS 7 and above includes URL rewriting support, which can be enabled by installing Microsoft URL Rewrite Module for IIS 7.
 
 1. Download and install the **Microsoft URL Rewrite Module**.
 2. If it does not already exist; create and open a **Web.config** file located in the `C:\inetpub\wwwroot\joomla` directory.

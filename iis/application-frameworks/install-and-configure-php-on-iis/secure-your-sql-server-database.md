@@ -32,7 +32,6 @@ Implementing physical network security starts with keeping unauthorized users of
 | Networking and SQL Server | [Network Protocols and Tabular Data Stream (TDS) Endpoints](https://msdn.microsoft.com/library/ms191220.aspx) |
 | Specifying and restricting ports that are used for SQL Server | [Configuring Server Network Protocols and Net-Libraries](https://msdn.microsoft.com/library/ms177485.aspx) |
 | Restricting network access to SQL Server | [Restricting Network Access](https://msdn.microsoft.com/library/ms174507.aspx) |
-| Microsoft® SQL Server® Compact 3.5 Service Pack 1 (SP1) and network access to other SQL Server editions | [Configuring and Securing the Server Environment in SQL Server Compact 3.5 SP1 Books Online](https://www.microsoft.com/downloads/details.aspx?FamilyId=07829770-73A7-41E4-880D-E74B1A353623&amp;displaylang=en) |
 | Backup and restore strategies | [Security Considerations for Backup and Restore (SQL Server)](https://msdn.microsoft.com/library/ms190964.aspx) |
 
 ### System Security

@@ -23,7 +23,7 @@ The following steps assume that you have completed the setup and configuration o
 
 ## Download and Unpack Siteframe
 
-First, download the latest stable release of the Siteframe application. For this article, we use siteframe-5.0.5-783 downloaded from the mirror [http://siteframe.org/p/siteframe-5-0-5](http://siteframe.org/p/siteframe-5-0-5).
+First, download the latest stable release of the Siteframe application. For this article, we use siteframe-5.0.5-783.
 
 Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\siteframe`.
 
@@ -60,7 +60,7 @@ allow\_url\_fopen=on
 
 1. Open the Siteframe application folder and copy the siteframe.ini-dist to siteframe.ini; edit it to suit your settings. For this installation, the following parameters below were edited.  
 
-    - site\_url = [http://localhost/siteframe](http://localhost/siteframe)
+    - site\_url = ```http://localhost/siteframe```
     - ite\_path = C:\Inetpub\wwwroot\siteframe
     - db\_type = mysql
     - db\_host = localhost

@@ -89,4 +89,4 @@ Just like you did before, type a title for the report and the URL of the website
 
 To improve your site's SEO, you can use the Bing webmaster tools. The Bing webmaster tools help you to submit your sites to Bing, find out which pages of your site have been indexed, and perform many other SEO-related tasks.
 
-For more information, see [http://www.bing.com/toolbox/webmasters/](http://www.bing.com/toolbox/webmasters/).
+For more information, see [https://www.bing.com/toolbox/webmasters/](https://www.bing.com/toolbox/webmasters/).

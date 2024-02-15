@@ -19,7 +19,7 @@ By default, IIS is configured to return detailed error messages to local clients
 
 IIS generates very detailed error messages for most errors. These contain, at minimum, information about the request and the error, including which module generated the error and during which part of the request processing. For errors caused by IIS and its built-in modules, the errors also contain likely resolutions. This dramatically simplifies the troubleshooting process for most errors.
 
-This article, based on the hands-on labs in the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), describes how IIS takes care of basic errors handling and how IIS diagnoses application-level errors by enabling PHP error messages.
+This article, based on the hands-on labs in the PHP on Windows Training Kit, describes how IIS takes care of basic errors handling and how IIS diagnoses application-level errors by enabling PHP error messages.
 
 ## Basic Error Handling
 
@@ -101,7 +101,7 @@ If you see only the default Internet Explorer HTTP 500 Internal Server Error pag
 
 Note that PHP also provides options for customizing default error handling or completely overriding it.
 
-*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
+*Note: This article uses material from the PHP on Windows Training Kit, published on August 25, 2009.*
 
 ## See also
 

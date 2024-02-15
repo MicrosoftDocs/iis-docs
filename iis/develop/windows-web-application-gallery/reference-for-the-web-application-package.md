@@ -234,6 +234,6 @@ Samples of Web App Gallery integration are available for reference.
 - [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference)
 - [XPath syntax](/previous-versions/dotnet/netframework-4.0/ms256471(v=vs.100))
 - [Table of Language Culture Names, Codes, and ISO Values Method [C++]](/previous-versions/commerce-server/ee825488(v=cs.20))
-- [Web App Gallery Integration Samples](http://www.iis.net/learn/develop/windows-web-application-gallery)
+- [Web App Gallery Integration Samples](/iis/develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery)
 - [IIS 7.0 Configuration Reference](../../configuration/index.md)
 - [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md)

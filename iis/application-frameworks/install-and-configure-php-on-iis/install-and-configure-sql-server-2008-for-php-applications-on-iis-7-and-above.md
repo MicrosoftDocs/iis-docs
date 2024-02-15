@@ -17,7 +17,7 @@ PHP is a widely used, easy-to-learn, open-source scripting language. Microsoft®
 
 Although you can install an instance of SQL Server on a computer that is running Internet Information Services 7 (IIS 7) or above, this is typically done only for small Web sites that have a single server computer. Most Web sites have their middle-tier IIS systems on one server or cluster of servers and their databases on a separate server or federation of servers.
 
-To access a SQL Server database from within PHP scripts, you must have the SQL Server Driver for PHP, which can be installed with the Microsoft® Web Platform Installer (Web PI), or downloaded from [here](https://www.microsoft.com/downloads/details.aspx?familyid=CCDF728B-1EA0-48A8-A84A-5052214CAAD9&amp;displaylang=en).
+To access a SQL Server database from within PHP scripts, you must have the SQL Server Driver for PHP, which can be installed with the Microsoft® Web Platform Installer (Web PI).
 
 ## Why Use SQL Server?
 
