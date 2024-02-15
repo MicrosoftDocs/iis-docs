@@ -33,11 +33,7 @@ If you're on Windows Vista, click **Start**, click **Control Panel**, click **Pr
 
 ### Step 2: Install the .NET Framework v1.1 and .NET Framework v1.1 SP1
 
-Install Framework v1.1, SP1, and ASP.NET's security update to SP1:
-
-- [.NET Framework Version 1.1 Redistributable Package](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=1&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d262d25e3-f589-4842-8157-034d1e7cf3a3%26DisplayLang%3den)
-- [.NET Framework Version 1.1 Service Pack 1](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=3&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3da8f5654f-088e-40b2-bbdb-a83353618b38%26DisplayLang%3den)
-- [ASP.NET Security Update for .NET Framework 1.1 SP1](https://www.microsoft.com/downloads/info.aspx?na=22&amp;p=7&amp;SrcDisplayLang=en&amp;SrcCategoryId=&amp;SrcFamilyId=&amp;u=%2fdownloads%2fdetails.aspx%3fFamilyID%3d8ec6fb8a-29eb-49cf-9dbc-1a0dc2273ff9%26DisplayLang%3den)
+Install Framework v1.1, SP1, and ASP.NET's security update to SP1.
 
 When you install .NET Framework Version 1.1, and SP1 for .NET Framework Version 1.1, you'll see the following dialog. Click **Run program**.
 

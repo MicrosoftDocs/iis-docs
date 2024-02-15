@@ -28,7 +28,7 @@ The URL Rewrite module is available both as a download that you can install on y
 The Microsoft URL Rewrite module 2.0 includes the following key features:
 
 - **Rules-based URL rewriting engine**. Rewrite rules define the logic used to analyze request URLs and map them to rewite URLs when the request URL matches a defined rule. Web server and site administrators can use rewrite rule sets to define URL rewriting logic.
-- **Regular expression pattern matching**. Rewrite rules can use regular expression syntax for pattern matching as defined in [ECMA-262](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf).
+- **Regular expression pattern matching**. Rewrite rules can use regular expression syntax for pattern matching as defined in ECMA-262.
 - **Wildcard pattern matching.** Rewrite rules can use wildcard syntax for pattern matching.
 - **Global and distributed rewrite rules**. URL Rewrite uses global rules to define server-wide URL rewriting logic. These rules are defined within the applicationHost.config file, and they supercede rules configured at lower levels in the configuration hierarchy. The module also uses distributed rules to define URL rewrite logic specific to a particular configuration scope. This type of rule can be defined on any configuration level by using Web.config files.
 - **Access to server variables and HTTP headers**. Server variables and HTTP headers provide additional information about current HTTP requests. This information can be used to configure rewrite rules or to compose the output URL.

@@ -23,7 +23,7 @@ Microsoft later released UrlScan 2.5 as a separate download, which added request
 - [Installing UrlScan 2.x](urlscan-2-reference.md#InstallingUrlScan)
 
     - [Installing UrlScan 2.0 or UrlScan 2.1](urlscan-2-reference.md#Installing_UrlScan_2.0_or_UrlScan_2.1)
-    - [Installing UrlScan 2.5](urlscan-2-reference.md#Installing_UrlScan_2.5)
+    - [Installing UrlScan 2.5](/iis/extensions/working-with-urlscan/urlscan-2-reference#installing-urlscan-25)
 - [Using UrlScan 2.x](urlscan-2-reference.md#UsingUrlScan)
 - [UrlScan.ini Sections](urlscan-2-reference.md#UrlScanIniSections)
 
@@ -46,20 +46,13 @@ Microsoft later released UrlScan 2.5 as a separate download, which added request
 
 UrlScan 2.0 and UrlScan 2.1 are installed as part of the IIS Lockdown Tool.
 
-For more information about installing the IIS Lockdown Tool, see the IIS Lockdown Tool download pages at the following URL:
-
-> [https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec](https://www.microsoft.com/downloads/details.aspx?FamilyID=dde9efc0-bb30-47eb-9a61-fd755d23cdec)
-
-<a id="Installing_UrlScan_2.5"></a>
-
 ### Installing UrlScan 2.5
 
 UrlScan 2.5 installs as a clean install on a computer running IIS 5.1 or later. Upgrade scenarios are also supported.
 
 **To Install UrlScan 2.5**
 
-1. Download the Setup.exe file for UrlScan 2.5 from the following URL to your computer:  
-    [https://www.microsoft.com/downloads/details.aspx?familyid=23d18937-dd7e-4613-9928-7f94ef1c902a](https://www.microsoft.com/downloads/details.aspx?familyid=23d18937-dd7e-4613-9928-7f94ef1c902a)
+1. Download the Setup.exe file for UrlScan 2.5.
 2. Double-click the Setup.exe icon to begin the installation process.
 3. Review the agreement in the UrlScan Installer Package End User Agreement and then click **Yes** to accept the agreement and continue. If you click **No**, the installer will close.
 4. When the installer completes, the following message is displayed: "UrlScan has been successfully installed." Click **OK** to close the installer.

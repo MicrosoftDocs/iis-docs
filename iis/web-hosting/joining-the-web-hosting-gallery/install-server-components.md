@@ -107,7 +107,7 @@ Here is the full list of which components are installed by those links, so you c
 - [Required] [URL Rewrite 2.0](https://www.iis.net/downloads/microsoft/url-rewrite "URL Rewrite")
 
     - A dependency for many applications to function correctly
-- [Required] [SQL Server 2008 Management Objects](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=ceb4346f-657f-4d28-83f5-aae0c5c83d52 "SQL Server 2008 R2 feature pack")
+- [Required] SQL Server 2008 Management Objects
 
     - A dependency for many applications to function correctly
 - [Optional] [Windows Cache Extension 1.1 for PHP](https://www.iis.net/downloads/microsoft/wincache-extension "Windows Cache Extension for PHP")
@@ -116,7 +116,7 @@ Here is the full list of which components are installed by those links, so you c
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/ "MySQL Connector/NET") 6.2.3 or higher
 
     - Necessary for .NET applications using MySQL databases
-- [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05 "Microsoft Drivers for PHP for SQL") 2.0 in IIS
+- [Optional] Microsoft Drivers for PHP for SQL Server 2.0 in IIS
 
     - Necessary for PHP applications using SQL Server
 

@@ -78,9 +78,7 @@ sections:
       - question: |
           What kinds of tools are available to run stress tests?
         answer: |
-          WCAT is the tool that is being used now. It is part of IIS 6.0 Resource Kit which can be downloaded from the following link:
-          
-          [https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en](https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en)
+          WCAT is the tool that is being used now. It is part of IIS 6.0 Resource Kit.
           
       - question: |
           Will IIS Manager run on any other OS?

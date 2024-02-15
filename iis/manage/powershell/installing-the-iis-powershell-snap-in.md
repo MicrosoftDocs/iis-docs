@@ -24,7 +24,7 @@ The IIS PowerShell Snap-in requires the following prerequisites:
 
 ### To install IIS PowerShell Snap-in:
 
-1. The IIS PowerShell Snap-in is available as x86 and x64 version. Download the [32-Bit version](https://iis-umbraco.azurewebsites.net/downloads "32-Bit IIS 7.0 PowerShell Provider") or [64-Bit version](https://iis-umbraco.azurewebsites.net/downloads "64-Bit PowerShell Provider").
+1. Download IIS PowerShell Snap-in x86 or x64 version.
 2. Run the MSI file to install the IIS PowerShell Snap-in.
 
 ### To use the IIS PowerShell Snap-in
