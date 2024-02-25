@@ -131,10 +131,6 @@ Make sure to replace &lt;AdminPassword&gt; with the appropriate SQL administrato
 
 At a basic level, the above command uses the **dbFullSql** provider to copy data from a database using a database connection string ("-source:dbfullsql=…") and copies it to a database script file ("-dest:dbfullsql=…")
 
-##### More Information About Providers and Manifext.xml
-
-For more information about the above providers, and other providers that can be used in a manifest file, see the [web application package reference page](../../develop/windows-web-application-gallery/reference-for-the-web-application-package.md).
-
 #### Step 3 - Create a parameter file
 
 After you create the manifest file that tells Web Deploy how to install the application, you need to create a parameter file that tells Web Deploy how to transform certain settings so that the application can be customized to work in a specific user's deployment environment.
@@ -175,10 +171,6 @@ Finally, all of the information entered by the user is used by Web Deploy to act
 Again, since Web Deploy uses a provider to synchronize database information (as declared in the Manifest.xml file), these two parameter entries are 'type="ProviderPath"'.
 
 Our "Vacation Pictures" application also keeps track of the database connection in the Web.config file. This parameterization is handled by the final entry in Parameters.xml.
-
-##### More Information about Creating the Parameters.xml File
-
-For more information about creating the Parameters.xml file, including the meaning of various tags and the different kinds of parameter entries, see the [web application package reference page](../../develop/windows-web-application-gallery/reference-for-the-web-application-package.md).
 
 #### Step 4 - Create a Zip File that Contains the Application, the Manifest File, and the Parameter File
 

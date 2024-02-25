@@ -58,9 +58,6 @@ The token anonymousAuthenticationUser is automatically compared to the ID that t
 
 PHP applications are typically run as the anonymous user because the FastCGI settings usually set the impersonation to be True(run as anonymous user). ASP.NET applications typically run as the worker process identity (application pool identity). If setAclUseris not specified, then the setAcldirective uses the application's Application Pool Identity as the ID for authorization.
 
-> [!NOTE]
-> *This article is based on information from: "[Application Packaging Guide for the Windows Web Application Gallery](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md)" by the IIS team, published on September 24, 2009.*
-
 ## Links for Further Information
 
 - [Understanding the Built-In User and Group Accounts in IIS 7.0 and Above](understanding-built-in-user-and-group-accounts-in-iis.md).

@@ -1,1 +1,0 @@
-webpicmdline.exe /Products:IIS7,Tracing,NETFramework35,NETFramework4,ASPNET,MVC,WDeploy,FTPServer,ManagementService,CGI,URLRewrite2,SMO,PHP52,WinCache52,MySQLConnector,SQLDriverPHP52IIS

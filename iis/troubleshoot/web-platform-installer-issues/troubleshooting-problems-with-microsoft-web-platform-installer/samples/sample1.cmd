@@ -1,1 +1,0 @@
-notepad %windir%\logs\cbs\cbs.log
