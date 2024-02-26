@@ -281,11 +281,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/extensions/working-with-urlscan/index.md",
-      "redirect_url": "/iis/extensions/working-with-urlscan/urlscan-setup",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/get-started/case-studies/index.md",
       "redirect_url": "/iis/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system",
       "redirect_document_id": false

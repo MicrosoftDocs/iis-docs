@@ -877,26 +877,6 @@
           href: extensions/database-manager/working-with-stored-procedures.md
         - name: Working with Tables
           href: extensions/database-manager/working-with-tables.md
-    - name: Working with UrlScan
-      items: 
-        - name: UrlScan Setup
-          href: extensions/working-with-urlscan/urlscan-setup.md
-        - name: Common UrlScan Scenarios
-          href: extensions/working-with-urlscan/common-urlscan-scenarios.md
-        - name: UrlScan FAQ
-          href: extensions/working-with-urlscan/urlscan-faq.yml
-        - name: Data Mining UrlScan 3 Logs using LogParser 2.2
-          href: extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22.md
-        - name: UrlScan Overview
-          href: extensions/working-with-urlscan/urlscan-overview.md
-        - name: UrlScan 1 Reference
-          href: extensions/working-with-urlscan/urlscan-1-reference.md
-        - name: UrlScan 2 Reference
-          href: extensions/working-with-urlscan/urlscan-2-reference.md
-        - name: UrlScan 3 Reference
-          href: extensions/working-with-urlscan/urlscan-3-reference.md
-        - name: Overview of UrlScan Versions
-          href: extensions/working-with-urlscan/overview-of-urlscan-versions.md
     - name: HttpPlatformHandler
       items: 
         - name: HttpPlatformHandler Configuration Reference
