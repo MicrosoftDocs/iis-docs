@@ -19,7 +19,7 @@ by IIS Team
 
 ### IIS TechCenter メニュー：
 
-| [![](iis-localized-japanese-learn-articles-and-more/_static/image1.png)](https://technet.microsoft.com/iis/default.aspx "IIS TechCenter (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image2.png)](https://technet.microsoft.com/iis/ee794964.aspx "PHP on IIS (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image3.png)](https://technet.microsoft.com/iis/dd936209.aspx "IIS の資格と学習教材 (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image4.png)](https://technet.microsoft.com/iis/dd742256.aspx "IIS 7 拡張機能のダウンロード") |
+| [![](iis-localized-japanese-learn-articles-and-more/_static/image1.png)](https://technet.microsoft.com/iis/default.aspx "IIS TechCenter (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image3.png)](https://technet.microsoft.com/iis/dd936209.aspx "IIS の資格と学習教材 (日本語版)") | [![](iis-localized-japanese-learn-articles-and-more/_static/image4.png)](https://technet.microsoft.com/iis/dd742256.aspx "IIS 7 拡張機能のダウンロード") |
 | --- | --- | --- | --- |
 | - IIS 構築の近道 | - [PHP 環境の設定](https://technet.microsoft.com/iis/ee794964.aspx#lerning "PHP 環境の設定") - [セミナー資料](https://technet.microsoft.com/iis/ee794964.aspx#doc "PHP セミナー資料") | - [バーチャル ラボ](https://technet.microsoft.com/iis/dd936209.aspx#touch "バーチャル ラボ") - [Web キャスト (デモ)](https://technet.microsoft.com/iis/dd936209.aspx#watch "Web キャスト") | - 拡張機能の日本語解説 - ダウンロード |
 

@@ -72,7 +72,6 @@ These articles cover the functionality of the URL Rewrite Module and explain how
 - [Using global and distributed rules](using-global-and-distributed-rewrite-rules.md "Using global and distributed rewrite rules")
 - [Using Rewrite maps](using-rewrite-maps-in-url-rewrite-module.md "Using rewrite maps")
 - [Importing Apache mod\_rewrite rules](importing-apache-modrewrite-rules.md "Importing rewrite rules")
-- [Enabling Pretty Permalinks in WordPress](enabling-pretty-permalinks-in-wordpress.md "Enabling Pretty Permalinks")
 - [Rule templates](rule-templates-overview.md)
 
     - [User Friendly URL](user-friendly-url-rule-template.md)

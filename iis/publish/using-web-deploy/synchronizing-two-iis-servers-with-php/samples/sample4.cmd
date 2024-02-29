@@ -1,1 +1,0 @@
-msdeploy -verb:sync  -source:manifest=servermanifest.xml -dest:package=c:\WebServer.zip

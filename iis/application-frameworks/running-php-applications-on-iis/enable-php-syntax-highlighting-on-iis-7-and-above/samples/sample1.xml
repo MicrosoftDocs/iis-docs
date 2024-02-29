@@ -1,6 +1,0 @@
-<?php
-if ( isset( $_GET['file'] ) ) {
-  $file = filter_input( INPUT_GET, 'file', FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_HIGH );
-  highlight_file( $file );
-}
-?>

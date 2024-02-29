@@ -1,1 +1,0 @@
-C:\inetpub\wwwroot\Drupal\sites\default>icacls settings.php /grant BUILTIN\IIS_IUSRS:(W)

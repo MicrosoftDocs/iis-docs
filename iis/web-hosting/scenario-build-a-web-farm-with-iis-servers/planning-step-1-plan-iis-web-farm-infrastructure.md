@@ -83,8 +83,7 @@ The easiest way to configure your web farm is to start by getting your website w
 1. [Build a Static Website on IIS](../../manage/creating-websites/scenario-build-a-static-website-on-iis.md)
 2. [Build a Classic ASP Website on IIS](../../application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis.md)
 3. [Build an ASP.NET Website on IIS](../../application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md)
-4. [Build a PHP Website on IIS](../../application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
-5. [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
+4. [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
 
 > [!NOTE]
 > To keep this scenario simple, it is assumed that your web farm servers only one site. However, you can set up multiple sites with little difficulty.
