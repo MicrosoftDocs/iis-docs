@@ -1262,8 +1262,6 @@
           href: web-hosting/web-server-for-shared-hosting/fastcgi-with-php.md
         - name: ASP
           href: web-hosting/web-server-for-shared-hosting/asp.md
-        - name: Configuring IIS for Silverlight Applications
-          href: web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md
         - name: URL Rewrite for Hosting Providers
           href: web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers.md
         - name: Database Manager for Hosters
