@@ -13,7 +13,7 @@ by Tali Smith
 
 ## Introduction
 
-There are several ways to set access control lists (ACLs), including command-line tools such as Icacls.exe. PHP hosters generally use the command line. It is also possible, however, to set ACLs in the Manifest.xml file; these are the mechanisms that are applied when you install an application through the Web Deployment Tool (WDT) or the Microsoft® Web Platform Installer (Web PI).
+There are several ways to set access control lists (ACLs), including command-line tools such as Icacls.exe. PHP hosters generally use the command line. It is also possible, however, to set ACLs in the Manifest.xml file; these are the mechanisms that are applied when you install an application through the Web Deployment Tool (WDT).
 
 By default, the WDT installs all files and directories without changing any of the existing permissions. In most cases, this means that the application only has read access to the installed files and directories. If your application needs to be able to write to any file or directory, you can specify which files or directories with a setAcl directive in the Manifest.xml file. The setAclResourceType element defines whether the path represents a file or a directory.
 

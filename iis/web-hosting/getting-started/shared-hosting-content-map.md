@@ -63,7 +63,6 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
     - [Administration Pack](../web-server-for-shared-hosting/administration-pack.md)
     - [FastCGI with PHP](../web-server-for-shared-hosting/fastcgi-with-php.md)
     - [ASP](../web-server-for-shared-hosting/asp.md)
-    - [Configuring IIS for Silverlight Applications](../web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md)
     - [SMB Commands Registry Keys](../web-server-for-shared-hosting/smb-commands-registry-keys_198.md)
     - [Backup](../web-server-for-shared-hosting/create-a-backup-with-appcmd.md)
 - [File Server For Content Storage](../configuring-servers-in-the-windows-web-platform/index.md)

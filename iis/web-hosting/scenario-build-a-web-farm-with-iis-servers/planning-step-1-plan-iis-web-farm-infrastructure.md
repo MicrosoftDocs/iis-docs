@@ -71,8 +71,6 @@ This web farm infrastructure requires you to configure the following servers:
 
 Microsoft Application Request Routing (ARR) is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. For more information about ARR, see [Step 3: Plan IIS Web Farm Load Balancing](planning-step-3-plan-iis-web-farm-load-balancing.md).
 
-The easiest way to install ARR and its dependencies is with [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
-
 To configure ARR load balancing, you need the IP address for all of your servers. To find an IP address, use the Ipconfig.exe command-line tool.
 
 <a id="13"></a>

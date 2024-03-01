@@ -1,7 +1,7 @@
 ---
 title: "How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008"
 author: walterov
-description: "You can use the Web Platform Installer (Web PI) to easily install IIS, and applications that run on IIS. The Web PI is a free, lightweight tool that lets you..."
+description: "How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008..."
 ms.date: 06/03/2008
 ms.assetid: 6b0e9ceb-a1b5-4d31-ae0b-2ddda487161a
 msc.legacyurl: /learn/install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008
@@ -13,9 +13,7 @@ by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 
-You can use the Web Platform Installer (Web PI) to easily install IIS, and applications that run on IIS. The Web PI is a free, lightweight tool that lets you install IIS and related technologies such as ASP.NET, SQL Server Express, Visual Web Developer, other popular Web applications, and more. Because the Web PI references and links to the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510 "Learn about and install the Web PI").
-
-You can also install ASP.NET 2.0 (3.0 and 3.5) using the Windows Vista and Windows 2008 user interface - just install the ASP.NET component located under IIS-&gt;Word Wide Web Services-&gt;Application Development Features. You can find this set of components in Windows 2008 by clicking Start, and click Server Manager. Expand the left-hand treeview in Server Manager and click Manage Roles, and then Web Server (IIS). In the right-hand pane look for an option that says Add Role Services. If you're on Windows Vista, click Start, click Control Panel, click Programs, and then Windows Features. Look for the following tree of features under Internet Information Services (IIS):
+You can install ASP.NET 2.0 (3.0 and 3.5) using the Windows Vista and Windows 2008 user interface - just install the ASP.NET component located under IIS-&gt;Word Wide Web Services-&gt;Application Development Features. You can find this set of components in Windows 2008 by clicking Start, and click Server Manager. Expand the left-hand treeview in Server Manager and click Manage Roles, and then Web Server (IIS). In the right-hand pane look for an option that says Add Role Services. If you're on Windows Vista, click Start, click Control Panel, click Programs, and then Windows Features. Look for the following tree of features under Internet Information Services (IIS):
 
 [![Screenshot of the Internet Information Services folder and its contained tree of folders.](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image1.png)
 

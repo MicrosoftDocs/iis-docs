@@ -27,8 +27,6 @@ This section describes how to install IIS and the modules that support ASP.NET a
 > [!IMPORTANT]
 > To install IIS on either Windows Server 2012 or Windows 8, you must sign on as a member of the Administrators group.
 
-If you prefer, you could use the Web Platform Installer (Web PI) to install IIS and third-party applications that run on IIS. Because the Web PI installs the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
-
 If you support web applications written using ASP.NET 2 to 3.5, install .NET 3.5 before installing IIS and ASP.NET modules.
 
 ### To install .NET 3.5 on Windows Server 2012 or Windows 8

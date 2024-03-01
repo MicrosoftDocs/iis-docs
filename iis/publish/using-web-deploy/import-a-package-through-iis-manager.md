@@ -25,8 +25,6 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 ## Prerequisites if you're using SQL
 
-Note: The second and third prerequisites will be installed if you install the Web Deployment Tool using the Web Platform Installer
-
 - SQL Server Express or Standard
 - SQL Server 2008 Management Objects (SMO)
 - SQL CLR Types

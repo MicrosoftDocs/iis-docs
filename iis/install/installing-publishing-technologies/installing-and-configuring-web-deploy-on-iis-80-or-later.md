@@ -19,48 +19,7 @@ Windows 8.0 and 8.1 do not come with the Web Management Service that is required
 
 ## Installing Web Deploy
 
-You can install Web Deploy by using the Web Platform Installer (Web PI) or the Web Deploy MSI.
-
-- Use the Web Platform Installer (Web PI) to install the Recommended Server Configuration for Web Hosting Providers, which includes Web Deploy
-- Use Web PI to install Web Deploy separately (with or without its dependencies)
-- Use the Web Deploy installer.
-
-### Installing Web Deploy as Part of the Recommended Server Configuration for Web Hosting Providers
-
-When the Web Platform Installer installs the Recommended Server Configuration for Web Hosting Providers, it configures the web server with the most common deployment for web hosting providers. This package makes sure that the IIS 8.0 or later prerequisites required for Web Deploy are installed. Dependencies such as SQL Server Management Objects and SQL Server are selected automatically for installation, and installed with the Web PI prerequisites, such as the Web Service Management Handler. The package includes some optional components, such as PHP and MySQL, that you can choose not to install with this bundle by clicking the **X** next to them.
-
-The Recommended Server Configuration for Web Hosting Providers can be installed on Windows 2012 Server or later. For information about installing on earlier versions of Windows Server with IIS 7, see [Installing and Configuring Web Deploy on IIS 7](installing-and-configuring-web-deploy.md).
-
-1. Download the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
-2. Open Web PI.
-3. In Web PI, click in the search bar in the upper-right hand corner, enter &quot;Recommended&quot; in **Search**, and press **Enter**.
-4. Select **Recommended Server Configuration for Web Hosting Providers**, and then click **Add**.[![Screenshot of Web Platform Installer four point six. The Recommended Server Configuration for Web Hosting Providers option is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image2.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image1.jpg)
-5. Click **Install**.
-6. On the **Prerequisites** page, click **I accept**.
-7. After the installation has completed, click **Finish**.
-
-### Using the Web Platform Installer to install Web Deploy Separately
-
-You can install Web Deploy separately with its dependencies, such as the Web Management Service (WMSvc). You can install the following versions of Web Deploy.
-
-- **Web Deploy 3.5 without bundled SQL**: Installs Web Deploy alone.
-- **Web Deploy 3.5**: Web Deploy plus support for SQL database publishing
-- **Web Deploy 3.5 for hosting servers**: Web Deploy plus IIS/ASP.NET dependencies and support for SQL database publishing. This includes dependencies to install base IIS plus Management Service (required for non-admin publishing) and PowerShell 2.0 or later (used to do some basic non-admin publishing setup during install).
-
-If you install Web Deploy directly in Web PI, rather than as part of the Recommended Server Configuration for Web Hosting Providers, the dependencies required for Web Deploy may not be installed.
-
-Using Web PI, Web Deploy can be installed on Windows 2012 Server or later, or Windows 8.0 or later. For information about installing on earlier versions of Windows Server or Windows with IIS 7, see [Installing and Configuring Web Deploy on IIS 7](installing-and-configuring-web-deploy.md).
-
-To install Web Deploy separately using Web PI:
-
-1. Download the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
-2. Open WebPI on your desktop.
-3. Click in the search bar in the upper-right hand corner, enter &quot;Web Deploy&quot;, and press **Enter**.  
-    [![Screenshot of the Web Platform Installer four point six. Windows Azure S D K for Node dot J S is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image4.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image3.jpg)
-4. Select the Web Deploy that you want, and then click **Add**.  
-    [![Screenshot of the Web Platform Installer four point six. Web Deploy three point five is highlighted.](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image6.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image5.jpg)
-5. On the **Prerequisites** page, click **I accept**.
-6. After the installation has completed, click **Finish**.
+You can install Web Deploy by using the Web Deploy MSI.
 
 ### Using the Web Deploy Installer to Install Web Deploy
 
