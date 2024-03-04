@@ -255,10 +255,6 @@ The following configuration sample adds a global FastCGI handler mapping for PHP
 > FastCGI settings can be configured per-site through the use of specially formatted FastCGI application and by handler mappings, which are distinguished by matching the **fullPath** and **arguments** attributes for an `<application>` element with the corresponding **scriptProcessor** attribute in the `<handlers>` mapping for the FastCGI process. To create these mappings, the settings in the **fullPath** and **arguments** attributes for an `<application>` element must be added to the **scriptProcessor** attribute in the `<handlers>` mapping for the FastCGI process and separated by the pipe "|" character. This combination serves as a unique key for each FastCGI application. For example, the following configuration excerpt shows two example &lt;fastCgi&gt;/&lt;application&gt; elements and their corresponding &lt;handlers&gt; mappings for two site-specific PHP handlers:
 > [!code-xml[Main](index/samples/sample3.xml)]
 
-Additional information and examples about how to configure FastCGI settings for PHP are discussed in the following walkthrough:
-
-> [Using FastCGI to Host PHP Applications on IIS 7](/iis/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis)
-
 ## Sample Code
 
 The following code samples add a FastCGI application for PHP, set the **instanceMaxRequests** attribute to "10000," and set the `PHP_FCGI_MAX_REQUESTS` environment variable to "10000." Each sample also adds a global FastCGI handler mapping for PHP files to IIS and specifies the full path to a FastCGI executable file.

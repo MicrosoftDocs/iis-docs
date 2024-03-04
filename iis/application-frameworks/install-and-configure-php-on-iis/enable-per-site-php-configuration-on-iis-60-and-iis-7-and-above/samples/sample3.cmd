@@ -1,1 +1,0 @@
-cscript fcgiconfig.js -set -section:"PHP website1.com" -EnvironmentVars:PHPRC:C:\Inetpub\website1.com cscript fcgiconfig.js -set -section:"PHP website2.com" -EnvironmentVars:PHPRC:C:\Inetpub\website1.com

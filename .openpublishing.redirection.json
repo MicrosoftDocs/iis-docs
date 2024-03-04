@@ -66,11 +66,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md",
-      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-php-with-failed-request-tracing",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications.md",
       "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-502-2-bad-gateway-error-in-cgi-apps",
       "redirect_document_id": false
@@ -131,33 +126,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis.md",
-      "redirect_url": "/iis/",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/install-and-configure-php-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/index.md",
       "redirect_url": "/iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/running-php-applications-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/scenario-build-a-php-website-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis",
       "redirect_document_id": false
     },
     {

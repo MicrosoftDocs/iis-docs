@@ -1,1 +1,0 @@
-msdeploy -verb:sync  -source:manifest=servermanifest.xml -dest:manifest=servermanifest.xml,computerName=DestServer1 >msdeploysync.log
