@@ -32,7 +32,6 @@ The Web Farm Framework 2.0 provides one view and user interface to see the statu
 The main features of the Web Farm Framework 2.0 include:
 
 - One-step provisioning of servers added to a farm.
-- Platform provisioning using Web Platform Installer.
 - Application provisioning using Microsoft Web Deploy.
 - Policy-based provisioning.
 - Installation of additional platform components and content.

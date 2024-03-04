@@ -57,7 +57,7 @@ Support for legacy Passport authentication was built into IIS 5/6 and Windows Se
 
 In Windows Server 2008 and beyond, the legacy Passport binaries and integration with IIS were removed.
 
-The Passport service has since changed into Windows Live ID. While the new Live ID service certainly grew out of the legacy Passport service, there are major changes. One of the biggest changes is how a partner site integrates with Live ID. You can add Live ID authentication by using the publicly available [Windows Live ID Web Authentication SDK](https://www.microsoft.com/downloads/details.aspx?FamilyId=E565FC92-D5F6-4F5F-8713-4DD1C90DE19F&amp;displaylang=en). While the Windows Live ID service also supports identity Federation and ADFS, that capability is new functionality for specific cases, and is not a replacement for "Passport".
+The Passport service has since changed into Windows Live ID. While the new Live ID service certainly grew out of the legacy Passport service, there are major changes. One of the biggest changes is how a partner site integrates with Live ID. You can add Live ID authentication by using the publicly available Windows Live ID Web Authentication SDK. While the Windows Live ID service also supports identity Federation and ADFS, that capability is new functionality for specific cases, and is not a replacement for "Passport".
 
 ### Forms authentication
 

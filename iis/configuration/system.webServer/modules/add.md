@@ -1,5 +1,5 @@
 ---
-title: "Adding Modules &lt;add&gt;"
+title: "Adding Modules &lt;add&gt; element for for Internet Information Services (IIS) 7"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;modules&gt; collection adds a module to the list of modules for Internet Information Services (IIS) 7. Compatibil..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 1d3db48a-771a-43c5-aa86-4e346f527b93
 msc.legacyurl: /configreference/system.webserver/modules/add
 msc.type: config
 ---
-# Adding Modules &lt;add&gt;
+# Adding Modules &lt;add&gt element for for Internet Information Services (IIS) 7;
 
 <a id="001"></a>
 ## Overview

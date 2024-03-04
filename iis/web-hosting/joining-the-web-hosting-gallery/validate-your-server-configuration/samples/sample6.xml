@@ -1,9 +1,0 @@
-<Validation type="RegistryValidator"
-  id="CheckWmsvcTracingEnabled"
-  regKey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WebManagement\Server"
-  regValue="TracingEnabled"
-  regValueKind="DWord"
-  regValueData="1"
-  description="Check if tracing for Web Management Service (wmsvc) is enabled"
-  detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
-  />

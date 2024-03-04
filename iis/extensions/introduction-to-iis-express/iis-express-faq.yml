@@ -28,11 +28,6 @@ sections:
           The current release is IIS 7.5 Express. As the name suggests, this release is derived from the IIS 7.5 server codebase.
 
       - question: |
-          How does it relate to Microsoft WebMatrix?
-        answer: |
-          Microsoft WebMatrix is a simple and integrated suite of tools that streamline ASP.NET and PHP development. IIS Express is the Web server that is included with WebMatrix. You can also install IIS Express all by itself using the following link. See [IIS Express Overview](iis-express-overview.md "IIS Express Overview") for information on the various ways to install the product.
-          
-      - question: |
           Can I use IIS Express with Visual Studio?
         answer: |
           Yes, Visual Studio 2010 SP1 Beta allows you to build and test web applications using IIS Express instead of the built-in ASP.NET Development Web Server (also known as Cassini). IIS Express is not included with VS 10 SP1 and will need to be installed separately. You can also manually launch IIS Express from the command line and use it with Visual Studio 2008, using the custom web server option.
@@ -65,11 +60,6 @@ sections:
           Does IIS Express support SSL?
         answer: |
           Yes IIS Express supports SSL. The setup program will install a default, self-signed server certificate in the machine store and configure ports 44300-44399 for use with SSL. You can also set up and configure custom SSL certificates for your websites as an administrator.
-
-      - question: |
-          Does IIS Express support PHP?
-        answer: |
-          Yes, IIS Express includes the CGI and FastCGI modules for PHP. The best way to develop PHP applications using IIS Express is to install WebMatrix. This will automatically install and configure PHP and also allow you to download and customize popular gallery applications such as WordPress, Joomla etc.
 
       - question: |
           Can IIS Express be redistributed or embedded in other applications?

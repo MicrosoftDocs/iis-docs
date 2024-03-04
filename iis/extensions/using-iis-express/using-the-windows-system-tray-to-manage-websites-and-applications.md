@@ -13,7 +13,7 @@ by [Diana Nguyen](https://twitter.com/dianaaanguyen)
 
 ## Overview
 
-This walkthrough discusses how to manage your websites and applications in WebMatrix Beta using the system tray. This feature lets you manage all running sites from the same system tray.
+This walkthrough discusses how to manage your websites and applications using the system tray. This feature lets you manage all running sites from the same system tray.
 
 This walkthrough assumes that you have installed two or more websites and applications on your server.
 
@@ -22,29 +22,10 @@ This walkthrough assumes that you have installed two or more websites and applic
 You must have the following installed to complete the procedures in this walkthrough:
 
 - Windows XP or newer
-- WebMatrix Beta
-
-For information about how to install WebMatrix Beta, see [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=145510).
 
 ## Managing Sites and Applications with the System Tray
 
-1. Click **Start** > **All Programs** > **Microsoft WebMatrix**.
-2. On the WebMatrix Beta **Quick** **Start** page, click **My Sites**.
-
-    ![Screenshot of the WebMatrix Beta Quick Start page.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image1.png)
-
-3. On the **Choose a Site** page, select the site that you want to open, and then click **OK**.  
-    ![Screenshot of the WebMatrix Beta Quick Start Window displaying the Choose a Site page.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image5.png)
-4. WebMatrix opens your site.
-
-    ![Screenshot of the site opened by WebMatrix.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image7.png)
-
-5. Repeat steps 1 – 3 to open a second site.
-
-    > [!NOTE]
-    > If you do not already have a second site, you can add a new one by choosing **Site from Web Gallery**, **Site From Template**, or **Site From Folder**.
-
-6. Right-click **WebMatrix** in the system tray. If you do not see the icon, click **Show hidden icons** to display the icon.
+1. Right-click **IIS Express** in the system tray. If you do not see the icon, click **Show hidden icons** to display the icon.
 
     ![Screenshot of the the system tray with the Show hidden icons selection highlighted.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image11.png)
 
@@ -71,4 +52,4 @@ Click the notification for more information, including a detailed error message 
 
 ![Screenshot of the detailed error message dialog box.](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image19.png)
 
-For more information about IIS Express, see [Use the Command Line to Run a WebMatrix Site](https://go.microsoft.com/fwlink/?LinkId=195514).
+For more information about IIS Express, see [Use the Command Line to Run a Site](https://go.microsoft.com/fwlink/?LinkId=195514).

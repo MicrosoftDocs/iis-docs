@@ -21,10 +21,6 @@ You can point the site analysis tool in the Toolkit at the top-level URL of your
 
 The SEO toolkit also makes it easy to optimize which content on your Web site gets indexed by search engines. You can manage robots.txt files, which search engine crawlers use to understand which URLs are excluded from the crawling process. You can also manage sitemaps, which provide URLs for crawling to search engine crawlers. You can also use the SEO Toolkit to provide additional metadata about the URL, such as last modified time, which search engines take into account when calculating relevancy in search results.
 
-## Installs Quickly and Easily
-
-You can install the free IIS SEO Toolkit on Windows Vista, Windows 7, Windows Server 2008 or Windows Server 2008 R2 quickly and easily with the Web Platform Installer. When you click this link, the Web Platform Installer will check your computer for the required dependencies and install both the dependencies and the IIS SEO Toolkit. (You may be prompted to install the Web Platform Installer first if you do not have it already installed on your computer.)
-
 ## Launching the IIS SEO Toolkit
 
 The IIS SEO Toolkit integrates into the IIS management console. To start using the Toolkit, launch the IIS Management Console first by clicking Run in the Start Menu and typing inetmgr in the Run command line. When the IIS Manager launches, you can scroll down to the Management section of the Features View and click the "Search Engine Optimization (SEO) Toolkit" icon.

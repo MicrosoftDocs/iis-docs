@@ -1,5 +1,5 @@
 ---
-title: Adding Environment Variables &lt;add&gt;
+title: Adding Environment Variables &lt;add&gt; default element
 author: rick-anderson
 description: Provides an overview of the default &lt;add&gt; element of the &lt;environmentVariables&gt; element and its properties.
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 49145f4f-5892-4667-aba4-b9615b8e0e8d
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/add
 msc.type: config
 ---
-# Adding Environment Variables &lt;add&gt;
+# Adding Environment Variables &lt;add&gt; default element
 
 <a id="001"></a>
 ## Overview

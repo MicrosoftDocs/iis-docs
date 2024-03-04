@@ -1,7 +1,7 @@
 ---
 title: "Installing IIS 7 on Windows Vista and Windows 7"
 author: rick-anderson
-description: "Introduction You can use the Microsoft ® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS), and applications that run on..."
+description: "Installing IIS 7 on Windows Vista and Windows 7..."
 ms.date: 10/26/2007
 ms.assetid: 0e9d9685-6391-48cd-8a57-d47f6592d16b
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7
@@ -13,7 +13,7 @@ by IIS Team
 
 ## Introduction
 
-Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily using the Microsoft® Web Platform Installer (Web PI). To learn more about the Web PI, see [Learn about and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
+Advances in cloud technologies have led many users to use [Windows Azure Web Sites](https://www.windowsazure.com/solutions/web/) to host both a production site and test site, as it makes it easy to test various configurations without impacting their own personal computers. If you still prefer to do this on your desktop, you can install IIS on it, as well as other applications and extensions easily.
 
 If you choose to install IIS 7.0 or above manually, you can use this article for guidance.
 

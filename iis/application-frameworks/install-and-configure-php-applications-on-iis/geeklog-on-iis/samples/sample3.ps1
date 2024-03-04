@@ -1,1 +1,0 @@
-$_CONF['path_html'] = 'd:/public_html/';

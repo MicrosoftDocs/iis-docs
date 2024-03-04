@@ -1,1 +1,0 @@
-logparser.exe "SELECT x-action,x-reason,c-ip,cs-uri FROM UrlScan.*.log ORDER BY x-action,x-reason" -i:w3c

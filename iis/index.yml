@@ -204,27 +204,3 @@ landingContent:
             url: /iis/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7
           - text: IIS FTP Logon Attempt Restrictions
             url: /iis/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions
-
-  # Card
-  - title: PHP & IIS
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Migrate to a Windows-Based Platform
-            url: /iis/web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform
-          - text: Planning Step 2 - Plan PHP Settings
-            url: /iis/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-2-plan-php-settings
-          - text: Planning Step 3 - Plan PHP Application Security
-            url: /iis/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-3-plan-php-application-security
-      - linkListType: how-to-guide
-        links:
-          - text: Install and Configure PHP
-            url: /iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php
-          - text: Enable Per-Site PHP Configuration on IIS
-            url: /iis/application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above
-          - text: Setting Up a Database for a PHP Application on IIS
-            url: /iis/application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis
-      - linkListType: reference
-        links:
-          - text: Best Practices for PHP on the Microsoft Web Platform
-            url: /iis/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform

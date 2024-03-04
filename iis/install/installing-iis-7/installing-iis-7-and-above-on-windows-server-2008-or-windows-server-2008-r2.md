@@ -1,7 +1,7 @@
 ---
 title: "Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2"
 author: rick-anderson
-description: "Introduction You can use Microsoft ® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS) and applications that run on IIS...."
+description: "Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2...."
 ms.date: 10/26/2007
 ms.assetid: f784d613-a814-4ec5-ab99-c9b1cc76b30c
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2
@@ -9,7 +9,7 @@ msc.type: authoredcontent
 ---
 # Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2
 
-You can use Microsoft® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS) and applications that run on IIS. However, if you choose to install IIS manually, you can use this article for guidance. You can also refer to [Installing and Configuring IIS 7 and Above](../index.md).
+If you choose to install IIS manually, you can use this article for guidance. You can also refer to [Installing and Configuring IIS 7 and Above](../index.md).
 
 IIS is Microsoft Web server role that is included with all versions of Microsoft's operating systems, and also powers [Windows Azure Web Sites](https://www.windowsazure.com/solutions/web/) to provide robust cloud-based PaaS (Platform as a Service). Version 7.0 of IIS is included with Windows Server® 2008 and Windows Vista®. IIS 7.5 is the Web server role in Windows Server® 2008 R2 and the Web server in Windows® 7. IIS 8.0 is the version that is part of Windows Server 2012, and Windows Server 2012 R2 includes IIS 8.5. Windows Server 2008 R2 and Windows Server 2008 operating systems have all the IIS features needed to support the hosting of Web content in production environments. Windows 7 and Windows Vista also include IIS features, but the available features depend on the operating system versions.
 

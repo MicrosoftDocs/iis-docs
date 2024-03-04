@@ -49,15 +49,6 @@ To uninstall the software, in **Control Panel** &gt; **Programs** &gt; **Program
 
 The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).
 
-**Install Using Web PI**
-
-1. Go to the [Microsoft Web Platform Installer Web Page](https://go.microsoft.com/?linkid=9656457) and click **Download It Now** to download and run Web PI.
-2. At the bottom of the **Web Platform Installer** dialog box, click **Options**.
-3. In the **Change Options** dialog box, in **Select your preferred language for software installations**, select the language that you want, and then click **OK**.
-4. Back in the **Web Platform Installer** dialog box, at the top of the dialog box, click **Products** in the **Spotlight** - **Products** - **Applications** row of options.
-5. In the Contents pane, click either **All** or **Server**.
-6. In the list of products that is displayed, click the **Add** button for **Advanced Logging**, and then click **Install**.
-
 **Install Using Windows Installer**
 
 The IS Advanced Logging is an extension for Internet Information Services (IIS) 7 is no longer available. We recommend [Enhanced Logging for IIS 8.5](/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85).

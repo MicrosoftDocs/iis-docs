@@ -35,10 +35,6 @@ To follow the steps in this document it is best to do a full install of IIS.
 > [!NOTE]
 > Not all editions of Windows support all available IIS features. To see which features of IIS are supported on your operating system, you will need to consult the documentation which shipped with your version of Windows.
 
-### To install IIS Using the Web Platform Installer
-
-You can use the Web Platform Installer (Web PI) to easily install IIS, and applications that run on IIS. The Web PI is a free, lightweight tool that lets you install IIS and related technologies such as ASP.NET, SQL Server Express, Visual Web Developer, other popular Web applications, and more. Because the Web PI installs the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
-
 ### To Perform a Full Installation of IIS on Windows Vista, Windows 7, Windows 8, Windows 10 or Windows 11
 
 1. Click **Start** and then click **Control Panel**.

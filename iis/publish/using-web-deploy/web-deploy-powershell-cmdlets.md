@@ -47,7 +47,7 @@ Example: This example gets a credential object and then passes it to the new pub
 
 ## II. Backup
 
-All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx) and [custom packages](../../develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md). If no path is specified the backups are created in a folder named 'Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
+All backup cmdlets have a positional parameter (it's the second one except for backup-wdserver where it is the first positional parameter) called output. This takes a path to the folder where you want the backup created. Backup is always a Web Deploy zip package. You can read more about Web Deploy Packages at [Package Provider](https://msdn.microsoft.com/library/dd569019(v=WS.10).aspx). If no path is specified the backups are created in a folder named 'Web Deploy Backups' under the user's documents folder. The backups are named as machinename\_nameofproviderused\_[Siteorapporfoldername(Optional)]\_timestamp.zip.
 
 All these cmdlets will work locally by default unless remote server information is provided by passing in a publish settings file for SourcePublishSettings parameter.
 
@@ -108,7 +108,7 @@ Examples:
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample7.ps1)]
 
-Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/library/dd569054(WS.10).aspx). Here is a good [article](http://learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
+Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/library/dd569054(WS.10).aspx). Here is a good [article](/iis/get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
 
 Cmdlet Parameters: The name of the app specified by the application parameter or by the publish settings file is backed up. If none of them is specified it throws an error. Application parameter value overrides publish settings specification for site name. SkipFileList and SkipFolderList parameters allow you to selectively exclude one or more files or folders from the package.
 

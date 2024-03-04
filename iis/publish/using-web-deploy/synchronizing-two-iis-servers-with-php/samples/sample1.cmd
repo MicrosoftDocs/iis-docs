@@ -1,1 +1,0 @@
-msdeploy -verb:getDependencies -source:webServer

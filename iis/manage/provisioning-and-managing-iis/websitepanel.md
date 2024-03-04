@@ -29,4 +29,4 @@ The WebsitePanel features list includes:
 
 · Strong community support
 
-WebsitePanel has recently been submitted as an open-source project on [SourceForge](http://sourceforge.net/) and carries a BSD license. For more information on WebsitePanel, visit: [http://websitepanel.net](http://websitepanel.net/).
+WebsitePanel has recently been submitted as an open-source project on [SourceForge](https://sourceforge.net/projects/websitepanel/) and carries a BSD license.

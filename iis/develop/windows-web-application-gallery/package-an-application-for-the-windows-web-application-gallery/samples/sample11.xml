@@ -1,5 +1,0 @@
-<setAcl 
-    path="application/sites/default/settings.php" 
-    setAclResourceType="File" 
-    setAclAccess="Modify" 
-    setAclUser="anonymousAuthenticationUser" />

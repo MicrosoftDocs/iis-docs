@@ -26,9 +26,7 @@ To get the most from this tutorial, you must have access to a computer that is r
 <a id="01"></a>
 ## Step 1: Install the IIS Web Server
 
-You can use the Web Platform Installer (Web PI) to install IIS, and applications that run on IIS. Because the Web PI installs the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
-
-You can also perform this procedure by using the Windows user interface (UI) or from a command line.
+You can perform this procedure by using the Windows user interface (UI) or from a command line.
 
 ### To install IIS on Windows Server 2012 by using the UI
 
@@ -463,6 +461,5 @@ Test your website thoroughly to ensure that it functions as expected. Then consi
 - [Hosting-Friendly Web Server Platform (IIS): Scenario Overview](../../get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview.md)
 - [Build a Static Website on IIS](../../manage/creating-websites/scenario-build-a-static-website-on-iis.md)
 - [Build an ASP.NET Website on IIS](../scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md)
-- [Build a PHP Website on IIS](../scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
 - [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
 - [Build a Web Farm with IIS Servers](../../web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers.md)

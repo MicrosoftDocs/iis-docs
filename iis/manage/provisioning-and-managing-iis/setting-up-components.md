@@ -15,10 +15,9 @@ by [Walter Oliver](https://github.com/walterov)
 
 From an implementation standpoint, the solution follows recommended patterns and practices for building Web Services using the Windows Communication Foundation (WCF) as described in the Web Service Software Factory guidance.
 
-Additional information can be found at the following sites:
+Additional information can be found at the following site:
 
 - [https://msdn.microsoft.com/library/ms735119.aspx](https://msdn.microsoft.com/library/ms735119.aspx)
-- [http://www.codeplex.com/servicefactory](http://www.codeplex.com/servicefactory)
 
 In the following sections, we describe each subsystem implementation in detail.
 

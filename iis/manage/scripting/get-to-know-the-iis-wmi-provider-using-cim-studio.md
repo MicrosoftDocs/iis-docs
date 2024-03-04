@@ -33,7 +33,7 @@ Install the IIS WMI provider by selecting the **IIS Management Scripts and Tools
 
 ### Install WMI Tools (includes CIM Studio)
 
-Install the WMI Tools suite from the [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=6430f853-1120-48db-8cc5-f2abdc3ed314&amp;DisplayLang=en.) before starting.
+Install the WMI Tools suite before starting.
 
 ### Required Privileges and User Account Control (UAC)
 

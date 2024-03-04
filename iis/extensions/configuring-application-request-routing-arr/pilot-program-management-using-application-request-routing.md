@@ -28,11 +28,6 @@ This walkthrough requires the following prerequisites:
 - Minimum of four content servers with working sites and applications. Two servers will be used to simulate the production site, and the other two servers will simulate the pilot site.
 - Alternate browser to Microsoft Internet Explorer, such as Firefox, on a computer with .NET 3.5 installed. (This setup is used only for testing purposes.)
 
-If Application Request Routing Version 1 has not been installed, it is available for download at:
-
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
-
 Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing.md) document to install Application Request Routing.
 
 Another prerequisite is that the reader has defined and configured two server farms by following the steps outlined in **[Define and Configure an Application Request Routing (ARR) Server Group](define-and-configure-an-application-request-routing-server-farm.md)**. One server farm will represent the production environment, while the other will represent the pilot environment.

@@ -1,6 +1,6 @@
 ---
-title: CHttpModule::CHttpModule Method
-TOCTitle: CHttpModule::CHttpModule Method
+title: CHttpModule::CHttpModule Method 2.0
+TOCTitle: CHttpModule::CHttpModule Method 2.0
 description: CHttpModule CHttpModule Method initializes a new instance of the CHttpModule class.
 ms:assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
 ms:mtpsurl: https://msdn.microsoft.com/library/ms692938(v=VS.90)
@@ -11,7 +11,7 @@ dev_langs:
 - cpp
 ---
 
-# CHttpModule::CHttpModule Method
+# CHttpModule::CHttpModule Method 2.0
 
 Initializes a new instance of the [CHttpModule](chttpmodule-class.md) class.
 

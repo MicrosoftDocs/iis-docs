@@ -1,1 +1,0 @@
-windir%\system32\inetsrv\config\applicationHost.config.

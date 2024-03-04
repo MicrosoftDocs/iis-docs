@@ -1,1 +1,0 @@
-<add name="FastCgiModule" image="%windir%\System32\inetsrv\iisfcgi.dll" />

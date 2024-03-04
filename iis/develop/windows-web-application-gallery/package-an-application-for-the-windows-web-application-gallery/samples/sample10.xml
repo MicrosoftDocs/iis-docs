@@ -1,3 +1,0 @@
-<alias 
-  from="Application\sites\default\sample.settings.php" 
-  to="Application\sites\default\settings.php" />

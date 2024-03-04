@@ -33,12 +33,6 @@ IIS 7 and above has a completely modular setup design that enables control over 
 
 The new IIS server pipeline architecture provides a high level of component granularity. Because of this granularity, when you install IIS, you can surfaces this granularity in user selectable, installable components. You can also use IIS Setup to customize your installation by selecting from more than 40 IIS features. New to IIS Setup is the ability to install just the feature modules that you require, allowing you to deploy very thin, task-specific servers, as well as lock out functionality in ways never before possible.
 
-<a id="usingwebpi"></a>
-
-## Using the Web Platform Installer (Web PI)
-
-You can use the Web Platform Installer (Web PI) to easily install IIS, as well as other applications that run on IIS. The Web PI is a free, lightweight tool that lets you install IIS and related technologies such as ASP.NET, SQL Server Express, Visual Web Developer, and other popular Web applications. Because the Web PI references and links to the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI and about how to install it, see the [Microsoft Web Platform](https://go.microsoft.com/fwlink/?LinkID=145510) page.
-
 ## Windows Server 2008 and Windows Vista Component-Based Setup
 
 OS and optional features installation for Windows Vista and Windows Server 2008 is based on completely new technology. The new setup technology is now driven by a declarative model, with each feature of the operating system defining its own set of components that make up the feature and its dependencies.

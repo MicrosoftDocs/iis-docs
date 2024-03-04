@@ -13,7 +13,7 @@ by [Tobin Titus](https://github.com/tobint)
 
 As you may know from TechEd 2007 announcements and [a Bill Staples' blog post](https://blogs.iis.net/bills/archive/2007/06/04/iis7-on-server-core.aspx), IIS 7.0 is supported on the Server Core installation option of Windows Server® 2008. IIS 7.0 on Server Core combines a powerful new Web server with a minimal footprint server operating system, which has a smaller disk space requirement, lower memory utilization, a reduced attack surface, and lower servicing needs.
 
-This article provides basic instructions for getting started with IIS 7.0 on Server Core, including installation instructions for running Classic ASP and PHP applications.
+This article provides basic instructions for getting started with IIS 7.0 on Server Core, including installation instructions for running Classic ASP applications.
 
 ## IIS Deployment and Configuration Tips
 
@@ -52,41 +52,6 @@ A. Following features are not available as installation options on Server Core:
 A. Type following pkgmgr.exe command to install Classic ASP along with features for Static Content Web Server on Server Core machine.
 
 [!code-console[Main](iis-70-on-server-core/samples/sample3.cmd)]
-
-**Q4. How do you install PHP on Server Core?**
-
-A. Steps to install and configure PHP on Server Core are as follows:
-
-1. Unzip the content of PHP download from <https://www.php.net/downloads.php> to a file share.
-
-    > [!NOTE]
-    > Since Server Core does not have browser support, it is recommended to download the PHP content on a file share where browser access is available.
-
-2. Create a `%SystemDrive%\PHP` directory on Server Core machine and xcopy the content of the folder from the file share above onto `%SystemDrive%\PHP` folder on local machine.
-
-3. Copy the `%SystemDrive%\PHP\PHP.INI-Recommended` file as `%SystemDrive%\PHP\PHP.INI`.
-
-**Q5. How do you install and configure Fast-CGI support on the IIS Server?**
-
-A. After completing the steps on installing PHP in Q4, please follow the steps below to install Fast-CGI and configure it.
-
-Step 1. Please use following command-line to install IIS features for FastCGI along with features for Static Content Web Server:
-
-[!code-console[Main](iis-70-on-server-core/samples/sample4.cmd)]
-
-> [!NOTE]
-> Alternatively, you can choose to install Full IIS option indicated in Q1. Default IIS install option does not contain FastCGI installation.
-
-Step 2. Create the PHP/FastCGI handler mapping from command line by typing following two appcmd.exe commands:
-
-&gt; AppCmd set config /section:system.webServer/fastCGI /+[fullPath='d:\php\php-cgi.exe']
-
-&gt; AppCmd set config /section:system.webServer/handlers /+[name='PHP-FastCGI',path='\*.php',verb='\*',modules='FastCgiModule',scriptProcessor='d:\php\php-cgi.exe',resourceType='Either']
-
-> [!NOTE]
->
-> 1. AppCmd.exe is a new command-line tool that ships with IIS 7.0. AppCmd.exe can be found at `%WinDir%\System32\InetSrv` directory. For more information on AppCmd command-line tool, see the [Getting Started with AppCmd.exe](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) article.
-> 2. Depending on PHP installation location described in Q4, paths to executables on the hard disk may require updates. All appcmd example commands above assume that PHP installation is in D:\PHP folder.
 
 ## Server Core Administration Tips
 

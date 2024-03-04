@@ -17,7 +17,7 @@ In this case we'll play the role of the developer and use the Microsoft Web Patf
 
 In summary this walkthrough covers:
 
-1. Using Web Platform Installer to install Graffiti CMS in a developer machine
+1. Install Graffiti CMS in a developer machine
 2. Configuring the application to use SQL Server and test it locally
 3. Using Visual Web Developer to modify and publish the application to the remote server.
 4. Using IIS Manager Remote Administration feature to change the application Connection String to point to the new SQL Server.
@@ -27,11 +27,10 @@ In summary this walkthrough covers:
 1. The hoster must have provided the developer with credentials that have access to an FTP site that shared its content with the corresponding Web Site. See FTP and VWD articles link: [Guide to Deploy FTP and Publish with VWD](../configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md) for details on how to setup this configuration so that users are isolated from each other.
 2. The hoster must have provided the developer with a SQL Server database.
 3. The developer must have installed Visual Web Developer (VWD) and SQL Server.
-4. The developer must have installed the Web Platform Installer (WPI). Follow the instructions at link: <https://go.microsoft.com/fwlink/?LinkId=145510>.
 
-## Step 1: Using WPI, install the Graffiti CMS application on your development machine
+## Step 1: Install the Graffiti CMS application on your development machine
 
-As of the writing of this article a new version of Web Platform Installer is being released to the Web. Please visit <https://go.microsoft.com/fwlink/?LinkId=145510> for more information. The set of applications include Graffiti CMS.
+Follow the official guide to install Graffiti CMS on IIS/Windows.
 
 ## Step 2: Verify the existence of the Graffiti CMS Site and corresponding Database
 
@@ -110,7 +109,7 @@ Now you are ready to publish the application.
 
 This walkthrough covered:
 
-1. Using Web Application Installer to install Graffiti CMS in a developer machine
+1. Install Graffiti CMS in a developer machine
 2. Configuring the application to use SQL Server and test it locally
 3. Using Visual Web Developer to modify and publish the application to the remote server.
 4. Using IIS Manager Remote Administration feature to change the application Connection String to point to the new SQL Server.

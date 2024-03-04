@@ -1,2 +1,0 @@
-SELECT CONVERT(char(20), SERVERPROPERTY('productlevel'));
-GO

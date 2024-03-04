@@ -131,7 +131,7 @@ If you want to enable tracing for WMSvc, see [Configuring Web Management Service
  b. Click **Next**.
  c. On the **Parameters** page, change the application name to something that doesn't already exist in the Web site to verify that the user can create applications.  
  d. Complete the wizard.
-5. Finally, you should download an application package or using the Web Platform Installer to install an application to this Web site to verify that the database and other options are working.
+5. Finally, you should download an application package to install an application to this Web site to verify that the database and other options are working.
 
 ## Troubleshooting
 

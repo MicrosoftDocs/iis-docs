@@ -1,1 +1,0 @@
-ADDMIMETYPE.VBS  .xbap application/x-ms-xbap

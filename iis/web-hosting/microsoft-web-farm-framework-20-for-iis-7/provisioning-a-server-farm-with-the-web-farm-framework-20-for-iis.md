@@ -11,15 +11,13 @@ msc.type: authoredcontent
 
 by Randall DuBois
 
-You can use the Web Farm Framework 2.0 for IIS 7 and above to perform both platform and application provisioning on the servers in your server farm. You can also install applications and components by selecting them from a list of products offered by the Microsoft Web Platform Installer.
+You can use the Web Farm Framework 2.0 for IIS 7 and above to perform both platform and application provisioning on the servers in your server farm..
 
 <a id="Platform"></a>
 
 ## Platform Provisioning
 
 Platform provisioning is the process of synchronizing a secondary server with the web platform components and additional modules installed on the primary server. You can select the applications to provision, as well as the interval between synchronization cycles.
-
-You can install any web platform components that are available in the Web Platform Installer. For more information, see [Microsoft Web Platform Installer](https://go.microsoft.com/?linkid=9739157 "Microsoft Web Platform Installer").
 
 ### To configure platform provisioning
 
@@ -62,23 +60,3 @@ Application provisioning is similar to platform provisioning, but instead of syn
 5. Enter a path in which to install the provider on the secondary servers. This must be a file system path, such as `C:\inetpub\`. The field cannot be empty.
 6. In the **Settings** field, specify the provider settings that you want to use for the selected provider. Click the field and use the browse **(…)** button to open the **Provider Settings** dialog box. For more information, see [Web Deploy Provider Settings](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd569001(v=ws.10)).
 7. Add the providers you want, and then in the **Actions** pane click **Apply**.
-
-## Installing Applications on Servers
-
-You can also install web platform products on a selected server or all servers in the farm using the **Install Products** dialog box. When you open this dialog box for a specific server, it displays web platform products offered in the Web Platform Installer whether or not they are already installed on that server. You can select the products and components you want to install, and they will be installed by the Web Farm Framework using Web Platform Installer.
-
-### To install products using the Install Products dialog
-
-1. Open **IIS Manager**, expand the nodes in the **Connections** pane to display your server farm, and then do one of the following: 
-
-    - If you want to install products on all the servers in your server farm, select your server farm in the **Connections** pane, and then in the **Actions** pane click **Install Products**.  
-  
-       ![Screenshot of the I I S Manager Window on the Server Farm page. Install Products option is circled in the Actions menu.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image18.png)
-    - If you want to install products on a specific server, expand the server farms node and then select the **Servers** node. In the **Servers** pane select the server you want, and then in the **Actions** pane click **Install Products**.
-2. In the **Install Products** dialog box, select the products you want to install, and then click **OK**.  
-  
-    ![Screenshot of the Install Products dialog box.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image20.png)
-
-You can view the installation status using the trace messages displayed on the **Servers** page.
-
-![Screenshot of the Servers page displaying the installation status trace messages.](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image22.png)

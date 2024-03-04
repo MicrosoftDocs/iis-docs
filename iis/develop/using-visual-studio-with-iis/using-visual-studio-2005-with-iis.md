@@ -174,7 +174,7 @@ For more information on using the FTP server included in Windows Vista and Windo
 
 You can use the Remote Site option if you have shared the IIS Web site you want to publish to using Front Page Server Extensions. Unlike the FTP Site option, you can create and edit IIS applications and virtual directories when using this option.
 
-[Front Page Server Extensions for IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=86544) are available as a free download for Windows Vista and Windows Server 2008. For more information on installing and enabling Front Page Server Extensions for IIS Web sites, see [Installing Front Page Server Extensions for IIS](https://go.microsoft.com/fwlink/?LinkId=88546).
+Front Page Server Extensions for IIS 7.0 are available as a free download for Windows Vista and Windows Server 2008. For more information on installing and enabling Front Page Server Extensions for IIS Web sites, see [Installing Front Page Server Extensions for IIS](https://go.microsoft.com/fwlink/?LinkId=88546).
 
 To quickly enable a remote Web site to be used with the "Remote Site" option in Visual Studio, do the following:
 

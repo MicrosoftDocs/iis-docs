@@ -1,1 +1,0 @@
-icacls %systemdrive%\inetpub\controlpanel /grant ControlPanelAppId:R

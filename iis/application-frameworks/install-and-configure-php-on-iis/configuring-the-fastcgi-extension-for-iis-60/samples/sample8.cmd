@@ -1,1 +1,0 @@
->cscript fcgiconfig.js -remove -section:"PHP"

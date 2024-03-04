@@ -1,1 +1,0 @@
-EnvironmentVars=VARIABLE1:"C://PHP",VARIABLE2="1/,2/,3"

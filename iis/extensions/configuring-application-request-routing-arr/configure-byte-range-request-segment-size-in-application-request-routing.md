@@ -71,7 +71,7 @@ By default, the byte-range segment size is 256KB. The administrator may want to 
 You will need a client tool that you can use to create the byte-range request. You will also want to trace and capture the HTTP requests to ensure that your client is receiving the expected responses based on the requests that it sends.
 
 1. Send a byte-range request with a range of 0-500. In this example, a byte-range request has been sent to /pix/IMG\_1400.jpg.
-2. If you have a way to monitor the network, for example using [Microsoft Network Monitor](https://www.microsoft.com/downloads/details.aspx?FamilyID=983b941d-06cb-4658-b7f6-3088333d062f&amp;displaylang=en), verify that the client has received the range for 0-500.
+2. If you have a way to monitor the network, for example using Microsoft Network Monitor, verify that the client has received the range for 0-500.
 3. Locate the folder where IMG\_1400.jpg should be located on the cache drive location and list the contents by typing **dir /a**.
 
     [![Screenshot of the Administrator Command Prompt page.](configure-byte-range-request-segment-size-in-application-request-routing/_static/image6.jpg)](configure-byte-range-request-segment-size-in-application-request-routing/_static/image5.jpg)

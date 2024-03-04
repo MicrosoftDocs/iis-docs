@@ -59,9 +59,7 @@ Some IIS configuration settings come in the form of a collection. This article &
 
 The FastCGI module lets you configure FastCGI settings that are used by Web sites on the server. It lets the user add and remove FastCGI applications and change these settings. The following image depicts the Add FastCGI Application dialog box.
 
-[![Screenshot that shows the Fast C G I Settings pane. The Add Fast C G I Application dialog box is open.](administration-pack/_static/image6.jpg)](administration-pack/_static/image5.jpg)  
-   
-For a complete guide about hosting PHP applications with FastCGI, see this article &lt;link: [https://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-70/#Install\_Administration\_Pack\_for\_IIS\_7.0](https://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#Install_Administration_Pack_for_IIS_7.0) &gt;.
+[![Screenshot that shows the Fast C G I Settings pane. The Add Fast C G I Application dialog box is open.](administration-pack/_static/image6.jpg)](administration-pack/_static/image5.jpg)
 
 ### .NET Authorization Rules Module
 

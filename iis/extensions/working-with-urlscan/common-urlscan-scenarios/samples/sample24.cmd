@@ -1,1 +1,0 @@
-LogParser.exe -i:W3C "SELECT x-reason, COUNT(*) FROM mylogfile.log GROUP BY x-reason"

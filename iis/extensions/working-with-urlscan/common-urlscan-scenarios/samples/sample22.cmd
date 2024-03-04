@@ -1,1 +1,0 @@
-LogParser.exe -i:W3C "SELECT s-siteid, COUNT(*) FROM mylogfile.log GROUP BY s-siteid"

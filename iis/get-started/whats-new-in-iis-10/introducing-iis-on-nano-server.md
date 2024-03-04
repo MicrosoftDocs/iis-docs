@@ -98,15 +98,10 @@ Java applications can be hosted on IIS via [HttpPlatformHandler](https://www.iis
 
 My co-worker Jeong Hwan has a blog post here on [how to get Java working with IIS on Nano](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server)
 
-#### PHP
-
-PHP on IIS runs the same on Nano the same as on regular server (e.g. through FastCgi).
-
-Here's a blog post from Jeong Hwan on [how to get a PHP (WordPress) application running on Nano with WinCache and IIS](https://blogs.iis.net/jeonghwan/running-wordpress-with-iis-and-wincache-on-nano-server).
 
 #### Others
 
-Supporting Asp.Net Core, Java and PHP on IIS Nano is a great start though we do have plans to get additional platforms supported. The [HttpPlatformHandler](https://www.iis.net/downloads/microsoft/httpplatformhandler) is a general purpose module for managing and sending requests to http listeners, so there could well be more platforms that can run well on Nano that we haven't tested and so haven't listed.
+Supporting ASP.NET Core and Java on IIS Nano is a great start though we do have plans to get additional platforms supported. The [HttpPlatformHandler](https://www.iis.net/downloads/microsoft/httpplatformhandler) is a general purpose module for managing and sending requests to http listeners, so there could well be more platforms that can run well on Nano that we haven't tested and so haven't listed.
 
 If you do try this (e.g. with Ruby or Node) and get it working let us know!
 

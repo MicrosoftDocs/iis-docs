@@ -28,7 +28,7 @@ HTTP.sys is an operating system component that handles HTTP and SSL traffic for 
 - Serving external traffic
 - Using SSL
 
-You can configure HTTP.sys to permit these operations for IIS Express. On Windows 7 and Windows Vista, you can configure HTTP.sys using the [netsh.exe](/windows/win32/http/netsh-commands-for-http) utility. On Windows XP, HTTP.sys can be configured using the [httpcfg.exe](/previous-versions/windows/it-pro/windows-server-2003/cc781601(v=ws.10)) command-line utility, which is included with [Windows XP Service Pack 2 Support Tools](https://www.microsoft.com/downloads/en/details.aspx?familyid=49AE8576-9BB9-4126-9761-BA8011FABF38&amp;displaylang=en).
+You can configure HTTP.sys to permit these operations for IIS Express. On Windows 7 and Windows Vista, you can configure HTTP.sys using the [netsh.exe](/windows/win32/http/netsh-commands-for-http) utility. On Windows XP, HTTP.sys can be configured using the [httpcfg.exe](/previous-versions/windows/it-pro/windows-server-2003/cc781601(v=ws.10)) command-line utility, which is included with Windows XP Service Pack 2 Support Tools.
 
 ## Using a Reserved Port
 

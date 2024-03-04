@@ -1,5 +1,5 @@
 ---
-title: "Shared Configuration"
+title: "Shared Configuration in IIS versions"
 author: walterov
 description: "In IIS 6.0, synchronizing and replicating configuration between servers was difficult because no built-in functionality existed. Although the server administ..."
 ms.date: 12/02/2007
@@ -7,7 +7,7 @@ ms.assetid: 4c423bc4-1dac-4d0d-9be3-5c9b87b06e86
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211
 msc.type: authoredcontent
 ---
-# Shared Configuration
+# Shared Configuration in IIS versions
 
 by [Walter Oliver](https://github.com/walterov)
 

@@ -66,7 +66,7 @@ Figuring out the right accounts to grant permissions depends on the profile and 
 
 ## How to Set ACLs
 
-There are several ways to set your ACLs through the shell, including command-line tools such as Icacls.exe. This article focuses on the Web Deployment Tool manifest (XML) mechanism that can be used to set ACLs. This is used when installing an application through the Web Deployment Tool or the Web Platform Installer.
+There are several ways to set your ACLs through the shell, including command-line tools such as Icacls.exe. This article focuses on the Web Deployment Tool manifest (XML) mechanism that can be used to set ACLs. This is used when installing an application through the Web Deployment Tool.
 
 To give Read, Execute, and Write permissions to *MyApp* file system directory for user *Foo*, add the following line to the Manifest.xml file:
 

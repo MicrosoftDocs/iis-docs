@@ -1,3 +1,0 @@
-[AllowExtensions]
-.htm
-.html

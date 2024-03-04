@@ -29,9 +29,8 @@ The following prerequisites must be fulfilled to install IIS Advanced Logging:
   - Windows 7
 - To manage IIS Advanced Logging using the IIS Manager user interface, the IIS Management Console for IIS must be installed.
 
-The following options are available for installing IIS Advanced Logging:
+The following option is available for installing IIS Advanced Logging:
 
-- Web Platform Installer
 - Windows Installer files (for 32-bit and 64-bit versions of the selected operating system)
 
 ## Concepts

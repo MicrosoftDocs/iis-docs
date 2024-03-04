@@ -1,2 +1,0 @@
-[RequestLimits]
-MaxQueryString=100

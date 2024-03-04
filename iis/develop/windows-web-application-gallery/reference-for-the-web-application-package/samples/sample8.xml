@@ -1,3 +1,0 @@
-<parameter name="RegEx Parameter"> 
-    <parameterValidation type="RegularExpression" validationString=".+" /> 
-</parameter>

@@ -1,1 +1,0 @@
-ADDMIMETYPE.VBS  .xaml application/xaml+xml

@@ -47,7 +47,7 @@ In summary, ARR's benefits include:
 The following steps and articles constitute a complete guide for setting up an ARR server and a corresponding Web server farm, as described in the [Shared Hosting Configuration article](../planning-the-web-hosting-architecture/shared-hosting-configuration.md):
 
 1. Designate a server connected to the Internet that will run ARR and will handle all Web requests between clients and the Web application servers.
-2. Install ARR using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) on the designated server.
+2. Install ARR on the designated server.
 3. Change the [application pool process model for ARR](../../extensions/installing-application-request-routing-arr/install-application-request-routing.md).[![Screenshot of the flow between the Front End and Back End with A P R Server highlighted.](application-request-routing-arr-20-for-shared-hosting/_static/image4.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image3.jpg)
 4. Set up an ARR Web server farm, using the procedure in the following [article](../../extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm.md). For more information about shared configuration, see: [https://www.iis.net/learn/manage/managing-your-configuration-settings/shared-configuration\_264](../../manage/managing-your-configuration-settings/shared-configuration_264.md).  
     [![Screenshot of the flow between the Front End and Back End with Web Server farm highlighted and Web Farm Shared Configuration displayed.](application-request-routing-arr-20-for-shared-hosting/_static/image6.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image5.jpg)

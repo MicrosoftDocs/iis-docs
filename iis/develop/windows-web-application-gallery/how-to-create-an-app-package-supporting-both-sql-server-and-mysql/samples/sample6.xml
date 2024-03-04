@@ -1,8 +1,0 @@
-<!-- SQL Server Connection String -->
-<parameter defaultValue="Server={Database Server SQL};Database={Database NameSQL};uid={Database Administrator SQL};Pwd={Database Administrator Password SQL};" description="Automatically sets the connection string for the connection request." name="ConnectionStringSQL" tags="Hidden,SQLConnectionString,SQL">
-    <parameterEntry match="sqlserver_script.sql" scope="dbfullsql" type="ProviderPath"/>
-</parameter>
-<!-- MySQL Connection String -->
-<parameter defaultValue="Server={Database Server MySQL};Database={Database Name MySQL};uid={Database Administrator MySQL};Pwd={Database Administrator Password MySQL};" description="Automatically sets the connection string for the connection request." name="ConnectionStringMySQL" tags="Hidden,MySQLConnectionString,MySQL">
-    <parameterEntry match="mysql_script.sql" scope="dbfullsql" type="ProviderPath"/>
-</parameter>

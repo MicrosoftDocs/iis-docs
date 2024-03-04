@@ -1,5 +1,0 @@
-<?php
-if(mail(‘user@mydomain.com’,’test message’)){
-     echo(‘ok’);
-     }
-else{

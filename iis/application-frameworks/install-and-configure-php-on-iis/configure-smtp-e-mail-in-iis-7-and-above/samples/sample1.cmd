@@ -1,1 +1,0 @@
-C:\%windir%\system32\inetsrv\appcmd set config /commit:WEBROOT /section:smtp /from: string /deliveryMethod:network /network.port: int /network.defaultCredentials:True|False /network.host:string /network.userName:string /network.password:string

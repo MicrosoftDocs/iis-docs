@@ -61,9 +61,7 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
     - [URL Rewrite for Hosters](../web-server-for-shared-hosting/url-rewrite-for-hosting-providers.md)
     - [Database Manager for Hosters](../web-server-for-shared-hosting/database-manager-for-hosters.md)
     - [Administration Pack](../web-server-for-shared-hosting/administration-pack.md)
-    - [FastCGI with PHP](../web-server-for-shared-hosting/fastcgi-with-php.md)
     - [ASP](../web-server-for-shared-hosting/asp.md)
-    - [Configuring IIS for Silverlight Applications](../web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md)
     - [SMB Commands Registry Keys](../web-server-for-shared-hosting/smb-commands-registry-keys_198.md)
     - [Backup](../web-server-for-shared-hosting/create-a-backup-with-appcmd.md)
 - [File Server For Content Storage](../configuring-servers-in-the-windows-web-platform/index.md)
@@ -82,10 +80,8 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
 
     - [SQL 2008 for Hosters](../configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md)
     - [SQL Server 2005](../configuring-servers-in-the-windows-web-platform/sql-server-2005.md)
-    - [MySQL Server](../../application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md)
 - [Guide to Deploy FTP and Publish with VWD](../configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md)
 - [Publishing Components: FTP 7.5, WebDAV, and FPSE](../configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse.md)
-- [Web Platform Installer](../configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)
 
 <a id="Verify"></a>
 
@@ -93,7 +89,6 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
 
 - [Verifying Remote Administration](../verifying-the-deployment/verifying-remote-administration.md)
 - [Verifying the Developer Experience – ASP.NET](../verifying-the-deployment/verifying-the-developer-experience-aspnet.md)
-- [Verifying the Developer Experience - PHP](../verifying-the-deployment/verifying-the-developer-experience-php.md)
 
 <a id="infra"></a>
 
@@ -167,4 +162,3 @@ You can find additional resources for understanding Windows Server 2008 R2 with 
 - [Creating, Updating, and Publishing Web applications with Visual Web Developer](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md)
 - [Setting up Delegated Administration, Server and Client Experiences](../using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md)
 - [Using Delegated Administration](../using-shared-hosting-environments/using-delegated-administration.md)
-- [Web Platform Installer](../configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md)

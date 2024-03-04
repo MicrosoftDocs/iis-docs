@@ -1,1 +1,0 @@
-icacls %SystemDrive%\Inetpub\wwwroot\MediaWiki\config /grant BUILTIN\IIS_IUSRS:(W)

@@ -25,7 +25,7 @@ This section describes the known breaking changes in IIS 7.0 and above.
 
 Previous versions of IIS used the metabase to configure Web servers and sites, whereas IIS 7.0 and above use an XML configuration file to configure these settings. Although the metabase is no longer used to configure IIS 7.0 and above, a metabase compatibility feature is available to make IIS 7.0 and above compatible with APIs that relied on the metabase. This feature supports the Admin Base Objects (ABO) interface (also known as IMSAdminBase), Active Directory Service Interfaces (ADSI), and the WMI providers that were built on top of ABO in IIS 6.0.
 
-By default, IIS 7.0 and above does not install the metabase compatibility feature. For more information on how to install the metabase compatibility feature, see [Configuration Compatibility](https://go.microsoft.com/fwlink/?LinkId=78483) on IIS.NET.
+By default, IIS 7.0 and above does not install the metabase compatibility feature.
 
 ### Metabase Compatibility Considerations
 
@@ -64,7 +64,7 @@ IIS 7.0 and above setup does not re-target the \inetpub folder, which is always 
 
 IIS 7.0 and above integrates the ASP.NET runtime extensibility model with the core Web server. This integration enables developers to extend the IIS server by using the power of ASP.NET 2.0 and the .NET Framework, instead of using the less robust IIS C++ APIs. Existing ASP.NET applications also immediately benefit from tighter integration by being able to use existing ASP.NET features such as Forms Authentication, Roles, and Output Caching for all kinds of content.
 
-For more information about the ASP.NET integration in IIS and about migrating existing applications, see ASP.NET Integration with IIS 7.0 and Above on IIS.NET. For more information about breaking changes associated with ASP.NET, see [Upgrading ASP.NET Applications to IIS 7: Configuring Applications After Upgrade and Differences Between IIS 7.0 Integrated Mode and ISAPI Mode](https://go.microsoft.com/fwlink/?LinkId=77939) on the ASP.NET site.
+For more information about the ASP.NET integration in IIS and about migrating existing applications, see ASP.NET Integration with IIS 7.0 and Above on IIS.NET. For more information about breaking changes associated with ASP.NET, see [Upgrading ASP.NET Applications to IIS 7: Configuring Applications After Upgrade and Differences Between IIS 7.0 Integrated Mode and ISAPI Mode](/iis/application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008) on the ASP.NET site.
 
 <a id="Using"></a>
 

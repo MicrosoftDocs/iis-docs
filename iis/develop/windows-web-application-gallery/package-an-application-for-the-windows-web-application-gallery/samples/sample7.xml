@@ -1,3 +1,0 @@
-<parameter name="Unique Phrase" friendlyName="Unique Key for Passwords" description="Unique phrase to strengthen your password." defaultValue="put your unique phrase here" tags="NoStore">
-    <parameterEntry type="TextFile" match="put your unique phrase here" scope="app\\config\.php"/>
-</parameter>

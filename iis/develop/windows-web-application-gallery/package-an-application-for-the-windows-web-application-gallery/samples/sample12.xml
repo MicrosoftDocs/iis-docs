@@ -1,9 +1,0 @@
-<!-- This is the parameter that is used to set ACLs, it's set to the application path filled in by the user --> 
-<parameter 
-name="SetAclParameter1" 
-defaultValue="{AppPath}/sites/default/settings.php" 
-tags="Hidden"> 
-<parameterEntry 
-  type="ProviderPath" scope="setAcl" 
-  match="Application/sites/default/settings.php" /> 
-</parameter>

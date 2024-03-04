@@ -1,1 +1,0 @@
-ADDMIMETYPE.VBS  .xap  application/x-silverlight-app

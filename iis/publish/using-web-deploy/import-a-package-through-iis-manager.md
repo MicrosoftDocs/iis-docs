@@ -25,11 +25,9 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 ## Prerequisites if you're using SQL
 
-Note: The second and third prerequisites will be installed if you install the Web Deployment Tool using the Web Platform Installer
-
 - SQL Server Express or Standard
-- SQL Server 2008 Management Objects (SMO) - [x86](https://go.microsoft.com/fwlink/?LinkId=123708&amp;clcid=0x409) or [x64](https://go.microsoft.com/fwlink/?LinkId=123709&amp;clcid=0x409)
-- SQL CLR Types - [x86](https://go.microsoft.com/fwlink/?LinkId=123721&amp;clcid=0x409) or [x64](https://go.microsoft.com/fwlink/?LinkId=123722&amp;clcid=0x409)
+- SQL Server 2008 Management Objects (SMO)
+- SQL CLR Types
 
 ## Import a Package
 

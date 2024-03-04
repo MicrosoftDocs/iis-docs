@@ -43,7 +43,7 @@ WSRM integrates resource management with Web pools through a built-in policy cal
    d. If prompted to disable the calendar, click OK
 
       ![Screenshot of the warning message that displays before disabling the calendar.](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image9.jpg)
-   e. Observe the behavior of the system under an IIS load. You could use WCAT for simulating a load on the server. This tools is part of IIS 6.0 Resource Kit which can be downloaded from the following link: <https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en>.
+   e. Observe the behavior of the system under an IIS load. You could use WCAT for simulating a load on the server. This tool is part of IIS 6.0 Resource Kit.
 
 ## Creating a Custom IIS Policy (Optional)
 

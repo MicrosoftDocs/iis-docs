@@ -1,6 +1,0 @@
-<dependency>
-  <and>
-	<dependency idref="PHPApp" />
-	<dependency idref="MySQLApp" />
-  </and>
-</dependency>

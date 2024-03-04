@@ -67,17 +67,15 @@ The procedures in this section guide you through installing and configuring FTP 
 <a id="52"></a>
 ## 5.2. Install and Test Web Deploy for Your Web Farm
 
-Install Web Deploy on your source computer (your development machine with IIS installed). Install Web Deploy on each of your web application servers. Use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the current version of Web Deploy and its dependencies.
+Install Web Deploy on your source computer (your development machine with IIS installed). Install Web Deploy on each of your web application servers.
 
 To test your Web Deploy installation, use it to update your website.
 
 ### To install Web Deploy for your farm
 
-1. Open a browser to the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy) website, and click the **Install** button.
-2. Click **Allow**, and then click **Yes**.
-3. In the **Web Platform Installer** window, click **Install**.
-4. Look over the components to be installed, and then click **I Accept**. When the installer completes the installation, it displays and summary showing what was installed.
-5. Click **Finish**, and then click **Exit**.
+1. Open a browser to the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy) website.
+2. Locate the MSI packages for the current version of Web Deploy and download them to your server.
+3. Run the MSI package to install Web Deploy.
 
 ### To update your website with Web Deploy
 

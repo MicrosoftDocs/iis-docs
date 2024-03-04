@@ -1,1 +1,0 @@
-logparser.exe "SELECT * INTO UrlScan.csv FROM UrlScan.*.log" -i:w3c -o:csv

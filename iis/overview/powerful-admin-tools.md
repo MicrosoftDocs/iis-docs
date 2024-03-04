@@ -31,4 +31,4 @@ IIS supports a command line tool [AppCmd.exe](../get-started/getting-started-wit
 
 ## Microsoft IIS Administration API
 
-The [Microsoft IIS Administration API](/iis-administration/) is REST API that enables customers to configures and monitor their IIS web server. With the API installed on a machine with IIS, one can configure an IIS instance with any HTTP client including the web management tool at [manage.iis.net](https://manage.iis.net/).
+The [Microsoft IIS Administration API](/iis-administration/) is REST API that enables customers to configures and monitor their IIS web server. With the API installed on a machine with IIS, one can configure an IIS instance with any HTTP client.

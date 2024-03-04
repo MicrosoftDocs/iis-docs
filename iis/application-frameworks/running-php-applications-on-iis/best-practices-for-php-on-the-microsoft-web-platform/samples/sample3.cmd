@@ -1,1 +1,0 @@
-C:\Windows\System32\inetsrv>appcmd set config /section:httpProtocol /allowKeepAlive:true | false

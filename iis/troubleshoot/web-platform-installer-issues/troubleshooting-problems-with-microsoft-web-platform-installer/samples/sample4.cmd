@@ -1,1 +1,0 @@
-notepad %wsystemroot%\iis6.log.

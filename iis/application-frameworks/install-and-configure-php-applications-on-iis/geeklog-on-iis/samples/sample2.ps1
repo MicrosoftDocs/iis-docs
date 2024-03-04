@@ -1,1 +1,0 @@
-$_CONF['path'] = 'd:/geeklog/'; // should end in a slash

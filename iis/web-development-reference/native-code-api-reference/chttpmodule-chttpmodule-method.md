@@ -1,10 +1,10 @@
 ---
-title: "CHttpModule::CHttpModule Method"
+title: "CHttpModule::CHttpModule Method 1.5"
 description: "Describes the CHttpModule::CHttpModule method and details its syntax, parameters, remarks, code example, and requirements."
 ms.date: 10/07/2016
 ms.assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
 ---
-# CHttpModule::CHttpModule Method
+# CHttpModule::CHttpModule Method 1.5
 Initializes a new instance of the [CHttpModule](../../web-development-reference/native-code-api-reference/chttpmodule-class.md) class.  
   
 ## Syntax  
