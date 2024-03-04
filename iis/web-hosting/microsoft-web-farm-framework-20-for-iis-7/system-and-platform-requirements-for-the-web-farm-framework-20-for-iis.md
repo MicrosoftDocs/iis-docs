@@ -41,7 +41,6 @@ To provision your server farm, you first set up a primary server, and then Web F
 The Controller server must have the following:
 
 - Windows Vista with SP1, Windows 7, Windows Server 2008 with SP1, or Windows Server R2 installed.
-- The Microsoft Web Platform Installer V3 (Web PI v3) installed. To download Web PI, see [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx "Web Platform Installer").
 - IIS installed (IIS 7.0, IIS 7.5 or above). If you do not have IIS installed, you can use the Web PI to install it.
 - The Microsoft Web Deploy v2 module for IIS. If Web Deploy is not installed on the computer, it will automatically be installed by the Web PI with the Web Farm Framework as a required dependency.
 

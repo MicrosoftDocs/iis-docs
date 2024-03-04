@@ -24,7 +24,7 @@ Internet Information Services (IIS) 7.5 Express is a free, simple and self-conta
 
 ## Installation
 
-You can install IIS 7.5 Express using Web Platform Installer, or through the [Microsoft Download Center](https://www.microsoft.com/download/).
+You can install IIS 7.5 Express through the [Microsoft Download Center](https://www.microsoft.com/download/).
 
 <a id="UsingIISExpress"></a>
 

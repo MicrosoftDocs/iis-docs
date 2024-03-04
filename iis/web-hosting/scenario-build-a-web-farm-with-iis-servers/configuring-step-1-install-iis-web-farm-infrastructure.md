@@ -69,17 +69,13 @@ Install IIS on all servers in your web farm except your back-end file servers (c
 
 ## 1.2 Install ARR for Load Balancing
 
-Once you have a default installation of IIS on a server, you can use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the current version of Application Request Routing (ARR).
+Once you have a default installation of IIS on a server, you can install the current version of Application Request Routing (ARR).
 
 ### To install ARR load balancing and its dependencies
 
-1. Open a browser to the [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) website, and click the **Install** button.
-2. Click **Allow**, and then click **Yes**.
-3. In the **Web Platform Installer** window, click **Install**.
-4. Look over the components to be installed, and then click **I Accept**.
-
-    When the installer completes the installation, it displays and summary showing what was installed.
-5. Click **Finish**, and then click **Exit**.
+1. Open a browser to the [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) website.
+2. Locate the MSI packages for the current version of ARR and download them to your server.
+3. Run the MSI package to install ARR and its dependencies.
 
 <a id="13"></a>
 

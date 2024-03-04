@@ -28,9 +28,7 @@ To get the most from this tutorial, you must have access to a computer that is r
 
 ## Step 1: Install the IIS Web Server
 
-You can use the Web Platform Installer (Web PI) to install IIS and applications that run on IIS. The Web PI installs the latest versions of web platform offerings, including updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510). If you use the Web PI to install IIS, you can skip to step 2.
-
-You can also perform this procedure by using the Windows user interface (UI) or from a command line.
+You can perform this procedure by using the Windows user interface (UI) or from a command line.
 
 ### To install IIS on Windows Server 2012 by using the UI
 

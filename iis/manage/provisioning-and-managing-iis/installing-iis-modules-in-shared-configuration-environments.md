@@ -39,7 +39,7 @@ This is accomplished through the IIS Manager UI and Command line prompt. See art
 
 ## Step 4 - Install the IIS Module in server 1
 
-Use Web Platform Installer to install the new IIS Modules: [https://www.microsoft.com/web/downloads/platform.aspx](https://www.microsoft.com/web/downloads/platform.aspx)
+Install IIS modules manually.
 
 ## Step 5 – Export the configuration from server 1 to a new shared configuration location
 
