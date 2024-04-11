@@ -1,1 +1,0 @@
-$db_url = 'mysql://username:pass@/word@server/databasename';

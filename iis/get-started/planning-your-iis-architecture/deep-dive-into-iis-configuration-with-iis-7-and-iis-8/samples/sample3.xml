@@ -7,6 +7,6 @@
     <!-- "add" is the collection directive.                   -->
     <!-- "value" is a configuration property (XML attribute). -->
     <add value="Negotiate"/>
-    <add value=""NTLM/>
+    <add value="NTLM"/>
   </providers>
 </windowsAuthentication>

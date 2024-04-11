@@ -69,17 +69,13 @@ Install IIS on all servers in your web farm except your back-end file servers (c
 
 ## 1.2 Install ARR for Load Balancing
 
-Once you have a default installation of IIS on a server, you can use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the current version of Application Request Routing (ARR).
+Once you have a default installation of IIS on a server, you can install the current version of Application Request Routing (ARR).
 
 ### To install ARR load balancing and its dependencies
 
-1. Open a browser to the [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) website, and click the **Install** button.
-2. Click **Allow**, and then click **Yes**.
-3. In the **Web Platform Installer** window, click **Install**.
-4. Look over the components to be installed, and then click **I Accept**.
-
-    When the installer completes the installation, it displays and summary showing what was installed.
-5. Click **Finish**, and then click **Exit**.
+1. Open a browser to the [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) website.
+2. Locate the MSI packages for the current version of ARR and download them to your server.
+3. Run the MSI package to install ARR and its dependencies.
 
 <a id="13"></a>
 
@@ -92,8 +88,7 @@ If you need help configuring your website on your web server, refer to one of th
 1. [Build a Static Website on IIS](../../manage/creating-websites/scenario-build-a-static-website-on-iis.md)
 2. [Build a Classic ASP Website on IIS](../../application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis.md)
 3. [Build an ASP.NET Website on IIS](../../application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md)
-4. [Build a PHP Website on IIS](../../application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
-5. [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
+4. [Build an FTP Site on IIS](../../publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
 
 ## See also
 

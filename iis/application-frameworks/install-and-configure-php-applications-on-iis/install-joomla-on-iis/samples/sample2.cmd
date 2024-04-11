@@ -1,1 +1,0 @@
-C:\inetpub\wwwroot\Joomla>icacls administrator\cache /grant BUILTIN\IIS_IUSRS:(OI)(CI)(M)

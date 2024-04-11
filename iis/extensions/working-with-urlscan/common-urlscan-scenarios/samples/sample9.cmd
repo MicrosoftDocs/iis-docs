@@ -1,2 +1,0 @@
-[RequestLimits]
-MaxAllowedContentLength=1000

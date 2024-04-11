@@ -30,11 +30,6 @@ This walkthrough requires the following prerequisites:
   - The servers should be configured to use shared configuration and shared content. For more information about shared configuration, see the [Shared Configuration](../../manage/managing-your-configuration-settings/shared-configuration_264.md) article.
   - The sites on the servers should be using host name binding.
 
-If the Application Request Routing RC has not been installed, download it at:
-
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
-- Download Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
-
 Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing.md) document to install Application Request Routing.
 
 As another prerequisite, you must define and configure a server farm by following the steps outlined in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).

@@ -25,16 +25,9 @@ The server must have an operating system that comes with IIS7— this means eith
 
 #### Use WebPI to install Web Deploy along with its dependencies like the Web Management Service (WMSvc)
 
-1. Install Web Deploy by using either method **i** or **ii** below: 
+1. Install Web Deploy by using the method below: 
 
-    1. Install Web Deploy and dependent products using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
-
-        1. Download the Web Platform Installer. [https://www.microsoft.com/web/downloads/platform.aspx](https://www.microsoft.com/web/downloads/platform.aspx)
-        2. In the upper-right hand corner, click in the search box, type "Web Deploy", and press ENTER  
-            [![Screenshot that shows the Web Platform Installer. Web Deploy is entered in the search box.](installing-and-configuring-web-deploy/_static/image4.png)](installing-and-configuring-web-deploy/_static/image3.png)
-        3. Add the "Web Deployment Tool 2.1 for Hosting Servers" product and click **Install**.  
-            ![Screenshot that shows the Web Platform Installer. Web Deploy is entered in the search box field.](installing-and-configuring-web-deploy/_static/image5.png)
-    2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) (x86) | (x64)
+    1. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) (x86) | (x64)
 
         1. In the Setup wizard choose the "Complete" setup option.  
             [![Screenshot that shows the Microsoft Web Deploy 2 point 0 Setup wizard. Complete is highlighted.](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)
@@ -72,7 +65,7 @@ After installing Web Deploy using method (1) or (2a), described above, all serve
 
 #### Requirements:
 
-Install Web Deploy using method (1) or (2a) described above. If you are using a client operating system such as Vista or Windows 7, or a Windows server version without IIS7+, such as Windows Server 2003, you will need to choose the Web Deployment Tool 2.1 product option in the Web Platform Installer (in install method 2a), or install directly from the Web Deployment Tool download page (install method 2b). For these client or server 2003 machines the Web Management Service handler component and associated delegation rules will not be applicable.
+Install Web Deploy using the method described above. If you are using a client operating system such as Vista or Windows 7, or a Windows server version without IIS7+, such as Windows Server 2003, you will need to install directly from the Web Deployment Tool download page. For these client or server 2003 machines the Web Management Service handler component and associated delegation rules will not be applicable.
 
 ### Trouble-shooting Common Issues:
 

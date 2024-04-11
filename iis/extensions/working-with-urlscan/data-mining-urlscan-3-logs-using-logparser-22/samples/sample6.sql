@@ -1,1 +1,0 @@
-logparser.exe "SELECT * FROM UrlScan.*.log WHERE c-ip='192.168.1.1'" -i:w3c

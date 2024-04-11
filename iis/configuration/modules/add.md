@@ -1,5 +1,5 @@
 ---
-title: "Adding Modules &lt;add&gt;"
+title: "Adding Modules &lt;add&gt; element"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;modules&gt; element adds a module to the collection of feature modules that are available in IIS Manager when a u..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: c9292951-00fe-4767-9dfd-709e076a5bca
 msc.legacyurl: /configreference/modules/add
 msc.type: config
 ---
-# Adding Modules &lt;add&gt;
+# Adding Modules &lt;add&gt; element
 
 <a id="001"></a>
 ## Overview

@@ -56,11 +56,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md",
-      "redirect_url": "/troubleshoot/developer/webapps/iis/iis-extensions-tools-addons/troubleshooting-problems-with-microsoft-web-platform-installer",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md",
       "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-failed-requests-using-tracing-in-iis-85",
       "redirect_document_id": false
@@ -68,11 +63,6 @@
     {
       "source_path": "iis/troubleshoot/security-issues/troubleshooting-forms-authentication.md",
       "redirect_url": "/troubleshoot/developer/webapps/iis/www-authentication-authorization/troubleshooting-forms-authentication",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md",
-      "redirect_url": "/troubleshoot/developer/webapps/iis/health-diagnostic-performance/troubleshoot-php-with-failed-request-tracing",
       "redirect_document_id": false
     },
     {
@@ -126,11 +116,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md",
-      "redirect_url": "/previous-versions/troubleshoot/iis/webmatrix-publish-and-download-troubleshooting",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/application-frameworks/building-and-running-aspnet-applications/index.md",
       "redirect_url": "/iis/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication",
       "redirect_document_id": false
@@ -141,33 +126,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis.md",
-      "redirect_url": "/iis/",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/install-and-configure-php-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/index.md",
       "redirect_url": "/iis/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/running-php-applications-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/application-frameworks/scenario-build-a-php-website-on-iis/index.md",
-      "redirect_url": "/iis/application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis",
       "redirect_document_id": false
     },
     {
@@ -196,33 +156,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/develop/installingpublishing-apps-with-webmatrix/index.md",
-      "redirect_url": "/iis/develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/develop/runtime-extensibility/index.md",
       "redirect_url": "/iis/develop/runtime-extensibility/extending-web-server-functionality-in-net",
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/develop/troubleshooting-webmatrix/index.md",
-      "redirect_url": "/iis/develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/develop/using-visual-studio-with-iis/index.md",
       "redirect_url": "/iis/develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/develop/using-webmatrix/index.md",
-      "redirect_url": "/iis/develop/using-webmatrix/create-a-website-from-a-gallery-application",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/develop/windows-web-application-gallery/index.md",
-      "redirect_url": "/iis/develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery",
       "redirect_document_id": false
     },
     {
@@ -311,16 +251,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/extensions/web-platform-installer/index.md",
-      "redirect_url": "/iis/extensions/web-platform-installer/microsoft-web-platform-installer",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/extensions/working-with-urlscan/index.md",
-      "redirect_url": "/iis/extensions/working-with-urlscan/urlscan-setup",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/get-started/case-studies/index.md",
       "redirect_url": "/iis/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system",
       "redirect_document_id": false
@@ -403,11 +333,6 @@
     {
       "source_path": "iis/install/installing-publishing-technologies/index.md",
       "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/install/web-platform-installer/index.md",
-      "redirect_url": "/iis/install/web-platform-installer/web-platform-installer-20-walkthrough",
       "redirect_document_id": false
     },
     {
@@ -536,11 +461,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "iis/troubleshoot/web-platform-installer-issues/index.md",
-      "redirect_url": "/iis/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "iis/web-dev-reference/index.md",
       "redirect_url": "/iis/web-dev-reference/server-variables",
       "redirect_document_id": false
@@ -583,11 +503,6 @@
     {
       "source_path": "iis/web-hosting/installing-infrastructure-components/index.md",
       "redirect_url": "/iis/web-hosting/installing-infrastructure-components/planning-the-deployment",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "iis/web-hosting/joining-the-web-hosting-gallery/index.md",
-      "redirect_url": "/iis/web-hosting/joining-the-web-hosting-gallery/servervalidator-demo",
       "redirect_document_id": false
     },
     {

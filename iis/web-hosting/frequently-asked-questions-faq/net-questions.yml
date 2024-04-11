@@ -86,9 +86,7 @@ sections:
       - question: |
           Does the .NET 3.5 Framework include Entity Framework Beta 2?
         answer: |
-          No. It doesn't include Entity Framework beta2. You need to download here:
-          
-          [https://www.microsoft.com/downloads/details.aspx?FamilyId=F1ADC5D1-A42E-40A6-A68C-A42EE11186F7&amp;displaylang=en](https://www.microsoft.com/downloads/details.aspx?FamilyId=F1ADC5D1-A42E-40A6-A68C-A42EE11186F7&amp;displaylang=en)
+          No. It doesn't include Entity Framework beta2.
           
           Here is the release info:
           

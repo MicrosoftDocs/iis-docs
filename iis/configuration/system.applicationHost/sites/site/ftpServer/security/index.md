@@ -1,5 +1,5 @@
 ---
-title: "FTP Security &lt;security&gt;"
+title: "FTP Security &lt;security&gt; element"
 author: rick-anderson
 description: "Overview The &lt;security&gt; element defines the parent element for the security options of FTP sites, and contains the following child elements, which are..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: a910cf6f-5593-4122-bdb9-462f08f4ea76
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security
 msc.type: config
 ---
-# FTP Security &lt;security&gt;
+# FTP Security &lt;security&gt; element
 
 <a id="001"></a>
 ## Overview

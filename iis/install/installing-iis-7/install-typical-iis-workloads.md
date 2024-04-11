@@ -39,7 +39,6 @@ The common IIS workloads we will consider are:
 - Default Install - Static Content web Server
 - ASP.NET
 - Classic ASP
-- Fast CGI for PHP
 - IIS Full Install
 
 ### Combining and Modifying Workloads
@@ -140,30 +139,6 @@ To install IIS features for Classic ASP along with features for Static Content W
 To install IIS features for Classic ASP via ServerManagerCmd.exe, use the following command line:
 
 [!code-powershell[Main](install-typical-iis-workloads/samples/sample8.ps1)]
-
-<a id="InstallFastCGI"></a>
-
-## Install FastCGI for PHP
-
-FastCGI provides a high-performance alternative to the Common Gateway Interface (CGI), a standard way of interfacing external applications with Web servers that has been supported as part of the IIS feature-set since the very first release.
-
-FastCGI overcomes the performance penalty of traditional CGI by re-using CGI processes to service subsequent requests, while continuing to ensure single request concurrency. For more information on how FastCGI works, see article [Using FastCGI to Host PHP Applications on IIS 7.0 and Above.](../../application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md)
-
-To install IIS features for CGI and Fast CGI from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
-
-| UI Name | Update Name |
-| --- | --- |
-| CGI | IIS-CGI |
-
-To install IIS features for CGI and FastCGI along with features for Static Content Web Server via pkgmgr.exe, use the following command line:
-
-[!code-console[Main](install-typical-iis-workloads/samples/sample9.cmd)]
-
-To install IIS features for CGI and FastCGI via ServerManagerCmd.exe, use the following command line:
-
-[!code-powershell[Main](install-typical-iis-workloads/samples/sample10.ps1)]
-
-<a id="FullInstall"></a>
 
 ## IIS 7.0 and Above Full Install
 

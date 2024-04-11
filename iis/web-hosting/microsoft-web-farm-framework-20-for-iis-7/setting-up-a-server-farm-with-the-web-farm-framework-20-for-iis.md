@@ -21,7 +21,7 @@ The article also describes how WFF automatically provisions the secondary server
 
 After you complete the steps to install and configure WFF, your server farm does not require any additional configuration or manual monitoring. Any application you install or deploy to the primary server is automatically updated on the secondary servers.
 
-WFF uses the Microsoft Web Platform Installer (Web PI) and Web Deploy as the mechanisms to update products and applications. You can perform each of the tasks described using the UI, APIs, and Windows PowerShell cmdlets. For information about using APIs or Windows PowerShell, see [Web Farm Framework 2.0 for IIS 7 and Above Code Sample](web-farm-framework-20-for-iis-code-sample.md) or [Web Farm Framework 2.0 for IIS 7 and Above cmdlets for Windows PowerShell](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell.md).
+WFF uses the Microsoft Web Deploy as the mechanisms to update products and applications. You can perform each of the tasks described using the UI, APIs, and Windows PowerShell cmdlets. For information about using APIs or Windows PowerShell, see [Web Farm Framework 2.0 for IIS 7 and Above Code Sample](web-farm-framework-20-for-iis-code-sample.md) or [Web Farm Framework 2.0 for IIS 7 and Above cmdlets for Windows PowerShell](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell.md).
 
 ## Setting Up a Server Farm
 
@@ -42,21 +42,10 @@ Setting up a server farm consists of the following tasks:
 
 You need to install the Web Farm Framework only on the computer that will be the Web Farm Framework *controllerserver*. The controller service installs the Web Farm Framework agent on the other servers in the server farm.
 
-You can install Web Farm Framework 2.0 using Microsoft Web Platform Installer:
-
-[![Screenshot that shows the install button for Microsoft Web Platform Installer.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image3.png)](https://go.microsoft.com/?linkid=9739157)
-
-Alternatively, you can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/fwlink/?LinkId=287165) or [x64](https://go.microsoft.com/fwlink/?LinkId=287166)).
+You can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/fwlink/?LinkId=287165) or [x64](https://go.microsoft.com/fwlink/?LinkId=287166)).
 
 > [!IMPORTANT]
 > WFF requires the Web Deploy module. If you install WFF using an .msi installer, you must also install the [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy) module version 1.1 or later on the controller server.
-
-**To install Web Farm Framework 2.0 using Web Platform Installer**
-
-1. Install and run Web Platform Installer.
-2. Select the **Products** tab, and then select **Server**.
-3. Find **Web Farm Framework 2.0**, and then click Add. [![Screenshot that shows the Web Platform Installer. Web Farm Framework is selected and the Add button is highlighted, along with Products and Server.](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image5.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image4.png)
-4. Click **Install**.
 
 <a id="Configure"></a>
 
@@ -66,9 +55,7 @@ These steps should be performed on the computer that will be the primary server 
 
 **To configure the primary server**
 
-1. Download and install the [Microsoft Web Platform Installer](https://go.microsoft.com/?linkid=9739157 "Microsoft Web Platform Installer").
-2. Start the Web Platform Installer and select the web platform components and applications you want to install on the primary server.
-3. Follow the steps in Web Platform Installer to complete the installation of the components you selected.
+Manually install the web platform components and applications you want to install on the primary server.
 
 <a id="Prepare"></a>
 

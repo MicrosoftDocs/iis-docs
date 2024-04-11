@@ -19,7 +19,7 @@ With the Web Deployment Tool, you can:
 
 - **Migrate Web applications between IIS 6.0 and IIS 7 and above** - Simplify the planning of your IIS 6.0 to IIS 7 and above migrations by determining incompatibilities and previewing the proposed changes before starting the process. Learning about any potential issues in advance gives you the chance to take corrective measures and simplifies migration.
 - **Synchronize your server farm** - The Web Deployment Tool makes it possible for you to efficiently synchronize sites, applications, or servers across your IIS server farm by detecting differences between the source and destination content and transferring only those changes which need synchronization. The tool simplifies the synchronization process by automatically determining the configuration, content, and certificates to be synchronized for a specific site. In addition to the default behavior, you still have the option to specify additional providers for the synchronization, including databases, Component Object Model (COM) objects, Global Assembly Cache (GAC) assemblies, and registry settings.
-- **Package, archive, and deploy Web applications** - You can use the Web Deployment Tool to package configuration and content of your installed Web applications, including databases, and use the packages for storage or redeployment. These packages can be deployed using IIS Manager without requiring administrative privileges. The tool integrates with Microsoft® Visual Studio® 2010 to help developers streamline the deployment of Web applications to the Web server. The tool also integrates with the Microsoft® Web Platform Installer (Web PI) so you can simply and easily install community Web applications. You can submit your own application to the Web Application Gallery.
+- **Package, archive, and deploy Web applications** - You can use the Web Deployment Tool to package configuration and content of your installed Web applications, including databases, and use the packages for storage or redeployment. These packages can be deployed using IIS Manager without requiring administrative privileges. The tool integrates with Microsoft® Visual Studio® 2010 to help developers streamline the deployment of Web applications to the Web server.
 
 ## Download and Install the Web Deployment Tool
 
@@ -111,7 +111,6 @@ You can use the Web Deployment Tool to synchronize a Web site from a source to a
 The following information is an extensive list of the features of the Web Deployment Tool:
 
 - Seamless integration with IIS Manager and Visual Studio 2010 interface for creating packages and deploying them onto a machine, both locally and remotely.
-- Seamless integration with the Web Platform Installer to install community Web applications simply and easily.
 - Web application packaging: 
 
     - Can package a Web application or an entire site, including the associated databases.

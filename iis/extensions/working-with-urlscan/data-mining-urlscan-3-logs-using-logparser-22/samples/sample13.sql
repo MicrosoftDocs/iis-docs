@@ -1,1 +1,0 @@
-logparser.exe "SELECT x-reason, COUNT(*) AS c-request-count FROM UrlScan.*.log WHERE x-action='Rejected' GROUP BY x-reason ORDER BY c-request-count DESC" -i:w3c
