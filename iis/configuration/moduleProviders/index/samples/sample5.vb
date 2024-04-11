@@ -1,7 +1,7 @@
 Set adminManager = WScript.CreateObject("Microsoft.ApplicationHost.WritableAdminManager")
 adminManager.CommitPath = "MACHINE/WEBROOT"
 adminManager.SetMetadata "pathMapper", "AdministrationConfig"
-Set modulesSection = adminManager.GetAdminSection("modules", "MACHINE/WEBROOT")
+Set moduleProvidersCollection = adminManager.GetAdminSection("modules", "MACHINE/WEBROOT")
 
 Set moduleProvidersCollection = moduleProvidersCollection.Collection
 Set addElement = moduleProvidersCollection.CreateNewElement("add")
