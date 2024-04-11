@@ -230,6 +230,9 @@ A condition is defined by specifying the following properties:
 - **Input string**- Condition input specifies which item to use as an input for the condition evaluation. Condition input is an arbitrary string that can include server variables and back-references to prior condition patterns and/or to rule patterns.
 - **Pattern** – A pattern to look for in the condition input. A pattern can be specified by using either regular expression syntax or by using wildcard syntax. The type of pattern to use in a condition depends on the value of the **patternSyntax** flag defined for the rule to which this condition belongs. This condition type has two related attributes that control pattern matching:
 
+  - **pattern** – Use this attribute to specify the actual pattern.
+  - **ignoreCase** – Use this attribute to control whether pattern matching for the condition should be case sensitive or case insensitive.
+
 <a id="Rule_action"></a>
 
 ### Rule Action
