@@ -131,6 +131,7 @@ In this section, you configure the server-level port range for passive connectio
     - [929851 - The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](https://support.microsoft.com/kb/929851/)
 
 4. This port range will need to be added to the allowed settings for your firewall server.
+5. After making the configuration changes, restart the Microsoft FTP Service. You can do this by going to Start > Run > services.msc and locating the FTP service.
 
 <a id="Step2"></a>
 
