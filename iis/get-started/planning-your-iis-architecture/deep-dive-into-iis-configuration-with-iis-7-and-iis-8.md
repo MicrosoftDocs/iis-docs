@@ -150,14 +150,20 @@ Example:
 
 <a id="AddSchema"></a>
 
-## Additional Schema Information in &lt;ConfigSections&gt;
+## Additional Schema Information in &lt;configSections&gt;
 
-Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt;, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, `<configSections>` exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
+Not all the required schema information is in the schema XML files. Some of it is in a special section called `<configSections>`, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, `<configSections>` exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
 
 > [!NOTE]
 > Customers and third parties should not attempt to change schema information for the built-in sections, either in the inetsrv\config\schema\ folder or in machine.config and applicationHost.config. This may yield to undesirable behavior for these sections.
 
-The content of is a list of sections that are "registered" with the system (this is their registration point). It also defines the hierarchy of section groups. It does not, however, defines properties (or elements) within sections. Some additional metadata is defined for sections:
+The content of `<configSections>`:
+
+- Defines the sections that are "registered" with the system
+- Defines the hierarchy of section groups.
+- Does ***not** define properties or elements within sections.
+
+Some additional metadata is defined for sections:
 
 - **Type**: Required attribute. This is the managed-code section handler type; useful only in the context of .NET framework configuration system accessing the section (the System.Configuration classes). The definition is for a strong type, i.e. it includes the assembly name, version, culture and key.
 - **OverrideModeDefault**: Optional attribute. If missing, the default is "Allow". This is the default lockdown state of the section, i.e. whether it is locked down to the level in which it is defined, or alternatively can be overridden by lower levels of the configuration hierarchy. If it is "Deny", then lower web.config files cannot override its settings (in other words: it is locked down to this level). Most of the IIS web server sections are locked down, but not all. Most of the .NET framework sections are not locked down, because they are considered application-level settings. If the value is "Allow", then lower levels may override the settings.
@@ -211,7 +217,7 @@ This example shows how to unlock the section. Since it is locked at the applicat
 
 There are cases where it is useful to unlock sections for a specific path only and to keep them locked for all other paths. The following example builds atop the previous one, and shows how to unlock the section for two specific sites only; for all other sites it will remain locked.
 
-[!code-html[Main](deep-dive-into-iis-configuration-with-iis-7-and-iis-8/samples/sample8.html)]
+[!code-xml[Main](deep-dive-into-iis-configuration-with-iis-7-and-iis-8/samples/sample8.xml)]
 
 For each "exception" path that needs unlocking, there needs to be a different location tag.
 
