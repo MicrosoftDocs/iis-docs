@@ -217,7 +217,7 @@ This example shows how to unlock the section. Since it is locked at the applicat
 
 There are cases where it is useful to unlock sections for a specific path only and to keep them locked for all other paths. The following example builds atop the previous one, and shows how to unlock the section for two specific sites only; for all other sites it will remain locked.
 
-[!code-html[Main](deep-dive-into-iis-configuration-with-iis-7-and-iis-8/samples/sample8.html)]
+[!code-xml[Main](deep-dive-into-iis-configuration-with-iis-7-and-iis-8/samples/sample8.xml)]
 
 For each "exception" path that needs unlocking, there needs to be a different location tag.
 
