@@ -282,8 +282,6 @@
           href: manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging.md
         - name: Configure Request Filtering in IIS
           href: manage/configuring-security/configure-request-filtering-in-iis.md
-        - name: IIS 8 - Certificate Management and Deployment
-          href: manage/configuring-security/iis-8-sandboxing-and-security.md
     - name: Managing Performance Settings
       items: 
         - name: Improving Performance with Native Output Caching
