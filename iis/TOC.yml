@@ -703,8 +703,6 @@
           href: extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr.md
     - name: URL Rewrite Module
       items: 
-        - name: URL Rewrite Module - Video Walkthrough
-          href: extensions/url-rewrite-module/url-rewrite-module-video-walkthrough.md
         - name: Using the URL Rewrite Module
           href: extensions/url-rewrite-module/using-the-url-rewrite-module.md
         - name: Creating Rewrite Rules for the URL Rewrite Module
