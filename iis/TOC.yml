@@ -703,8 +703,6 @@
           href: extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr.md
     - name: URL Rewrite Module
       items: 
-        - name: URL Rewrite Module - Video Walkthrough
-          href: extensions/url-rewrite-module/url-rewrite-module-video-walkthrough.md
         - name: Using the URL Rewrite Module
           href: extensions/url-rewrite-module/using-the-url-rewrite-module.md
         - name: Creating Rewrite Rules for the URL Rewrite Module
@@ -1213,8 +1211,6 @@
           href: web-development-reference/native-code-development-overview\walkthrough-creating-a-global-level-http-module-by-using-native-code.md
     - name: Native Code API Reference
       href: web-development-reference/native-code-api-reference\native-code-api-reference.md
-    - name: Server Variables
-      href: web-dev-reference/server-variables.md
 - name: FTP Extensibility Reference
   items: 
     - name: Native API Reference
