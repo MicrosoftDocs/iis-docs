@@ -767,8 +767,6 @@
           href: extensions/introduction-to-iis-express/iis-75-express-readme.md
         - name: IIS 8.0 Express Readme
           href: extensions/introduction-to-iis-express/iis-80-express-readme.md
-        - name: IIS 8 - IIS Express for Developers
-          href: extensions/introduction-to-iis-express/iis-8-iis-express-for-developers.md
     - name: Using IIS Express
       items: 
         - name: Using the Windows System Tray to Manage Websites and Applications
