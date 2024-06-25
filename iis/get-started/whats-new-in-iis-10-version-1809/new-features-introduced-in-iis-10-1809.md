@@ -7,7 +7,6 @@ ms.author: johnhart
 
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: iis
 msc.type: authoredcontent
 ---
 New Features Introduced  in IIS 10.0, version 1809

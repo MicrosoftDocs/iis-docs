@@ -1,1 +1,0 @@
-icacls %windir%\system32\inetsrv\config\applicationhost.config /grant CustomAppUser:(W,WD,AD,RA,REA,RD,WA,WEA,R)

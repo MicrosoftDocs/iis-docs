@@ -26,7 +26,6 @@ The following links provide valuable information on configuring and deploying.va
 - Guide for Installing [Active Directory DS Forest](../installing-infrastructure-components/active-directory-ds-forest.md). Contains guides for installing though the User Windows Interface, Command Line, and Answer File.
 - Preparation Activities for WDS](../installing-infrastructure-components/preparation-activities-for-wds.md). Contains a reference to [Windows Deployment Services Role Step-by-Step Guide.
 - [Quick Guide for Shared Hosting Deployment](../configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md). Includes the Web Server Role.
-- [Install and Configure FastCGI](../web-server-for-shared-hosting/fastcgi-with-php.md)
 - [SQL Server 2005 Deployment Guidance for Web Hosting Environments](https://www.microsoft.com/technet/prodtechnol/sql/bestpractice/sql2005dgwhe.mspx "SQL 2005 Guide")
 
 ### Provisioning and Managing

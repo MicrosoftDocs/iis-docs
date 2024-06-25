@@ -38,6 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "iis",
       "feedback_system": "Standard",
       "feedback_help_link_type": "get-help-at-qna",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/85/windows-iis",
@@ -48,22 +49,23 @@
       "searchScope": [
         "IIS"
       ],
-      "ms.prod": "iis",
       "ms.topic": "conceptual",
       "author": "John-Hart",
       "ms.author": "johnhart"
     },
     "fileMetadata": {
+      "ms.subservice": {
+        "troubleshoot/**/*.md": "troubleshoot",
+        "web-hosting/**/*.md": "web-hosting",
+        "extensions/**/*.md": "extensions",
+        "application-frameworks/**/*.md": "appfx",
+        "publish/**/*.md": "publish",
+        "configuration/**/*.md": "config-reference",
+        "manage/**/*.md": "mgmt",
+        "develop/**/*.md": "develop"
+      },
       "ms.technology": {
-        "application-frameworks/**/*.md": "iis-appfx",
-        "configuration/**/*.md": "iis-config",
-        "develop/**/*.md": "iis-develop",
-        "extensions/**/*.md": "iis-extensions",
-        "manage/**/*.md": "iis-manage",
-        "media/**/*.md": "iis-media",
-        "publish/**/*.md": "iis-publish",
-        "troubleshoot/**/*.md": "iis-troubleshoot",
-        "web-hosting/**/*.md": "iis-hosting"
+        "media/**/*.md": "iis-media"
       },
       "ms.topic": {
         "configuration/**/*.md": "reference",

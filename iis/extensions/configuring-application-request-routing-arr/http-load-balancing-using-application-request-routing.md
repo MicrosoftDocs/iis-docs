@@ -29,11 +29,6 @@ This walkthrough requires the following prerequisites:
 - Microsoft Application Request Routing Version 1 and dependent modules.
 - Minimum of two content servers with working sites and applications.
 
-If Application Request Routing Version 1 has not been installed, it is available for download at:
-
-- Microsoft Application Request Routing Version 1 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).
-- Microsoft Application Request Routing Version 1 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
-
 Follow the steps outlined in [this](../installing-application-request-routing-arr/install-application-request-routing.md) document to install Application Request Routing.
 
 Another prerequisite is that the reader has defined and configured a server farm using the steps outlined in **[Define and Configure an Application Request Routing (ARR) Server Group](define-and-configure-an-application-request-routing-server-farm.md)**.

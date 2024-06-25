@@ -20,7 +20,7 @@ Learn more: [HTTP/2 on IIS](http2-on-iis.md)
 
 ## IIS on Nano Server
 
-Nano Server is a new headless, 64-bit-only installation option for Windows 10 and Windows Server 2016 which installs &quot;just enough OS&quot; thereby resulting in a smaller footprint. Nano Server provides higher density, increased uptime, and a smaller attack surface making it suitable for running web workloads. You can currently run [ASP.NET Core](/iis/get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server), [Apache Tomcat](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server), and [PHP](https://blogs.iis.net/jeonghwan/running-wordpress-with-iis-and-wincache-on-nano-server) workloads on IIS on Nano Server, in addition to using it as an reverse proxy to any HTTP listener via the [HttpPlatformHandler module](https://www.iis.net/downloads/microsoft/httpplatformhandler).
+Nano Server is a new headless, 64-bit-only installation option for Windows 10 and Windows Server 2016 which installs &quot;just enough OS&quot; thereby resulting in a smaller footprint. Nano Server provides higher density, increased uptime, and a smaller attack surface making it suitable for running web workloads. You can currently run [ASP.NET Core](/iis/get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server) and [Apache Tomcat](https://blogs.iis.net/jeonghwan/running-tomcat-with-iis-on-nano-server) workloads on IIS on Nano Server, in addition to using it as an reverse proxy to any HTTP listener via the [HttpPlatformHandler module](https://www.iis.net/downloads/microsoft/httpplatformhandler).
 
 Learn more: [Introducing IIS on Nano Server](introducing-iis-on-nano-server.md)
 
@@ -34,9 +34,9 @@ Get started with [IIS base images available on Docker Hub](https://hub.docker.co
 
 With the advent of Nano Server and Windows Containers, IIS now provides a better management story for all environments running (including those without a GUI).
 
-### Microsoft IIS Administration ([https://manage.iis.net](https://manage.iis.net))
+### Microsoft IIS Administration
 
-Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration). With this API users can take advantage of the new IIS Web Manager that is available at [https://manage.iis.net](https://manage.iis.net). This browser based application consumes the IIS Administration API to provide a familiar management experience. Microsoft IIS Administration supports IIS 7.5 and above.
+Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration).
 
 Learn more: [Microsoft IIS Administration Preview](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview).
 

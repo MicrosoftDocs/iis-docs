@@ -1,9 +1,0 @@
-<parameter 
-  name="ConnectionString For Config" 
-  defaultValue="DataSource={dbServer};Database={dbName};uid={dbUsername};Pwd={dbPassword};" 
-  tags="Hidden"> 
-  <parameterEntry 
-    type="XmlFile" 
-    scope="\\web.config$" 
-    match="/configuration/connectionStrings/add[@name='SqlServerDbConnection']/@connectionString" /> 
-</parameter>

@@ -160,7 +160,7 @@ The complete content of the web.config file should look similar to below:
 
 This rule aborts the HTTP connection if the user agent of the HTTP request matches any of the strings listed in disalloweduseragents.txt file. The FileContainsProvider instance named "FileContains" is invoked from the rule's condition and if the result returned from the provider is not empty then the HTTP connection is aborted.
 
-To test the rule open [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en) and add a user-agent header to the request as below:
+To test the rule open WFetch and add a user-agent header to the request as below:
 
 [!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample10.cmd)]
 

@@ -198,7 +198,7 @@ When **filterByTags** attribute is not specified in the match element of the rul
 
 Rule pattern syntax can be specified by using the **patternSyntax** attribute of a rule. This attribute can be set to one of the following options:
 
-**ECMAScript** – Perl compatible ([ECMAScript](http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf "ECMAScript Standard") standard compliant) regular expression syntax. This is a default option for any rule. This is an example of the pattern format: "^([\_0-9a-zA-Z-]+/)?(wp-.\*)"
+**ECMAScript** – Perl compatible (ECMAScript standard compliant) regular expression syntax. This is a default option for any rule. This is an example of the pattern format: "^([\_0-9a-zA-Z-]+/)?(wp-.\*)"
 
 **Wildcard** – [Wildcard](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/41c238b2-1188-488f-bf2d-464383b1bb08.mspx?mfr=true "Wildcard syntax") syntax used in IIS HTTP redirection module. This is an example of pattern in this format: "/Scripts/\*.js", where asterisk ("\*") means "match any number of any characters and capture them in a back-reference". Note that wildcard pattern type cannot be used when rule does not have any tag filters.
 
@@ -229,6 +229,9 @@ A condition is defined by specifying the following properties:
 
 - **Input string**- Condition input specifies which item to use as an input for the condition evaluation. Condition input is an arbitrary string that can include server variables and back-references to prior condition patterns and/or to rule patterns.
 - **Pattern** – A pattern to look for in the condition input. A pattern can be specified by using either regular expression syntax or by using wildcard syntax. The type of pattern to use in a condition depends on the value of the **patternSyntax** flag defined for the rule to which this condition belongs. This condition type has two related attributes that control pattern matching:
+
+  - **pattern** – Use this attribute to specify the actual pattern.
+  - **ignoreCase** – Use this attribute to control whether pattern matching for the condition should be case sensitive or case insensitive.
 
 <a id="Rule_action"></a>
 

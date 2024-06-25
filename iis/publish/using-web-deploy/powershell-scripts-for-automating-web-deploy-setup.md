@@ -23,7 +23,7 @@ The scripts that you will use are:
 ## Requirements
 
 - The server must have an operating system that comes with IIS7—this means either Windows Server 2008 or Windows Server 2008 R2. You must be an administrator on the machine.
-- In the [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=145510), search for "hosting" and install either the "Recommended Server Configuration for Hosting Providers" product bundle or "Web Deployment Tool 2.1 for Hosting Servers." Alternatively, make sure the following conditions are met:
+- Make sure the following conditions are met:
 
   - PowerShell2 must be installed (this is built into Windows Server 2008 R2; for Windows Server 2008, you can get PowerShell2 as an update from here: <https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=0be83604-db27-4b99-976a-136a92bd579b>. A restart may be required.
   - The Web Server (IIS) role must be enabled in Server Manager.

@@ -101,4 +101,4 @@ The following code examples add a managed module provider named ContosoProvider 
 
 ### VBScript
 
-[!code-vb[Main](index/samples/sample5.vb)]
+[!code-vb[Main](index/samples/sample5.vbs)]

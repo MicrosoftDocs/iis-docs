@@ -1,0 +1,11 @@
+<location path="TrustedSiteOne" overrideMode="Allow">
+  <system.webServer>
+    <modules/>
+  </system.webServer>
+</location>
+ 
+<location path="TrustedSiteTwo" overrideMode="Allow">
+  <system.webServer>
+    <modules/>
+  </system.webServer>
+</location>

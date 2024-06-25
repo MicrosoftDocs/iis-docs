@@ -24,13 +24,13 @@ Internet Information Services (IIS) 7.5 Express is a free, simple and self-conta
 
 ## Installation
 
-You can install IIS 7.5 Express using Web Platform Installer, or through the [Microsoft Download Center](https://www.microsoft.com/download/).
+You can install IIS 7.5 Express through the [Microsoft Download Center](https://www.microsoft.com/download/).
 
 <a id="UsingIISExpress"></a>
 
 ## Using IIS 7.5 Express
 
-You will most likely need an Integrated Development Environment to build web applications over IIS 7.5 Express. Microsoft WebMatrix provides a simple and integrated user experience for building both ASP.NET and PHP websites using IIS 7.5 Express. You can use IIS 7.5 Express with [Visual Studio 2010 SP1 Beta](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=11ea69cb-cf12-4842-a3d7-b32a1e5642e2&amp;displaylang=en) to build and test web applications instead of the built-in ASP.NET Development Web Server (also known as Cassini). It is also possible to [run IIS 7.5 Express using the command line.](../using-iis-express/running-iis-express-from-the-command-line.md)
+You will most likely need an Integrated Development Environment to build web applications over IIS 7.5 Express. Microsoft WebMatrix provides a simple and integrated user experience for building both ASP.NET and PHP websites using IIS 7.5 Express. You can use IIS 7.5 Express with Visual Studio 2010 SP1 Beta to build and test web applications instead of the built-in ASP.NET Development Web Server (also known as Cassini). It is also possible to [run IIS 7.5 Express using the command line.](../using-iis-express/running-iis-express-from-the-command-line.md)
 
 <a id="SupportedPlatforms"></a>
 

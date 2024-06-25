@@ -84,7 +84,7 @@ Navigate to the &lt;system.webServer&gt;/&lt;modules&gt; section. This section, 
 
 Navigate to the &lt;system.webServer&gt;/&lt;handlers&gt; section. This section, which can be configured at the server, application, or URL-level, specifies how requests are handled. Modules typically participate in each and every request, whereas handlers only get requests for a particular URL.
 
-A good example of a module is the compression module. The compression module looks at each response and compresses it if required. The ASP.NET page handler is a good example. It receives only requests that are mapped to it, for example requests that have the extension .aspx. The `<handlers>` list defines the mappings between a request based on the URL and verb, and a handling module that will be used to process this request. There is also some extra information that is used to configure each mapping, which is not the focus in this topic.
+A good example of a module is the compression module. The compression module looks at each response and compresses it if required. The ASP.NET page handler is a good example of a handler. It receives only requests that are mapped to it, for example requests that have the extension .aspx. The `<handlers>` list defines the mappings between a request based on the URL and verb, and a handling module that will be used to process this request. There is also some extra information that is used to configure each mapping, which is not the focus in this topic.
 
 [!code-xml[Main](build-a-custom-iis-server/samples/sample7.xml)]
 

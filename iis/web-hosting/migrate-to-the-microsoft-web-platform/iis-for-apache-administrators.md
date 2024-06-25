@@ -308,5 +308,4 @@ Dynamic IP Restrictions for IIS is a module that provides protection against den
 ## Links for Further Information
 
 - [My Take: IIS vs. Apache](https://blogs.iis.net/bills/archive/2007/05/07/iis-vs-apache.aspx)
-- [Benefits of Running IIS7 Over IIS6 Or Apache](http://ezinearticles.com/?Benefits-of-Running-IIS7-Over-IIS6-Or-Apache&amp;id=2131887)
 - See: <http://secunia.com/advisories/product/1438/?task=statistics>

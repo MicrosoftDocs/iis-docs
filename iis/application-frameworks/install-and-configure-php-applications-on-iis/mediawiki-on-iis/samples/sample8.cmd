@@ -1,1 +1,0 @@
-cacls %SystemDrive%\inetpub\wwwroot\MediaWiki\LocalSettings.php /sddl:"D:PAI(A;;FA;;;SY)(A;;FA;;;BA)(A;;FA;;;NS)"

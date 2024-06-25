@@ -1,1 +1,0 @@
-e.g. $_CONF['site_url']          = 'http://localhost/geeklog';

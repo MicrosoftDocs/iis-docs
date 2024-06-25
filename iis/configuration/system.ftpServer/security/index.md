@@ -1,5 +1,5 @@
 ---
-title: "FTP Security &lt;security&gt;"
+title: "FTP Security &lt;security&gt; section group"
 author: rick-anderson
 description: "Overview The &lt;security&gt; section group resides in the &lt;system.ftpServer&gt; section and contains elements that configure security settings on an Inte..."
 ms.date: 09/26/2016
@@ -7,7 +7,7 @@ ms.assetid: 23bbc004-53ef-4898-9197-7af7db0177c6
 msc.legacyurl: /configreference/system.ftpserver/security
 msc.type: config
 ---
-# FTP Security &lt;security&gt;
+# FTP Security &lt;security&gt section group;
 
 <a id="001"></a>
 ## Overview

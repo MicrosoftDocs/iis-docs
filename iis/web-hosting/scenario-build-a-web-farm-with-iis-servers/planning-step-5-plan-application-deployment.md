@@ -27,7 +27,7 @@ File Transfer Protocol (FTP) simple is a protocol for transferring files between
 
 The Web Deployment Tool (Web Deploy) enables IIS to synchronize, package, and deploy web applications, websites, or web server content and configuration. It has numerous features that let you include those components that you want to process and exclude those components that you do not. For you to be able to use Web Deploy, first install IIS on the source and destination computers.
 
-The easiest way to install Web Deploy is by using the Web Platform Installer. You can install Web Deploy by running the Web Deploy Windows® Installer or from the command line by using Msiexec.exe. The Web Platform Installer requires fewer steps, while the other methods allow you to customize your installation. In all cases, log on as an administrator.
+You can install Web Deploy by running the Web Deploy Windows® Installer or from the command line by using Msiexec.exe. And this allows you to customize your installation. In all cases, log on as an administrator.
 
 For more information about Web Deploy, see [Web Deployment Tool Overview](https://technet.microsoft.com/library/dd569058(v=ws.10)) and [Introduction to Web Deploy](https://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy).
 

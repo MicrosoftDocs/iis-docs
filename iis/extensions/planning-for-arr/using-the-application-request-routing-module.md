@@ -37,11 +37,6 @@ Microsoft Application Request Routing for IIS includes the following key feature
 - **Management and monitoring by using the UI** You can use IIS Manager to manage and view all configuration settings and aggregated runtime statistics for ARR.
 - **Failed request tracing rules** Specific traces have been added to quickly troubleshoot and diagnose ARR.
 
-## Getting the Module
-
-Download Microsoft Application Request Routing Version 2 for IIS 7 (x86) [here](https://iis-umbraco.azurewebsites.net/downloads).  
-Download Microsoft Application Request Routing Version 2 for IIS 7 (x64) [here](https://iis-umbraco.azurewebsites.net/downloads).
-
 ## Using the Module
 
 These articles explain how to configure and achieve the core scenarios by using ARR. It is recommended that you read the articles in the following order because the scenarios get richer with each article:

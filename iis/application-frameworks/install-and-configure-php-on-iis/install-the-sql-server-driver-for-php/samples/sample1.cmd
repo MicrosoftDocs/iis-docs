@@ -1,1 +1,0 @@
-Extension=php_sqlsrv.dll

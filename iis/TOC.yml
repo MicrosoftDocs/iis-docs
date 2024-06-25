@@ -194,18 +194,6 @@
           href: install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md
         - name: Installing and Configuring Web Deploy on IIS 8.0 or Later
           href: install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later.md
-    - name: Web Platform Installer
-      items: 
-        - name: Web Platform Installer 2.0 Walkthrough
-          href: install/web-platform-installer/web-platform-installer-20-walkthrough.md
-        - name: Using the Microsoft Web Platform Installer
-          href: install/web-platform-installer/using-the-microsoft-web-platform-installer.md
-        - name: Web Platform Installer Resources
-          href: install/web-platform-installer/web-platform-installer-resources.md
-        - name: Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
-          href: install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release.md
-        - name: Web Platform Installer Direct Downloads
-          href: install/web-platform-installer/web-platform-installer-direct-downloads.md
     - name: Installing IIS 8.5
       items: 
         - name: Installing IIS 8.5 on Windows Server 2012 R2
@@ -294,10 +282,6 @@
           href: manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging.md
         - name: Configure Request Filtering in IIS
           href: manage/configuring-security/configure-request-filtering-in-iis.md
-        - name: IIS 8 - Certificate Management and Deployment
-          href: manage/configuring-security/iis-8-certificate-management-and-deployment.md
-        - name: IIS 8 - Sandboxing and Security
-          href: manage/configuring-security/iis-8-sandboxing-and-security.md
     - name: Managing Performance Settings
       items: 
         - name: Improving Performance with Native Output Caching
@@ -446,136 +430,6 @@
           href: develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis.md
         - name: Using Visual Studio 2005 with IIS 7.0
           href: develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis.md
-    - name: Windows Web Application Gallery
-      items: 
-        - name: Package an Application for the Windows Web Application Gallery
-          href: develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md
-        - name: Windows Web Application Gallery Link Addition Process Walkthrough
-          href: develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough.md
-        - name: Windows Web Application Gallery Principles
-          href: develop/windows-web-application-gallery/windows-web-application-gallery-principles.md
-        - name: Introducing the Windows Web Application Gallery
-          href: develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery.md
-        - name: Integrate the Windows Web Application Gallery into a Control Panel
-          href: develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel.md
-        - name: "Windows Web Application Gallery: Known Issues"
-          href: develop/windows-web-application-gallery/windows-web-application-gallery-known-issues.md
-        - name: Using the Microsoft Web Platform Installer Badge
-          href: develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge.md
-        - name: Database Notes for packaging applications for the Web Application Gallery
-          href: develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md
-        - name: Reference for the Web Application Package
-          href: develop/windows-web-application-gallery/reference-for-the-web-application-package.md
-        - name: Testing a Zip Package for Inclusion with the Web Application Gallery
-          href: develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md
-        - name: How to Create an App Package Supporting both SQL Server and MySQL
-          href: develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql.md
-        - name: Azure App Gallery FAQ
-          href: develop/windows-web-application-gallery/azure-app-gallery-faq.yml
-        - name: Joomla! Sample files
-          href: develop/windows-web-application-gallery/joomla-sample-files.md
-        - name: Blogengine .NET Sample files
-          href: develop/windows-web-application-gallery/blogengine-net-sample-files.md
-        - name: Gallery Server Pro sample files
-          href: develop/windows-web-application-gallery/gallery-server-pro-sample-files.md
-        - name: Windows Web App Gallery FAQ
-          href: develop/windows-web-application-gallery/frequently-asked-questions.yml
-        - name: MediaWiki Sample Files
-          href: develop/windows-web-application-gallery/mediawiki-sample-files.md
-        - name: Umbraco CMS Sample files
-          href: develop/windows-web-application-gallery/umbraco-cms-sample-files.md
-        - name: WordPress Sample files
-          href: develop/windows-web-application-gallery/wordpress-sample-files.md
-    - name: Installing/Publishing Apps with WebMatrix
-      items: 
-        - name: Acquia Drupal FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq.md
-        - name: AtomSite FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/atomsite-faq.md
-        - name: BlogEngine.NET FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq.yml
-        - name: dasBlog FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/dasblog-faq.yml
-        - name: DotNetNuke ® Community Edition FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/dotnetnuke-community-edition-faq.md
-        - name: Gallery FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/gallery-faq.yml
-        - name: Gallery Server Pro FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/gallery-server-pro-faq.yml
-        - name: Joomla! FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/joomla-faq.md
-        - name: Kentico CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq.md
-        - name: Kooboo CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/kooboo-cms-faq.yml
-        - name: Mayando FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/mayando-faq.md
-        - name: mojoPortal FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/mojoportal-faq.yml
-        - name: Moodle FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/moodle-faq.yml
-        - name: My Web Pages Starter Kit FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/my-web-pages-starter-kit-faq.yml
-        - name: nopCommerce FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq.yml
-        - name: nService FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/nservice-faq.md
-        - name: phpBB FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/phpbb-faq.md
-        - name: ResourceBlender.NET FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq.yml
-        - name: ScrewTurn Wiki FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/screwturn-wiki-faq.yml
-        - name: SilverStripe CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq.yml
-        - name: Sitefinity Community Edition FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq.yml
-        - name: Subtext FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/subtext-faq.yml
-        - name: SugarCRM FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq.yml
-        - name: Umbraco CMS FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.yml
-        - name: WordPress FAQ
-          href: develop/installingpublishing-apps-with-webmatrix/wordpress-faq.md
-    - name: Using WebMatrix
-      items: 
-        - name: Create a Website from a Gallery Application
-          href: develop/using-webmatrix/create-a-website-from-a-gallery-application.md
-        - name: Download and Install an ASP.NET Application
-          href: develop/using-webmatrix/download-and-install-an-aspnet-application.md
-        - name: Download and Install a PHP Application
-          href: develop/using-webmatrix/download-and-install-a-php-application.md
-        - name: Make your Website SEO Friendly
-          href: develop/using-webmatrix/make-your-website-seo-friendly.md
-        - name: Analyze Requests to Your Website
-          href: develop/using-webmatrix/analyze-requests-to-your-website.md
-        - name: Publish Your Website
-          href: develop/using-webmatrix/publish-your-website.md
-        - name: WebMatrix Overview
-          href: develop/using-webmatrix/webmatrix-overview.md
-        - name: WebMatrix Privacy Statement
-          href: develop/using-webmatrix/webmatrix-privacy-statement.md
-        - name: Creating a Content Feed for Learning
-          href: develop/using-webmatrix/creating-a-content-feed-for-learning.md
-    - name: Troubleshooting WebMatrix
-      items: 
-        - name: "Microsoft WebMatrix: Publish Compatibility"
-          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility.md
-        - name: "Microsoft WebMatrix: Certificate errors during publishing"
-          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing.md
-        - name: "Microsoft WebMatrix: Database errors while publishing and downloading sites"
-          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites.md
-        - name: "Microsoft WebMatrix: My Documents on network shares"
-          href: develop/troubleshooting-webmatrix/microsoft-webmatrix-my-documents-on-network-shares.md
-        - name: When publishing a site from WebMatrix, some files are not listed in the dialog
-          href: develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog.md
-        - name: WebMatrix Publish and Download Troubleshooting
-          href: develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md
-        - name: WebMatrix MDF Migration
-          href: develop/troubleshooting-webmatrix/webmatrix-mdf-migration.md
-        - name: Issues with SQL Server Express or MySQL when using WebMatrix or WebPI
-          href: develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298.md
     - name: Developing for FTP
       items: 
         - name: How to Use Managed Code (C#) to Create a Simple FTP Authentication Provider
@@ -606,28 +460,6 @@
           href: develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md
 - name: Publish
   items: 
-    - name: Deploying Application Packages
-      items: 
-        - name: Taking an Application Offline before Publishing
-          href: publish/deploying-application-packages/taking-an-application-offline-before-publishing.md
-        - name: "Videocast: Simplified Application Deployment on the Microsoft Web Platform"
-          href: publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md
-        - name: Provision an IIS Web Site in a Hosting Environment
-          href: publish/deploying-application-packages/provision-an-iis-web-site-in-a-hosting-environment.md
-        - name: DotNetNuke
-          href: publish/deploying-application-packages/dotnetnuke.md
-        - name: ScrewTurn Wiki
-          href: publish/deploying-application-packages/screwturn-wiki.md
-        - name: BlogEngine.NET
-          href: publish/deploying-application-packages/blogenginenet.md
-        - name: Umbraco
-          href: publish/deploying-application-packages/umbraco.md
-        - name: Deploying WordPress via Packages in a Hosting Environment
-          href: publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment.md
-        - name: Deploying Joomla! via Packages in a Hosting Environment
-          href: publish/deploying-application-packages/deploying-joomla-via-packages-in-a-hosting-environment.md
-        - name: Deploying Drupal via Packages in a Hosting Environment
-          href: publish/deploying-application-packages/deploying-drupal-via-packages-in-a-hosting-environment.md
     - name: Using Web Deploy
       items: 
         - name: Packaging and Restoring a Web site
@@ -642,8 +474,6 @@
           href: publish/using-web-deploy/synchronize-iis-60-web-sites.md
         - name: Synchronize IIS
           href: publish/using-web-deploy/synchronize-iis.md
-        - name: Synchronizing Two IIS Servers with PHP
-          href: publish/using-web-deploy/synchronizing-two-iis-servers-with-php.md
         - name: Export a Package through IIS Manager
           href: publish/using-web-deploy/export-a-package-through-iis-manager.md
         - name: Import a Package through IIS Manager
@@ -788,10 +618,6 @@
       items: 
         - name: Diagnosing Failures with Remote Administration
           href: troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration.md
-    - name: Web Platform Installer Issues
-      items: 
-        - name: Troubleshooting Problems with Microsoft Web Platform Installer
-          href: troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md
     - name: Windows Client OS Request Restriction
       items:
         - name: IIS Request Restrictions on Windows Client OS
@@ -885,8 +711,6 @@
           href: extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module.md
         - name: URL Rewrite Module Configuration Reference
           href: extensions/url-rewrite-module/url-rewrite-module-configuration-reference.md
-        - name: Enabling Pretty Permalinks in WordPress
-          href: extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress.md
         - name: Using Failed Request Tracing to Trace Rewrite Rules
           href: extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md
         - name: Using Global and Distributed Rewrite Rules
@@ -1045,26 +869,6 @@
           href: extensions/database-manager/working-with-stored-procedures.md
         - name: Working with Tables
           href: extensions/database-manager/working-with-tables.md
-    - name: Working with UrlScan
-      items: 
-        - name: UrlScan Setup
-          href: extensions/working-with-urlscan/urlscan-setup.md
-        - name: Common UrlScan Scenarios
-          href: extensions/working-with-urlscan/common-urlscan-scenarios.md
-        - name: UrlScan FAQ
-          href: extensions/working-with-urlscan/urlscan-faq.yml
-        - name: Data Mining UrlScan 3 Logs using LogParser 2.2
-          href: extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22.md
-        - name: UrlScan Overview
-          href: extensions/working-with-urlscan/urlscan-overview.md
-        - name: UrlScan 1 Reference
-          href: extensions/working-with-urlscan/urlscan-1-reference.md
-        - name: UrlScan 2 Reference
-          href: extensions/working-with-urlscan/urlscan-2-reference.md
-        - name: UrlScan 3 Reference
-          href: extensions/working-with-urlscan/urlscan-3-reference.md
-        - name: Overview of UrlScan Versions
-          href: extensions/working-with-urlscan/overview-of-urlscan-versions.md
     - name: HttpPlatformHandler
       items: 
         - name: HttpPlatformHandler Configuration Reference
@@ -1120,138 +924,6 @@
           href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview.md
         - name: "Scenario: Build a Classic ASP Website on IIS"
           href: application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis.md
-    - name: Install and Configure PHP on IIS
-      items: 
-        - name: Configuring the FastCGI Extension for IIS 6.0
-          href: application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60.md
-        - name: Installing PHP on Windows Vista with FastCGI
-          href: application-frameworks/install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md
-        - name: Setting Up a Database for a PHP Application on IIS
-          href: application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis.md
-        - name: Install PHP and FastCGI Support on Server Core
-          href: application-frameworks/install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md
-        - name: Install and Configure MySQL for PHP Applications on IIS 7
-          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md
-        - name: Walkthrough - Set Up MySQL 5.1 for PHP applications
-          href: application-frameworks/install-and-configure-php-on-iis/walkthrough-set-up-mysql-51-for-php-applications.md
-        - name: Install the SQL Server Driver for PHP
-          href: application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php.md
-        - name: Enable FastCGI Support in IIS 7 on Windows
-          href: application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md
-        - name: Install and Configure SQL Server 2008 for PHP Applications on IIS 7
-          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md
-        - name: Install and Configure PHP
-          href: application-frameworks/install-and-configure-php-on-iis/install-and-configure-php.md
-        - name: How to Install the Microsoft Web Platform for PHP
-          href: application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php.md
-        - name: Using PHP Manager for IIS to setup and configure PHP
-          href: application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php.md
-        - name: Use the Windows Cache Extension for PHP
-          href: application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php.md
-        - name: Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0
-          href: application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above.md
-        - name: Create a Separate Site or Virtual Directory for PHP Content
-          href: application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content.md
-        - name: Configure SMTP E-Mail in IIS 7
-          href: application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above.md
-        - name: How to Configure and Optimize the Microsoft Web Platform for PHP
-          href: application-frameworks/install-and-configure-php-on-iis/how-to-configure-and-optimize-the-microsoft-web-platform-for-php.md
-        - name: Run Multiple Versions of PHP on IIS
-          href: application-frameworks/install-and-configure-php-on-iis/run-multiple-versions-of-php-on-iis.md
-        - name: Improve PHP Error Messages in IIS 7
-          href: application-frameworks/install-and-configure-php-on-iis/improve-php-error-messages-in-iis-7-and-above.md
-        - name: How to Manage and Administer the Microsoft Web Platform
-          href: application-frameworks/install-and-configure-php-on-iis/how-to-manage-and-administer-the-microsoft-web-platform.md
-        - name: Secure Your SQL Server Database
-          href: application-frameworks/install-and-configure-php-on-iis/secure-your-sql-server-database.md
-        - name: Secure Content in IIS Through Impersonation
-          href: application-frameworks/install-and-configure-php-on-iis/secure-content-in-iis-through-impersonation.md
-        - name: Secure PHP with Configuration Settings
-          href: application-frameworks/install-and-configure-php-on-iis/secure-php-with-configuration-settings.md
-        - name: Secure Your Infrastructure and PHP Applications
-          href: application-frameworks/install-and-configure-php-on-iis/secure-your-infrastructure-and-php-applications.md
-        - name: How to Secure the Microsoft Web Platform
-          href: application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform.md
-        - name: Enable PHP Applications to Make Application-Level Access Control Decisions
-          href: application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions.md
-    - name: Install and Configure PHP Applications on IIS
-      items: 
-        - name: Advanced Poll on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis.md
-        - name: b2Evolution on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/b2evolution-on-iis.md
-        - name: Coppermine on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/coppermine-on-iis.md
-        - name: Crafty Syntax Live Help on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/crafty-syntax-live-help-on-iis.md
-        - name: Gallery2 on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/gallery2-on-iis.md
-        - name: Geeklog on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/geeklog-on-iis.md
-        - name: Mambo on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/mambo-on-iis.md
-        - name: Install WordPress on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis.md
-        - name: XOOPS on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/xoops-on-iis.md
-        - name: MediaWiki on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/mediawiki-on-iis.md
-        - name: Install osCommerce on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/install-oscommerce-on-iis.md
-        - name: PHPNuke on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/phpnuke-on-iis.md
-        - name: Install Zen Cart on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/install-zen-cart-on-iis.md
-        - name: CubeCart on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/cubecart-on-iis.md
-        - name: ExpressionEngine on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/expressionengine-on-iis.md
-        - name: LimeSurvey on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/limesurvey-on-iis.md
-        - name: OpenAds on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis.md
-        - name: PHPList on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/phplist-on-iis.md
-        - name: Siteframe on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/siteframe-on-iis.md
-        - name: PHPWCMS on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis.md
-        - name: pMachinePro on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/pmachinepro-on-iis.md
-        - name: Install Drupal on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/install-drupal-on-iis.md
-        - name: Install Joomla! on IIS
-          href: application-frameworks/install-and-configure-php-applications-on-iis/install-joomla-on-iis.md
-        - name: Using FastCGI to Host PHP Applications on IIS 7
-          href: application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md
-        - name: Using FastCGI to Host PHP Applications on IIS 6.0
-          href: application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60.md
-        - name: Translate .htaccess Content to IIS web.config
-          href: application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md
-        - name: Provide URL Rewriting Functionality
-          href: application-frameworks/install-and-configure-php-applications-on-iis/provide-url-rewriting-functionality.md
-        - name: How to Deploy Applications on the Microsoft Web Platform for PHP
-          href: application-frameworks/install-and-configure-php-applications-on-iis/how-to-deploy-applications-on-the-microsoft-web-platform-for-php.md
-    - name: Running PHP Applications on IIS
-      items: 
-        - name: "MIX08: Partying with PHP on Microsoft Internet Information Services 7"
-          href: application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above.md
-        - name: Set Up FastCGI for PHP
-          href: application-frameworks/running-php-applications-on-iis/set-up-fastcgi-for-php.md
-        - name: Build a High-Performance PHP Stack with Windows IIS and Zend Server
-          href: application-frameworks/running-php-applications-on-iis/build-a-high-performance-php-stack-with-windows-iis-and-zend-server.md
-        - name: Configure PHP Process Recycling Behavior
-          href: application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior.md
-        - name: Best Practices for PHP on the Microsoft Web Platform
-          href: application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md
-        - name: Provision Web Sites for PHP Applications Using Managed Code
-          href: application-frameworks/running-php-applications-on-iis/provision-web-sites-for-php-applications-using-managed-code.md
-        - name: Develop on IIS 7
-          href: application-frameworks/running-php-applications-on-iis/develop-on-iis-7-and-above.md
-        - name: Enable PHP Syntax Highlighting on IIS 7
-          href: application-frameworks/running-php-applications-on-iis/enable-php-syntax-highlighting-on-iis-7-and-above.md
-        - name: How to Develop on the Microsoft Web Platform
-          href: application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform.md
     - name: "Scenario: Build an ASP.NET Website on IIS"
       items: 
         - name: "Overview: Build an ASP.NET Website on IIS"
@@ -1276,26 +948,6 @@
           href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-3-configure-data-source-settings.md
         - name: "Configuring Step 4: Configure Application Security"
           href: application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-4-configure-application-security.md
-    - name: "Scenario: Build a PHP Website on IIS"
-      items: 
-        - name: "Overview: Build a PHP Website on IIS"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md
-        - name: Plan a PHP Website on IIS
-          href: application-frameworks/scenario-build-a-php-website-on-iis/plan-a-php-website-on-iis.md
-        - name: "Planning Step 1: Plan IIS Web Server and PHP Installation"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-1-plan-iis-web-server-and-php-installation.md
-        - name: "Planning Step 2: Plan PHP Settings"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-2-plan-php-settings.md
-        - name: "Planning Step 3: Plan PHP Application Security"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/planning-step-3-plan-php-application-security.md
-        - name: Configure a PHP Website on IIS
-          href: application-frameworks/scenario-build-a-php-website-on-iis/configure-a-php-website-on-iis.md
-        - name: "Configuring Step 1: Install IIS and PHP"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php.md
-        - name: "Configuring Step 2: Configure PHP Settings"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-2-configure-php-settings.md
-        - name: "Configuring Step 3: Configure PHP Application Security"
-          href: application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-3-configure-php-application-security.md
 - name: Web Hosting
   items: 
     - name: Getting Started
@@ -1332,8 +984,6 @@
           href: web-hosting/frequently-asked-questions-faq/general-iis7-questions.yml
         - name: .NET Questions
           href: web-hosting/frequently-asked-questions-faq/net-questions.yml
-        - name: PHP Questions
-          href: web-hosting/frequently-asked-questions-faq/php-questions.md
         - name: Sales and Marketing Questions
           href: web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions.md
         - name: Top 10 Changes in IIS 7.0
@@ -1394,8 +1044,6 @@
           href: web-hosting/configuring-servers-in-the-windows-web-platform/windows-sharepoint-services-for-shared-hosting.md
         - name: Guide to Deploy FTP and Publish with VWD
           href: web-hosting/configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd.md
-        - name: Microsoft Web Platform Installer 2.0
-          href: web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20.md
         - name: Dynamic Data Center Toolkit for Hosting
           href: web-hosting/configuring-servers-in-the-windows-web-platform/dynamic-data-center-toolkit-for-hosting.md
         - name: SQL Server 2005
@@ -1434,8 +1082,6 @@
           href: web-hosting/verifying-the-deployment/verifying-remote-administration.md
         - name: Verifying the Developer Experience - ASP.NET
           href: web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet.md
-        - name: Verifying the Developer Experience - PHP
-          href: web-hosting/verifying-the-deployment/verifying-the-developer-experience-php.md
     - name: Web Server For Shared Hosting
       items: 
         - name: ASP.NET 2.0/3.5 Shared Hosting Configuration
@@ -1448,12 +1094,8 @@
           href: web-hosting/web-server-for-shared-hosting/smb-commands-registry-keys_198.md
         - name: Create a Backup with appcmd
           href: web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd.md
-        - name: FastCGI with PHP
-          href: web-hosting/web-server-for-shared-hosting/fastcgi-with-php.md
         - name: ASP
           href: web-hosting/web-server-for-shared-hosting/asp.md
-        - name: Configuring IIS for Silverlight Applications
-          href: web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md
         - name: URL Rewrite for Hosting Providers
           href: web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers.md
         - name: Database Manager for Hosters
@@ -1520,30 +1162,6 @@
       items: 
         - name: Managing IIS on Windows Azure via Remote Desktop
           href: web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop.md
-    - name: Joining the Web Hosting Gallery
-      items: 
-        - name: ServerValidator Demo
-          href: web-hosting/joining-the-web-hosting-gallery/servervalidator-demo.md
-        - name: Microsoft Web Platform Hosting Program -Pilot
-          href: web-hosting/joining-the-web-hosting-gallery/microsoft-web-platform-hosting-program-pilot.md
-        - name: Overview
-          href: web-hosting/joining-the-web-hosting-gallery/overview.md
-        - name: Install Server Components
-          href: web-hosting/joining-the-web-hosting-gallery/install-server-components.md
-        - name: Validate Your Server Configuration
-          href: web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md
-        - name: Create Welcome E-mails
-          href: web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails.md
-        - name: Generate a Profile XML File
-          href: web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file.md
-        - name: Configure Site for Web Deploy Publishing
-          href: web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md
-        - name: Automating server setup
-          href: web-hosting/joining-the-web-hosting-gallery/automating-server-setup.md
-        - name: Setup MySQL with WebMatrix Support
-          href: web-hosting/joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support.md
-        - name: How WebMatrix Verification Works
-          href: web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works.md
     - name: "Scenario: Build a Web Farm with IIS Servers"
       items: 
         - name: "Overview: Build a Web Farm with IIS Servers"
