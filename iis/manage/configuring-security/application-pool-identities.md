@@ -54,10 +54,10 @@ You can try this by selecting a file in Windows Explorer and adding the "Default
 4. Select the **Security** tab
 5. Click the **Edit** button and then **Add** button
 6. Click the **Locations** button and make sure that you select your computer.
-
-    ![Screenshot of the Select Users or Groups dialog.](application-pool-identities/_static/image9.jpg)
 7. Enter **IIS AppPool\DefaultAppPool** in the **Enter the object names to select:** text box.
 8. Click the **Check Names** button and click **OK**.
+
+    ![Screenshot of the Select Users or Groups dialog.](application-pool-identities/_static/image9.jpg)
 
 By doing this, the file or directory you selected will now also allow the **DefaultAppPool** identity access.
 
