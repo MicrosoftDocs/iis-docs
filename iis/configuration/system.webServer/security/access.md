@@ -116,3 +116,10 @@ The following examples make SSL required to access a Web site named Contoso.
 ### VBScript
 
 [!code-vb[Main](access/samples/sample6.vb)]
+
+### PowerShell
+> [!NOTE]
+> The `Set-WebConfigurationProperty` cmdlet is part of the [WebAdministration PowerShell module](https://docs.microsoft.com/en-us/powershell/module/webadministration/?view=windowsserver2022-ps). 
+
+[!code-powershell[Main](access/samples/sample7.ps1)]
+
