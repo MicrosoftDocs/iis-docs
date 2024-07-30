@@ -960,8 +960,6 @@
           href: web-hosting/getting-started/deploying-a-static-content-server.md
         - name: Using Windows SharePoint Services 3.0 on IIS 7.0
           href: web-hosting/getting-started/using-windows-sharepoint-services-30-on-iis.md
-        - name: Microsoft Web Platform Privacy Statements
-          href: web-hosting/getting-started/microsoft-web-platform-privacy-statements.md
     - name: Frequently Asked Questions (FAQ)
       items: 
         - name: Tools and Utilities Questions
@@ -1038,8 +1036,6 @@
           href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005.md
         - name: SQL 2008 for Hosters
           href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md
-        - name: Configure your Servers for the Windows Web Hosting Platform
-          href: web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform.md
     - name: Installing Infrastructure Components
       items: 
         - name: Planning the Deployment
