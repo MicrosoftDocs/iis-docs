@@ -187,3 +187,7 @@ The following code samples enble reverse DNS lookups for the default web site.
 ### VBScript
 
 [!code-vb[Main](index/samples/sample7.vb)]
+
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample8.ps1)]
