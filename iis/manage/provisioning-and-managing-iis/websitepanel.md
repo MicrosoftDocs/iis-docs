@@ -23,9 +23,9 @@ The WebsitePanel features list includes:
 
 · Long list of [supported software and platforms](http://websitepanel.net/SupportedSoftware.aspx)
 
-· Close integration with [Microsoft Web App Gallery](https://www.microsoft.com/web/gallery/Categories.aspx)
+· Close integration with Microsoft Web App Gallery
 
-· Microsoft Web Platform Installer ([WPI](https://www.microsoft.com/web/gallery/Categories.aspx)) integration
+· Microsoft Web Platform Installer (WPI) integration
 
 · Strong community support
 
