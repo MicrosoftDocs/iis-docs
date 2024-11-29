@@ -18,7 +18,7 @@ HRESULT GetClientCertificate(
   
 ### Parameters  
  `ppClientCertInfo`  
- [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure.  
+ [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](https://learn.microsoft.com/windows/win32/api/http/ns-http-http_ssl_client_cert_info) structure.  
   
  `pfClientCertNegotiated`  
  [OUT] `true` if the client certificate has been negotiated already; otherwise, `false`. For more information, see the Remarks section.  
@@ -42,7 +42,7 @@ HRESULT GetClientCertificate(
  For URLs that do not require a client certificate, you can call the [NegotiateClientCertificate](../../web-development-reference/native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md) method before you call `GetClientCertificate` to attempt a manual loading of the client certificate.  
   
 ## Example  
- The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
+ The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](https://learn.microsoft.com/windows/win32/api/http/ns-http-http_ssl_client_cert_info) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference/native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
   
  [!code-cpp[IHttpRequestGetClientCertificate#2](../../../samples/snippets/cpp/VS_Snippets_IIS/IIS7/IHttpRequestGetClientCertificate/cpp/mymodule.cpp#2)]  
   
