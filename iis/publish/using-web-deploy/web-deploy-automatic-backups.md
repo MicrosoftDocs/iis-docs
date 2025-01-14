@@ -13,7 +13,7 @@ by [Elliott Hamai](https://github.com/ehamai)
 
 ## Introduction
 
-In V3, Web Deploy is introducing an automatic server-side backup feature for IIS 7 and above. When automatic backups are configured on the server and a user publishes to his site using Web Deploy, it will first take a backup of the live site and store it on the server before committing any changes to the site. If the publish failed for some reason or the user wants to restore an earlier version of his website, he will be able to restore from these backups without involving a server administrator. This feature needs to be enabled and configured by a server administrator before an end user may take advantage of it.
+In V3, Web Deploy is introducing an automatic server-side backup feature for IIS 7 and above. When automatic backups are configured on the server and a user publishes to his site using Web Deploy, it will first take a backup of the live site and store it on the server before committing any changes to the site. If the publish failed for some reason or the user wants to restore an earlier version of his website, they will be able to restore from these backups without involving a server administrator. This feature needs to be enabled and configured by a server administrator before an end user may take advantage of it.
 
 ## When Backups are created
 
