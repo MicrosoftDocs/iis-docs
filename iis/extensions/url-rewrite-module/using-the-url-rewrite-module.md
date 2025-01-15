@@ -87,10 +87,6 @@ These articles cover the functionality of the URL Rewrite Module and explain how
 - [URL Rewrite for ASP.NET Web Forms](url-rewriting-for-aspnet-web-forms.md)
 - [Developing rule templates for the URL Rewrite module](developing-rule-template-for-url-rewrite-module.md)
 
-### Video walkthrough
-
-- [Using the URL rewrite module - video walkthrough](url-rewrite-module-video-walkthrough.md)
-
 ## Changes since Go Live release
 
 The following additions, changes, and important bug fixes have been made to URL rewrite module since the Go Live release:
