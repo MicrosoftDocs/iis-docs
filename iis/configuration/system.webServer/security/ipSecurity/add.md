@@ -179,3 +179,7 @@ The following code samples add two IP restrictions to the Default Web Site; the 
 ### VBScript
 
 [!code-vb[Main](add/samples/sample6.vb)]
+
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
