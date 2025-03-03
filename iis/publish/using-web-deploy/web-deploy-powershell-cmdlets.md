@@ -246,7 +246,7 @@ Examples:
 
 [!code-console[Main](web-deploy-powershell-cmdlets/samples/sample31.cmd)]
 
-Description: This cmdlet can be used to apply any Web Deploy package. There are several ways to create or obtain a Web Deploy package, such as by downloading an open source Application Gallery package, creating a package in Visual Studio, using the msdeploy.exe command-line tool ([more info](https://technet.microsoft.com/library/dd568996(WS.10).aspx)), or using the Backup-WD\* cmdlets noted earlier in the document. For e.g. for installing wordpress on an IIS Server Default web site as an app named wordpress download the wordpress package from [the app gallery](https://www.microsoft.com/web/gallery/wordpress.aspx) into a folder called packages. All the default values for the wordpress package parameters will work as is but just need to specify the values for two required parameters: admin and non admin mysql password.
+Description: This cmdlet can be used to apply any Web Deploy package. There are several ways to create or obtain a Web Deploy package, such as by downloading an open source Application Gallery package, creating a package in Visual Studio, using the msdeploy.exe command-line tool ([more info](https://technet.microsoft.com/library/dd568996(WS.10).aspx)), or using the Backup-WD\* cmdlets noted earlier in the document. For e.g. for installing wordpress on an IIS Server Default web site as an app named wordpress download the wordpress package from the app gallery into a folder called packages. All the default values for the wordpress package parameters will work as is but just need to specify the values for two required parameters: admin and non admin mysql password.
 
 Parameters:
 

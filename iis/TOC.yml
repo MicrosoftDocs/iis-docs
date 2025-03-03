@@ -292,8 +292,6 @@
           href: manage/managing-performance-settings/walkthrough-iis-output-caching.md
         - name: Configure IIS 7 Output Caching
           href: manage/managing-performance-settings/configure-iis-7-output-caching.md
-        - name: Use Bit Rate Throttling
-          href: manage/managing-performance-settings/use-bit-rate-throttling.md
     - name: Managing your Configuration Settings
       items: 
         - name: Delegating Configuration to web.config Files
@@ -598,8 +596,6 @@
           href: troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md
         - name: Using Failed Request Tracing Rules to Troubleshoot Application Request Routing
           href: troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md
-        - name: Troubleshoot with Failed Request Tracing
-          href: troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md
         - name: Troubleshooting Failed Requests Using Tracing in IIS 8.5
           href: troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md
     - name: Performance Issues
@@ -964,8 +960,6 @@
           href: web-hosting/getting-started/deploying-a-static-content-server.md
         - name: Using Windows SharePoint Services 3.0 on IIS 7.0
           href: web-hosting/getting-started/using-windows-sharepoint-services-30-on-iis.md
-        - name: Microsoft Web Platform Privacy Statements
-          href: web-hosting/getting-started/microsoft-web-platform-privacy-statements.md
     - name: Frequently Asked Questions (FAQ)
       items: 
         - name: Tools and Utilities Questions
@@ -990,12 +984,8 @@
           href: web-hosting/migrate-to-the-microsoft-web-platform/breaking-changes-for-aspnet-4-apps-running-on-iis-7-integrated-mode.md
         - name: IIS 7 for Apache Administrators
           href: web-hosting/migrate-to-the-microsoft-web-platform/iis-for-apache-administrators.md
-        - name: Migrate to a Windows-Based Platform
-          href: web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform.md
         - name: Migrate from MySQL to SQL Server 2008
           href: web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008.md
-        - name: How to Migrate to the Microsoft Web Platform
-          href: web-hosting/migrate-to-the-microsoft-web-platform/how-to-migrate-to-the-microsoft-web-platform.md
     - name: Configuring Components
       items: 
         - name: Enabling LINQ with ASP.NET
@@ -1046,8 +1036,6 @@
           href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005.md
         - name: SQL 2008 for Hosters
           href: web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md
-        - name: Configure your Servers for the Windows Web Hosting Platform
-          href: web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform.md
     - name: Installing Infrastructure Components
       items: 
         - name: Planning the Deployment
