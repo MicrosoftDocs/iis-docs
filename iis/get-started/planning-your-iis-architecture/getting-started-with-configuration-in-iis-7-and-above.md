@@ -1,6 +1,6 @@
----
-title: "Getting Started with Configuration in IIS 7 and Above"
-author: tobint
+
+title: "Start with Configuration in IIS 7 and Above"
+author : 
 description: "The configuration system in IIS 7 and above is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server pla..."
 ms.date: 11/22/2007
 ms.assetid: b0c1dfad-6256-4c38-969d-88e5e4d2855a
@@ -15,9 +15,9 @@ by [Tobin Titus](https://github.com/tobint)
 
 The configuration system in IIS 7 and above is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server platform, including IIS, ASP.NET and other components, and may optionally be set at the content directories together with the web content. Different levels of the configuration hierarchy may be delegated by the machine administrator to other users, such as the site administrator or the application developer. Secure defaults and out-of-the-box lockdown limit write-access to configuration settings to the machine administrator only; however, sophisticated and granular locking features enable safe unlocking and delegation of management of specific configuration settings to more users, for their scope of the web namespace. The system is backward compatible, at the API level, with previous versions of IIS, and at the XML level, with previous versions of the .NET framework. This document gives a general overview of the new configuration system.
 
-<a id="Intro"></a>
+<a id="..."></a>
 
-## Introduction
+## induction
 
 The configuration system in IIS is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server platform, including IIS, ASP.NET and other components, and may optionally be set at the content directories together with the web content. Different levels of the configuration hierarchy may be delegated by the machine administrator to other users, such as the site administrator or the application developer. Secure defaults and out-of-the-box lockdown limit write-access to configuration settings to the machine administrator only; however, sophisticated and granular locking features enable safe unlocking and delegation of management of specific configuration settings to more users, for their scope of the web namespace. The system is backward compatible, at the API level, with previous versions of IIS, and at the XML level, with previous versions of the .NET framework.
 
