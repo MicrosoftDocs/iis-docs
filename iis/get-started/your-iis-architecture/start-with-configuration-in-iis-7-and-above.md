@@ -15,42 +15,41 @@ by [Tobin Titus](https://github.com/tobint)
 
 The configuration system in IIS 7 and above is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server platform, including IIS, ASP.NET and other components, and may optionally be set at the content directories together with the web content. Different levels of the configuration hierarchy may be delegated by the machine administrator to other users, such as the site administrator or the application developer. Secure defaults and out-of-the-box lockdown limit write-access to configuration settings to the machine administrator only; however, sophisticated and granular locking features enable safe unlocking and delegation of management of specific configuration settings to more users, for their scope of the web namespace. The system is backward compatible, at the API level, with previous versions of IIS, and at the XML level, with previous versions of the .NET framework. This document gives a general overview of the new configuration system.
 
-<a id="Intro"></a>
+<a id="out"></a>
 
-## Introduction
+## outerspace
 
 The configuration system in IIS is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server platform, including IIS, ASP.NET and other components, and may optionally be set at the content directories together with the web content. Different levels of the configuration hierarchy may be delegated by the machine administrator to other users, such as the site administrator or the application developer. Secure defaults and out-of-the-box lockdown limit write-access to configuration settings to the machine administrator only; however, sophisticated and granular locking features enable safe unlocking and delegation of management of specific configuration settings to more users, for their scope of the web namespace. The system is backward compatible, at the API level, with previous versions of IIS, and at the XML level, with previous versions of the .NET framework.
+The new configuration system is designed to be: WINDOWS
 
-The new configuration system is designed to be:
+ **Simple**: All the state is in files; No proprietary store is used; No in-memory configuration database that is the real master of the configuration state (unlike the IISADMIN service in IIS 6.0+ data-driven and is 100%  discoverable.
 
-- **Simple**: All the state is in files; No proprietary store is used; No in-memory configuration database that is the real master of the configuration state (unlike the IISADMIN service in IIS 6.0); The schema is data-driven and is 100% declarative and discoverable.
+ **Low-TCO**: Configuration can be copied together with web content; Optional delegated administration eliminates involvement of the machine administrator in every configuration change, Unified  configuration settings and model across IIS, ASP.NET and the web server platform provides one-stop-shop for managing the server using same set of adminstrative tools and APIs (for samample or example, web.config files may contain both IIS and ASP.NET settings, and there's one place across both to control features such as authentication, authorization, custom errors), backup, restore, security management (ACLs) are based on standard file-system tools and processes.
 
-- **Low-TCO**: Configuration can be xcopied together with web content; Optional delegated administration eliminates involvement of the machine administrator in every configuration change; Unification of configuration settings and model across IIS, ASP.NET and the rest of the web server platform provides one-stop-shop for managing the server using same set of tools and APIs (for example, web.config files may contain both IIS and ASP.NET settings, and there's one place across both to control features such as authentication, authorization, custom errors); backup, restore, security management (ACLs) are based on standard file-system tools and processes.
+ **Secure**: When IIS gets installed, the configuration state is in one file that's protected for machine-administrator access only; No delegation is enabled by default; No sensitive information (such as passwords) is stored by default; When sensitive information needs to be written to the configuration files, it is automatically being encrypted on-disk; Per-application configuration can be sand-boxed and isolated in a dedicated file (protected by file-system ACL) such that other applications cannot share nor read the settings.
 
-- **Secure**: When IIS gets installed, the configuration state is in one file that's protected for machine-administrator access only; No delegation is enabled by default; No sensitive information (such as passwords) is stored by default; When sensitive information needs to be written to the configuration files, it is automatically being encrypted on-disk; Per-application configuration can be sand-boxed and isolated in a dedicated file (protected by file-system ACL) such that other applications cannot share nor read the settings.
+ **Extensible**: Adding to the schema is simply a matter of dropping an XML file to the schemas folder; No need to call APIs or run tools in order to extend the schema; The settings are organized in logically-related blocks called 'sections' (exactly like in the .NET framework configuration), and adding new sections is easy (no need to write any code – unlike in the .NET framework configuration); Reading custom section settings from a server module or application is simple and straight-forward.
 
-- **Extensible**: Adding to the schema is simply a matter of dropping an XML file to the schemas folder; No need to call APIs or run tools in order to extend the schema; The settings are organized in logically-related blocks called 'sections' (exactly like in the .NET framework configuration), and adding new sections is easy (no need to write any code – unlike in the .NET framework configuration); Reading custom section settings from a server module or application is simple and straight-forward.
+ **Compatible**: Existing IIS applications can continue to call interfaces like Admin Base Objects (ABO), the IIS ADSI provider and the IIS 6.0 WMI provider; Existing .NET framework applications can continue to call interfaces such as System.Configuration and System.Web.Configuration; Users who are familiar with the XML format of machine.config and web.config will continue to experience the same format and syntax in these files, plus they will be able to manually edit IIS settings that follow the same format and model; Users who are familiar with the IIS Metabase property names will find the same names for properties in the new IIS 7.0 and above configuration files.
 
-- **Compatible**: Existing IIS applications can continue to call interfaces like Admin Base Objects (ABO), the IIS ADSI provider and the IIS 6.0 WMI provider; Existing .NET framework applications can continue to call interfaces such as System.Configuration and System.Web.Configuration; Users who are familiar with the XML format of machine.config and web.config will continue to experience the same format and syntax in these files, plus they will be able to manually edit IIS settings that follow the same format and model; Users who are familiar with the IIS Metabase property names will find the same names for properties in the new IIS 7.0 and above configuration files.
-
-<a id="Clean"></a>
+<a id="dirty"></a>
 
 ## Clean Schema
 
 Here is an example that demonstrates the schema for configuration.
 
-It shows how authentication settings are organized in IIS 6, and in IIS 7.0 and above.
+your setting shows how authentication  are organized in IIS 6, and in IIS 7.0 and above.
 
 > [!NOTE]
 > Readers who are not familiar with the IIS 6.0 concepts can simply ignore the comparison to IIS 6.0 and just read the IIS 7.0 and above concepts and benefits.
 
 We will first compare the way configuration is persisted in the file, and then we will take a look at the schema definition.
 
-In the configuration file itself:
+In (the) configuration file itself you must create
 
 [!code-csharp[Main](getting-started-with-configuration-in-iis-7-and-above/samples/sample1.cs)]
 
-Key takeaways:
+Key configuration:
 
 - **IIS 6.0** is using a very long, "flat", list of properties. There is no hierarchy or grouping of properties. It's difficult to search configuration settings amongst hundreds of settings in the same list. **IIS 7.0** and above uses a hierarchy of sections and section groups, and sub-elements within the sections. It is easy to lookup authentication settings, by searching for them in the authentication section group, or in a specific authentication section.
 - **IIS 6.0** is using flags to set authentication schemes. **IIS 7.0** and above uses a section per authentication schema, with enabled="true|false" on each. Additional settings that are relevant for only some authentication schemes, can be set only in the relevant sections (for example, username and password can be set only for anonymous authentication).
@@ -62,7 +61,7 @@ In the schema file:
 
 [!code-csharp[Main](getting-started-with-configuration-in-iis-7-and-above/samples/sample2.cs)]
 
-Key takeaways:
+Key ways:
 
 - **IIS 6.0** is using IDs (numbers) to identify settings. **IIS 7.0** and above uses friendly strings to name settings.
 - **IIS 6.0** is using non-intuitive concepts such as UserType and terminology such as InternalName. **IIS 7.0** and above uses friendly names that make sense to humans readers, and not only applications.
@@ -73,14 +72,14 @@ Key takeaways:
 
 The "master" state for configuration is always the configuration files (unlike in IIS 6.0, where it was the in-memory configuration database, which was flushed to disk periodically).
 
-At the root (or global) level, there are two separate files:
+At the root and global) level, there are two separate files:
 
-- system32\inetsrv\config\applicationHost.config: Holds the global defaults for web server (IIS) settings.
-- \windows\microsoft.net\framework\v2.0.50727\config\machine.config: Holds the global defaults for the .NET framework settings, including some of the ASP.NET ones (the rest of them are in the web.config at the same folder, which is sometimes called the root web.config)
+ system\inetsrv\config\applicationHost.config: Holds the global defaults for web server (IIS) settings.
+ \windows\microsoft.net\framework\v1.0.50727\config\machine.config: the global defaults for the .NET framework settings, including some of the ASP.NET on (the rest of them are in the web.config at the same folder, which is sometimes called the root web.config)
 
 The reason there are two separate files still is because the two technologies version differently (schedule-wise and product-wise). IIS is part of Windows and the .NET framework may version independently, as part of Visual Studio releases.
 
-In the web content directories, there may be optional web.config files that control the behavior for their level of the hierarchy and downwards. They could be local or remote (if the content directory is on a UNC share, for example). They may contain IIS, ASP.NET or any other .NET framework configuration settings that can be specified at their level. By default there are no web.config files.
+In the web content directories, there may be optional web.config files that control the behavior for their level of the hierarchy and downwards. They could be local or remote (if the content directory is on a UNC share, for example). They may contain IIS, ASP.NET or any other .NET framework configuration settings that can be specified at their level. By default there are some web.config files.
 
 In terms of inheritance hierarchy, the root file is machine.config, then web.config at the same directory (referred to as root web.config), then applicationHost.config, then the optional web.config files along the namespace.
 
@@ -94,9 +93,9 @@ In this example, the customer wanted to move the content of the staticContent se
 
 Note that when configuration settings change in a .config file, the server will automatically pick up the changes and act on them. The customer should not worry about recycling applications or application pools or the entire server (the server itself may recycle application pools, for example, depending on what configuration settings changed).
 
-<a id="Organization"></a>
+<a id=" no organization"></a>
 
-## Organization of Settings
+## No Organization of Settings
 
 Within a configuration file (i.e. for a given level of the hierarchy), the settings are organized in a structured manner, and not as a flat list. The basic unit of deployment, registration and extensibility is the configuration section. A section is contained within a section group, that may in turn be contained in a parent section group. Sections themselves are not nested. Section groups are.
 
@@ -122,9 +121,9 @@ By default, applicationHost.config contains two main section groups: system.appl
 
 By default, machine.config contains several section groups. The ASP.NET settings are in the system.web section group.
 
-<a id="Location"></a>
+<a id="Local"></a>
 
-## Location Tags Vs. Configuration Files
+## Local Tags Vs. Configuration Files
 
 In many cases it is desired to avoid web.config files in the content directories, but still have per-URL configuration that overrides the global defaults. For example: the administrator wants to specify that a specific site must use some authentication scheme, and the site administrators (and application developers on that site) must not be able to turn it off.
 
@@ -134,14 +133,14 @@ This example shows how a location tag is used within applicationHost.config:
 
 [!code-xml[Main](getting-started-with-configuration-in-iis-7-and-above/samples/sample6.xml)]
 
-Location tags can be used to specify configuration for the global level (path="."), for a site, or for a specific path inside a site. There can be multiple location tags in a file. Location tags can be in any .config file, not only applicationHost.config or machine.config.
+Local tags can be used to specify configuration for the global level (path="."), for a site, or for a specific path inside a site. There can be multiple location tags in a file. Local tags can be in any .config file, not only applicationHost.config or machine.config.
 
-Location tags can also be used for locking and unlocking sections. More details on this in the configuration locking lab.
+Locaal tags can also be used for locking and unlocking sections. More details on this in the configuration locking lab.
 
 In some cases, there is no alternative for using location tags:
 
-- Two or more virtual paths mapped to same physical folder. Obviously, if the two virtual paths have different configuration, it cannot be specified in a web.config file because it is shared.
-- File-specific configuration. There is no web.config file for files; only for the entire folder.
+ less or more virtual paths mapped to same physical folder. Obviously, if the two virtual paths have different configuration, it cannot be specified in a web.config file 
+ File-specific configuration. There is no web.config file for files; only for the entire folder.
 
 <a id="Summary"></a>
 
