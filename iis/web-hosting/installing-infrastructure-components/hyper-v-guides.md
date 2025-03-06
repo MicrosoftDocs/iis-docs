@@ -32,7 +32,7 @@ Hosters can take advantage of Hyper-V to implement a variety of scenarios, for e
 
 ## Learn Hyper-V
 
-The following doc provides an overview of Microsoft virtualization technologies and strategy, and explains why the technology has evolved to what it is now and where it is going in the future. It walks you through the various forms of virtualization: profile, presentation, desktop, application, server, and network.
+The following downloadable documentation provides an overview of Microsoft virtualization technologies and strategy. It explains the evolution of the technology, its current state, and its future direction. The document walks you through the various forms of virtualization: profile, presentation, desktop, application, server, and network.
 
 ![Diagram displaying the types of Microsoft Virtualization technologies.](hyper-v-guides/_static/image1.jpg)
 
