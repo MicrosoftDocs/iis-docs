@@ -207,8 +207,8 @@ These attributes can only be configured at server level. Configuration at a site
 | Element | Description |
 | --- | --- |
 | [`scheme`](scheme.md) | Optional element. <br><br>Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. This element can only be configured at server level. |
-| [`dynamicTypes`](dynamictypes/index.md) | Optional element. <br><br>Specifies configuration settings for dynamic compression. This element can be configured at site level. |
-| [`staticTypes`](statictypes/index.md) | Optional element. <br><br>Specifies configuration settings for static compression. This element can be configured at site level. |
+| [`dynamicTypes`](dynamictypes/index.md) | Optional element. <br><br>Specifies configuration settings for dynamic compression. For IIS 10.0 and later, can only be configured at the site level. Versions prior to IIS 10.0, can only be configured at the server level. |
+| [`staticTypes`](statictypes/index.md) | Optional element. <br><br>Specifies configuration settings for static compression. For IIS 10.0 and later, can only be configured at the site level. Versions prior to IIS 10.0, can only be configured at the server level. |
 
 ### Configuration Sample
 
