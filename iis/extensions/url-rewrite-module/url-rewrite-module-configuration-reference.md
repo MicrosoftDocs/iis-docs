@@ -207,6 +207,9 @@ A **Redirect** action has the following configuration options:
   - 303 – See other
   - 307 – Temporary
 
+  > [!NOTE]
+  > HTTP status code 308 (Permanent Redirect) is not supported by the URL Rewrite module.
+
 <a id="CustomResponse_action"></a>
 
 #### CustomResponse action
