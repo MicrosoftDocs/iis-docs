@@ -176,6 +176,8 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 ### Attributes
 
+These attributes can only be configured at server level. Configuration at a site level or lower will be ignored.
+
 | Attribute | Description |
 | --- | --- |
 | `cacheControlHeader` | Optional string attribute. <br><br>Specifies the directive that IIS adds to the Cache-Control header that overrides the HTTP Expires header. This attribute ensures that older clients and proxy servers do not attempt to cache compressed files. To enable this setting, you must set the **sendCacheHeaders** attribute to **true**. The WWW service must be restarted before changes to this property take effect. <br><br>The default value is `max-age=86400`. |
@@ -199,9 +201,9 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 | Element | Description |
 | --- | --- |
-| [`scheme`](scheme.md) | Optional element. <br><br>Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. |
-| [`dynamicTypes`](dynamictypes/index.md) | Optional element. <br><br>Specifies configuration settings for dynamic compression. |
-| [`staticTypes`](statictypes/index.md) | Optional element. <br><br>Specifies configuration settings for static compression. |
+| [`scheme`](scheme.md) | Optional element. <br><br>Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. This element can only be configured at server level. |
+| [`dynamicTypes`](dynamictypes/index.md) | Optional element. <br><br>Specifies configuration settings for dynamic compression. For IIS versions prior to IIS 10.0, can only be configured at the server level. For IIS 10.0 and later, can also be configured at the site level.
+| [`staticTypes`](statictypes/index.md) | Optional element. <br><br>Specifies configuration settings for static compression. For IIS 10.0 and later, can only be configured at the site level. For IIS versions prior to IIS 10.0, can only be configured at the server level. For IIS 10.0 and later, can also be configured at the site level.|
 
 ### Configuration Sample
 
