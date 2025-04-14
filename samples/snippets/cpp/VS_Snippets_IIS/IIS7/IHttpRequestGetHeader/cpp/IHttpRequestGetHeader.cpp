@@ -44,7 +44,7 @@ public:
             pszUserAgent = pHttpRequest->GetHeader("User-Agent",&cchUserAgent);
 
             // The header length will be 0 if the header was not found.
-            if (pszUserAgent == NULL || cchUserAgent == 0)
+            if (cchUserAgent == 0)
             {
                 // Return a status message.
                 WriteResponseMessage(pHttpContext,
@@ -52,16 +52,35 @@ public:
             }
             else
             {
-                // Return the header information.
-                WriteResponseMessage(pHttpContext,
-                    "User-Agent: ",pszUserAgent);
+                // Allocate space to store the header.
+                pszUserAgent = (PCSTR) pHttpContext->AllocateRequestMemory( cchUserAgent + 1 );
+                
+                // Test for an error.
+                if (pszUserAgent==NULL)
+                {
+                    // Set the error status.
+                    hr = HRESULT_FROM_WIN32(ERROR_NOT_ENOUGH_MEMORY);
+                    pProvider->SetErrorStatus( hr );
+                    // End additional processing.
+                    return RQ_NOTIFICATION_FINISH_REQUEST;
+                }
+
+                // Retrieve the "User-Agent" header.
+                pszUserAgent = pHttpRequest->GetHeader("User-Agent",&cchUserAgent);
+                // Test for an error.
+                if (pszUserAgent!=NULL)
+                {
+                    // Return the header information.
+                    WriteResponseMessage(pHttpContext,
+                        "User-Agent: ",pszUserAgent);
+                }
             }
 
             // Look for the "Accept-Language" header.
             pszAcceptLanguage = pHttpRequest->GetHeader(HttpHeaderAcceptLanguage,&cchAcceptLanguage);
 
             // The header length will be 0 if the header was not found.
-            if (pszAcceptLanguage == NULL || cchAcceptLanguage == 0)
+            if (cchAcceptLanguage == 0)
             {
                 // Return a status message.
                 WriteResponseMessage(pHttpContext,
@@ -69,9 +88,29 @@ public:
             }
             else
             {
-                // Return the header information.
-                WriteResponseMessage(pHttpContext,
-                    "\nAccept-Language: ",pszAcceptLanguage);
+                // Allocate space to store the header.
+                pszAcceptLanguage = (PCSTR) pHttpContext->AllocateRequestMemory( cchAcceptLanguage + 1 );
+                
+                // Test for an error.
+                if (pszAcceptLanguage==NULL)
+                {
+                    // Set the error status.
+                    hr = HRESULT_FROM_WIN32(ERROR_NOT_ENOUGH_MEMORY);
+                    pProvider->SetErrorStatus( hr );
+                    // End additional processing.
+                    return RQ_NOTIFICATION_FINISH_REQUEST;
+                }
+
+                // Retrieve the "Accept-Language" header.
+                pszAcceptLanguage = pHttpRequest->GetHeader(HttpHeaderAcceptLanguage,&cchAcceptLanguage);                
+                
+                // Test for an error.
+                if (pszAcceptLanguage!=NULL)
+                {
+                    // Return the header information.
+                    WriteResponseMessage(pHttpContext,
+                        "\nAccept-Language: ",pszAcceptLanguage);
+                }
             }
             // End additional processing.
             return RQ_NOTIFICATION_FINISH_REQUEST;
@@ -92,7 +131,7 @@ private:
     {
         // Create an HRESULT to receive return values from methods.
         HRESULT hr;
-
+        
         // Create a data chunk.
         HTTP_DATA_CHUNK dataChunk;
         // Set the chunk to a chunk in memory.
@@ -143,7 +182,7 @@ class MyHttpModuleFactory : public IHttpModuleFactory
 public:
     HRESULT
     GetHttpModule(
-        OUT CHttpModule ** ppModule,
+        OUT CHttpModule ** ppModule, 
         IN IModuleAllocator * pAllocator
     )
     {
@@ -165,7 +204,7 @@ public:
             pModule = NULL;
             // Return a success status.
             return S_OK;
-        }
+        }            
     }
 
     void Terminate()
