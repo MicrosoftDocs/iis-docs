@@ -10,6 +10,6 @@
       </PROVIDERS>
    </CONFIGPROTECTEDDATA>
 
-   <CONFIGURATIONREDIRECTION enabled="true" path="\\ServerName\ShareName" userName="MyUser" password="" />
+<CONFIGURATIONREDIRECTION enabled="true" path="\\ServerName\ShareName" userName="MyUser" password="[enc:IISRsaProvider:***:enc]" />
 
 </CONFIGURATION>
