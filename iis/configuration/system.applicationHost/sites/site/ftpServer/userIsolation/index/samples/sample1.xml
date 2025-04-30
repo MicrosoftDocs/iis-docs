@@ -8,7 +8,7 @@
   <ftpServer>
     <userIsolation mode="ActiveDirectory">
       <activeDirectory adUserName="MyUser"
-        adPassword="[enc:RsaProtectedConfigurationProvider:57686f6120447564652c2049495320526f636b73:enc]"
+        adPassword="[enc:RsaProtectedConfigurationProvider:***:enc]"
         adCacheRefresh="00:02:00" />
     </userIsolation>
     <security>
