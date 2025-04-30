@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="RWS-2008R2" msdeploySite="NewSite" destinationAppUrl="http://RWS-2008R2:81" mySQLDBConnectionString="" SQLServerDBConnectionString="" profileName="Default Settings" publishMethod="MSDeploy" userName="NewSiteUser" userPWD="Passw0rd" savePWD="True" />
+  <publishProfile publishUrl="RWS-2008R2" msdeploySite="NewSite" destinationAppUrl="http://RWS-2008R2:81" mySQLDBConnectionString="" SQLServerDBConnectionString="" profileName="Default Settings" publishMethod="MSDeploy" userName="NewSiteUser" userPWD="" savePWD="True" />
 </publishData>
