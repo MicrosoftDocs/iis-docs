@@ -2,5 +2,6 @@
     <configSections> 
         <section name="configurationRedirection" /> 
     </configSections> 
-    <configurationRedirection enabled="true" path="\\machinename\centralconfig$\" userName="ConfigUser1 or domain\user" password="ConfigPass1 or domainPassword" /> 
+    <!--password is ConfigPass1 or domainPassword-->
+    <configurationRedirection enabled="true" path="\\machinename\centralconfig$\" userName="ConfigUser1 or domain\user" password="" /> 
 </configuration>

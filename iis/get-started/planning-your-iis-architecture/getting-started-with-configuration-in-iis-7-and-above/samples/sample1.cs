@@ -19,7 +19,7 @@
 //
 // Snippet from IIS 7.0 applicationHost.config
 //
-<anonymousAuthentication enabled="true"  userName="…"  password="…" />
+<anonymousAuthentication enabled="true"  userName="…"  password="" />
 <basicAuthentication enabled="false" />
 <clientCertificateMappingAuthentication enabled="false" />
 <windowsAuthentication enabled="true" >

@@ -62,7 +62,7 @@
   <parameter 
     name="Create DB and DB User Connection String" 
     description="Automatically sets the connection string for the connection request." 
-    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" 
+    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd=*;" <!-- replace Pwd=* with Pwd={Database Administrator Password} -->
     tags="Hidden,SQLConnectionString,Validate">
     <parameterEntry type="ProviderPath" scope="dbfullsql" match="CreateDBAndUser.sql" />
   </parameter>
@@ -70,7 +70,7 @@
   <parameter 
     name="Populate DB Connection String" 
     description="Automatically sets the connection string for the connection request." 
-    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" 
+    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd=*;" <!-- replace Pwd=* with Pwd={Database Administrator Password} -->
     tags="Hidden,SQLConnectionString,Validate">
     <parameterEntry type="ProviderPath" scope="dbfullsql" match="VacPicDBSchema.sql" />
   </parameter>
@@ -78,7 +78,7 @@
   <parameter 
     name="Connection String for Config" 
     description="Connection string to enter into config" 
-    defaultValue="Data Source={Database Server};database={Database Name};user id={Database Username};password={Database Password}" 
+    defaultValue="Data Source={Database Server};database={Database Name};user id={Database Username};password=*" <!-- replace password=* with Pwd={Database Password} -->
     tags="Hidden, SQL">
     <parameterEntry kind="XmlFile" scope="\\web\.config$" match="//*[local-name()='connectionStrings']/*[local-name()='add'][@name='PhotoGallery']/@connectionString" tags="Sql, SqlConnectionString, Hidden" />
   </parameter>

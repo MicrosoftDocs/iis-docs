@@ -1,5 +1,5 @@
 <webFarms>
-	<webFarm serverAutoStart="false" name="Farm" enabled="true" adminUserName="{0}\administrator" adminPassword="pwd"  primaryServer="demo-primary">
+	<webFarm serverAutoStart="false" name="Farm" enabled="true" adminUserName="{0}\administrator" adminPassword=""  primaryServer="demo-primary">
 		<server address="demo-primary" enabled="true" />
 		<server address="demo-secondary" enabled="true" />
 		<platformProvision syncPlatformFromPrimary="true" />

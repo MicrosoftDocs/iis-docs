@@ -8,6 +8,6 @@
     profileName="Default Settings" 
     publishMethod="MSDeploy" 
     userName="NewSiteUser" 
-    userPWD="Passw0rd" 
+    userPWD="" 
     savePWD="True" />
 </publishData>
