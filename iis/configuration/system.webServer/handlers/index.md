@@ -2,7 +2,7 @@
 title: "Handlers &lt;handlers&gt;"
 author: rick-anderson
 description: "Overview The &lt;handlers&gt; element defines the handlers registered for a specific file name extension or URL. Handlers are Internet Information Services (..."
-ms.date: 09/26/2016
+ms.date: 05/19/2026
 ms.assetid: df3cf46c-9d26-4e69-98e9-f2b4dcd2cbfc
 msc.legacyurl: /configreference/system.webserver/handlers
 msc.type: config
