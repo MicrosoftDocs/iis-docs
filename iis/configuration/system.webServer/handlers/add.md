@@ -2,7 +2,7 @@
 title: "Adding Handlers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;handlers&gt; collection adds a handler to the list of HTTP handlers for Internet Information Services (IIS) 7. Co..."
-ms.date: 09/26/2016
+ms.date: 05/19/2025
 ms.assetid: 07a497b0-1558-4731-b5db-b9a2a80ea7d5
 msc.legacyurl: /configreference/system.webserver/handlers/add
 msc.type: config
