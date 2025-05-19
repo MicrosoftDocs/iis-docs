@@ -1,6 +1,6 @@
 ---
 title: "Using Dynamic IP Restrictions"
-author: naziml,esshrouf
+author: naziml
 description: "The Dynamic IP Restrictions (DIPR) module for IIS 7.0 and above provides protection against denial of service and brute force attacks on web servers and web..."
 ms.date: 02/16/2009
 ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
@@ -179,7 +179,7 @@ Substatus code will either be 501 or 502 depending on which one of the two condi
 501 -> Dynamic IP Restriction: too many concurrent requests were made from the same client IP.  
 502 -> Dynamic IP Restriction: the maximum number of requests from the same client IP within a specified time limit was reached.
  
-Above codes are documented here: HTTP status code overview - Internet Information Services | Microsoft Learn
+Above codes are documented here: [HTTP status code overview - Internet Information Services | Microsoft Learn](https://learn.microsoft.com/troubleshoot/developer/webapps/iis/health-diagnostic-performance/http-status-code)
 
 ## Enable Logging Only Mode: 
 
