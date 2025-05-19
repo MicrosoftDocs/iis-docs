@@ -1,6 +1,6 @@
 ---
 title: "Using Dynamic IP Restrictions"
-author: naziml,esshrouf
+author: naziml
 description: "The Dynamic IP Restrictions (DIPR) module for IIS 7.0 and above provides protection against denial of service and brute force attacks on web servers and web..."
 ms.date: 02/16/2009
 ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
