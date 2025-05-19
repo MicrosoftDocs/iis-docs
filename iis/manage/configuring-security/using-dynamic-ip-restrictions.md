@@ -179,7 +179,7 @@ Substatus code will either be 501 or 502 depending on which one of the two condi
 501 -> Dynamic IP Restriction: too many concurrent requests were made from the same client IP.  
 502 -> Dynamic IP Restriction: the maximum number of requests from the same client IP within a specified time limit was reached.
  
-Above codes are documented here: [HTTP status code overview - Internet Information Services | Microsoft Learn](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Ftroubleshoot%2Fdeveloper%2Fwebapps%2Fiis%2Fwww-administration-management%2Fhttp-status-code&data=05%7C02%7CEsra.Shrouf%40microsoft.com%7Cf97c53ddd42a45048f4c08dcaa5c9ac3%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638572561998869615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=x5KThY9jpE4yFiAV%2BPIyGP2SyswJBeyJkHaTliCLbqE%3D&reserved=0)
+Above codes are documented here: [HTTP status code overview - Internet Information Services | Microsoft Learn](https://learn.microsoft.com/troubleshoot/developer/webapps/iis/health-diagnostic-performance/http-status-code)
 
 ## Enable Logging Only Mode: 
 
