@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: dff11de6-1144-46cd-bd9e-6137722542f8
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/ssl
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # FTP over SSL &lt;ssl&gt;
 

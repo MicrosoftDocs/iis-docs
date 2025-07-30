@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 18416b9b-f600-4475-8532-54b748f315c9
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;
 

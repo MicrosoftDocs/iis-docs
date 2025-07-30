@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 5ff18e4c-180c-4c1b-8134-cc0b543f4d19
 msc.legacyurl: /configreference/system.webserver/security/authentication/basicauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Basic Authentication &lt;basicAuthentication&gt;
 

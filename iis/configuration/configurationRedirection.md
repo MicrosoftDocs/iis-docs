@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: dfa749ff-eb86-4d30-a2f5-594ce0d721e1
 msc.legacyurl: /configreference/configurationredirection
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Configuration Redirection &lt;configurationRedirection&gt;
 

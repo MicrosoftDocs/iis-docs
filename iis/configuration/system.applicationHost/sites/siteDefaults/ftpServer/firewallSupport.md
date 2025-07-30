@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 52629339-be4b-42a5-b5d1-b260dc6253de
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/firewallsupport
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Default FTP Firewall Support Settings &lt;firewallSupport&gt;
 

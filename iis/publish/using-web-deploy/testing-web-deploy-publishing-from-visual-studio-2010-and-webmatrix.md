@@ -6,6 +6,7 @@ ms.date: 12/12/2011
 ms.assetid: 8f5515fa-1885-46e6-918f-5578d79dcc3f
 msc.legacyurl: /learn/publish/using-web-deploy/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 6c430474-2393-4e39-bb40-2d07d39fc33a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/sessions
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # FTP Sessions &lt;sessions&gt;
 

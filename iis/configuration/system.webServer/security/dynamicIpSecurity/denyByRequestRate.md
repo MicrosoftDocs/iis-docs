@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 8f0bd47d-adf6-4738-978d-8071b2747048
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity/denybyrequestrate
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Deny by Request Rate &lt;denyByRequestRate&gt;
 

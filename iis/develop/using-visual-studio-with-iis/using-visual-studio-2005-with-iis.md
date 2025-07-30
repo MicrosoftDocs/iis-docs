@@ -6,6 +6,7 @@ ms.date: 04/01/2008
 ms.assetid: 0be877e5-57d6-4a5a-867e-0d0495dc3e0c
 msc.legacyurl: /learn/develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Visual Studio 2005 with IIS 7.0
 

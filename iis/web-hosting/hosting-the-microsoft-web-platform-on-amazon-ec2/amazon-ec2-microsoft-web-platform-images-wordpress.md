@@ -6,6 +6,7 @@ ms.date: 04/02/2010
 ms.assetid: f36bee17-6301-46e9-9f6f-c23a57041664
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Amazon EC2: Microsoft Web Platform Images - Wordpress
 

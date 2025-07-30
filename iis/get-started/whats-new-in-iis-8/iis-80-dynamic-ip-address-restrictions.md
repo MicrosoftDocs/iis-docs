@@ -6,6 +6,7 @@ ms.date: 02/29/2012
 ms.assetid: 35da8086-42c3-4dbe-98d6-280254b8a97f
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # IIS 8.0 Dynamic IP Address Restrictions
 

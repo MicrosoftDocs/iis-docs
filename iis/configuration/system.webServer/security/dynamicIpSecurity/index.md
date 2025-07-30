@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 6990bc31-c315-4e89-acaa-e9ee7a9a39b2
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Dynamic IP Security &lt;dynamicIpSecurity&gt;
 

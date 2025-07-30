@@ -6,6 +6,7 @@ ms.date: 10/29/2008
 ms.assetid: 2d660303-2c37-4535-8df9-515ce1d1b874
 msc.legacyurl: /learn/publish/using-web-deploy/export-a-package-through-iis-manager
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Export a Package through IIS Manager
 

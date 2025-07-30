@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: fd402a22-694b-4982-a82d-189ce7be938a
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/verbs
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Verbs &lt;verbs&gt;
 

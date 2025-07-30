@@ -6,6 +6,7 @@ ms.date: 01/15/2008
 ms.assetid: 99efc714-23a3-44f8-8752-acbc76472bf9
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-firewall-settings-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Configuring FTP Firewall Settings in IIS 7
 

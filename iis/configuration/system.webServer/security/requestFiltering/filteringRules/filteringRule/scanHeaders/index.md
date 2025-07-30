@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 58752f95-b570-4175-9f4d-ab0cdf7ca18d
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # HTTP Headers for Filtering Rules &lt;scanHeaders&gt;
 

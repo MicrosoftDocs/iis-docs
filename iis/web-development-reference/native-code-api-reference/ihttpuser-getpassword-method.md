@@ -3,6 +3,7 @@ title: "IHttpUser::GetPassword Method"
 ms.date: "10/07/2016"
 description: The IHttpUser GetPassword Method returns the user password.
 ms.assetid: a15696da-10ee-bb44-6c4e-fea7f82bb222
+ms.custom: sfi-ropc-nochange
 ---
 # IHttpUser::GetPassword Method
 Returns the user password.  

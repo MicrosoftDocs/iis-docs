@@ -6,6 +6,7 @@ ms.date: 02/29/2012
 ms.assetid: 62cdd54d-8bcd-4546-a720-11970a8f8666
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability
 

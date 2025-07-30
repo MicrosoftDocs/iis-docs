@@ -6,6 +6,7 @@ ms.date: 05/21/2008
 ms.assetid: 65a11a66-0246-4aa9-b532-a7832ab46401
 msc.legacyurl: /learn/develop/extending-the-management-ui/understanding-ui-extension-authoring
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Understanding UI Extension Authoring
 
