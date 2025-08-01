@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: b1f83ca8-7395-4f55-96e0-c589dba20f89
 msc.legacyurl: /configreference/system.webserver/security/authentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Security Authentication &lt;authentication&gt;
 

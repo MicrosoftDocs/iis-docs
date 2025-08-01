@@ -6,6 +6,7 @@ ms.date: 12/18/2007
 ms.assetid: 11c97725-af4a-43fb-9cb4-41d082ac7271
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # How to Create a Simple IIS Manager Module
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: f8c97dd0-4d70-4990-b407-a4bb7315e1c5
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings/binding
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Binding &lt;binding&gt;
 

@@ -6,6 +6,7 @@ ms.date: 12/10/2007
 ms.assetid: cd23d12b-4c44-4e80-bdaf-163c3f03632e
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/shared-configuration_264
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Shared Configuration with IIS 7
 

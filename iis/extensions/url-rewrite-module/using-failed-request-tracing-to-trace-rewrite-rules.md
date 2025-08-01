@@ -6,6 +6,7 @@ ms.date: 05/30/2008
 ms.assetid: 5177e3be-c050-4330-bcad-0ac77b785254
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Failed Request Tracing to Trace Rewrite Rules
 

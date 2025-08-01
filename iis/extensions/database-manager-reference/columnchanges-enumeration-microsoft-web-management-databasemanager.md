@@ -45,6 +45,7 @@ api_type:
 topic_type:
 - apiref
 product_family_name: VS
+ms.custom: sfi-ropc-nochange
 ---
 
 # ColumnChanges Enumeration

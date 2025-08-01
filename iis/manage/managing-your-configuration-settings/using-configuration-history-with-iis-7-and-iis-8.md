@@ -6,6 +6,7 @@ ms.date: 11/22/2007
 ms.assetid: 295e72df-9c33-4c28-96eb-abc6154dad83
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-history-with-iis-7-and-iis-8
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Configuration History with IIS 7 and IIS 8
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 7f84ef60-d07c-4253-835d-75c6cfe6aaca
 msc.legacyurl: /configreference/system.ftpserver/security/authentication/denybyfailure
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Deny by Failure &lt;denyByFailure&gt;
 

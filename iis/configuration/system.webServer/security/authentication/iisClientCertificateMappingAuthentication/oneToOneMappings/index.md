@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 38d0993f-5aca-48a9-bddb-e2fb14610f2d
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # One-To-One Mappings &lt;oneToOneMappings&gt;
 

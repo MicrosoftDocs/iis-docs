@@ -6,6 +6,7 @@ ms.date: 04/12/2010
 ms.assetid: e06a1f8c-8744-4867-a7b1-ab5ca505e360
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack
 

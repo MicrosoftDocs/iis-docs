@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: e4e575b6-9269-4e4b-b194-ed910b36da2f
 msc.legacyurl: /configreference/system.webserver/security/authentication/anonymousauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Anonymous Authentication &lt;anonymousAuthentication&gt;
 

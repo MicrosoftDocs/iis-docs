@@ -6,6 +6,7 @@ ms.date: 02/29/2012
 ms.assetid: 50cb39ab-6067-45a1-9749-54c3692200dc
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5
 

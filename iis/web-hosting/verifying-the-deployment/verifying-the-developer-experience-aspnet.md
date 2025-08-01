@@ -6,6 +6,7 @@ ms.date: 01/18/2009
 ms.assetid: 2f417b96-4bdb-49c5-895a-5cb474a0863a
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Verifying the Developer Experience - ASP.NET
 

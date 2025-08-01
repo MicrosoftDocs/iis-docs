@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: f55fe97a-c571-4c4e-a3f9-2a6113b1cbfc
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # FTP Basic Authentication &lt;basicAuthentication&gt;
 

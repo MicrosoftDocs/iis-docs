@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 01b718a1-96e1-4964-9658-0d672db3c40e
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding Deny Strings for Filtering Rules &lt;add&gt;
 

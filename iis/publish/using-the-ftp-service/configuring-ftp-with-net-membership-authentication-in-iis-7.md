@@ -6,6 +6,7 @@ ms.date: 03/09/2008
 ms.assetid: aae75692-8895-45f2-b3d4-027e22295a5a
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Configuring FTP with .NET Membership Authentication in IIS 7
 

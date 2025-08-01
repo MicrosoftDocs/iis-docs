@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 0127d833-3d44-4e38-a2b3-f8ba6628e972
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Request Filtering Rule &lt;filteringRule&gt;
 

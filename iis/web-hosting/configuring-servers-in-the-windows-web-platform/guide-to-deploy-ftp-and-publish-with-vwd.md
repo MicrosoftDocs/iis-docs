@@ -6,6 +6,7 @@ ms.date: 01/19/2009
 ms.assetid: 1a66db14-06f8-452f-a5a3-817ce140f6cb
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Guide to Deploy FTP and Publish with VWD
 

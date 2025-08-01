@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 24fba3da-5474-4f1c-b8da-113d93316757
 msc.legacyurl: /configreference/system.webserver/security/dynamicipsecurity/denybyconcurrentrequests
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Deny by Concurrent Requests &lt;denyByConcurrentRequests&gt;
 

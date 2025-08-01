@@ -6,6 +6,7 @@ ms.date: 01/15/2008
 ms.assetid: 21bd94c3-1e1b-4fa4-9e90-6de4f62135e8
 msc.legacyurl: /learn/publish/using-the-ftp-service/creating-a-new-ftp-site-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Creating a New FTP Site in IIS 7
 

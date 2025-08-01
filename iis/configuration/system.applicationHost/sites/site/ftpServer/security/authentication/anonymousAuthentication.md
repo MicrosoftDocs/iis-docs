@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 53320fb4-0fc1-44d2-8bcd-6fe3cd2ebfbe
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # FTP Anonymous Authentication &lt;anonymousAuthentication&gt;
 

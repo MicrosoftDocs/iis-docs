@@ -6,6 +6,7 @@ ms.date: 02/16/2009
 ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
 msc.legacyurl: /learn/manage/configuring-security/using-dynamic-ip-restrictions
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Dynamic IP Restrictions
 

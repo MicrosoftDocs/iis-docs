@@ -6,6 +6,7 @@ ms.date: 08/06/2009
 ms.assetid: ee23f7b8-5500-411f-9050-91410c0f3dfc
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Create an FTP Authentication Provider with Dynamic IP Restrictions
 

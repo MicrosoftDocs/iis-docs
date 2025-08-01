@@ -6,6 +6,7 @@ ms.date: 03/18/2009
 ms.assetid: 88378b76-cb79-4b74-b07d-e293e709e4d1
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-custom-logging
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Advanced Logging for IIS - Custom Logging
 

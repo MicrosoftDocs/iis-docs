@@ -6,6 +6,7 @@ ms.date: 11/24/2007
 ms.assetid: dc56d2a3-5097-4c93-977a-6e13f4caec76
 msc.legacyurl: /learn/develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # An End-to-End Extensibility Example for IIS 7.0 Developers
 

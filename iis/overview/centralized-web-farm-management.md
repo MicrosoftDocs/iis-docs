@@ -3,6 +3,7 @@ title: "Centralized Web Farm Management"
 description: "IIS makes it simple to centrally deploy and manage configuration and content across a farm of Web servers."
 ms.date: 03/06/2018
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Centralized Web Farm Management
 

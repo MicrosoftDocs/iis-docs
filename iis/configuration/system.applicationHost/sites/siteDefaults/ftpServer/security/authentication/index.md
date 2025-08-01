@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: b7e99077-7556-4269-b90a-32e53732f6c8
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Default FTP Authentication Settings &lt;authentication&gt;
 

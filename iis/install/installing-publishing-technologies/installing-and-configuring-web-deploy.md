@@ -6,6 +6,7 @@ ms.date: 12/12/2011
 ms.assetid: 1715cb3f-5851-44b2-af04-5a2a1bac5dcb
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Installing and Configuring Web Deploy on IIS 7
 

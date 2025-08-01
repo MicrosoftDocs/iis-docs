@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 160f5b83-b911-4434-aa0e-904b9ea565fe
 msc.legacyurl: /configreference/system.webserver/management
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Management &lt;management&gt;
 

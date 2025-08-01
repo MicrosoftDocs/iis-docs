@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 8ac7f527-f52b-42d6-b28b-6c54e1a394c5
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/hiddensegments/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding Hidden Segments &lt;add&gt;
 
