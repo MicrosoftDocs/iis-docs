@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 9c61b7c7-28bc-4fe7-80c5-4077ee07756a
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/logfile
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Default FTP Log Files Settings &lt;logFile&gt;
 

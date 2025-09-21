@@ -6,6 +6,7 @@ ms.date: 10/29/2008
 ms.assetid: 2d660303-2c37-4535-8df9-515ce1d1b874
 msc.legacyurl: /learn/publish/using-web-deploy/export-a-package-through-iis-manager
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Export a Package through IIS Manager
 
@@ -43,7 +44,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 6. The first row is your iisapp provider entry, which is your application. In the second row, choose the **dbFullSql** provider from the **Provider Name** drop-down. If you hover over a provider, you will see a description and example path.  
     ![Screenshot of the Provider Name field with a focus on the D B Full S Q L option.](export-a-package-through-iis-manager/_static/image5.jpg)
 7. Enter the path to your database or script file in the **Path** column.   
- (Example: "Data Source=.\SQLExpress;Database=MyApplicationDb;User id=MyAppUser;Password=SomePassWord;" without the quotes.)  
+ (Example: "Data Source=.\SQLExpress;Database=MyApplicationDb;User id=MyAppUser;Password=;" Set Password=SomePassWord; without the quotes.)  
     ![Screenshot of the Manage Components screen with the path to a database in the Path column.](export-a-package-through-iis-manager/_static/image7.jpg)
 8. You'll notice that the database now shows up in the package contents tree view. Click **Next** to continue the wizard.  
     ![Screenshot of the Export Application Package dialog box with a focus on the Next option.](export-a-package-through-iis-manager/_static/image9.jpg)

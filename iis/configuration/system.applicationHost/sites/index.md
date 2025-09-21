@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: d0f95664-c290-4a46-b89f-4fc757b93202
 msc.legacyurl: /configreference/system.applicationhost/sites
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Sites &lt;sites&gt;
 

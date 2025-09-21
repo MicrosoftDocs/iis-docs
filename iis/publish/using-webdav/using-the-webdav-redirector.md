@@ -6,6 +6,7 @@ ms.date: 03/28/2014
 ms.assetid: 4f3eb821-77e9-42cf-bc69-5aa759f45d28
 msc.legacyurl: /learn/publish/using-webdav/using-the-webdav-redirector
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using the WebDAV Redirector
 

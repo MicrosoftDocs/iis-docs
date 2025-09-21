@@ -1,1 +1,1 @@
-<add name="Graffiti" connectionString="server=SERVERNAME; database=Graffiti; User ID=graffiti; Password=********" />
+<add name="Graffiti" connectionString="server=SERVERNAME; database=Graffiti; User ID=graffiti; Password=" />

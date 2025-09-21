@@ -6,6 +6,7 @@ ms.date: 01/22/2008
 ms.assetid: 5cbadc78-6208-44ea-a71b-ec2bebd3e1a2
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-virtual-host-names-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using FTP Virtual Host Names in IIS 7
 

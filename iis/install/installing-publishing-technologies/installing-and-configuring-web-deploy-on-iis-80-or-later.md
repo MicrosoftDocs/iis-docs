@@ -6,6 +6,7 @@ ms.date: 03/26/2014
 ms.assetid: 59cfeb03-dd3b-4933-bd69-e4363226dc24
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Installing and Configuring Web Deploy on IIS 8.0 or Later
 

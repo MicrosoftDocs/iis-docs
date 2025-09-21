@@ -6,6 +6,7 @@ ms.date: 3/31/2025
 ms.assetid: 4012722a-ab3f-41b8-ae6e-48ef2e574613
 msc.legacyurl: /learn/manage/configuring-security/using-encryption-to-protect-passwords
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Encryption to Protect Passwords
 

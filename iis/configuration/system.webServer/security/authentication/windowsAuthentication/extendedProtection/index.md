@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 9d5ad70d-1f3e-4414-99ad-586c7a83be94
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Windows Extended Protection &lt;extendedProtection&gt;
 

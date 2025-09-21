@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: a3dacc6a-885d-4d0a-a798-92d3b7fa1977
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyquerystringsequences
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Deny Query String Sequences &lt;denyQueryStringSequences&gt;
 

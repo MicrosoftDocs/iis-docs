@@ -6,6 +6,7 @@ ms.date: 12/01/2007
 ms.assetid: 71974fec-16e1-4c87-aa83-ace3a8508c8c
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/delegated-administration
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Delegated Administration
 

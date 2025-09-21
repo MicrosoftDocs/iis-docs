@@ -6,6 +6,7 @@ ms.date: 04/14/2013
 ms.assetid: 2e778eb8-a1f8-4a3d-aa13-cfa2ca6fca92
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-2-configure-asp-net-settings
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Configuring Step 2: Configure ASP.NET Settings
 

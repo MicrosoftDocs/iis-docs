@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 3de8bcbd-017a-4424-a523-6c811a5721d2
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits/headerlimits
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Header Limits &lt;headerLimits&gt;
 

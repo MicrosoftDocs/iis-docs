@@ -6,6 +6,7 @@ ms.date: 03/28/2014
 ms.assetid: 84e6322c-e1eb-4c45-afce-9c1ae04d7a90
 msc.legacyurl: /learn/manage/configuring-security/application-pool-identities
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Application Pool Identities
 

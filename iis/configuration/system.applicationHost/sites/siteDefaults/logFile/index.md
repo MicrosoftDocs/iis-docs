@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: c2ea131e-ec1a-4559-b4c0-7de9d500afc0
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Default Log File Settings for Web Sites &lt;logFile&gt;
 

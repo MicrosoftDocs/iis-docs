@@ -6,6 +6,7 @@ ms.date: 12/13/2007
 ms.assetid: 4408306d-79cf-4666-87fe-a6bef6d05b68
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Shared Configuration and Remote Provisioning
 

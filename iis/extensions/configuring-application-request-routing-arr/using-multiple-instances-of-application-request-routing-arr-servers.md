@@ -6,6 +6,7 @@ ms.date: 11/13/2008
 ms.assetid: f3cb716e-c182-4975-afe0-d8c8b2172998
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Multiple Instances of Application Request Routing (ARR) Servers
 

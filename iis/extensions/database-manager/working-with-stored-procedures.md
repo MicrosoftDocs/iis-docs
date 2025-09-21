@@ -6,6 +6,7 @@ ms.date: 03/18/2009
 ms.assetid: 6dc63ae4-06dc-44b9-9504-580130a44c46
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Working with Stored Procedures
 

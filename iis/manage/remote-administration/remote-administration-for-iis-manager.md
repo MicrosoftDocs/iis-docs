@@ -6,6 +6,7 @@ ms.date: 11/23/2007
 ms.assetid: 729e10ac-105a-4d4d-8992-81d8c82bffbf
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-for-iis-manager
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Remote Administration for IIS Manager
 

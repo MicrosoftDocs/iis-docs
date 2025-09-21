@@ -6,6 +6,7 @@ ms.date: 01/15/2008
 ms.assetid: 6a37965b-f34d-4d07-90cc-f7575ad1863f
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-fsrm-folder-quotas-with-ftp-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using FSRM Folder Quotas with FTP in IIS 7
 

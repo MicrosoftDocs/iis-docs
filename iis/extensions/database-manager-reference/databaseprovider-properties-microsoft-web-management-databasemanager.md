@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.web.management.database
 ms:contentKeyID: 20476420
 ms.date: 05/02/2012
 mtps_version: v=VS.90
+ms.custom: sfi-ropc-nochange
 ---
 
 # DatabaseProvider Properties

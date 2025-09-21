@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 3333e5ce-6a4e-41c7-8bbd-b8d65fc7cc0c
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyurlsequences/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding URL Sequences To Deny &lt;add&gt;
 

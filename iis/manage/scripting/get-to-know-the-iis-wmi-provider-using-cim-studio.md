@@ -6,6 +6,7 @@ ms.date: 12/10/2007
 ms.assetid: fdb6e446-e94d-42e7-9d04-5d28bf67310e
 msc.legacyurl: /learn/manage/scripting/get-to-know-the-iis-wmi-provider-using-cim-studio
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Get to Know the IIS 7.0 WMI Provider Using CIM Studio
 
