@@ -1,4 +1,4 @@
 <rule name="BlockDotDotRegEx" stopProcessing="true">
     <match url="\/\.\.;.*\/" />
-    <action type="CustomResponse" statusCode="403" statusReason="Forbidden: Access is denied." statusDescription="" />
+    <action type="CustomResponse" statusCode="404" statusReason="Not Found" statusDescription="" />
 </rule>

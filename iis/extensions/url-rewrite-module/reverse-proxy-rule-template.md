@@ -91,7 +91,7 @@ If your goal is simply to block requests containing traversal attempts (such as 
 - Performance trade-off: RegEx offers flexibility but incurs higher overhead.
 
 ### Advanced Scenario: URL Renormalization
-If your goal is to strip path parameters and re-normalize the URL so subsequent rules apply cleanly, you’ll need a redirect round trip. For example:
+If your goal is to strip path parameters and re-normalize the URL so all URL Rewrite rules apply to normalized URL, you’ll need a redirect round trip. For example:
 Input:
 /abc/..;boo/xyz/
 Redirected to:
