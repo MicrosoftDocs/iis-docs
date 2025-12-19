@@ -1,0 +1,14 @@
+<rule name="RenormalizeURL_SSL" stopProcessing="true">
+    <match url="^([^;]*)(;[^/]*)(/.*)$" />
+    <conditions logicalGrouping="MatchAll" trackAllCaptures="false">
+        <add input="{HTTPS}" pattern="ON" />
+    </conditions>
+    <action type="Redirect" url="https://{HTTP_HOST}/{R:1}{R:3}" redirectType="Found" />
+</rule>
+<rule name="RenormalizeURL" stopProcessing="true">
+    <match url="^([^;]*)(;[^/]*)(/.*)$" />
+    <conditions logicalGrouping="MatchAll" trackAllCaptures="false">
+        <add input="{HTTPS}" pattern="OFF" />
+    </conditions>
+    <action type="Redirect" url="http://{HTTP_HOST}/{R:1}{R:3}" redirectType="Found" />
+</rule>
