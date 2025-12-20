@@ -6,6 +6,7 @@ ms.date: 11/22/2007
 ms.assetid: 43a39948-73f2-43f7-b777-983befa2fa7f
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/how-to-use-metabase-compatibility-with-iis-7-and-above
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # How to Use Metabase Compatibility with IIS 7 and Above
 

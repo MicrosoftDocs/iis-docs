@@ -6,6 +6,7 @@ ms.date: 03/12/2008
 ms.assetid: 6c1189e2-07b7-43c9-b91a-fe2467e9414e
 msc.legacyurl: /learn/develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using Visual Studio 2008 with IIS 7
 

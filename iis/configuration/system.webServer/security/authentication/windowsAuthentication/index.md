@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 0d453336-cfb0-401f-a04b-ff67da721b96
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Windows Authentication &lt;windowsAuthentication&gt;
 

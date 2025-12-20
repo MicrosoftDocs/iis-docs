@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: cce1bd04-ab3c-44f2-a2e1-6a8403bba008
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/providers/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding Windows Authentication Providers &lt;add&gt;
 

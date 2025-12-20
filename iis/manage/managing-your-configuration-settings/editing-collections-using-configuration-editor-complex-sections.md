@@ -6,6 +6,7 @@ ms.date: 03/20/2008
 ms.assetid: eb9a0bbe-a65e-483f-8951-5a4618133ba3
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/editing-collections-using-configuration-editor-complex-sections
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Editing Collections using Configuration Editor: Complex Sections
 

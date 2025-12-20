@@ -6,6 +6,7 @@ ms.date: 02/29/2012
 ms.assetid: 44dd8251-9f28-4b60-bd30-c866a80e5e14
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Installing IIS 8 on Windows Server 2012
 

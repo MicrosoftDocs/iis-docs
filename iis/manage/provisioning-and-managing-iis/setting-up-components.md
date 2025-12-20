@@ -6,6 +6,7 @@ ms.date: 12/02/2007
 ms.assetid: 48825ae9-58ea-48ce-b408-fe8df6a82fbb
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/setting-up-components
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Services Implementation
 

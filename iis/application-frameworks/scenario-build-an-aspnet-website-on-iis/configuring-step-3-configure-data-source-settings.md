@@ -6,6 +6,7 @@ ms.date: 04/14/2013
 ms.assetid: fdbc37f8-a540-409b-8aeb-a87ace6b7994
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-3-configure-data-source-settings
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Configuring Step 3: Configure Data Source Settings
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 71e9abac-672c-433d-8230-691ded87f336
 msc.legacyurl: /configreference/system.webserver/management/authorization
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Management Authorization &lt;authorization&gt;
 

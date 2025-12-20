@@ -6,6 +6,7 @@ ms.date: 01/15/2008
 ms.assetid: 437f03a2-abe5-4e33-81ad-5832c8211f62
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using FTP Over SSL in IIS 7
 

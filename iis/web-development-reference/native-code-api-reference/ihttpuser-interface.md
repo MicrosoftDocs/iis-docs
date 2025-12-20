@@ -3,6 +3,7 @@ title: IHttpUser Interface
 description: Describes the IHttpUser interface and provides the interface's syntax, methods, derived classes, remarks, an example, and requirements.
 ms.date: 10/07/2016
 ms.assetid: bf06e01f-21ea-14da-9bf5-aef117d9800c
+ms.custom: sfi-ropc-nochange
 ---
 # IHttpUser Interface
 Provides request-specific information about a user. This information includes data such as credentials and role-based authorization.  

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: a1ee8630-bcaa-4b41-a17f-d5d7921f35d7
 msc.legacyurl: /configreference/system.webserver/management/trustedproviders
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Management Trusted Providers &lt;trustedProviders&gt;
 

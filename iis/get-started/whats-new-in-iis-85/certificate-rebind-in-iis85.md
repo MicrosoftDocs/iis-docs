@@ -6,6 +6,7 @@ ms.date: 11/21/2013
 ms.assetid: a3919320-bad9-42f0-a380-699734105449
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/certificate-rebind-in-iis85
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Certificate Rebind in IIS 8.5
 

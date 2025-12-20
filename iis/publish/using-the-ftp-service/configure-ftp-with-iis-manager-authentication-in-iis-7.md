@@ -6,6 +6,7 @@ ms.date: 01/22/2008
 ms.assetid: d3e70ab0-0ce8-4a26-b017-e35de034f6d8
 msc.legacyurl: /learn/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Configure FTP with IIS Manager Authentication in IIS 7
 

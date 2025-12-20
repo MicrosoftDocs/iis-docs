@@ -6,6 +6,7 @@ ms.date: 01/15/2008
 ms.assetid: 5ac9a26d-f3f4-489e-a2c9-d7a6dd3fc95c
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Configuring FTP User Isolation in IIS 7
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 31cebadd-b459-402a-90d7-3762df465b63
 msc.legacyurl: /configreference/system.ftpserver/security/authentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # System FTP Authentication &lt;authentication&gt;
 

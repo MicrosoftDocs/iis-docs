@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 82dbbeb1-81fa-4e71-8b0d-9a75da2bd285
 msc.legacyurl: /configreference/system.applicationhost/sites/site/application/virtualdirectorydefaults
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Virtual Directory Defaults &lt;virtualDirectoryDefaults&gt;
 

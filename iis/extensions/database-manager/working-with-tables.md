@@ -6,6 +6,7 @@ ms.date: 06/29/2009
 ms.assetid: 0f5aacf1-07d3-4e11-b86b-c647beaeb6b2
 msc.legacyurl: /learn/extensions/database-manager/working-with-tables
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Working with Tables
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 5a16156c-bf25-47d7-bca1-0803fd336236
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # FTP User Isolation &lt;userIsolation&gt;
 

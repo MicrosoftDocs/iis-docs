@@ -6,6 +6,7 @@ ms.date: 02/29/2012
 ms.assetid: a87d4d6a-2f03-4e62-9aad-0ea6711a9e04
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # IIS 8.0 Server Name Indication (SNI): SSL Scalability
 

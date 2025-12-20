@@ -6,6 +6,7 @@ ms.date: 12/12/2011
 ms.assetid: 2df260cf-dcde-46f3-abda-5d976b592b32
 msc.legacyurl: /learn/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # PowerShell scripts for automating Web Deploy setup
 

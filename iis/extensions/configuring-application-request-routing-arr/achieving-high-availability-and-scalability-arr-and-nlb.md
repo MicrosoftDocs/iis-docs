@@ -6,6 +6,7 @@ ms.date: 11/13/2008
 ms.assetid: 68b31d24-2e79-44ca-9a24-8e0dcb554b22
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Achieving High Availability and Scalability - ARR and NLB
 

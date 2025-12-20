@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 85b2fe75-5625-4c16-9b83-cd5cfdcb581e
 msc.legacyurl: /configreference/system.webserver/management/authentication/providers/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding Management Authentication Providers &lt;add&gt;
 

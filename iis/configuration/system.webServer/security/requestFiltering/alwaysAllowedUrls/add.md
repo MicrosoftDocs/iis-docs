@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: e3447704-ce26-4b64-af17-7a217b8f980d
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Adding URLs That Will Always Be Allowed &lt;add&gt;
 

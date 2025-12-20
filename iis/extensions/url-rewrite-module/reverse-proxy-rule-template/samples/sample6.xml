@@ -1,0 +1,4 @@
+<rule name="BlockDotDotWildcard" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
+    <match url="*/..;*/*" />
+    <action type="CustomResponse" statusCode="404" statusReason="Not Found" statusDescription="" />
+</rule>

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 0ac9aacd-38da-42d0-b3ac-b4bb78e6a282
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # IP Security &lt;ipSecurity&gt;
 

@@ -6,6 +6,7 @@ ms.date: 09/26/2016
 ms.assetid: 6fdc9c0e-df32-48f6-8ff1-2ed189a5065b
 msc.legacyurl: /configreference/system.webserver/security/authentication/digestauthentication
 msc.type: config
+ms.custom: sfi-image-nochange
 ---
 # Digest Authentication &lt;digestAuthentication&gt;
 

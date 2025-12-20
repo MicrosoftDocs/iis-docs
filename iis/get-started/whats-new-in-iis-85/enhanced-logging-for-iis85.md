@@ -6,6 +6,7 @@ ms.date: 07/11/2013
 ms.assetid: 3cd66139-f22a-4f75-ae5f-cc00fef9c5d7
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Enhanced Logging for IIS 8.5
 

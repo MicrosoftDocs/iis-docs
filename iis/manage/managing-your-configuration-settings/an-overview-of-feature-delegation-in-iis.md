@@ -6,6 +6,7 @@ ms.date: 11/23/2007
 ms.assetid: 71177eb8-d772-42e0-a187-2cf3e5485a45
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # An Overview of Feature Delegation in IIS 7.0
 
