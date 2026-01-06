@@ -2,7 +2,7 @@
 title: Application Defaults \<applicationDefaults>
 author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;site&gt; element specifies the default application settings for all applications in the parent si..."
-ms.date: 09/26/2016
+ms.date: 01/06/2026
 ms.assetid: 030aa9e7-7bd3-46bc-abb7-6c1cd066344a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/applicationdefaults
 msc.type: config
