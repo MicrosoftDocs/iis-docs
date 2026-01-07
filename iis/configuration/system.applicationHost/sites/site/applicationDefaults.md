@@ -2,7 +2,7 @@
 title: Application Defaults \<applicationDefaults>
 author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;site&gt; element specifies the default application settings for all applications in the parent si..."
-ms.date: 09/26/2016
+ms.date: 01/06/2026
 ms.assetid: 030aa9e7-7bd3-46bc-abb7-6c1cd066344a
 msc.legacyurl: /configreference/system.applicationhost/sites/site/applicationdefaults
 msc.type: config
@@ -24,7 +24,7 @@ The `<applicationDefaults>` element of the `<site>` element specifies the defaul
 | --- | --- |
 | IIS 10.0 | The `<applicationDefaults>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<applicationDefaults>` element was not modified in IIS 8.5. |
-| IIS 8.0 | The `preLoadEnabled` attribute was added in IIS 8.0. |
+| IIS 8.0 | The `preloadEnabled` attribute was added in IIS 8.0. |
 | IIS 7.5 | The `<applicationDefaults>` element was updated to include the `serviceAutoStartEnabled` and `serviceAutoStartProvider` attributes. |
 | IIS 7.0 | The `<applicationDefaults>` element of the `<site>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<applicationDefaults>` element is analogous to setting application options at the site level in the IIS 6.0 metabase. |
@@ -73,7 +73,7 @@ The `<applicationDefaults>` element of the `<site>` element is included in the d
 | `applicationPool` | Optional string attribute.<br><br>Specifies the default application pool to which all applications in the parent site are assigned. |
 | `enabledProtocols` | Optional string attribute.<br><br>Specifies the protocols to use to communicate with all applications in the parent site. |
 | `path` | Optional string attribute.<br><br>Specifies the default virtual path of all applications in the parent site. |
-| `preLoadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
+| `preloadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
 | `serviceAutoStartEnabled` | Optional Boolean attribute.<br><br>**true** if the autostart is enabled for this application; otherwise, **false**.<br><br>The default value is `false`. |
 | `serviceAutoStartProvider` | Optional string attribute.<br><br>Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**.<br><br>There is no default value. |
 
