@@ -18,7 +18,7 @@ class CGlobalModule
   
 |Name|Description|  
 |----------|-----------------|  
-|[OnGlobalApplicationPreload](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)|deddc775-1ab0-492c-bda0-b32be5d4f4cc|  
+|[OnGlobalApplicationPreload](../../web-development-reference/native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)|aaaabbbb-0000-cccc-1111-dddd2222eeee|  
 |[OnGlobalApplicationResolveModules](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md)|Represents the method that will handle a `GlobalApplicationResolveModules` event, which occurs when IIS resolves the registered modules.|  
 |[OnGlobalApplicationStart](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md)|Represents the method that will handle a `GlobalApplicationStart` event, which occurs when IIS starts an application.|  
 |[OnGlobalApplicationStop](../../web-development-reference/native-code-api-reference/cglobalmodule-onglobalapplicationstop-method.md)|Represents the method that will handle a `GlobalApplicationStop` event, which occurs when IIS shuts down an application.|  
