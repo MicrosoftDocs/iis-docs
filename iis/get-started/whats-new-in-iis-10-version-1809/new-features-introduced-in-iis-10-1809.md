@@ -6,7 +6,7 @@ description: Describes the new features introduced in IIS 10.0 version 1809 and 
 ms.author: johnhart
 
 ms.date: 10/03/2018
-ms.topic: article
+ms.topic: whats-new
 msc.type: authoredcontent
 ---
 New Features Introduced  in IIS 10.0, version 1809
