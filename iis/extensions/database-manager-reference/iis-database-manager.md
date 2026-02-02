@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh943086(v=VS.90)
 ms:contentKeyID: 46305581
 ms.date: 05/02/2012
 mtps_version: v=VS.90
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # IIS Database Manager
