@@ -29,7 +29,7 @@ virtual IMetadataInfo* GetMetadata(
   
 1. Uses the [IMetadataInfo::GetMetaPath](../../web-development-reference/native-code-api-reference/imetadatainfo-getmetapath-method.md) method to retrieve the configuration path for the current request.  
   
-2. Uses the [IHttpServer::GetConfigObject](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
+2. Uses the [IHttpServer::GetConfigObject](../../web-development-reference/native-code-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/aaaabbbb-0000-cccc-1111-dddd2222eeee) interface.  
   
 3. Passes the configuration path for the current request to the [INativeConfigurationSystem::GetConfigSection](https://msdn.microsoft.com/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method.  
   
