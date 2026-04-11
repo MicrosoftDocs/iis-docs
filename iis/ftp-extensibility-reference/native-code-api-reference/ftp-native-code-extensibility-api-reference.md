@@ -20,4 +20,4 @@ Describes the native-code structures for the FTP service.
  
 ## See Also 
 
-[FTP Managed-Code Extensibility API Reference](https://msdn.microsoft.com/library/e7b57c2a-e14c-4f14-9707-df95ab8b3660)
+[FTP Managed-Code Extensibility API Reference](https://learn.microsoft.com/previous-versions/iis/ftp-service-extensibility-reference/ftp-managed-code-extensibility-api-reference)
