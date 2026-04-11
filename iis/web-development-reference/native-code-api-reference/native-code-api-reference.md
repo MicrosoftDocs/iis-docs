@@ -20,4 +20,4 @@ This section of the IIS SDK discusses the APIs that are available to native-code
   
 ## See Also  
  [Web Server Development Reference](https://learn.microsoft.com/iis/web-development-reference/native-code-development-overview/native-code-development-overview)   
- [Managed-Code API Reference](https://msdn.microsoft.com/library/aaaabbbb-0000-cccc-1111-dddd2222eeee)
+ [Managed-Code API Reference](https://learn.microsoft.com/iis/get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709)
