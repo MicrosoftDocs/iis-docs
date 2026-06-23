@@ -11,7 +11,7 @@ msc.type: authoredcontent
 
 IIS on Windows Client:
 
-* Can quickly exceed it's connection limit.
+* Can quickly exceed its connection limit.
 * Has a maximum of 10 concurrent connections before an [HTTP 403.9](https://en.wikipedia.org/wiki/HTTP_403) error message is returned. HTTP 403.9 returns Access Forbidden: Too many users are connected.
 
 The major limitation on Windows Client OS for IIS 7.x and later is the number of concurrent requests IIS can execute. This limitation is fundamentally different from the Windows XP connection limit. The HTTP 403.9 error is unlikely to occur when concurrent requests are limited. Requests that cannot be handled because the concurrent request limit is reached are queued.
