@@ -9,9 +9,9 @@ msc.type: authoredcontent
 
 # IIS Request Restrictions on Windows Client OS
 
-IIS on Windows XP:
+IIS on Windows Client:
 
-* Can quickly exceed it's connection limit.
+* Can quickly exceed its connection limit.
 * Has a maximum of 10 concurrent connections before an [HTTP 403.9](https://en.wikipedia.org/wiki/HTTP_403) error message is returned. HTTP 403.9 returns Access Forbidden: Too many users are connected.
 
 The major limitation on Windows Client OS for IIS 7.x and later is the number of concurrent requests IIS can execute. This limitation is fundamentally different from the Windows XP connection limit. The HTTP 403.9 error is unlikely to occur when concurrent requests are limited. Requests that cannot be handled because the concurrent request limit is reached are queued.
@@ -22,7 +22,7 @@ Windows Server OS doesn't have these request restrictions.
 
 The maximum concurrent requests IIS 7.x and later allows on Windows Client OS SKUs:
 
-Windows 10 – IIS 10.0 Concurrent Requests Limit
+Windows 10 and later – IIS 10.0 Concurrent Requests Limit
 
 |  Edition  |  limit  |
 | ----------------- | ------------ |
@@ -30,12 +30,12 @@ Windows 10 – IIS 10.0 Concurrent Requests Limit
 |  Professional |  10  |
 |  Enterprise |  10  |
 
-Windows 10 IoT – IIS 10.0 Concurrent Requests Limit
+Windows IoT – IIS 10.0 Concurrent Requests Limit
 
 |  Edition  |  limit  |
 | ----------------- | ------------ |
-|  Enterprise 2016  |  10  |
-|  Enterprise 2019  |  10  |
+|  Windows IoT Enterprise  |  10  |
+|  Windows 10 Iot Core  |  10  |
 
 Windows 8.1 – IIS 8.5 Concurrent Requests Limit
 
